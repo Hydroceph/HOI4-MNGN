@@ -1,0 +1,31 @@
+state = {
+	id = 368
+	name = "STATE_368"
+	manpower = 275990
+	resources = {
+		steel = 2
+		tungsten = 8
+	}
+
+	state_category = rural
+
+	history = {
+		owner = PBC
+		victory_points = {
+			12997 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			2225 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PBC
+	}
+
+	provinces = {
+		2162 2212 2225 2226 5190 12983 12997 13316 
+	}
+}

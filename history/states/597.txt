@@ -1,0 +1,24 @@
+state = {
+	id = 597
+	name = "STATE_597"
+	manpower = 958397
+
+	state_category = rural
+
+	history = {
+		owner = USA
+		victory_points = {
+			12586 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = USA
+	}
+
+	provinces = {
+		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 581
+	name = "STATE_581"
+	manpower = 209914
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = BGI
+		victory_points = {
+			7963 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BGI
+	}
+
+	provinces = {
+		1993 7963 
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 675
+	name = "STATE_675"
+	manpower = 169075
+
+	state_category = rural
+
+	history = {
+		owner = SAU
+		victory_points = {
+			7995 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = SAU
+	}
+
+	provinces = {
+		4932 5024 5081 5093 7995 8004 8030 8060 8118 10791 10870 12727 12740 12768 12813 12870 
+	}
+}

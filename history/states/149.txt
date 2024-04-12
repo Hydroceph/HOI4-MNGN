@@ -1,0 +1,32 @@
+state = {
+	id = 149
+	name = "STATE_149"
+	manpower = 1932115
+	resources = {
+		chromium = 5
+		steel = 7
+	}
+
+	state_category = rural
+
+	history = {
+		owner = MAS
+		victory_points = {
+			1013 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1013 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = MAS
+	}
+
+	provinces = {
+		1013 1126 1128 1967 4018 4131 4146 7033 7040 7166 9960 9964 11939 12020 12760 
+	}
+}

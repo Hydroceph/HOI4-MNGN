@@ -1,0 +1,168 @@
+characters = {
+	ACH_16780215 = {
+		name = Hajari_Watuta
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	ACH_16778849 = {
+		name = Othiamba_Adhiambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16778849
+			cost = 150
+		}
+	}
+	ACH_16781311 = {
+		name = Wanyanga_Adhiambo
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_16781311
+			cost = 150
+		}
+	}
+	ACH_33555095 = {
+		name = Isingoma_Odinga
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ACH_33558561 = {
+		name = Kenyi_Watuta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33558561
+			cost = 150
+		}
+	}
+	ACH_50332943 = {
+		name = Oluoch_Oneko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_50332943
+			cost = 150
+		}
+	}
+	ACH_67109948 = {
+		name = Kasim_Zwagendaba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67109948
+			cost = 150
+		}
+	}
+	ACH_83886849 = {
+		name = Okeyo_Kony
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83886849
+			cost = 150
+		}
+	}
+	ACH_83887576 = {
+		name = Issay_Kasanda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83887576
+			cost = 150
+		}
+	}
+	ACH_83888664 = {
+		name = Jaramobi_Odinga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83888664
+			cost = 150
+		}
+	}
+	ACH_100665953 = {
+		name = Bakari_Mudimbe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100665953
+			cost = 150
+		}
+	}
+}

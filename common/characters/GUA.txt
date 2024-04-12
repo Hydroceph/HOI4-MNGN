@@ -1,0 +1,157 @@
+characters = {
+	GUA_67111371 = {
+		name = Tiburcio_Menendez
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_9
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	GUA_33560761 = {
+		name = Fernando_Regalado
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	GUA_50334143 = {
+		name = Aniceto_Montes
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	GUA_50334904 = {
+		name = Sebastian_Corral
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50334904
+			cost = 150
+		}
+	}
+	GUA_50338101 = {
+		name = Rafael_2_Martinez_2
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50338101
+			cost = 150
+		}
+	}
+	GUA_67109539 = {
+		name = Fermin_Ferrera
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109539
+			cost = 150
+		}
+	}
+	GUA_67109896 = {
+		name = Maximo_Peralta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109896
+			cost = 150
+		}
+	}
+	GUA_67109937 = {
+		name = Daniel_Barahona
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_67109937
+			cost = 150
+		}
+	}
+	GUA_67109960 = {
+		name = Arturo_Corral
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_67109960
+			cost = 150
+		}
+	}
+	GUA_67111861 = {
+		name = Marcelino_Barrios
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67111861
+			cost = 150
+		}
+	}
+}

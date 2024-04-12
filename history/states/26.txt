@@ -1,0 +1,29 @@
+state = {
+	id = 26
+	name = "STATE_26"
+	manpower = 2998156
+	resources = {
+		aluminium = 8
+		steel = 17
+	}
+
+	state_category = town
+
+	history = {
+		owner = WAL
+		victory_points = {
+			9617 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = WAL
+	}
+
+	provinces = {
+		637 660 674 818 3630 3636 3639 3645 3663 6652 6658 6667 6677 6695 9617 9651 11588 11603 11605 11619 11636 11657 
+	}
+}

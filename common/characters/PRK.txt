@@ -1,0 +1,179 @@
+characters = {
+	PRK_16780249 = {
+		name = Ali_Perak
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	PRK_16778908 = {
+		name = Muabidin_Perak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	PRK_16779447 = {
+		name = Yusuf_Murshidul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_16779447
+			cost = 150
+		}
+	}
+	PRK_16784045 = {
+		name = Tuanku_al-Marhum
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist commando }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_16784045
+			cost = 150
+		}
+	}
+	PRK_33555504 = {
+		name = Yusuf_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33555504
+			cost = 150
+		}
+	}
+	PRK_33557333 = {
+		name = Idris_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33557333
+			cost = 150
+		}
+	}
+	PRK_33561275 = {
+		name = Safiuddin_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33561275
+			cost = 150
+		}
+	}
+	PRK_50332463 = {
+		name = Shahabuddin_Murshidul
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	PRK_67109186 = {
+		name = Aziz_Bendahara
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	PRK_67109434 = {
+		name = Isandar_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67109434
+			cost = 150
+		}
+	}
+	PRK_67113508 = {
+		name = Jaafar_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67113508
+			cost = 150
+		}
+	}
+	PRK_83891737 = {
+		name = Tuanku_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83891737
+			cost = 150
+		}
+	}
+}

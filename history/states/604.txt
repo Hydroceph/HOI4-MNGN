@@ -1,0 +1,28 @@
+state = {
+	id = 604
+	name = "STATE_604"
+	manpower = 130510
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = JMB
+		victory_points = {
+			1373 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = JMB
+	}
+
+	provinces = {
+		1332 1345 1373 1533 12212 
+	}
+}

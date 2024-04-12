@@ -1,0 +1,23 @@
+state = {
+	id = 251
+	name = "STATE_251"
+	manpower = 120298
+	resources = {
+		tungsten = 3
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		4967 13019 
+	}
+}

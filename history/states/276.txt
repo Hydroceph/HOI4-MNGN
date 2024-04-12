@@ -1,0 +1,28 @@
+state = {
+	id = 276
+	name = "STATE_276"
+	manpower = 1396844
+	resources = {
+		tungsten = 5
+	}
+
+	state_category = rural
+
+	history = {
+		owner = EGY
+		victory_points = {
+			12806 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = EGY
+	}
+
+	provinces = {
+		1914 2088 4918 7925 10743 10784 10795 12800 12806 12862 12887 
+	}
+}

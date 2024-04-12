@@ -1,0 +1,22 @@
+state = {
+	id = 766
+	name = "STATE_766"
+	manpower = 99539
+
+	state_category = rural
+
+	history = {
+		owner = LGA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = LGA
+	}
+
+	provinces = {
+		4941 10766 
+	}
+}

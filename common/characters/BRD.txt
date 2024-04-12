@@ -1,0 +1,174 @@
+characters = {
+	BRD_16778629 = {
+		name = Ilo_Abaganwa
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BRD_16779439 = {
+		name = Reth_Abaganwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16779439
+			cost = 150
+		}
+	}
+	BRD_16783726 = {
+		name = Genet_Abaganwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_16783726
+			cost = 150
+		}
+	}
+	BRD_33554879 = {
+		name = Amadi_Abaganwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33554879
+			cost = 150
+		}
+	}
+	BRD_33558004 = {
+		name = Bitalo_Ndagushimiye
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	BRD_50332851 = {
+		name = Chane_Ntwero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50332851
+			cost = 150
+		}
+	}
+	BRD_50334374 = {
+		name = Bahari_Serushambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50334374
+			cost = 150
+		}
+	}
+	BRD_50334684 = {
+		name = Dume_Ntwero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50334684
+			cost = 150
+		}
+	}
+	BRD_67109559 = {
+		name = Davu_Abaganwa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	BRD_67112343 = {
+		name = Jabilo_Serushambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67112343
+			cost = 150
+		}
+	}
+	BRD_83887065 = {
+		name = Morathi_Abaganwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887065
+			cost = 150
+		}
+	}
+	BRD_100665745 = {
+		name = Chata_Mutamo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100665745
+			cost = 150
+		}
+	}
+}

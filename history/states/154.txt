@@ -1,0 +1,30 @@
+state = {
+	id = 154
+	name = "STATE_154"
+	manpower = 1564022
+	resources = {
+		aluminium = 12
+		chromium = 7
+		tungsten = 8
+	}
+
+	state_category = rural
+
+	history = {
+		owner = BIK
+		victory_points = {
+			12844 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = BIK
+	}
+
+	provinces = {
+		12041 12844 12876 
+	}
+}

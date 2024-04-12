@@ -1,0 +1,25 @@
+state = {
+	id = 746
+	name = "STATE_746"
+	manpower = 99895
+
+	state_category = rural
+
+	history = {
+		owner = MNB
+		victory_points = {
+			1950 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = MNB
+	}
+
+	provinces = {
+		1181 1950 2154 6027 12783 12808 12847 
+	}
+}

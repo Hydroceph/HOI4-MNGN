@@ -1,0 +1,25 @@
+state = {
+	id = 731
+	name = "STATE_731"
+	manpower = 68546
+
+	state_category = rural
+
+	history = {
+		owner = SIK
+		victory_points = {
+			4435 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = SIK
+	}
+
+	provinces = {
+		4435 
+	}
+}

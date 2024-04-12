@@ -1,0 +1,29 @@
+state = {
+	id = 93
+	name = "STATE_93"
+	manpower = 1712501
+	resources = {
+		rubber = 6
+		tungsten = 7
+	}
+
+	state_category = town
+
+	history = {
+		owner = Z05
+		victory_points = {
+			7912 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = Z05
+	}
+
+	provinces = {
+		7912 8019 8062 13244 13245 13247 
+	}
+}

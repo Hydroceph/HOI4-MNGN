@@ -1,0 +1,20 @@
+state = {
+	id = 830
+	name = "STATE_830"
+	manpower = 13865
+
+	state_category = rural
+
+	history = {
+		owner = GER
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		2207 
+	}
+}

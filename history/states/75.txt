@@ -1,0 +1,28 @@
+state = {
+	id = 75
+	name = "STATE_75"
+	manpower = 3123110
+	resources = {
+		tungsten = 6
+	}
+
+	state_category = town
+
+	history = {
+		owner = RAJ
+		victory_points = {
+			10090 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = RAJ
+	}
+
+	provinces = {
+		997 1116 1497 1525 1553 1581 7455 10090 10349 10416 10514 10810 12322 12366 12395 12423 12730 13208 
+	}
+}

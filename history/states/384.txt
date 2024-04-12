@@ -1,0 +1,29 @@
+state = {
+	id = 384
+	name = "STATE_384"
+	manpower = 503813
+	resources = {
+		chromium = 0
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = JOH
+		victory_points = {
+			4424 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = JOH
+	}
+
+	provinces = {
+		1392 4367 4384 4424 7399 10227 10313 12255 12271 
+	}
+}

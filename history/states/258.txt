@@ -1,0 +1,25 @@
+state = {
+	id = 258
+	name = "STATE_258"
+	manpower = 188063
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = MAD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = MAD
+	}
+
+	provinces = {
+		13072 
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 656
+	name = "STATE_656"
+	manpower = 83446
+	resources = {
+		chromium = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = KAT
+		victory_points = {
+			2029 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = KAT
+	}
+
+	provinces = {
+		2029 4976 12894 
+	}
+}

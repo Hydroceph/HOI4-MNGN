@@ -1,0 +1,157 @@
+characters = {
+	BMB_16777596 = {
+		name = Morathi_Watuta
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BMB_16778896 = {
+		name = Andikan_Mudimbe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_16778896
+			cost = 150
+		}
+	}
+	BMB_16780030 = {
+		name = Mansa_Bulungute
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_16780030
+			cost = 150
+		}
+	}
+	BMB_16783677 = {
+		name = Fabunni_Watuta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_16783677
+			cost = 150
+		}
+	}
+	BMB_33556329 = {
+		name = Kamwimbile_Zwagendaba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33556329
+			cost = 150
+		}
+	}
+	BMB_33558857 = {
+		name = Dume_Mnywasele
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33558857
+			cost = 150
+		}
+	}
+	BMB_33560514 = {
+		name = Bayode_Kasanda
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox old_guard organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	BMB_50334322 = {
+		name = Guban_Zwagendaba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50334322
+			cost = 150
+		}
+	}
+	BMB_50335005 = {
+		name = Haruni_Watuta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50335005
+			cost = 150
+		}
+	}
+	BMB_67111704 = {
+		name = Bitalo_Mirambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67111704
+			cost = 150
+		}
+	}
+	BMB_67115313 = {
+		name = Gamba_Bulungute
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67115313
+			cost = 150
+		}
+	}
+}

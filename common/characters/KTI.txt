@@ -1,0 +1,174 @@
+characters = {
+	KTI_6806 = {
+		name = Aziz_Kutai
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	KTI_16783753 = {
+		name = Tuanku_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_16783753
+			cost = 150
+		}
+	}
+	KTI_33554500 = {
+		name = Tuanku_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33554500
+			cost = 150
+		}
+	}
+	KTI_33558009 = {
+		name = Yusuf_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_33558009
+			cost = 150
+		}
+	}
+	KTI_33558790 = {
+		name = Muhammad_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33558790
+			cost = 150
+		}
+	}
+	KTI_33560730 = {
+		name = Idris_Kutai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33560730
+			cost = 150
+		}
+	}
+	KTI_50332264 = {
+		name = Yusuf_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50332264
+			cost = 150
+		}
+	}
+	KTI_50334178 = {
+		name = Abdullah_Jamalullail
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	KTI_50334352 = {
+		name = Ali_bin_Nik
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	KTI_67109002 = {
+		name = Abdullah_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109002
+			cost = 150
+		}
+	}
+	KTI_67110450 = {
+		name = Muhammad_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67110450
+			cost = 150
+		}
+	}
+	KTI_67113709 = {
+		name = Tuanku_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_67113709
+			cost = 150
+		}
+	}
+}

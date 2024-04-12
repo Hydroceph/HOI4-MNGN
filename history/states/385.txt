@@ -1,0 +1,28 @@
+state = {
+	id = 385
+	name = "STATE_385"
+	manpower = 477071
+	resources = {
+		rubber = 98
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = PBC
+		victory_points = {
+			10924 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = PBC
+	}
+
+	provinces = {
+		2160 5179 5229 10924 10987 12902 12916 12973 12979 
+	}
+}

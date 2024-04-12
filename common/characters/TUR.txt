@@ -1,0 +1,434 @@
+characters = {
+	TUR_3144 = {
+		name = Abdulmecid_Osmanoglu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	TUR_16779341 = {
+		name = Rauf_Arpazli
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_16779341
+			cost = 150
+		}
+	}
+	TUR_16780428 = {
+		name = Celaleddin_Arpazli
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality naval_lineage }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	TUR_16783194 = {
+		name = Ziya_Cakin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader trait_mountaineer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	TUR_16783606 = {
+		name = Said_Hasagasi
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	TUR_16783686 = {
+		name = Mehmed_Ali_Pasha
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_1
+				small = GFX_Portrait_Germany_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { commando engineer_officer guerilla_fighter infantry_officer trickster }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	TUR_16784079 = {
+		name = Ahmet_Balyan
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	TUR_33560659 = {
+		name = Nureddin_Osmanoglu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33560659
+			cost = 150
+		}
+	}
+	TUR_50331785 = {
+		name = Hasan_Eczacibashi
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	TUR_50331876 = {
+		name = Mehmet_Eczacibashi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	TUR_50333458 = {
+		name = Hasan_Oezal
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	TUR_50334377 = {
+		name = Tevfik_Balyan
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	TUR_50334484 = {
+		name = Numan_Sabanci
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334484
+			cost = 150
+		}
+	}
+	TUR_50334758 = {
+		name = Mustafa_Cihci
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners seawolf }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	TUR_50335560 = {
+		name = Receb_Hasagasi
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	TUR_50337907 = {
+		name = Osman_Nuri_Pasha
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { grand_battle_plan_expert }
+			slot = political_advisor
+			idea_token = i_50337907
+			cost = 150
+		}
+	}
+	TUR_67109073 = {
+		name = Said_Taymur
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	TUR_67109236 = {
+		name = Mehmet_Cengic
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67109236
+			cost = 150
+		}
+	}
+	TUR_67110198 = {
+		name = Mehmet_Pasha
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	TUR_67110950 = {
+		name = Ali_Bey
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	TUR_67112306 = {
+		name = Namik_Burhan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67112306
+			cost = 150
+		}
+	}
+	TUR_67113704 = {
+		name = Kazim_Burhan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	TUR_83889209 = {
+		name = Shukru_Maan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83889209
+			cost = 150
+		}
+	}
+	TUR_100664916 = {
+		name = Pertev_Vocibe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100664916
+			cost = 150
+		}
+	}
+	TUR_100665283 = {
+		name = Izzet_Eczacibashi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100665283
+			cost = 150
+		}
+	}
+	TUR_100665566 = {
+		name = Ferid_Karaosmanoglu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+}

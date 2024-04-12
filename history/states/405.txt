@@ -1,0 +1,29 @@
+state = {
+	id = 405
+	name = "STATE_405"
+	manpower = 539021
+	resources = {
+		rubber = 0
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = HON
+		victory_points = {
+			12865 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = HON
+	}
+
+	provinces = {
+		2031 8017 12865 
+	}
+}

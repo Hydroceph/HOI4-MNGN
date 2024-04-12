@@ -1,0 +1,24 @@
+state = {
+	id = 545
+	name = "STATE_545"
+	manpower = 337342
+
+	state_category = town
+
+	history = {
+		owner = SOK
+		victory_points = {
+			2056 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
+		add_core_of = SOK
+	}
+
+	provinces = {
+		1975 2056 12707 
+	}
+}

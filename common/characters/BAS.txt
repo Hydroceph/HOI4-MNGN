@@ -1,0 +1,162 @@
+characters = {
+	BAS_16778623 = {
+		name = Pingali_Salarjung
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BAS_16781610 = {
+		name = Pingali_Nayak
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_16781610
+			cost = 150
+		}
+	}
+	BAS_33555253 = {
+		name = Pingali_Veeresalingam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33555253
+			cost = 150
+		}
+	}
+	BAS_33555666 = {
+		name = Vasireddy_Kattabomman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33555666
+			cost = 150
+		}
+	}
+	BAS_50335771 = {
+		name = Pingali_Nayak
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50335771
+			cost = 150
+		}
+	}
+	BAS_50337952 = {
+		name = Keneganti_Salarjung
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer desert_fox organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	BAS_67109549 = {
+		name = Alluri_Salarjung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BAS_67109771 = {
+		name = Tanguturi_Kattabomman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67109771
+			cost = 150
+		}
+	}
+	BAS_67109997 = {
+		name = Sarojini_Salarjung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109997
+			cost = 150
+		}
+	}
+	BAS_67112715 = {
+		name = Alluri_Kattabomman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67112715
+			cost = 150
+		}
+	}
+	BAS_83886119 = {
+		name = Vasireddy_Salarjung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83886119
+			cost = 150
+		}
+	}
+}

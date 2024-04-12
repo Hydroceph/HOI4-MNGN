@@ -1,0 +1,29 @@
+state = {
+	id = 226
+	name = "STATE_226"
+	manpower = 1060966
+	resources = {
+		tungsten = 7
+	}
+
+	state_category = town
+
+	history = {
+		owner = MEX
+		victory_points = {
+			10730 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+		}
+		add_core_of = MEX
+	}
+
+	provinces = {
+		5066 10730 10832 
+	}
+}

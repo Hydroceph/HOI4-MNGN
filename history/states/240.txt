@@ -1,0 +1,32 @@
+state = {
+	id = 240
+	name = "STATE_240"
+	manpower = 1513875
+	resources = {
+		aluminium = 3
+		steel = 5
+	}
+
+	state_category = rural
+
+	history = {
+		owner = TOS
+		victory_points = {
+			11833 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11833 = {
+				naval_base = 1
+			}
+			air_base = 6
+		}
+		add_core_of = TOS
+	}
+
+	provinces = {
+		6875 9750 11833 
+	}
+}

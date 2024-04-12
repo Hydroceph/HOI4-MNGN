@@ -1,0 +1,286 @@
+characters = {
+	PAN_16779928 = {
+		name = Bhuma_Singh
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	PAN_16778885 = {
+		name = Chand_Bahadur
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	PAN_16780823 = {
+		name = Jassa_Ahluwalia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_16780823
+			cost = 150
+		}
+	}
+	PAN_16781190 = {
+		name = Ganda_Bhangi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	PAN_16781981 = {
+		name = Hari_Singh
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	PAN_33557758 = {
+		name = Jassa_Singh
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	PAN_33560804 = {
+		name = Kapur_Bhangi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PAN_50331678 = {
+		name = Kaur_Singh
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_50331678
+			cost = 150
+		}
+	}
+	PAN_50332699 = {
+		name = Nihal_Mulraj
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50332699
+			cost = 150
+		}
+	}
+	PAN_50332946 = {
+		name = Jassa_Bahadur
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer infantry_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	PAN_50334375 = {
+		name = Bhuma_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	PAN_50335619 = {
+		name = Nawab_Singh_Dogra
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	PAN_50337462 = {
+		name = Shir_Kunwar
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader infantry_officer ranger trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_50337462
+			cost = 150
+		}
+	}
+	PAN_67112428 = {
+		name = Kaur_Ramgarhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67112428
+			cost = 150
+		}
+	}
+	PAN_83892354 = {
+		name = Nau_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83892354
+			cost = 150
+		}
+	}
+	PAN_100663589 = {
+		name = Kharak_Bahadur
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100663589
+			cost = 150
+		}
+	}
+	PAN_100664523 = {
+		name = Kharak_Mulraj
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { superior_firepower_expert }
+			slot = political_advisor
+			idea_token = i_100664523
+			cost = 150
+		}
+	}
+}

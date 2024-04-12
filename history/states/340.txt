@@ -1,0 +1,28 @@
+state = {
+	id = 340
+	name = "STATE_340"
+	manpower = 1127486
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ASH
+		victory_points = {
+			12742 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = ASH
+	}
+
+	provinces = {
+		8039 8096 12742 12787 
+	}
+}

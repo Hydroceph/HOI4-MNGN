@@ -1,0 +1,162 @@
+characters = {
+	NEP_2954 = {
+		name = Surendra_Bikram_Shah
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	NEP_16782509 = {
+		name = Bhimsen_Bahadur_Rana
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando old_guard trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_16782509
+			cost = 150
+		}
+	}
+	NEP_33559353 = {
+		name = Renaudip_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33559353
+			cost = 150
+		}
+	}
+	NEP_33560968 = {
+		name = Chandra_Shamsher_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	NEP_33561172 = {
+		name = Bhimsen_Devi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33561172
+			cost = 150
+		}
+	}
+	NEP_50331714 = {
+		name = Bhim_Shamsher_Devi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50331714
+			cost = 150
+		}
+	}
+	NEP_50332930 = {
+		name = Bhimsen_Acharya
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	NEP_50338067 = {
+		name = Bhakti_Das
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50338067
+			cost = 150
+		}
+	}
+	NEP_50338283 = {
+		name = Ranjur_Pande
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50338283
+			cost = 150
+		}
+	}
+	NEP_67111693 = {
+		name = Bhim_Shamsher_Acharya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67111693
+			cost = 150
+		}
+	}
+	NEP_67114659 = {
+		name = Bhakti_Ban
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67114659
+			cost = 150
+		}
+	}
+}

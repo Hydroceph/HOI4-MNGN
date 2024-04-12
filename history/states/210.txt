@@ -1,0 +1,25 @@
+state = {
+	id = 210
+	name = "STATE_210"
+	manpower = 451736
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = JAP
+	}
+
+	provinces = {
+		13025 13026 
+	}
+}

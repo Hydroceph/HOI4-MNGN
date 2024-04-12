@@ -1,0 +1,29 @@
+state = {
+	id = 620
+	name = "STATE_620"
+	manpower = 187560
+	resources = {
+		chromium = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SEL
+		victory_points = {
+			4412 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = SEL
+	}
+
+	provinces = {
+		4412 10297 
+	}
+}

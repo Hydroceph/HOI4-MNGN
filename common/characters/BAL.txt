@@ -1,0 +1,179 @@
+characters = {
+	BAL_2676 = {
+		name = Putra_Klungkung
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BAL_16780205 = {
+		name = Nengah_Ngakan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_16780205
+			cost = 150
+		}
+	}
+	BAL_16783599 = {
+		name = Made_Klungkung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16783599
+			cost = 150
+		}
+	}
+	BAL_33555515 = {
+		name = Komang_Kompyang
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	BAL_33556986 = {
+		name = Jordao_Palyama
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_33556986
+			cost = 150
+		}
+	}
+	BAL_33558090 = {
+		name = Ketut_I_Gusti
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_33558090
+			cost = 150
+		}
+	}
+	BAL_33558189 = {
+		name = Jordao_Lilipaly
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33558189
+			cost = 150
+		}
+	}
+	BAL_33560643 = {
+		name = Sonny_Hafiedz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_33560643
+			cost = 150
+		}
+	}
+	BAL_50334572 = {
+		name = Ellyas_Leiwakabessy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50334572
+			cost = 150
+		}
+	}
+	BAL_67114363 = {
+		name = Dominggus_Sjah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67114363
+			cost = 150
+		}
+	}
+	BAL_67115195 = {
+		name = Denny_Sjah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67115195
+			cost = 150
+		}
+	}
+}

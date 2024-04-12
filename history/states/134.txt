@@ -1,0 +1,29 @@
+state = {
+	id = 134
+	name = "STATE_134"
+	manpower = 3621721
+	resources = {
+		steel = 3
+		tungsten = 6
+	}
+
+	state_category = town
+
+	history = {
+		owner = NAG
+		victory_points = {
+			10030 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = NAG
+	}
+
+	provinces = {
+		1510 1579 4557 4883 7574 7619 10030 10171 10401 12420 12490 12854 
+	}
+}

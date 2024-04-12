@@ -1,0 +1,32 @@
+state = {
+	id = 234
+	name = "STATE_234"
+	manpower = 1068457
+	resources = {
+		steel = 6
+	}
+
+	state_category = town
+
+	history = {
+		owner = MAS
+		victory_points = {
+			4150 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			4116 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = MAS
+	}
+
+	provinces = {
+		3991 4116 4150 7008 10045 11923 12018 13074 
+	}
+}

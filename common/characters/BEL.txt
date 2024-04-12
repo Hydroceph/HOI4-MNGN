@@ -1,0 +1,225 @@
+characters = {
+	BEL_16781388 = {
+		name = Emmanuel_Janssens
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_4
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	BEL_2684 = {
+		name = Leopold_of_Saxe-Coburg-Gotha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_2684
+			cost = 150
+		}
+	}
+	BEL_16778884 = {
+		name = Vincent_Coopieters_-t_Wallant
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16778884
+			cost = 150
+		}
+	}
+	BEL_16783361 = {
+		name = Felix_de_Thezan_Poujol
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	BEL_16783766 = {
+		name = Albert_of_Saxe-Coburg-Gotha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_16783766
+			cost = 150
+		}
+	}
+	BEL_33556626 = {
+		name = Leopold_van_Volden_de_Lombeke
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33556626
+			cost = 150
+		}
+	}
+	BEL_33557586 = {
+		name = Gilles_Goffint
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33557586
+			cost = 150
+		}
+	}
+	BEL_33557689 = {
+		name = Manfred_Lefebvre
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33557689
+			cost = 150
+		}
+	}
+	BEL_33560094 = {
+		name = Edmond_Dethier
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	BEL_50336007 = {
+		name = Gustave_d_Oultremont
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50336007
+			cost = 150
+		}
+	}
+	BEL_67109987 = {
+		name = Jean-Louis_d_Omalius
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	BEL_67111876 = {
+		name = Adriaan_du_Bois
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67111876
+			cost = 150
+		}
+	}
+	BEL_67112323 = {
+		name = Maxime_de_Selys_Longchamps
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	BEL_83886598 = {
+		name = Alphonse_Barthelemy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83886598
+			cost = 150
+		}
+	}
+	BEL_83886957 = {
+		name = Jan_van_Boisschot
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+}

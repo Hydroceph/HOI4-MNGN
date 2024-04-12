@@ -1,0 +1,219 @@
+characters = {
+	HYD_2859 = {
+		name = Afzal-uh-Daulah_Asaf_Jah
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	HYD_16781794 = {
+		name = Parbhu_Naqvi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	HYD_33560268 = {
+		name = Vijay_Ijtihadi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	HYD_33561294 = {
+		name = Lokendra_Devi
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer naval_invader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_33561294
+			cost = 150
+		}
+	}
+	HYD_50331730 = {
+		name = Prasan_Naqvi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50331730
+			cost = 150
+		}
+	}
+	HYD_50333459 = {
+		name = Narayan_Asaf_Jah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50333459
+			cost = 150
+		}
+	}
+	HYD_50334087 = {
+		name = Lokendra_Ram
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334087
+			cost = 150
+		}
+	}
+	HYD_67108982 = {
+		name = Mahip_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67108982
+			cost = 150
+		}
+	}
+	HYD_67109016 = {
+		name = Vishvanath_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67109016
+			cost = 150
+		}
+	}
+	HYD_67109268 = {
+		name = Lokendra_Ijtihadi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	HYD_67110583 = {
+		name = Udit_Ram
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67110583
+			cost = 150
+		}
+	}
+	HYD_83886400 = {
+		name = Parbhu_Abaqati
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83886400
+			cost = 150
+		}
+	}
+	HYD_100663411 = {
+		name = Parbhu_Ijtihadi
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	HYD_100663868 = {
+		name = Jugal_Ijtihadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100663868
+			cost = 150
+		}
+	}
+}

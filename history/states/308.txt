@@ -1,0 +1,25 @@
+state = {
+	id = 308
+	name = "STATE_308"
+	manpower = 6501079
+
+	state_category = rural
+
+	history = {
+		owner = CHI
+		victory_points = {
+			2028 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = CHI
+	}
+
+	provinces = {
+		1778 2028 2099 4888 5057 5076 5100 7971 7997 12327 12596 12732 
+	}
+}

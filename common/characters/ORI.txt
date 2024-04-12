@@ -1,0 +1,154 @@
+characters = {
+	ORI_67108897 = {
+		name = Dibvyasimhadeva_Mohapatra
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	ORI_16778552 = {
+		name = Harekrushnadeva_Das
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_16778552
+			cost = 150
+		}
+	}
+	ORI_33556008 = {
+		name = Mukundadeva_Das
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33556008
+			cost = 150
+		}
+	}
+	ORI_33556973 = {
+		name = Ramachandradeva_Mishra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33556973
+			cost = 150
+		}
+	}
+	ORI_33557810 = {
+		name = Ramachandradeva_Choudhury
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ORI_33558771 = {
+		name = Dibvyasimhadeva_Das
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_33558771
+			cost = 150
+		}
+	}
+	ORI_50337150 = {
+		name = Ramachandradeva_Deva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50337150
+			cost = 150
+		}
+	}
+	ORI_67110775 = {
+		name = Gopinathdeva_Das
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67110775
+			cost = 150
+		}
+	}
+	ORI_67112528 = {
+		name = Mukundadeva_Mishra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_67112528
+			cost = 150
+		}
+	}
+	ORI_83886861 = {
+		name = Padmanavadeva_Mishra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83886861
+			cost = 150
+		}
+	}
+}

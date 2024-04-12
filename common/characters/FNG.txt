@@ -1,0 +1,152 @@
+characters = {
+	FNG_16781291 = {
+		name = Bash_Moukala
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_land_2
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { cavalry_officer organizer thorough_planner }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FNG_16778983 = {
+		name = Ife_Moukala
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16778983
+			cost = 150
+		}
+	}
+	FNG_33555554 = {
+		name = Dume_Naki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_33555554
+			cost = 150
+		}
+	}
+	FNG_33556010 = {
+		name = Ife_Kumong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556010
+			cost = 150
+		}
+	}
+	FNG_33556617 = {
+		name = Andikan_Bongo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556617
+			cost = 150
+		}
+	}
+	FNG_50335508 = {
+		name = Hajari_Kumong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50335508
+			cost = 150
+		}
+	}
+	FNG_67110125 = {
+		name = Bakari_Tufoyn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67110125
+			cost = 150
+		}
+	}
+	FNG_67110242 = {
+		name = Bahari_Nze_Nzoughe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67110242
+			cost = 150
+		}
+	}
+	FNG_67114529 = {
+		name = Ife_Atangana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67114529
+			cost = 150
+		}
+	}
+	FNG_83888162 = {
+		name = Ife_Nggam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83888162
+			cost = 150
+		}
+	}
+}

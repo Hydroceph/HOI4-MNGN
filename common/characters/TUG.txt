@@ -1,0 +1,123 @@
+characters = {
+	TUG_50335038 = {
+		name = Ahmed_el_Krim
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	TUG_16780549 = {
+		name = Khalid_Tisbaa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16780549
+			cost = 150
+		}
+	}
+	TUG_16782217 = {
+		name = Khalid_el_Krim
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_16782217
+			cost = 150
+		}
+	}
+	TUG_16783717 = {
+		name = Abd_al-Karim_al-Shawiyyati
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16783717
+			cost = 150
+		}
+	}
+	TUG_33554579 = {
+		name = Muhammad_al-Shiluhi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33554579
+			cost = 150
+		}
+	}
+	TUG_33554849 = {
+		name = Khalid_Belkadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33554849
+			cost = 150
+		}
+	}
+	TUG_50337079 = {
+		name = Abd_al-Karim_el_Krim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50337079
+			cost = 150
+		}
+	}
+	TUG_67113771 = {
+		name = Abd_al-Karim_Messaoudi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67113771
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 430
+	name = "STATE_430"
+	manpower = 155924
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AST
+		victory_points = {
+			2197 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = AST
+	}
+
+	provinces = {
+		2197 2203 2211 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 
+	}
+}

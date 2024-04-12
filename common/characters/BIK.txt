@@ -1,0 +1,168 @@
+characters = {
+	BIK_2706 = {
+		name = Sardar_Singh_Rathore
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BIK_33556277 = {
+		name = Hayat_Kunwar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33556277
+			cost = 150
+		}
+	}
+	BIK_33556883 = {
+		name = Umar_Qaim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33556883
+			cost = 150
+		}
+	}
+	BIK_33559889 = {
+		name = Rai_Bhatti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33559889
+			cost = 150
+		}
+	}
+	BIK_50332956 = {
+		name = Malik_ur_Rahman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332956
+			cost = 150
+		}
+	}
+	BIK_50335351 = {
+		name = Harsha_Raksel
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	BIK_50336884 = {
+		name = Mirza_Raja_Rathore
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BIK_67111712 = {
+		name = Sardar_Shekha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67111712
+			cost = 150
+		}
+	}
+	BIK_67112042 = {
+		name = Mirza_Raja_Bachittar_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67112042
+			cost = 150
+		}
+	}
+	BIK_67113422 = {
+		name = Jawapala_Kunwar
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	BIK_67114811 = {
+		name = Malik_Gujar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67114811
+			cost = 150
+		}
+	}
+	BIK_83891089 = {
+		name = Bhai_Raksel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83891089
+			cost = 150
+		}
+	}
+}

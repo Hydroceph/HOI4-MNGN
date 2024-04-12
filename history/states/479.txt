@@ -1,0 +1,29 @@
+state = {
+	id = 479
+	name = "STATE_479"
+	manpower = 445958
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SAF
+		victory_points = {
+			4696 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1833 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1833 4584 4696 7576 
+	}
+}

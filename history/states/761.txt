@@ -1,0 +1,25 @@
+state = {
+	id = 761
+	name = "STATE_761"
+	manpower = 78860
+
+	state_category = rural
+
+	history = {
+		owner = SNG
+		victory_points = {
+			10988 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = SNG
+	}
+
+	provinces = {
+		10988 
+	}
+}

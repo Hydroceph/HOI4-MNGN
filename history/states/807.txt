@@ -1,0 +1,23 @@
+state = {
+	id = 807
+	name = "STATE_807"
+	manpower = 149074
+
+	state_category = rural
+
+	history = {
+		owner = PBC
+		victory_points = {
+			8217 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		5131 8217 13303 
+	}
+}

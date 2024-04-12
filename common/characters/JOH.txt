@@ -1,0 +1,171 @@
+characters = {
+	JOH_2882 = {
+		name = Ali_Iskandar_Bendahara
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	JOH_2883 = {
+		name = Abu_Bakar_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_2883
+			cost = 150
+		}
+	}
+	JOH_33556009 = {
+		name = Safiuddin_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33556009
+			cost = 150
+		}
+	}
+	JOH_33558070 = {
+		name = Yusuf_Raja_Ahmad
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_33558070
+			cost = 150
+		}
+	}
+	JOH_33558629 = {
+		name = Muhammad_Bendahara
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	JOH_50331845 = {
+		name = Riayat_Bendahara
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	JOH_50334820 = {
+		name = Jalil_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334820
+			cost = 150
+		}
+	}
+	JOH_50335360 = {
+		name = Idris_Murshidul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_50335360
+			cost = 150
+		}
+	}
+	JOH_67109822 = {
+		name = Ismail_Raja_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109822
+			cost = 150
+		}
+	}
+	JOH_67111855 = {
+		name = Riayat_Aadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67111855
+			cost = 150
+		}
+	}
+	JOH_67111954 = {
+		name = Isandar_al-Marhum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67111954
+			cost = 150
+		}
+	}
+}

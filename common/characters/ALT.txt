@@ -1,0 +1,146 @@
+characters = {
+	ALT_50336486 = {
+		name = Carlos_Ezeta
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	ALT_16779546 = {
+		name = Jose_Maria_Menendez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_16779546
+			cost = 150
+		}
+	}
+	ALT_33556674 = {
+		name = Felipe_GU_ell
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33556674
+			cost = 150
+		}
+	}
+	ALT_33556839 = {
+		name = Jose_Francisco_Fernandez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33556839
+			cost = 150
+		}
+	}
+	ALT_33558733 = {
+		name = Julio_Ezeta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_33558733
+			cost = 150
+		}
+	}
+	ALT_33559813 = {
+		name = Julio_Escalon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_33559813
+			cost = 150
+		}
+	}
+	ALT_50333365 = {
+		name = Eduardo_Morazan
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	ALT_50334753 = {
+		name = Prospero_2_Menendez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50334753
+			cost = 150
+		}
+	}
+	ALT_67109150 = {
+		name = Arturo_Araujo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67109150
+			cost = 150
+		}
+	}
+	ALT_67111839 = {
+		name = Tomas_Figueroa
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+}

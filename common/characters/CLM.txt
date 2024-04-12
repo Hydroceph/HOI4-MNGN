@@ -1,0 +1,129 @@
+characters = {
+	CLM_50338072 = {
+		name = Santos_Vila
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	CLM_33556717 = {
+		name = Hilario_Crespo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556717
+			cost = 150
+		}
+	}
+	CLM_33557955 = {
+		name = Placido_Zaldua
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33557955
+			cost = 150
+		}
+	}
+	CLM_50335447 = {
+		name = Francisco_Javier_Bonnet
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { commando }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	CLM_50335487 = {
+		name = Rafael_2_Rojas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50335487
+			cost = 150
+		}
+	}
+	CLM_50336638 = {
+		name = Juan_de_Olmedo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50336638
+			cost = 150
+		}
+	}
+	CLM_67109958 = {
+		name = Fernando_Flores
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109958
+			cost = 150
+		}
+	}
+	CLM_67113082 = {
+		name = Juan_de_la_Santa_Cruz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67113082
+			cost = 150
+		}
+	}
+	CLM_83887325 = {
+		name = Froilan_de_Villamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887325
+			cost = 150
+		}
+	}
+}

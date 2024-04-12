@@ -1,0 +1,208 @@
+characters = {
+	NOR_100664294 = {
+		name = Blostrup_Gjeranger
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Johan_Nygaardsvold
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	NOR_16779939 = {
+		name = Jonas_Anton_Wedel-Jarlsberg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_16779939
+			cost = 150
+		}
+	}
+	NOR_16783687 = {
+		name = Erik_de_Tonsberg
+		portraits = {
+			army = {
+				large = GFX_portrait_FIN_carl_mannerheim
+				small = GFX_portrait_FIN_carl_mannerheim_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	NOR_33555037 = {
+		name = Johan_Kane
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33555037
+			cost = 150
+		}
+	}
+	NOR_33559944 = {
+		name = Gerhard_Henriksen
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	NOR_50332070 = {
+		name = Roar_Skanke
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332070
+			cost = 150
+		}
+	}
+	NOR_50334555 = {
+		name = Magnus_Bernadotte
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50334555
+			cost = 150
+		}
+	}
+	NOR_50337108 = {
+		name = Ole_Gundersen
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	NOR_50338417 = {
+		name = August_Werenskiold
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50338417
+			cost = 150
+		}
+	}
+	NOR_67108895 = {
+		name = Fredrik_Kaldager
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	NOR_67110156 = {
+		name = Ivar_Weidemann
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_67110156
+			cost = 150
+		}
+	}
+	NOR_67114365 = {
+		name = Einar_Olsen
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	NOR_67115151 = {
+		name = Karl_Olsen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67115151
+			cost = 150
+		}
+	}
+}

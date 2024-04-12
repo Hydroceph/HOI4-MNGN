@@ -1,0 +1,169 @@
+characters = {
+	WSG_33559408 = {
+		name = Nuur_Axmed_Sugulle
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { commando harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	WSG_16779087 = {
+		name = Maxamuud_Qaalib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16779087
+			cost = 150
+		}
+	}
+	WSG_16780532 = {
+		name = Faarax_Majerteen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_16780532
+			cost = 150
+		}
+	}
+	WSG_16782927 = {
+		name = Nuur_Axmed_Gurey
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_16782927
+			cost = 150
+		}
+	}
+	WSG_16783999 = {
+		name = Roble_Walashma
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_4
+				small = GFX_Portrait_Africa_Generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer superior_tactician }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	WSG_33555632 = {
+		name = Muuse_Qaalib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_33555632
+			cost = 150
+		}
+	}
+	WSG_50332380 = {
+		name = Yuusuf_Diiriye
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50332380
+			cost = 150
+		}
+	}
+	WSG_50337735 = {
+		name = Cusmaan_Mujahid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50337735
+			cost = 150
+		}
+	}
+	WSG_67113198 = {
+		name = Cabdiqani_Dhoobow
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67113198
+			cost = 150
+		}
+	}
+	WSG_67115129 = {
+		name = Abdikarim_Sugulle
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67115129
+			cost = 150
+		}
+	}
+	WSG_83888890 = {
+		name = Aamir_Adeer
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83888890
+			cost = 150
+		}
+	}
+}

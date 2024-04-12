@@ -1,0 +1,27 @@
+state = {
+	id = 475
+	name = "STATE_475"
+	manpower = 394034
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = HAI
+		victory_points = {
+			4598 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = HAI
+	}
+
+	provinces = {
+		4598 7632 7660 10484 
+	}
+}

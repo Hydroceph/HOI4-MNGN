@@ -1,0 +1,185 @@
+characters = {
+	CRI_50333344 = {
+		name = Fatxelbayan_Mamleeva
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	CRI_33557331 = {
+		name = Rustam_Mamleeva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33557331
+			cost = 150
+		}
+	}
+	CRI_50332919 = {
+		name = Yusuf_Waxitov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50332919
+			cost = 150
+		}
+	}
+	CRI_50333998 = {
+		name = Mullanur_Mamleeva
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	CRI_50334468 = {
+		name = Musa_Gizzat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50334468
+			cost = 150
+		}
+	}
+	CRI_50334523 = {
+		name = Iskander_Borhan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334523
+			cost = 150
+		}
+	}
+	CRI_50336906 = {
+		name = Rustam_Faysi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50336906
+			cost = 150
+		}
+	}
+	CRI_67109307 = {
+		name = Asaf_Mamleeva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67109307
+			cost = 150
+		}
+	}
+	CRI_67109501 = {
+		name = Iskander_Ibragimov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109501
+			cost = 150
+		}
+	}
+	CRI_67109568 = {
+		name = Makhmut_Mamleeva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67109568
+			cost = 150
+		}
+	}
+	CRI_67111988 = {
+		name = Rustam_Mamleeva
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	CRI_83886555 = {
+		name = Musa_Mamleeva
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CRI_100663857 = {
+		name = Iskander_Tukay
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

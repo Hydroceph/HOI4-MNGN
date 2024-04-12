@@ -1,0 +1,31 @@
+state = {
+	id = 389
+	name = "STATE_389"
+	manpower = 3020108
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = CHI
+		victory_points = {
+			7214 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7186 = {
+				naval_base = 4
+			}
+			air_base = 1
+		}
+		add_core_of = CHI
+	}
+
+	provinces = {
+		1091 4096 7186 7214 9955 11914 11959 12027 12068 
+	}
+}

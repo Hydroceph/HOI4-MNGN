@@ -1,0 +1,162 @@
+characters = {
+	RWA_16779760 = {
+		name = Gahiji_Abanyiginya
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	RWA_16778894 = {
+		name = Hakizimana_Abanyiginya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16778894
+			cost = 150
+		}
+	}
+	RWA_33557236 = {
+		name = Kagame_Mutara
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_33557236
+			cost = 150
+		}
+	}
+	RWA_33557691 = {
+		name = Gahiji_Nyiginya
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { mastermind_code_cracker }
+			slot = political_advisor
+			idea_token = i_33557691
+			cost = 150
+		}
+	}
+	RWA_50333718 = {
+		name = Habimana_Rwogera
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50333718
+			cost = 150
+		}
+	}
+	RWA_50334935 = {
+		name = Runihura_Ndahindurwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334935
+			cost = 150
+		}
+	}
+	RWA_50337481 = {
+		name = Nkundiushuti_Nyiginya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50337481
+			cost = 150
+		}
+	}
+	RWA_50337804 = {
+		name = Runihura_Musinga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50337804
+			cost = 150
+		}
+	}
+	RWA_67112039 = {
+		name = Dukuzumuremyi_Nyiginya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67112039
+			cost = 150
+		}
+	}
+	RWA_67114717 = {
+		name = Yuhi_Rwogera
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67114717
+			cost = 150
+		}
+	}
+}

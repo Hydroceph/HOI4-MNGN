@@ -1,0 +1,25 @@
+state = {
+	id = 645
+	name = "STATE_645"
+	manpower = 242488
+
+	state_category = rural
+
+	history = {
+		owner = DFR
+		victory_points = {
+			8052 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = DFR
+	}
+
+	provinces = {
+		1960 5060 8052 10739 
+	}
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 840
+	name = "STATE_840"
+	manpower = 19293
+
+	state_category = rural
+
+	history = {
+		owner = ENG
+		victory_points = {
+			2489 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		2489 13034 
+	}
+}

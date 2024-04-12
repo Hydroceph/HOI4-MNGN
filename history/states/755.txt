@@ -1,0 +1,25 @@
+state = {
+	id = 755
+	name = "STATE_755"
+	manpower = 98769
+
+	state_category = rural
+
+	history = {
+		owner = YKA
+		victory_points = {
+			12896 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = YKA
+	}
+
+	provinces = {
+		10025 12896 12945 
+	}
+}

@@ -1,0 +1,191 @@
+characters = {
+	OMA_33557837 = {
+		name = Abd_al-Karim_ibn_Uthman
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	OMA_2979 = {
+		name = Thuwaini_al_Said
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_2979
+			cost = 150
+		}
+	}
+	OMA_33555874 = {
+		name = Tawfiq_al_Rashid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33555874
+			cost = 150
+		}
+	}
+	OMA_50334788 = {
+		name = Jamal_al_Qasimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50334788
+			cost = 150
+		}
+	}
+	OMA_50335301 = {
+		name = Halil_al_Saud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50335301
+			cost = 150
+		}
+	}
+	OMA_67108978 = {
+		name = Ali_ibn_Umar
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	OMA_67109818 = {
+		name = Salim_al_Saud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_67109818
+			cost = 150
+		}
+	}
+	OMA_67111325 = {
+		name = Uthman_al_Rashid
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	OMA_67112040 = {
+		name = Jamal_ibn_Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67112040
+			cost = 150
+		}
+	}
+	OMA_67112850 = {
+		name = Yusuf_ibn_Hasan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67112850
+			cost = 150
+		}
+	}
+	OMA_67114168 = {
+		name = Jamal_al_Said
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	OMA_83886886 = {
+		name = Salim_al_Hashimi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83886886
+			cost = 150
+		}
+	}
+}

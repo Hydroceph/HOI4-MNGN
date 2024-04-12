@@ -1,0 +1,25 @@
+state = {
+	id = 737
+	name = "STATE_737"
+	manpower = 97769
+
+	state_category = rural
+
+	history = {
+		owner = HRO
+		victory_points = {
+			10957 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = HRO
+	}
+
+	provinces = {
+		7770 8136 10957 12519 
+	}
+}

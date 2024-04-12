@@ -1,0 +1,24 @@
+state = {
+	id = 633
+	name = "STATE_633"
+	manpower = 18091
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = ARG
+	}
+
+	provinces = {
+		10965 13311 
+	}
+}

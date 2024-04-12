@@ -1,0 +1,29 @@
+state = {
+	id = 170
+	name = "STATE_170"
+	manpower = 1878818
+	resources = {
+		aluminium = 33
+		tungsten = 0
+	}
+
+	state_category = town
+
+	history = {
+		owner = TTS
+		victory_points = {
+			10074 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = TTS
+	}
+
+	provinces = {
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 13256 
+	}
+}

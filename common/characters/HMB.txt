@@ -1,0 +1,157 @@
+characters = {
+	HMB_16777333 = {
+		name = Banza_Bukuru
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	HMB_16780318 = {
+		name = Ilunga_Pongo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_16780318
+			cost = 150
+		}
+	}
+	HMB_16780815 = {
+		name = Kisempia_Bukuru
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	HMB_33554523 = {
+		name = Ilunga_Bukuru
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_33554523
+			cost = 150
+		}
+	}
+	HMB_33555437 = {
+		name = Mosambaye_Mbangu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33555437
+			cost = 150
+		}
+	}
+	HMB_33555453 = {
+		name = Mabi_Pongo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33555453
+			cost = 150
+		}
+	}
+	HMB_33555488 = {
+		name = Mabi_Munsensa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33555488
+			cost = 150
+		}
+	}
+	HMB_50332609 = {
+		name = Mabi_Bukuru
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50332609
+			cost = 150
+		}
+	}
+	HMB_50335110 = {
+		name = Koloso_Bukuru
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50335110
+			cost = 150
+		}
+	}
+	HMB_83886287 = {
+		name = Koloso_Munsensa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83886287
+			cost = 150
+		}
+	}
+	HMB_83887996 = {
+		name = Mauva_Bukuru
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83887996
+			cost = 150
+		}
+	}
+}

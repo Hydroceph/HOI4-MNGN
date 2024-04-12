@@ -1,0 +1,168 @@
+characters = {
+	UGA_16781288 = {
+		name = Kabulu_Bagalayze
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	UGA_16782351 = {
+		name = Musanje_Ngonge
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	UGA_33554638 = {
+		name = Mutesa_Bagalayze
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33554638
+			cost = 150
+		}
+	}
+	UGA_33555713 = {
+		name = Mwanga_Bagalayze
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_33555713
+			cost = 150
+		}
+	}
+	UGA_33556037 = {
+		name = Kagali_Ndiga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33556037
+			cost = 150
+		}
+	}
+	UGA_33557078 = {
+		name = Kyabaggo_Ffumbe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33557078
+			cost = 150
+		}
+	}
+	UGA_33560864 = {
+		name = Mutesa_Ngo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33560864
+			cost = 150
+		}
+	}
+	UGA_50332109 = {
+		name = Musanje_Butiko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50332109
+			cost = 150
+		}
+	}
+	UGA_50334297 = {
+		name = Kabulu_Nseenene
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_50334297
+			cost = 150
+		}
+	}
+	UGA_50335739 = {
+		name = Namugala_Mmamba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50335739
+			cost = 150
+		}
+	}
+	UGA_67112490 = {
+		name = Kyabaggo_Nseenene
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67112490
+			cost = 150
+		}
+	}
+}

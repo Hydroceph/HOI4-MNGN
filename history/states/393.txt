@@ -1,0 +1,30 @@
+state = {
+	id = 393
+	name = "STATE_393"
+	manpower = 409147
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = USA
+		victory_points = {
+			6984 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			6984 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+	}
+
+	provinces = {
+		3917 6823 6892 6929 6984 9758 
+	}
+}

@@ -1,0 +1,169 @@
+characters = {
+	TAH_16781320 = {
+		name = Taufa_ahau_Tuabayi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	TAH_3018 = {
+		name = Pomare_IV_Pomare
+		gender = female
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_3018
+			cost = 150
+		}
+	}
+	TAH_16779839 = {
+		name = Iosefo_Pomare
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16779839
+			cost = 150
+		}
+	}
+	TAH_33557825 = {
+		name = Ulukalala_Kawananakoa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	TAH_50333936 = {
+		name = Tupou_Kawananakoa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50333936
+			cost = 150
+		}
+	}
+	TAH_50335264 = {
+		name = Te_Taulu_Maeakafa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50335264
+			cost = 150
+		}
+	}
+	TAH_50335481 = {
+		name = Taupe_Keliimaikai
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { submarine_specialist }
+			slot = political_advisor
+			idea_token = i_50335481
+			cost = 150
+		}
+	}
+	TAH_50336307 = {
+		name = Tavita_Ma_ufanga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50336307
+			cost = 150
+		}
+	}
+	TAH_50337755 = {
+		name = William_Kalakaua
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50337755
+			cost = 150
+		}
+	}
+	TAH_67112089 = {
+		name = Lika_Te_Fuli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67112089
+			cost = 150
+		}
+	}
+	TAH_100665265 = {
+		name = Finau_Keliimaikai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_100665265
+			cost = 150
+		}
+	}
+}

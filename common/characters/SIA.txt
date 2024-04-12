@@ -1,0 +1,196 @@
+characters = {
+	SIA_16783521 = {
+		name = Rama_Chakri
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SIA_16778964 = {
+		name = Nangklao_Rabibadhana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778964
+			cost = 150
+		}
+	}
+	SIA_16779267 = {
+		name = Plaek_Phonphayuhasena
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16779267
+			cost = 150
+		}
+	}
+	SIA_16782416 = {
+		name = Naritsaranuwatiwong_Praya_Siri
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SIA_33555603 = {
+		name = Prajadhipok_Bunnag
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33555603
+			cost = 150
+		}
+	}
+	SIA_50332186 = {
+		name = Sanidh_Prayurasakdi_Phonphayuhasena
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50332186
+			cost = 150
+		}
+	}
+	SIA_50333368 = {
+		name = Traidos_Devahastin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SIA_50334961 = {
+		name = Sirivongse_Rabibadhana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334961
+			cost = 150
+		}
+	}
+	SIA_50335377 = {
+		name = Piyararangsit_Rabibadhana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50335377
+			cost = 150
+		}
+	}
+	SIA_50337636 = {
+		name = Vajiravudh_Chakri
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50337636
+			cost = 150
+		}
+	}
+	SIA_67111409 = {
+		name = Rama_Chakri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SIA_67112311 = {
+		name = Tuam_Praya_Siri
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SIA_83886304 = {
+		name = Naritsaranuwatiwong_Nitithada
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83886304
+			cost = 150
+		}
+	}
+}

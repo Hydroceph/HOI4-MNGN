@@ -1,0 +1,213 @@
+characters = {
+	OYO_16778171 = {
+		name = Onikepe_Tinubu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	OYO_16780845 = {
+		name = Onikepe_Alakija
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_3
+				small = GFX_Portrait_Africa_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	OYO_16781318 = {
+		name = Amodo_Alowolodu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	OYO_16782017 = {
+		name = Bello_Akinsuroju
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_1
+				small = GFX_Portrait_Africa_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	OYO_16783272 = {
+		name = Adebo_Tinubu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_1
+				small = GFX_Portrait_Africa_Generic_navy_1_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven gunnery_expert }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_16783272
+			cost = 150
+		}
+	}
+	OYO_33554751 = {
+		name = Adelu_Dosunmu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33554751
+			cost = 150
+		}
+	}
+	OYO_33556608 = {
+		name = Lauru_Oladigbolu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556608
+			cost = 150
+		}
+	}
+	OYO_50332138 = {
+		name = Adelu_Jadesimi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	OYO_50332798 = {
+		name = Atiba_Alowolodu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50332798
+			cost = 150
+		}
+	}
+	OYO_50334137 = {
+		name = Adelu_Dudu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50334137
+			cost = 150
+		}
+	}
+	OYO_67108900 = {
+		name = Oluewu_Adelana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67108900
+			cost = 150
+		}
+	}
+	OYO_67111442 = {
+		name = Abisi_Hungbo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67111442
+			cost = 150
+		}
+	}
+	OYO_67112583 = {
+		name = Atiba_Tinubu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	OYO_83891693 = {
+		name = Onikepe_Ologbenla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83891693
+			cost = 150
+		}
+	}
+}

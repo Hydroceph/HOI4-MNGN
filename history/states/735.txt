@@ -1,0 +1,22 @@
+state = {
+	id = 735
+	name = "STATE_735"
+	manpower = 99704
+
+	state_category = rural
+
+	history = {
+		owner = DFT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = DFT
+	}
+
+	provinces = {
+		10764 10857 
+	}
+}

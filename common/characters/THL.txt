@@ -1,0 +1,157 @@
+characters = {
+	THL_16778596 = {
+		name = Gregorio_Namuncura
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_8
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	THL_16779868 = {
+		name = Juan_Conoepan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_16779868
+			cost = 150
+		}
+	}
+	THL_16781386 = {
+		name = Aucan_Bravo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_16781386
+			cost = 150
+		}
+	}
+	THL_16783661 = {
+		name = Aurelio_Aukan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_16783661
+			cost = 150
+		}
+	}
+	THL_33557721 = {
+		name = Santiago_Calfucura
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33557721
+			cost = 150
+		}
+	}
+	THL_33558936 = {
+		name = Francisco_Calfucura
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	THL_50331991 = {
+		name = Carlos_Guaiquil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50331991
+			cost = 150
+		}
+	}
+	THL_50332189 = {
+		name = Arturo_Marifil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50332189
+			cost = 150
+		}
+	}
+	THL_67109847 = {
+		name = Ramon_Ayllapan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67109847
+			cost = 150
+		}
+	}
+	THL_67115054 = {
+		name = VI_ctor_Namuncura
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67115054
+			cost = 150
+		}
+	}
+	THL_83891243 = {
+		name = Gerardo_Huichaman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83891243
+			cost = 150
+		}
+	}
+}

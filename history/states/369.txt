@@ -1,0 +1,29 @@
+state = {
+	id = 369
+	name = "STATE_369"
+	manpower = 996218
+	resources = {
+		chromium = 16
+		steel = 10
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = TUR
+		victory_points = {
+			11853 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		652 789 864 4583 6919 6935 6991 7470 9858 9868 9954 10399 11797 11853 11880 12318 12376 
+	}
+}

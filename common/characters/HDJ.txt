@@ -1,0 +1,179 @@
+characters = {
+	HDJ_16780186 = {
+		name = Ibrahim_al_Hashimi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	HDJ_16780183 = {
+		name = Yahya_al_Hashimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_16780183
+			cost = 150
+		}
+	}
+	HDJ_16780188 = {
+		name = Sa_ud_ibn_Abd_al-Qadir
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_16780188
+			cost = 150
+		}
+	}
+	HDJ_33556197 = {
+		name = Ishaq_al_Hashimi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	HDJ_33556599 = {
+		name = Khalid_ibn_Abd_al-Qadir
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33556599
+			cost = 150
+		}
+	}
+	HDJ_33559717 = {
+		name = Ibrahim_ibn_Umar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33559717
+			cost = 150
+		}
+	}
+	HDJ_50333841 = {
+		name = Ali_ibn_Ja_far
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50333841
+			cost = 150
+		}
+	}
+	HDJ_50334090 = {
+		name = Halil_al_Hashimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50334090
+			cost = 150
+		}
+	}
+	HDJ_67109783 = {
+		name = Tawfiq_al-Hijazi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109783
+			cost = 150
+		}
+	}
+	HDJ_83889270 = {
+		name = Ibrahim_ibn_Fuad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83889270
+			cost = 150
+		}
+	}
+	HDJ_117441131 = {
+		name = Halil_al_Nuaimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117441131
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,146 @@
+characters = {
+	Z09_67114905 = {
+		name = Yahya_ibn_Fuad
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	Z09_16779072 = {
+		name = Ishaq_ibn_Salim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16779072
+			cost = 150
+		}
+	}
+	Z09_33555445 = {
+		name = Khalid_al-Azma
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33555445
+			cost = 150
+		}
+	}
+	Z09_33558824 = {
+		name = Ahmad_ibm_Kamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_33558824
+			cost = 150
+		}
+	}
+	Z09_33560487 = {
+		name = Abd_al-Rahman_ibn_Umar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33560487
+			cost = 150
+		}
+	}
+	Z09_50331712 = {
+		name = Mustafa_ibn_Ja_far
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50331712
+			cost = 150
+		}
+	}
+	Z09_50332789 = {
+		name = Abd_al-Rahman_ibn_Halil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50332789
+			cost = 150
+		}
+	}
+	Z09_50336217 = {
+		name = Hasan_al_Saud
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	Z09_67111910 = {
+		name = Fuad_al-Shami
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	Z09_83887683 = {
+		name = Abd_al-Qadir_al-Atrash
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83887683
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,162 @@
+characters = {
+	AIT_33556516 = {
+		name = Khalid_al-Mokrani
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	AIT_16778752 = {
+		name = Khalid_al-Sahrawi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16778752
+			cost = 150
+		}
+	}
+	AIT_16779444 = {
+		name = Khalid_Messaoudi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_16779444
+			cost = 150
+		}
+	}
+	AIT_16779608 = {
+		name = Ahmed_el_Krim
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_16779608
+			cost = 150
+		}
+	}
+	AIT_33557553 = {
+		name = Khalid_al-Mokrani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	AIT_33558964 = {
+		name = Abd_al-Karim_Iftaten
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33558964
+			cost = 150
+		}
+	}
+	AIT_33560027 = {
+		name = Abd_al-Karim_el_Krim
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	AIT_33561020 = {
+		name = Muhammad_el_Krim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33561020
+			cost = 150
+		}
+	}
+	AIT_50333518 = {
+		name = Ahmed_Tisbaa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_50333518
+			cost = 150
+		}
+	}
+	AIT_50338192 = {
+		name = Muhammad_Iftaten
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_50338192
+			cost = 150
+		}
+	}
+	AIT_83888135 = {
+		name = Abd_al-Karim_Imalayen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83888135
+			cost = 150
+		}
+	}
+}

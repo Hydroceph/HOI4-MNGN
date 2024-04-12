@@ -1,0 +1,143 @@
+characters = {
+	PNG_6842 = {
+		name = Kaoua_Dovi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	PNG_16781081 = {
+		name = Samuel_Qaraniqio
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16781081
+			cost = 150
+		}
+	}
+	PNG_16783644 = {
+		name = Eroni_Dovi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16783644
+			cost = 150
+		}
+	}
+	PNG_33555073 = {
+		name = Lubati_Cokanauto
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33555073
+			cost = 150
+		}
+	}
+	PNG_33556163 = {
+		name = Taltai_Dovi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	PNG_50332099 = {
+		name = Raivalita_Sukuna
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50332099
+			cost = 150
+		}
+	}
+	PNG_50334459 = {
+		name = Ti-Abel_Sukuna
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50334459
+			cost = 150
+		}
+	}
+	PNG_50335927 = {
+		name = Ti-Abel_Qaraniqio
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50335927
+			cost = 150
+		}
+	}
+	PNG_67113662 = {
+		name = Tamavunisa_Dovi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_67113662
+			cost = 150
+		}
+	}
+	PNG_67115550 = {
+		name = Seru_Hortense
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67115550
+			cost = 150
+		}
+	}
+}

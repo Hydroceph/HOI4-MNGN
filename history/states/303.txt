@@ -1,0 +1,24 @@
+state = {
+	id = 303
+	name = "STATE_303"
+	manpower = 1080486
+
+	state_category = town
+
+	history = {
+		owner = TIB
+		victory_points = {
+			1961 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = TIB
+	}
+
+	provinces = {
+		1961 1991 2010 2093 5011 5094 8029 8068 8121 10755 10802 12784 12801 12807 
+	}
+}

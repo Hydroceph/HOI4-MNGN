@@ -1,0 +1,29 @@
+state = {
+	id = 42
+	name = "STATE_42"
+	manpower = 1679356
+
+	state_category = town
+
+	history = {
+		owner = HOL
+		victory_points = {
+			3314 25
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			3211 = {
+				naval_base = 5
+			}
+			air_base = 6
+		}
+		add_core_of = HOL
+	}
+
+	provinces = {
+		68 391 480 3211 3314 9431 9498 
+	}
+}

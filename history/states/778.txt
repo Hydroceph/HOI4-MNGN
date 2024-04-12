@@ -1,0 +1,25 @@
+state = {
+	id = 778
+	name = "STATE_778"
+	manpower = 73670
+
+	state_category = rural
+
+	history = {
+		owner = FNG
+		victory_points = {
+			8207 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = FNG
+	}
+
+	provinces = {
+		8207 10948 13210 
+	}
+}

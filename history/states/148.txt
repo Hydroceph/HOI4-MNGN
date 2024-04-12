@@ -1,0 +1,28 @@
+state = {
+	id = 148
+	name = "STATE_148"
+	manpower = 726168
+
+	state_category = town
+
+	history = {
+		owner = HOL
+		victory_points = {
+			11318 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			6336 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = HOL
+	}
+
+	provinces = {
+		6286 6336 9309 9335 9403 11318 
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 301
+	name = "STATE_301"
+	manpower = 636717
+	resources = {
+		chromium = 4
+		steel = 19
+	}
+
+	state_category = town
+
+	history = {
+		owner = AUS
+		victory_points = {
+			653 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		653 668 3673 6673 6687 6691 9646 9648 9650 9679 11612 11630 
+	}
+}

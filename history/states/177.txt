@@ -1,0 +1,28 @@
+state = {
+	id = 177
+	name = "STATE_177"
+	manpower = 11270826
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = CHI
+		victory_points = {
+			1976 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = CHI
+	}
+
+	provinces = {
+		1458 1976 2006 4167 4256 4295 5007 5092 7208 7301 7406 7418 8049 10257 10733 12156 12356 12713 
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 216
+	name = "STATE_216"
+	manpower = 171826
+	resources = {
+		steel = 0
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		5023 
+	}
+}

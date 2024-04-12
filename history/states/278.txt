@@ -1,0 +1,29 @@
+state = {
+	id = 278
+	name = "STATE_278"
+	manpower = 656850
+	resources = {
+		steel = 1
+		tungsten = 7
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ORA
+		victory_points = {
+			5231 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = ORA
+	}
+
+	provinces = {
+		5231 12064 12648 
+	}
+}

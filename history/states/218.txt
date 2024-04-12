@@ -1,0 +1,28 @@
+state = {
+	id = 218
+	name = "STATE_218"
+	manpower = 1135240
+
+	state_category = rural
+
+	history = {
+		owner = USA
+		victory_points = {
+			6732 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			905 = {
+				naval_base = 2
+			}
+			air_base = 1
+		}
+		add_core_of = USA
+	}
+
+	provinces = {
+		715 718 905 908 3710 3906 6732 
+	}
+}

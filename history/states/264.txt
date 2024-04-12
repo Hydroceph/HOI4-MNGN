@@ -1,0 +1,31 @@
+state = {
+	id = 264
+	name = "STATE_264"
+	manpower = 541820
+	resources = {
+		steel = 17
+	}
+
+	state_category = rural
+
+	history = {
+		owner = LUC
+		victory_points = {
+			6946 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			6946 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = LUC
+	}
+
+	provinces = {
+		1616 6946 
+	}
+}

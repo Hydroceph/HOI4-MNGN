@@ -1,0 +1,157 @@
+characters = {
+	MSK_16777562 = {
+		name = Zuka_Nzou
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MSK_16779091 = {
+		name = Nyakambira_Torwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_16779091
+			cost = 150
+		}
+	}
+	MSK_16781467 = {
+		name = Gamba_Mlimo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_16781467
+			cost = 150
+		}
+	}
+	MSK_16782779 = {
+		name = Nyakambira_Lobengula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16782779
+			cost = 150
+		}
+	}
+	MSK_33555558 = {
+		name = Chinouyazue_Nzou
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_33555558
+			cost = 150
+		}
+	}
+	MSK_33555959 = {
+		name = Mboro_Magaya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33555959
+			cost = 150
+		}
+	}
+	MSK_33556864 = {
+		name = Pepukayi_Torwa
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	MSK_33560925 = {
+		name = Mboro_Soshangane
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33560925
+			cost = 150
+		}
+	}
+	MSK_50331989 = {
+		name = Muchaneta_Lobengula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50331989
+			cost = 150
+		}
+	}
+	MSK_67109390 = {
+		name = Zuka_Tjilisamhulu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_67109390
+			cost = 150
+		}
+	}
+	MSK_83890890 = {
+		name = Runako_Hungwe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83890890
+			cost = 150
+		}
+	}
+}

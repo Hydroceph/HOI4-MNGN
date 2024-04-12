@@ -1,0 +1,25 @@
+state = {
+	id = 97
+	name = "STATE_97"
+	manpower = 950931
+
+	state_category = town
+
+	history = {
+		owner = HOL
+		victory_points = {
+			6496 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = HOL
+	}
+
+	provinces = {
+		3262 6241 6496 6500 9363 11346 11456 11562 
+	}
+}

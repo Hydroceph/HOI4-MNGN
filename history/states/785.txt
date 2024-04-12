@@ -1,0 +1,25 @@
+state = {
+	id = 785
+	name = "STATE_785"
+	manpower = 106787
+
+	state_category = rural
+
+	history = {
+		owner = THL
+		victory_points = {
+			5173 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = THL
+	}
+
+	provinces = {
+		2169 5173 8176 10953 12946 12952 13305 13306 
+	}
+}

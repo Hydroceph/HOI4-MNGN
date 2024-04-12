@@ -1,0 +1,168 @@
+characters = {
+	UZH_6832 = {
+		name = Mashur_Kudaimendin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	UZH_16780359 = {
+		name = Ibirai_Kudaimendin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_16780359
+			cost = 150
+		}
+	}
+	UZH_16781346 = {
+		name = Bukei_Shoshak-ula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_16781346
+			cost = 150
+		}
+	}
+	UZH_16783540 = {
+		name = Abu_al-Khayr_Beg
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_16783540
+			cost = 150
+		}
+	}
+	UZH_16783680 = {
+		name = Dulat_Shoshak-ula
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_16783680
+			cost = 150
+		}
+	}
+	UZH_33557736 = {
+		name = Kenisary_Khan
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	UZH_33558185 = {
+		name = Tenek_Dulatuli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33558185
+			cost = 150
+		}
+	}
+	UZH_33558945 = {
+		name = Qayip_Bukeikhanov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_33558945
+			cost = 150
+		}
+	}
+	UZH_33560865 = {
+		name = Chokan_Bukeikhanov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33560865
+			cost = 150
+		}
+	}
+	UZH_33561268 = {
+		name = Baitursyn_Konanbai_uli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33561268
+			cost = 150
+		}
+	}
+	UZH_67110597 = {
+		name = Sadyk_Beg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_67110597
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,172 @@
+characters = {
+	LUC_16777977 = {
+		name = Massimo_di_Borbone_Parma
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { organizer ranger thorough_planner }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	LUC_16782810 = {
+		name = Massimo_Cassinis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_16782810
+			cost = 150
+		}
+	}
+	LUC_16783593 = {
+		name = Serafino_di_Borbone_Parma
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_16783593
+			cost = 150
+		}
+	}
+	LUC_33558155 = {
+		name = Lorenzo_Fescot
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33558155
+			cost = 150
+		}
+	}
+	LUC_33558192 = {
+		name = Ettore_Costa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33558192
+			cost = 150
+		}
+	}
+	LUC_33558448 = {
+		name = Domenico_de_Martinel
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_1
+				small = GFX_Portrait_Italy_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	LUC_50332117 = {
+		name = Paolo_Capodilista
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_1
+				small = GFX_Portrait_Italy_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	LUC_50336369 = {
+		name = Prospero_di_Robilant
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50336369
+			cost = 150
+		}
+	}
+	LUC_50336915 = {
+		name = Andrea_De_Chambost
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50336915
+			cost = 150
+		}
+	}
+	LUC_100663742 = {
+		name = Federico_Benintendi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100663742
+			cost = 150
+		}
+	}
+	LUC_100665232 = {
+		name = Tancredi_Ceccherini
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100665232
+			cost = 150
+		}
+	}
+}

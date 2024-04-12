@@ -1,0 +1,140 @@
+characters = {
+	HON_33561178 = {
+		name = Julio_Guzman
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_8
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	HON_16780653 = {
+		name = Victoriano_Machado
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_16780653
+			cost = 150
+		}
+	}
+	HON_33556763 = {
+		name = Arturo_Escalon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_33556763
+			cost = 150
+		}
+	}
+	HON_33557815 = {
+		name = Doroteo_Quiros
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando infantry_officer organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	HON_33557830 = {
+		name = Juan_Sinibaldi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33557830
+			cost = 150
+		}
+	}
+	HON_33560674 = {
+		name = Toribio_Sinibaldi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33560674
+			cost = 150
+		}
+	}
+	HON_33560855 = {
+		name = Juan_Pablo_Morazan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33560855
+			cost = 150
+		}
+	}
+	HON_67108986 = {
+		name = Alejandro_Andino
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67108986
+			cost = 150
+		}
+	}
+	HON_67109571 = {
+		name = Tiburcio_Guzman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109571
+			cost = 150
+		}
+	}
+}

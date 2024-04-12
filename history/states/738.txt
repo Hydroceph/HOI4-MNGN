@@ -1,0 +1,25 @@
+state = {
+	id = 738
+	name = "STATE_738"
+	manpower = 99781
+
+	state_category = rural
+
+	history = {
+		owner = KZM
+		victory_points = {
+			1968 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = KZM
+	}
+
+	provinces = {
+		191 1817 1968 4515 12907 
+	}
+}

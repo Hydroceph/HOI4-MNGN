@@ -1,0 +1,28 @@
+state = {
+	id = 66
+	name = "STATE_66"
+	manpower = 14281244
+	resources = {
+		tungsten = 13
+	}
+
+	state_category = town
+
+	history = {
+		owner = PAN
+		victory_points = {
+			8007 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = PAN
+	}
+
+	provinces = {
+		1107 1971 2002 4979 7903 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 12792 12822 
+	}
+}

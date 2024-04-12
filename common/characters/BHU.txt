@@ -1,0 +1,154 @@
+characters = {
+	BHU_67109045 = {
+		name = Norbhu_Lhalu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BHU_16783499 = {
+		name = Jamphel_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_16783499
+			cost = 150
+		}
+	}
+	BHU_16783727 = {
+		name = Tsepon_Dzasa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_16783727
+			cost = 150
+		}
+	}
+	BHU_33559466 = {
+		name = Norbhu_Lhalu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	BHU_50332131 = {
+		name = Tsarong_Lhalu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_50332131
+			cost = 150
+		}
+	}
+	BHU_50338428 = {
+		name = Mipham_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50338428
+			cost = 150
+		}
+	}
+	BHU_67111400 = {
+		name = Tsepon_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67111400
+			cost = 150
+		}
+	}
+	BHU_67114234 = {
+		name = Penor_Shatra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_67114234
+			cost = 150
+		}
+	}
+	BHU_67115216 = {
+		name = Namgang_Rinpoche
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67115216
+			cost = 150
+		}
+	}
+	BHU_100663394 = {
+		name = Trimon_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_100663394
+			cost = 150
+		}
+	}
+}

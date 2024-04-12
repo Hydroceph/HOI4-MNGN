@@ -1,0 +1,25 @@
+state = {
+	id = 804
+	name = "STATE_804"
+	manpower = 43735
+
+	state_category = rural
+
+	history = {
+		owner = LNG
+		victory_points = {
+			12975 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = LNG
+	}
+
+	provinces = {
+		12975 
+	}
+}

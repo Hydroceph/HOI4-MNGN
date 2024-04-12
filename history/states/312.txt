@@ -1,0 +1,27 @@
+state = {
+	id = 312
+	name = "STATE_312"
+	manpower = 505130
+	resources = {
+		tungsten = 8
+	}
+
+	state_category = town
+
+	history = {
+		owner = MEX
+		victory_points = {
+			10172 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = MEX
+	}
+
+	provinces = {
+		10172 10738 12804 
+	}
+}

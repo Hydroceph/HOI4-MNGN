@@ -1,0 +1,34 @@
+state = {
+	id = 130
+	name = "STATE_130"
+	manpower = 1952998
+	resources = {
+		aluminium = 3
+		chromium = 5
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = TUN
+		victory_points = {
+			11969 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			11921 = {
+				naval_base = 4
+			}
+			air_base = 6
+		}
+		add_core_of = TUN
+	}
+
+	provinces = {
+		1037 1046 1105 3987 4061 4129 4163 4992 7005 7077 7162 7180 9983 9994 10026 10082 10091 11921 11935 11957 11969 12000 
+	}
+}

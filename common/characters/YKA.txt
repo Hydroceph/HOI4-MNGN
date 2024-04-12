@@ -1,0 +1,157 @@
+characters = {
+	YKA_6628 = {
+		name = Cikombe_Futa
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	YKA_16780390 = {
+		name = N_Gangue_Nsindi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_16780390
+			cost = 150
+		}
+	}
+	YKA_16783706 = {
+		name = Cimbindu_Namwan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16783706
+			cost = 150
+		}
+	}
+	YKA_33556251 = {
+		name = M_voumbe_Mpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33556251
+			cost = 150
+		}
+	}
+	YKA_33559859 = {
+		name = Mfutila_N_Gombi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33559859
+			cost = 150
+		}
+	}
+	YKA_50332039 = {
+		name = Mushidi_Ditend
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332039
+			cost = 150
+		}
+	}
+	YKA_67109356 = {
+		name = Loembe_Nobrega
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando trait_mountaineer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	YKA_67110107 = {
+		name = Mbumb_Ditend
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_67110107
+			cost = 150
+		}
+	}
+	YKA_67110832 = {
+		name = Cikombe_Ilunga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_67110832
+			cost = 150
+		}
+	}
+	YKA_67114299 = {
+		name = Cakasekene_Futa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67114299
+			cost = 150
+		}
+	}
+	YKA_83887274 = {
+		name = Cikombe_Isot
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83887274
+			cost = 150
+		}
+	}
+}

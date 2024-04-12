@@ -1,0 +1,146 @@
+characters = {
+	ECU_50332694 = {
+		name = Nicolas_2_Pareja
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_9
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	ECU_16778597 = {
+		name = Demetrio_de_Villamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_16778597
+			cost = 150
+		}
+	}
+	ECU_33556955 = {
+		name = Enrique_Urbina
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33556955
+			cost = 150
+		}
+	}
+	ECU_33557107 = {
+		name = PacI_fico_Eguiguren
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ECU_33558721 = {
+		name = Juan_Quesada
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33558721
+			cost = 150
+		}
+	}
+	ECU_33559340 = {
+		name = Roberto_Escobar
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer engineer_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	ECU_50333950 = {
+		name = Genaro_Cevallos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333950
+			cost = 150
+		}
+	}
+	ECU_67110099 = {
+		name = Manuel_Moscoso
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67110099
+			cost = 150
+		}
+	}
+	ECU_67113483 = {
+		name = Rafael_Ribadeneira
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_67113483
+			cost = 150
+		}
+	}
+	ECU_100664187 = {
+		name = LeO_nidas_MarI_n
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100664187
+			cost = 150
+		}
+	}
+}

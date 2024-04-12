@@ -1,0 +1,29 @@
+state = {
+	id = 590
+	name = "STATE_590"
+	manpower = 166368
+	resources = {
+		steel = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = KRG
+		victory_points = {
+			4171 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = KRG
+	}
+
+	provinces = {
+		4171 
+	}
+}

@@ -1,0 +1,185 @@
+characters = {
+	TIG_16778077 = {
+		name = Haile_Ali_Aba_Deyas
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	TIG_16778662 = {
+		name = Bekele_Cherecha
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_2
+				small = GFX_portrait_ETH_generic_male_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_16778662
+			cost = 150
+		}
+	}
+	TIG_16783603 = {
+		name = Zeresenay_Woldu
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_4
+				small = GFX_portrait_ETH_generic_male_4_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	TIG_33555184 = {
+		name = Berhanu_Makonnen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33555184
+			cost = 150
+		}
+	}
+	TIG_33557284 = {
+		name = Mitslal_Muz_Woldetinsae
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33557284
+			cost = 150
+		}
+	}
+	TIG_33557592 = {
+		name = Amha_Ali_Aba_Deyas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33557592
+			cost = 150
+		}
+	}
+	TIG_33561139 = {
+		name = Amha_Mikael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33561139
+			cost = 150
+		}
+	}
+	TIG_50332280 = {
+		name = Berihun_Makonnen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332280
+			cost = 150
+		}
+	}
+	TIG_50333098 = {
+		name = Negasi_Melekot
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50333098
+			cost = 150
+		}
+	}
+	TIG_50338291 = {
+		name = Berihun_Cherecha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50338291
+			cost = 150
+		}
+	}
+	TIG_83890723 = {
+		name = Mitslal_Muz_Sehul
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_2
+				small = GFX_portrait_ETH_generic_male_2_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer trait_cautious trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	TIG_150994953 = {
+		name = Amare_Ali_Aba_Deyas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_150994953
+			cost = 150
+		}
+	}
+}

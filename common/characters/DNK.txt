@@ -1,0 +1,151 @@
+characters = {
+	DNK_16781286 = {
+		name = Kiir_Deng
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	DNK_16779907 = {
+		name = Abel_Zenab
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_16779907
+			cost = 150
+		}
+	}
+	DNK_16780459 = {
+		name = Alier_Ayiec
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16780459
+			cost = 150
+		}
+	}
+	DNK_33557653 = {
+		name = Alier_Deng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33557653
+			cost = 150
+		}
+	}
+	DNK_33560126 = {
+		name = Manute_Malual
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33560126
+			cost = 150
+		}
+	}
+	DNK_33561222 = {
+		name = Kiir_Zenab
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33561222
+			cost = 150
+		}
+	}
+	DNK_50333045 = {
+		name = Abel_Deng
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+		}
+		corps_commander = {
+			traits = { commando desert_fox trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	DNK_50334509 = {
+		name = Akex_Kuai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50334509
+			cost = 150
+		}
+	}
+	DNK_50336193 = {
+		name = Manute_Deng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	DNK_50336298 = {
+		name = Akex_Malual
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50336298
+			cost = 150
+		}
+	}
+	DNK_50337499 = {
+		name = Manyang_Deng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50337499
+			cost = 150
+		}
+	}
+}

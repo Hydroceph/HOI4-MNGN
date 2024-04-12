@@ -1,0 +1,16 @@
+state = {
+	id = 403
+	name = "STATE_403"
+	manpower = 79183
+
+	state_category = wasteland
+	impassable = yes
+
+	history = {
+		owner = EGY
+	}
+
+	provinces = {
+		7987 10900 
+	}
+}

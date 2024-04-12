@@ -1,0 +1,129 @@
+characters = {
+	ION_33559418 = {
+		name = Viktor_Skaltsogiannis
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_5
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	ION_33555919 = {
+		name = Charilaos_Koutsonikas
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	ION_50333408 = {
+		name = Odysseas_Kaskaris
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50333408
+			cost = 150
+		}
+	}
+	ION_50336150 = {
+		name = Leon_Karagiannopoulos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50336150
+			cost = 150
+		}
+	}
+	ION_67109118 = {
+		name = Sotiros_Gonemis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67109118
+			cost = 150
+		}
+	}
+	ION_67110813 = {
+		name = Thrasyvoulos_Seos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67110813
+			cost = 150
+		}
+	}
+	ION_67111709 = {
+		name = Panoutsos_Negreponte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67111709
+			cost = 150
+		}
+	}
+	ION_100668678 = {
+		name = Christodoulos_Vourvoulis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100668678
+			cost = 150
+		}
+	}
+	ION_150994965 = {
+		name = Dimitrios_Belokas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_150994965
+			cost = 150
+		}
+	}
+}

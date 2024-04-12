@@ -1,0 +1,24 @@
+state = {
+	id = 461
+	name = "STATE_461"
+	manpower = 272752
+
+	state_category = rural
+
+	history = {
+		owner = SPM
+		victory_points = {
+			9603 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = SPM
+	}
+
+	provinces = {
+		778 6609 9603 9745 11573 
+	}
+}

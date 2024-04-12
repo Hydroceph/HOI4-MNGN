@@ -1,0 +1,30 @@
+state = {
+	id = 420
+	name = "STATE_420"
+	manpower = 898513
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = TUR
+		victory_points = {
+			878 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			9902 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		878 893 3937 6814 6857 6923 6952 6967 6982 9818 9862 9888 9902 9919 11813 
+	}
+}

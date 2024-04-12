@@ -1,0 +1,151 @@
+characters = {
+	SLK_16777320 = {
+		name = Facundo_Paillalef
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SLK_16778771 = {
+		name = Agustin_Paillalef
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SLK_16778846 = {
+		name = Raul_2_Lincoman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778846
+			cost = 150
+		}
+	}
+	SLK_33556916 = {
+		name = Juan_Epulewfu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556916
+			cost = 150
+		}
+	}
+	SLK_33559659 = {
+		name = Maximo_Epulewfu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33559659
+			cost = 150
+		}
+	}
+	SLK_50331797 = {
+		name = Pedro_Huichaman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50331797
+			cost = 150
+		}
+	}
+	SLK_50332585 = {
+		name = JosE__Kvlapi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50332585
+			cost = 150
+		}
+	}
+	SLK_50332636 = {
+		name = Gerardo_Guaiquil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50332636
+			cost = 150
+		}
+	}
+	SLK_83886682 = {
+		name = Santiago_Namuncura
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83886682
+			cost = 150
+		}
+	}
+	SLK_83887239 = {
+		name = Aurelio_Foyelkay
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	SLK_83891920 = {
+		name = Gerardo_Foyelkay
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_83891920
+			cost = 150
+		}
+	}
+}

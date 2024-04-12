@@ -1,0 +1,706 @@
+characters = {
+	USA_50332245 = {
+		name = Ulysses_Grant
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_5
+			}
+		}
+		country_leader = {
+			ideology = gen_nazism
+			traits = {  }
+		}
+	}
+	USA_16778060 = {
+		name = Lemuel_Cabot
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_9
+				small = GFX_Portrait_USA_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	USA_16778675 = {
+		name = Joseph_Taylor
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_8
+				small = GFX_Portrait_USA_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader old_guard }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	USA_16779053 = {
+		name = Elihu_Roosevelt
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_6
+				small = GFX_Portrait_USA_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_16780258 = {
+		name = Ephraim_Sedgwick
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_2
+				small = GFX_Portrait_USA_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { engineer_officer infantry_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	USA_16783782 = {
+		name = William_Tecumseh_Sherman
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_3
+				small = GFX_Portrait_USA_Generic_land_3_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer cavalry_officer commando inflexible_strategist logistics_wizard organizer unyielding_defender }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+	USA_33554557 = {
+		name = Amos_Long
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_2
+				small = GFX_Portrait_USA_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	USA_33554617 = {
+		name = James_Longstreet
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_1
+				small = GFX_Portrait_USA_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer infantry_officer inflexible_strategist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	USA_33555449 = {
+		name = Alben_Rainwater
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_4
+				small = GFX_Portrait_USA_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_33555912 = {
+		name = Paul_Hallowell
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_7
+				small = GFX_Portrait_USA_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	USA_33557285 = {
+		name = Gordon_Baker
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_1
+				small = GFX_Portrait_USA_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	USA_33557812 = {
+		name = Matthew_Dornblaser
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_5
+				small = GFX_Portrait_USA_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	USA_33557920 = {
+		name = Luther_Sprigg
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_9
+				small = GFX_Portrait_USA_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader old_guard trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_33558596 = {
+		name = Abner_Dudley
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_1
+				small = GFX_Portrait_USA_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	USA_33558722 = {
+		name = Philip_Billingsley
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_8
+				small = GFX_Portrait_USA_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist harsh_leader infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	USA_33559942 = {
+		name = Noah_Osborn
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_1
+				small = GFX_Portrait_USA_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	USA_33559996 = {
+		name = Andrew_Quincy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_33559996
+			cost = 150
+		}
+	}
+	USA_50331688 = {
+		name = Thomas_Jackson
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_6
+				small = GFX_Portrait_USA_Generic_land_6_small
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader infantry_officer organizer trickster }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	USA_50331774 = {
+		name = Elton_Rafferty
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_3
+				small = GFX_Portrait_USA_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	USA_50331867 = {
+		name = Atticus_West
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_3
+				small = GFX_Portrait_USA_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	USA_50333909 = {
+		name = Carter_Craig
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_2
+				small = GFX_Portrait_USA_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { career_officer desert_fox politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	USA_50334086 = {
+		name = Philip_Sheridan
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_4
+				small = GFX_Portrait_USA_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando harsh_leader }
+			skill = 4
+			attack_skill = 6
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	USA_50334224 = {
+		name = Theodore_2_Roosevelt
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { naval_aviation_pioneer }
+			slot = political_advisor
+			idea_token = i_50334224
+			cost = 150
+		}
+	}
+	USA_50334546 = {
+		name = Lemuel_Burnside
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_9
+				small = GFX_Portrait_USA_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	USA_50334774 = {
+		name = Edward_Pruet
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_2
+				small = GFX_Portrait_USA_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	USA_50335044 = {
+		name = Elton_Endicott
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50335044
+			cost = 150
+		}
+	}
+	USA_50335721 = {
+		name = Valentine_2_Holmes
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_2
+				small = GFX_Portrait_USA_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven navy_career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50335721
+			cost = 150
+		}
+	}
+	USA_50337643 = {
+		name = Philip_Tarbox
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_8
+				small = GFX_Portrait_USA_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	USA_50338001 = {
+		name = George_Dewey
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_1
+				small = GFX_Portrait_USA_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { bold gunnery_expert media_personality superior_tactician }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 5
+		}
+	}
+	USA_50338128 = {
+		name = Edward_Kearny
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50338128
+			cost = 150
+		}
+	}
+	USA_67109054 = {
+		name = Dabney_Washington
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_3
+				small = GFX_Portrait_USA_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	USA_67109233 = {
+		name = Lunsford_Hunton
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_7
+				small = GFX_Portrait_USA_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	USA_67109322 = {
+		name = Henry_Venable
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_1
+				small = GFX_Portrait_USA_Generic_navy_1_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67109322
+			cost = 150
+		}
+	}
+	USA_67110690 = {
+		name = Cassius_Sewall
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_6
+				small = GFX_Portrait_USA_Generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67110690
+			cost = 150
+		}
+	}
+	USA_67111265 = {
+		name = Alton_Chetwood
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_2
+				small = GFX_Portrait_USA_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_67111828 = {
+		name = Patrick_Harrison
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_5
+				small = GFX_Portrait_USA_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	USA_83886438 = {
+		name = Chester_Hampton
+		portraits = {
+			navy = {
+				large = GFX_Portrait_USA_Generic_navy_3
+				small = GFX_Portrait_USA_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	USA_83886735 = {
+		name = Erasmus_Fletcher
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_3
+				small = GFX_Portrait_USA_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	USA_83886792 = {
+		name = Evander_Berkeley
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_1
+				small = GFX_Portrait_USA_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	USA_83887033 = {
+		name = Adna_Chaffee
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_7
+				small = GFX_Portrait_USA_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	USA_83887040 = {
+		name = Gustavus_Thompson
+		portraits = {
+			army = {
+				large = GFX_Portrait_USA_Generic_land_4
+				small = GFX_Portrait_USA_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+}

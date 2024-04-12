@@ -1,0 +1,163 @@
+characters = {
+	PAT_16778075 = {
+		name = Antonio_Calfucura
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_land_1
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { charismatic }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	PAT_16778858 = {
+		name = Raul_2_Paillalef
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_16778858
+			cost = 150
+		}
+	}
+	PAT_16778874 = {
+		name = Arturo_Aukan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_16778874
+			cost = 150
+		}
+	}
+	PAT_16780948 = {
+		name = Arturo_Kvlapi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16780948
+			cost = 150
+		}
+	}
+	PAT_33556637 = {
+		name = Gerardo_Calfucura
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	PAT_33558817 = {
+		name = Martin_2_Kumlafken
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33558817
+			cost = 150
+		}
+	}
+	PAT_33558940 = {
+		name = Ramon_Curumilla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33558940
+			cost = 150
+		}
+	}
+	PAT_50331920 = {
+		name = Ignacio_Waikimill
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50331920
+			cost = 150
+		}
+	}
+	PAT_50331950 = {
+		name = Bernardo_Paillalef
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer old_guard }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	PAT_50333585 = {
+		name = Marcos_Calfucura
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50333585
+			cost = 150
+		}
+	}
+	PAT_83886087 = {
+		name = Raul_2_Unquen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83886087
+			cost = 150
+		}
+	}
+}

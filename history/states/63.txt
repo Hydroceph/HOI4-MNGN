@@ -1,0 +1,28 @@
+state = {
+	id = 63
+	name = "STATE_63"
+	manpower = 24792802
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = town
+
+	history = {
+		owner = CHI
+		victory_points = {
+			7222 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = CHI
+	}
+
+	provinces = {
+		1083 1171 4105 4173 4203 7035 7104 7222 10017 10044 10064 11937 11994 12019 12061 
+	}
+}

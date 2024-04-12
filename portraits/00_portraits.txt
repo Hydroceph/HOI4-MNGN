@@ -1,0 +1,3 @@
+default = {
+}
+#All groups should have plenty of generic pictures to draw from.

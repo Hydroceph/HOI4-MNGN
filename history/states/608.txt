@@ -1,0 +1,25 @@
+state = {
+	id = 608
+	name = "STATE_608"
+	manpower = 75585
+	resources = {
+		steel = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SUL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = SUL
+	}
+
+	provinces = {
+		10184 
+	}
+}

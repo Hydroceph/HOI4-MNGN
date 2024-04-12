@@ -1,0 +1,28 @@
+state = {
+	id = 197
+	name = "STATE_197"
+	manpower = 7152588
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = BER
+		victory_points = {
+			9975 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = BER
+	}
+
+	provinces = {
+		1103 1144 4064 4090 4132 4187 7150 7165 7207 9975 10118 11952 12037 12092 
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 204
+	name = "STATE_204"
+	manpower = 1808745
+
+	state_category = town
+
+	history = {
+		owner = AUS
+		victory_points = {
+			3569 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		421 557 569 3414 3569 3583 6485 6562 6576 6590 9551 9567 11511 
+	}
+}

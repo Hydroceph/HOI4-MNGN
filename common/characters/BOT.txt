@@ -1,0 +1,151 @@
+characters = {
+	BOT_16777550 = {
+		name = Molefi_Mogale
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BOT_16779560 = {
+		name = Morwe_Kgosiemang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16779560
+			cost = 150
+		}
+	}
+	BOT_33555907 = {
+		name = Moetapele_Kgosiemang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33555907
+			cost = 150
+		}
+	}
+	BOT_33556167 = {
+		name = Molefi_Kgosiemang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_33556167
+			cost = 150
+		}
+	}
+	BOT_33558665 = {
+		name = Morwe_Mogale
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BOT_33560739 = {
+		name = Sebele_Bakwna
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	BOT_50332225 = {
+		name = Mowen_Batsapong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50332225
+			cost = 150
+		}
+	}
+	BOT_50332266 = {
+		name = Sebele_Bakgalakgadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_50332266
+			cost = 150
+		}
+	}
+	BOT_50332483 = {
+		name = Gaone_Bamangwato
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50332483
+			cost = 150
+		}
+	}
+	BOT_50338063 = {
+		name = Kefentse_Bakalaka
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50338063
+			cost = 150
+		}
+	}
+	BOT_67115523 = {
+		name = Kabelo_Bakalaka
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67115523
+			cost = 150
+		}
+	}
+}

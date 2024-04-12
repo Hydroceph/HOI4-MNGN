@@ -1,0 +1,151 @@
+characters = {
+	AHG_16777299 = {
+		name = Majila_Ikhia
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	AHG_16778995 = {
+		name = Kiddu_ag_Muhammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778995
+			cost = 150
+		}
+	}
+	AHG_16779226 = {
+		name = In_Tayaden_Ikhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16779226
+			cost = 150
+		}
+	}
+	AHG_33556228 = {
+		name = Musa_ag_Amellal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33556228
+			cost = 150
+		}
+	}
+	AHG_33556852 = {
+		name = Ahmad_Ag_Alhabib
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_33556852
+			cost = 150
+		}
+	}
+	AHG_33559421 = {
+		name = Attici_ag_Amellal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33559421
+			cost = 150
+		}
+	}
+	AHG_50332476 = {
+		name = Ahmad_ag_Amastan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50332476
+			cost = 150
+		}
+	}
+	AHG_67110111 = {
+		name = Abareybon_Ikhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67110111
+			cost = 150
+		}
+	}
+	AHG_67110601 = {
+		name = Ahmad_al-Hajj
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110601
+			cost = 150
+		}
+	}
+	AHG_67112278 = {
+		name = Moussa_al-Hajj
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_67112278
+			cost = 150
+		}
+	}
+}

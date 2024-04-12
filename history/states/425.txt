@@ -1,0 +1,27 @@
+state = {
+	id = 425
+	name = "STATE_425"
+	manpower = 940762
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SHW
+		victory_points = {
+			13242 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = SHW
+	}
+
+	provinces = {
+		4954 13242 
+	}
+}

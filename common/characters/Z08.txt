@@ -1,0 +1,163 @@
+characters = {
+	Z08_33557902 = {
+		name = Frederic_Wilson-Patten
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_europe_generic_7
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {  }
+		}
+	}
+	Z08_16778698 = {
+		name = Bertrand_Darter
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_16778698
+			cost = 150
+		}
+	}
+	Z08_16783656 = {
+		name = Windham_Deas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_16783656
+			cost = 150
+		}
+	}
+	Z08_16783971 = {
+		name = Matthew_Brightwen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_16783971
+			cost = 150
+		}
+	}
+	Z08_33557919 = {
+		name = Gipps_McBean
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { reluctant_interventionist }
+			slot = political_advisor
+			idea_token = i_33557919
+			cost = 150
+		}
+	}
+	Z08_33558087 = {
+		name = Benjamin_McNab
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	Z08_33560834 = {
+		name = Archibald_Wallace
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33560834
+			cost = 150
+		}
+	}
+	Z08_50332884 = {
+		name = Ivar_Ramsay
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	Z08_50334381 = {
+		name = Ivar_Baird
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50334381
+			cost = 150
+		}
+	}
+	Z08_50335058 = {
+		name = Struan_Brightwen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	Z08_83886355 = {
+		name = Samuel_Bowes-Lyon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_83886355
+			cost = 150
+		}
+	}
+}

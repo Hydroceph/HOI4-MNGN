@@ -1,0 +1,160 @@
+characters = {
+	TIB_33557126 = {
+		name = Trimon_Lhalu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	TIB_16782403 = {
+		name = Mipham_Lhalu
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	TIB_33557711 = {
+		name = Penor_Ngapoi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	TIB_33557974 = {
+		name = Tsarong_Lungshar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_33557974
+			cost = 150
+		}
+	}
+	TIB_33559874 = {
+		name = Chamba_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_33559874
+			cost = 150
+		}
+	}
+	TIB_50333103 = {
+		name = Tsepon_Shatra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50333103
+			cost = 150
+		}
+	}
+	TIB_50335116 = {
+		name = Trimon_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50335116
+			cost = 150
+		}
+	}
+	TIB_67109761 = {
+		name = Gendun_Wangyal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67109761
+			cost = 150
+		}
+	}
+	TIB_67109922 = {
+		name = Namgang_Tashi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67109922
+			cost = 150
+		}
+	}
+	TIB_83887978 = {
+		name = Penor_Tashi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83887978
+			cost = 150
+		}
+	}
+	TIB_83888898 = {
+		name = Tsepon_Dzasa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83888898
+			cost = 150
+		}
+	}
+}

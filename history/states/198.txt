@@ -1,0 +1,28 @@
+state = {
+	id = 198
+	name = "STATE_198"
+	manpower = 2781381
+	resources = {
+		tungsten = 7
+	}
+
+	state_category = rural
+
+	history = {
+		owner = TIG
+		victory_points = {
+			1984 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = TIG
+	}
+
+	provinces = {
+		1984 2040 2072 5041 5097 7944 13236 13237 13238 13240 13241 
+	}
+}

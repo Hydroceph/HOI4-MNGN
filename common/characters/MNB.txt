@@ -1,0 +1,157 @@
+characters = {
+	MNB_16777593 = {
+		name = Mauva_Alenga
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MNB_16782777 = {
+		name = Mabi_Bukuru
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	MNB_16783737 = {
+		name = Kisempia_Nyirambarato
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_16783737
+			cost = 150
+		}
+	}
+	MNB_33555008 = {
+		name = Ilunga_Nyirambarato
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_33555008
+			cost = 150
+		}
+	}
+	MNB_33555633 = {
+		name = Koloso_Muwayi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33555633
+			cost = 150
+		}
+	}
+	MNB_33558103 = {
+		name = Mabi_Sungilanga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_33558103
+			cost = 150
+		}
+	}
+	MNB_33559012 = {
+		name = Kisula_Alenga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33559012
+			cost = 150
+		}
+	}
+	MNB_33561334 = {
+		name = Banza_Bihamba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33561334
+			cost = 150
+		}
+	}
+	MNB_50331801 = {
+		name = Ilunga_Sungilanga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50331801
+			cost = 150
+		}
+	}
+	MNB_50336386 = {
+		name = Mauva_Bukuru
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50336386
+			cost = 150
+		}
+	}
+	MNB_67110745 = {
+		name = Koloso_Mbangu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67110745
+			cost = 150
+		}
+	}
+}

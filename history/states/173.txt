@@ -1,0 +1,31 @@
+state = {
+	id = 173
+	name = "STATE_173"
+	manpower = 1464423
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = TUR
+		victory_points = {
+			6938 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			3967 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		890 904 979 3905 3919 3967 3982 6920 6938 6995 9844 11866 11883 
+	}
+}

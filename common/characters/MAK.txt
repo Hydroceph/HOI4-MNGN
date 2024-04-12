@@ -1,0 +1,168 @@
+characters = {
+	MAK_6801 = {
+		name = Khudadad_Baloch
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MAK_16778329 = {
+		name = Abdullah_Baloch
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_16778329
+			cost = 150
+		}
+	}
+	MAK_16778673 = {
+		name = Azam_Dashtyari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_16778673
+			cost = 150
+		}
+	}
+	MAK_33557883 = {
+		name = Mehrab_Badini
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MAK_33558853 = {
+		name = Mohammad_Badini
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_33558853
+			cost = 150
+		}
+	}
+	MAK_33559364 = {
+		name = Mohammad_Gurmani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33559364
+			cost = 150
+		}
+	}
+	MAK_50332630 = {
+		name = Khudadad_Ahmedani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50332630
+			cost = 150
+		}
+	}
+	MAK_50333887 = {
+		name = Mohammad_Dashtyari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50333887
+			cost = 150
+		}
+	}
+	MAK_50334656 = {
+		name = Zulfiqar_Badini
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50334656
+			cost = 150
+		}
+	}
+	MAK_50338250 = {
+		name = Salman_Bugti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50338250
+			cost = 150
+		}
+	}
+	MAK_83887496 = {
+		name = Mehrab_Bugti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887496
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 179
+	name = "STATE_179"
+	manpower = 2227196
+
+	state_category = rural
+
+	history = {
+		owner = FRA
+		victory_points = {
+			11702 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = FRA
+	}
+
+	provinces = {
+		752 755 760 929 3749 3754 3948 6775 6792 6962 9717 9734 9751 11702 11709 11718 11720 
+	}
+}

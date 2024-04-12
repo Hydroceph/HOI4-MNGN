@@ -1,0 +1,151 @@
+characters = {
+	AIR_16777560 = {
+		name = Ag_Mama_Ikhia
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	AIR_16778840 = {
+		name = Ag_Mama_ag_Sidi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_16778840
+			cost = 150
+		}
+	}
+	AIR_16783751 = {
+		name = Ag_Mama_ag_Muhammad
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader old_guard trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	AIR_33557858 = {
+		name = Aytarel_Ikhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33557858
+			cost = 150
+		}
+	}
+	AIR_50331749 = {
+		name = Islaman_ag_Sidi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50331749
+			cost = 150
+		}
+	}
+	AIR_50335787 = {
+		name = Attici_ag_Amastan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50335787
+			cost = 150
+		}
+	}
+	AIR_50337177 = {
+		name = Aytarel_ag_Muhammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50337177
+			cost = 150
+		}
+	}
+	AIR_50337277 = {
+		name = Hasso_Ag_Alhabib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50337277
+			cost = 150
+		}
+	}
+	AIR_67108902 = {
+		name = Issouf_ag_Muhammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_67108902
+			cost = 150
+		}
+	}
+	AIR_67109180 = {
+		name = In_Tayaden_Ikhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67109180
+			cost = 150
+		}
+	}
+	AIR_67110765 = {
+		name = Majila_Ikhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+}

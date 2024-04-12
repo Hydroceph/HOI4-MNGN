@@ -1,0 +1,123 @@
+characters = {
+	Z10_16779957 = {
+		name = LeO_nidas_Caamano
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_7
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	Z10_33555954 = {
+		name = Angel_Ortiz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_33555954
+			cost = 150
+		}
+	}
+	Z10_33556121 = {
+		name = Gabriel_Gonzalez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556121
+			cost = 150
+		}
+	}
+	Z10_33557779 = {
+		name = Gregorio_Robles
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_33557779
+			cost = 150
+		}
+	}
+	Z10_50334330 = {
+		name = Gabriel_Gual
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50334330
+			cost = 150
+		}
+	}
+	Z10_67111596 = {
+		name = Gustavo_Andueza
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67111596
+			cost = 150
+		}
+	}
+	Z10_83886725 = {
+		name = Rodolfo_de_Olmedo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_83886725
+			cost = 150
+		}
+	}
+	Z10_83887069 = {
+		name = Ricardo_Santander
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_83887069
+			cost = 150
+		}
+	}
+}

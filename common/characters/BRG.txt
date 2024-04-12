@@ -1,0 +1,168 @@
+characters = {
+	BRG_16777302 = {
+		name = Seku_Denianke
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BRG_16782087 = {
+		name = Amadu_Ribadu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_1
+				small = GFX_Portrait_Africa_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	BRG_16784046 = {
+		name = Fodey_Keita
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16784046
+			cost = 150
+		}
+	}
+	BRG_33555326 = {
+		name = Amara_Jaabi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33555326
+			cost = 150
+		}
+	}
+	BRG_33556629 = {
+		name = Abdullahi_Sa_id_Tall
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556629
+			cost = 150
+		}
+	}
+	BRG_33559078 = {
+		name = Fodey_Kanneh
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	BRG_50333701 = {
+		name = Malam_Denianke
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BRG_50333763 = {
+		name = Muhammed_Bayero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50333763
+			cost = 150
+		}
+	}
+	BRG_67113319 = {
+		name = Alhassani_Quiwonkpa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67113319
+			cost = 150
+		}
+	}
+	BRG_67114508 = {
+		name = Tukur_Bayero
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67114508
+			cost = 150
+		}
+	}
+	BRG_83888268 = {
+		name = Balobo_Dadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83888268
+			cost = 150
+		}
+	}
+	BRG_83888895 = {
+		name = Ahmadu_Amadu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83888895
+			cost = 150
+		}
+	}
+}

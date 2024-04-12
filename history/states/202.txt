@@ -1,0 +1,28 @@
+state = {
+	id = 202
+	name = "STATE_202"
+	manpower = 573663
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = KOK
+		victory_points = {
+			1919 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = KOK
+	}
+
+	provinces = {
+		1919 4542 8027 10187 10417 12250 12430 12581 12805 
+	}
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 494
+	name = "STATE_494"
+	manpower = 99701
+	resources = {
+		chromium = 14
+	}
+
+	state_category = rural
+
+	history = {
+		owner = CAN
+		victory_points = {
+			12505 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			12505 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CAN
+	}
+
+	provinces = {
+		373 1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 486
+	name = "STATE_486"
+	manpower = 560491
+	resources = {
+		steel = 5
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = POR
+		victory_points = {
+			12950 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			12935 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		2120 5155 12935 12950 
+	}
+}

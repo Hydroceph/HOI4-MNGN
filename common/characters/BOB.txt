@@ -1,0 +1,145 @@
+characters = {
+	BOB_16777838 = {
+		name = Kenje_Kimpanzu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BOB_16779004 = {
+		name = Mfutila_Mvemba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_16779004
+			cost = 150
+		}
+	}
+	BOB_50332874 = {
+		name = Nteve_Nimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332874
+			cost = 150
+		}
+	}
+	BOB_50334158 = {
+		name = Raimi_Songomeno
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50334158
+			cost = 150
+		}
+	}
+	BOB_50334273 = {
+		name = Kenje_Mvemba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334273
+			cost = 150
+		}
+	}
+	BOB_50335143 = {
+		name = Mfutila_Kimpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50335143
+			cost = 150
+		}
+	}
+	BOB_67111640 = {
+		name = Chata_Nkutu
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando naval_invader trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_67111640
+			cost = 150
+		}
+	}
+	BOB_67114286 = {
+		name = Musawenkosi_Bokondji
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67114286
+			cost = 150
+		}
+	}
+	BOB_83886403 = {
+		name = M_voudoukousala_Kimpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BOB_100664051 = {
+		name = Mfutila_Lukeni
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_100664051
+			cost = 150
+		}
+	}
+}

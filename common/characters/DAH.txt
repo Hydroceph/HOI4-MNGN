@@ -1,0 +1,191 @@
+characters = {
+	DAH_16779881 = {
+		name = Glele_Aladaxonou
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	DAH_16782415 = {
+		name = Behanzin_Aladaxonou
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	DAH_33556003 = {
+		name = Tegbessou_Danhome
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_1
+				small = GFX_Portrait_Africa_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	DAH_33556534 = {
+		name = Behanzin_Guedegbe
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_3
+				small = GFX_Portrait_Africa_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	DAH_33556831 = {
+		name = Ghezo_Zedoko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556831
+			cost = 150
+		}
+	}
+	DAH_33557733 = {
+		name = Glele_Aladaxonou
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_33557733
+			cost = 150
+		}
+	}
+	DAH_33558301 = {
+		name = Glele_Madogugu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33558301
+			cost = 150
+		}
+	}
+	DAH_33560876 = {
+		name = Kpengla_Aladaxonou
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33560876
+			cost = 150
+		}
+	}
+	DAH_50332521 = {
+		name = Behanzin_Djigla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50332521
+			cost = 150
+		}
+	}
+	DAH_67109740 = {
+		name = Tegbessou_Basagla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_67109740
+			cost = 150
+		}
+	}
+	DAH_67110178 = {
+		name = Kpengla_Chadakogundo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67110178
+			cost = 150
+		}
+	}
+	DAH_83891826 = {
+		name = Adandozan_Houegbadja
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83891826
+			cost = 150
+		}
+	}
+	DAH_100669385 = {
+		name = Agadja_Djigla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100669385
+			cost = 150
+		}
+	}
+}

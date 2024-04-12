@@ -1,0 +1,456 @@
+characters = {
+	GER_16781755 = {
+		name = Heinrich_von_Hohenzollern
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	GER_16777531 = {
+		name = Ernst_Scherer
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_1
+				small = GFX_Portrait_Germany_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	GER_16778994 = {
+		name = Max_von_Hausen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_3
+				small = GFX_Portrait_Germany_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist commando harsh_leader organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	GER_16780820 = {
+		name = Helmuth_von_Moltke
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_1
+				small = GFX_Portrait_Germany_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	GER_16782290 = {
+		name = Hugo_von_Hennig
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_3
+				small = GFX_Portrait_Germany_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	GER_16782294 = {
+		name = Ludwig_Cetto
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_4
+				small = GFX_Portrait_Germany_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	GER_33555400 = {
+		name = Johann_von_ThU_nen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_9
+				small = GFX_Portrait_Germany_Generic_land_9_small
+			}
+		}
+		field_marshal = {
+			traits = { engineer_officer inflexible_strategist old_guard unyielding_defender }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	GER_33556550 = {
+		name = Erwin_Hallwachs
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_8
+				small = GFX_Portrait_Germany_Generic_land_8_small
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer old_guard organizer thorough_planner trickster }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	GER_33556963 = {
+		name = August_Karl_von_Goeben
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_6
+				small = GFX_Portrait_Germany_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist infantry_officer inflexible_strategist }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	GER_33557188 = {
+		name = Hasso_von_Sybel
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_2
+				small = GFX_Portrait_Germany_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer organizer ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33557188
+			cost = 150
+		}
+	}
+	GER_33558444 = {
+		name = Klemens_Miklas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33558444
+			cost = 150
+		}
+	}
+	GER_33560688 = {
+		name = Michael_Brill
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33560688
+			cost = 150
+		}
+	}
+	GER_33560830 = {
+		name = Anton_von_Berlichingen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_7
+				small = GFX_Portrait_Germany_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando engineer_officer }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	GER_50331649 = {
+		name = Prince_Friedrich_Karl_von_Hohenzollern
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_3
+				small = GFX_Portrait_Germany_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer brilliant_strategist cavalry_officer organizer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 5
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { mastermind_code_cracker }
+			slot = political_advisor
+			idea_token = i_50331649
+			cost = 150
+		}
+	}
+	GER_50332004 = {
+		name = Esaias_von_Solms-Laubach
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_7
+				small = GFX_Portrait_Germany_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	GER_50332015 = {
+		name = Viktor_von_Seyssel_d_Aix
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_3
+				small = GFX_Portrait_Germany_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners seawolf }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	GER_50332200 = {
+		name = Peter_von_Richthofen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50332200
+			cost = 150
+		}
+	}
+	GER_50333587 = {
+		name = Georg_von_Holstein-Gottorp
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_2
+				small = GFX_Portrait_Germany_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality old_guard_navy }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	GER_50335019 = {
+		name = Paul_von_Hindenburg
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_5
+				small = GFX_Portrait_Germany_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer inflexible_strategist }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	GER_50335601 = {
+		name = Maximilian_von_Maffei
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_5
+				small = GFX_Portrait_Germany_Generic_land_5_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer trait_mountaineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_50335601
+			cost = 150
+		}
+	}
+	GER_67108866 = {
+		name = Peter_Roepke
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_1
+				small = GFX_Portrait_Germany_Generic_navy_1_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67108866
+			cost = 150
+		}
+	}
+	GER_67109916 = {
+		name = Lothar_Auerbach
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67109916
+			cost = 150
+		}
+	}
+	GER_67110286 = {
+		name = Edmund_Miklas
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_2
+				small = GFX_Portrait_Germany_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	GER_67111147 = {
+		name = Martin_von_Rinecker
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_1
+				small = GFX_Portrait_Germany_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	GER_67114912 = {
+		name = Friedrich_Wilhelm_von_Hohenzollern
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67114912
+			cost = 150
+		}
+	}
+	GER_83889642 = {
+		name = Nikolaus_von_La_Roche-Starkenfels
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_4
+				small = GFX_Portrait_Germany_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+}

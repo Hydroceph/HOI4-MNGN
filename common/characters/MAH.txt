@@ -1,0 +1,156 @@
+characters = {
+	MAH_16780307 = {
+		name = Kamil_ibn_Abd_Allah
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	MAH_33555523 = {
+		name = Umar_ibn_Ja_far
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_33555523
+			cost = 150
+		}
+	}
+	MAH_33557271 = {
+		name = Ahmad_Nuseibeh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33557271
+			cost = 150
+		}
+	}
+	MAH_33557612 = {
+		name = Yahya_al_Mahri
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33557612
+			cost = 150
+		}
+	}
+	MAH_33558547 = {
+		name = Hisham_al-Ghani_al-Nabulsi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33558547
+			cost = 150
+		}
+	}
+	MAH_50333540 = {
+		name = Nur_al-Din_Al_Sharqi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50333540
+			cost = 150
+		}
+	}
+	MAH_67109189 = {
+		name = Ibrahim_al_Mahri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	MAH_67109349 = {
+		name = Tawfiq_Al_Maktoum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67109349
+			cost = 150
+		}
+	}
+	MAH_67109912 = {
+		name = Kamil_al_Saud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_67109912
+			cost = 150
+		}
+	}
+	MAH_67110792 = {
+		name = Yahya_al-Himsi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110792
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,1409 @@
+characters = {
+	CHI_2747 = {
+		name = Yizhu_Aisin_Gioro
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	CHI_2753 = {
+		name = Lexing_Zhang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_2753
+			cost = 150
+		}
+	}
+	CHI_16777683 = {
+		name = Mao_Zhang
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer cavalry_officer inflexible_strategist logistics_wizard organizer unyielding_defender }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_16778239 = {
+		name = Nalan_Xingde
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer inflexible_strategist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CHI_16778247 = {
+		name = Changlin_Shuncheng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_16778247
+			cost = 150
+		}
+	}
+	CHI_16778654 = {
+		name = Mao_Cui
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	CHI_16778702 = {
+		name = Xie_Zhao
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader infantry_officer old_guard }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHI_16778737 = {
+		name = Liu_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	CHI_16778845 = {
+		name = Wang_Nie
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CHI_16778864 = {
+		name = Mingzhu_Tiemei
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer ranger trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_16778989 = {
+		name = Wang_Li
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	CHI_16778990 = {
+		name = Liao_Ma
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHI_16779494 = {
+		name = Hsia_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHI_16779866 = {
+		name = Tong_Keqin
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_zhang_xueliang
+				small = GFX_portrait_chi_zhang_xueliang_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer trait_cautious trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	CHI_16779932 = {
+		name = Zhang_Fang
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly gunnery_expert superior_tactician }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 5
+		}
+	}
+	CHI_16780471 = {
+		name = Sonin_Fu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert media_personality }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	CHI_16780765 = {
+		name = Kwong_Nie
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners seawolf }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	CHI_16780851 = {
+		name = Nalan_Guo
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CHI_16780918 = {
+		name = Yang_Li
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy seawolf }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	CHI_16781432 = {
+		name = Tong_LiLu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality craven gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	CHI_16781461 = {
+		name = Wang_Zhang
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	CHI_16781751 = {
+		name = Wang_Li
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { engineer_officer fortress_buster infantry_officer organizer thorough_planner trait_cautious }
+			skill = 6
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	CHI_16782668 = {
+		name = Ruchang_Ding
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	CHI_16782900 = {
+		name = Oboi_Kang_an
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando infantry_officer trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	CHI_16783186 = {
+		name = Songgotu_Xian
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	CHI_16783701 = {
+		name = Xie_Cui
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHI_16783702 = {
+		name = Changlin_Xingde
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox ranger }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	CHI_16783746 = {
+		name = Mingzhu_Zhon
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		field_marshal = {
+			traits = { commando inflexible_strategist old_guard unyielding_defender }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	CHI_16783780 = {
+		name = Suksaha_Kang_an
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_zhang_xueliang
+				small = GFX_portrait_chi_zhang_xueliang_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	CHI_33555492 = {
+		name = Pan_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer desert_fox infantry_officer organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 6
+			logistics_skill = 1
+		}
+	}
+	CHI_33555624 = {
+		name = Fu_Shen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	CHI_33555717 = {
+		name = Zhao_Shen
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHI_33555944 = {
+		name = Zhao_Tiemei
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33555944
+			cost = 150
+		}
+	}
+	CHI_33556083 = {
+		name = Ma_Wen
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	CHI_33556148 = {
+		name = Songgotu_Aisin_Gioro
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33556148
+			cost = 150
+		}
+	}
+	CHI_33556223 = {
+		name = Hu_Hu
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer ranger trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_33557040 = {
+		name = Yang_Nie
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	CHI_33557120 = {
+		name = Gao_Zhang
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	CHI_33557630 = {
+		name = Zhao_Zheng
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_zhang_xueliang
+				small = GFX_portrait_chi_zhang_xueliang_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious trait_mountaineer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	CHI_33557708 = {
+		name = Liang_Cui
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CHI_33557725 = {
+		name = Yang_Qiu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		field_marshal = {
+			traits = { desert_fox inflexible_strategist logistics_wizard organizer trait_reckless unyielding_defender }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_33557887 = {
+		name = Ma_Zhuang
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CHI_33557928 = {
+		name = Nalan_Shuncheng
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHI_33558013 = {
+		name = Hsia_Li
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners old_guard_navy }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	CHI_33558075 = {
+		name = Guan_Zheng
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	CHI_33558173 = {
+		name = Prince_Gong_Aisin_Gioro
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33558173
+			cost = 150
+		}
+	}
+	CHI_33558177 = {
+		name = Hsia_Fang
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer career_officer politically_connected trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_33558191 = {
+		name = Chen_Ting
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHI_33558530 = {
+		name = Songgotu_Su
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	CHI_33558842 = {
+		name = Guan_Ning
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		corps_commander = {
+			traits = { commando ranger trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	CHI_33559299 = {
+		name = Suksaha_Xingde
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CHI_33559304 = {
+		name = Hesehn_Tiemei
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_zhang_xueliang
+				small = GFX_portrait_chi_zhang_xueliang_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	CHI_33559501 = {
+		name = Ma_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer inflexible_strategist organizer thorough_planner unyielding_defender }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	CHI_33560109 = {
+		name = Huang_Dong
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHI_33560599 = {
+		name = Suksaha_Tiemei
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33560599
+			cost = 150
+		}
+	}
+	CHI_33560721 = {
+		name = Suksaha_Xiangying
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CHI_33560793 = {
+		name = Fu_Cheng
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	CHI_33560868 = {
+		name = Deng_Yi
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando harsh_leader trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_33560978 = {
+		name = Yu_Nie
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	CHI_33561049 = {
+		name = Hesehn_Shen
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_zhang_xueliang
+				small = GFX_portrait_chi_zhang_xueliang_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer trait_cautious }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_33561097 = {
+		name = Mao_Cui
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	CHI_50332208 = {
+		name = Changlin_Linge
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50332208
+			cost = 150
+		}
+	}
+	CHI_50332296 = {
+		name = Guan_Zhi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	CHI_50332513 = {
+		name = Zhao_He
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = { commando inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	CHI_50333334 = {
+		name = Mingzhu_Xian
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	CHI_50333356 = {
+		name = Liang_Li
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	CHI_50334634 = {
+		name = Liang_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer harsh_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	CHI_50335175 = {
+		name = Nalan_Ning
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_zhang_xueliang
+				small = GFX_portrait_chi_zhang_xueliang_small
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	CHI_50335185 = {
+		name = Zhao_Rui
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	CHI_50336144 = {
+		name = Mao_Nie
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	CHI_50337631 = {
+		name = Tong_Tiemei
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	CHI_50338016 = {
+		name = Suksaha_Chun
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CHI_67110150 = {
+		name = Dong_Ting
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67110150
+			cost = 150
+		}
+	}
+	CHI_67110239 = {
+		name = Yang_Peng
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_2
+				small = GFX_Portrait_Asia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHI_67110430 = {
+		name = Mingzhu_Yu
+		portraits = {
+			army = {
+				large = GFX_portrait_man_zhang_haipeng
+				small = GFX_portrait_man_zhang_haipeng_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHI_67111182 = {
+		name = Guan_Xiangying
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { superior_tactician }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	CHI_67112434 = {
+		name = Yu_Cui
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	CHI_67113235 = {
+		name = Hsia_Wei
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CHI_67113783 = {
+		name = Wang_Cui
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	CHI_83886664 = {
+		name = Zhang_Lu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	CHI_83887077 = {
+		name = Suksaha_Zhanshan
+		portraits = {
+			army = {
+				large = GFX_portrait_man_aisin_gioro_xiqia
+				small = GFX_portrait_man_aisin_gioro_xiqia_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	CHI_83889639 = {
+		name = Xie_Fang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83889639
+			cost = 150
+		}
+	}
+	CHI_100663605 = {
+		name = Hesehn_Xian
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer navy_career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	CHI_134223913 = {
+		name = Deng_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

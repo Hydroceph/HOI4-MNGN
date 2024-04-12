@@ -1,0 +1,24 @@
+state = {
+	id = 350
+	name = "STATE_350"
+	manpower = 450251
+
+	state_category = town
+
+	history = {
+		owner = MOD
+		victory_points = {
+			9907 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
+		add_core_of = MOD
+	}
+
+	provinces = {
+		910 9907 
+	}
+}

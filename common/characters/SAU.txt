@@ -1,0 +1,162 @@
+characters = {
+	SAU_16778231 = {
+		name = Hasan_al_Saud
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SAU_33558713 = {
+		name = Umar_al_Saud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SAU_33559784 = {
+		name = Abd_al-Karim_ibn_Khalid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33559784
+			cost = 150
+		}
+	}
+	SAU_50332314 = {
+		name = Ja_far_ibn_Hasan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SAU_50333662 = {
+		name = Jamal_ibn_Abd_al-Qadir
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer commando trait_mountaineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_50333662
+			cost = 150
+		}
+	}
+	SAU_50334118 = {
+		name = Nur_al-Din_ibn_Hasan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50334118
+			cost = 150
+		}
+	}
+	SAU_50336118 = {
+		name = Kamil_ibn_Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50336118
+			cost = 150
+		}
+	}
+	SAU_50337502 = {
+		name = Sa_d_al-Din_ibm_Kamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_50337502
+			cost = 150
+		}
+	}
+	SAU_67111299 = {
+		name = Umar_ibn_Uthman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_67111299
+			cost = 150
+		}
+	}
+	SAU_67111927 = {
+		name = Ali_al_Ulayyan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67111927
+			cost = 150
+		}
+	}
+	SAU_83889874 = {
+		name = Shukri_Al_Sharqi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83889874
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,157 @@
+characters = {
+	LND_16778540 = {
+		name = Kahala_Mbande
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	LND_1547 = {
+		name = Kahala_Kaza
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_1547
+			cost = 150
+		}
+	}
+	LND_16779563 = {
+		name = Kakembembe_Kacingangu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16779563
+			cost = 150
+		}
+	}
+	LND_16780254 = {
+		name = Ngelo_Kacingangu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_16780254
+			cost = 150
+		}
+	}
+	LND_16783535 = {
+		name = Mushidi_Mbili
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_16783535
+			cost = 150
+		}
+	}
+	LND_16783561 = {
+		name = Kayangula_Mbande
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_16783561
+			cost = 150
+		}
+	}
+	LND_33558129 = {
+		name = Kinya_Matamba
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { naval_invader politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	LND_33559239 = {
+		name = Mudib_Kamong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33559239
+			cost = 150
+		}
+	}
+	LND_33559900 = {
+		name = Kangapu_Futa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33559900
+			cost = 150
+		}
+	}
+	LND_50334956 = {
+		name = Kakembembe_Cimbungu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50334956
+			cost = 150
+		}
+	}
+	LND_50336830 = {
+		name = Ciasungu_Kaneketela
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50336830
+			cost = 150
+		}
+	}
+}

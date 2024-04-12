@@ -1,0 +1,28 @@
+state = {
+	id = 655
+	name = "STATE_655"
+	manpower = 134663
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = BLG
+		victory_points = {
+			7415 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = BLG
+	}
+
+	provinces = {
+		1404 2047 5226 7415 10325 12243 
+	}
+}

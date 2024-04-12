@@ -1,0 +1,29 @@
+state = {
+	id = 247
+	name = "STATE_247"
+	manpower = 575469
+	resources = {
+		steel = 3
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AUS
+		victory_points = {
+			925 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			967 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		925 967 3885 6926 9879 11790 11861 
+	}
+}

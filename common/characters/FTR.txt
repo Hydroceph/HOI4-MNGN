@@ -1,0 +1,162 @@
+characters = {
+	FTR_16778402 = {
+		name = Mbanyi_Sall
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	FTR_33556691 = {
+		name = Taanor_Koddu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556691
+			cost = 150
+		}
+	}
+	FTR_33557133 = {
+		name = Baka_Tam
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_33557133
+			cost = 150
+		}
+	}
+	FTR_33557671 = {
+		name = Al-Buri_Cisse
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { superior_firepower_expert }
+			slot = political_advisor
+			idea_token = i_33557671
+			cost = 150
+		}
+	}
+	FTR_33557696 = {
+		name = Lat_Peya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33557696
+			cost = 150
+		}
+	}
+	FTR_50331821 = {
+		name = Balobo_Ibrahim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50331821
+			cost = 150
+		}
+	}
+	FTR_50332865 = {
+		name = Amado_Sall
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332865
+			cost = 150
+		}
+	}
+	FTR_50334678 = {
+		name = Yusufu_Dadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50334678
+			cost = 150
+		}
+	}
+	FTR_67111404 = {
+		name = Abdullahi_Toorodi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_67111404
+			cost = 150
+		}
+	}
+	FTR_83888915 = {
+		name = Yaqub_Bello
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83888915
+			cost = 150
+		}
+	}
+}

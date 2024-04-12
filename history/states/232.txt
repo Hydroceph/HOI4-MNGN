@@ -1,0 +1,27 @@
+state = {
+	id = 232
+	name = "STATE_232"
+	manpower = 1058183
+
+	state_category = rural
+
+	history = {
+		owner = TTS
+		victory_points = {
+			3923 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			9838 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TTS
+	}
+
+	provinces = {
+		963 3910 3923 3966 6831 9838 11882 
+	}
+}

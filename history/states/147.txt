@@ -1,0 +1,34 @@
+state = {
+	id = 147
+	name = "STATE_147"
+	manpower = 1903524
+	resources = {
+		aluminium = 2
+		chromium = 2
+		steel = 14
+	}
+
+	state_category = town
+
+	history = {
+		owner = CON
+		victory_points = {
+			12051 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			12051 = {
+				naval_base = 1
+			}
+			air_base = 6
+		}
+		add_core_of = CON
+	}
+
+	provinces = {
+		1058 1141 1160 4970 5053 7149 9943 9976 10059 10078 11953 12034 12051 12888 
+	}
+}

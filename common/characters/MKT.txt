@@ -1,0 +1,157 @@
+characters = {
+	MKT_33555219 = {
+		name = Matthew_Dilson
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_7
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MKT_2935 = {
+		name = George_Augustus_Frederic2
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_2935
+			cost = 150
+		}
+	}
+	MKT_16778230 = {
+		name = Steadman_Warren
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_16778230
+			cost = 150
+		}
+	}
+	MKT_16778664 = {
+		name = Edwin_Carmichael
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778664
+			cost = 150
+		}
+	}
+	MKT_16778785 = {
+		name = Cyril_Gordon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16778785
+			cost = 150
+		}
+	}
+	MKT_33556089 = {
+		name = Peter_Frederic2
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33556089
+			cost = 150
+		}
+	}
+	MKT_33557262 = {
+		name = Arthur_Duperly
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33557262
+			cost = 150
+		}
+	}
+	MKT_33559288 = {
+		name = Eric_Eyre
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	MKT_33560570 = {
+		name = William_Johnson
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33560570
+			cost = 150
+		}
+	}
+	MKT_67109408 = {
+		name = Henry_Morrison
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109408
+			cost = 150
+		}
+	}
+	MKT_67109528 = {
+		name = Reginald_Hall
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67109528
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,180 @@
+characters = {
+	Z07_50335384 = {
+		name = Ferdinand_von_Parseval
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_6
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	Z07_16778860 = {
+		name = Hugo_Kloch
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_16778860
+			cost = 150
+		}
+	}
+	Z07_33555994 = {
+		name = Helmuth_von_Moltke
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33555994
+			cost = 150
+		}
+	}
+	Z07_50332977 = {
+		name = Reinhold_Hoffmann
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50332977
+			cost = 150
+		}
+	}
+	Z07_50334603 = {
+		name = Ludwig_Frings
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_50334603
+			cost = 150
+		}
+	}
+	Z07_50335076 = {
+		name = Vitus_von_Mieg
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_8
+				small = GFX_Portrait_Germany_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	Z07_67109605 = {
+		name = Ignatz_von_Vahlkampf
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_67109605
+			cost = 150
+		}
+	}
+	Z07_83886325 = {
+		name = Leopold_von_Nagel_zu_Aichberg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886325
+			cost = 150
+		}
+	}
+	Z07_83886894 = {
+		name = Valentin_Ruoff
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83886894
+			cost = 150
+		}
+	}
+	Z07_83890692 = {
+		name = August_Henkel
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_1
+				small = GFX_Portrait_Germany_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	Z07_100665486 = {
+		name = Franz_von_Moltke
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_2
+				small = GFX_Portrait_Germany_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	Z07_134224235 = {
+		name = Gerhard_von_Lossow
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_6
+				small = GFX_Portrait_Germany_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+}

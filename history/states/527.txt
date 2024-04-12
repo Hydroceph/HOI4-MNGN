@@ -1,0 +1,23 @@
+state = {
+	id = 527
+	name = "STATE_527"
+	manpower = 1451888
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		7430 12781 
+	}
+}

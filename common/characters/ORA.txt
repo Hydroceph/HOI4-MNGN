@@ -1,0 +1,146 @@
+characters = {
+	ORA_67115713 = {
+		name = Johannes_Burger
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_6
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	ORA_33557826 = {
+		name = Siener_Kruger
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33557826
+			cost = 150
+		}
+	}
+	ORA_33558055 = {
+		name = Johannes_van_Niekerk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_33558055
+			cost = 150
+		}
+	}
+	ORA_33559967 = {
+		name = Christiaan_Pretorius
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33559967
+			cost = 150
+		}
+	}
+	ORA_33560857 = {
+		name = Koos_van_Wyk
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	ORA_33561209 = {
+		name = Siener_Wessels
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33561209
+			cost = 150
+		}
+	}
+	ORA_50331891 = {
+		name = Martinus_de_la_Rey
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { commando organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	ORA_50333416 = {
+		name = Andries_de_Villiers
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333416
+			cost = 150
+		}
+	}
+	ORA_50334698 = {
+		name = Francois_2_van_Zyl
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50334698
+			cost = 150
+		}
+	}
+	ORA_67110812 = {
+		name = Jacobus_de_Kock
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_67110812
+			cost = 150
+		}
+	}
+}

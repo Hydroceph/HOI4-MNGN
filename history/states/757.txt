@@ -1,0 +1,20 @@
+state = {
+	id = 757
+	name = "STATE_757"
+	manpower = 49977
+
+	state_category = rural
+
+	history = {
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		1712 3691 7813 
+	}
+}

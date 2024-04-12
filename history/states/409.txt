@@ -1,0 +1,31 @@
+state = {
+	id = 409
+	name = "STATE_409"
+	manpower = 379204
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = KUT
+		victory_points = {
+			1190 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1190 = {
+				naval_base = 1
+			}
+			air_base = 5
+		}
+		add_core_of = KUT
+	}
+
+	provinces = {
+		1061 1190 7020 
+	}
+}

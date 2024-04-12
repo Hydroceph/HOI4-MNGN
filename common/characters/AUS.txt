@@ -1,0 +1,239 @@
+characters = {
+	AUS_50331924 = {
+		name = Walther_Goering
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	AUS_16777296 = {
+		name = Otto_von_Habsburg
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_9
+				small = GFX_Portrait_Germany_Generic_land_9_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_16777296
+			cost = 150
+		}
+	}
+	AUS_16778741 = {
+		name = Joseph_von_Saporta
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_8
+				small = GFX_Portrait_Germany_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	AUS_16780301 = {
+		name = Karl_von_Habsburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16780301
+			cost = 150
+		}
+	}
+	AUS_16783582 = {
+		name = Luitpold_Prand
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_6
+				small = GFX_Portrait_Germany_Generic_land_6_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer infantry_officer trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	AUS_16783754 = {
+		name = Gustav_von_Speti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_16783754
+			cost = 150
+		}
+	}
+	AUS_33554448 = {
+		name = Erwin_Doll
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_2
+				small = GFX_Portrait_Germany_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	AUS_33554516 = {
+		name = Horst_von_der_Tann-Rathsamhausen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_3
+				small = GFX_Portrait_Germany_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader inflexible_strategist trait_mountaineer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	AUS_33555419 = {
+		name = Alexander_Tafel
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_1
+				small = GFX_Portrait_Germany_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	AUS_33559809 = {
+		name = Alfons_Cella
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_7
+				small = GFX_Portrait_Germany_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	AUS_50331673 = {
+		name = Thomas_Ipfelkofer
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50331673
+			cost = 150
+		}
+	}
+	AUS_50333066 = {
+		name = Eugen_von_Zahringen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50333066
+			cost = 150
+		}
+	}
+	AUS_50338113 = {
+		name = Gottleib_von_Preysing-Moos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50338113
+			cost = 150
+		}
+	}
+	AUS_67109973 = {
+		name = Heinrich_Bleidorn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67109973
+			cost = 150
+		}
+	}
+	AUS_83889768 = {
+		name = Werner_Foerderreuther
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83889768
+			cost = 150
+		}
+	}
+}

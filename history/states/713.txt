@@ -1,0 +1,24 @@
+state = {
+	id = 713
+	name = "STATE_713"
+	manpower = 103475
+
+	state_category = rural
+
+	history = {
+		owner = WAD
+		victory_points = {
+			4897 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = WAD
+	}
+
+	provinces = {
+		1473 4897 4978 
+	}
+}

@@ -1,0 +1,157 @@
+characters = {
+	KRG_16780203 = {
+		name = Namugala_Butiko
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	KRG_16781126 = {
+		name = Chata_Mudimbe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_16781126
+			cost = 150
+		}
+	}
+	KRG_33556650 = {
+		name = Kabulu_Mmamba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556650
+			cost = 150
+		}
+	}
+	KRG_50332235 = {
+		name = Kyabaggo_Lugave
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50332235
+			cost = 150
+		}
+	}
+	KRG_50332624 = {
+		name = Fabunni_Mudimbe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50332624
+			cost = 150
+		}
+	}
+	KRG_50332994 = {
+		name = Makalo_Bulungute
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332994
+			cost = 150
+		}
+	}
+	KRG_50333614 = {
+		name = Kagali_Abalasangeye
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	KRG_50334219 = {
+		name = Terwewalwa_Bagalayze
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50334219
+			cost = 150
+		}
+	}
+	KRG_50334969 = {
+		name = Dume_Zwagendaba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50334969
+			cost = 150
+		}
+	}
+	KRG_67114473 = {
+		name = Chata_Zwagendaba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_67114473
+			cost = 150
+		}
+	}
+	KRG_83890877 = {
+		name = Kalema_Butiko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83890877
+			cost = 150
+		}
+	}
+}

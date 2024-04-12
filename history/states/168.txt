@@ -1,0 +1,27 @@
+state = {
+	id = 168
+	name = "STATE_168"
+	manpower = 1322272
+	resources = {
+		steel = 9
+	}
+
+	state_category = town
+
+	history = {
+		owner = AUS
+		victory_points = {
+			11639 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		676 693 696 3665 3676 3694 6679 6709 9619 11622 11639 
+	}
+}

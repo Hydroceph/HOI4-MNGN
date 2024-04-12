@@ -1,0 +1,32 @@
+state = {
+	id = 193
+	name = "STATE_193"
+	manpower = 1149147
+	resources = {
+		steel = 8
+		tungsten = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SIE
+		victory_points = {
+			2094 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2094 = {
+				naval_base = 1
+			}
+			air_base = 6
+		}
+		add_core_of = SIE
+	}
+
+	provinces = {
+		2038 2094 
+	}
+}

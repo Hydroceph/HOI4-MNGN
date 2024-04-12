@@ -1,0 +1,32 @@
+state = {
+	id = 112
+	name = "STATE_112"
+	manpower = 2041410
+	resources = {
+		aluminium = 24
+	}
+
+	state_category = town
+
+	history = {
+		owner = AUS
+		victory_points = {
+			603 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			11584 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		603 628 3604 3657 6656 9582 9613 11584 
+	}
+}

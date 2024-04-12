@@ -1,0 +1,24 @@
+state = {
+	id = 779
+	name = "STATE_779"
+	manpower = 48882
+	resources = {
+		rubber = 2
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = GER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		10423 
+	}
+}

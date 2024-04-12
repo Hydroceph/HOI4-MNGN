@@ -1,0 +1,27 @@
+state = {
+	id = 407
+	name = "STATE_407"
+	manpower = 112964
+	resources = {
+		tungsten = 8
+	}
+
+	state_category = rural
+
+	history = {
+		owner = CAN
+		victory_points = {
+			7891 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = CAN
+	}
+
+	provinces = {
+		3606 7869 7891 
+	}
+}

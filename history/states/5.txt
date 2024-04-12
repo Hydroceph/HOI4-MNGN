@@ -1,0 +1,34 @@
+state = {
+	id = 5
+	name = "STATE_5"
+	manpower = 3654631
+	resources = {
+		chromium = 74
+		oil = 262
+		steel = 173
+	}
+
+	state_category = city
+
+	history = {
+		owner = ENG
+		victory_points = {
+			6318 2
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			6384 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = ENG
+	}
+
+	provinces = {
+		3205 3311 6318 6335 6384 6399 11332 
+	}
+}

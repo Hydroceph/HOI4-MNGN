@@ -1,0 +1,28 @@
+state = {
+	id = 246
+	name = "STATE_246"
+	manpower = 557154
+	resources = {
+		steel = 10
+		tungsten = 0
+	}
+
+	state_category = town
+
+	history = {
+		owner = PHI
+		victory_points = {
+			12217 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
+		add_core_of = PHI
+	}
+
+	provinces = {
+		1293 1379 1407 7284 10214 10243 10328 12160 12188 12217 12245 
+	}
+}

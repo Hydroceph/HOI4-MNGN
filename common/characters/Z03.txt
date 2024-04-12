@@ -1,0 +1,157 @@
+characters = {
+	Z03_67113776 = {
+		name = Lazare_de_SE_rent
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	Z03_16780386 = {
+		name = Oscar_Archinard
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_16780386
+			cost = 150
+		}
+	}
+	Z03_16780429 = {
+		name = Charles_Roux
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_16780429
+			cost = 150
+		}
+	}
+	Z03_33557808 = {
+		name = Hippolyte_Nancy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33557808
+			cost = 150
+		}
+	}
+	Z03_33558266 = {
+		name = Francois_de_Rochebouet
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	Z03_50335359 = {
+		name = Firmin_Bergeret
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_6
+				small = GFX_Portrait_France_Generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_50335359
+			cost = 150
+		}
+	}
+	Z03_50338107 = {
+		name = Maurice_Pellissier
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50338107
+			cost = 150
+		}
+	}
+	Z03_67109042 = {
+		name = Just_de_Montmorency-Laval
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109042
+			cost = 150
+		}
+	}
+	Z03_100663405 = {
+		name = Thibaut_Pasquier
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_2
+				small = GFX_Portrait_France_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	Z03_100664096 = {
+		name = Armand_Decazes
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100664096
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 377
+	name = "STATE_377"
+	manpower = 606015
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = DAH
+		victory_points = {
+			10919 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = DAH
+	}
+
+	provinces = {
+		10919 
+	}
+}

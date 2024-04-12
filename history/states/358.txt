@@ -1,0 +1,26 @@
+state = {
+	id = 358
+	name = "STATE_358"
+	manpower = 496011
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = GER
+		victory_points = {
+			7658 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		7658 8360 10509 10522 12488 
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 121
+	name = "STATE_121"
+	manpower = 1907594
+	resources = {
+		rubber = 114
+		tungsten = 11
+	}
+
+	state_category = town
+
+	history = {
+		owner = PBC
+		victory_points = {
+			5230 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = PBC
+	}
+
+	provinces = {
+		5188 5230 8157 8211 8225 8240 10938 10982 10996 12917 13195 
+	}
+}

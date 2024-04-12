@@ -1,0 +1,143 @@
+characters = {
+	UAE_100663796 = {
+		name = Ali_al_Nahyan
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	UAE_16782067 = {
+		name = Shukri_ibn_Umar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_16782067
+			cost = 150
+		}
+	}
+	UAE_33557191 = {
+		name = Abd_al-Rahman_ibm_Kamil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_33557191
+			cost = 150
+		}
+	}
+	UAE_33558109 = {
+		name = Uthman_Al_Sharqi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_33558109
+			cost = 150
+		}
+	}
+	UAE_33558146 = {
+		name = Hisham_ibn_Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33558146
+			cost = 150
+		}
+	}
+	UAE_50333382 = {
+		name = Salim_ibn_Ja_far
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50333382
+			cost = 150
+		}
+	}
+	UAE_50333629 = {
+		name = Abd_al-Karim_al_Ulayyan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	UAE_67115742 = {
+		name = Ibrahim_Al_Sharqi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67115742
+			cost = 150
+		}
+	}
+	UAE_83886722 = {
+		name = Ahmad_al_Qasimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83886722
+			cost = 150
+		}
+	}
+	UAE_117440556 = {
+		name = Abd_al-Qadir_ibn_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117440556
+			cost = 150
+		}
+	}
+}

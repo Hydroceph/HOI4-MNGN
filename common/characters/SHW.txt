@@ -1,0 +1,194 @@
+characters = {
+	SHW_3080 = {
+		name = Haile_Melekot_Solomon
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SHW_16778890 = {
+		name = Alemayehu_Makonnen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16778890
+			cost = 150
+		}
+	}
+	SHW_16783344 = {
+		name = Berhanu_Cherecha
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_1
+				small = GFX_portrait_ETH_generic_male_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SHW_33555089 = {
+		name = Saleh_Selassie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33555089
+			cost = 150
+		}
+	}
+	SHW_33557562 = {
+		name = Saleh_Solomon
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_4
+				small = GFX_portrait_ETH_generic_male_4_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist old_guard ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SHW_33557637 = {
+		name = Debela_Eabisa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_33557637
+			cost = 150
+		}
+	}
+	SHW_50337529 = {
+		name = Tsegaye_Qallu
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_3
+				small = GFX_portrait_ETH_generic_male_3_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SHW_67109040 = {
+		name = Abadula_Eabisa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67109040
+			cost = 150
+		}
+	}
+	SHW_67113482 = {
+		name = Abdus_Dinagde
+		portraits = {
+			army = {
+				large = GFX_portrait_ETH_generic_male_1
+				small = GFX_portrait_ETH_generic_male_1_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SHW_83886406 = {
+		name = Demissie_Mariam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83886406
+			cost = 150
+		}
+	}
+	SHW_83886558 = {
+		name = Gobana_Makonnen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83886558
+			cost = 150
+		}
+	}
+	SHW_100669675 = {
+		name = Amare_Ali_Aba_Deyas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100669675
+			cost = 150
+		}
+	}
+	SHW_134217966 = {
+		name = Berhanu_Solomon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_134217966
+			cost = 150
+		}
+	}
+}

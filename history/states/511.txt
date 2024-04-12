@@ -1,0 +1,27 @@
+state = {
+	id = 511
+	name = "STATE_511"
+	manpower = 414227
+	resources = {
+		rubber = 81
+	}
+
+	state_category = town
+
+	history = {
+		owner = AUS
+		victory_points = {
+			5026 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		1887 2007 5026 10792 12729 12770 12825 
+	}
+}

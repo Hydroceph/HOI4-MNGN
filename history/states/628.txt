@@ -1,0 +1,27 @@
+state = {
+	id = 628
+	name = "STATE_628"
+	manpower = 99809
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ARG
+		victory_points = {
+			12942 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = ARG
+	}
+
+	provinces = {
+		5152 5184 5219 8208 10975 10985 12942 12970 
+	}
+}

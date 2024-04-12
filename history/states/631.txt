@@ -1,0 +1,23 @@
+state = {
+	id = 631
+	name = "STATE_631"
+	manpower = 772391
+
+	state_category = rural
+
+	history = {
+		owner = CHI
+		victory_points = {
+			4682 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		1703 1766 1943 1970 2015 2074 4682 4828 4923 4973 5016 5042 5087 7273 7790 7949 8042 8086 8112 10315 10821 10885 10911 12119 12864 
+	}
+}

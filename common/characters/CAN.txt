@@ -1,0 +1,247 @@
+characters = {
+	CAN_50331780 = {
+		name = Louis-Adelard_Papineau
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	CAN_16783367 = {
+		name = Frederick_Monck
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer career_officer defensive_doctrine infantry_officer trait_cautious }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_16783367
+			cost = 150
+		}
+	}
+	CAN_16783748 = {
+		name = Olivier_Robitaille
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_16783748
+			cost = 150
+		}
+	}
+	CAN_33555575 = {
+		name = Peter_Armour
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	CAN_33556482 = {
+		name = Robert_Neil
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer old_guard }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	CAN_33558003 = {
+		name = Alfred_Diggs
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33558003
+			cost = 150
+		}
+	}
+	CAN_33558255 = {
+		name = Mark_Neil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33558255
+			cost = 150
+		}
+	}
+	CAN_50332873 = {
+		name = Frederick_Mitchell
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { commando naval_invader old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	CAN_50335226 = {
+		name = Alexander_Pottinger
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	CAN_67110048 = {
+		name = Hermenegilde_Senecal
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	CAN_83886925 = {
+		name = Mackenzie_Abbott
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83886925
+			cost = 150
+		}
+	}
+	CAN_100663574 = {
+		name = Ulric-Joseph_Cauchon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100663574
+			cost = 150
+		}
+	}
+	CAN_100665415 = {
+		name = Hugh_Dougall
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer infantry_officer ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { grand_battle_plan_expert }
+			slot = political_advisor
+			idea_token = i_100665415
+			cost = 150
+		}
+	}
+	CAN_100668008 = {
+		name = Mark_Jones
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+}

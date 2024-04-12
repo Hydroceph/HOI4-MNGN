@@ -1,0 +1,32 @@
+state = {
+	id = 101
+	name = "STATE_101"
+	manpower = 3131826
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = town
+
+	history = {
+		owner = TTS
+		victory_points = {
+			819 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			955 = {
+				naval_base = 1
+			}
+			air_base = 6
+		}
+		add_core_of = TTS
+	}
+
+	provinces = {
+		819 851 923 955 3958 6972 9826 
+	}
+}

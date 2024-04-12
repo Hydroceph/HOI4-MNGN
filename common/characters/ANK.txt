@@ -1,0 +1,174 @@
+characters = {
+	ANK_16777949 = {
+		name = Chata_Nkole
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	ANK_16780548 = {
+		name = Kamwimbile_Nkole
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_16780548
+			cost = 150
+		}
+	}
+	ANK_16782244 = {
+		name = Semakookiro_Mmamba
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ANK_33556728 = {
+		name = Makalo_Zwagendaba
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer cavalry_officer ranger trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 1
+		}
+	}
+	ANK_50332243 = {
+		name = Makalo_Bulungute
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332243
+			cost = 150
+		}
+	}
+	ANK_50332503 = {
+		name = Bakari_Msemwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50332503
+			cost = 150
+		}
+	}
+	ANK_50335235 = {
+		name = Bash_Kasanda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50335235
+			cost = 150
+		}
+	}
+	ANK_50338380 = {
+		name = Jabilo_Mkasiwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50338380
+			cost = 150
+		}
+	}
+	ANK_67112460 = {
+		name = Kalema_Lugave
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67112460
+			cost = 150
+		}
+	}
+	ANK_67113937 = {
+		name = Reth_Mirambo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67113937
+			cost = 150
+		}
+	}
+	ANK_83888673 = {
+		name = Kagali_Butiko
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83888673
+			cost = 150
+		}
+	}
+	ANK_100664335 = {
+		name = Terwewalwa_Njovu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100664335
+			cost = 150
+		}
+	}
+}

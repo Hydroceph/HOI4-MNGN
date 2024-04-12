@@ -1,0 +1,146 @@
+characters = {
+	COS_83886771 = {
+		name = Pedro_Menendez
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_7
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	COS_16781065 = {
+		name = Felipe_Escalon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_16781065
+			cost = 150
+		}
+	}
+	COS_33554962 = {
+		name = Oscar_2_Esquivel
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist organizer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	COS_33555905 = {
+		name = Alejandro_Martinez_2
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33555905
+			cost = 150
+		}
+	}
+	COS_33556017 = {
+		name = Arturo_Ubico
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556017
+			cost = 150
+		}
+	}
+	COS_33557664 = {
+		name = Santiago_Lopez
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	COS_33557844 = {
+		name = Juan_Pablo_Barillas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_33557844
+			cost = 150
+		}
+	}
+	COS_50333202 = {
+		name = Jacobo_Figueroa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50333202
+			cost = 150
+		}
+	}
+	COS_67110814 = {
+		name = Daniel_Regalado
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_67110814
+			cost = 150
+		}
+	}
+	COS_100663807 = {
+		name = Tiburcio_Barahona
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100663807
+			cost = 150
+		}
+	}
+}

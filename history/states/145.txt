@@ -1,0 +1,28 @@
+state = {
+	id = 145
+	name = "STATE_145"
+	manpower = 2636199
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = town
+
+	history = {
+		owner = BUK
+		victory_points = {
+			10671 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = BUK
+	}
+
+	provinces = {
+		1216 1384 1459 1532 1554 1573 1623 4488 4499 4629 4636 4686 7501 7507 7639 7682 7775 7777 10148 10205 10366 10420 10470 10601 10671 11687 12161 12218 12239 12722 
+	}
+}

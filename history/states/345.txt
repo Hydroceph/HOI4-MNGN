@@ -1,0 +1,27 @@
+state = {
+	id = 345
+	name = "STATE_345"
+	manpower = 837106
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = MOR
+		victory_points = {
+			9945 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = MOR
+	}
+
+	provinces = {
+		989 1111 4097 4199 7215 9945 10113 12087 
+	}
+}

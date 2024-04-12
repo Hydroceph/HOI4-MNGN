@@ -1,0 +1,22 @@
+state = {
+	id = 467
+	name = "STATE_467"
+	manpower = 100758
+
+	state_category = rural
+
+	history = {
+		owner = TAH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = TAH
+	}
+
+	provinces = {
+		1280 13294 
+	}
+}

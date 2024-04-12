@@ -1,0 +1,28 @@
+state = {
+	id = 151
+	name = "STATE_151"
+	manpower = 1848083
+	resources = {
+		tungsten = 7
+	}
+
+	state_category = rural
+
+	history = {
+		owner = BUN
+		victory_points = {
+			4410 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = BUN
+	}
+
+	provinces = {
+		4410 5040 8120 10332 
+	}
+}

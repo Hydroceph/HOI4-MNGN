@@ -1,0 +1,157 @@
+characters = {
+	Z01_6810 = {
+		name = Kumwimba_Ilunga
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	Z01_16778709 = {
+		name = Maloba_Nsungu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778709
+			cost = 150
+		}
+	}
+	Z01_16780819 = {
+		name = Kasongo_Ilunga
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer old_guard ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	Z01_33555805 = {
+		name = Nday_Nyembo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33555805
+			cost = 150
+		}
+	}
+	Z01_33556922 = {
+		name = Maniema_Ilunga
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33556922
+			cost = 150
+		}
+	}
+	Z01_50333209 = {
+		name = Ndaye_Futa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50333209
+			cost = 150
+		}
+	}
+	Z01_50334668 = {
+		name = Kasongo_Kalombo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50334668
+			cost = 150
+		}
+	}
+	Z01_50335462 = {
+		name = Ndaye_Nyembo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50335462
+			cost = 150
+		}
+	}
+	Z01_50337756 = {
+		name = Kisula_Kabale
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50337756
+			cost = 150
+		}
+	}
+	Z01_67109624 = {
+		name = Maniema_Nyembo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_67109624
+			cost = 150
+		}
+	}
+	Z01_67110196 = {
+		name = Kitamba_Nsungu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_67110196
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 58
+	name = "STATE_58"
+	manpower = 1406495
+	resources = {
+		chromium = 14
+		steel = 62
+	}
+
+	state_category = town
+
+	history = {
+		owner = SWE
+		victory_points = {
+			6050 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			11082 = {
+				naval_base = 1
+			}
+			air_base = 6
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		35 69 77 114 147 156 161 3005 3063 3070 3106 3128 3141 3148 3182 6028 6050 6084 6093 6123 6127 6147 6164 6188 6195 6209 6311 6397 9054 9109 9138 9149 9173 9182 9185 9193 9209 9218 9308 9393 11044 11053 11070 11082 11114 11163 11188 11197 11278 11289 11380 
+	}
+}

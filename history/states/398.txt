@@ -1,0 +1,29 @@
+state = {
+	id = 398
+	name = "STATE_398"
+	manpower = 434511
+	resources = {
+		aluminium = 0
+		steel = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AIT
+		victory_points = {
+			4046 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = AIT
+	}
+
+	provinces = {
+		4046 7065 13077 
+	}
+}

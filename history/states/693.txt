@@ -1,0 +1,20 @@
+state = {
+	id = 693
+	name = "STATE_693"
+	manpower = 2627
+
+	state_category = rural
+
+	history = {
+		owner = DEN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		13003 
+	}
+}

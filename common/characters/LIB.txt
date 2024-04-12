@@ -1,0 +1,171 @@
+characters = {
+	LIB_33559300 = {
+		name = Leonard_Joplin
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	LIB_16782309 = {
+		name = Frederick_Russell
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_1
+				small = GFX_Portrait_Africa_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist cavalry_officer desert_fox trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	LIB_16784070 = {
+		name = Abraham_Forten
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16784070
+			cost = 150
+		}
+	}
+	LIB_33556230 = {
+		name = Daniel_Jasper
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_1
+				small = GFX_Portrait_Africa_Generic_navy_1_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { seawolf superior_tactician }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+		advisor = {
+			traits = { submarine_specialist }
+			slot = political_advisor
+			idea_token = i_33556230
+			cost = 150
+		}
+	}
+	LIB_33557629 = {
+		name = Perry_House
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33557629
+			cost = 150
+		}
+	}
+	LIB_33559765 = {
+		name = Jermain_Cass
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	LIB_33561009 = {
+		name = Nicholas_Horton
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33561009
+			cost = 150
+		}
+	}
+	LIB_50333735 = {
+		name = Solomon_Higgins
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50333735
+			cost = 150
+		}
+	}
+	LIB_50336631 = {
+		name = Zedekiah_Lawton
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50336631
+			cost = 150
+		}
+	}
+	LIB_67109279 = {
+		name = Caesar_Pennington
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67109279
+			cost = 150
+		}
+	}
+	LIB_67111789 = {
+		name = Stephen_Demas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67111789
+			cost = 150
+		}
+	}
+}

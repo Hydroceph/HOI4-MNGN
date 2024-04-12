@@ -1,0 +1,28 @@
+state = {
+	id = 222
+	name = "STATE_222"
+	manpower = 2540673
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = DAI
+		victory_points = {
+			4075 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = DAI
+	}
+
+	provinces = {
+		1073 1157 1185 4075 4119 4529 7015 7093 7518 9948 10075 10103 10129 12008 12048 12065 12075 12319 
+	}
+}

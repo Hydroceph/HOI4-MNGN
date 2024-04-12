@@ -1,0 +1,230 @@
+characters = {
+	SPM_3060 = {
+		name = Vittorio_Emanuele_di_Savoia
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SPM_16778652 = {
+		name = Camillo_Niccolini
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16778652
+			cost = 150
+		}
+	}
+	SPM_16782550 = {
+		name = Sebastiano_Ricardi_di_Netro
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_16782550
+			cost = 150
+		}
+	}
+	SPM_33554811 = {
+		name = Gennaro_Petitti_Bagliani_di_Roreto
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_3
+				small = GFX_Portrait_Italy_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_33554811
+			cost = 150
+		}
+	}
+	SPM_33555104 = {
+		name = Amedeo_Pistone
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33555104
+			cost = 150
+		}
+	}
+	SPM_33555978 = {
+		name = Ignazio_Brofferio
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_7
+				small = GFX_Portrait_Italy_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SPM_33558339 = {
+		name = Oreste_Rubin
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_2
+				small = GFX_Portrait_Italy_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	SPM_33558927 = {
+		name = Camillo_Torelli
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_1
+				small = GFX_Portrait_Italy_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_33558927
+			cost = 150
+		}
+	}
+	SPM_50332038 = {
+		name = Vittorio_Costa_de_Beauregard
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50332038
+			cost = 150
+		}
+	}
+	SPM_50333610 = {
+		name = Fiorenzo_Amaretti
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_1
+				small = GFX_Portrait_Italy_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	SPM_50333772 = {
+		name = Giuseppe_Pelloux
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_4
+				small = GFX_Portrait_Italy_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	SPM_50336063 = {
+		name = Secondo_Bo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50336063
+			cost = 150
+		}
+	}
+	SPM_50337998 = {
+		name = Ottavio_di_Savoia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50337998
+			cost = 150
+		}
+	}
+	SPM_67111288 = {
+		name = Alessandro_Demaria
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67111288
+			cost = 150
+		}
+	}
+}

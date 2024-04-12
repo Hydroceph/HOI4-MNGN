@@ -1,0 +1,23 @@
+state = {
+	id = 488
+	name = "STATE_488"
+	manpower = 1314809
+
+	state_category = rural
+
+	history = {
+		owner = SOV
+		victory_points = {
+			3559 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		536 562 3458 3497 3521 3559 3586 6416 6484 6511 6580 9427 9452 9521 11399 11430 
+	}
+}

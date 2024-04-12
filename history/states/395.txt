@@ -1,0 +1,24 @@
+state = {
+	id = 395
+	name = "STATE_395"
+	manpower = 393867
+
+	state_category = rural
+
+	history = {
+		owner = AUS
+		victory_points = {
+			3631 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		596 665 3631 3654 6650 9596 9627 
+	}
+}

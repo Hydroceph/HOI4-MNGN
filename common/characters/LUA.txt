@@ -1,0 +1,168 @@
+characters = {
+	LUA_33555726 = {
+		name = Unkeo_Chao
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	LUA_16781488 = {
+		name = Phraya_Chao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_16781488
+			cost = 150
+		}
+	}
+	LUA_16782816 = {
+		name = Chantha_Ong
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_16782816
+			cost = 150
+		}
+	}
+	LUA_33558881 = {
+		name = Sukha_Anuvong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33558881
+			cost = 150
+		}
+	}
+	LUA_33558913 = {
+		name = Anurutha_Anuvong
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	LUA_50333939 = {
+		name = Sukha_Intharavong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50333939
+			cost = 150
+		}
+	}
+	LUA_50335163 = {
+		name = Phraya_Intharavong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50335163
+			cost = 150
+		}
+	}
+	LUA_50338002 = {
+		name = Unkham_Long
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50338002
+			cost = 150
+		}
+	}
+	LUA_67109525 = {
+		name = Sisavang_Kuman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67109525
+			cost = 150
+		}
+	}
+	LUA_83886327 = {
+		name = Sukha_Long
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_83886327
+			cost = 150
+		}
+	}
+	LUA_83888867 = {
+		name = Ong_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83888867
+			cost = 150
+		}
+	}
+}

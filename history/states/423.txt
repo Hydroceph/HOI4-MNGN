@@ -1,0 +1,26 @@
+state = {
+	id = 423
+	name = "STATE_423"
+	manpower = 562791
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = SOV
+		victory_points = {
+			3668 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		666 670 683 700 712 728 1450 1455 3667 3668 3672 3682 3711 4463 6689 6701 6702 6730 6748 7554 7624 9628 9632 9645 9647 11609 11632 
+	}
+}

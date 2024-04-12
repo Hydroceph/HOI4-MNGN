@@ -1,0 +1,151 @@
+characters = {
+	SRK_3107 = {
+		name = Mustojo_Hamengkubuwono
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	SRK_16778904 = {
+		name = Soegija_Nurus
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_16778904
+			cost = 150
+		}
+	}
+	SRK_16780425 = {
+		name = Slamet_Djalaluddin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16780425
+			cost = 150
+		}
+	}
+	SRK_16780989 = {
+		name = Ahmad_Djojohadikusumo
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SRK_33554636 = {
+		name = Panembahan_Notomidjojo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33554636
+			cost = 150
+		}
+	}
+	SRK_33559070 = {
+		name = Abul_Sepuh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_33559070
+			cost = 150
+		}
+	}
+	SRK_33559560 = {
+		name = Panembahan_Soerjowinoto
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_33559560
+			cost = 150
+		}
+	}
+	SRK_50332468 = {
+		name = Muhammad_Hasyim_Pakualaman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50332468
+			cost = 150
+		}
+	}
+	SRK_50335125 = {
+		name = Zainul_Nurus
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_50335125
+			cost = 150
+		}
+	}
+	SRK_67109077 = {
+		name = Dorodjatun_Hamengkubuwono
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SRK_83887882 = {
+		name = Cirebon_Emiruddin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83887882
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 256
+	name = "STATE_256"
+	manpower = 364420
+
+	state_category = town
+
+	history = {
+		owner = DEN
+		victory_points = {
+			6235 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
+		add_core_of = DEN
+	}
+
+	provinces = {
+		316 394 399 3206 3277 3341 6235 6364 13259 13262 13263 
+	}
+}

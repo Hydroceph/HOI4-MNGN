@@ -1,0 +1,26 @@
+state = {
+	id = 720
+	name = "STATE_720"
+	manpower = 28685
+	resources = {
+		rubber = 13
+	}
+
+	state_category = rural
+
+	history = {
+		owner = GER
+		victory_points = {
+			5139 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		5139 
+	}
+}

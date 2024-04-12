@@ -1,0 +1,30 @@
+state = {
+	id = 138
+	name = "STATE_138"
+	manpower = 1919693
+	resources = {
+		rubber = 0
+		tungsten = 5
+	}
+
+	state_category = town
+
+	history = {
+		owner = ZAN
+		victory_points = {
+			8183 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 6
+		}
+		add_core_of = ZAN
+	}
+
+	provinces = {
+		2196 5210 8182 8183 
+	}
+}

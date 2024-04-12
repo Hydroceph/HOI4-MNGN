@@ -1,0 +1,27 @@
+state = {
+	id = 380
+	name = "STATE_380"
+	manpower = 953627
+	resources = {
+		aluminium = 0
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = ARG
+		victory_points = {
+			10992 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		2149 2215 7550 8215 10935 10992 11021 12321 12998 
+	}
+}

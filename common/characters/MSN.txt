@@ -1,0 +1,168 @@
+characters = {
+	MSN_16778187 = {
+		name = Usman_Ribadu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MSN_16780468 = {
+		name = Abdullahi_Saraki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16780468
+			cost = 150
+		}
+	}
+	MSN_16780800 = {
+		name = Malam_Ribadu
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_16780800
+			cost = 150
+		}
+	}
+	MSN_33555053 = {
+		name = Tidiani_Toorodi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33555053
+			cost = 150
+		}
+	}
+	MSN_33557065 = {
+		name = Alfa_Fodio
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33557065
+			cost = 150
+		}
+	}
+	MSN_50333861 = {
+		name = Muhammed_Bello
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333861
+			cost = 150
+		}
+	}
+	MSN_67109542 = {
+		name = Alfa_Denianke
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67109542
+			cost = 150
+		}
+	}
+	MSN_67111701 = {
+		name = Yusufu_Amadu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67111701
+			cost = 150
+		}
+	}
+	MSN_67115303 = {
+		name = Amadu_Ribadu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_67115303
+			cost = 150
+		}
+	}
+	MSN_83887885 = {
+		name = Malam_Dadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83887885
+			cost = 150
+		}
+	}
+	MSN_83888542 = {
+		name = Abdullahi_Bayero
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { commando desert_fox inflexible_strategist }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

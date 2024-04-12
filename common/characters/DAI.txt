@@ -1,0 +1,201 @@
+characters = {
+	DAI_16782876 = {
+		name = Noang_Cao_Nguyen_Phuoc
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	DAI_16781401 = {
+		name = Nguyen_Phuoc_Than
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_16781401
+			cost = 150
+		}
+	}
+	DAI_16782920 = {
+		name = Nguyen_Phuoc_Khai
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	DAI_16783007 = {
+		name = Nguyen_Pham
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_3
+				small = GFX_Portrait_Asia_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16783007
+			cost = 150
+		}
+	}
+	DAI_16784115 = {
+		name = Tran_Nien
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16784115
+			cost = 150
+		}
+	}
+	DAI_33560083 = {
+		name = Nguyen_Ngo_Dinh
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { mastermind_code_cracker }
+			slot = political_advisor
+			idea_token = i_33560083
+			cost = 150
+		}
+	}
+	DAI_50334471 = {
+		name = Nguyen_Nguyen_Phuoc
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	DAI_50335075 = {
+		name = Nguyen_Truong-Minh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50335075
+			cost = 150
+		}
+	}
+	DAI_50335387 = {
+		name = Tran_Khai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50335387
+			cost = 150
+		}
+	}
+	DAI_50335894 = {
+		name = Ton_That_Buu_Lan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50335894
+			cost = 150
+		}
+	}
+	DAI_67109546 = {
+		name = Tran_Truong-Minh
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	DAI_100664091 = {
+		name = Noang_Cao_Cuong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_100664091
+			cost = 150
+		}
+	}
+}

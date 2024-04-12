@@ -1,0 +1,28 @@
+state = {
+	id = 243
+	name = "STATE_243"
+	manpower = 1352179
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = UGA
+		victory_points = {
+			12989 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = UGA
+	}
+
+	provinces = {
+		12929 12989 
+	}
+}

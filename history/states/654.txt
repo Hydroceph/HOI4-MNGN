@@ -1,0 +1,28 @@
+state = {
+	id = 654
+	name = "STATE_654"
+	manpower = 99898
+	resources = {
+		tungsten = 0
+	}
+
+	state_category = rural
+
+	history = {
+		owner = MKT
+		victory_points = {
+			2075 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = MKT
+	}
+
+	provinces = {
+		2075 
+	}
+}

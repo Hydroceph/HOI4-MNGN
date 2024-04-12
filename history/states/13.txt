@@ -1,0 +1,29 @@
+state = {
+	id = 13
+	name = "STATE_13"
+	manpower = 18514245
+	resources = {
+		steel = 29
+		tungsten = 9
+	}
+
+	state_category = large_town
+
+	history = {
+		owner = RAJ
+		victory_points = {
+			2086 2
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = RAJ
+	}
+
+	provinces = {
+		1898 2032 2086 3989 4915 5002 5086 5157 9951 10021 10794 11955 12868 
+	}
+}

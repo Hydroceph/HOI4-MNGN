@@ -1,0 +1,22 @@
+state = {
+	id = 762
+	name = "STATE_762"
+	manpower = 80364
+
+	state_category = rural
+
+	history = {
+		owner = GGO
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = GGO
+	}
+
+	provinces = {
+		12911 
+	}
+}

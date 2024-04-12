@@ -1,0 +1,191 @@
+characters = {
+	MAD_6820 = {
+		name = Rabiby_Hova
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MAD_16778781 = {
+		name = Tonanahary_Andriamahazo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_16778781
+			cost = 150
+		}
+	}
+	MAD_33556991 = {
+		name = Tonanahary_Razafindramary
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556991
+			cost = 150
+		}
+	}
+	MAD_33559634 = {
+		name = Ratsimivila_Bemihisatra
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { commando inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	MAD_33560929 = {
+		name = Tonanahary_Hova
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33560929
+			cost = 150
+		}
+	}
+	MAD_50331694 = {
+		name = Rabiby_Hova
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50331694
+			cost = 150
+		}
+	}
+	MAD_67109319 = {
+		name = Lamboina_Hova
+		portraits = {
+			navy = {
+				large = GFX_Portrait_asia_generic_navy_4
+				small = GFX_Portrait_asia_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	MAD_67109340 = {
+		name = Andriantsirotso_Ratsiraka
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67109340
+			cost = 150
+		}
+	}
+	MAD_67109464 = {
+		name = Lamboina_Ratsimandrava
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_67109464
+			cost = 150
+		}
+	}
+	MAD_67109974 = {
+		name = Ratsimivila_Ratsimandrava
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109974
+			cost = 150
+		}
+	}
+	MAD_67113913 = {
+		name = Ratsimivila_Ramavo
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	MAD_83888567 = {
+		name = Tsimiharo_Bemihisatra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83888567
+			cost = 150
+		}
+	}
+	MAD_100665035 = {
+		name = Zafimamy_Ratsimandrava
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100665035
+			cost = 150
+		}
+	}
+}

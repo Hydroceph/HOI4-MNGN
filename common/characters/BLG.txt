@@ -1,0 +1,151 @@
+characters = {
+	BLG_2708 = {
+		name = Muhammad_Jalaluddin_Bulungan
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BLG_16780899 = {
+		name = Tuanku_Bendahara
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	BLG_33555975 = {
+		name = Ali_Murshidul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_33555975
+			cost = 150
+		}
+	}
+	BLG_33559588 = {
+		name = Ismail_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33559588
+			cost = 150
+		}
+	}
+	BLG_33561137 = {
+		name = Abdullah_Bulungan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BLG_50332818 = {
+		name = Ali_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_50332818
+			cost = 150
+		}
+	}
+	BLG_50333940 = {
+		name = Shahabuddin_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50333940
+			cost = 150
+		}
+	}
+	BLG_50334608 = {
+		name = Shahabuddin_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50334608
+			cost = 150
+		}
+	}
+	BLG_67111297 = {
+		name = Ali_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_67111297
+			cost = 150
+		}
+	}
+	BLG_83888384 = {
+		name = Aziz_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83888384
+			cost = 150
+		}
+	}
+	BLG_83889921 = {
+		name = Shahabuddin_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83889921
+			cost = 150
+		}
+	}
+}

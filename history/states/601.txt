@@ -1,0 +1,27 @@
+state = {
+	id = 601
+	name = "STATE_601"
+	manpower = 129658
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = AUS
+		victory_points = {
+			8107 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		8107 12716 
+	}
+}

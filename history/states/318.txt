@@ -1,0 +1,31 @@
+state = {
+	id = 318
+	name = "STATE_318"
+	manpower = 419084
+	resources = {
+		tungsten = 6
+	}
+
+	state_category = town
+
+	history = {
+		owner = PBC
+		victory_points = {
+			8199 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			8199 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = PBC
+	}
+
+	provinces = {
+		2156 5162 8199 12969 
+	}
+}

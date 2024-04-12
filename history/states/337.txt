@@ -1,0 +1,24 @@
+state = {
+	id = 337
+	name = "STATE_337"
+	manpower = 1121188
+
+	state_category = rural
+
+	history = {
+		owner = AUS
+		victory_points = {
+			9606 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = AUS
+	}
+
+	provinces = {
+		646 662 3649 9606 11592 11608 
+	}
+}

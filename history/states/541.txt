@@ -1,0 +1,26 @@
+state = {
+	id = 541
+	name = "STATE_541"
+	manpower = 99520
+	resources = {
+		tungsten = 3
+	}
+
+	state_category = town
+
+	history = {
+		owner = ARG
+		victory_points = {
+			8216 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		2136 2158 2179 8195 8216 8253 10964 11022 12928 12978 13309 
+	}
+}

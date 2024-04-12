@@ -1,0 +1,151 @@
+characters = {
+	DFT_16777866 = {
+		name = Rugemaninzi_Vungara
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	DFT_16780014 = {
+		name = Bakar_Fomumbod
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_16780014
+			cost = 150
+		}
+	}
+	DFT_33555949 = {
+		name = Makome_Vungara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33555949
+			cost = 150
+		}
+	}
+	DFT_33556602 = {
+		name = Kabare_Dericoyard
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33556602
+			cost = 150
+		}
+	}
+	DFT_33557761 = {
+		name = Makome_Ntayitunda
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33557761
+			cost = 150
+		}
+	}
+	DFT_33558258 = {
+		name = Ngapna_Boum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33558258
+			cost = 150
+		}
+	}
+	DFT_33558938 = {
+		name = Mwerve_Vungara
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	DFT_50331772 = {
+		name = Ngabwe_Dericoyard
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50331772
+			cost = 150
+		}
+	}
+	DFT_50332987 = {
+		name = Birhenjira_Vungara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_50332987
+			cost = 150
+		}
+	}
+	DFT_50333041 = {
+		name = Rugema_Vungara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	DFT_100664275 = {
+		name = Ndengue_Fomumbod
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100664275
+			cost = 150
+		}
+	}
+}

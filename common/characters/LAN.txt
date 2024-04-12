@@ -1,0 +1,129 @@
+characters = {
+	LAN_67112492 = {
+		name = Zhang_Yucheng
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Asia_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+		}
+	}
+	LAN_16783904 = {
+		name = Deng_Nie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer engineer_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	LAN_33556064 = {
+		name = Chen_Nie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33556064
+			cost = 150
+		}
+	}
+	LAN_50334883 = {
+		name = Li_Zhang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_50334883
+			cost = 150
+		}
+	}
+	LAN_50338242 = {
+		name = Qiu_Dakai
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50338242
+			cost = 150
+		}
+	}
+	LAN_67110455 = {
+		name = Feng_Rengan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67110455
+			cost = 150
+		}
+	}
+	LAN_67110930 = {
+		name = Liu_Li
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67110930
+			cost = 150
+		}
+	}
+	LAN_67114677 = {
+		name = Yang_Yunshan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67114677
+			cost = 150
+		}
+	}
+	LAN_100663929 = {
+		name = Soong_Zhang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100663929
+			cost = 150
+		}
+	}
+}

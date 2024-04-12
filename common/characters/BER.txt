@@ -1,0 +1,208 @@
+characters = {
+	BER_2690 = {
+		name = Ganpat_Rao_Gaekwad
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	BER_16778680 = {
+		name = Fakirbhai_Mangeshkar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_16778680
+			cost = 150
+		}
+	}
+	BER_16781846 = {
+		name = Bharatsingh_Chaudhari
+		portraits = {
+			navy = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent chief_engineer old_guard_navy superior_tactician }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	BER_16782641 = {
+		name = Fakirbhai_Chaudhari
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	BER_33555005 = {
+		name = Anand_Chaudhari
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox engineer_officer inflexible_strategist trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	BER_33555836 = {
+		name = Manubhai_Chaudhari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_33555836
+			cost = 150
+		}
+	}
+	BER_33557854 = {
+		name = Curumsey_Gaekwad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_33557854
+			cost = 150
+		}
+	}
+	BER_50334291 = {
+		name = Jivraj_Ambani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50334291
+			cost = 150
+		}
+	}
+	BER_50335141 = {
+		name = Anand_Solanki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_50335141
+			cost = 150
+		}
+	}
+	BER_50338172 = {
+		name = Anand_Mangeshkar
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	BER_67113657 = {
+		name = Chabildas_Parmar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_67113657
+			cost = 150
+		}
+	}
+	BER_83886592 = {
+		name = Chetan_Modhvadia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83886592
+			cost = 150
+		}
+	}
+	BER_83886865 = {
+		name = Balwantry_Mangeshkar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_83886865
+			cost = 150
+		}
+	}
+	BER_83891392 = {
+		name = Fakirbhai_Modhvadia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83891392
+			cost = 150
+		}
+	}
+}

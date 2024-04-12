@@ -1,0 +1,22 @@
+state = {
+	id = 849
+	name = "STATE_849"
+	manpower = 3133
+
+	state_category = rural
+
+	history = {
+		owner = COL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = COL
+	}
+
+	provinces = {
+		13083 13323 13343 
+	}
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 190
+	name = "STATE_190"
+	manpower = 1702522
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = TTS
+		victory_points = {
+			9784 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			11837 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TTS
+	}
+
+	provinces = {
+		883 6843 6939 6979 6980 9784 11803 11837 11998 
+	}
+}

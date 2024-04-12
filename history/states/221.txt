@@ -1,0 +1,25 @@
+state = {
+	id = 221
+	name = "STATE_221"
+	manpower = 1004100
+	resources = {
+		tungsten = 4
+	}
+
+	state_category = town
+
+	history = {
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+		}
+		add_core_of = RAJ
+	}
+
+	provinces = {
+		1129 2076 7106 12708 
+	}
+}

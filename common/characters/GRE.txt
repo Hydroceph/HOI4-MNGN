@@ -1,0 +1,146 @@
+characters = {
+	GRE_33557615 = {
+		name = Theophilos_Zafyropoulos
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_5
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	GRE_33559292 = {
+		name = Christos_Gerakeris
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_33559292
+			cost = 150
+		}
+	}
+	GRE_33559587 = {
+		name = Nikos_Damaskos
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	GRE_50332660 = {
+		name = Iason_Dalezios
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332660
+			cost = 150
+		}
+	}
+	GRE_50333378 = {
+		name = Efstathios_Grigoriou
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333378
+			cost = 150
+		}
+	}
+	GRE_50334070 = {
+		name = Menelaos_Vasos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50334070
+			cost = 150
+		}
+	}
+	GRE_50337706 = {
+		name = Christoforos_Grigoriadis
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	GRE_67109305 = {
+		name = Dimitrios_Aspiotis
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_67109305
+			cost = 150
+		}
+	}
+	GRE_67114894 = {
+		name = Leonidas_Pyrgos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67114894
+			cost = 150
+		}
+	}
+	GRE_67115110 = {
+		name = William_Maclean
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_67115110
+			cost = 150
+		}
+	}
+}

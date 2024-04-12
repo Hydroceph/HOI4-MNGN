@@ -1,0 +1,28 @@
+state = {
+	id = 571
+	name = "STATE_571"
+	manpower = 244013
+	resources = {
+		tungsten = 1
+	}
+
+	state_category = rural
+
+	history = {
+		owner = KTI
+		victory_points = {
+			12225 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = KTI
+	}
+
+	provinces = {
+		4323 7299 7424 10237 12196 12225 12252 
+	}
+}

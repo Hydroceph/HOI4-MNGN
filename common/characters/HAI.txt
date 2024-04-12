@@ -1,0 +1,191 @@
+characters = {
+	HAI_16779249 = {
+		name = Jacques_Petion
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { harsh_leader }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	HAI_16780400 = {
+		name = Jean_Pierre_Theodore
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	HAI_16783090 = {
+		name = Joseph_Peralte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_16783090
+			cost = 150
+		}
+	}
+	HAI_33556305 = {
+		name = Celigny_Dessalines
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33556305
+			cost = 150
+		}
+	}
+	HAI_33557125 = {
+		name = Simon_Breda
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_4
+				small = GFX_Portrait_Africa_Generic_navy_4_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+		advisor = {
+			traits = { submarine_specialist }
+			slot = political_advisor
+			idea_token = i_33557125
+			cost = 150
+		}
+	}
+	HAI_33559359 = {
+		name = Jean_Roy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33559359
+			cost = 150
+		}
+	}
+	HAI_33560331 = {
+		name = Antenor_Janvier
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	HAI_33560384 = {
+		name = Timoleon_Borno
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_33560384
+			cost = 150
+		}
+	}
+	HAI_33561084 = {
+		name = Michel_Boisrond-Canal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_33561084
+			cost = 150
+		}
+	}
+	HAI_50334676 = {
+		name = Philippe_Leconte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50334676
+			cost = 150
+		}
+	}
+	HAI_100664245 = {
+		name = Thomas_Borno
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100664245
+			cost = 150
+		}
+	}
+	HAI_100666024 = {
+		name = Nissage_Petion
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+}

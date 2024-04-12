@@ -1,0 +1,23 @@
+state = {
+	id = 733
+	name = "STATE_733"
+	manpower = 88337
+
+	state_category = rural
+
+	history = {
+		owner = ARG
+		victory_points = {
+			12306 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+	}
+
+	provinces = {
+		10981 12306 12349 
+	}
+}

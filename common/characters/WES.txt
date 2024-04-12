@@ -1,0 +1,143 @@
+characters = {
+	WES_16781549 = {
+		name = Abd_al-Karim_el_Krim
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	WES_16778859 = {
+		name = Abd_al-Karim_al-Zanatawi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_16778859
+			cost = 150
+		}
+	}
+	WES_16780212 = {
+		name = Ahmed_al-Rifi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_16780212
+			cost = 150
+		}
+	}
+	WES_33554802 = {
+		name = Muhammad_Tanut
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33554802
+			cost = 150
+		}
+	}
+	WES_33557183 = {
+		name = Muhammad_Al-Khattabi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33557183
+			cost = 150
+		}
+	}
+	WES_33558413 = {
+		name = Abd_al-Karim_Al-Khattabi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33558413
+			cost = 150
+		}
+	}
+	WES_33559585 = {
+		name = Abd_al-Karim_Al-Khattabi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	WES_33559701 = {
+		name = Muhammad_el_Krim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_33559701
+			cost = 150
+		}
+	}
+	WES_33560174 = {
+		name = Abd_al-Karim_al-Rifi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_33560174
+			cost = 150
+		}
+	}
+	WES_33560698 = {
+		name = Abd_al-Karim_Iftaten
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_33560698
+			cost = 150
+		}
+	}
+}

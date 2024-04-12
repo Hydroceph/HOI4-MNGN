@@ -1,0 +1,29 @@
+state = {
+	id = 521
+	name = "STATE_521"
+	manpower = 112214
+	resources = {
+		chromium = 2
+		steel = 2
+		tungsten = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = PBC
+		victory_points = {
+			10944 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = PBC
+	}
+
+	provinces = {
+		2224 10944 11001 13304 13310 
+	}
+}

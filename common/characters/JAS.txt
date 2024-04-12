@@ -1,0 +1,168 @@
+characters = {
+	JAS_16779735 = {
+		name = Hayat_Bhatti
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	JAS_33556179 = {
+		name = Durga_Jethwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_33556179
+			cost = 150
+		}
+	}
+	JAS_33557515 = {
+		name = Bhai_Bachittar_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_33557515
+			cost = 150
+		}
+	}
+	JAS_33560217 = {
+		name = Veer_Kunwar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_33560217
+			cost = 150
+		}
+	}
+	JAS_33560335 = {
+		name = Fateh_Raksel
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	JAS_50332255 = {
+		name = Harsha_Shekha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_50332255
+			cost = 150
+		}
+	}
+	JAS_50332613 = {
+		name = Bhai_Jethwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_50332613
+			cost = 150
+		}
+	}
+	JAS_50333401 = {
+		name = Sardar_Kunwar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50333401
+			cost = 150
+		}
+	}
+	JAS_50333638 = {
+		name = Hayat_Raksel
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	JAS_67111676 = {
+		name = Jawapala_ur_Rahman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67111676
+			cost = 150
+		}
+	}
+	JAS_67114270 = {
+		name = Mirza_Raja_Bhatti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	JAS_83888846 = {
+		name = Umar_Bachittar_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83888846
+			cost = 150
+		}
+	}
+}

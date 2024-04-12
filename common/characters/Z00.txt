@@ -1,0 +1,174 @@
+characters = {
+	Z00_16779930 = {
+		name = Felix_von_Habsburg
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+		field_marshal = {
+			traits = { cavalry_officer old_guard }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	Z00_3005 = {
+		name = Wilhelm_Albrecht
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_6
+				small = GFX_Portrait_Italy_Generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_3005
+			cost = 150
+		}
+	}
+	Z00_16778824 = {
+		name = Karl_Ludwig_von_Habsburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_16778824
+			cost = 150
+		}
+	}
+	Z00_33557605 = {
+		name = Davide_Avogadro_di_Casanova
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33557605
+			cost = 150
+		}
+	}
+	Z00_50332996 = {
+		name = Carlo_Gastinelli
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_2
+				small = GFX_Portrait_Italy_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { superior_firepower_expert }
+			slot = political_advisor
+			idea_token = i_50332996
+			cost = 150
+		}
+	}
+	Z00_50338132 = {
+		name = Giuseppe_Sauli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_50338132
+			cost = 150
+		}
+	}
+	Z00_67110969 = {
+		name = Ilario_Avogadro_di_Casanova
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_67110969
+			cost = 150
+		}
+	}
+	Z00_67111379 = {
+		name = Bonaventura_Benintendi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67111379
+			cost = 150
+		}
+	}
+	Z00_83889495 = {
+		name = Gaetano_Cugia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83889495
+			cost = 150
+		}
+	}
+	Z00_100664473 = {
+		name = Giulio_Berruti
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_100664473
+			cost = 150
+		}
+	}
+}

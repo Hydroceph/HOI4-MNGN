@@ -1,0 +1,200 @@
+characters = {
+	MAS_16779059 = {
+		name = Ahmad_El_Djezairi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	MAS_16780424 = {
+		name = Khalid_al-Tanjawi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	MAS_16782068 = {
+		name = Khalid_Imalayen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_16782068
+			cost = 150
+		}
+	}
+	MAS_16782619 = {
+		name = Fuad_ibn_Fuad
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_16782619
+			cost = 150
+		}
+	}
+	MAS_16782625 = {
+		name = Lalla_Fatma_N_Soumer
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	MAS_33556088 = {
+		name = Mustafa_Mukrani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_33556088
+			cost = 150
+		}
+	}
+	MAS_50333051 = {
+		name = Nur_al-Din_Deneche
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333051
+			cost = 150
+		}
+	}
+	MAS_50334423 = {
+		name = Mustafa_al-Alawi
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50334423
+			cost = 150
+		}
+	}
+	MAS_67109406 = {
+		name = Muhammad_el_Krim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67109406
+			cost = 150
+		}
+	}
+	MAS_67110815 = {
+		name = Halil_al-Fasi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67110815
+			cost = 150
+		}
+	}
+	MAS_67113339 = {
+		name = Abd_al-Karim_Tanut
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67113339
+			cost = 150
+		}
+	}
+	MAS_83886674 = {
+		name = Abd_Allah_El_Djezairi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

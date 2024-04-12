@@ -1,0 +1,25 @@
+state = {
+	id = 734
+	name = "STATE_734"
+	manpower = 99923
+
+	state_category = rural
+
+	history = {
+		owner = KBA
+		victory_points = {
+			2024 10
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = KBA
+	}
+
+	provinces = {
+		2024 4128 7716 8016 9986 12775 
+	}
+}

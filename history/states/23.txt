@@ -1,0 +1,33 @@
+state = {
+	id = 23
+	name = "STATE_23"
+	manpower = 3783489
+	resources = {
+		chromium = 69
+		steel = 34
+	}
+
+	state_category = town
+
+	history = {
+		owner = SPM
+		victory_points = {
+			770 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			6788 = {
+				naval_base = 2
+			}
+			air_base = 6
+		}
+		add_core_of = SPM
+	}
+
+	provinces = {
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
+	}
+}

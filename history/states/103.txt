@@ -1,0 +1,33 @@
+state = {
+	id = 103
+	name = "STATE_103"
+	manpower = 1565790
+	resources = {
+		aluminium = 62
+		steel = 14
+		tungsten = 5
+	}
+
+	state_category = town
+
+	history = {
+		owner = SPR
+		victory_points = {
+			7183 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			1048 = {
+				naval_base = 2
+			}
+			air_base = 1
+		}
+		add_core_of = SPR
+	}
+
+	provinces = {
+		875 879 1048 1178 3810 3871 3940 4080 4135 4182 6744 7098 7183 7198 9815 9891 10094 11749 12070 13228 13231 
+	}
+}

@@ -1,0 +1,214 @@
+characters = {
+	Z06_67111009 = {
+		name = Fritz_von_ThU_nen
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_4
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	Z06_33556945 = {
+		name = Hugo_zu_Stolberg-Wernigerode
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_33556945
+			cost = 150
+		}
+	}
+	Z06_33559636 = {
+		name = Hermann_Trunk
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_33559636
+			cost = 150
+		}
+	}
+	Z06_33561205 = {
+		name = Michael_Peters
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_33561205
+			cost = 150
+		}
+	}
+	Z06_50333177 = {
+		name = Johann_Schmidtler
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_50333177
+			cost = 150
+		}
+	}
+	Z06_50333488 = {
+		name = Gunther_von_Doenhoff
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_8
+				small = GFX_Portrait_Germany_Generic_land_8_small
+			}
+		}
+		field_marshal = {
+			traits = { engineer_officer logistics_wizard organizer thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	Z06_50334035 = {
+		name = Johann_Tafel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50334035
+			cost = 150
+		}
+	}
+	Z06_50334844 = {
+		name = Julius_von_Haynau
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_1
+				small = GFX_Portrait_Germany_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	Z06_50337301 = {
+		name = Joachim_Mittwoch
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50337301
+			cost = 150
+		}
+	}
+	Z06_67110253 = {
+		name = Julius_Tafel
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_4
+				small = GFX_Portrait_Germany_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	Z06_83886885 = {
+		name = Ferdinand_Zittel
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_9
+				small = GFX_Portrait_Germany_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	Z06_83887491 = {
+		name = Gunther_von_Bismarck-Bohlen
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Germany_Generic_navy_2
+				small = GFX_Portrait_Germany_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	Z06_100663948 = {
+		name = Ludwig_von_Waldeck_und_Pyrmont
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100663948
+			cost = 150
+		}
+	}
+	Z06_134217896 = {
+		name = Florian_von_Bulow
+		portraits = {
+			army = {
+				large = GFX_Portrait_Germany_Generic_land_6
+				small = GFX_Portrait_Germany_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+}

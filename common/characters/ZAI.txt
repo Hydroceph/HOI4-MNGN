@@ -1,0 +1,160 @@
+characters = {
+	ZAI_67114901 = {
+		name = Nur_al-Din_al_Qasim
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	ZAI_16777616 = {
+		name = Uthman_al_Hashimi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	ZAI_16778706 = {
+		name = Fuad_Al_Sharqi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ZAI_16780313 = {
+		name = Ibrahim_ibn_Abd_Allah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_16780313
+			cost = 150
+		}
+	}
+	ZAI_16781366 = {
+		name = Khalid_ibn_Fuad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_16781366
+			cost = 150
+		}
+	}
+	ZAI_33555245 = {
+		name = Ja_far_al_Qasimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_33555245
+			cost = 150
+		}
+	}
+	ZAI_33560426 = {
+		name = Ahmad_al_Hashimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_33560426
+			cost = 150
+		}
+	}
+	ZAI_50333555 = {
+		name = Uthman_al-Hamawi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333555
+			cost = 150
+		}
+	}
+	ZAI_50338273 = {
+		name = Mustafa_ibn_Ja_far
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50338273
+			cost = 150
+		}
+	}
+	ZAI_67115050 = {
+		name = Ahmad_ibn_Umar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67115050
+			cost = 150
+		}
+	}
+	ZAI_67115322 = {
+		name = Ahmad_ibn_Salim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67115322
+			cost = 150
+		}
+	}
+}
