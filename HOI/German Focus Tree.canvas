@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"b0bad3bd42fda280","type":"text","text":"Continue the new deal (add pp)","x":-80,"y":-1000,"width":250,"height":60},
+		{"id":"92b0068f08599735","type":"text","text":"WPA (add pp)","x":-260,"y":-880,"width":250,"height":60},
+		{"id":"c63785345fa77964","type":"text","text":"AA Act (1/3 fix great depression)","x":-260,"y":-780,"width":250,"height":60},
+		{"id":"fa5604ef3f2913e0","type":"text","text":"Fair labor (2/3 fix great depression)","x":-260,"y":-680,"width":250,"height":60},
+		{"id":"50a5dcf3c8257c38","type":"text","text":"Federal housing (3/3 fix great depression)","x":-260,"y":-580,"width":250,"height":60},
+		{"id":"c3088649d3cacca7","type":"text","text":"Embrace Isolation (modify neutrality act spirit to give bonus')","x":120,"y":-880,"width":250,"height":100},
+		{"id":"ec84ef2d75d08f22","type":"text","text":"The Giant Wakes (when china attacks Finland) (removes isolation national spirit)","x":120,"y":-720,"width":250,"height":100},
+		{"id":"4928473da708fbf7","type":"text","text":"Arsenal of Democracy (add mils)","x":45,"y":-580,"width":250,"height":60},
+		{"id":"786042f90125369a","type":"text","text":"Military Construction (add inf)","x":340,"y":-580,"width":250,"height":60},
+		{"id":"d6d446b7c7d6ce2c","type":"text","text":"USACE projects (add mils and exp)","x":340,"y":-480,"width":250,"height":60},
+		{"id":"4c5b2d61b0063b9a","type":"text","text":"Wartime Industry (adds spirit)","x":45,"y":-480,"width":250,"height":60},
+		{"id":"12047aa871996fd4","type":"text","text":"Lebensraum (somehow let you, as a democracy, dec on those other nations) ","x":660,"y":-1000,"width":250,"height":120},
+		{"id":"9db2dae5b5cdab7d","type":"text","text":"War goals here","x":660,"y":-800,"width":250,"height":60},
+		{"id":"68dcd1bb00bd01b3","type":"text","text":"War goals there","x":660,"y":-700,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f5f94cfcde25e580","fromNode":"92b0068f08599735","fromSide":"bottom","toNode":"c63785345fa77964","toSide":"top"},
+		{"id":"712a0aa2dc3c7540","fromNode":"c63785345fa77964","fromSide":"bottom","toNode":"fa5604ef3f2913e0","toSide":"top"},
+		{"id":"4044d564c7524a00","fromNode":"fa5604ef3f2913e0","fromSide":"bottom","toNode":"50a5dcf3c8257c38","toSide":"top"},
+		{"id":"a062950d432963df","fromNode":"b0bad3bd42fda280","fromSide":"bottom","toNode":"92b0068f08599735","toSide":"top"},
+		{"id":"2f7e907612f9bf1b","fromNode":"b0bad3bd42fda280","fromSide":"bottom","toNode":"c3088649d3cacca7","toSide":"top"},
+		{"id":"f27dca7bab1b49df","fromNode":"c3088649d3cacca7","fromSide":"bottom","toNode":"ec84ef2d75d08f22","toSide":"top"},
+		{"id":"cceecc5aaa15b265","fromNode":"ec84ef2d75d08f22","fromSide":"bottom","toNode":"4928473da708fbf7","toSide":"top"},
+		{"id":"a28f24cd052407c7","fromNode":"ec84ef2d75d08f22","fromSide":"bottom","toNode":"786042f90125369a","toSide":"top"},
+		{"id":"5f73f9012f6172cd","fromNode":"4928473da708fbf7","fromSide":"bottom","toNode":"4c5b2d61b0063b9a","toSide":"top"},
+		{"id":"061571fd7afe8d28","fromNode":"786042f90125369a","fromSide":"bottom","toNode":"d6d446b7c7d6ce2c","toSide":"top"},
+		{"id":"7909e6f1f78c9be2","fromNode":"9db2dae5b5cdab7d","fromSide":"bottom","toNode":"68dcd1bb00bd01b3","toSide":"top"},
+		{"id":"881ebc76400b8561","fromNode":"12047aa871996fd4","fromSide":"bottom","toNode":"9db2dae5b5cdab7d","toSide":"top"}
+	]
+}
