@@ -1,4 +1,4 @@
-Austria + Turkey vs France + Russia
+## Austria + Turkey vs France + Russia
 
 Russia and France, historically allied all game other than WW1 team up. Austria and Turkey, who have also historically helped each other in many wars other than WW1, will team up.
 Austria and Turkey will definitely be similar enough ideologies, and France and Russia are far enough away and have real life precedent of teaming up with differing ideologies so it makes sense regardless. 
@@ -11,7 +11,7 @@ China likes Russia
 USA dislikes influence of French Market
 
 
--> Austria + Turkey + USA vs France + Russia + China
+## Austria + Turkey + USA vs France + Russia + China
 
 
 
@@ -19,11 +19,11 @@ Germany doesn't like France, Russia or the fact that China now owns Finland
 UK wants to take back the bits Germany stole from them
 
 
--> Austria, Turkey, USA and Germany vs France, Russia, China and UK
+### Austria, Turkey, USA and Germany vs France, Russia, China and UK
 
 
 
-Unholy Alliance: Austria and Turkey
+### Unholy Alliance: Austria and Turkey
 
 (because 'In 1855, the term "Unholy Alliance" was used for [Western European](https://en.wikipedia.org/wiki/Western_European "Western European") alliances with the [Ottoman Empire](https://en.wikipedia.org/wiki/Ottoman_Empire "Ottoman Empire") against the interests of [Russia](https://en.wikipedia.org/wiki/Russia "Russia") )
 
