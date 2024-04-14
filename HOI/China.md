@@ -1,0 +1,1 @@
+Just make that event coming off the Russian focus tree, so they join the russian faction

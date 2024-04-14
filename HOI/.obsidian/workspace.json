@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "State of the World.md",
+                "file": "Austria.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "State of the World.md",
+                "file": "Austria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "State of the World.md",
+                "file": "Austria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "State of the World.md"
+                "file": "Austria.md"
               }
             }
           }
@@ -148,17 +148,19 @@
   },
   "active": "577e480117e44644",
   "lastOpenFiles": [
-    "USA.md",
-    "Turkey.md",
-    "Teams.md",
-    "State of the World.md",
-    "Russia.md",
-    "Main Page.md",
-    "Germany.md",
-    "German Focus Tree.canvas",
     "France.md",
-    "China.md",
+    "Teams.md",
+    "France Focus Tree.canvas",
+    "Austria Focus Tree.canvas",
+    "Main Page.md",
+    "State of the World.md",
+    "German Focus Tree.canvas",
     "Britain.md",
-    "Austria.md"
+    "China.md",
+    "USA.md",
+    "Russia.md",
+    "Austria.md",
+    "Turkey.md",
+    "Germany.md"
   ]
 }

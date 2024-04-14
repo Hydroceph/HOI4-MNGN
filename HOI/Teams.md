@@ -19,7 +19,7 @@ Germany doesn't like France, Russia or the fact that China now owns Finland
 UK wants to take back the bits Germany stole from them
 
 
-### Austria, Turkey, USA and Germany vs France, Russia, China and UK
+## Austria, Turkey, USA and Germany vs France, Russia, China and UK
 
 
 
@@ -27,11 +27,9 @@ UK wants to take back the bits Germany stole from them
 
 (because 'In 1855, the term "Unholy Alliance" was used for [Western European](https://en.wikipedia.org/wiki/Western_European "Western European") alliances with the [Ottoman Empire](https://en.wikipedia.org/wiki/Ottoman_Empire "Ottoman Empire") against the interests of [Russia](https://en.wikipedia.org/wiki/Russia "Russia") )
 
-French market: France, Mexico, Brazil, lots of the little central American nations, Two Sicilies, Belgium, Netherlands, Spain 
+### French market: France, Mexico, Brazil, lots of the little central American nations, Two Sicilies, Belgium, Netherlands, Spain 
 
-Greater Eurasian Prosperity Sphere (after what the Japs called their faction)
-or
-Soglasiye (Russian for Entente, in the wrong alphabet I know but watevs): Russia and China
+### Greater Eurasian Prosperity Sphere (after what the Japs called their faction) or Soglasiye (Russian for Entente, in the wrong alphabet I know but watevs): Russia and China
 	(event will be called 'Treaty of good-neighborliness and friendly cooperation' because real life stuff)
 
 And then Germany will join the Unholy Alliance and UK will join the Soglasiye 

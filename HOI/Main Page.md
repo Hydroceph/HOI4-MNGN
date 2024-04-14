@@ -5,11 +5,14 @@ So it's gonna be:
 However many national spirits we want those focus trees to work away at (definitely Germany, maybe others)
 5 big events (Crimean, Italian, China joining Soglasiye and annexing Finland, USA joining UA on Mexico, Ionian islands revolt)
 3 (maybe 5) civil wars (Austrian, British and Russian (maybe also Turkic and French)) - nothing in the civil wars, just the events to make them fire
-Allocate the correct factions in game
+Allocate the correct factions in game (Unholy to Ott, French market to France, Mex and Papal states, Soglasiye to Russia)
 Add the correct army and navy amount
 Probably mess with naval dockyard numbers as well
 Change how many research slots people start with (BRI and GER = 4, FRA, USA and HAB = 3, RUS, TUR and CHI = 2)
 Maybe upgrade everyone's generic focus tree industry a lil bit, so we get more than just 1 fac per focus (more like 3?)
+Fix unit templates (is currently unbalanced that everyone start with good ones, that's the whole point of getting mil xp by sacrificing equipment +manpower on volunteers, exercising etc)
+Rebalance resource locations slightly (if required)
+
 
 
 Over on [[State of the World]] will show my reasoning, but here is how I see people expanding:

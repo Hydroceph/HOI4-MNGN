@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"55acff49904a6896","type":"text","text":"Lawrence of Algiers (North African states (have this require France to be in war, this and focus' below are formally calling French market allies into faction to call them to war))","x":-375,"y":-620,"width":250,"height":249},
+		{"id":"ad5fdc8feb639fda","type":"text","text":"Southern Italian states","x":-375,"y":-340,"width":250,"height":60},
+		{"id":"7ac7c771f03cf908","type":"text","text":"Caribbean states","x":-375,"y":-240,"width":250,"height":60},
+		{"id":"93cfaf5219f60ed4","type":"text","text":"Brazil","x":-375,"y":-140,"width":250,"height":60},
+		{"id":"8e171bd35984ac27","type":"text","text":"Benelux ","x":-375,"y":-40,"width":250,"height":60},
+		{"id":"ae08db18dbbb2518","type":"text","text":"Devalue the Franc (adds National Spirit)","x":245,"y":-600,"width":250,"height":60},
+		{"id":"b8d5c4909b7a0ad4","type":"text","text":"This will sneaky sneaky invite America into war on Austrian side","x":-160,"y":-152,"width":315,"height":84},
+		{"id":"f778ff225878ae68","type":"text","text":"Develop the Colonies (civs in colonies)","x":40,"y":-431,"width":250,"height":60},
+		{"id":"ad091e3889da7d0e","type":"text","text":"A Global Empire (add dockyards)","x":245,"y":-305,"width":250,"height":60},
+		{"id":"61319db109a452f2","type":"text","text":"Develop the Metropole (civs in mainland France)","x":440,"y":-431,"width":250,"height":60},
+		{"id":"c80f55bc5290716d","type":"text","text":"Embrace the French Market (improve trading relations with all the countries)","x":-60,"y":-809,"width":260,"height":120},
+		{"id":"7f28a5993a47e673","type":"text","text":"Revive the National Block","x":740,"y":-630,"width":250,"height":60},
+		{"id":"0ce5992a05c029a9","type":"text","text":"Dictatorship by Plebiscite","x":740,"y":-490,"width":250,"height":60},
+		{"id":"f5caa0390bd5b5f2","x":740,"y":-335,"width":250,"height":110,"type":"text","text":"First Consul (Adolf Bonaparte becomes leader)"},
+		{"id":"cc6845df9bf3cf3c","type":"text","text":"J'ai besoin tous les canals (add core on all the worlds canals)","x":740,"y":-122,"width":250,"height":93},
+		{"id":"efb8c4353294bed8","type":"text","text":"The Blum-Violette Proposal (add pp)","x":885,"y":-779,"width":250,"height":60},
+		{"id":"08f6df35c8b89c35","type":"text","text":"Confirm Eastern Commitments(guarantee Russia, Russia guarantees France)","x":1059,"y":-659,"width":250,"height":119}
+	],
+	"edges":[
+		{"id":"ec9e700e1fd132b1","fromNode":"55acff49904a6896","fromSide":"bottom","toNode":"ad5fdc8feb639fda","toSide":"top"},
+		{"id":"03a67d4388bc447a","fromNode":"ad5fdc8feb639fda","fromSide":"bottom","toNode":"7ac7c771f03cf908","toSide":"top"},
+		{"id":"20a37336a305d655","fromNode":"7ac7c771f03cf908","fromSide":"bottom","toNode":"93cfaf5219f60ed4","toSide":"top"},
+		{"id":"958fcd4fdfc50317","fromNode":"93cfaf5219f60ed4","fromSide":"bottom","toNode":"8e171bd35984ac27","toSide":"top"},
+		{"id":"be794e6d1b349035","fromNode":"c80f55bc5290716d","fromSide":"bottom","toNode":"55acff49904a6896","toSide":"top"},
+		{"id":"4225a2c00fc285a2","fromNode":"c80f55bc5290716d","fromSide":"bottom","toNode":"ae08db18dbbb2518","toSide":"top"},
+		{"id":"c69da92a009c3f1f","fromNode":"ae08db18dbbb2518","fromSide":"bottom","toNode":"f778ff225878ae68","toSide":"top"},
+		{"id":"d24882f08e9533a6","fromNode":"ae08db18dbbb2518","fromSide":"bottom","toNode":"61319db109a452f2","toSide":"top"},
+		{"id":"78cb6c3449879d2d","fromNode":"f778ff225878ae68","fromSide":"bottom","toNode":"ad091e3889da7d0e","toSide":"top"},
+		{"id":"c9d8af1f423ac662","fromNode":"61319db109a452f2","fromSide":"bottom","toNode":"ad091e3889da7d0e","toSide":"top"},
+		{"id":"463c3ec7890d956a","fromNode":"efb8c4353294bed8","fromSide":"bottom","toNode":"08f6df35c8b89c35","toSide":"top"},
+		{"id":"dd8437dc4e7729ce","fromNode":"efb8c4353294bed8","fromSide":"bottom","toNode":"7f28a5993a47e673","toSide":"top"},
+		{"id":"ed8a30fef445c884","fromNode":"7f28a5993a47e673","fromSide":"bottom","toNode":"0ce5992a05c029a9","toSide":"top"},
+		{"id":"bb88d687520f3277","fromNode":"0ce5992a05c029a9","fromSide":"bottom","toNode":"f5caa0390bd5b5f2","toSide":"top"},
+		{"id":"e27e94a52adece2b","fromNode":"f5caa0390bd5b5f2","fromSide":"bottom","toNode":"cc6845df9bf3cf3c","toSide":"top"}
+	]
+}
