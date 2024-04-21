@@ -2,7 +2,7 @@ Somewhat dependant on how this World War goes I suppose, but will likely be larg
 
 Britain and Austria are pretty weird I'll admit, soz.
 
-[[Britain]]:
+## [[Britain]]:
 Just the one tree, I think it's pretty clear the direction Josh wants Britain to go in (and it makes historical sense, Britain is pretty set on the path it's regardless of outcome of this war)
 
 In real HOI4 if Britain goes down a different ideological tree, all the dominions break free with the royal fam moving to Canada and they all dec war on you. You have to go round capitulating them all, but you get the huge bonus of owning the factories yourself rather than having them controlled by ai. I think we should do the same in our World but with zombie Queen Victoria.
@@ -15,7 +15,7 @@ If Britain actually wants all it's parts back, it has to fight for them.
 Perhaps even an event fires at the 1941 mark when I've said I want the war to start, where there's another ionian islands revolution, so Germany occupies it and Britain gets an 'oh that's it!' moment so will very likely join.
 
 
-[[France]]:
+## [[France]]:
 One tree for French Market, one tree for political and war goals.
 
 I would say probably the biggest loser of the whole period? Went from 2nd power to well below Britain and Germany. So makes sense to me to be the angry aggressive Fascist of our alt hist universe. Though, yes, we'll have to see how WW1 goes. 
@@ -27,7 +27,7 @@ The other part of the tree should be going fully Fascist (bringing El Hitler, ge
 The above would probably work regardless of political leanings or what happened in WW1?
 
 
-[[Germany]]:
+## [[Germany]]:
 One tree for fixing internal economy, one for africa/indonesia wargoals?
 
 I am certainly quite biased because I'm the player, but feels like Germany is the real winner of our alt hist long 19th Century. Highest GDP (especially after the ai takeover pause,) had no internal revolutions/rebellions, strongest army (not yet lost a war though could lose this one? But still would feel like a 'I didn't lose my allies did?') AND quite democratic (full rights for women, full voting rights, just no workers rights yet lmao sux 2 be them.)
@@ -37,7 +37,7 @@ To keep things interesting in early/mid could give focus' for wargoals to take o
 
 I think the above could work regardless of outcome of war, just change the narrative? If on winning side, splendid isolationism we've got everything we need. If on losing side, just a reflexive turning inwards. Why send more men to die for foreign powers war goals when we've got all the resources (i spelt resources right!) and lebensraum we'd ever need already.
 
-[[Austria]]:
+## [[Austria]]:
 One split tree for European focus vs South American focus (filler focuses can talk about the oil situation?)
 
 The most entertaining one. 
@@ -51,7 +51,7 @@ Both then get focus' to take over rest of south America and Italy
 Both situations will lead to war with France/French Market
 
 
-[[Russia]]:
+## [[Russia]]:
 One tree for Hot Pink Russia, with an option to instead become the USSR and get the USSR tree
 
 Interestingly, the real life Russian Revolution ALSO had the Navy being the first to form communes and side with the Communists while the Army who was busy dying at the front were less interested (which is what happened in Neel's revolution, he had control of the whole Navy while hot pink Russia had the whole army.)
@@ -62,10 +62,8 @@ Hot Pink Russia = non-aligned, focus on taking back crimea and going to war with
 
 Neel's Russia = Communist revolution and then... it's just the USSR and we give them them alot of the base game USSR tree? Will still just wanna take Crimea back from Turkey, basically.
 
-[[Turkey]]:
+## [[Turkey]]:
 One split tree, if you become Caliphate or stay as Turkey, and stuff about fighting Russia and taking Italy.
-
-
 
 I don't really know what's going on with your country lmao.
 
