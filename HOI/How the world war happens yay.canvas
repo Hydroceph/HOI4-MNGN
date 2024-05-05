@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"23b2dcb7a33d1974","type":"text","text":"Russian civil war","x":-680,"y":-380,"width":250,"height":60},
+		{"id":"71d15c597d6a00db","type":"text","text":"France formalises french market (by force)","x":-680,"y":-60,"width":250,"height":60},
+		{"id":"252a1dfadffbf94f","type":"text","text":"British civil war","x":-680,"y":-290,"width":250,"height":60},
+		{"id":"ebccbbfc4b0ba6e5","type":"text","text":"Turkey build-up","x":-680,"y":67,"width":250,"height":60},
+		{"id":"50d1aca803d2493f","type":"text","text":"Germany incites China and USA civil war and sends volunteers","x":-680,"y":-198,"width":250,"height":96},
+		{"id":"a4475ca980097389","type":"text","text":"Turkey vs France (via 2 sicilies)","x":-190,"y":67,"width":250,"height":60},
+		{"id":"141a755ad1f4abdb","type":"text","text":"mil buildup focus (35facs)","x":-400,"y":102,"width":180,"height":50},
+		{"id":"ccf5ee00ef9b9664","type":"text","text":"Germany vs Britain and Russia","x":20,"y":-290,"width":250,"height":60},
+		{"id":"8be16034644a1dce","type":"text","text":"Austrian civil war","x":-680,"y":200,"width":250,"height":60},
+		{"id":"ce545ba4785cc920","type":"text","text":"expand in SA","x":-160,"y":201,"width":250,"height":60},
+		{"id":"99dac770093997f3","type":"text","text":"Join Turkey","x":400,"y":102,"width":250,"height":60},
+		{"id":"362d29f47e9946f8","type":"text","text":"Isolationist","x":400,"y":201,"width":250,"height":60},
+		{"id":"62da1b142d85dfd1","type":"text","text":"Join France","x":400,"y":300,"width":250,"height":60},
+		{"id":"b414c61a628215fe","type":"text","text":"Both ask for help if >30% cap desire","x":90,"y":-60,"width":250,"height":60},
+		{"id":"a1898e587ecc15ed","type":"text","text":"Event to make Germany + Turkey team up anyway","x":480,"y":-150,"width":251,"height":85},
+		{"id":"c6d5d167ae0c6500","type":"text","text":"spawn units for civil war so ez","x":-400,"y":-320,"width":180,"height":60},
+		{"id":"b4498e6b267cc7f2","type":"text","text":"1936","x":-700,"y":-520,"width":250,"height":60},
+		{"id":"2c14ab05f9aea839","type":"text","text":"1939","x":-140,"y":-520,"width":250,"height":60},
+		{"id":"ca4350aa391ce172","type":"text","text":"1941","x":400,"y":-520,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"7fe96d7083c874cb","fromNode":"ebccbbfc4b0ba6e5","fromSide":"right","toNode":"a4475ca980097389","toSide":"left"},
+		{"id":"6cc47ca7c05c1e6a","fromNode":"71d15c597d6a00db","fromSide":"right","toNode":"a4475ca980097389","toSide":"left"},
+		{"id":"e27593947f382871","fromNode":"50d1aca803d2493f","fromSide":"right","toNode":"ccf5ee00ef9b9664","toSide":"left"},
+		{"id":"f8932799f82d355d","fromNode":"252a1dfadffbf94f","fromSide":"right","toNode":"ccf5ee00ef9b9664","toSide":"left"},
+		{"id":"c29ec6e2255fc318","fromNode":"23b2dcb7a33d1974","fromSide":"right","toNode":"ccf5ee00ef9b9664","toSide":"left"},
+		{"id":"76e4927b529ca741","fromNode":"8be16034644a1dce","fromSide":"right","toNode":"ce545ba4785cc920","toSide":"left"},
+		{"id":"967f5dcb530da05c","fromNode":"ce545ba4785cc920","fromSide":"right","toNode":"99dac770093997f3","toSide":"left"},
+		{"id":"4be219dd049e736b","fromNode":"ce545ba4785cc920","fromSide":"right","toNode":"362d29f47e9946f8","toSide":"left"},
+		{"id":"5c016cb5e6614331","fromNode":"ce545ba4785cc920","fromSide":"right","toNode":"62da1b142d85dfd1","toSide":"left"},
+		{"id":"8faa6ecdbd955703","fromNode":"a4475ca980097389","fromSide":"right","toNode":"b414c61a628215fe","toSide":"left"},
+		{"id":"72198621e2735261","fromNode":"b414c61a628215fe","fromSide":"right","toNode":"a1898e587ecc15ed","toSide":"left"},
+		{"id":"a96d35aad29a3023","fromNode":"ccf5ee00ef9b9664","fromSide":"right","toNode":"a1898e587ecc15ed","toSide":"left"}
+	]
+}
