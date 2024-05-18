@@ -37,18 +37,18 @@ GER = {
 		}
 		set_autonomy = {
 			target = Z05
-			autonomous_state = autonomy_integrated_puppet
+			autonomous_state = autonomy_colony
 		}
 	}
 	else = {
 		set_autonomy = {
 			target = Z05
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_colony
 		}
 	}
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1935.4.4"
 	election_frequency = 48
 	elections_allowed = yes

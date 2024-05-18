@@ -21,7 +21,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1934.3.20"
 	election_frequency = 48
 	elections_allowed = yes

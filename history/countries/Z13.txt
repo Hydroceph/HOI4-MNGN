@@ -24,7 +24,7 @@ FRA = {
 		}
 		set_autonomy = {
 			target = Z13
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_colony
 			freedom_level = 0.4
 		}
 	}

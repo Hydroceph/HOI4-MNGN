@@ -36,7 +36,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = HDJ
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_dominion
 			freedom_level = 0.4
 		}
 	}

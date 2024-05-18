@@ -41,13 +41,13 @@ ENG = {
 		}
 		set_autonomy = {
 			target = ION
-			autonomous_state = autonomy_integrated_puppet
+			autonomous_state = autonomy_dominion
 		}
 	}
 	else = {
 		set_autonomy = {
 			target = ION
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_dominion
 		}
 	}
 }

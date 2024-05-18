@@ -135,7 +135,7 @@ ENG = {
 		}
 		set_autonomy = {
 			target = RAJ
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_dominion
 			freedom_level = 0.4
 		}
 	}
