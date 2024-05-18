@@ -1,26 +1,36 @@
-capital = 266
+capital = 298
 
 oob = "BAL_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = BAL_2676
-recruit_character = BAL_16780205
-recruit_character = BAL_16783599
-recruit_character = BAL_33555515
-recruit_character = BAL_33556986
-recruit_character = BAL_33558090
-recruit_character = BAL_33558189
-recruit_character = BAL_33560643
-recruit_character = BAL_50334572
-recruit_character = BAL_67114363
-recruit_character = BAL_67115195
+recruit_character = BAL_67111432
+recruit_character = BAL_50332849
+recruit_character = BAL_50338510
+recruit_character = BAL_67112595
+recruit_character = BAL_67115305
+recruit_character = BAL_83886564
+recruit_character = BAL_100665721
+recruit_character = BAL_117441966
+recruit_character = BAL_117442440
+recruit_character = BAL_117442556
+recruit_character = BAL_134218711
+recruit_character = BAL_134221910
+recruit_character = BAL_184551279
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Komang_Kompyang
+		name = Levi_Leiwakabessy
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_linguist operative_well_groomed }
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BAL }
+	}
+	create_operative_leader = {
+		name = Wayan_Balik_Sang
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_demolition_expert operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { BAL }
@@ -36,9 +46,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 38
-	neutrality = 50
+	democratic = 19
+	fascism = 36
+	neutrality = 45
 }
 
 add_ideas = {

@@ -1,26 +1,22 @@
-capital = 656
 
 oob = "KAT_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = KAT_16781292
-recruit_character = KAT_16778826
-recruit_character = KAT_16780247
-recruit_character = KAT_33555452
-recruit_character = KAT_33556070
-recruit_character = KAT_33556751
-recruit_character = KAT_50334486
-recruit_character = KAT_67114665
-recruit_character = KAT_67115174
-recruit_character = KAT_83887218
-recruit_character = KAT_83887392
+recruit_character = KAT_150996533
+recruit_character = KAT_67111964
+recruit_character = KAT_67114892
+recruit_character = KAT_83889321
+recruit_character = KAT_83890458
+recruit_character = KAT_150996313
+recruit_character = KAT_234881701
+recruit_character = KAT_268435606
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Khalid_ibn_Salim
-		GFX = GFX_portrait_arabia_generic_operative_male_3
-		traits = { operative_linguist operative_natural_orator }
+		name = Ibrahim_al-Hijazi
+		GFX = GFX_portrait_arabia_generic_operative_male_4
+		traits = { operative_natural_orator operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { KAT }
@@ -29,20 +25,19 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1935.1.6"
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 8
-	fascism = 41
-	neutrality = 51
+	democratic = 14
+	fascism = 39
+	neutrality = 47
 }
 
 add_ideas = {
-	KAT_Abd_al-Malik_al_Kathir
 	civilian_economy
 	export_focus
 	volunteer_only

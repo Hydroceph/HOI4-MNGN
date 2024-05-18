@@ -1,21 +1,34 @@
-capital = 592
 
 oob = "BHU_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BHU_67109045
-recruit_character = BHU_16783499
-recruit_character = BHU_16783727
-recruit_character = BHU_33559466
-recruit_character = BHU_50332131
-recruit_character = BHU_50338428
-recruit_character = BHU_67111400
-recruit_character = BHU_67114234
-recruit_character = BHU_67115216
-recruit_character = BHU_100663394
+recruit_character = BHU_50336028
+recruit_character = BHU_50335571
+recruit_character = BHU_67115019
+recruit_character = BHU_83889623
+recruit_character = BHU_117443223
+recruit_character = BHU_134219801
+recruit_character = BHU_150995171
+recruit_character = BHU_150997514
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Penor_Tashi
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BHU }
+	}
+	create_operative_leader = {
+		name = Chamba_Shakabpa
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BHU }
+	}
 }
 
 set_politics = {
@@ -27,8 +40,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 9
-	fascism = 40
+	democratic = 10
+	fascism = 39
 	neutrality = 51
 }
 

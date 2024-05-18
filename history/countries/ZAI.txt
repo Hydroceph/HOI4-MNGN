@@ -1,26 +1,24 @@
-capital = 322
+capital = 375
 
 oob = "ZAI_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = ZAI_67114901
-recruit_character = ZAI_16777616
-recruit_character = ZAI_16778706
-recruit_character = ZAI_16780313
-recruit_character = ZAI_16781366
-recruit_character = ZAI_33555245
-recruit_character = ZAI_33560426
-recruit_character = ZAI_50333555
-recruit_character = ZAI_50338273
-recruit_character = ZAI_67115050
-recruit_character = ZAI_67115322
+recruit_character = ZAI_117442849
+recruit_character = ZAI_67112115
+recruit_character = ZAI_83889721
+recruit_character = ZAI_83889788
+recruit_character = ZAI_83890265
+recruit_character = ZAI_117444575
+recruit_character = ZAI_117445763
+recruit_character = ZAI_134217743
+recruit_character = ZAI_134219039
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Fuad_ibn_Uthman
-		GFX = GFX_portrait_arabia_generic_operative_male_6
-		traits = { operative_linguist operative_natural_orator }
+		name = Jamal_ibn_Ahmad
+		GFX = GFX_portrait_arabia_generic_operative_male_1
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { ZAI }
@@ -36,15 +34,15 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
+	democratic = 12
 	fascism = 37
-	neutrality = 52
+	neutrality = 51
 }
 
 add_ideas = {
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60

@@ -1,23 +1,34 @@
-capital = 809
 
 oob = "JAB_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = JAB_2865
-recruit_character = JAB_16780849
-recruit_character = JAB_16782074
 recruit_character = JAB_33554620
-recruit_character = JAB_33555521
-recruit_character = JAB_33555802
-recruit_character = JAB_33556311
-recruit_character = JAB_50332514
-recruit_character = JAB_67111215
-recruit_character = JAB_67113820
-recruit_character = JAB_83886307
-recruit_character = JAB_100663399
+recruit_character = JAB_67110547
+recruit_character = JAB_67111213
+recruit_character = JAB_83888050
+recruit_character = JAB_100663898
+recruit_character = JAB_134220205
+recruit_character = JAB_167773486
+recruit_character = JAB_167775000
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Ali_ibn_Umar
+		GFX = GFX_portrait_arabia_generic_operative_male_5
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAB }
+	}
+	create_operative_leader = {
+		name = Salim_ibn_Yusuf
+		GFX = GFX_portrait_arabia_generic_operative_male_3
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAB }
+	}
 }
 
 set_politics = {
@@ -29,9 +40,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 36
-	neutrality = 53
+	democratic = 8
+	fascism = 38
+	neutrality = 54
 }
 
 add_ideas = {

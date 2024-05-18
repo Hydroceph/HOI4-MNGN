@@ -1,28 +1,23 @@
 state = {
 	id = 683
 	name = "STATE_683"
-	manpower = 65788
-	resources = {
-		tungsten = 0
-	}
+	manpower = 342239
 
 	state_category = rural
 
 	history = {
-		owner = SRK
+		owner = SOV
 		victory_points = {
-			12293 10
+			4728 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
 		}
-		add_core_of = SRK
 	}
 
 	provinces = {
-		12293 
+		1823 1839 1863 4728 7878 10540 12207 12522 
 	}
 }

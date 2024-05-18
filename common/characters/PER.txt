@@ -1,6 +1,6 @@
 characters = {
-	PER_3007 = {
-		name = Nasir_al-Din_Qajar
+	PER_50334185 = {
+		name = Mozzafer_ed-Din_Qajar
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,22 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	PER_16778841 = {
-		name = Mohammad_Mehmandar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_16778841
-			cost = 150
-		}
-	}
-	PER_16780435 = {
-		name = Lotf_Ali_Alamir
+	PER_33556430 = {
+		name = Ali_Ildyrym
 		portraits = {
 			army = {
 				large = GFX_Portrait_Arabia_Generic_land_1
@@ -34,16 +20,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer infantry_officer organizer }
+			traits = { harsh_leader infantry_officer organizer }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
-	PER_16782086 = {
-		name = Moin_ed-Din_Ashtiani
+	PER_50333676 = {
+		name = Samad_Ahmadbek
 		portraits = {
 			army = {
 				large = GFX_Portrait_Arabia_Generic_land_3
@@ -51,117 +37,30 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { old_guard trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	PER_16783095 = {
-		name = Abolghasem_Hedayat
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer infantry_officer inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	PER_16783283 = {
-		name = Ahmad_Javanshir
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader infantry_officer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	PER_33557491 = {
-		name = Karim_Hedayat
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_33557491
-			cost = 150
-		}
-	}
-	PER_33559031 = {
-		name = Ali_Pirnia
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer politically_connected }
+			traits = { cavalry_officer desert_fox }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_33559031
-			cost = 150
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
-	PER_33559895 = {
-		name = Ali_Edigar
+	PER_50334398 = {
+		name = Massoud_Astarabadi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_33559895
+			idea_token = i_50334398
 			cost = 150
 		}
 	}
-	PER_33561230 = {
-		name = Ahmad_Tahirzade
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_33561230
-			cost = 150
-		}
-	}
-	PER_50331715 = {
-		name = Abbas_Jahanbani
+	PER_83886213 = {
+		name = Ahmad_Qajar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -170,51 +69,102 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_50331715
+			idea_token = i_83886213
 			cost = 150
 		}
 	}
-	PER_50332743 = {
-		name = Ebrahim_Meshhedi
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Arabia_Generic_navy_1
-				small = GFX_Portrait_Arabia_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	PER_50334185 = {
-		name = Mozzafer_ed-Din_Qajar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	PER_50337615 = {
-		name = Ali_Kalantarli
+	PER_83887907 = {
+		name = Tahir_Edigar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { silent_workhorse }
+			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_50337615
+			idea_token = i_83887907
 			cost = 150
 		}
 	}
-	PER_50337849 = {
-		name = Moin_ed-Din_Airom
+	PER_83888010 = {
+		name = Elbay_Akhundzade
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PER_83889456 = {
+		name = Zahid_Edigar
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	PER_83891586 = {
+		name = Firudin_Mehmandar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83891586
+			cost = 150
+		}
+	}
+	PER_83891906 = {
+		name = Zahid_Ahmadbek
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83891906
+			cost = 150
+		}
+	}
+	PER_100663452 = {
+		name = Naser_ed-Din_Sadegh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_100663452
+			cost = 150
+		}
+	}
+	PER_100664005 = {
+		name = Abdolazim_Kashani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -223,8 +173,138 @@ characters = {
 		advisor = {
 			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50337849
+			idea_token = i_100664005
 			cost = 150
+		}
+	}
+	PER_100664849 = {
+		name = Muhsin_Khalatbari
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PER_100666758 = {
+		name = Ibrahim_Kalantarli
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	PER_100667946 = {
+		name = Abdolhossein_Khalatbari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100667946
+			cost = 150
+		}
+	}
+	PER_117440917 = {
+		name = Ahmad_Astarabadi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	PER_117441180 = {
+		name = Kamran_Alamir
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_3
+				small = GFX_Portrait_Arabia_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	PER_117442449 = {
+		name = Aliagha_Qasimbek
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_2
+				small = GFX_Portrait_Arabia_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	PER_117443299 = {
+		name = Mahmud_Talishkhan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117443299
+			cost = 150
+		}
+	}
+	PER_167776102 = {
+		name = Malik_Bahmani-Qajar
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
 }

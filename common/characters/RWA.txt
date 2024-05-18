@@ -1,7 +1,11 @@
 characters = {
-	RWA_16779760 = {
-		name = Gahiji_Abanyiginya
+	RWA_16778894 = {
+		name = Hakizimana_Abanyiginya
 		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
@@ -10,129 +14,76 @@ characters = {
 			ideology = despotism
 			traits = {  }
 		}
-	}
-	RWA_16778894 = {
-		name = Hakizimana_Abanyiginya
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_16778894
-			cost = 150
+		field_marshal = {
+			traits = { harsh_leader infantry_officer old_guard }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
-	RWA_33557236 = {
-		name = Kagame_Mutara
+	RWA_33554703 = {
+		name = Nkundiushuti_Abanyiginya
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
 			}
 			civilian = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 1
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
 			logistics_skill = 3
 		}
 		advisor = {
-			traits = { military_theorist }
+			traits = { agricultural_capitalist }
 			slot = political_advisor
-			idea_token = i_33557236
+			idea_token = i_33554703
 			cost = 150
 		}
 	}
-	RWA_33557691 = {
-		name = Gahiji_Nyiginya
+	RWA_50338274 = {
+		name = Kigeli_Hindiro
 		portraits = {
 			army = {
-				large = GFX_Portrait_Africa_Generic_land_3
-				small = GFX_Portrait_Africa_Generic_land_3_small
-			}
-			civilian = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
 			}
 		}
 		corps_commander = {
-			traits = { old_guard organizer trait_reckless }
+			traits = { infantry_officer ranger }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 1
 		}
-		advisor = {
-			traits = { mastermind_code_cracker }
-			slot = political_advisor
-			idea_token = i_33557691
-			cost = 150
-		}
 	}
-	RWA_50333718 = {
-		name = Habimana_Rwogera
+	RWA_50338506 = {
+		name = Dukuzumuremyi_Gahindiro
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_1
+				small = GFX_Portrait_Africa_Generic_land_1_small
 			}
 		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_50333718
-			cost = 150
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
-	RWA_50334935 = {
-		name = Runihura_Ndahindurwa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334935
-			cost = 150
-		}
-	}
-	RWA_50337481 = {
-		name = Nkundiushuti_Nyiginya
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_50337481
-			cost = 150
-		}
-	}
-	RWA_50337804 = {
-		name = Runihura_Musinga
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_50337804
-			cost = 150
-		}
-	}
-	RWA_67112039 = {
-		name = Dukuzumuremyi_Nyiginya
+	RWA_67108965 = {
+		name = Nkundiushuti_Mutara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -141,21 +92,116 @@ characters = {
 		advisor = {
 			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67112039
+			idea_token = i_67108965
 			cost = 150
 		}
 	}
-	RWA_67114717 = {
-		name = Yuhi_Rwogera
+	RWA_83886365 = {
+		name = Dukuzumuremyi_Abanyiginya
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_67114717
+			idea_token = i_83886365
+			cost = 150
+		}
+	}
+	RWA_83890386 = {
+		name = Nyillingondo_Rutarindwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_83890386
+			cost = 150
+		}
+	}
+	RWA_83890436 = {
+		name = Dukuzumuremyi_Hindiro
+		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_4
+				small = GFX_Portrait_Africa_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 1
+		}
+	}
+	RWA_100664210 = {
+		name = Habimana_Rutarindwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100664210
+			cost = 150
+		}
+	}
+	RWA_100666540 = {
+		name = Sebahive_Mutara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_100666540
+			cost = 150
+		}
+	}
+	RWA_100666841 = {
+		name = Nkundiushuti_Rwogera
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_100666841
+			cost = 150
+		}
+	}
+	RWA_100668595 = {
+		name = Kigeli_Abanyiginya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	RWA_134221864 = {
+		name = Nkundiushuti_Rutarindwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_134221864
 			cost = 150
 		}
 	}

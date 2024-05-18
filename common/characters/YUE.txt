@@ -1,0 +1,134 @@
+characters = {
+	YUE_117441608 = {
+		name = Li_Nie
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	YUE_50332157 = {
+		name = Dong_Nie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	YUE_83889286 = {
+		name = Mao_Zhao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_83889286
+			cost = 150
+		}
+	}
+	YUE_100666448 = {
+		name = Gao_Li
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_100666448
+			cost = 150
+		}
+	}
+	YUE_117441037 = {
+		name = Mao_Nie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117441037
+			cost = 150
+		}
+	}
+	YUE_117441389 = {
+		name = Hu_Sun
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117441389
+			cost = 150
+		}
+	}
+	YUE_117441603 = {
+		name = Zhu_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117441603
+			cost = 150
+		}
+	}
+	YUE_134219899 = {
+		name = Cheng_Cui
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_134219899
+			cost = 150
+		}
+	}
+	YUE_167775228 = {
+		name = Ma_Wei
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_167775228
+			cost = 150
+		}
+	}
+	YUE_218106423 = {
+		name = Yang_Zhang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_218106423
+			cost = 150
+		}
+	}
+}

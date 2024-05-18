@@ -1,9 +1,9 @@
 characters = {
-	Z02_33558686 = {
-		name = Torquil_MacLaren
+	Z02_50335879 = {
+		name = Benignus_von_Fleury_auf_Hilling
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_europe_generic_7
+				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
@@ -11,152 +11,109 @@ characters = {
 			traits = {  }
 		}
 	}
-	Z02_33554612 = {
-		name = Arnold_Crichton-Stuart
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { navy_career_officer old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	Z02_33557852 = {
-		name = Wilbraham_Whitbread
+	Z02_67108987 = {
+		name = Otto_von_Willich
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_33557852
+			idea_token = i_67108987
 			cost = 150
 		}
 	}
-	Z02_33560044 = {
-		name = Christopher_Sybil
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	Z02_50331877 = {
-		name = Auckland_Wilson
+	Z02_67110535 = {
+		name = Fritz_von_Roon
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50331877
+			idea_token = i_67110535
 			cost = 150
 		}
 	}
-	Z02_50332315 = {
-		name = Garnet_FitzMaurice
+	Z02_100667053 = {
+		name = Maximilian_KlU_ber
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_50332315
+			idea_token = i_100667053
 			cost = 150
 		}
 	}
-	Z02_50335764 = {
-		name = Granville_Hanbury-Tracy
+	Z02_117442323 = {
+		name = Erwin_SchU_bler
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_50335764
+			idea_token = i_117442323
 			cost = 150
 		}
 	}
-	Z02_67109075 = {
-		name = James_Eliott
+	Z02_134219046 = {
+		name = Otto_Scheffold
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_67109075
+			idea_token = i_134219046
 			cost = 150
 		}
 	}
-	Z02_83888063 = {
-		name = Samuel_Windsor-Clive
+	Z02_134219715 = {
+		name = Eduard_Landfermann
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_83888063
+			idea_token = i_134219715
 			cost = 150
 		}
 	}
-	Z02_83891634 = {
-		name = Francis_Salusbury-Trelawny
+	Z02_184553923 = {
+		name = Ludwig_von_Fleury_auf_Hilling
 		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { cavalry_officer commando infantry_officer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
 	}
-	Z02_134218234 = {
-		name = Eric_Tadcaster
+	Z02_201327131 = {
+		name = Hermann_Kessler
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_134218234
+			idea_token = i_201327131
 			cost = 150
 		}
 	}

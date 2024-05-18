@@ -1,16 +1,30 @@
 state = {
 	id = 530
 	name = "STATE_530"
-	manpower = 30823
+	manpower = 107576
+	resources = {
+		tungsten = 0
+	}
 
-	state_category = wasteland
-	impassable = yes
+	state_category = rural
 
 	history = {
-		owner = BRA
+		owner = ENG
+		victory_points = {
+			7302 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			4286 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
 	}
 
 	provinces = {
-		2147 
+		4286 7302 12159 
 	}
 }

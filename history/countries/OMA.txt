@@ -1,31 +1,24 @@
-capital = 598
+capital = 691
 
 oob = "OMA_1936"
 set_research_slots = 2
-set_convoys = 5
+set_convoys = 3
 
-recruit_character = OMA_33557837
-recruit_character = OMA_2979
-recruit_character = OMA_33555874
-recruit_character = OMA_50334788
-recruit_character = OMA_50335301
-recruit_character = OMA_67108978
-recruit_character = OMA_67109818
-recruit_character = OMA_67111325
-recruit_character = OMA_67112040
-recruit_character = OMA_67112850
+recruit_character = OMA_100670081
+recruit_character = OMA_33557347
+recruit_character = OMA_67109700
+recruit_character = OMA_67110469
+recruit_character = OMA_67111208
 recruit_character = OMA_67114168
-recruit_character = OMA_83886886
+recruit_character = OMA_83886464
+recruit_character = OMA_83891432
+recruit_character = OMA_83892482
+recruit_character = OMA_100668958
+recruit_character = OMA_117440872
+recruit_character = OMA_117446411
+recruit_character = OMA_134219705
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Abd_al-Qadir_al-Najdi
-		GFX = GFX_portrait_arabia_generic_operative_male_3
-		traits = { operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { OMA }
-	}
 }
 
 set_politics = {
@@ -37,13 +30,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 32
-	fascism = 33
-	neutrality = 35
+	democratic = 76
+	fascism = 22
+	neutrality = 2
 }
 
 add_ideas = {
-	OMA_Thuwaini_al_Said
+	OMA_Jamal_al_Said
 	civilian_economy
 	export_focus
 	volunteer_only

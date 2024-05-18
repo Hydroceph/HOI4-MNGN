@@ -1,26 +1,32 @@
-capital = 581
+capital = 546
 
 oob = "BGI_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BGI_16777516
 recruit_character = BGI_16778760
-recruit_character = BGI_16780327
-recruit_character = BGI_16780979
-recruit_character = BGI_33558452
-recruit_character = BGI_50331931
-recruit_character = BGI_50334067
-recruit_character = BGI_50334107
-recruit_character = BGI_67109788
-recruit_character = BGI_67110925
-recruit_character = BGI_67113257
+recruit_character = BGI_50335267
+recruit_character = BGI_67114368
+recruit_character = BGI_67115535
+recruit_character = BGI_83887605
+recruit_character = BGI_83890100
+recruit_character = BGI_100666702
+recruit_character = BGI_100669801
+recruit_character = BGI_167777697
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Abdul_Gawrang
-		GFX = GFX_portrait_africa_generic_operative_male_6
-		traits = { operative_safe_cracker }
+		name = Burkomanda_Qadir
+		GFX = GFX_portrait_africa_generic_operative_male_4
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BGI }
+	}
+	create_operative_leader = {
+		name = Malam_Bira
+		GFX = GFX_portrait_africa_generic_operative_male_9
+		traits = { operative_demolition_expert operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { BGI }
@@ -29,19 +35,20 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1932.5.3"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 37
-	neutrality = 51
+	democratic = 10
+	fascism = 38
+	neutrality = 52
 }
 
 add_ideas = {
+	BGI_Abd_al-Rahman_Kenga
 	civilian_economy
 	export_focus
 	volunteer_only

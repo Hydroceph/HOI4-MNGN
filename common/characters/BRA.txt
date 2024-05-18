@@ -1,9 +1,9 @@
 characters = {
-	BRA_33558346 = {
-		name = Afonso_Boaventura
+	BRA_83887752 = {
+		name = JoA_o_de_Braganca
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_America_Generic_3
+				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
@@ -11,8 +11,126 @@ characters = {
 			traits = {  }
 		}
 	}
-	BRA_16778697 = {
-		name = Fabio_2_Saldanha_da_Gama
+	BRA_33556060 = {
+		name = Pedro_Marques
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer spotter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	BRA_50334765 = {
+		name = Gaspar_de_Suruf
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50334765
+			cost = 150
+		}
+	}
+	BRA_67112342 = {
+		name = Artur_Saldanha_da_Gama
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	BRA_67114181 = {
+		name = Urbano_Mallet
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	BRA_83887799 = {
+		name = Paulo_Vargas
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { career_officer infantry_officer trait_cautious trait_mountaineer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	BRA_83888728 = {
+		name = Joaquim_Wandenkolk
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_83888728
+			cost = 150
+		}
+	}
+	BRA_100664175 = {
+		name = Mario_2_Pena
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -21,82 +139,26 @@ characters = {
 		advisor = {
 			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_16778697
+			idea_token = i_100664175
 			cost = 150
 		}
 	}
-	BRA_16778883 = {
-		name = Vital_de_Oliveira
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_4
-				small = GFX_Portrait_South_America_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer politically_connected }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 4
-		}
-	}
-	BRA_16780241 = {
-		name = Manuel_de_Braganca
+	BRA_100665140 = {
+		name = Nilo_de_Castro
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_16780241
+			idea_token = i_100665140
 			cost = 150
 		}
 	}
-	BRA_16781017 = {
-		name = Eduardo_de_Braganca
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	BRA_16783528 = {
-		name = Benjamin_de_Braganca
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_1
-				small = GFX_Portrait_South_America_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { superior_tactician }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			maneuvering_skill = 1
-			coordination_skill = 3
-		}
-	}
-	BRA_16783765 = {
-		name = Pedro_de_Orleans
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { popular_figurehead }
-			slot = political_advisor
-			idea_token = i_16783765
-			cost = 150
-		}
-	}
-	BRA_33556624 = {
-		name = Emilio_2_de_Aguiar
+	BRA_100665299 = {
+		name = Antonio_3_de_Orleans
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_5
@@ -104,78 +166,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer old_guard organizer }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	BRA_33556992 = {
-		name = Fabio_2_de_Lima_e_Silva
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33556992
-			cost = 150
-		}
-	}
-	BRA_33557833 = {
-		name = Tancredo_Costa
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_3
-				small = GFX_Portrait_South_America_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { cuts_corners old_guard_navy }
+			traits = { trait_mountaineer }
 			skill = 2
-			attack_skill = 3
+			attack_skill = 2
 			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 1
-		}
-	}
-	BRA_33558471 = {
-		name = Antonio_3_de_Alcantara
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_1
-				small = GFX_Portrait_South_America_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
+			planning_skill = 1
 			logistics_skill = 2
 		}
 	}
-	BRA_33559395 = {
-		name = Joaquim_Bernardes
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_33559395
-			cost = 150
-		}
-	}
-	BRA_33559749 = {
-		name = Manuel_Bras
+	BRA_100665723 = {
+		name = Francisco_de_Paula_Jordao_2
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_3
@@ -183,106 +183,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	BRA_33560086 = {
-		name = Fernando_de_Barros
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
-			}
-		}
-		field_marshal = {
-			traits = { ranger trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	BRA_33561066 = {
-		name = Candido_de_Barros
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_33561066
-			cost = 150
-		}
-	}
-	BRA_50331727 = {
-		name = Nilo_Santos
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_2
-				small = GFX_Portrait_South_America_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { battleship_adherent seawolf }
-			skill = 2
-			attack_skill = 4
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	BRA_50331736 = {
-		name = Custodio_de_Oliveira
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_4
-				small = GFX_Portrait_South_America_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	BRA_50331759 = {
-		name = Humberto_de_Lima_e_Silva
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_1
-				small = GFX_Portrait_South_America_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { gentlemanly old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	BRA_50335529 = {
-		name = Aurelio_2_de_Orleans
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_5
-				small = GFX_Portrait_South_America_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando infantry_officer }
+			traits = { engineer_officer harsh_leader trait_mountaineer }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -290,65 +191,76 @@ characters = {
 			logistics_skill = 3
 		}
 	}
-	BRA_50335945 = {
-		name = Vital_Caldwell
+	BRA_117440999 = {
+		name = Custodio_de_Orleans
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_50335945
+			idea_token = i_117440999
 			cost = 150
 		}
 	}
-	BRA_67109288 = {
-		name = JosE__de_Barros
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_1
-				small = GFX_Portrait_South_America_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	BRA_67109454 = {
-		name = Mario_2_Peixoto
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_3
-				small = GFX_Portrait_South_America_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality chief_engineer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 1
-		}
-	}
-	BRA_117440726 = {
-		name = JosE__de_Alcantara
+	BRA_117441338 = {
+		name = Filipe_Constant
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_117440726
+			idea_token = i_117441338
+			cost = 150
+		}
+	}
+	BRA_117446037 = {
+		name = Henrique_Vargas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117446037
+			cost = 150
+		}
+	}
+	BRA_134219533 = {
+		name = Custodio_de_Carvalho
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	BRA_150999416 = {
+		name = JoA_o_Moreira
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_150999416
 			cost = 150
 		}
 	}

@@ -1,30 +1,21 @@
-capital = 675
+capital = 705
 
 oob = "SAU_1936"
 set_research_slots = 2
-set_convoys = 4
+set_convoys = 1
 
-recruit_character = SAU_16778231
-recruit_character = SAU_33558713
-recruit_character = SAU_33559784
-recruit_character = SAU_50332314
-recruit_character = SAU_50333662
-recruit_character = SAU_50334118
-recruit_character = SAU_50336118
-recruit_character = SAU_50337502
-recruit_character = SAU_67111299
-recruit_character = SAU_67111927
-recruit_character = SAU_83889874
+recruit_character = SAU_150998363
+recruit_character = SAU_117441123
+recruit_character = SAU_117441155
+recruit_character = SAU_134218522
+recruit_character = SAU_134219457
+recruit_character = SAU_134221826
+recruit_character = SAU_134222647
+recruit_character = SAU_150995233
+recruit_character = SAU_167773497
+recruit_character = SAU_201326752
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Uthman_ibn_Uthman
-		GFX = GFX_portrait_arabia_generic_operative_male_5
-		traits = { operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SAU }
-	}
 }
 
 set_politics = {
@@ -36,9 +27,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 37
-	neutrality = 51
+	democratic = 13
+	fascism = 40
+	neutrality = 47
 }
 
 add_ideas = {

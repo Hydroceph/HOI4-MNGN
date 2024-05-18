@@ -1,119 +1,88 @@
 characters = {
-	Z04_50335104 = {
-		name = Wolfgang_von_Rechberg
+	Z04_218106774 = {
+		name = Camille_StE_venot
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Europe_Generic_3
+				large = GFX_Portrait_europe_generic_7
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = gen_nazism
 			traits = {  }
 		}
 	}
-	Z04_16780278 = {
-		name = Hasso_von_Gebser
+	Z04_67114743 = {
+		name = Thomas_Mathonat
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { communist_revolutionary }
 			slot = political_advisor
-			idea_token = i_16780278
+			idea_token = i_67114743
 			cost = 150
 		}
 	}
-	Z04_33556046 = {
-		name = Kasimir_Deppert
+	Z04_83886790 = {
+		name = Guillaume_Lebelleguy
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_33556046
+			idea_token = i_83886790
 			cost = 150
 		}
 	}
-	Z04_33560216 = {
-		name = Johann_Eisenstuck
-		portraits = {
-			army = {
-				large = GFX_Portrait_Germany_Generic_land_9
-				small = GFX_Portrait_Germany_Generic_land_9_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mastermind_code_cracker }
-			slot = political_advisor
-			idea_token = i_33560216
-			cost = 150
-		}
-	}
-	Z04_33560224 = {
-		name = Heinrich_Roepke
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Germany_Generic_navy_3
-				small = GFX_Portrait_Germany_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	Z04_33560574 = {
-		name = Hugo_Schmitt
+	Z04_83888222 = {
+		name = Hugo_Gain
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33560574
+			idea_token = i_83888222
 			cost = 150
 		}
 	}
-	Z04_50331755 = {
-		name = Hermann_Unglaub
+	Z04_117441027 = {
+		name = Aimable_de_Pourtales
 		portraits = {
-			army = {
-				large = GFX_Portrait_Germany_Generic_land_5
-				small = GFX_Portrait_Germany_Generic_land_5_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { brilliant_strategist commando infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117441027
+			cost = 150
 		}
 	}
-	Z04_67114903 = {
-		name = Peter_LanghA_user
+	Z04_117441737 = {
+		name = Elie_Ringeval
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117441737
+			cost = 150
+		}
+	}
+	Z04_117445815 = {
+		name = Alcide_Alavoine
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -122,35 +91,7 @@ characters = {
 		advisor = {
 			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67114903
-			cost = 150
-		}
-	}
-	Z04_83886216 = {
-		name = Ignatz_MU_ller_von_KO_nigswinter
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_83886216
-			cost = 150
-		}
-	}
-	Z04_117444310 = {
-		name = Gunther_de_Greiff
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_117444310
+			idea_token = i_117445815
 			cost = 150
 		}
 	}

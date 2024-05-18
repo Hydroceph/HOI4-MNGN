@@ -1,16 +1,16 @@
 state = {
 	id = 625
 	name = "STATE_625"
-	manpower = 63373
+	manpower = 9759
 
 	state_category = wasteland
 	impassable = yes
 
 	history = {
-		owner = BRA
+		owner = AST
 	}
 
 	provinces = {
-		2198 5232 8185 8254 12919 13285 13330 
+		2223 8237 10979 11013 12915 12936 12992 
 	}
 }

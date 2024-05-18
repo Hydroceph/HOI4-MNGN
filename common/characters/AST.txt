@@ -1,9 +1,9 @@
 characters = {
-	AST_33557829 = {
-		name = Louis_Mortlock
+	AST_167777554 = {
+		name = Bruce_Duggan
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Europe_Generic_3
+				large = GFX_portrait_europe_generic_6
 			}
 		}
 		country_leader = {
@@ -11,160 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	AST_16780694 = {
-		name = Henry_Baird
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	AST_16781359 = {
-		name = Thomas_Issac
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { battleship_adherent chief_engineer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 1
-		}
-	}
-	AST_16783690 = {
-		name = Charles_Piddington
-		portraits = {
-			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer politically_connected }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	AST_33557868 = {
-		name = Guy_Cobcroft
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_33557868
-			cost = 150
-		}
-	}
-	AST_33558876 = {
-		name = Henry_War
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_33558876
-			cost = 150
-		}
-	}
-	AST_33561014 = {
-		name = Arthur_Garling
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { craven gunnery_expert old_guard_navy }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			maneuvering_skill = 1
-			coordination_skill = 5
-		}
-	}
-	AST_50335001 = {
-		name = Guy_Clarke
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_50335001
-			cost = 150
-		}
-	}
-	AST_50335193 = {
-		name = Adrian_Duggan
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_50335193
-			cost = 150
-		}
-	}
-	AST_50338430 = {
-		name = William_Tennyson
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_50338430
-			cost = 150
-		}
-	}
-	AST_67109888 = {
-		name = Hallam_Armstrong
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_67109888
-			cost = 150
-		}
-	}
-	AST_67112268 = {
-		name = Stafford_Wakefield
+	AST_50333412 = {
+		name = Arthur_Dutton
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -173,25 +21,143 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_67112268
+			idea_token = i_50333412
 			cost = 150
 		}
 	}
-	AST_67112871 = {
-		name = John_Downer
+	AST_50335567 = {
+		name = Ray_Armstrong
 		portraits = {
 			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer old_guard }
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	AST_67112659 = {
+		name = Shane_Yeamans
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67112659
+			cost = 150
+		}
+	}
+	AST_67115150 = {
+		name = Charles_McLeay
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67115150
+			cost = 150
+		}
+	}
+	AST_83887729 = {
+		name = John_Dutton
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer desert_fox }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	AST_100664381 = {
+		name = Hallam_Anderson
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100664381
+			cost = 150
+		}
+	}
+	AST_134218259 = {
+		name = William_Issac
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_134218259
+			cost = 150
+		}
+	}
+	AST_150996307 = {
+		name = Edmund_Downer
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_150996307
+			cost = 150
+		}
+	}
+	AST_167772569 = {
+		name = Ray_Davis
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	AST_184550188 = {
+		name = Frederick_McCallum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_184550188
+			cost = 150
 		}
 	}
 }

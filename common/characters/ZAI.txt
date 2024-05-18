@@ -1,9 +1,9 @@
 characters = {
-	ZAI_67114901 = {
-		name = Nur_al-Din_al_Qasim
+	ZAI_117442849 = {
+		name = Abd_al-Karim_al_Qasimi
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Arabia_Generic_3
+				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
@@ -11,140 +11,50 @@ characters = {
 			traits = {  }
 		}
 	}
-	ZAI_16777616 = {
-		name = Uthman_al_Hashimi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	ZAI_16778706 = {
-		name = Fuad_Al_Sharqi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	ZAI_16780313 = {
-		name = Ibrahim_ibn_Abd_Allah
+	ZAI_67112115 = {
+		name = Yahya_al-Ghazzawi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_16780313
+			idea_token = i_67112115
 			cost = 150
 		}
 	}
-	ZAI_16781366 = {
-		name = Khalid_ibn_Fuad
+	ZAI_83889721 = {
+		name = Nur_al-Din_al-Azma
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_16781366
+			idea_token = i_83889721
 			cost = 150
 		}
 	}
-	ZAI_33555245 = {
-		name = Ja_far_al_Qasimi
+	ZAI_83889788 = {
+		name = Jamal_al-Halabi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_33555245
+			idea_token = i_83889788
 			cost = 150
 		}
 	}
-	ZAI_33560426 = {
-		name = Ahmad_al_Hashimi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_33560426
-			cost = 150
-		}
-	}
-	ZAI_50333555 = {
-		name = Uthman_al-Hamawi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50333555
-			cost = 150
-		}
-	}
-	ZAI_50338273 = {
-		name = Mustafa_ibn_Ja_far
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50338273
-			cost = 150
-		}
-	}
-	ZAI_67115050 = {
-		name = Ahmad_ibn_Umar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67115050
-			cost = 150
-		}
-	}
-	ZAI_67115322 = {
-		name = Ahmad_ibn_Salim
+	ZAI_83890265 = {
+		name = Halil_ibm_Kamil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -153,7 +63,57 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67115322
+			idea_token = i_83890265
+			cost = 150
+		}
+	}
+	ZAI_117444575 = {
+		name = Kamil_al-Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117444575
+			cost = 150
+		}
+	}
+	ZAI_117445763 = {
+		name = Yusuf_al-Nablusi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117445763
+			cost = 150
+		}
+	}
+	ZAI_134217743 = {
+		name = Ahmad_al_Qasimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	ZAI_134219039 = {
+		name = Shukri_ibn_Abd_al-Qadir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_134219039
 			cost = 150
 		}
 	}

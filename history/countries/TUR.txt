@@ -1,67 +1,73 @@
-capital = 297
+capital = 282
 
 oob = "TUR_1936"
-set_research_slots = 4
-set_convoys = 63
+set_research_slots = 3
+set_convoys = 22
 
-recruit_character = TUR_3144
-recruit_character = TUR_16779341
-recruit_character = TUR_16780428
-recruit_character = TUR_16783194
-recruit_character = TUR_16783606
-recruit_character = TUR_16783686
-recruit_character = TUR_16784079
-recruit_character = TUR_33560659
-recruit_character = TUR_50331785
-recruit_character = TUR_50331876
-recruit_character = TUR_50333458
-recruit_character = TUR_50334377
-recruit_character = TUR_50334484
-recruit_character = TUR_50334758
-recruit_character = TUR_50335560
-recruit_character = TUR_50337907
-recruit_character = TUR_67109073
-recruit_character = TUR_67109236
-recruit_character = TUR_67110198
-recruit_character = TUR_67110950
-recruit_character = TUR_67112306
-recruit_character = TUR_67113704
-recruit_character = TUR_83889209
-recruit_character = TUR_100664916
-recruit_character = TUR_100665283
-recruit_character = TUR_100665566
+recruit_character = TUR_50334024
+recruit_character = TUR_33558210
+recruit_character = TUR_33558504
+recruit_character = TUR_33559197
+recruit_character = TUR_50334020
+recruit_character = TUR_50334151
+recruit_character = TUR_50336580
+recruit_character = TUR_67109192
+recruit_character = TUR_67109482
+recruit_character = TUR_67109979
+recruit_character = TUR_67110433
+recruit_character = TUR_67112032
+recruit_character = TUR_83887413
+recruit_character = TUR_83887970
+recruit_character = TUR_83888082
+recruit_character = TUR_83888872
+recruit_character = TUR_83889116
+recruit_character = TUR_83891929
+recruit_character = TUR_83892457
+recruit_character = TUR_100663527
+recruit_character = TUR_100664271
+recruit_character = TUR_100664314
+recruit_character = TUR_100666430
+recruit_character = TUR_100666857
+recruit_character = TUR_100666933
+recruit_character = TUR_100669648
+recruit_character = TUR_117442014
+recruit_character = TUR_117442710
+recruit_character = TUR_117443005
+recruit_character = TUR_117446618
+recruit_character = TUR_117446816
+recruit_character = TUR_134218126
+recruit_character = TUR_134218905
+recruit_character = TUR_134218949
+recruit_character = TUR_134219550
+recruit_character = TUR_134220556
+recruit_character = TUR_134220580
+recruit_character = TUR_134224009
+recruit_character = TUR_167772897
+recruit_character = TUR_201329402
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Muhtar_Akbas
-		GFX = GFX_portrait_europe_generic_operative_male_4
-		traits = { operative_natural_orator operative_seducer operative_well_groomed }
+		name = Shukri_ibn_Khalid
+		GFX = GFX_portrait_arabia_generic_operative_male_1
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { TUR }
-	}
-	create_operative_leader = {
-		name = Nurettin_Pasha
-		GFX = GFX_portrait_europe_generic_operative_male_18
-		traits = { operative_commando }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { TUR }
+		nationalities = { JAB TUR }
 	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1932.10.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 14
-	fascism = 36
-	neutrality = 50
+	democratic = 10
+	fascism = 38
+	neutrality = 52
 }
 
 add_ideas = {

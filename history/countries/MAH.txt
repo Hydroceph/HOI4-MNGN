@@ -1,26 +1,33 @@
-capital = 848
+capital = 653
 
 oob = "MAH_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = MAH_16780307
-recruit_character = MAH_33555523
-recruit_character = MAH_33557271
-recruit_character = MAH_33557612
-recruit_character = MAH_33558547
-recruit_character = MAH_50333540
-recruit_character = MAH_67109189
-recruit_character = MAH_67109349
-recruit_character = MAH_67109912
-recruit_character = MAH_67110792
+recruit_character = MAH_151000986
+recruit_character = MAH_83886214
+recruit_character = MAH_100663982
+recruit_character = MAH_100665705
+recruit_character = MAH_100665939
+recruit_character = MAH_100666856
+recruit_character = MAH_117442428
+recruit_character = MAH_167773139
+recruit_character = MAH_167776574
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Nur_al-Din_ibn_Halil
+		GFX = GFX_portrait_arabia_generic_operative_male_5
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAH }
+	}
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.6.30"
+	ruling_party = democratic
+	last_election = "1932.10.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -28,12 +35,12 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 8
-	fascism = 37
-	neutrality = 55
+	fascism = 50
+	neutrality = 42
 }
 
 add_ideas = {
-	MAH_Yahya_al_Mahri
+	MAH_Khalid_al_Saud
 	civilian_economy
 	export_focus
 	volunteer_only

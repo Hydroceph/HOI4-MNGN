@@ -1,25 +1,22 @@
-capital = 243
 
 oob = "UGA_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = UGA_16781288
-recruit_character = UGA_16782351
+recruit_character = UGA_0
 recruit_character = UGA_33554638
-recruit_character = UGA_33555713
-recruit_character = UGA_33556037
-recruit_character = UGA_33557078
-recruit_character = UGA_33560864
-recruit_character = UGA_50332109
-recruit_character = UGA_50334297
-recruit_character = UGA_50335739
-recruit_character = UGA_67112490
+recruit_character = UGA_33557139
+recruit_character = UGA_67113166
+recruit_character = UGA_100666697
+recruit_character = UGA_117442418
+recruit_character = UGA_117442931
+recruit_character = UGA_134220782
+recruit_character = UGA_150996321
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Kalema_Ndiga
-		GFX = GFX_portrait_africa_generic_operative_male_4
+		name = Kalema_Ngonge
+		GFX = GFX_portrait_africa_generic_operative_male_7
 		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -27,21 +24,37 @@ if = {
 	}
 }
 
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = UGA
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = UGA
+	}
+}
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.3.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 37
-	neutrality = 52
+	democratic = 23
+	fascism = 34
+	neutrality = 43
 }
 
 add_ideas = {
+	UGA_Mutesa_Bagalayze
 	civilian_economy
 	export_focus
 	volunteer_only

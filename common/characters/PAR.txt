@@ -1,9 +1,9 @@
 characters = {
-	PAR_67109412 = {
-		name = Miguel_de_Alvear
+	PAR_50334353 = {
+		name = Cecilio_Warnes
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_4
+				large = GFX_portrait_south_america_generic_8
 			}
 		}
 		country_leader = {
@@ -11,78 +11,36 @@ characters = {
 			traits = {  }
 		}
 	}
-	PAR_16780122 = {
-		name = Elizardo_Aquino
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer infantry_officer trickster }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { fortification_engineer }
-			slot = political_advisor
-			idea_token = i_16780122
-			cost = 150
-		}
-	}
-	PAR_33557921 = {
-		name = Andres_Frutos
+	PAR_33561335 = {
+		name = Narciso_Campero
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_33557921
+			idea_token = i_33561335
 			cost = 150
 		}
 	}
-	PAR_33558642 = {
-		name = Luis_Ferreira
+	PAR_67111819 = {
+		name = Gaspar_Esquivel
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_33558642
+			idea_token = i_67111819
 			cost = 150
 		}
 	}
-	PAR_33558777 = {
-		name = Bernardino_Caballero
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer infantry_officer }
-			skill = 3
-			attack_skill = 5
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	PAR_50333375 = {
-		name = JosE__Tiaraju
+	PAR_67112048 = {
+		name = Feliciano_Esquivel
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_3
@@ -90,30 +48,92 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer organizer }
+			traits = { armor_officer harsh_leader infantry_officer }
 			skill = 2
-			attack_skill = 1
+			attack_skill = 3
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	PAR_50334986 = {
-		name = Julio_Gonzalez
+	PAR_67112241 = {
+		name = Pablo_Campero
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	PAR_67112360 = {
+		name = Torcuato_de_A_lzaga
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	PAR_83886964 = {
+		name = Baltasar_Machain
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_50334986
+			idea_token = i_83886964
 			cost = 150
 		}
 	}
-	PAR_50335419 = {
-		name = Telmo_Mendoza
+	PAR_117440541 = {
+		name = Carlos_de_la_Torre
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117440541
+			cost = 150
+		}
+	}
+	PAR_134217809 = {
+		name = Roque_Diaz_2
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134217809
+			cost = 150
+		}
+	}
+	PAR_134219432 = {
+		name = Emiliano_Avellaneda
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -122,49 +142,21 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_50335419
+			idea_token = i_134219432
 			cost = 150
 		}
 	}
-	PAR_67112518 = {
-		name = Eugenio_2_Lopez
+	PAR_134221431 = {
+		name = Jacinto_Correa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_67112518
-			cost = 150
-		}
-	}
-	PAR_67112706 = {
-		name = Jesus_Fernandez
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_67112706
-			cost = 150
-		}
-	}
-	PAR_100665239 = {
-		name = Gregorio_Tiaraju
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_100665239
+			idea_token = i_134221431
 			cost = 150
 		}
 	}

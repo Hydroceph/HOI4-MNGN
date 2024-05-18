@@ -1,25 +1,31 @@
-capital = 211
 
 oob = "Z00_1936"
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 0
 
-recruit_character = Z00_16779930
-recruit_character = Z00_3005
-recruit_character = Z00_16778824
-recruit_character = Z00_33557605
-recruit_character = Z00_50332996
-recruit_character = Z00_50338132
-recruit_character = Z00_67110969
-recruit_character = Z00_67111379
-recruit_character = Z00_83889495
-recruit_character = Z00_100664473
+recruit_character = Z00_16779581
+recruit_character = Z00_50334909
+recruit_character = Z00_50335801
+recruit_character = Z00_67110229
+recruit_character = Z00_67112570
+recruit_character = Z00_100664103
+recruit_character = Z00_100666367
+recruit_character = Z00_117445581
+recruit_character = Z00_167775057
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Filiberto_Correnti
-		GFX = GFX_portrait_europe_generic_operative_male_3
+		name = Muhammad_Mukrani
+		GFX = GFX_portrait_arabia_generic_operative_male_3
 		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { Z00 }
+	}
+	create_operative_leader = {
+		name = Hisham_ibn_Mustafa
+		GFX = GFX_portrait_arabia_generic_operative_male_4
+		traits = { operative_natural_orator operative_safe_cracker operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { Z00 }
@@ -28,20 +34,19 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.7.22"
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 16
-	fascism = 37
-	neutrality = 47
+	democratic = 19
+	fascism = 38
+	neutrality = 43
 }
 
 add_ideas = {
-	Z00_Felix_von_Habsburg
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -51,6 +56,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

@@ -1,27 +1,31 @@
-capital = 571
 
 oob = "KTI_1936"
 set_research_slots = 2
-set_convoys = 2
+set_convoys = 0
 
-recruit_character = KTI_6806
-recruit_character = KTI_16783753
-recruit_character = KTI_33554500
-recruit_character = KTI_33558009
-recruit_character = KTI_33558790
-recruit_character = KTI_33560730
-recruit_character = KTI_50332264
-recruit_character = KTI_50334178
-recruit_character = KTI_50334352
-recruit_character = KTI_67109002
-recruit_character = KTI_67110450
-recruit_character = KTI_67113709
+recruit_character = KTI_150996887
+recruit_character = KTI_67112318
+recruit_character = KTI_67113665
+recruit_character = KTI_100665835
+recruit_character = KTI_100666655
+recruit_character = KTI_117443078
+recruit_character = KTI_134218246
+recruit_character = KTI_150996138
+recruit_character = KTI_150996163
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Jaafar_Aadzam
+		name = Isandar_Muadzam
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_infiltrator operative_natural_orator }
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KTI }
+	}
+	create_operative_leader = {
+		name = Idris_Murshidul
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { KTI }
@@ -30,19 +34,20 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1934.4.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 38
-	neutrality = 50
+	democratic = 18
+	fascism = 37
+	neutrality = 45
 }
 
 add_ideas = {
+	KTI_Muabidin_Kutai
 	civilian_economy
 	export_focus
 	volunteer_only

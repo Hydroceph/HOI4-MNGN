@@ -1,27 +1,23 @@
 state = {
 	id = 721
 	name = "STATE_721"
-	manpower = 93075
-	resources = {
-		tungsten = 0
-	}
+	manpower = 83757
 
 	state_category = rural
 
 	history = {
-		owner = ORA
+		owner = ENG
 		victory_points = {
-			1509 1
+			8038 1
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 		}
-		add_core_of = ORA
 	}
 
 	provinces = {
-		1509 
+		4920 5012 7979 8038 8111 10875 
 	}
 }

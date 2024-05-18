@@ -1,115 +1,81 @@
 characters = {
-	HAU_33555700 = {
-		name = Bugaya_Agalawa
+	HAU_33555550 = {
+		name = Tsamiya_Agalawa
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	HAU_16781799 = {
-		name = Baba_Zamnagawa
+	HAU_50333195 = {
+		name = Muhammad_Agalawa
 		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
-			}
 			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { organizer trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { mastermind_code_cracker }
-			slot = political_advisor
-			idea_token = i_16781799
-			cost = 150
-		}
 	}
-	HAU_33555815 = {
-		name = Alhassan_Agalawa
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
-			}
-		}
-		corps_commander = {
-			traits = { commando }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	HAU_33558240 = {
-		name = Abdullah_Zamnagawa
+	HAU_50334619 = {
+		name = Muhammad_Audu
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { silent_workhorse }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_33558240
+			idea_token = i_50334619
 			cost = 150
 		}
 	}
-	HAU_33559827 = {
-		name = Tsamiya_Zaki
+	HAU_50334734 = {
+		name = Sharif_Dantata
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
-			idea_token = i_33559827
+			idea_token = i_50334734
 			cost = 150
 		}
 	}
-	HAU_50334130 = {
-		name = Sharif_Agalawa
+	HAU_83886165 = {
+		name = Kumbari_Agalawa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50334130
+			idea_token = i_83886165
 			cost = 150
 		}
 	}
-	HAU_50334514 = {
-		name = Yaji_Abasama
+	HAU_83889396 = {
+		name = Usman_al-Hajj
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_50334514
+			idea_token = i_83889396
 			cost = 150
 		}
 	}
-	HAU_50334833 = {
+	HAU_83889459 = {
 		name = Usman_Zaki
 		portraits = {
 			civilian = {
@@ -117,45 +83,37 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50334833
+			idea_token = i_83889459
 			cost = 150
 		}
 	}
-	HAU_50334835 = {
-		name = Kanajeji_Agalawa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	HAU_83886958 = {
-		name = Baba_Agalawa
+	HAU_100664650 = {
+		name = Alhassan_Abasama
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_83886958
+			idea_token = i_100664650
 			cost = 150
 		}
 	}
-	HAU_83887880 = {
-		name = Muhammad_Zamnagawa
+	HAU_134218509 = {
+		name = Sharif_Rumfa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_83887880
+			idea_token = i_134218509
 			cost = 150
 		}
 	}

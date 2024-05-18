@@ -1,8 +1,9 @@
 state = {
 	id = 364
 	name = "STATE_364"
-	manpower = 1323420
+	manpower = 884458
 	resources = {
+		aluminium = 4
 		tungsten = 1
 	}
 
@@ -11,20 +12,17 @@ state = {
 	history = {
 		owner = TUR
 		victory_points = {
-			11867 1
+			3988 1
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			11811 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = TUR
 	}
 
 	provinces = {
-		785 947 3786 3851 6912 11778 11811 11829 11867 
+		976 1109 1205 3864 3988 4109 7127 11895 12001 
 	}
 }

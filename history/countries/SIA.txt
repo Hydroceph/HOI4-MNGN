@@ -1,28 +1,29 @@
-capital = 304
+capital = 362
 
 oob = "SIA_1936"
 set_research_slots = 2
-set_convoys = 4
+set_convoys = 0
 
 recruit_character = SIA_16783521
-recruit_character = SIA_16778964
-recruit_character = SIA_16779267
-recruit_character = SIA_16782416
-recruit_character = SIA_33555603
-recruit_character = SIA_50332186
-recruit_character = SIA_50333368
-recruit_character = SIA_50334961
-recruit_character = SIA_50335377
-recruit_character = SIA_50337636
+recruit_character = SIA_50332813
 recruit_character = SIA_67111409
-recruit_character = SIA_67112311
-recruit_character = SIA_83886304
+recruit_character = SIA_67111776
+recruit_character = SIA_67112488
+recruit_character = SIA_67112580
+recruit_character = SIA_67113502
+recruit_character = SIA_100668553
+recruit_character = SIA_117441108
+recruit_character = SIA_117446471
+recruit_character = SIA_134224274
+recruit_character = SIA_150998694
+recruit_character = SIA_150999376
+recruit_character = SIA_301993301
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Sirivongse_Chichalerm
+		name = Chulalongkorn_Praband
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_safe_cracker }
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { SIA }
@@ -38,9 +39,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 36
-	neutrality = 51
+	democratic = 14
+	fascism = 38
+	neutrality = 48
 }
 
 add_ideas = {

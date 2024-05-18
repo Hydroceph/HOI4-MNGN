@@ -1,6 +1,6 @@
 characters = {
-	SHW_3080 = {
-		name = Haile_Melekot_Solomon
+	SHW_134217966 = {
+		name = Berhanu_Solomon
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,38 +11,49 @@ characters = {
 			traits = {  }
 		}
 	}
-	SHW_16778890 = {
-		name = Alemayehu_Makonnen
+	SHW_50332065 = {
+		name = Berihun_Solomon
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_16778890
+			idea_token = i_50332065
 			cost = 150
 		}
 	}
-	SHW_16783344 = {
-		name = Berhanu_Cherecha
+	SHW_50337946 = {
+		name = Dirribi_Gemeda
 		portraits = {
-			army = {
-				large = GFX_portrait_ETH_generic_male_1
-				small = GFX_portrait_ETH_generic_male_1_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50337946
+			cost = 150
 		}
 	}
-	SHW_33555089 = {
+	SHW_83887694 = {
+		name = Demissie_Seged
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_83887694
+			cost = 150
+		}
+	}
+	SHW_83888640 = {
 		name = Saleh_Selassie
 		portraits = {
 			civilian = {
@@ -50,107 +61,28 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { fascist_demagogue }
 			slot = political_advisor
-			idea_token = i_33555089
+			idea_token = i_83888640
 			cost = 150
 		}
 	}
-	SHW_33557562 = {
-		name = Saleh_Solomon
-		portraits = {
-			army = {
-				large = GFX_portrait_ETH_generic_male_4
-				small = GFX_portrait_ETH_generic_male_4_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist old_guard ranger }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	SHW_33557637 = {
-		name = Debela_Eabisa
+	SHW_117441308 = {
+		name = Alemayehu_Eabisa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_33557637
+			idea_token = i_117441308
 			cost = 150
 		}
 	}
-	SHW_50337529 = {
-		name = Tsegaye_Qallu
-		portraits = {
-			army = {
-				large = GFX_portrait_ETH_generic_male_3
-				small = GFX_portrait_ETH_generic_male_3_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	SHW_67109040 = {
-		name = Abadula_Eabisa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_67109040
-			cost = 150
-		}
-	}
-	SHW_67113482 = {
-		name = Abdus_Dinagde
-		portraits = {
-			army = {
-				large = GFX_portrait_ETH_generic_male_1
-				small = GFX_portrait_ETH_generic_male_1_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	SHW_83886406 = {
-		name = Demissie_Mariam
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_83886406
-			cost = 150
-		}
-	}
-	SHW_83886558 = {
-		name = Gobana_Makonnen
+	SHW_117441484 = {
+		name = Bekele_Seged
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -159,35 +91,21 @@ characters = {
 		advisor = {
 			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_83886558
+			idea_token = i_117441484
 			cost = 150
 		}
 	}
-	SHW_100669675 = {
-		name = Amare_Ali_Aba_Deyas
+	SHW_134220268 = {
+		name = Yilma_Makonnen
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { fascist_demagogue }
 			slot = political_advisor
-			idea_token = i_100669675
-			cost = 150
-		}
-	}
-	SHW_134217966 = {
-		name = Berhanu_Solomon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_134217966
+			idea_token = i_134220268
 			cost = 150
 		}
 	}

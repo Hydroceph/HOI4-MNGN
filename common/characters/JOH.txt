@@ -1,18 +1,170 @@
 characters = {
-	JOH_2882 = {
-		name = Ali_Iskandar_Bendahara
+	JOH_151000551 = {
+		name = Yusuf_Raja_Ahmad
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_portrait_asia_generic_4
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = centrism
 			traits = {  }
 		}
 	}
-	JOH_2883 = {
-		name = Abu_Bakar_Bendahara
+	JOH_67109137 = {
+		name = Ali_Jamalullail
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_2
+				small = GFX_Portrait_Asia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	JOH_67110727 = {
+		name = Ismail_Muadzam
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	JOH_67115424 = {
+		name = Abdullah_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_67115424
+			cost = 150
+		}
+	}
+	JOH_83887520 = {
+		name = Abdullah_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_83887520
+			cost = 150
+		}
+	}
+	JOH_83889350 = {
+		name = Idris_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83889350
+			cost = 150
+		}
+	}
+	JOH_83889388 = {
+		name = Abdullah_bin_Nik
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	JOH_83892363 = {
+		name = Muhammad_Aadzam
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_3
+				small = GFX_Portrait_Asia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	JOH_100664510 = {
+		name = Tuanku_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100664510
+			cost = 150
+		}
+	}
+	JOH_100668728 = {
+		name = Riayat_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100668728
+			cost = 150
+		}
+	}
+	JOH_117441506 = {
+		name = Abdullah_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_117441506
+			cost = 150
+		}
+	}
+	JOH_150995667 = {
+		name = Ali_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -21,150 +173,7 @@ characters = {
 		advisor = {
 			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_2883
-			cost = 150
-		}
-	}
-	JOH_33556009 = {
-		name = Safiuddin_Jamalullail
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_33556009
-			cost = 150
-		}
-	}
-	JOH_33558070 = {
-		name = Yusuf_Raja_Ahmad
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { commando trait_cautious }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_33558070
-			cost = 150
-		}
-	}
-	JOH_33558629 = {
-		name = Muhammad_Bendahara
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_2
-				small = GFX_Portrait_Asia_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	JOH_50331845 = {
-		name = Riayat_Bendahara
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer trait_cautious }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
-		}
-	}
-	JOH_50334820 = {
-		name = Jalil_Raja_Inu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334820
-			cost = 150
-		}
-	}
-	JOH_50335360 = {
-		name = Idris_Murshidul
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { popular_figurehead }
-			slot = political_advisor
-			idea_token = i_50335360
-			cost = 150
-		}
-	}
-	JOH_67109822 = {
-		name = Ismail_Raja_Ahmad
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_67109822
-			cost = 150
-		}
-	}
-	JOH_67111855 = {
-		name = Riayat_Aadzam
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_67111855
-			cost = 150
-		}
-	}
-	JOH_67111954 = {
-		name = Isandar_al-Marhum
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_67111954
+			idea_token = i_150995667
 			cost = 150
 		}
 	}

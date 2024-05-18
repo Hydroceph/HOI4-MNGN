@@ -1,33 +1,25 @@
-capital = 654
+capital = 603
 
 oob = "MKT_1936"
 set_research_slots = 2
-set_convoys = 6
+set_convoys = 3
 
-recruit_character = MKT_33555219
-recruit_character = MKT_2935
-recruit_character = MKT_16778230
-recruit_character = MKT_16778664
-recruit_character = MKT_16778785
-recruit_character = MKT_33556089
-recruit_character = MKT_33557262
-recruit_character = MKT_33559288
-recruit_character = MKT_33560570
-recruit_character = MKT_67109408
-recruit_character = MKT_67109528
+recruit_character = MKT_167777773
+recruit_character = MKT_50332657
+recruit_character = MKT_50333995
+recruit_character = MKT_50335009
+recruit_character = MKT_83888571
+recruit_character = MKT_83891767
+recruit_character = MKT_100664478
+recruit_character = MKT_100665480
+recruit_character = MKT_100669829
+recruit_character = MKT_117441813
+recruit_character = MKT_167772992
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Lowry_Israel
-		GFX = GFX_portrait_south_america_generic_operative_male_1
-		traits = { operative_natural_orator operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MKT }
-	}
 }
 
-ENG = {
+TUR = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -50,14 +42,14 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 4
-	democratic = 84
-	fascism = 11
-	neutrality = 1
+	communism = 0
+	democratic = 30
+	fascism = 26
+	neutrality = 44
 }
 
 add_ideas = {
-	MKT_George_Augustus_Frederic2
+	MKT_Charles_Frederic2
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -67,6 +59,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

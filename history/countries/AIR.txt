@@ -1,20 +1,18 @@
-capital = 747
 
 oob = "AIR_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = AIR_16777560
-recruit_character = AIR_16778840
-recruit_character = AIR_16783751
-recruit_character = AIR_33557858
-recruit_character = AIR_50331749
-recruit_character = AIR_50335787
-recruit_character = AIR_50337177
-recruit_character = AIR_50337277
-recruit_character = AIR_67108902
-recruit_character = AIR_67109180
 recruit_character = AIR_67110765
+recruit_character = AIR_50332510
+recruit_character = AIR_50337277
+recruit_character = AIR_67110733
+recruit_character = AIR_83887842
+recruit_character = AIR_100669243
+recruit_character = AIR_100669889
+recruit_character = AIR_117443284
+recruit_character = AIR_117443923
+recruit_character = AIR_150997874
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -28,8 +26,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 8
-	fascism = 39
+	democratic = 9
+	fascism = 38
 	neutrality = 53
 }
 

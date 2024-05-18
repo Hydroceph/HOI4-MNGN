@@ -1,57 +1,46 @@
-capital = 43
+capital = 121
 
 oob = "MOL_1936"
 set_research_slots = 3
 set_convoys = 0
 
-recruit_character = MOL_16777756
-recruit_character = MOL_16779209
-recruit_character = MOL_16779559
-recruit_character = MOL_16780985
-recruit_character = MOL_33559936
-recruit_character = MOL_33560020
-recruit_character = MOL_33560938
-recruit_character = MOL_50332047
-recruit_character = MOL_50332366
-recruit_character = MOL_50333819
-recruit_character = MOL_50335195
-recruit_character = MOL_67111881
-recruit_character = MOL_83887481
+recruit_character = MOL_83890724
+recruit_character = MOL_83888019
+recruit_character = MOL_83889383
+recruit_character = MOL_83892499
+recruit_character = MOL_100665925
+recruit_character = MOL_100667581
+recruit_character = MOL_117446500
+recruit_character = MOL_117446930
+recruit_character = MOL_134223753
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Gheorghe_Bogdan
-		GFX = GFX_portrait_europe_generic_operative_male_16
-		traits = { operative_demolition_expert operative_natural_orator operative_safe_cracker }
+		name = Radu_Christecu
+		GFX = GFX_portrait_europe_generic_operative_male_2
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MOL }
 	}
 	create_operative_leader = {
-		name = Vlad_Prezan
-		GFX = GFX_portrait_europe_generic_operative_male_21
-		traits = { operative_commando }
+		name = Carol_Cariadgi
+		GFX = GFX_portrait_europe_generic_operative_male_3
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MOL }
+	}
+	create_operative_leader = {
+		name = Adrian_Koslinski
+		GFX = GFX_portrait_europe_generic_operative_male_7
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MOL }
 	}
 }
 
-TUR = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = MOL
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
-		}
-	}
-	else = {
-		puppet = MOL
-	}
-}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.1.1"
@@ -61,9 +50,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 15
-	fascism = 37
-	neutrality = 48
+	democratic = 17
+	fascism = 38
+	neutrality = 45
 }
 
 add_ideas = {
@@ -76,6 +65,7 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
@@ -100,9 +90,12 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -182,6 +175,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = MOL_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

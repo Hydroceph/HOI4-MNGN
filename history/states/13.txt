@@ -1,29 +1,29 @@
 state = {
 	id = 13
 	name = "STATE_13"
-	manpower = 18514245
-	resources = {
-		steel = 29
-		tungsten = 9
-	}
+	manpower = 7280526
 
-	state_category = large_town
+	state_category = megalopolis
 
 	history = {
-		owner = RAJ
+		owner = ENG
 		victory_points = {
-			2086 2
+			3379 6
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 1
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 2
+			3329 = {
+				naval_base = 10
+			}
+			air_base = 3
 		}
-		add_core_of = RAJ
+		add_core_of = ENG
 	}
 
 	provinces = {
-		1898 2032 2086 3989 4915 5002 5086 5157 9951 10021 10794 11955 12868 
+		276 337 385 3242 3329 3379 11257 
 	}
 }

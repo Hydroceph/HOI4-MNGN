@@ -1,5 +1,5 @@
 characters = {
-	SIN_16777899 = {
+	SIN_83886261 = {
 		name = Mohammad_Talpur
 		portraits = {
 			civilian = {
@@ -11,103 +11,64 @@ characters = {
 			traits = {  }
 		}
 	}
-	SIN_16782168 = {
-		name = Nur_Mohammad_Kalpar
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_16782168
-			cost = 150
-		}
-	}
-	SIN_33557901 = {
-		name = Mir_Fath_Kolhi
+	SIN_50335414 = {
+		name = Nur_Mohammad_Sarki
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_33557901
+			idea_token = i_50335414
 			cost = 150
 		}
 	}
-	SIN_33558222 = {
-		name = Morad_Ali_Bhatti
-		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		field_marshal = {
-			traits = { commando harsh_leader infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SIN_33558720 = {
-		name = Mir_Fath_Bhurgari
+	SIN_83887244 = {
+		name = Morad_Ali_Pawar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33558720
+			idea_token = i_83887244
 			cost = 150
 		}
 	}
-	SIN_50332755 = {
-		name = Sobhdar_Pawar
+	SIN_100667198 = {
+		name = Hosayn_Sirki
 		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
 			civilian = {
+				small = GFX_idea_unknown
 			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50332755
+			idea_token = i_100667198
 			cost = 150
 		}
 	}
-	SIN_67108940 = {
-		name = Mir_Fath_Talpur
+	SIN_134219814 = {
+		name = Mohammad_Gabol
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_134219814
+			cost = 150
+		}
+	}
+	SIN_150996231 = {
+		name = Mohammad_Bjaeen
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -116,115 +77,16 @@ characters = {
 		advisor = {
 			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_67108940
+			idea_token = i_150996231
 			cost = 150
 		}
 	}
-	SIN_67109159 = {
-		name = Gholam_Mirza
+	SIN_167776060 = {
+		name = Mohammad_Talpur
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_67109159
-			cost = 150
-		}
-	}
-	SIN_67109298 = {
-		name = Morad_Ali_Pawar
-		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer trait_cautious }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SIN_67110106 = {
-		name = Karim_Soomro
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_67110106
-			cost = 150
-		}
-	}
-	SIN_67111033 = {
-		name = Morad_Ali_Sirki
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67111033
-			cost = 150
-		}
-	}
-	SIN_67114566 = {
-		name = Shahdad_Kalhoro
-		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	SIN_100666048 = {
-		name = Sobhdar_Rajpar
-		portraits = {
-			navy = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 2
-		}
-	}
-	SIN_117443676 = {
-		name = Sobhdar_Gabol
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_117443676
-			cost = 150
 		}
 	}
 }

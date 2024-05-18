@@ -1,6 +1,6 @@
 characters = {
-	AWA_16783586 = {
-		name = Ishvari_Sayyid
+	AWA_50334890 = {
+		name = Pheran_Sayyid
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,123 +11,100 @@ characters = {
 			traits = {  }
 		}
 	}
-	AWA_16777865 = {
-		name = Mahip_Naqvi
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_cautious }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 4
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_16777865
-			cost = 150
-		}
-	}
-	AWA_16780087 = {
-		name = Pheran_Devi
+	AWA_67111591 = {
+		name = Parbhu_Abaqati
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
-			idea_token = i_16780087
+			idea_token = i_67111591
 			cost = 150
 		}
 	}
-	AWA_16783500 = {
+	AWA_67115436 = {
+		name = Prasan_Ram
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_67115436
+			cost = 150
+		}
+	}
+	AWA_83887460 = {
+		name = Prasan_Ijtihadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83887460
+			cost = 150
+		}
+	}
+	AWA_83889686 = {
 		name = Mahip_Naqvi
 		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { engineer_officer infantry_officer inflexible_strategist }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83889686
+			cost = 150
 		}
 	}
-	AWA_33557193 = {
-		name = Raghuraj_Naqvi
+	AWA_83890103 = {
+		name = Lokendra_Abaqati
 		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { commando harsh_leader infantry_officer trait_cautious }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 4
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83890103
+			cost = 150
 		}
 	}
-	AWA_33557361 = {
+	AWA_83890301 = {
+		name = Ishvari_Sayyid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	AWA_100663443 = {
+		name = Narayan_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_100663443
+			cost = 150
+		}
+	}
+	AWA_100666485 = {
 		name = Udit_Singh
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { fascist_demagogue }
-			slot = political_advisor
-			idea_token = i_33557361
-			cost = 150
-		}
-	}
-	AWA_33558367 = {
-		name = Udit_Naqvi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_33558367
-			cost = 150
-		}
-	}
-	AWA_50331707 = {
-		name = Prasan_Devi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { communist_revolutionary }
-			slot = political_advisor
-			idea_token = i_50331707
-			cost = 150
-		}
-	}
-	AWA_50331956 = {
-		name = Parbhu_Ram
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -136,43 +113,21 @@ characters = {
 		advisor = {
 			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_50331956
+			idea_token = i_100666485
 			cost = 150
 		}
 	}
-	AWA_50334606 = {
-		name = Pheran_Ram
+	AWA_134218977 = {
+		name = Pheran_Singh
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50334606
-			cost = 150
-		}
-	}
-	AWA_50334890 = {
-		name = Pheran_Sayyid
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	AWA_67109106 = {
-		name = Lokendra_Abaqati
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_67109106
+			idea_token = i_134218977
 			cost = 150
 		}
 	}

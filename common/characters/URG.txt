@@ -1,119 +1,18 @@
 characters = {
-	URG_16782973 = {
-		name = Alfredo_Flores
+	URG_83889391 = {
+		name = Claudio_Pachedo
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_8
+				large = GFX_portrait_south_america_generic_7
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = fascism_ideology
 			traits = {  }
 		}
 	}
-	URG_33557922 = {
-		name = Eugenio_Rivas
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_33557922
-			cost = 150
-		}
-	}
-	URG_33559532 = {
-		name = Tomas_Castro
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_3
-				small = GFX_Portrait_South_America_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando infantry_officer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	URG_50331685 = {
-		name = Lorenzo_Serrato
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_50331685
-			cost = 150
-		}
-	}
-	URG_50332710 = {
-		name = Salvador_Carve
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_50332710
-			cost = 150
-		}
-	}
-	URG_50335294 = {
-		name = Pablo_Pedragosa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_50335294
-			cost = 150
-		}
-	}
-	URG_50337650 = {
-		name = Jose_Maria_Santos
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50337650
-			cost = 150
-		}
-	}
-	URG_67109095 = {
-		name = Julio_Requena
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_67109095
-			cost = 150
-		}
-	}
-	URG_67112782 = {
-		name = Javier_Bustamante
+	URG_100665656 = {
+		name = Javier_Vidal
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -122,25 +21,120 @@ characters = {
 		advisor = {
 			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_67112782
+			idea_token = i_100665656
 			cost = 150
 		}
 	}
-	URG_83886275 = {
-		name = Valentin_Nunez
+	URG_100669761 = {
+		name = JosE__Soca
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer naval_invader trait_cautious }
-			skill = 3
+			traits = { brilliant_strategist old_guard }
+			skill = 1
 			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	URG_117443408 = {
+		name = Venancio_Ellauri
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist engineer_officer old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
 			logistics_skill = 2
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_117443408
+			cost = 150
+		}
+	}
+	URG_117445876 = {
+		name = Conrado_Idiarte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117445876
+			cost = 150
+		}
+	}
+	URG_150995834 = {
+		name = Ramon_EstradE_
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_150995834
+			cost = 150
+		}
+	}
+	URG_167773723 = {
+		name = Tomas_Pedragosa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_167773723
+			cost = 150
+		}
+	}
+	URG_218103853 = {
+		name = Florentino_Pereira
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_218103853
+			cost = 150
+		}
+	}
+	URG_218107099 = {
+		name = Miguel_Idiarte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_218107099
+			cost = 150
 		}
 	}
 }

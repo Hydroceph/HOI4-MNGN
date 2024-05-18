@@ -1,32 +1,71 @@
 characters = {
-	SWE_33555380 = {
-		name = Johan_Sprengtporten
+	SWE_134219697 = {
+		name = Henrik_Leijonhufvud
 		portraits = {
 			civilian = {
-				large = GFX_portrait_FIN_risto_heikki_ryti
+				large = GFX_portrait_Thorvald_Stauning
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = liberalism
 			traits = {  }
 		}
 	}
-	SWE_16777359 = {
-		name = Henri_Bernadotte
+	SWE_50335321 = {
+		name = Jesper_MA_rtensson
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	SWE_67111652 = {
+		name = Knut_Gustavsson
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_16777359
+			idea_token = i_67111652
 			cost = 150
 		}
 	}
-	SWE_16779427 = {
-		name = Baltzar_von_Schwerin
+	SWE_67113819 = {
+		name = Charles_Bernadotte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SWE_83886677 = {
+		name = Theodor_af_Klint
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886677
+			cost = 150
+		}
+	}
+	SWE_83891913 = {
+		name = Nils_Samuel_Bengtsson
 		portraits = {
 			army = {
 				large = GFX_portrait_FIN_carl_mannerheim
@@ -36,50 +75,22 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer old_guard }
-			skill = 3
-			attack_skill = 4
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
 		}
 		advisor = {
-			traits = { military_theorist }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_16779427
+			idea_token = i_83891913
 			cost = 150
 		}
 	}
-	SWE_16780012 = {
-		name = Frans_NystrO_m
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_16780012
-			cost = 150
-		}
-	}
-	SWE_16783710 = {
-		name = Carl_Edvard_Ingelman
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_16783710
-			cost = 150
-		}
-	}
-	SWE_33557986 = {
-		name = Fredrik_Rosengren
+	SWE_100664897 = {
+		name = Knut_Lindgren
 		portraits = {
 			army = {
 				large = GFX_Portrait_europe_generic_land_6
@@ -87,89 +98,30 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
-			skill = 1
+			traits = { infantry_officer inflexible_strategist ranger }
+			skill = 2
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	SWE_50332306 = {
-		name = Didrik_Weidenhielm
+	SWE_100665460 = {
+		name = Ferdinand-Philippe_Bernadotte
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_50332306
+			idea_token = i_100665460
 			cost = 150
 		}
 	}
-	SWE_50334119 = {
-		name = Carl_Fredrik_Jons
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334119
-			cost = 150
-		}
-	}
-	SWE_67108920 = {
-		name = Francois_Bernadotte
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_67108920
-			cost = 150
-		}
-	}
-	SWE_83890143 = {
-		name = Karl_von_Essen
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_83890143
-			cost = 150
-		}
-	}
-	SWE_100663392 = {
-		name = Frans_de_Laval
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { commando organizer trait_cautious }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 5
-		}
-	}
-	SWE_134220794 = {
-		name = Elias_Lundberg
+	SWE_134220411 = {
+		name = Svante_Bengtsson
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -178,7 +130,49 @@ characters = {
 		advisor = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_134220794
+			idea_token = i_134220411
+			cost = 150
+		}
+	}
+	SWE_150997522 = {
+		name = Nils_von_Koch
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_150997522
+			cost = 150
+		}
+	}
+	SWE_167772990 = {
+		name = Albert_SO_derberg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_167772990
+			cost = 150
+		}
+	}
+	SWE_201327125 = {
+		name = Gustaf_Gunnarsson
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_201327125
 			cost = 150
 		}
 	}

@@ -1,0 +1,134 @@
+characters = {
+	COG_117447351 = {
+		name = M_voumbe_Kimpanzu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	COG_83887062 = {
+		name = Pratt_Kimpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	COG_100667033 = {
+		name = Nteve_Nimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_100667033
+			cost = 150
+		}
+	}
+	COG_134220264 = {
+		name = Nteve_Mankala
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134220264
+			cost = 150
+		}
+	}
+	COG_134222162 = {
+		name = Kivuzi_N_Gombi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_134222162
+			cost = 150
+		}
+	}
+	COG_150997776 = {
+		name = M_voudoukousala_Mvemba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_150997776
+			cost = 150
+		}
+	}
+	COG_150999215 = {
+		name = Loembe_Kinlaza
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_150999215
+			cost = 150
+		}
+	}
+	COG_151000407 = {
+		name = Poaty_Kinlaza
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_151000407
+			cost = 150
+		}
+	}
+	COG_184552219 = {
+		name = N_Gangue_Kimpanzu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_184552219
+			cost = 150
+		}
+	}
+	COG_201327991 = {
+		name = Poaty_Mvemba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_201327991
+			cost = 150
+		}
+	}
+}

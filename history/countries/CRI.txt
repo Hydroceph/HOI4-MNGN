@@ -1,36 +1,22 @@
-capital = 516
+capital = 621
 
 oob = "CRI_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = CRI_50333344
-recruit_character = CRI_33557331
-recruit_character = CRI_50332919
-recruit_character = CRI_50333998
-recruit_character = CRI_50334468
-recruit_character = CRI_50334523
-recruit_character = CRI_50336906
-recruit_character = CRI_67109307
-recruit_character = CRI_67109501
-recruit_character = CRI_67109568
-recruit_character = CRI_67111988
-recruit_character = CRI_83886555
-recruit_character = CRI_100663857
+recruit_character = CRI_100665845
+recruit_character = CRI_50334167
+recruit_character = CRI_67110049
+recruit_character = CRI_67112190
+recruit_character = CRI_67113265
+recruit_character = CRI_117444020
+recruit_character = CRI_184552037
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Mullanur_Tukay
-		GFX = GFX_portrait_arabia_generic_operative_male_5
-		traits = { operative_master_interrogator operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { CRI }
-	}
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,15 +24,15 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 17
-	fascism = 34
-	neutrality = 49
+	democratic = 23
+	fascism = 40
+	neutrality = 37
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
-	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60

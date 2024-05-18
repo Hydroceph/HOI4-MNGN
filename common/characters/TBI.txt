@@ -1,6 +1,6 @@
 characters = {
-	TBI_16778163 = {
-		name = Jawda_Habre
+	TBI_67109053 = {
+		name = Ibrahim_Habre
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_South_Africa_Political_Leader_Generic_2
@@ -11,95 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	TBI_16778829 = {
-		name = Muhammad_Arous
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_16778829
-			cost = 150
-		}
-	}
-	TBI_33555214 = {
-		name = Jawda_Kichidemi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { communist_revolutionary }
-			slot = political_advisor
-			idea_token = i_33555214
-			cost = 150
-		}
-	}
-	TBI_33556943 = {
-		name = Ali_Habre
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
-			}
-		}
-		corps_commander = {
-			traits = { trait_mountaineer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	TBI_33557904 = {
-		name = Kharut_Abda_al-Karim
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { editor }
-			slot = political_advisor
-			idea_token = i_33557904
-			cost = 150
-		}
-	}
-	TBI_50332474 = {
-		name = Jawda_Arous
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_50332474
-			cost = 150
-		}
-	}
-	TBI_50332820 = {
-		name = Ali_Nouri
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_50332820
-			cost = 150
-		}
-	}
-	TBI_50333372 = {
-		name = Raqib_Derret_ibn_Jawda
+	TBI_50333323 = {
+		name = Ibrahim_Abda_al-Karim
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -108,43 +21,105 @@ characters = {
 		advisor = {
 			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_50333372
+			idea_token = i_50333323
 			cost = 150
 		}
 	}
-	TBI_50334756 = {
-		name = Adham_Habre
+	TBI_50336138 = {
+		name = Yusuf_Kichidemi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_50334756
+			idea_token = i_50336138
 			cost = 150
 		}
 	}
-	TBI_67109053 = {
-		name = Ibrahim_Habre
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	TBI_67113373 = {
-		name = Salih_Derret_ibn_Jawda
+	TBI_67112603 = {
+		name = Yusuf_ibn_Ali
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_67113373
+			idea_token = i_67112603
+			cost = 150
+		}
+	}
+	TBI_67113249 = {
+		name = Ibrahim_Nouri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67113249
+			cost = 150
+		}
+	}
+	TBI_100663771 = {
+		name = Adham_Abd_al-Aziz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_100663771
+			cost = 150
+		}
+	}
+	TBI_117441125 = {
+		name = Yusuf_Habre
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_117441125
+			cost = 150
+		}
+	}
+	TBI_134218384 = {
+		name = Kharut_as-Sarhir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_134218384
+			cost = 150
+		}
+	}
+	TBI_134218764 = {
+		name = Adham_al-Sharif
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_134218764
 			cost = 150
 		}
 	}

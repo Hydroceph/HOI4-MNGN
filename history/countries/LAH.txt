@@ -1,42 +1,38 @@
-capital = 705
 
 oob = "LAH_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = LAH_16784038
-recruit_character = LAH_16783813
-recruit_character = LAH_33555938
-recruit_character = LAH_33556249
-recruit_character = LAH_33557564
-recruit_character = LAH_33558591
-recruit_character = LAH_50334036
-recruit_character = LAH_67108867
-recruit_character = LAH_67111482
-recruit_character = LAH_83888027
-recruit_character = LAH_100663601
+recruit_character = LAH_134218210
+recruit_character = LAH_67114022
+recruit_character = LAH_83888368
+recruit_character = LAH_83890212
+recruit_character = LAH_83892849
+recruit_character = LAH_100668478
+recruit_character = LAH_100669536
+recruit_character = LAH_100669878
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
+	ruling_party = fascism
+	last_election = "1932.11.11"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 36
-	neutrality = 53
+	democratic = 16
+	fascism = 35
+	neutrality = 49
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
-	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60

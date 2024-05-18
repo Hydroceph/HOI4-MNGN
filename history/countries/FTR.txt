@@ -1,35 +1,41 @@
-capital = 684
+capital = 677
 
 oob = "FTR_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = FTR_16778402
-recruit_character = FTR_33556691
-recruit_character = FTR_33557133
-recruit_character = FTR_33557671
-recruit_character = FTR_33557696
-recruit_character = FTR_50331821
-recruit_character = FTR_50332865
-recruit_character = FTR_50334678
-recruit_character = FTR_67111404
-recruit_character = FTR_83888915
+recruit_character = FTR_83886960
+recruit_character = FTR_83886590
+recruit_character = FTR_83888195
+recruit_character = FTR_100669449
+recruit_character = FTR_117441810
+recruit_character = FTR_117442010
+recruit_character = FTR_117446153
+recruit_character = FTR_167774940
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Amado_Khaari
+		GFX = GFX_portrait_africa_generic_operative_male_6
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { FTR }
+	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.12.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 36
-	neutrality = 52
+	democratic = 7
+	fascism = 37
+	neutrality = 56
 }
 
 add_ideas = {

@@ -1,4 +1,4 @@
-name = "Converted - jamtest"
+name = "Converted - MNGNcolony"
 replace_path="common/countries"
 replace_path="common/national_focus"
 replace_path="common/peace_conference/ai_peace"

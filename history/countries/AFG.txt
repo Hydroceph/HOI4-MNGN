@@ -1,28 +1,37 @@
-capital = 228
+capital = 294
 
 oob = "AFG_1936"
 set_research_slots = 2
 set_convoys = 0
 
 recruit_character = AFG_16779544
-recruit_character = AFG_16777695
-recruit_character = AFG_16778657
-recruit_character = AFG_16779850
-recruit_character = AFG_33555785
-recruit_character = AFG_33556740
-recruit_character = AFG_50332125
-recruit_character = AFG_50337193
-recruit_character = AFG_67109735
-recruit_character = AFG_67111030
-recruit_character = AFG_67111945
-recruit_character = AFG_83891900
-recruit_character = AFG_100665859
+recruit_character = AFG_67110213
+recruit_character = AFG_67110488
+recruit_character = AFG_83888033
+recruit_character = AFG_83888956
+recruit_character = AFG_83889632
+recruit_character = AFG_100668826
+recruit_character = AFG_117441412
+recruit_character = AFG_117445166
+recruit_character = AFG_117446154
+recruit_character = AFG_134223783
+recruit_character = AFG_167775385
+recruit_character = AFG_218104391
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Nasr_Allah_Shinwari
+		name = Nazia_Taunsvi
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_seducer }
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AFG }
+	}
+	create_operative_leader = {
+		name = Fazlollah_Maksum
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_safe_cracker operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { AFG }
@@ -38,9 +47,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 37
-	neutrality = 50
+	democratic = 18
+	fascism = 36
+	neutrality = 46
 }
 
 add_ideas = {

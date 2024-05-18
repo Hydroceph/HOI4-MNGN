@@ -1,6 +1,6 @@
 characters = {
-	SGU_16778190 = {
-		name = Bodyan_Tall
+	SGU_16780329 = {
+		name = Karamoko_Tall
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,67 +11,36 @@ characters = {
 			traits = {  }
 		}
 	}
-	SGU_16780329 = {
-		name = Karamoko_Tall
+	SGU_67110629 = {
+		name = Biton_Mari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_16780329
+			idea_token = i_67110629
 			cost = 150
 		}
 	}
-	SGU_16781079 = {
-		name = Ben_Diallo
+	SGU_83887862 = {
+		name = Turukoro_Tonkomo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_16781079
+			idea_token = i_83887862
 			cost = 150
 		}
 	}
-	SGU_16782457 = {
+	SGU_83890302 = {
 		name = Masala_Tall
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader infantry_officer old_guard }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	SGU_16783822 = {
-		name = Bodyan_Bo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_16783822
-			cost = 150
-		}
-	}
-	SGU_16784053 = {
-		name = Do_Dembele
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -80,54 +49,26 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_16784053
+			idea_token = i_83890302
 			cost = 150
 		}
 	}
-	SGU_33559396 = {
-		name = Mari_Tall
+	SGU_83891301 = {
+		name = Mari_Niamody
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_33559396
+			idea_token = i_83891301
 			cost = 150
 		}
 	}
-	SGU_67111426 = {
-		name = Masala_Koro
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_67111426
-			cost = 150
-		}
-	}
-	SGU_67111612 = {
-		name = Kuma_Makoto
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_67111612
-			cost = 150
-		}
-	}
-	SGU_67112146 = {
-		name = Turukoro_Makoto
+	SGU_83892677 = {
+		name = Mamuru_Tonmansa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -136,38 +77,49 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_67112146
+			idea_token = i_83892677
 			cost = 150
 		}
 	}
-	SGU_83886371 = {
-		name = Kaladian_Tall
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_1
-				small = GFX_Portrait_Africa_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader infantry_officer }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-		}
-	}
-	SGU_83888923 = {
-		name = Masaloma_Diallo
+	SGU_100668100 = {
+		name = Mamuru_Makoto
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_83888923
+			idea_token = i_100668100
+			cost = 150
+		}
+	}
+	SGU_117441148 = {
+		name = Karamoko_Mari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117441148
+			cost = 150
+		}
+	}
+	SGU_167773138 = {
+		name = Kuma_Bo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_167773138
 			cost = 150
 		}
 	}

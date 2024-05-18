@@ -1,1 +1,392 @@
 # Naval non-MTG OOB
+units = {
+	fleet = {
+		name = "21. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "21. Fleet"
+			location = 9991
+			ship = { name = "Battleship 1" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 1" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 1" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 2" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 2" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 5" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 6" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 7" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 8" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 3" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 3" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 3" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 9" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 10" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 11" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 12" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 4" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 4" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 4" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 13" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 14" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 15" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 16" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 5" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 5" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 5" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 17" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 18" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 19" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 20" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 1" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 2" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 3" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 4" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 5" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 6" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 7" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 8" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "6. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "6. Fleet"
+			location = 9991
+			ship = { name = "Battleship 6" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 6" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 6" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 21" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 22" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 23" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 24" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 7" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 7" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 7" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 25" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 26" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 27" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 28" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 8" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 8" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 8" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 29" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 30" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 31" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 32" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 9" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 9" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 9" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 33" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 34" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 35" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 36" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 10" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 10" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 10" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 37" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 38" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 39" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 40" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 11" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 11" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 11" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 41" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 42" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 43" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 44" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 12" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 12" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 12" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 45" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 46" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 47" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 48" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "5. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "5. Fleet"
+			location = 9991
+			ship = { name = "Destroyer 49" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 50" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 51" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 52" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "9. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "9. Fleet"
+			location = 9991
+			ship = { name = "Submarine 9" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 10" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 11" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 12" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "19. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "19. Fleet"
+			location = 9991
+			ship = { name = "Battleship 13" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 13" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 13" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 53" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 54" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 55" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 56" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 14" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 14" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 14" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 57" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 58" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 59" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 60" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 15" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 15" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 15" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 61" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 62" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 63" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 64" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 16" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 16" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 16" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 65" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 66" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 67" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 68" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Heavy Cruiser 17" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 69" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 70" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 71" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "23. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "23. Fleet"
+			location = 9991
+			ship = { name = "Battleship 17" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 18" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 17" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 72" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 73" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 74" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 75" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 18" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 19" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 18" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 76" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 77" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 78" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 79" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 19" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 20" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 19" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 80" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 81" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 82" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 83" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 20" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 21" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 20" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 84" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 85" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 86" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 87" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 21" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 22" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 21" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 88" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 89" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 90" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 91" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "8. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "8. Fleet"
+			location = 9991
+			ship = { name = "Heavy Cruiser 23" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 92" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 93" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 94" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 95" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 96" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 97" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 98" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 99" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 100" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 101" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 102" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 103" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 104" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 105" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 106" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 13" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 14" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 15" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 16" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "16. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "16. Fleet"
+			location = 9991
+			ship = { name = "Destroyer 107" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 108" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 109" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 110" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "22. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "22. Fleet"
+			location = 9991
+			ship = { name = "Heavy Cruiser 24" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 111" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 112" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 113" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "15. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "15. Fleet"
+			location = 9991
+			ship = { name = "Destroyer 114" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 115" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 116" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 117" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 118" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 119" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 120" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 121" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "17. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "17. Fleet"
+			location = 9991
+			ship = { name = "Battleship 22" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 25" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 22" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 122" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 123" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 124" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 125" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Heavy Cruiser 26" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 126" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 127" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 128" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 17" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 18" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 19" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 20" definition = submarine equipment = { submarine_1 = {  amount = 1  owner = GER  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "20. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "20. Fleet"
+			location = 9991
+			ship = { name = "Battleship 23" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 27" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 23" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 129" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 130" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 131" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 132" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 24" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 28" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 24" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 133" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 134" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 135" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 136" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 25" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 29" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 25" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 137" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 138" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 139" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 140" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 26" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 30" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 26" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 141" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 142" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 143" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 144" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 27" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 31" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 27" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 145" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 146" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 147" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 148" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 28" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 32" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 28" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 149" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 150" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 151" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 152" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 29" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 33" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 29" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 153" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 154" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 155" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 156" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Battleship 30" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 34" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 30" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 157" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 158" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 159" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 160" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Heavy Cruiser 35" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Destroyer 161" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 162" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 163" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "24. Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "24. Fleet"
+			location = 9991
+			ship = { name = "Battleship 31" definition = battleship equipment = { battleship_1 = {  amount = 1  owner = GER  version_name = "Early Battleship" } } }
+			ship = { name = "Heavy Cruiser 36" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Light Cruiser 31" definition = light_cruiser equipment = { light_cruiser_1 = {  amount = 1  owner = GER  version_name = "Early Light Cruiser" } } }
+			ship = { name = "Destroyer 164" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 165" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 166" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 167" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = GER  version_name = "Early Destroyer" } } }
+		}
+	}
+}

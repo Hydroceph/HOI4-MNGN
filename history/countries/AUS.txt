@@ -1,30 +1,83 @@
-capital = 116
+capital = 35
 
 oob = "AUS_1936"
 set_research_slots = 4
-set_convoys = 48
+set_convoys = 368
 
-recruit_character = AUS_50331924
-recruit_character = AUS_16777296
-recruit_character = AUS_16778741
-recruit_character = AUS_16780301
-recruit_character = AUS_16783582
-recruit_character = AUS_16783754
-recruit_character = AUS_33554448
-recruit_character = AUS_33554516
-recruit_character = AUS_33555419
-recruit_character = AUS_33559809
-recruit_character = AUS_50331673
-recruit_character = AUS_50333066
-recruit_character = AUS_50338113
-recruit_character = AUS_67109973
-recruit_character = AUS_83889768
+recruit_character = AUS_117442301
+recruit_character = AUS_33557509
+recruit_character = AUS_33557517
+recruit_character = AUS_33557557
+recruit_character = AUS_50332705
+recruit_character = AUS_50333700
+recruit_character = AUS_50333755
+recruit_character = AUS_50333888
+recruit_character = AUS_50334672
+recruit_character = AUS_50337450
+recruit_character = AUS_50338138
+recruit_character = AUS_67108931
+recruit_character = AUS_67108951
+recruit_character = AUS_67110383
+recruit_character = AUS_67110654
+recruit_character = AUS_67111017
+recruit_character = AUS_67111047
+recruit_character = AUS_67111486
+recruit_character = AUS_67111527
+recruit_character = AUS_67111554
+recruit_character = AUS_67112447
+recruit_character = AUS_67112520
+recruit_character = AUS_67112728
+recruit_character = AUS_67112751
+recruit_character = AUS_67112984
+recruit_character = AUS_67112998
+recruit_character = AUS_67114226
+recruit_character = AUS_67114786
+recruit_character = AUS_67114980
+recruit_character = AUS_83886272
+recruit_character = AUS_83886433
+recruit_character = AUS_83887427
+recruit_character = AUS_83888044
+recruit_character = AUS_83888607
+recruit_character = AUS_83889462
+recruit_character = AUS_83889697
+recruit_character = AUS_83890001
+recruit_character = AUS_83890550
+recruit_character = AUS_83891070
+recruit_character = AUS_100663454
+recruit_character = AUS_100664113
+recruit_character = AUS_100665551
+recruit_character = AUS_100665860
+recruit_character = AUS_100666159
+recruit_character = AUS_100666466
+recruit_character = AUS_100666956
+recruit_character = AUS_100667070
+recruit_character = AUS_100668734
+recruit_character = AUS_100670156
+recruit_character = AUS_117441493
+recruit_character = AUS_117442705
+recruit_character = AUS_117443835
+recruit_character = AUS_117444031
+recruit_character = AUS_117446559
+recruit_character = AUS_134218679
+recruit_character = AUS_134220069
+recruit_character = AUS_150998344
+recruit_character = AUS_184554244
+recruit_character = AUS_218106772
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Lothar_Zentner
-		GFX = GFX_portrait_europe_generic_operative_male_11
-		traits = { operative_demolition_expert operative_natural_orator }
+		name = Notburga_Scheffold
+		GFX = GFX_portrait_europe_generic_operative_female_3
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+	create_operative_leader = {
+		name = Michael_Kohler
+		GFX = GFX_portrait_europe_generic_operative_male_20
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { AUS }
@@ -32,23 +85,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1934.1.12"
+	ruling_party = fascism
+	last_election = "1933.11.12"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 19
-	fascism = 38
-	neutrality = 43
+	democratic = 59
+	fascism = 26
+	neutrality = 15
 }
 
 add_ideas = {
-	AUS_Otto_von_Habsburg
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -56,8 +108,13 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -78,9 +135,14 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -100,6 +162,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -160,6 +223,47 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = AUS_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

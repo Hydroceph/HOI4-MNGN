@@ -1,118 +1,32 @@
 characters = {
-	MAH_16780307 = {
-		name = Kamil_ibn_Abd_Allah
+	MAH_151000986 = {
+		name = Ali_ibn_Muhammad
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Arabia_Generic_3
+				large = GFX_Portrait_Arabia_Generic_2
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = conservatism
 			traits = {  }
 		}
 	}
-	MAH_33555523 = {
-		name = Umar_ibn_Ja_far
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { commando harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_33555523
-			cost = 150
-		}
-	}
-	MAH_33557271 = {
-		name = Ahmad_Nuseibeh
+	MAH_83886214 = {
+		name = Yahya_Al_Sharqi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_33557271
+			idea_token = i_83886214
 			cost = 150
 		}
 	}
-	MAH_33557612 = {
-		name = Yahya_al_Mahri
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { socialite_connections }
-			slot = political_advisor
-			idea_token = i_33557612
-			cost = 150
-		}
-	}
-	MAH_33558547 = {
-		name = Hisham_al-Ghani_al-Nabulsi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_33558547
-			cost = 150
-		}
-	}
-	MAH_50333540 = {
-		name = Nur_al-Din_Al_Sharqi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_50333540
-			cost = 150
-		}
-	}
-	MAH_67109189 = {
-		name = Ibrahim_al_Mahri
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	MAH_67109349 = {
-		name = Tawfiq_Al_Maktoum
+	MAH_100663982 = {
+		name = Ahmad_ibn_Ja_far
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -121,26 +35,62 @@ characters = {
 		advisor = {
 			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_67109349
+			idea_token = i_100663982
 			cost = 150
 		}
 	}
-	MAH_67109912 = {
-		name = Kamil_al_Saud
+	MAH_100665705 = {
+		name = Halil_ibm_Kamil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67109912
+			idea_token = i_100665705
 			cost = 150
 		}
 	}
-	MAH_67110792 = {
-		name = Yahya_al-Himsi
+	MAH_100665939 = {
+		name = Salim_al-Najdi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100665939
+			cost = 150
+		}
+	}
+	MAH_100666856 = {
+		name = Ahmad_al_Saud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	MAH_117442428 = {
+		name = Yusuf_Al-Rahman_Al-Gillani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117442428
+			cost = 150
+		}
+	}
+	MAH_167773139 = {
+		name = Khalid_al_Saud
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -149,7 +99,21 @@ characters = {
 		advisor = {
 			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_67110792
+			idea_token = i_167773139
+			cost = 150
+		}
+	}
+	MAH_167776574 = {
+		name = Shukri_ibn_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_167776574
 			cost = 150
 		}
 	}

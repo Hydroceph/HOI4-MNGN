@@ -1,102 +1,60 @@
 characters = {
-	Z03_67113776 = {
-		name = Lazare_de_SE_rent
+	Z03_184549948 = {
+		name = Bernardo_de_Paiva
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Europe_Generic_3
+				large = GFX_portrait_europe_generic_8
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = gen_nazism
 			traits = {  }
 		}
 	}
-	Z03_16780386 = {
-		name = Oscar_Archinard
+	Z03_67111923 = {
+		name = Teodoro_de_Noronha
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_16780386
+			idea_token = i_67111923
 			cost = 150
 		}
 	}
-	Z03_16780429 = {
-		name = Charles_Roux
+	Z03_83886291 = {
+		name = Julio_2_Dias
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_16780429
+			idea_token = i_83886291
 			cost = 150
 		}
 	}
-	Z03_33557808 = {
-		name = Hippolyte_Nancy
+	Z03_83888903 = {
+		name = Rodrigo_da_Silva_Pereira
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_33557808
+			idea_token = i_83888903
 			cost = 150
 		}
 	}
-	Z03_33558266 = {
-		name = Francois_de_Rochebouet
-		portraits = {
-			navy = {
-				large = GFX_Portrait_France_Generic_navy_2
-				small = GFX_Portrait_France_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { craven gunnery_expert }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			maneuvering_skill = 1
-			coordination_skill = 4
-		}
-	}
-	Z03_50335359 = {
-		name = Firmin_Bergeret
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_6
-				small = GFX_Portrait_France_Generic_land_6_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_50335359
-			cost = 150
-		}
-	}
-	Z03_50338107 = {
-		name = Maurice_Pellissier
+	Z03_117440631 = {
+		name = Damiao_Machado
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -105,52 +63,49 @@ characters = {
 		advisor = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_50338107
+			idea_token = i_117440631
 			cost = 150
 		}
 	}
-	Z03_67109042 = {
-		name = Just_de_Montmorency-Laval
+	Z03_117445870 = {
+		name = Dinis_de_Carvalho
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67109042
+			idea_token = i_117445870
 			cost = 150
 		}
 	}
-	Z03_100663405 = {
-		name = Thibaut_Pasquier
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_2
-				small = GFX_Portrait_France_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	Z03_100664096 = {
-		name = Armand_Decazes
+	Z03_167772329 = {
+		name = Antonio_2_Machado
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_100664096
+			idea_token = i_167772329
+			cost = 150
+		}
+	}
+	Z03_167776224 = {
+		name = Candido_Vilela
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_167776224
 			cost = 150
 		}
 	}

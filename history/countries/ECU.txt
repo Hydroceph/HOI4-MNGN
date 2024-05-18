@@ -1,35 +1,34 @@
-capital = 847
+capital = 727
 
 oob = "ECU_1936"
 set_research_slots = 3
 set_convoys = 0
 
-recruit_character = ECU_50332694
-recruit_character = ECU_16778597
-recruit_character = ECU_33556955
-recruit_character = ECU_33557107
-recruit_character = ECU_33558721
-recruit_character = ECU_33559340
-recruit_character = ECU_50333950
-recruit_character = ECU_67110099
-recruit_character = ECU_67113483
-recruit_character = ECU_100664187
+recruit_character = ECU_67114867
+recruit_character = ECU_67109890
+recruit_character = ECU_83887405
+recruit_character = ECU_83892679
+recruit_character = ECU_100664580
+recruit_character = ECU_134218584
+recruit_character = ECU_134219242
+recruit_character = ECU_150998074
+recruit_character = ECU_150999515
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.3.31"
+	ruling_party = democratic
+	last_election = "1933.10.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 0
-	fascism = 39
-	neutrality = 61
+	communism = 35
+	democratic = 35
+	fascism = 28
+	neutrality = 2
 }
 
 add_ideas = {
@@ -42,6 +41,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
@@ -64,9 +65,13 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -86,6 +91,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -146,6 +152,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = ECU_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

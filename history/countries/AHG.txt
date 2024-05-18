@@ -1,19 +1,17 @@
-capital = 811
 
 oob = "AHG_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = AHG_16777299
-recruit_character = AHG_16778995
-recruit_character = AHG_16779226
-recruit_character = AHG_33556228
-recruit_character = AHG_33556852
-recruit_character = AHG_33559421
-recruit_character = AHG_50332476
-recruit_character = AHG_67110111
-recruit_character = AHG_67110601
-recruit_character = AHG_67112278
+recruit_character = AHG_100665612
+recruit_character = AHG_50332499
+recruit_character = AHG_67109174
+recruit_character = AHG_67110428
+recruit_character = AHG_67111080
+recruit_character = AHG_83891901
+recruit_character = AHG_100665337
+recruit_character = AHG_100666014
+recruit_character = AHG_167774575
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -27,8 +25,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 10
-	fascism = 37
+	democratic = 9
+	fascism = 38
 	neutrality = 53
 }
 

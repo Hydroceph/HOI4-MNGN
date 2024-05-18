@@ -1,24 +1,45 @@
-capital = 771
+capital = 710
 
 oob = "BTN_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = BTN_16779750
-recruit_character = BTN_16779901
-recruit_character = BTN_16779995
-recruit_character = BTN_16780169
-recruit_character = BTN_16780683
-recruit_character = BTN_50332837
-recruit_character = BTN_50333644
-recruit_character = BTN_50333988
-recruit_character = BTN_50334073
-recruit_character = BTN_67110648
-recruit_character = BTN_117441565
+recruit_character = BTN_117444032
+recruit_character = BTN_50333094
+recruit_character = BTN_50333758
+recruit_character = BTN_83888130
+recruit_character = BTN_100669866
+recruit_character = BTN_117440685
+recruit_character = BTN_117444672
+recruit_character = BTN_117446450
+recruit_character = BTN_167777453
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Jordao_Bouma
+		GFX = GFX_portrait_operative_unknown
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BTN }
+	}
 }
 
+SPR = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = BTN
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = BTN
+	}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.1.1"
@@ -28,9 +49,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 15
-	fascism = 36
-	neutrality = 49
+	democratic = 20
+	fascism = 37
+	neutrality = 43
 }
 
 add_ideas = {
@@ -43,6 +64,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

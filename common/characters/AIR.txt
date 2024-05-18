@@ -1,9 +1,9 @@
 characters = {
-	AIR_16777560 = {
-		name = Ag_Mama_Ikhia
+	AIR_67110765 = {
+		name = Majila_Ikhia
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Africa_Generic_4
+				large = GFX_Portrait_Africa_Generic_3
 			}
 		}
 		country_leader = {
@@ -11,90 +11,17 @@ characters = {
 			traits = {  }
 		}
 	}
-	AIR_16778840 = {
-		name = Ag_Mama_ag_Sidi
+	AIR_50332510 = {
+		name = Musa_ag_Sidi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_16778840
-			cost = 150
-		}
-	}
-	AIR_16783751 = {
-		name = Ag_Mama_ag_Muhammad
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic_2
-				small = GFX_Portrait_South_Africa_Army_Generic_2_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader old_guard trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	AIR_33557858 = {
-		name = Aytarel_Ikhia
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_33557858
-			cost = 150
-		}
-	}
-	AIR_50331749 = {
-		name = Islaman_ag_Sidi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_50331749
-			cost = 150
-		}
-	}
-	AIR_50335787 = {
-		name = Attici_ag_Amastan
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_50335787
-			cost = 150
-		}
-	}
-	AIR_50337177 = {
-		name = Aytarel_ag_Muhammad
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_50337177
+			idea_token = i_50332510
 			cost = 150
 		}
 	}
@@ -106,28 +33,92 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { backroom_backstabber }
 			slot = political_advisor
 			idea_token = i_50337277
 			cost = 150
 		}
 	}
-	AIR_67108902 = {
-		name = Issouf_ag_Muhammad
+	AIR_67110733 = {
+		name = Abareybon_ag_Amastan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { editor }
 			slot = political_advisor
-			idea_token = i_67108902
+			idea_token = i_67110733
 			cost = 150
 		}
 	}
-	AIR_67109180 = {
-		name = In_Tayaden_Ikhia
+	AIR_83887842 = {
+		name = Ag_Mama_ag_Sidi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887842
+			cost = 150
+		}
+	}
+	AIR_100669243 = {
+		name = Musa_Ag_Alhabib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100669243
+			cost = 150
+		}
+	}
+	AIR_100669889 = {
+		name = Moussa_Ikhia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	AIR_117443284 = {
+		name = Attici_al-Hajj
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117443284
+			cost = 150
+		}
+	}
+	AIR_117443923 = {
+		name = Islaman_ag_Muhammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_117443923
+			cost = 150
+		}
+	}
+	AIR_150997874 = {
+		name = In_Tayaden_Ag_Alhabib
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -136,16 +127,8 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_67109180
+			idea_token = i_150997874
 			cost = 150
-		}
-	}
-	AIR_67110765 = {
-		name = Majila_Ikhia
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
 		}
 	}
 }

@@ -1,31 +1,32 @@
-capital = 394
+capital = 390
 
 oob = "ELS_1936"
 set_research_slots = 3
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = ELS_16778893
-recruit_character = ELS_16779451
-recruit_character = ELS_33555627
-recruit_character = ELS_33557871
-recruit_character = ELS_33560477
-recruit_character = ELS_50333495
-recruit_character = ELS_50335398
-recruit_character = ELS_67112526
-recruit_character = ELS_83886379
+recruit_character = ELS_50333465
+recruit_character = ELS_50336228
+recruit_character = ELS_67112797
+recruit_character = ELS_83887204
+recruit_character = ELS_83891550
+recruit_character = ELS_83891899
+recruit_character = ELS_100665427
+recruit_character = ELS_100668330
+recruit_character = ELS_134218109
+recruit_character = ELS_167777323
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Jose_Francisco_Soto
-		GFX = GFX_portrait_south_america_generic_operative_male_4
-		traits = { operative_commando operative_demolition_expert operative_natural_orator operative_well_groomed }
+		name = Jose_Maria_Castellanos
+		GFX = GFX_portrait_south_america_generic_operative_male_5
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { ELS }
 	}
 	create_operative_leader = {
-		name = Maximo_Guzman
-		GFX = GFX_portrait_south_america_generic_operative_male_5
+		name = Felix_Garrigo
+		GFX = GFX_portrait_south_america_generic_operative_male_3
 		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -34,22 +35,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.4.9"
+	ruling_party = fascism
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 47
-	neutrality = 41
+	democratic = 20
+	fascism = 40
+	neutrality = 40
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -57,6 +58,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
@@ -82,6 +85,7 @@ if = {
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		mtg_transport = 1
 	}
 }
 
@@ -101,6 +105,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 

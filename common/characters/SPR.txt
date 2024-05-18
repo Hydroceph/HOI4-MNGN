@@ -1,7 +1,6 @@
 characters = {
-	SPR_3099 = {
-		name = Isabel_de_Borbon
-		gender = female
+	SPR_67110732 = {
+		name = Fernando_de_Borbon
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -12,230 +11,50 @@ characters = {
 			traits = {  }
 		}
 	}
-	SPR_16777487 = {
-		name = Antonio_Maria_de_Valda
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_16777487
-			cost = 150
-		}
-	}
-	SPR_16777687 = {
-		name = Damaso_de_AlO_s
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_5
-				small = GFX_portrait_europe_generic_navy_5_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	SPR_16778715 = {
-		name = Antonio_RamI_rez_de_Saavedra
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer naval_lineage }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 4
-			coordination_skill = 2
-		}
-		advisor = {
-			traits = { submarine_specialist }
-			slot = political_advisor
-			idea_token = i_16778715
-			cost = 150
-		}
-	}
-	SPR_16778772 = {
-		name = Gabino_de_ZufI_a
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { aviation_enthusiast chief_engineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 1
-		}
-	}
-	SPR_16779346 = {
-		name = Benito_de_Salavert
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_8
-				small = GFX_portrait_europe_generic_land_8_small
-			}
-		}
-		field_marshal = {
-			traits = { infantry_officer inflexible_strategist logistics_wizard old_guard organizer unyielding_defender }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	SPR_16782022 = {
-		name = Yaqub_dan_Fodio
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { engineer_officer infantry_officer inflexible_strategist trait_cautious }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 5
-			planning_skill = 2
-			logistics_skill = 4
-		}
-	}
-	SPR_16783005 = {
-		name = Juan_Carlos_de_Borbon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_16783005
-			cost = 150
-		}
-	}
-	SPR_16783612 = {
-		name = Genaro_GirO_n
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-		advisor = {
-			traits = { popular_figurehead }
-			slot = political_advisor
-			idea_token = i_16783612
-			cost = 150
-		}
-	}
-	SPR_33555265 = {
-		name = Ricardo_Hidalgo_de_Cisneros
+	SPR_33554512 = {
+		name = Marcelo_LO_pez_de_Haro
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_7
 				small = GFX_portrait_europe_generic_land_7_small
 			}
-		}
-		field_marshal = {
-			traits = { cavalry_officer desert_fox infantry_officer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SPR_33556541 = {
-		name = Agustin_Hevia
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_13
-				small = GFX_portrait_europe_generic_land_13_small
-			}
 			civilian = {
 			}
 		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader trait_mountaineer }
+		field_marshal = {
+			traits = { infantry_officer old_guard }
 			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
 			logistics_skill = 2
 		}
 		advisor = {
-			traits = { mass_assault_expert }
+			traits = { military_theorist }
 			slot = political_advisor
-			idea_token = i_33556541
+			idea_token = i_33554512
 			cost = 150
 		}
 	}
-	SPR_33557143 = {
-		name = Jose_Maria_MedizA_bal
+	SPR_50333229 = {
+		name = Alejandro_Colon
 		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
 			}
 		}
-		corps_commander = {
-			traits = { harsh_leader trait_mountaineer }
+		navy_leader = {
+			traits = { craven gentlemanly }
 			skill = 2
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 3
 		}
 	}
-	SPR_33557259 = {
-		name = Arsenio_Rodriguez
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer brilliant_strategist old_guard }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SPR_33557889 = {
-		name = Marcelo_Queipo_de_Llano
+	SPR_50333296 = {
+		name = Jose_Manuel_Mola
 		portraits = {
 			navy = {
 				large = GFX_portrait_europe_generic_navy_4
@@ -243,7 +62,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { arctic_water_expert chief_engineer }
+			traits = { naval_lineage }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -251,74 +70,132 @@ characters = {
 			coordination_skill = 2
 		}
 	}
-	SPR_33559821 = {
-		name = Bernardo_Terradas
+	SPR_50333311 = {
+		name = Diego_Galatas
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SPR_50333484 = {
+		name = Antonio_Maria_de_Albornoz
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { education_reformer }
+			slot = political_advisor
+			idea_token = i_50333484
+			cost = 150
+		}
+	}
+	SPR_50334473 = {
+		name = Rafael_2_SuA_rez_de_ArgudI_n
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	SPR_50335791 = {
+		name = Sebastian_Ortiz_de_la_Riva
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer fortress_buster harsh_leader old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SPR_50337308 = {
+		name = Ignacio_Fernandez_de_Cordoba
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SPR_67109254 = {
+		name = Gabino_GirO_n
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { submarine_specialist }
+			slot = political_advisor
+			idea_token = i_67109254
+			cost = 150
+		}
+	}
+	SPR_67109961 = {
+		name = Emilio_Flores_de_SeptiE_n
 		portraits = {
 			army = {
 				large = GFX_Portrait_europe_generic_land_6
 				small = GFX_Portrait_europe_generic_land_6_small
 			}
-		}
-		corps_commander = {
-			traits = { organizer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	SPR_50331771 = {
-		name = Felix_PiN_eiro
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer inflexible_strategist }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	SPR_50332069 = {
-		name = Claudio_de_Bohorques
-		portraits = {
 			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50332069
-			cost = 150
-		}
-	}
-	SPR_50332217 = {
-		name = Mateo_LarraN_aga
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_50332217
-			cost = 150
-		}
-	}
-	SPR_50332421 = {
-		name = Emilio_Ruiz_de_Arana
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
 			}
 		}
 		corps_commander = {
@@ -329,23 +206,49 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 3
 		}
-	}
-	SPR_50336435 = {
-		name = Pablo_Grasset
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { agricultural_capitalist }
 			slot = political_advisor
-			idea_token = i_50336435
+			idea_token = i_67109961
 			cost = 150
 		}
 	}
-	SPR_67109446 = {
-		name = Federico_Aranda
+	SPR_67110210 = {
+		name = Bernardo_Artola
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer infantry_officer trait_cautious trait_mountaineer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SPR_67110223 = {
+		name = Segismundo_de_QuirO_s
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer offensive_doctrine }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SPR_67110721 = {
+		name = Jose_Antonio_Lorenzana
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_4
@@ -353,16 +256,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { desert_fox infantry_officer }
+			traits = { cavalry_officer trait_mountaineer }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	SPR_67109733 = {
-		name = Sebastian_DI_ez_de_Rivera
+	SPR_67111494 = {
+		name = Ramon_de_Bernuy
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_8
@@ -370,47 +273,117 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { organizer trait_reckless }
-			skill = 2
+			traits = { infantry_officer old_guard }
+			skill = 1
 			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
+			defense_skill = 2
+			planning_skill = 1
 			logistics_skill = 1
 		}
 	}
-	SPR_83886997 = {
-		name = Claudio_del_Rosario_FalcO_
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_83886997
-			cost = 150
-		}
-	}
-	SPR_83889749 = {
-		name = Calixto_Maura
+	SPR_67111590 = {
+		name = Raimundo_Queipo_de_Llano
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_7
 				small = GFX_portrait_europe_generic_land_7_small
 			}
+			civilian = {
+			}
 		}
 		corps_commander = {
-			traits = { cavalry_officer commando }
+			traits = { infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_67111590
+			cost = 150
+		}
+	}
+	SPR_67111772 = {
+		name = Pablo_de_Bago
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	SPR_67112767 = {
+		name = Cristobal_Vilalta
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando trait_mountaineer }
 			skill = 2
 			attack_skill = 3
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	SPR_67115516 = {
+		name = Julio_Tuduri
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_67115516
+			cost = 150
+		}
+	}
+	SPR_83886634 = {
+		name = Mariano_Sanjurjo
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { inflexible_strategist politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
 			logistics_skill = 2
 		}
 	}
-	SPR_100665302 = {
-		name = Calixto_de_Arteche
+	SPR_83887607 = {
+		name = Francisco_Javier_Arrate
 		portraits = {
 			navy = {
 				large = GFX_portrait_europe_generic_navy_5
@@ -424,6 +397,416 @@ characters = {
 			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 1
+		}
+	}
+	SPR_83887787 = {
+		name = Felipe_de_Borbon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SPR_83888191 = {
+		name = Vicente_GonzA_lez_de_Cienfuegos
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { bold gunnery_expert naval_lineage }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+	SPR_83888881 = {
+		name = Agustin_Quintana
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83888881
+			cost = 150
+		}
+	}
+	SPR_83889539 = {
+		name = Felix_Artola
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	SPR_83890260 = {
+		name = Gaspar_Alvarez
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer fortress_buster old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SPR_100666359 = {
+		name = Alberto_Acuna
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SPR_117440580 = {
+		name = Ignacio_Grimaldi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer harsh_leader organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	SPR_117444002 = {
+		name = Jose_Maria_de_Santiago_Concha
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SPR_117444027 = {
+		name = Dionisio_de_Salavert
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality old_guard_navy }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	SPR_117444316 = {
+		name = Celestino_MelE_ndez
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SPR_117444587 = {
+		name = Luis_Fernandez
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	SPR_117444699 = {
+		name = Raimundo_Ruete
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SPR_134218363 = {
+		name = Alfonso_Millan-Astray
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	SPR_134218402 = {
+		name = Alberto_Hernandez
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage old_guard_navy spotter }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	SPR_134219294 = {
+		name = Leopoldo_Hevia
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SPR_134219988 = {
+		name = Julio_Cagigal_de_la_Vega
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SPR_134220146 = {
+		name = Dionisio_de_Uzqueta
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 1
+		}
+	}
+	SPR_134220159 = {
+		name = Felipe_de_Riquer
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	SPR_150995316 = {
+		name = Miguel_Izaguirre
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150995316
+			cost = 150
+		}
+	}
+	SPR_150997935 = {
+		name = Ricardo_de_Orozco
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SPR_151000620 = {
+		name = Jose_Antonio_FernA_ndez_de_CO_rdoba
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SPR_167772830 = {
+		name = Rafael_2_del_Rosario_Vereterra
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	SPR_167772966 = {
+		name = Pedro_Otero
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent old_guard_navy }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	SPR_184551498 = {
+		name = Damaso_BotI_n
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SPR_234883164 = {
+		name = Joaquin_de_Medina
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_cautious }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 }

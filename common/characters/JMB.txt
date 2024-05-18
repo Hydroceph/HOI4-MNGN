@@ -1,116 +1,60 @@
 characters = {
-	JMB_2879 = {
-		name = Thaha_Syaifuddin_Jambi
+	JMB_100663531 = {
+		name = Isandar_Jambi
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	JMB_16783541 = {
-		name = Muhammad_Jambi
+	JMB_67112633 = {
+		name = Jalil_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { education_reformer }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_16783541
+			idea_token = i_67112633
 			cost = 150
 		}
 	}
-	JMB_16783942 = {
-		name = Safiuddin_Riayat_Shah
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader infantry_officer politically_connected }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { editor }
-			slot = political_advisor
-			idea_token = i_16783942
-			cost = 150
-		}
-	}
-	JMB_33556810 = {
-		name = Ali_al-Khairat
+	JMB_67114670 = {
+		name = Riayat_Raja_Ahmad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_33556810
+			idea_token = i_67114670
 			cost = 150
 		}
 	}
-	JMB_33561176 = {
-		name = Aziz_Muadzam
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	JMB_50333751 = {
-		name = Tuanku_Raja_Ahmad
+	JMB_83889432 = {
+		name = Safiuddin_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50333751
+			idea_token = i_83889432
 			cost = 150
 		}
 	}
-	JMB_50338228 = {
-		name = Jalil_Riayat_Shah
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_50338228
-			cost = 150
-		}
-	}
-	JMB_67110457 = {
-		name = Al-Mukammal_al-Marhum
+	JMB_83889516 = {
+		name = Shahabuddin_Aadzam
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -119,49 +63,63 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_67110457
+			idea_token = i_83889516
 			cost = 150
 		}
 	}
-	JMB_83886372 = {
-		name = Isandar_Jamalullail
+	JMB_83890000 = {
+		name = Muabidin_Jamalullail
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_83886372
+			idea_token = i_83890000
 			cost = 150
 		}
 	}
-	JMB_83890262 = {
-		name = Jalil_Bendahara
+	JMB_100665312 = {
+		name = Abdullah_Jamalullail
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_83890262
+			idea_token = i_100665312
 			cost = 150
 		}
 	}
-	JMB_100666390 = {
-		name = Aziz_al-Marhum
+	JMB_134218773 = {
+		name = Jaafar_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_100666390
+			idea_token = i_134218773
+			cost = 150
+		}
+	}
+	JMB_184550131 = {
+		name = Idris_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_184550131
 			cost = 150
 		}
 	}

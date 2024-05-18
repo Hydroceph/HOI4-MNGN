@@ -1,28 +1,32 @@
 state = {
 	id = 248
 	name = "STATE_248"
-	manpower = 1438734
+	manpower = 816448
 	resources = {
-		tungsten = 3
+		rubber = 12
+		tungsten = 4
 	}
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = GZA
+		owner = HAI
 		victory_points = {
-			8245 10
+			1594 20
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
-			arms_factory = 0
+			arms_factory = 1
+			4641 = {
+				naval_base = 1
+			}
 			air_base = 5
 		}
-		add_core_of = GZA
+		add_core_of = HAI
 	}
 
 	provinces = {
-		5177 5212 8245 
+		1594 1635 4641 
 	}
 }

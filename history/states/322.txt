@@ -1,29 +1,26 @@
 state = {
 	id = 322
 	name = "STATE_322"
-	manpower = 1358070
+	manpower = 821482
 	resources = {
-		chromium = 0
-		tungsten = 3
+		tungsten = 0
 	}
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = ZAI
+		owner = AFG
 		victory_points = {
-			10752 10
+			1919 1
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 6
 		}
-		add_core_of = ZAI
 	}
 
 	provinces = {
-		1920 1973 4924 10752 
+		1919 4542 8027 10187 10417 12250 12430 12581 12805 
 	}
 }

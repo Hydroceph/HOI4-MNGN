@@ -1,21 +1,17 @@
-capital = 154
 
 oob = "BIK_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BIK_2706
-recruit_character = BIK_33556277
-recruit_character = BIK_33556883
-recruit_character = BIK_33559889
-recruit_character = BIK_50332956
-recruit_character = BIK_50335351
-recruit_character = BIK_50336884
-recruit_character = BIK_67111712
-recruit_character = BIK_67112042
-recruit_character = BIK_67113422
-recruit_character = BIK_67114811
-recruit_character = BIK_83891089
+recruit_character = BIK_0
+recruit_character = BIK_33557627
+recruit_character = BIK_67111548
+recruit_character = BIK_67113274
+recruit_character = BIK_67114915
+recruit_character = BIK_83889887
+recruit_character = BIK_100664951
+recruit_character = BIK_117441505
+recruit_character = BIK_117442132
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -44,9 +40,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 36
-	neutrality = 52
+	democratic = 16
+	fascism = 35
+	neutrality = 49
 }
 
 add_ideas = {

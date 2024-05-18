@@ -1,6 +1,6 @@
 characters = {
-	BNY_16778072 = {
-		name = Averey_Kasanda
+	BNY_33556536 = {
+		name = Morathi_Kasanda
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,61 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	BNY_16780353 = {
-		name = Reth_Zwagendaba
+	BNY_100665026 = {
+		name = Chata_Kasanda
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_16780353
+			idea_token = i_100665026
 			cost = 150
 		}
 	}
-	BNY_16783519 = {
-		name = Jaguan_Msemwa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_16783519
-			cost = 150
-		}
-	}
-	BNY_16783707 = {
-		name = Ife_Watuta
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_1
-				small = GFX_Portrait_Africa_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer old_guard organizer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { military_theorist }
-			slot = political_advisor
-			idea_token = i_16783707
-			cost = 150
-		}
-	}
-	BNY_33555596 = {
-		name = Kagali_Ndiga
+	BNY_100665741 = {
+		name = Kabulu_Ngonge
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -74,26 +35,12 @@ characters = {
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_33555596
+			idea_token = i_100665741
 			cost = 150
 		}
 	}
-	BNY_33556536 = {
-		name = Morathi_Kasanda
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_33556536
-			cost = 150
-		}
-	}
-	BNY_33557137 = {
-		name = Kalema_Butiko
+	BNY_100667043 = {
+		name = Mansa_Mnywasele
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -102,66 +49,63 @@ characters = {
 		advisor = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33557137
+			idea_token = i_100667043
 			cost = 150
 		}
 	}
-	BNY_33557163 = {
-		name = Reth_Mirambo
+	BNY_100668540 = {
+		name = Musanje_Njovu
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_33557163
+			idea_token = i_100668540
 			cost = 150
 		}
 	}
-	BNY_50333477 = {
-		name = Haruni_Mudimbe
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 5
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	BNY_50335133 = {
-		name = Razi_Zwagendaba
+	BNY_117446822 = {
+		name = Musawenkosi_Kasanda
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_50335133
+			idea_token = i_117446822
 			cost = 150
 		}
 	}
-	BNY_100665966 = {
-		name = Kyabaggo_Butiko
+	BNY_150995145 = {
+		name = Kabulu_Abalasangeye
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_100665966
+			idea_token = i_150995145
+			cost = 150
+		}
+	}
+	BNY_150997913 = {
+		name = Kenyi_Mudimbe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150997913
 			cost = 150
 		}
 	}

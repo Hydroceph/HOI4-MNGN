@@ -1,6 +1,6 @@
 characters = {
-	STG_33557403 = {
-		name = Riayat_Sintang
+	STG_50332604 = {
+		name = Jalil_al-Marhum
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,30 +11,86 @@ characters = {
 			traits = {  }
 		}
 	}
-	STG_33555378 = {
-		name = Tuanku_al-Marhum
+	STG_33558358 = {
+		name = Muabidin_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33555378
+			idea_token = i_33558358
 			cost = 150
 		}
 	}
-	STG_33557215 = {
-		name = Muabidin_Sintang
+	STG_83886721 = {
+		name = Muhammad_Sintang
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 	}
-	STG_33557342 = {
-		name = Al-Mukammal_Bendahara
+	STG_100665281 = {
+		name = Riayat_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100665281
+			cost = 150
+		}
+	}
+	STG_100665396 = {
+		name = Al-Mukammal_al-Marhum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100665396
+			cost = 150
+		}
+	}
+	STG_100666094 = {
+		name = Safiuddin_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100666094
+			cost = 150
+		}
+	}
+	STG_117441929 = {
+		name = Muhammad_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_117441929
+			cost = 150
+		}
+	}
+	STG_117444299 = {
+		name = Aziz_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -43,108 +99,21 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_33557342
+			idea_token = i_117444299
 			cost = 150
 		}
 	}
-	STG_33557623 = {
-		name = Al-Mukammal_Aadzam
+	STG_150995804 = {
+		name = Riayat_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33557623
-			cost = 150
-		}
-	}
-	STG_33560728 = {
-		name = Idris_al-Khairat
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_33560728
-			cost = 150
-		}
-	}
-	STG_50333445 = {
-		name = Aziz_al-Marhum
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50333445
-			cost = 150
-		}
-	}
-	STG_50333669 = {
-		name = Al-Mukammal_Jamalullail
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { fascist_demagogue }
-			slot = political_advisor
-			idea_token = i_50333669
-			cost = 150
-		}
-	}
-	STG_50334574 = {
-		name = Ali_Raja_Ahmad
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	STG_67109975 = {
-		name = Ali_Riayat_Shah
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_67109975
-			cost = 150
-		}
-	}
-	STG_67110945 = {
-		name = Riayat_Murshidul
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_67110945
+			idea_token = i_150995804
 			cost = 150
 		}
 	}

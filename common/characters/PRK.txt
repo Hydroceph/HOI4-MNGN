@@ -1,6 +1,6 @@
 characters = {
-	PRK_16780249 = {
-		name = Ali_Perak
+	PRK_184549887 = {
+		name = Ali_Riayat_Shah
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,131 +11,30 @@ characters = {
 			traits = {  }
 		}
 	}
-	PRK_16778908 = {
-		name = Muabidin_Perak
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	PRK_16779447 = {
-		name = Yusuf_Murshidul
+	PRK_67112792 = {
+		name = Abdullah_al-Marhum
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_16779447
+			idea_token = i_67112792
 			cost = 150
 		}
 	}
-	PRK_16784045 = {
-		name = Tuanku_al-Marhum
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist commando }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { education_reformer }
-			slot = political_advisor
-			idea_token = i_16784045
-			cost = 150
-		}
-	}
-	PRK_33555504 = {
-		name = Yusuf_Raja_Inu
+	PRK_134222089 = {
+		name = Abdullah_Raja_Ahmad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
-		advisor = {
-			traits = { editor }
-			slot = political_advisor
-			idea_token = i_33555504
-			cost = 150
-		}
 	}
-	PRK_33557333 = {
-		name = Idris_bin_Nik
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_33557333
-			cost = 150
-		}
-	}
-	PRK_33561275 = {
-		name = Safiuddin_bin_Nik
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_33561275
-			cost = 150
-		}
-	}
-	PRK_50332463 = {
-		name = Shahabuddin_Murshidul
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_3
-				small = GFX_Portrait_Asia_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { navy_career_officer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-	}
-	PRK_67109186 = {
-		name = Aziz_Bendahara
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_cautious }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 4
-		}
-	}
-	PRK_67109434 = {
-		name = Isandar_al-Khairat
+	PRK_134223828 = {
+		name = Yusuf_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -144,35 +43,63 @@ characters = {
 		advisor = {
 			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_67109434
+			idea_token = i_134223828
 			cost = 150
 		}
 	}
-	PRK_67113508 = {
-		name = Jaafar_Bendahara
+	PRK_134224404 = {
+		name = Aziz_Jamalullail
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_67113508
+			idea_token = i_134224404
 			cost = 150
 		}
 	}
-	PRK_83891737 = {
-		name = Tuanku_Bendahara
+	PRK_150995332 = {
+		name = Muhammad_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_83891737
+			idea_token = i_150995332
+			cost = 150
+		}
+	}
+	PRK_151001219 = {
+		name = Muhammad_al-Marhum
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_151001219
+			cost = 150
+		}
+	}
+	PRK_218103851 = {
+		name = Isandar_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_218103851
 			cost = 150
 		}
 	}

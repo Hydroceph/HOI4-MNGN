@@ -1,26 +1,33 @@
-capital = 282
+capital = 243
 
 oob = "NEP_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = NEP_2954
-recruit_character = NEP_16782509
-recruit_character = NEP_33559353
-recruit_character = NEP_33560968
-recruit_character = NEP_33561172
-recruit_character = NEP_50331714
-recruit_character = NEP_50332930
-recruit_character = NEP_50338067
-recruit_character = NEP_50338283
-recruit_character = NEP_67111693
-recruit_character = NEP_67114659
+recruit_character = NEP_0
+recruit_character = NEP_67112194
+recruit_character = NEP_83886639
+recruit_character = NEP_83888290
+recruit_character = NEP_100665209
+recruit_character = NEP_100666013
+recruit_character = NEP_100668906
+recruit_character = NEP_117445759
+recruit_character = NEP_134224191
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Bhim_Shamsher_Neupane
+		name = Durga_Devi
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_commando }
+		traits = { operative_natural_orator operative_tough }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+	create_operative_leader = {
+		name = Chandra_Shamsher_Das
+		GFX = GFX_portrait_operative_unknown
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { NEP }
@@ -36,9 +43,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 10
-	fascism = 39
-	neutrality = 51
+	democratic = 13
+	fascism = 37
+	neutrality = 50
 }
 
 add_ideas = {
@@ -51,6 +58,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

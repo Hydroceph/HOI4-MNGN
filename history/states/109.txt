@@ -1,28 +1,25 @@
 state = {
 	id = 109
 	name = "STATE_109"
-	manpower = 2328000
-	resources = {
-		tungsten = 6
-	}
+	manpower = 1857151
 
 	state_category = town
 
 	history = {
-		owner = OYO
+		owner = FRA
 		victory_points = {
-			12731 10
+			11702 1
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 1
-			air_base = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
 		}
-		add_core_of = OYO
+		add_core_of = FRA
 	}
 
 	provinces = {
-		12731 
+		752 755 760 929 3749 3754 3948 6775 6792 6962 9717 9734 9751 11702 11709 11718 11720 
 	}
 }

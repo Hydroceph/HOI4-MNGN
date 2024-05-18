@@ -11,64 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	AFG_16777695 = {
-		name = Fath_Hotak
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		field_marshal = {
-			traits = { old_guard }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_16777695
-			cost = 150
-		}
-	}
-	AFG_16778657 = {
-		name = Abolghasem_Khan
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	AFG_16779850 = {
-		name = Abolghasem_Kasym
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_16779850
-			cost = 150
-		}
-	}
-	AFG_33555785 = {
-		name = Akbar_Khan
+	AFG_67110213 = {
+		name = Mahsud_Hotak
 		portraits = {
 			army = {
 				large = GFX_portrait_unknown
@@ -76,7 +20,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
+			traits = { brilliant_strategist old_guard }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 2
@@ -84,98 +28,22 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	AFG_33556740 = {
-		name = Fath_Ali_Maksum
+	AFG_67110488 = {
+		name = Ayyub_Babajan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_33556740
+			idea_token = i_67110488
 			cost = 150
 		}
 	}
-	AFG_50332125 = {
-		name = Qaysar_Hotak
-		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer cavalry_officer commando }
-			skill = 2
-			attack_skill = 4
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	AFG_50337193 = {
-		name = Omar_Taunsvi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_50337193
-			cost = 150
-		}
-	}
-	AFG_67109735 = {
-		name = Hamzeh_Kasym
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	AFG_67111030 = {
-		name = Hamzeh_Bek
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67111030
-			cost = 150
-		}
-	}
-	AFG_67111945 = {
-		name = Muhsin_Kasym
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_67111945
-			cost = 150
-		}
-	}
-	AFG_83891900 = {
-		name = Ebrahim_Kasym
+	AFG_83888033 = {
+		name = Abd_al-Quddus_Naqshbandi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -184,12 +52,96 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_83891900
+			idea_token = i_83888033
 			cost = 150
 		}
 	}
-	AFG_100665859 = {
-		name = Afzal_Taunsvi
+	AFG_83888956 = {
+		name = Karim_Singh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83888956
+			cost = 150
+		}
+	}
+	AFG_83889632 = {
+		name = Firuz_al-Din_Jan
+		portraits = {
+			army = {
+				large = GFX_idea_unknown
+				small = GFX_idea_unknown_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_83889632
+			cost = 150
+		}
+	}
+	AFG_100668826 = {
+		name = Bahram_Khan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_4
+				small = GFX_Portrait_Asia_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	AFG_117441412 = {
+		name = Moin_ed-Din_Khan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_117441412
+			cost = 150
+		}
+	}
+	AFG_117445166 = {
+		name = Murad_Durrani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117445166
+			cost = 150
+		}
+	}
+	AFG_117446154 = {
+		name = Fath_Ali_Maksum
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -198,7 +150,52 @@ characters = {
 		advisor = {
 			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_100665859
+			idea_token = i_117446154
+			cost = 150
+		}
+	}
+	AFG_134223783 = {
+		name = Mirza_Maksum
+		portraits = {
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	AFG_167775385 = {
+		name = Abbas_Kasym
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_167775385
+			cost = 150
+		}
+	}
+	AFG_218104391 = {
+		name = Jamal_Shinwari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_218104391
 			cost = 150
 		}
 	}

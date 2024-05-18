@@ -1,0 +1,180 @@
+characters = {
+	RSM_83888260 = {
+		name = Emiliano_Airenti
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_5
+			}
+		}
+		country_leader = {
+			ideology = gen_nazism
+			traits = {  }
+		}
+	}
+	RSM_67110533 = {
+		name = Alfonso_Campana
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_1
+				small = GFX_Portrait_Italy_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	RSM_83890561 = {
+		name = Efisio_Annoni_di_Cerro
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83890561
+			cost = 150
+		}
+	}
+	RSM_83892932 = {
+		name = Federico_Barbier
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_3
+				small = GFX_Portrait_Italy_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer ranger }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	RSM_100665037 = {
+		name = Gaetano_Sineo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100665037
+			cost = 150
+		}
+	}
+	RSM_100669537 = {
+		name = Vittorio_di_Boglio
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_7
+				small = GFX_Portrait_Italy_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RSM_117440974 = {
+		name = Ippolito_Scapini
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_1
+				small = GFX_Portrait_Italy_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader old_guard }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RSM_117445082 = {
+		name = Marco_Rocci
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117445082
+			cost = 150
+		}
+	}
+	RSM_134220521 = {
+		name = Bernardo_Pacoret_de_Saint_Bon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134220521
+			cost = 150
+		}
+	}
+	RSM_150995057 = {
+		name = Innocenzo_Avondo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_150995057
+			cost = 150
+		}
+	}
+	RSM_150995186 = {
+		name = Ugo_De_Castro
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_150995186
+			cost = 150
+		}
+	}
+	RSM_150996200 = {
+		name = Damiano_Cavalli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_150996200
+			cost = 150
+		}
+	}
+}

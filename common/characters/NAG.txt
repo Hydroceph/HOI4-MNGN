@@ -1,17 +1,24 @@
 characters = {
-	NAG_16777903 = {
-		name = Shambhaji_Bhonsale
+	NAG_0 = {
+		name = _
 		portraits = {
-			civilian = {
-				large = GFX_portrait_unknown
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {  }
 		}
 	}
-	NAG_33555972 = {
+	NAG_67112084 = {
+		name = Raghunath_Bhonsale
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_67112084
+			cost = 150
+		}
+	}
+	NAG_83888674 = {
 		name = Raghunath_Rao
 		portraits = {
 			civilian = {
@@ -19,56 +26,56 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33555972
+			idea_token = i_83888674
 			cost = 150
 		}
 	}
-	NAG_33556517 = {
-		name = Balaji_Holkar
+	NAG_117443329 = {
+		name = Balaji_Mohite
 		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist old_guard organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	NAG_33557162 = {
-		name = Bajirao_Scindia
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
 			civilian = {
+				small = GFX_idea_unknown
 			}
-		}
-		corps_commander = {
-			traits = { infantry_officer politically_connected }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_33557162
+			idea_token = i_117443329
 			cost = 150
 		}
 	}
-	NAG_33559787 = {
-		name = Sawai_Appa_Sahib
+	NAG_117447056 = {
+		name = Madhava_Rao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_117447056
+			cost = 150
+		}
+	}
+	NAG_150995320 = {
+		name = Shahuji_Narayan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_150995320
+			cost = 150
+		}
+	}
+	NAG_150995997 = {
+		name = Rajaram_Phadnis
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -77,87 +84,12 @@ characters = {
 		advisor = {
 			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_33559787
+			idea_token = i_150995997
 			cost = 150
 		}
 	}
-	NAG_50337208 = {
-		name = Madhava_Mohite
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_50337208
-			cost = 150
-		}
-	}
-	NAG_67109967 = {
-		name = Narayan_Holkar
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { ranger trait_mountaineer trait_reckless }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_67109967
-			cost = 150
-		}
-	}
-	NAG_67110620 = {
-		name = Shahuji_Ballal
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_67110620
-			cost = 150
-		}
-	}
-	NAG_67111698 = {
-		name = Shivaji_Rao
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67111698
-			cost = 150
-		}
-	}
-	NAG_83886094 = {
-		name = Pratapsinha_Bhonsale
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	NAG_83888188 = {
-		name = Shahuji_Mehere
+	NAG_150996037 = {
+		name = Venkatji_Newalkar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -166,7 +98,7 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_83888188
+			idea_token = i_150996037
 			cost = 150
 		}
 	}

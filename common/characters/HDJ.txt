@@ -1,6 +1,6 @@
 characters = {
-	HDJ_16780186 = {
-		name = Ibrahim_al_Hashimi
+	HDJ_16780183 = {
+		name = Yahya_al_Hashimi
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,55 +11,55 @@ characters = {
 			traits = {  }
 		}
 	}
-	HDJ_16780183 = {
-		name = Yahya_al_Hashimi
+	HDJ_16779953 = {
+		name = Tawfiq_Al_Sharqi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_16779953
+			cost = 150
+		}
+	}
+	HDJ_33556219 = {
+		name = Sa_d_al-Din_ibn_Abd_al-Qadir
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_16780183
+			idea_token = i_33556219
 			cost = 150
 		}
 	}
-	HDJ_16780188 = {
-		name = Sa_ud_ibn_Abd_al-Qadir
+	HDJ_50334133 = {
+		name = Halil_ibn_Ahmad
 		portraits = {
 			army = {
 				large = GFX_Portrait_Arabia_Generic_land_2
 				small = GFX_Portrait_Arabia_Generic_land_2_small
 			}
-			civilian = {
-			}
 		}
 		corps_commander = {
-			traits = { commando harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_16780188
-			cost = 150
-		}
-	}
-	HDJ_33556197 = {
-		name = Ishaq_al_Hashimi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
+			traits = { old_guard organizer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -67,89 +67,70 @@ characters = {
 			logistics_skill = 3
 		}
 	}
-	HDJ_33556599 = {
-		name = Khalid_ibn_Abd_al-Qadir
+	HDJ_67109247 = {
+		name = Halil_Al_Mualla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109247
+			cost = 150
+		}
+	}
+	HDJ_67110716 = {
+		name = Sa_ud_al_Rashid
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Arabia_Generic_navy_1
 				small = GFX_Portrait_Arabia_Generic_navy_1_small
 			}
-			civilian = {
-			}
 		}
 		navy_leader = {
-			traits = { bold chief_engineer }
-			skill = 2
+			traits = { craven gunnery_expert }
+			skill = 3
 			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	HDJ_67112161 = {
+		name = Abu_Bakr_al_Ulayyan
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard organizer }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_33556599
-			cost = 150
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
-	HDJ_33559717 = {
-		name = Ibrahim_ibn_Umar
+	HDJ_83887529 = {
+		name = Fuad_al_Hashimi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { fascist_demagogue }
 			slot = political_advisor
-			idea_token = i_33559717
+			idea_token = i_83887529
 			cost = 150
 		}
 	}
-	HDJ_50333841 = {
-		name = Ali_ibn_Ja_far
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_50333841
-			cost = 150
-		}
-	}
-	HDJ_50334090 = {
-		name = Halil_al_Hashimi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_50334090
-			cost = 150
-		}
-	}
-	HDJ_67109783 = {
-		name = Tawfiq_al-Hijazi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_67109783
-			cost = 150
-		}
-	}
-	HDJ_83889270 = {
-		name = Ibrahim_ibn_Fuad
+	HDJ_100666602 = {
+		name = Abd_Allah_ibn_Hasan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -158,21 +139,57 @@ characters = {
 		advisor = {
 			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_83889270
+			idea_token = i_100666602
 			cost = 150
 		}
 	}
-	HDJ_117441131 = {
-		name = Halil_al_Nuaimi
+	HDJ_100668704 = {
+		name = Ishaq_Al_Maktoum
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_117441131
+			idea_token = i_100668704
+			cost = 150
+		}
+	}
+	HDJ_117443441 = {
+		name = Ishaq_al_Hashimi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	HDJ_117443460 = {
+		name = Ali_al-Hijazi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_117443460
+			cost = 150
+		}
+	}
+	HDJ_150997092 = {
+		name = Sa_d_al-Din_ibn_Hisham
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_150997092
 			cost = 150
 		}
 	}

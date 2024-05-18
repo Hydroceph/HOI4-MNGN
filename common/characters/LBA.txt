@@ -1,17 +1,17 @@
 characters = {
-	LBA_16778078 = {
-		name = Abdulaziz_Pasha
+	LBA_83886319 = {
+		name = Nureddin_Pasha
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_portrait_europe_generic_5
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	LBA_16779420 = {
+	LBA_50333421 = {
 		name = Ahmad_Benaissa
 		portraits = {
 			civilian = {
@@ -19,157 +19,56 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_16779420
+			idea_token = i_50333421
 			cost = 150
 		}
 	}
-	LBA_16779589 = {
-		name = Umar_al-Tanjawi
+	LBA_50335540 = {
+		name = Abd_al-Rahman_ibn_Halil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { ideological_crusader }
 			slot = political_advisor
-			idea_token = i_16779589
+			idea_token = i_50335540
 			cost = 150
 		}
 	}
-	LBA_16782429 = {
-		name = Shukri_al-Qabisi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader organizer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	LBA_33557702 = {
-		name = Umar_El_Djezairi
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Arabia_Generic_navy_1
-				small = GFX_Portrait_Arabia_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { gunnery_expert superior_tactician }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			maneuvering_skill = 1
-			coordination_skill = 5
-		}
-	}
-	LBA_33558811 = {
-		name = Yahya_al-Miknasi
+	LBA_83891650 = {
+		name = Abd_al-Qadir_al-Wahrani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_33558811
+			idea_token = i_83891650
 			cost = 150
 		}
 	}
-	LBA_50332357 = {
-		name = Halil_al-Alawi
+	LBA_117442405 = {
+		name = Muhammad_al-Alawi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50332357
+			idea_token = i_117442405
 			cost = 150
 		}
 	}
-	LBA_50332955 = {
-		name = Fawzi_al-Alawi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_cautious }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 4
-		}
-	}
-	LBA_67110548 = {
-		name = Fuad_al-Qabisi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_67110548
-			cost = 150
-		}
-	}
-	LBA_67115587 = {
-		name = Yahya_al-Alawi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { socialite_connections }
-			slot = political_advisor
-			idea_token = i_67115587
-			cost = 150
-		}
-	}
-	LBA_83886319 = {
-		name = Nureddin_Pasha
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	LBA_83888506 = {
-		name = Tawfiq_ibn_Khalid
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_83888506
-			cost = 150
-		}
-	}
-	LBA_83888659 = {
-		name = Zafir_al-Safaqisi
+	LBA_117442471 = {
+		name = Abd_al-Malik_al-Tatwani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -178,7 +77,35 @@ characters = {
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_83888659
+			idea_token = i_117442471
+			cost = 150
+		}
+	}
+	LBA_134218982 = {
+		name = Yusuf_ibn_Abd_Allah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_134218982
+			cost = 150
+		}
+	}
+	LBA_167773236 = {
+		name = Tawfiq_ibn_Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_167773236
 			cost = 150
 		}
 	}

@@ -1,22 +1,27 @@
-capital = 683
 
 oob = "SRK_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = SRK_3107
-recruit_character = SRK_16778904
-recruit_character = SRK_16780425
-recruit_character = SRK_16780989
-recruit_character = SRK_33554636
-recruit_character = SRK_33559070
-recruit_character = SRK_33559560
-recruit_character = SRK_50332468
-recruit_character = SRK_50335125
 recruit_character = SRK_67109077
-recruit_character = SRK_83887882
+recruit_character = SRK_50332223
+recruit_character = SRK_67110496
+recruit_character = SRK_83889689
+recruit_character = SRK_100668685
+recruit_character = SRK_117445254
+recruit_character = SRK_134220632
+recruit_character = SRK_150997227
+recruit_character = SRK_150999458
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Ahmad_Natadiningrat
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SRK }
+	}
 }
 
 INS = {
@@ -43,8 +48,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 15
-	fascism = 34
+	democratic = 14
+	fascism = 35
 	neutrality = 51
 }
 

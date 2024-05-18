@@ -188,16 +188,3 @@ division_template = {
 	}
 	priority = 2
 }
-
-units = {
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7556
-		division_template = "Light Infantry Brigade"
-		start_equipment_factor = 0
-		start_experience_factor = 0.2
-	}
-}

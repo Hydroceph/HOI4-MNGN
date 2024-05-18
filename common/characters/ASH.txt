@@ -1,6 +1,6 @@
 characters = {
-	ASH_6482 = {
-		name = Agyeman_Bretuo
+	ASH_16783930 = {
+		name = Akyampon_Bretuo
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,86 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	ASH_16779030 = {
-		name = Kwaku_Asante
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_16779030
-			cost = 150
-		}
-	}
-	ASH_16780163 = {
-		name = Kofi_Asante
+	ASH_67111854 = {
+		name = Amanquatia_Asante
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_16780163
+			idea_token = i_67111854
 			cost = 150
 		}
 	}
-	ASH_16781378 = {
-		name = Kwaku_Fofie
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_16781378
-			cost = 150
-		}
-	}
-	ASH_16783883 = {
-		name = Kwame_Bonsu
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_3
-				small = GFX_Portrait_Africa_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader politically_connected }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_16783883
-			cost = 150
-		}
-	}
-	ASH_16783930 = {
-		name = Akyampon_Bretuo
+	ASH_67112652 = {
+		name = Owusu_Asiba
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -99,88 +35,68 @@ characters = {
 		advisor = {
 			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_16783930
+			idea_token = i_67112652
 			cost = 150
 		}
 	}
-	ASH_33556385 = {
-		name = Amanquatia_Dwomo
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic_2
-				small = GFX_Portrait_South_Africa_Army_Generic_2_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer ranger }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	ASH_33556402 = {
-		name = Kwabena_Dwomo
+	ASH_83887955 = {
+		name = Akyampon_Dwomo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33556402
+			idea_token = i_83887955
 			cost = 150
 		}
 	}
-	ASH_33557995 = {
-		name = Amanquatia_Bonoman
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	ASH_50337490 = {
-		name = Akyampon_Prempeh
+	ASH_134220892 = {
+		name = Akyampon_Bretuo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50337490
+			idea_token = i_134220892
 			cost = 150
 		}
 	}
-	ASH_67109492 = {
-		name = Kwaku_Jukwaa
+	ASH_134222912 = {
+		name = Agyeman_Panyin
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_67109492
+			idea_token = i_134222912
 			cost = 150
 		}
 	}
-	ASH_67109882 = {
-		name = Akyampon_Dua
+	ASH_150996769 = {
+		name = Kwaku_Dwomo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_150996769
+			cost = 150
+		}
+	}
+	ASH_184550127 = {
+		name = Mensa_Bonsu
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -189,7 +105,21 @@ characters = {
 		advisor = {
 			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_67109882
+			idea_token = i_184550127
+			cost = 150
+		}
+	}
+	ASH_184555875 = {
+		name = Mensa_Prempeh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_184555875
 			cost = 150
 		}
 	}

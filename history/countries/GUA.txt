@@ -1,25 +1,26 @@
-capital = 328
+capital = 406
 
 oob = "GUA_1936"
 set_research_slots = 3
-set_convoys = 3
+set_convoys = 1
 
-recruit_character = GUA_67111371
-recruit_character = GUA_33560761
-recruit_character = GUA_50334143
-recruit_character = GUA_50334904
-recruit_character = GUA_50338101
-recruit_character = GUA_67109539
-recruit_character = GUA_67109896
-recruit_character = GUA_67109937
-recruit_character = GUA_67109960
-recruit_character = GUA_67111861
+recruit_character = GUA_117446386
+recruit_character = GUA_83887808
+recruit_character = GUA_83888847
+recruit_character = GUA_100664684
+recruit_character = GUA_100665695
+recruit_character = GUA_100667486
+recruit_character = GUA_117444947
+recruit_character = GUA_134218459
+recruit_character = GUA_134223350
+recruit_character = GUA_134223711
+recruit_character = GUA_234887564
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Frederick_Cotton
-		GFX = GFX_portrait_europe_generic_operative_male_23
-		traits = { operative_safe_cracker }
+		name = Eduardo_Vasconcelos
+		GFX = GFX_portrait_south_america_generic_operative_male_6
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { GUA }
@@ -27,7 +28,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.6.25"
 	election_frequency = 48
 	elections_allowed = yes
@@ -35,14 +36,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 15
-	fascism = 42
-	neutrality = 43
+	democratic = 8
+	fascism = 53
+	neutrality = 39
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -50,8 +51,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 

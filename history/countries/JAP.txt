@@ -1,28 +1,45 @@
-capital = 126
+capital = 213
 
 oob = "JAP_1936"
 set_research_slots = 2
-set_convoys = 9
+set_convoys = 3
 
-recruit_character = JAP_16780083
-recruit_character = JAP_16779273
-recruit_character = JAP_16780368
-recruit_character = JAP_16780834
-recruit_character = JAP_16783356
-recruit_character = JAP_33554735
-recruit_character = JAP_33557780
-recruit_character = JAP_33558008
-recruit_character = JAP_33559771
-recruit_character = JAP_33560458
 recruit_character = JAP_33560726
-recruit_character = JAP_50332274
-recruit_character = JAP_50336857
-recruit_character = JAP_67109318
-recruit_character = JAP_67110810
-recruit_character = JAP_83886806
-recruit_character = JAP_100664657
+recruit_character = JAP_50332892
+recruit_character = JAP_50333116
+recruit_character = JAP_50333181
+recruit_character = JAP_50335469
+recruit_character = JAP_50335579
+recruit_character = JAP_50336825
+recruit_character = JAP_67110584
+recruit_character = JAP_67111123
+recruit_character = JAP_67112222
+recruit_character = JAP_67112438
+recruit_character = JAP_67112987
+recruit_character = JAP_83890495
+recruit_character = JAP_100665526
+recruit_character = JAP_117442336
+recruit_character = JAP_134220913
+recruit_character = JAP_134221175
+recruit_character = JAP_150996366
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Kozo_Akiyama
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_commando operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAP }
+	}
+	create_operative_leader = {
+		name = Rokuro_Kabayama
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAP }
+	}
 }
 
 set_politics = {
@@ -34,9 +51,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
+	democratic = 12
 	fascism = 38
-	neutrality = 51
+	neutrality = 50
 }
 
 add_ideas = {
@@ -49,6 +66,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

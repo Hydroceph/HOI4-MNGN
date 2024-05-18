@@ -1,32 +1,27 @@
 state = {
 	id = 263
 	name = "STATE_263"
-	manpower = 3888723
+	manpower = 232617
 	resources = {
-		tungsten = 3
+		steel = 10
 	}
 
 	state_category = town
 
 	history = {
-		owner = KOR
+		owner = SWE
 		victory_points = {
-			7121 1
+			9329 1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
-			arms_factory = 0
-			dockyard = 1
-			4056 = {
-				naval_base = 1
-			}
-			air_base = 1
+			arms_factory = 1
 		}
-		add_core_of = KOR
+		add_core_of = SWE
 	}
 
 	provinces = {
-		1054 1081 4056 4086 7121 10085 11912 12060 12089 
+		171 211 242 295 299 329 363 383 3229 3286 3375 3386 6148 6310 6331 6406 9251 9329 9406 9410 11231 11280 11311 11390 13264 13265 
 	}
 }

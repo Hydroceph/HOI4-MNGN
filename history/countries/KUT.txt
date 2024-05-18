@@ -1,31 +1,19 @@
-capital = 409
 
 oob = "KUT_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = KUT_2902
-recruit_character = KUT_16782977
-recruit_character = KUT_16783497
-recruit_character = KUT_33555255
-recruit_character = KUT_50332145
-recruit_character = KUT_50332897
-recruit_character = KUT_50334405
-recruit_character = KUT_67108869
-recruit_character = KUT_67111378
-recruit_character = KUT_67111618
-recruit_character = KUT_67112029
-recruit_character = KUT_67112929
+recruit_character = KUT_50338040
+recruit_character = KUT_67109198
+recruit_character = KUT_83888046
+recruit_character = KUT_100664358
+recruit_character = KUT_100666987
+recruit_character = KUT_100667459
+recruit_character = KUT_134220409
+recruit_character = KUT_150996113
+recruit_character = KUT_167775493
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Madhavsingh_Vaghela
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_demolition_expert }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { KUT }
-	}
 }
 
 ENG = {
@@ -52,21 +40,23 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
+	democratic = 14
 	fascism = 36
-	neutrality = 53
+	neutrality = 50
 }
 
 add_ideas = {
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

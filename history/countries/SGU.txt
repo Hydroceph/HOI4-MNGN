@@ -1,23 +1,35 @@
-capital = 506
 
 oob = "SGU_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = SGU_16778190
 recruit_character = SGU_16780329
-recruit_character = SGU_16781079
-recruit_character = SGU_16782457
-recruit_character = SGU_16783822
-recruit_character = SGU_16784053
-recruit_character = SGU_33559396
-recruit_character = SGU_67111426
-recruit_character = SGU_67111612
-recruit_character = SGU_67112146
-recruit_character = SGU_83886371
-recruit_character = SGU_83888923
+recruit_character = SGU_67110629
+recruit_character = SGU_83887862
+recruit_character = SGU_83890302
+recruit_character = SGU_83891301
+recruit_character = SGU_83892677
+recruit_character = SGU_100668100
+recruit_character = SGU_117441148
+recruit_character = SGU_167773138
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Biton_Demba
+		GFX = GFX_portrait_africa_generic_operative_male_8
+		traits = { operative_natural_orator operative_safe_cracker operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SGU }
+	}
+	create_operative_leader = {
+		name = Tyefolo_Dyara
+		GFX = GFX_portrait_africa_generic_operative_male_6
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SGU }
+	}
 }
 
 set_politics = {
@@ -29,9 +41,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 37
-	neutrality = 52
+	democratic = 14
+	fascism = 35
+	neutrality = 51
 }
 
 add_ideas = {

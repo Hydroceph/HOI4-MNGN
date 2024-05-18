@@ -1,28 +1,16 @@
 state = {
 	id = 542
 	name = "STATE_542"
-	manpower = 114119
-	resources = {
-		steel = 0
-	}
+	manpower = 219463
 
-	state_category = town
+	state_category = wasteland
+	impassable = yes
 
 	history = {
-		owner = AST
-		victory_points = {
-			1814 1
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			dockyard = 1
-		}
-		add_core_of = AST
+		owner = Z08
 	}
 
 	provinces = {
-		1565 1713 1746 1786 1801 1814 4543 4615 4718 4748 4804 7692 7742 7783 7826 7887 10334 10373 10609 10710 12362 12604 12617 12664 
+		10780 10805 
 	}
 }

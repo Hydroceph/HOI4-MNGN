@@ -1,130 +1,58 @@
 characters = {
-	HON_33561178 = {
-		name = Julio_Guzman
+	HON_83887056 = {
+		name = Jose_Francisco_Regalado
 		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
 			civilian = {
-				large = GFX_portrait_south_america_generic_8
+				large = GFX_Portrait_South_America_Generic_land_2
 			}
 		}
 		country_leader = {
 			ideology = conservatism
 			traits = {  }
 		}
-	}
-	HON_16780653 = {
-		name = Victoriano_Machado
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_3
-				small = GFX_Portrait_South_America_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
+		field_marshal = {
+			traits = { inflexible_strategist logistics_wizard organizer ranger unyielding_defender }
 			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_16780653
-			cost = 150
-		}
-	}
-	HON_33556763 = {
-		name = Arturo_Escalon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_33556763
-			cost = 150
-		}
-	}
-	HON_33557815 = {
-		name = Doroteo_Quiros
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando infantry_officer organizer }
-			skill = 3
-			attack_skill = 3
+			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	HON_33557830 = {
-		name = Juan_Sinibaldi
+	HON_83888970 = {
+		name = Juan_Barrios
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_33557830
+			idea_token = i_83888970
 			cost = 150
 		}
 	}
-	HON_33560674 = {
-		name = Toribio_Sinibaldi
+	HON_100664539 = {
+		name = Tomas_Medina
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_33560674
+			idea_token = i_100664539
 			cost = 150
 		}
 	}
-	HON_33560855 = {
-		name = Juan_Pablo_Morazan
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_33560855
-			cost = 150
-		}
-	}
-	HON_67108986 = {
-		name = Alejandro_Andino
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_67108986
-			cost = 150
-		}
-	}
-	HON_67109571 = {
-		name = Tiburcio_Guzman
+	HON_100664835 = {
+		name = Santiago_Menendez
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -133,7 +61,128 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_67109571
+			idea_token = i_100664835
+			cost = 150
+		}
+	}
+	HON_100664975 = {
+		name = Toribio_Garrigo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_100664975
+			cost = 150
+		}
+	}
+	HON_100665010 = {
+		name = Benito_Barrios
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	HON_100669349 = {
+		name = Santiago_Morazan
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer desert_fox }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	HON_117440826 = {
+		name = Joaquin_Machado
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	HON_117441242 = {
+		name = Lisandro_Barrios
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_117441242
+			cost = 150
+		}
+	}
+	HON_117442782 = {
+		name = Justo_Garrigo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_117442782
+			cost = 150
+		}
+	}
+	HON_117443256 = {
+		name = Carlos_Castellanos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_117443256
+			cost = 150
+		}
+	}
+	HON_117445612 = {
+		name = Eduardo_Morazan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117445612
 			cost = 150
 		}
 	}

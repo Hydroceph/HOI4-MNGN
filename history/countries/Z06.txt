@@ -1,67 +1,79 @@
-capital = 237
+capital = 716
 
 oob = "Z06_1936"
 set_research_slots = 3
-set_convoys = 6
+set_convoys = 9
 
-recruit_character = Z06_67111009
-recruit_character = Z06_33556945
-recruit_character = Z06_33559636
-recruit_character = Z06_33561205
-recruit_character = Z06_50333177
-recruit_character = Z06_50333488
-recruit_character = Z06_50334035
-recruit_character = Z06_50334844
-recruit_character = Z06_50337301
-recruit_character = Z06_67110253
-recruit_character = Z06_83886885
-recruit_character = Z06_83887491
-recruit_character = Z06_100663948
-recruit_character = Z06_134217896
+recruit_character = Z06_67115624
+recruit_character = Z06_50333204
+recruit_character = Z06_50335475
+recruit_character = Z06_67110729
+recruit_character = Z06_134221149
+recruit_character = Z06_134221805
+recruit_character = Z06_134224406
+recruit_character = Z06_201330386
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Bernhard_Hummel
-		GFX = GFX_portrait_europe_generic_operative_male_24
+		name = Wilhelm_von_Oldenburg
+		GFX = GFX_portrait_europe_generic_operative_male_15
+		traits = { operative_tough }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { Z02 Z06 }
+	}
+	create_operative_leader = {
+		name = Samuel_Pilkington
+		GFX = GFX_portrait_europe_generic_operative_male_1
 		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { Z06 }
+	}
+	create_operative_leader = {
+		name = Percy_Knox
+		GFX = GFX_portrait_europe_generic_operative_male_24
+		traits = { operative_demolition_expert operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { Z06 }
 	}
 }
 
-GER = {
+ENG = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
 		}
 		set_autonomy = {
 			target = Z06
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = Z06
+		set_autonomy = {
+			target = Z06
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.7.22"
+	ruling_party = fascism
+	last_election = "1933.6.30"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 36
-	neutrality = 52
+	democratic = 23
+	fascism = 32
+	neutrality = 45
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -73,6 +85,8 @@ set_technology = {
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -93,9 +107,12 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -175,6 +192,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = Z06_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

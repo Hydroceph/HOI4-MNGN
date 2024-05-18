@@ -1,1 +1,15 @@
 # Naval OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 12253
+		task_force = {
+			name = "1. Fleet"
+			location = 12253
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = PHI  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = PHI  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = PHI  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = PHI  version_name = "Early Destroyer" } } }
+		}
+	}
+}

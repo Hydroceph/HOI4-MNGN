@@ -1,44 +1,41 @@
-capital = 578
+capital = 577
 
 oob = "MJT_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = MJT_16780226
-recruit_character = MJT_33555137
-recruit_character = MJT_33557341
-recruit_character = MJT_33559734
-recruit_character = MJT_50334819
-recruit_character = MJT_67109578
-recruit_character = MJT_67111219
-recruit_character = MJT_67111347
-recruit_character = MJT_67111629
-recruit_character = MJT_67115179
-recruit_character = MJT_83886152
+recruit_character = MJT_83891595
+recruit_character = MJT_67110656
+recruit_character = MJT_83888771
+recruit_character = MJT_83889458
+recruit_character = MJT_117442796
+recruit_character = MJT_134217981
+recruit_character = MJT_134218383
+recruit_character = MJT_134218983
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Maddar_Xirsi_Galaal
-		GFX = GFX_portrait_africa_generic_operative_male_6
-		traits = {  }
+		name = Abd_al-Karim_al-Shiluhi
+		GFX = GFX_portrait_arabia_generic_operative_male_1
+		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { MJT }
+		nationalities = { MAS MJT }
 	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1932.10.3"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
 	democratic = 11
-	fascism = 39
-	neutrality = 50
+	fascism = 38
+	neutrality = 51
 }
 
 add_ideas = {
@@ -51,6 +48,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

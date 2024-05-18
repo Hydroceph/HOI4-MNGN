@@ -1,6 +1,6 @@
 characters = {
-	JAB_2865 = {
-		name = Talal_al_Rashid
+	JAB_33554620 = {
+		name = Sa_d_al-Din_al_Rashid
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,112 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	JAB_16780849 = {
-		name = Sa_d_al-Din_ibn_Ali
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_16780849
-			cost = 150
-		}
-	}
-	JAB_16782074 = {
-		name = Jamal_ibn_Khalid
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 4
-		}
-	}
-	JAB_33554620 = {
-		name = Sa_d_al-Din_al_Rashid
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_33554620
-			cost = 150
-		}
-	}
-	JAB_33555521 = {
-		name = Hasan_Al_Maktoum
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { commando organizer trait_cautious }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	JAB_33555802 = {
-		name = Ahmad_al_Saud
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { socialite_connections }
-			slot = political_advisor
-			idea_token = i_33555802
-			cost = 150
-		}
-	}
-	JAB_33556311 = {
-		name = Hasan_al_Nuaimi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_33556311
-			cost = 150
-		}
-	}
-	JAB_50332514 = {
-		name = Fawzi_al_Nuaimi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_50332514
-			cost = 150
-		}
-	}
-	JAB_67111215 = {
-		name = Fuad_al_Nuaimi
+	JAB_67110547 = {
+		name = Abu_Bakr_ibn_Halil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -125,26 +21,40 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_67111215
+			idea_token = i_67110547
 			cost = 150
 		}
 	}
-	JAB_67113820 = {
-		name = Umar_ibn_Salim
+	JAB_67111213 = {
+		name = Abd_al-Malik_ibn_Muhammad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { fascist_demagogue }
 			slot = political_advisor
-			idea_token = i_67113820
+			idea_token = i_67111213
 			cost = 150
 		}
 	}
-	JAB_83886307 = {
-		name = Sa_d_al-Din_ibn_Fuad
+	JAB_83888050 = {
+		name = Khalid_ibn_Salim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83888050
+			cost = 150
+		}
+	}
+	JAB_100663898 = {
+		name = Uthman_al_Rashid
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -153,21 +63,49 @@ characters = {
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_83886307
+			idea_token = i_100663898
 			cost = 150
 		}
 	}
-	JAB_100663399 = {
-		name = Ali_al_Qasimi
+	JAB_134220205 = {
+		name = Sa_d_al-Din_al_Nuaimi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_100663399
+			idea_token = i_134220205
+			cost = 150
+		}
+	}
+	JAB_167773486 = {
+		name = Abd_al-Karim_ibn_Abd_al-Qadir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_167773486
+			cost = 150
+		}
+	}
+	JAB_167775000 = {
+		name = Sa_ud_ibn_Muhammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_167775000
 			cost = 150
 		}
 	}

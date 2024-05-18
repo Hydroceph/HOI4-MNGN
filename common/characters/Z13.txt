@@ -1,0 +1,126 @@
+characters = {
+	Z13_234881670 = {
+		name = Claude_Roche
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_europe_generic_7
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	Z13_83886730 = {
+		name = Leon_Ducluzeau
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_83886730
+			cost = 150
+		}
+	}
+	Z13_100663889 = {
+		name = E_vrard_de_Rochebouet
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_100663889
+			cost = 150
+		}
+	}
+	Z13_134218265 = {
+		name = MoI_se_de_Guerin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_134218265
+			cost = 150
+		}
+	}
+	Z13_150995526 = {
+		name = Edouard_Chauvet
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_150995526
+			cost = 150
+		}
+	}
+	Z13_167772744 = {
+		name = JE_rO_me_Reibell
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_167772744
+			cost = 150
+		}
+	}
+	Z13_201327140 = {
+		name = Prosper_Nancy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_201327140
+			cost = 150
+		}
+	}
+	Z13_201327222 = {
+		name = Emile_Leroy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_201327222
+			cost = 150
+		}
+	}
+	Z13_201327251 = {
+		name = Ferdinand-Philippe_d_Orleans
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_201327251
+			cost = 150
+		}
+	}
+}

@@ -1,1 +1,67 @@
 # Naval OOB
+units = {
+	fleet = {
+		name = "3. Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "3. Fleet"
+			location = 1048
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "7. Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "7. Fleet"
+			location = 1048
+			ship = { name = "Destroyer 5" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 6" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 7" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 8" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "6. Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "6. Fleet"
+			location = 1048
+			ship = { name = "Destroyer 9" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 10" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 11" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 12" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "8. Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "8. Fleet"
+			location = 1048
+			ship = { name = "Destroyer 13" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 14" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 15" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 16" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Submarine 1" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = SPR  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 2" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = SPR  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 3" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = SPR  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 4" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = SPR  version_name = "Early Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "4. Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "4. Fleet"
+			location = 1048
+			ship = { name = "Destroyer 17" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 18" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 19" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 20" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = SPR  version_name = "Early Destroyer" } } }
+		}
+	}
+}

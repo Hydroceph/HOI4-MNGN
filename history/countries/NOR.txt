@@ -1,28 +1,35 @@
-capital = 259
+capital = 560
 
 oob = "NOR_1936"
 set_research_slots = 3
-set_convoys = 18
+set_convoys = 5
 
-recruit_character = NOR_100664294
-recruit_character = NOR_16779939
-recruit_character = NOR_16783687
-recruit_character = NOR_33555037
-recruit_character = NOR_33559944
-recruit_character = NOR_50332070
+recruit_character = NOR_134219970
 recruit_character = NOR_50334555
-recruit_character = NOR_50337108
-recruit_character = NOR_50338417
-recruit_character = NOR_67108895
-recruit_character = NOR_67110156
-recruit_character = NOR_67114365
-recruit_character = NOR_67115151
+recruit_character = NOR_50336835
+recruit_character = NOR_67109358
+recruit_character = NOR_67110208
+recruit_character = NOR_83887012
+recruit_character = NOR_83892820
+recruit_character = NOR_100663755
+recruit_character = NOR_100665544
+recruit_character = NOR_117441452
+recruit_character = NOR_134217827
+recruit_character = NOR_150995287
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Petter_Christiansen
-		GFX = GFX_portrait_europe_generic_operative_male_5
-		traits = { operative_natural_orator operative_safe_cracker }
+		name = Knud_M_Oller
+		GFX = GFX_portrait_europe_generic_operative_male_11
+		traits = { operative_natural_orator operative_tough }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+	create_operative_leader = {
+		name = Palme_Hjermann
+		GFX = GFX_portrait_europe_generic_operative_male_24
+		traits = { operative_infiltrator operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { NOR }
@@ -53,9 +60,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 46
-	fascism = 28
-	neutrality = 26
+	democratic = 7
+	fascism = 40
+	neutrality = 53
 }
 
 add_ideas = {
@@ -69,10 +76,13 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -93,9 +103,14 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -115,6 +130,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -175,6 +191,47 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = NOR_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

@@ -1,26 +1,32 @@
-capital = 533
 
 oob = "FRS_1936"
 set_research_slots = 3
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = FRS_67110818
-recruit_character = FRS_16780488
-recruit_character = FRS_33556651
-recruit_character = FRS_33557031
+recruit_character = FRS_184552442
+recruit_character = FRS_33561001
 recruit_character = FRS_50332077
-recruit_character = FRS_50333419
-recruit_character = FRS_50333856
-recruit_character = FRS_67111745
-recruit_character = FRS_83888126
-recruit_character = FRS_83892393
-recruit_character = FRS_117443362
+recruit_character = FRS_83887132
+recruit_character = FRS_83889652
+recruit_character = FRS_100668945
+recruit_character = FRS_117441184
+recruit_character = FRS_117442427
+recruit_character = FRS_117446789
+recruit_character = FRS_234881949
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Yan_Nee
+		name = Hou_Nee
 		GFX = GFX_portrait_operative_unknown
 		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { FRS }
+	}
+	create_operative_leader = {
+		name = Shen_Debang
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { FRS }
@@ -36,13 +42,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 9
-	fascism = 41
-	neutrality = 50
+	democratic = 26
+	fascism = 36
+	neutrality = 38
 }
 
 add_ideas = {
-	FRS_Shen_Zhang
+	FRS_Yan_Zhang
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -52,8 +58,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 

@@ -1,53 +1,41 @@
-capital = 405
+capital = 453
 
 oob = "HON_1936"
 set_research_slots = 3
-set_convoys = 2
+set_convoys = 0
 
-recruit_character = HON_33561178
-recruit_character = HON_16780653
-recruit_character = HON_33556763
-recruit_character = HON_33557815
-recruit_character = HON_33557830
-recruit_character = HON_33560674
-recruit_character = HON_33560855
-recruit_character = HON_67108986
-recruit_character = HON_67109571
+recruit_character = HON_83887056
+recruit_character = HON_83888970
+recruit_character = HON_100664539
+recruit_character = HON_100664835
+recruit_character = HON_100664975
+recruit_character = HON_100665010
+recruit_character = HON_100669349
+recruit_character = HON_117440826
+recruit_character = HON_117441242
+recruit_character = HON_117442782
+recruit_character = HON_117443256
+recruit_character = HON_117445612
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Daniel_Machado
-		GFX = GFX_portrait_south_america_generic_operative_male_1
-		traits = { operative_natural_orator operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { HON }
-	}
-	create_operative_leader = {
-		name = Francisco_Quiros
-		GFX = GFX_portrait_south_america_generic_operative_male_4
-		traits = { operative_natural_orator operative_safe_cracker operative_well_groomed }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { HON }
-	}
 }
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.8.1"
+	last_election = "1935.2.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 45
-	neutrality = 42
+	democratic = 11
+	fascism = 42
+	neutrality = 47
 }
 
 add_ideas = {
+	HON_Toribio_Garrigo
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -57,8 +45,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 

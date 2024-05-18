@@ -1,24 +1,28 @@
 state = {
 	id = 717
 	name = "STATE_717"
-	manpower = 106710
+	manpower = 88837
 
 	state_category = rural
 
 	history = {
-		owner = JAP
+		owner = USA
 		victory_points = {
-			10444 1
+			3957 40
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
+			3957 = {
+				naval_base = 1
+			}
+			air_base = 5
 		}
-		add_core_of = JAP
+		add_core_of = USA
 	}
 
 	provinces = {
-		1512 1515 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
+		3957 11892 
 	}
 }

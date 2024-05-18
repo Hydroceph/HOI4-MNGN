@@ -1,23 +1,27 @@
-capital = 671
 
 oob = "BRG_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BRG_16777302
-recruit_character = BRG_16782087
-recruit_character = BRG_16784046
-recruit_character = BRG_33555326
-recruit_character = BRG_33556629
-recruit_character = BRG_33559078
-recruit_character = BRG_50333701
-recruit_character = BRG_50333763
-recruit_character = BRG_67113319
-recruit_character = BRG_67114508
-recruit_character = BRG_83888268
-recruit_character = BRG_83888895
+recruit_character = BRG_33560488
+recruit_character = BRG_33556431
+recruit_character = BRG_50333396
+recruit_character = BRG_50335543
+recruit_character = BRG_67114541
+recruit_character = BRG_67115368
+recruit_character = BRG_83889287
+recruit_character = BRG_117441275
+recruit_character = BRG_134218344
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Balobo_Bello
+		GFX = GFX_portrait_africa_generic_operative_male_4
+		traits = { operative_linguist operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRG }
+	}
 }
 
 set_politics = {
@@ -29,9 +33,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 38
-	neutrality = 51
+	democratic = 17
+	fascism = 37
+	neutrality = 46
 }
 
 add_ideas = {

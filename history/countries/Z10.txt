@@ -1,38 +1,56 @@
-capital = 727
+capital = 648
 
 oob = "Z10_1936"
 set_research_slots = 3
-declare_war_on = {
-	target = ECU
-	type = annex_everything
-}
-
 set_convoys = 0
 
-recruit_character = Z10_16779957
-recruit_character = Z10_33555954
-recruit_character = Z10_33556121
-recruit_character = Z10_33557779
-recruit_character = Z10_50334330
-recruit_character = Z10_67111596
-recruit_character = Z10_83886725
-recruit_character = Z10_83887069
+recruit_character = Z10_50333364
+recruit_character = Z10_67111957
+recruit_character = Z10_100664105
+recruit_character = Z10_100665625
+recruit_character = Z10_100669685
+recruit_character = Z10_117446275
+recruit_character = Z10_134217799
+recruit_character = Z10_218110381
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Basil_Scratchley
+		GFX = GFX_portrait_europe_generic_operative_male_19
+		traits = { operative_demolition_expert operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { Z10 }
+	}
 }
 
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = Z10
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = Z10
+	}
+}
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1934.1.31"
+	ruling_party = communism
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 45
-	democratic = 42
-	fascism = 12
-	neutrality = 1
+	communism = 0
+	democratic = 45
+	fascism = 26
+	neutrality = 29
 }
 
 add_ideas = {
@@ -45,8 +63,13 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -67,9 +90,13 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -89,6 +116,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -149,6 +177,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = Z10_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

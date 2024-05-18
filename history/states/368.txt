@@ -1,31 +1,30 @@
 state = {
 	id = 368
 	name = "STATE_368"
-	manpower = 275990
+	manpower = 3558802
 	resources = {
-		steel = 2
-		tungsten = 8
+		chromium = 6
 	}
 
 	state_category = rural
 
 	history = {
-		owner = PBC
+		owner = CHI
 		victory_points = {
-			12997 1
+			987 1
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			2225 = {
+			1150 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = PBC
+		add_core_of = CHI
 	}
 
 	provinces = {
-		2162 2212 2225 2226 5190 12983 12997 13316 
+		836 846 892 964 987 1150 3783 3839 3849 3895 3934 3970 6804 6837 6851 6860 6893 6918 6951 6981 9781 9835 9854 9885 11764 11771 11808 11886 
 	}
 }

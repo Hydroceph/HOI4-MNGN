@@ -1,40 +1,43 @@
-capital = 697
+capital = 713
 
 oob = "GRE_1936"
 set_research_slots = 3
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = GRE_33557615
-recruit_character = GRE_33559292
-recruit_character = GRE_33559587
-recruit_character = GRE_50332660
-recruit_character = GRE_50333378
-recruit_character = GRE_50334070
-recruit_character = GRE_50337706
-recruit_character = GRE_67109305
-recruit_character = GRE_67114894
-recruit_character = GRE_67115110
+recruit_character = GRE_83886532
+recruit_character = GRE_50334862
+recruit_character = GRE_67111549
+recruit_character = GRE_83886459
+recruit_character = GRE_83887718
+recruit_character = GRE_83892790
+recruit_character = GRE_117442950
+recruit_character = GRE_117442995
+recruit_character = GRE_134218069
+recruit_character = GRE_134218603
+recruit_character = GRE_134219459
+recruit_character = GRE_150997399
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
+	ruling_party = fascism
+	last_election = "1934.8.12"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 9
-	fascism = 43
-	neutrality = 48
+	democratic = 4
+	fascism = 42
+	neutrality = 54
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	GRE_Nikos_Fetsis
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -42,6 +45,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

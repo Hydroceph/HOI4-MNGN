@@ -1,0 +1,112 @@
+characters = {
+	SUD_50338392 = {
+		name = Abu_Bakr_al_Nuaimi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Arabia_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	SUD_50331909 = {
+		name = Abbas_Zubayr
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50331909
+			cost = 150
+		}
+	}
+	SUD_67113079 = {
+		name = Idris_wad_Rajab
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_67113079
+			cost = 150
+		}
+	}
+	SUD_100665896 = {
+		name = Said_al-Tasashi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100665896
+			cost = 150
+		}
+	}
+	SUD_117440837 = {
+		name = Abdallahi_Digna
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117440837
+			cost = 150
+		}
+	}
+	SUD_134218393 = {
+		name = Ali_ibn_Yusuf
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_134218393
+			cost = 150
+		}
+	}
+	SUD_134219006 = {
+		name = Malusi_Ali
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_134219006
+			cost = 150
+		}
+	}
+	SUD_150997461 = {
+		name = Isma_il_wad_Muhammad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_150997461
+			cost = 150
+		}
+	}
+}

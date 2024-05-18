@@ -1,6 +1,6 @@
 characters = {
-	ZAN_83889526 = {
-		name = Kamari_Jumbes
+	ZAN_33556835 = {
+		name = Asani_Al_Said
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_South_Africa_Political_Leader_Generic
@@ -11,8 +11,39 @@ characters = {
 			traits = {  }
 		}
 	}
-	ZAN_16779323 = {
-		name = Salim_Diria
+	ZAN_33558368 = {
+		name = Husani_Al_Said
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_Africa_Army_Generic
+				small = GFX_Portrait_South_Africa_Army_Generic_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	ZAN_67112026 = {
+		name = Jalali_Safi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67112026
+			cost = 150
+		}
+	}
+	ZAN_67115176 = {
+		name = Juma_Mosi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -21,134 +52,50 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_16779323
+			idea_token = i_67115176
 			cost = 150
 		}
 	}
-	ZAN_16779326 = {
-		name = Kafeel_Babu
+	ZAN_100665673 = {
+		name = Kifimbo_Khamisi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_16779326
+			idea_token = i_100665673
 			cost = 150
 		}
 	}
-	ZAN_33561245 = {
-		name = Ibada_al-Barwani
+	ZAN_100667064 = {
+		name = Jabari_al-Barwani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_33561245
+			idea_token = i_100667064
 			cost = 150
 		}
 	}
-	ZAN_50332437 = {
-		name = Husani_Mosi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_50332437
-			cost = 150
-		}
-	}
-	ZAN_50332451 = {
-		name = Kifimbo_Faraji
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_50332451
-			cost = 150
-		}
-	}
-	ZAN_50336790 = {
-		name = Husani_Jumbes
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Africa_Generic_navy_2
-				small = GFX_Portrait_Africa_Generic_navy_2_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_50336790
-			cost = 150
-		}
-	}
-	ZAN_50338318 = {
-		name = Jumaane_al-Barwani
+	ZAN_100667792 = {
+		name = Ibada_Heri
 		portraits = {
 			army = {
-				large = GFX_Portrait_Africa_Generic_land_1
-				small = GFX_Portrait_Africa_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer desert_fox }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	ZAN_67115140 = {
-		name = Salehe_Erevu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_67115140
-			cost = 150
-		}
-	}
-	ZAN_83888459 = {
-		name = Heri_Al-Qassmy
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
+				large = GFX_Portrait_Africa_Generic_land_3
+				small = GFX_Portrait_Africa_Generic_land_3_small
 			}
 			civilian = {
 			}
 		}
 		corps_commander = {
-			traits = { desert_fox harsh_leader }
+			traits = { organizer trait_reckless }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -156,9 +103,37 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			traits = { mass_assault_expert }
+			traits = { mastermind_code_cracker }
 			slot = political_advisor
-			idea_token = i_83888459
+			idea_token = i_100667792
+			cost = 150
+		}
+	}
+	ZAN_134219854 = {
+		name = Jumaane_Balozi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_134219854
+			cost = 150
+		}
+	}
+	ZAN_167772465 = {
+		name = Jahidi_Darweshi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_167772465
 			cost = 150
 		}
 	}

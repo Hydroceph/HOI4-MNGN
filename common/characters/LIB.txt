@@ -1,133 +1,32 @@
 characters = {
-	LIB_33559300 = {
-		name = Leonard_Joplin
+	LIB_100664383 = {
+		name = Frederick_Latimer
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_Africa_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	LIB_16782309 = {
-		name = Frederick_Russell
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_1
-				small = GFX_Portrait_Africa_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist cavalry_officer desert_fox trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	LIB_16784070 = {
-		name = Abraham_Forten
+	LIB_50334490 = {
+		name = Robert_Purnell
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_16784070
+			idea_token = i_50334490
 			cost = 150
 		}
 	}
-	LIB_33556230 = {
-		name = Daniel_Jasper
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Africa_Generic_navy_1
-				small = GFX_Portrait_Africa_Generic_navy_1_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { seawolf superior_tactician }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 4
-		}
-		advisor = {
-			traits = { submarine_specialist }
-			slot = political_advisor
-			idea_token = i_33556230
-			cost = 150
-		}
-	}
-	LIB_33557629 = {
-		name = Perry_House
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_33557629
-			cost = 150
-		}
-	}
-	LIB_33559765 = {
-		name = Jermain_Cass
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader }
-			skill = 3
-			attack_skill = 5
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	LIB_33561009 = {
-		name = Nicholas_Horton
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_33561009
-			cost = 150
-		}
-	}
-	LIB_50333735 = {
-		name = Solomon_Higgins
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_50333735
-			cost = 150
-		}
-	}
-	LIB_50336631 = {
-		name = Zedekiah_Lawton
+	LIB_67112258 = {
+		name = Anthony_Gooding
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -136,26 +35,12 @@ characters = {
 		advisor = {
 			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50336631
+			idea_token = i_67112258
 			cost = 150
 		}
 	}
-	LIB_67109279 = {
-		name = Caesar_Pennington
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_67109279
-			cost = 150
-		}
-	}
-	LIB_67111789 = {
-		name = Stephen_Demas
+	LIB_83889803 = {
+		name = Joshua_Barclay
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -164,7 +49,49 @@ characters = {
 		advisor = {
 			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_67111789
+			idea_token = i_83889803
+			cost = 150
+		}
+	}
+	LIB_100668077 = {
+		name = Daniel_Jones
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100668077
+			cost = 150
+		}
+	}
+	LIB_150995075 = {
+		name = Raymond_Minkins
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_150995075
+			cost = 150
+		}
+	}
+	LIB_167777692 = {
+		name = James_Harmon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_167777692
 			cost = 150
 		}
 	}

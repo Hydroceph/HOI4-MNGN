@@ -1,150 +1,60 @@
 characters = {
-	SMB_16779614 = {
-		name = Ismail_Sambas
+	SMB_117446886 = {
+		name = Jaafar_Muadzam
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_Portrait_Asia_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	SMB_16782773 = {
-		name = Yusuf_Jamalullail
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_2
-				small = GFX_Portrait_Asia_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 3
-		}
-	}
-	SMB_33555283 = {
-		name = Al-Mukammal_Jamalullail
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_cautious trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SMB_33556826 = {
-		name = Ali_Bendahara
+	SMB_67109870 = {
+		name = Safiuddin_Sambas
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { silent_workhorse }
 			slot = political_advisor
-			idea_token = i_33556826
+			idea_token = i_67109870
 			cost = 150
 		}
 	}
-	SMB_33559409 = {
-		name = Safiuddin_Riayat_Shah
+	SMB_67112615 = {
+		name = Tuanku_Jamalullail
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_33559409
+			idea_token = i_67112615
 			cost = 150
 		}
 	}
-	SMB_50332658 = {
-		name = Isandar_Bendahara
+	SMB_83886829 = {
+		name = Muhammad_al-Khairat
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_50332658
+			idea_token = i_83886829
 			cost = 150
 		}
 	}
-	SMB_67109688 = {
-		name = Ali_Aadzam
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_67109688
-			cost = 150
-		}
-	}
-	SMB_67110896 = {
-		name = Idris_Muadzam
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_67110896
-			cost = 150
-		}
-	}
-	SMB_83890216 = {
-		name = Tuanku_Bendahara
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_83890216
-			cost = 150
-		}
-	}
-	SMB_100663879 = {
-		name = Al-Mukammal_Murshidul
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_100663879
-			cost = 150
-		}
-	}
-	SMB_100665967 = {
-		name = Shahabuddin_Raja_Inu
+	SMB_83887725 = {
+		name = Muabidin_Riayat_Shah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -153,7 +63,71 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_100665967
+			idea_token = i_83887725
+			cost = 150
+		}
+	}
+	SMB_83890057 = {
+		name = Idris_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83890057
+			cost = 150
+		}
+	}
+	SMB_117442251 = {
+		name = Safiuddin_Raja_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117442251
+			cost = 150
+		}
+	}
+	SMB_117446372 = {
+		name = Safiuddin_Sambas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SMB_134221146 = {
+		name = Yusuf_Murshidul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_134221146
+			cost = 150
+		}
+	}
+	SMB_201331376 = {
+		name = Isandar_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_201331376
 			cost = 150
 		}
 	}

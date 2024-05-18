@@ -1,25 +1,30 @@
 state = {
 	id = 163
 	name = "STATE_163"
-	manpower = 3732828
+	manpower = 2328308
+	resources = {
+		rubber = 0
+		steel = 5
+		tungsten = 3
+	}
 
 	state_category = town
 
 	history = {
-		owner = SOV
+		owner = RWA
 		victory_points = {
-			3335 1
+			9962 10
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 1
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 6
 		}
-		add_core_of = SOV
+		add_core_of = RWA
 	}
 
 	provinces = {
-		246 274 300 315 335 343 344 352 366 371 382 398 401 3226 3236 3263 3279 3308 3327 3335 3345 3358 3364 3377 3390 6243 6252 6305 6348 6365 6411 9253 9261 9272 9301 9302 9318 9382 9396 11229 11235 11242 11254 11282 11284 11298 11300 11325 11369 11384 
+		2220 4171 9962 
 	}
 }

@@ -1,7 +1,11 @@
 characters = {
-	SAU_16778231 = {
-		name = Hasan_al_Saud
+	SAU_150998363 = {
+		name = Zafir_al_Ulayyan
 		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
@@ -10,152 +14,141 @@ characters = {
 			ideology = despotism
 			traits = {  }
 		}
-	}
-	SAU_33558713 = {
-		name = Umar_al_Saud
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SAU_33559784 = {
-		name = Abd_al-Karim_ibn_Khalid
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33559784
-			cost = 150
-		}
-	}
-	SAU_50332314 = {
-		name = Ja_far_ibn_Hasan
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist old_guard }
+		field_marshal = {
+			traits = { harsh_leader }
 			skill = 1
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
+			defense_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 	}
-	SAU_50333662 = {
-		name = Jamal_ibn_Abd_al-Qadir
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { career_officer commando trait_mountaineer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_50333662
-			cost = 150
-		}
-	}
-	SAU_50334118 = {
-		name = Nur_al-Din_ibn_Hasan
+	SAU_117441123 = {
+		name = Abd_al-Malik_ibn_Yusuf
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_50334118
+			idea_token = i_117441123
 			cost = 150
 		}
 	}
-	SAU_50336118 = {
-		name = Kamil_ibn_Ali
+	SAU_117441155 = {
+		name = Muhammad_ibn_Halil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_50336118
+			idea_token = i_117441155
 			cost = 150
 		}
 	}
-	SAU_50337502 = {
-		name = Sa_d_al-Din_ibm_Kamil
+	SAU_134218522 = {
+		name = Muhammad_ibn_Ali
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_2
+				small = GFX_Portrait_Arabia_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	SAU_134219457 = {
+		name = Khalid_ibn_Abd_Allah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50337502
+			idea_token = i_134219457
 			cost = 150
 		}
 	}
-	SAU_67111299 = {
-		name = Umar_ibn_Uthman
+	SAU_134221826 = {
+		name = Abd_al-Rahman_ibn_Abd_Allah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { silent_workhorse }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_67111299
+			idea_token = i_134221826
 			cost = 150
 		}
 	}
-	SAU_67111927 = {
-		name = Ali_al_Ulayyan
+	SAU_134222647 = {
+		name = Muhammad_al_Ulayyan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_67111927
+			idea_token = i_134222647
 			cost = 150
 		}
 	}
-	SAU_83889874 = {
-		name = Shukri_Al_Sharqi
+	SAU_150995233 = {
+		name = Tawfiq_al_Rashid
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_83889874
+			idea_token = i_150995233
+			cost = 150
+		}
+	}
+	SAU_167773497 = {
+		name = Fuad_ibn_Salim
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_167773497
+			cost = 150
+		}
+	}
+	SAU_201326752 = {
+		name = Abd_al-Malik_ibn_Halil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_201326752
 			cost = 150
 		}
 	}

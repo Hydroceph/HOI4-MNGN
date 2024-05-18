@@ -1,78 +1,74 @@
-capital = 133
+capital = 101
 
 oob = "SPR_1936"
 set_research_slots = 3
-set_convoys = 108
+set_convoys = 60
 
-recruit_character = SPR_3099
-recruit_character = SPR_16777487
-recruit_character = SPR_16777687
-recruit_character = SPR_16778715
-recruit_character = SPR_16778772
-recruit_character = SPR_16779346
-recruit_character = SPR_16782022
-recruit_character = SPR_16783005
-recruit_character = SPR_16783612
-recruit_character = SPR_33555265
-recruit_character = SPR_33556541
-recruit_character = SPR_33557143
-recruit_character = SPR_33557259
-recruit_character = SPR_33557889
-recruit_character = SPR_33559821
-recruit_character = SPR_50331771
-recruit_character = SPR_50332069
-recruit_character = SPR_50332217
-recruit_character = SPR_50332421
-recruit_character = SPR_50336435
-recruit_character = SPR_67109446
-recruit_character = SPR_67109733
-recruit_character = SPR_83886997
-recruit_character = SPR_83889749
-recruit_character = SPR_100665302
+recruit_character = SPR_67110732
+recruit_character = SPR_33554512
+recruit_character = SPR_50333229
+recruit_character = SPR_50333296
+recruit_character = SPR_50333311
+recruit_character = SPR_50333484
+recruit_character = SPR_50334473
+recruit_character = SPR_50335791
+recruit_character = SPR_50337308
+recruit_character = SPR_67109254
+recruit_character = SPR_67109961
+recruit_character = SPR_67110210
+recruit_character = SPR_67110223
+recruit_character = SPR_67110721
+recruit_character = SPR_67111494
+recruit_character = SPR_67111590
+recruit_character = SPR_67111772
+recruit_character = SPR_67112767
+recruit_character = SPR_67115516
+recruit_character = SPR_83886634
+recruit_character = SPR_83887607
+recruit_character = SPR_83887787
+recruit_character = SPR_83888191
+recruit_character = SPR_83888881
+recruit_character = SPR_83889539
+recruit_character = SPR_83890260
+recruit_character = SPR_100666359
+recruit_character = SPR_117440580
+recruit_character = SPR_117444002
+recruit_character = SPR_117444027
+recruit_character = SPR_117444316
+recruit_character = SPR_117444587
+recruit_character = SPR_117444699
+recruit_character = SPR_134218363
+recruit_character = SPR_134218402
+recruit_character = SPR_134219294
+recruit_character = SPR_134219988
+recruit_character = SPR_134220146
+recruit_character = SPR_134220159
+recruit_character = SPR_150995316
+recruit_character = SPR_150997935
+recruit_character = SPR_151000620
+recruit_character = SPR_167772830
+recruit_character = SPR_167772966
+recruit_character = SPR_184551498
+recruit_character = SPR_234883164
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Ignacio_Menendez
-		GFX = GFX_portrait_europe_generic_operative_male_19
-		traits = { operative_tough }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SPR }
-	}
-	create_operative_leader = {
-		name = Alejandro_Comamala
-		GFX = GFX_portrait_europe_generic_operative_male_2
-		traits = { operative_commando operative_demolition_expert operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SPR }
-	}
-	create_operative_leader = {
-		name = Pascual_Fajardo
-		GFX = GFX_portrait_europe_generic_operative_male_3
-		traits = { operative_infiltrator operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SPR }
-	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1932.11.7"
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 14
+	democratic = 18
 	fascism = 37
-	neutrality = 49
+	neutrality = 45
 }
 
 add_ideas = {
-	SPR_Isabel_de_Borbon
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -82,6 +78,9 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
@@ -104,9 +103,13 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -126,6 +129,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -186,6 +190,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = SPR_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

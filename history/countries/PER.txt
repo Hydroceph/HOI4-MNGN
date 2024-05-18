@@ -1,30 +1,35 @@
-capital = 391
+capital = 401
 
 oob = "PER_1936"
 set_research_slots = 2
-set_convoys = 9
+set_convoys = 4
 
-recruit_character = PER_3007
-recruit_character = PER_16778841
-recruit_character = PER_16780435
-recruit_character = PER_16782086
-recruit_character = PER_16783095
-recruit_character = PER_16783283
-recruit_character = PER_33557491
-recruit_character = PER_33559031
-recruit_character = PER_33559895
-recruit_character = PER_33561230
-recruit_character = PER_50331715
-recruit_character = PER_50332743
 recruit_character = PER_50334185
-recruit_character = PER_50337615
-recruit_character = PER_50337849
+recruit_character = PER_33556430
+recruit_character = PER_50333676
+recruit_character = PER_50334398
+recruit_character = PER_83886213
+recruit_character = PER_83887907
+recruit_character = PER_83888010
+recruit_character = PER_83889456
+recruit_character = PER_83891586
+recruit_character = PER_83891906
+recruit_character = PER_100663452
+recruit_character = PER_100664005
+recruit_character = PER_100664849
+recruit_character = PER_100666758
+recruit_character = PER_100667946
+recruit_character = PER_117440917
+recruit_character = PER_117441180
+recruit_character = PER_117442449
+recruit_character = PER_117443299
+recruit_character = PER_167776102
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Lotf_Ali_Tahmasebi
-		GFX = GFX_portrait_arabia_generic_operative_male_4
-		traits = { operative_natural_orator }
+		name = Hasan_Shafaei
+		GFX = GFX_portrait_arabia_generic_operative_male_3
+		traits = { operative_demolition_expert }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { PER }
@@ -55,9 +60,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
+	democratic = 13
 	fascism = 36
-	neutrality = 52
+	neutrality = 51
 }
 
 add_ideas = {
@@ -70,6 +75,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

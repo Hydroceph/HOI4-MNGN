@@ -1,6 +1,6 @@
 characters = {
-	NOR_100664294 = {
-		name = Blostrup_Gjeranger
+	NOR_134219970 = {
+		name = Roar_Cappelen
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Johan_Nygaardsvold
@@ -11,22 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	NOR_16779939 = {
-		name = Jonas_Anton_Wedel-Jarlsberg
+	NOR_50334555 = {
+		name = Magnus_Bernadotte
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_16779939
+			idea_token = i_50334555
 			cost = 150
 		}
 	}
-	NOR_16783687 = {
-		name = Erik_de_Tonsberg
+	NOR_50336835 = {
+		name = Knud_von_Klenow
 		portraits = {
 			army = {
 				large = GFX_portrait_FIN_carl_mannerheim
@@ -34,148 +34,58 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer harsh_leader inflexible_strategist organizer }
+			traits = { armor_officer organizer }
 			skill = 2
 			attack_skill = 2
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
 		}
 	}
-	NOR_33555037 = {
-		name = Johan_Kane
+	NOR_67109358 = {
+		name = Thomas_Wedel-Jarlsberg
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33555037
+			idea_token = i_67109358
 			cost = 150
 		}
 	}
-	NOR_33559944 = {
-		name = Gerhard_Henriksen
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { craven gunnery_expert }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			maneuvering_skill = 2
-			coordination_skill = 4
-		}
-	}
-	NOR_50332070 = {
-		name = Roar_Skanke
+	NOR_67110208 = {
+		name = Gerhard_Rye
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50332070
+			idea_token = i_67110208
 			cost = 150
 		}
 	}
-	NOR_50334555 = {
-		name = Magnus_Bernadotte
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50334555
-			cost = 150
-		}
-	}
-	NOR_50337108 = {
-		name = Ole_Gundersen
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality chief_engineer old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	NOR_50338417 = {
-		name = August_Werenskiold
+	NOR_83887012 = {
+		name = Bernhard_Lund
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50338417
+			idea_token = i_83887012
 			cost = 150
 		}
 	}
-	NOR_67108895 = {
-		name = Fredrik_Kaldager
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_13
-				small = GFX_portrait_europe_generic_land_13_small
-			}
-		}
-		corps_commander = {
-			traits = { ranger trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	NOR_67110156 = {
-		name = Ivar_Weidemann
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { technocrat }
-			slot = political_advisor
-			idea_token = i_67110156
-			cost = 150
-		}
-	}
-	NOR_67114365 = {
-		name = Einar_Olsen
+	NOR_83892820 = {
+		name = Jonas_Anton_Kane
 		portraits = {
 			army = {
 				large = GFX_Portrait_europe_generic_land_6
@@ -183,25 +93,78 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { harsh_leader infantry_officer organizer }
+			traits = { armor_officer organizer }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
-	NOR_67115151 = {
-		name = Karl_Olsen
+	NOR_100663755 = {
+		name = Erik_Bernadotte
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	NOR_100665544 = {
+		name = Dagfin_Nilsen
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_67115151
+			idea_token = i_100665544
+			cost = 150
+		}
+	}
+	NOR_117441452 = {
+		name = Haakon_Hjermann
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	NOR_134217827 = {
+		name = Johan_Jensen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_134217827
+			cost = 150
+		}
+	}
+	NOR_150995287 = {
+		name = Georg_Prydz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_150995287
 			cost = 150
 		}
 	}

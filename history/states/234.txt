@@ -1,32 +1,28 @@
 state = {
 	id = 234
 	name = "STATE_234"
-	manpower = 1068457
+	manpower = 10081698
 	resources = {
-		steel = 6
+		chromium = 5
+		steel = 1
 	}
 
 	state_category = town
 
 	history = {
-		owner = MAS
+		owner = CHI
 		victory_points = {
-			4150 10
+			3932 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
-			dockyard = 1
-			4116 = {
-				naval_base = 1
-			}
-			air_base = 5
 		}
-		add_core_of = MAS
+		add_core_of = CHI
 	}
 
 	provinces = {
-		3991 4116 4150 7008 10045 11923 12018 13074 
+		783 800 887 916 927 944 945 946 973 1545 1567 1571 3791 3888 3913 3929 3932 3944 3947 3949 4503 4551 4572 4642 5427 6806 6863 6868 6905 6910 6947 6964 7523 7569 7591 7652 7663 7670 9623 9759 9766 9782 9803 9841 9848 9866 9883 9897 9913 9928 10215 10368 10376 10379 10433 10463 10503 10519 10521 11744 11781 11823 11850 11862 11864 11893 11906 12342 12355 12412 12443 12482 
 	}
 }

@@ -1,51 +1,36 @@
-capital = 342
+capital = 462
 
 oob = "CHL_1936"
 set_research_slots = 3
-set_convoys = 3
+set_convoys = 1
 
-recruit_character = CHL_83888142
-recruit_character = CHL_16779545
-recruit_character = CHL_33557038
-recruit_character = CHL_33557768
-recruit_character = CHL_33557819
-recruit_character = CHL_33558670
-recruit_character = CHL_33559547
-recruit_character = CHL_50332855
-recruit_character = CHL_67112598
-recruit_character = CHL_100669972
+recruit_character = CHL_1001
+recruit_character = CHL_50334515
+recruit_character = CHL_67110573
+recruit_character = CHL_83889985
+recruit_character = CHL_83892270
+recruit_character = CHL_100664855
+recruit_character = CHL_100664917
+recruit_character = CHL_117443954
+recruit_character = CHL_134222102
+recruit_character = CHL_150997259
+recruit_character = CHL_150997373
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Rafael_Bezanilla
-		GFX = GFX_portrait_south_america_generic_operative_male_5
-		traits = { operative_natural_orator operative_tough }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { CHL }
-	}
-	create_operative_leader = {
-		name = Pedro_Usaveaga
-		GFX = GFX_portrait_south_america_generic_operative_male_3
-		traits = {  }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { CHL }
-	}
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1935.2.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 15
-	fascism = 42
-	neutrality = 43
+	communism = 46
+	democratic = 23
+	fascism = 29
+	neutrality = 2
 }
 
 add_ideas = {
@@ -58,8 +43,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 

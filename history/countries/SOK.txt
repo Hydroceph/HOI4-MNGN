@@ -1,28 +1,31 @@
-capital = 290
+capital = 706
 
 oob = "SOK_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = SOK_16778334
-recruit_character = SOK_16778648
-recruit_character = SOK_16778694
-recruit_character = SOK_16780746
-recruit_character = SOK_33555682
-recruit_character = SOK_33557095
-recruit_character = SOK_33558540
-recruit_character = SOK_33558942
-recruit_character = SOK_67108875
-recruit_character = SOK_67109371
-recruit_character = SOK_67109604
 recruit_character = SOK_67112646
-recruit_character = SOK_83888911
+recruit_character = SOK_50333643
+recruit_character = SOK_50334447
+recruit_character = SOK_50336090
+recruit_character = SOK_100667798
+recruit_character = SOK_134222986
+recruit_character = SOK_150995264
+recruit_character = SOK_234886667
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Usman_Sa_id_Tall
-		GFX = GFX_portrait_africa_generic_operative_male_2
-		traits = { operative_natural_orator operative_safe_cracker }
+		name = Malam_Dadi
+		GFX = GFX_portrait_africa_generic_operative_male_5
+		traits = { operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOK }
+	}
+	create_operative_leader = {
+		name = Abdullahi_Ibrahim
+		GFX = GFX_portrait_africa_generic_operative_male_1
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { SOK }
@@ -38,9 +41,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
+	democratic = 14
 	fascism = 35
-	neutrality = 53
+	neutrality = 51
 }
 
 add_ideas = {

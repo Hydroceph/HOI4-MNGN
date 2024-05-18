@@ -1,27 +1,32 @@
-capital = 446
+capital = 185
 
 oob = "ANK_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = ANK_16777949
 recruit_character = ANK_16780548
-recruit_character = ANK_16782244
-recruit_character = ANK_33556728
-recruit_character = ANK_50332243
-recruit_character = ANK_50332503
-recruit_character = ANK_50335235
-recruit_character = ANK_50338380
-recruit_character = ANK_67112460
-recruit_character = ANK_67113937
-recruit_character = ANK_83888673
-recruit_character = ANK_100664335
+recruit_character = ANK_33557465
+recruit_character = ANK_33558223
+recruit_character = ANK_50338295
+recruit_character = ANK_67111247
+recruit_character = ANK_83891233
+recruit_character = ANK_100669094
+recruit_character = ANK_117444171
+recruit_character = ANK_167772416
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Kyabaggo_Mmamba
-		GFX = GFX_portrait_africa_generic_operative_male_9
-		traits = { operative_commando operative_natural_orator }
+		name = Guban_Bulungute
+		GFX = GFX_portrait_africa_generic_operative_male_6
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ANK }
+	}
+	create_operative_leader = {
+		name = Kalema_Ndiga
+		GFX = GFX_portrait_africa_generic_operative_male_1
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { ANK }
@@ -37,9 +42,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 38
-	neutrality = 51
+	democratic = 12
+	fascism = 36
+	neutrality = 52
 }
 
 add_ideas = {

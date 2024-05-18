@@ -1,35 +1,39 @@
-capital = 143
+capital = 159
 
 oob = "CAM_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = CAM_2742
 recruit_character = CAM_16779616
-recruit_character = CAM_16782437
-recruit_character = CAM_16783456
-recruit_character = CAM_33555617
-recruit_character = CAM_33556711
-recruit_character = CAM_33556748
-recruit_character = CAM_33557784
-recruit_character = CAM_33558615
-recruit_character = CAM_50333218
-recruit_character = CAM_50334649
-recruit_character = CAM_50337324
-recruit_character = CAM_83892836
+recruit_character = CAM_50332845
+recruit_character = CAM_50333411
+recruit_character = CAM_50334579
+recruit_character = CAM_100666425
+recruit_character = CAM_100666532
+recruit_character = CAM_134218690
+recruit_character = CAM_134221895
+recruit_character = CAM_167772886
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Norodom_Eng
+		name = Ang_Non
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_demolition_expert }
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CAM }
+	}
+	create_operative_leader = {
+		name = Ang_Reachea
+		GFX = GFX_portrait_operative_unknown
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { CAM }
 	}
 }
 
-DAI = {
+GER = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -53,9 +57,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 16
+	democratic = 15
 	fascism = 37
-	neutrality = 47
+	neutrality = 48
 }
 
 add_ideas = {
@@ -68,6 +72,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

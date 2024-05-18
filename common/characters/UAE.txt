@@ -7,95 +7,36 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	UAE_16782067 = {
-		name = Shukri_ibn_Umar
+	UAE_33555901 = {
+		name = Kamil_al_Nahyan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_16782067
+			idea_token = i_33555901
 			cost = 150
 		}
 	}
-	UAE_33557191 = {
-		name = Abd_al-Rahman_ibm_Kamil
+	UAE_67114626 = {
+		name = Nur_al-Din_ibm_Kamil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_33557191
+			idea_token = i_67114626
 			cost = 150
-		}
-	}
-	UAE_33558109 = {
-		name = Uthman_Al_Sharqi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { fascist_demagogue }
-			slot = political_advisor
-			idea_token = i_33558109
-			cost = 150
-		}
-	}
-	UAE_33558146 = {
-		name = Hisham_ibn_Ali
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_33558146
-			cost = 150
-		}
-	}
-	UAE_50333382 = {
-		name = Salim_ibn_Ja_far
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_50333382
-			cost = 150
-		}
-	}
-	UAE_50333629 = {
-		name = Abd_al-Karim_al_Ulayyan
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer inflexible_strategist }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
 		}
 	}
 	UAE_67115742 = {
@@ -106,37 +47,79 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
 			idea_token = i_67115742
 			cost = 150
 		}
 	}
-	UAE_83886722 = {
-		name = Ahmad_al_Qasimi
+	UAE_83886599 = {
+		name = Yahya_ibn_Khalid
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_83886722
+			idea_token = i_83886599
 			cost = 150
 		}
 	}
-	UAE_117440556 = {
-		name = Abd_al-Qadir_ibn_Ahmad
+	UAE_83887436 = {
+		name = Ja_far_ibm_Kamil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_117440556
+			idea_token = i_83887436
+			cost = 150
+		}
+	}
+	UAE_83891270 = {
+		name = Khalid_ibn_Mustafa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_83891270
+			cost = 150
+		}
+	}
+	UAE_134221342 = {
+		name = Abd_al-Malik_ibn_Khalid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134221342
+			cost = 150
+		}
+	}
+	UAE_134223089 = {
+		name = Yahya_ibn_Halil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_134223089
 			cost = 150
 		}
 	}

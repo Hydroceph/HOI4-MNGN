@@ -1,88 +1,77 @@
 characters = {
-	PHI_16778944 = {
-		name = Deodato_Nakpil
+	PHI_117443505 = {
+		name = Mariano_Burgos
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_Asia_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = centrism
 			traits = {  }
 		}
 	}
-	PHI_16782986 = {
-		name = Alfonso_Mola
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_16782986
-			cost = 150
-		}
-	}
-	PHI_33555671 = {
-		name = Marcelo_Arellano
+	PHI_33555916 = {
+		name = Santiago_Aranzadi
 		portraits = {
 			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+			civilian = {
 			}
 		}
 		corps_commander = {
-			traits = { desert_fox organizer }
+			traits = { harsh_leader infantry_officer organizer trait_mountaineer }
 			skill = 2
 			attack_skill = 2
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	PHI_33557370 = {
-		name = Arsenio_Bonilla
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
+			logistics_skill = 2
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { mastermind_code_cracker }
 			slot = political_advisor
-			idea_token = i_33557370
+			idea_token = i_33555916
 			cost = 150
 		}
 	}
-	PHI_33558623 = {
-		name = Claudio_Grasset
+	PHI_50334052 = {
+		name = Baltasar_Gil
 		portraits = {
 			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-			civilian = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
 			}
 		}
 		navy_leader = {
-			traits = { media_personality navy_career_officer }
+			traits = { naval_lineage }
 			skill = 2
-			attack_skill = 2
-			defense_skill = 1
+			attack_skill = 1
+			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 2
 		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_33558623
-			cost = 150
+	}
+	PHI_50335807 = {
+		name = Juan_Bautista_Silvestre
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
-	PHI_33559522 = {
-		name = Arsenio_GonzA_lez_de_Cienfuegos
+	PHI_50337276 = {
+		name = Dionisio_Flores_de_SeptiE_n
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_13
@@ -90,102 +79,107 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	PHI_50332351 = {
-		name = Felipe_Serrano
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_50332351
-			cost = 150
-		}
-	}
-	PHI_50332370 = {
-		name = Hermano_Burgos
-		portraits = {
-			navy = {
-				large = GFX_Portrait_asia_generic_navy_4
-				small = GFX_Portrait_asia_generic_navy_4_small
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert bold chief_engineer spotter }
+			traits = { organizer ranger trait_reckless }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
 		}
 	}
-	PHI_50332530 = {
-		name = Manuel_Landazabal
+	PHI_50337299 = {
+		name = Deodato_Aguainaldo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50332530
+			idea_token = i_50337299
 			cost = 150
 		}
 	}
-	PHI_50335048 = {
-		name = Mariano_Mangubat
+	PHI_67109531 = {
+		name = Valeriano_Alonso
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { ideological_crusader }
 			slot = political_advisor
-			idea_token = i_50335048
+			idea_token = i_67109531
 			cost = 150
 		}
 	}
-	PHI_67108934 = {
-		name = Manuel_del_Pilar
+	PHI_83887961 = {
+		name = Benito_Pattullo
 		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
 			civilian = {
-				small = GFX_idea_unknown
 			}
 		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_67108934
-			cost = 150
-		}
-	}
-	PHI_83891441 = {
-		name = Pablo_de_Domecq
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
 			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_83887961
+			cost = 150
+		}
+	}
+	PHI_83889785 = {
+		name = Augusto_de_Palafox
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83889785
+			cost = 150
+		}
+	}
+	PHI_117441269 = {
+		name = Manuel_Burgos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117441269
+			cost = 150
+		}
+	}
+	PHI_201331392 = {
+		name = Simeon_2_Bonifacio
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_201331392
+			cost = 150
 		}
 	}
 }

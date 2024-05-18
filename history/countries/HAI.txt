@@ -1,27 +1,28 @@
-capital = 373
+capital = 248
 
 oob = "HAI_1936"
 set_research_slots = 3
-set_convoys = 1
+set_convoys = 2
 
-recruit_character = HAI_16779249
-recruit_character = HAI_16780400
-recruit_character = HAI_16783090
-recruit_character = HAI_33556305
-recruit_character = HAI_33557125
-recruit_character = HAI_33559359
-recruit_character = HAI_33560331
-recruit_character = HAI_33560384
-recruit_character = HAI_33561084
-recruit_character = HAI_50334676
-recruit_character = HAI_100664245
 recruit_character = HAI_100666024
+recruit_character = HAI_33558359
+recruit_character = HAI_50333325
+recruit_character = HAI_67112393
+recruit_character = HAI_83887369
+recruit_character = HAI_83888669
+recruit_character = HAI_83888958
+recruit_character = HAI_83891937
+recruit_character = HAI_100664072
+recruit_character = HAI_100666145
+recruit_character = HAI_134218361
+recruit_character = HAI_134219211
+recruit_character = HAI_167772779
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Simon_Hyppolite
-		GFX = GFX_portrait_africa_generic_operative_male_1
-		traits = { operative_natural_orator operative_safe_cracker }
+		name = Francois_Domingue
+		GFX = GFX_portrait_africa_generic_operative_male_4
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { HAI }
@@ -29,7 +30,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,14 +38,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
+	democratic = 16
 	fascism = 39
-	neutrality = 48
+	neutrality = 45
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -52,6 +53,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

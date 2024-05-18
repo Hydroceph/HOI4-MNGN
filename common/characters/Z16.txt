@@ -1,0 +1,112 @@
+characters = {
+	Z16_117447393 = {
+		name = Bugaya_Kabe
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Africa_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+		}
+	}
+	Z16_67112096 = {
+		name = Baba_al-Walid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67112096
+			cost = 150
+		}
+	}
+	Z16_100663433 = {
+		name = Alhassan_al-Hajj
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100663433
+			cost = 150
+		}
+	}
+	Z16_100664021 = {
+		name = Yaji_al-Walid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100664021
+			cost = 150
+		}
+	}
+	Z16_100664083 = {
+		name = Alhassan_Agalawa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100664083
+			cost = 150
+		}
+	}
+	Z16_134220176 = {
+		name = Kumbari_al-Walid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_134220176
+			cost = 150
+		}
+	}
+	Z16_167774084 = {
+		name = Kanajeji_Abasama
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_167774084
+			cost = 150
+		}
+	}
+	Z16_184551956 = {
+		name = Usman_Agalawa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_184551956
+			cost = 150
+		}
+	}
+}

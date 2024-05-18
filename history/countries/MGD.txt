@@ -1,28 +1,31 @@
-capital = 400
 
 oob = "MGD_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = MGD_2932
-recruit_character = MGD_16780499
-recruit_character = MGD_16781809
-recruit_character = MGD_33554596
-recruit_character = MGD_33556704
-recruit_character = MGD_33556975
-recruit_character = MGD_33560218
-recruit_character = MGD_50331696
-recruit_character = MGD_50333327
-recruit_character = MGD_50334680
-recruit_character = MGD_50338066
-recruit_character = MGD_67111055
-recruit_character = MGD_83892531
+recruit_character = MGD_50337879
+recruit_character = MGD_67110747
+recruit_character = MGD_67112906
+recruit_character = MGD_83887909
+recruit_character = MGD_117443691
+recruit_character = MGD_117443716
+recruit_character = MGD_134219201
+recruit_character = MGD_134219820
+recruit_character = MGD_218108040
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Muhammad_Makakwa_Jikiri
+		name = Abdulmunir_Ali
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_master_interrogator operative_natural_orator }
+		traits = { operative_natural_orator operative_tough }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MGD }
+	}
+	create_operative_leader = {
+		name = Muhammad_Makakwa_Hashim
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MGD }
@@ -31,16 +34,16 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1933.5.25"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 14
-	fascism = 37
-	neutrality = 49
+	democratic = 16
+	fascism = 40
+	neutrality = 44
 }
 
 add_ideas = {
@@ -53,6 +56,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

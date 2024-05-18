@@ -1,9 +1,9 @@
 characters = {
-	SLK_16777320 = {
-		name = Facundo_Paillalef
+	SLK_16778771 = {
+		name = Agustin_Paillalef
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_America_Generic_3
+				large = GFX_portrait_south_america_generic_8
 			}
 		}
 		country_leader = {
@@ -11,58 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	SLK_16778771 = {
-		name = Agustin_Paillalef
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SLK_16778846 = {
-		name = Raul_2_Lincoman
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_16778846
-			cost = 150
-		}
-	}
-	SLK_33556916 = {
-		name = Juan_Epulewfu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_33556916
-			cost = 150
-		}
-	}
-	SLK_33559659 = {
-		name = Maximo_Epulewfu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_33559659
-			cost = 150
-		}
-	}
-	SLK_50331797 = {
-		name = Pedro_Huichaman
+	SLK_16780081 = {
+		name = Gerardo_Paillalef
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -71,80 +21,99 @@ characters = {
 		advisor = {
 			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_50331797
+			idea_token = i_16780081
 			cost = 150
 		}
 	}
-	SLK_50332585 = {
-		name = JosE__Kvlapi
+	SLK_33556310 = {
+		name = Maximo_Quilapan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50332585
+			idea_token = i_33556310
 			cost = 150
 		}
 	}
-	SLK_50332636 = {
-		name = Gerardo_Guaiquil
+	SLK_33559290 = {
+		name = Aucan_Paillalef
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50332636
+			idea_token = i_33559290
 			cost = 150
 		}
 	}
-	SLK_83886682 = {
-		name = Santiago_Namuncura
+	SLK_67113892 = {
+		name = Aurelio_Paillalef
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SLK_83889204 = {
+		name = Luis_Namuncura
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_83886682
+			idea_token = i_83889204
 			cost = 150
 		}
 	}
-	SLK_83887239 = {
-		name = Aurelio_Foyelkay
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_3
-				small = GFX_Portrait_South_America_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	SLK_83891920 = {
-		name = Gerardo_Foyelkay
+	SLK_83891001 = {
+		name = JosE__Kayupi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_83891920
+			idea_token = i_83891001
+			cost = 150
+		}
+	}
+	SLK_134218726 = {
+		name = Agustin_Melin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_134218726
+			cost = 150
+		}
+	}
+	SLK_150998053 = {
+		name = Raul_2_Kayupi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_150998053
 			cost = 150
 		}
 	}

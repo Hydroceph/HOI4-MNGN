@@ -1,22 +1,43 @@
-capital = 57
+capital = 148
 
 oob = "CUB_1936"
 set_research_slots = 3
-set_convoys = 6
+set_convoys = 0
 
-recruit_character = CUB_33555942
-recruit_character = CUB_16780593
-recruit_character = CUB_16780677
-recruit_character = CUB_33561260
-recruit_character = CUB_50332723
-recruit_character = CUB_50335037
-recruit_character = CUB_50335057
-recruit_character = CUB_50336955
-recruit_character = CUB_50338204
-recruit_character = CUB_67109554
-recruit_character = CUB_100665710
+recruit_character = CUB_117440799
+recruit_character = CUB_33558728
+recruit_character = CUB_83887797
+recruit_character = CUB_100664242
+recruit_character = CUB_134219528
+recruit_character = CUB_151001205
+recruit_character = CUB_184551969
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Jacobo_Gil
+		GFX = GFX_portrait_south_america_generic_operative_male_1
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CUB }
+	}
+	create_operative_leader = {
+		name = Wenceslao_Mendieta
+		GFX = GFX_portrait_south_america_generic_operative_male_4
+		traits = { operative_infiltrator operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CUB }
+	}
+	create_operative_leader = {
+		name = Luz_Zayas
+		GFX = GFX_portrait_south_america_generic_operative_female_1
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CUB }
+	}
 }
 
 SPR = {
@@ -26,31 +47,33 @@ SPR = {
 		}
 		set_autonomy = {
 			target = CUB
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = CUB
+		set_autonomy = {
+			target = CUB
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1935.5.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 12
-	fascism = 37
-	neutrality = 51
+	communism = 4
+	democratic = 0
+	fascism = 62
+	neutrality = 34
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -58,8 +81,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -83,6 +110,7 @@ if = {
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		mtg_transport = 1
 	}
 }
 
@@ -102,6 +130,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 

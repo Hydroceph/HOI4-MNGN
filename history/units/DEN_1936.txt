@@ -196,7 +196,7 @@ units = {
 			name_order = 1
 		}
 		location = 6287
-		division_template = "Infantry Brigade"
+		division_template = "Light Infantry Brigade"
 		start_equipment_factor = 0
 		start_experience_factor = 0.2
 	}

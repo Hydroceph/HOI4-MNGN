@@ -1,6 +1,6 @@
 characters = {
-	BTN_16779750 = {
-		name = Edinho_of_Buton
+	BTN_117444032 = {
+		name = Levi_of_Buton
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,95 +11,36 @@ characters = {
 			traits = {  }
 		}
 	}
-	BTN_16779901 = {
-		name = Ignacio_Sjah
+	BTN_50333094 = {
+		name = Dominggus_Lilipaly
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { silent_workhorse }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_16779901
+			idea_token = i_50333094
 			cost = 150
 		}
 	}
-	BTN_16779995 = {
-		name = Denny_Sjah
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 5
-		}
-	}
-	BTN_16780169 = {
-		name = Jos_Pattinama
+	BTN_50333758 = {
+		name = Dominggus_Kolano
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_16780169
+			idea_token = i_50333758
 			cost = 150
 		}
 	}
-	BTN_16780683 = {
-		name = Jordao_Sjah
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_16780683
-			cost = 150
-		}
-	}
-	BTN_50332837 = {
-		name = Ellyas_Sjah
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_50332837
-			cost = 150
-		}
-	}
-	BTN_50333644 = {
-		name = Levi_Palyama
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_50333644
-			cost = 150
-		}
-	}
-	BTN_50333988 = {
-		name = Sonny_Sjah
+	BTN_83888130 = {
+		name = Michael_Weisapy
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -108,43 +49,77 @@ characters = {
 		advisor = {
 			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_50333988
+			idea_token = i_83888130
 			cost = 150
 		}
 	}
-	BTN_50334073 = {
-		name = Dominggus_Sjah
+	BTN_100669866 = {
+		name = Denny_Sjah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { silent_workhorse }
 			slot = political_advisor
-			idea_token = i_50334073
+			idea_token = i_100669866
 			cost = 150
 		}
 	}
-	BTN_67110648 = {
-		name = Dominggus_of_Buton
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	BTN_117441565 = {
-		name = Denny_Pattinama
+	BTN_117440685 = {
+		name = Michael_Sjah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_117441565
+			idea_token = i_117440685
+			cost = 150
+		}
+	}
+	BTN_117444672 = {
+		name = Mohammad_Mainaky
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117444672
+			cost = 150
+		}
+	}
+	BTN_117446450 = {
+		name = Ignacio_Kolano
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117446450
+			cost = 150
+		}
+	}
+	BTN_167777453 = {
+		name = Edinho_Kolano
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_167777453
 			cost = 150
 		}
 	}

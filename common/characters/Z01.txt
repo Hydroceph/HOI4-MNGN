@@ -1,133 +1,88 @@
 characters = {
-	Z01_6810 = {
-		name = Kumwimba_Ilunga
+	Z01_167777620 = {
+		name = Archibald_Hogarth
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_Africa_Political_Leader_Generic
+				large = GFX_Portrait_Europe_Generic_2
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = liberalism
 			traits = {  }
 		}
 	}
-	Z01_16778709 = {
-		name = Maloba_Nsungu
+	Z01_33556442 = {
+		name = Montague_Shaw-Lefevre
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_16778709
+			idea_token = i_33556442
 			cost = 150
 		}
 	}
-	Z01_16780819 = {
-		name = Kasongo_Ilunga
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer old_guard ranger }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	Z01_33555805 = {
-		name = Nday_Nyembo
+	Z01_67111634 = {
+		name = Ruaridh_MacIntyre
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33555805
+			idea_token = i_67111634
 			cost = 150
 		}
 	}
-	Z01_33556922 = {
-		name = Maniema_Ilunga
+	Z01_100664226 = {
+		name = Gerard_Ashton
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_33556922
+			idea_token = i_100664226
 			cost = 150
 		}
 	}
-	Z01_50333209 = {
-		name = Ndaye_Futa
+	Z01_117441200 = {
+		name = Ross_Kinnaird
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_50333209
+			idea_token = i_117441200
 			cost = 150
 		}
 	}
-	Z01_50334668 = {
-		name = Kasongo_Kalombo
+	Z01_117447145 = {
+		name = Simon_Whitworth
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_50334668
+			idea_token = i_117447145
 			cost = 150
 		}
 	}
-	Z01_50335462 = {
-		name = Ndaye_Nyembo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_50335462
-			cost = 150
-		}
-	}
-	Z01_50337756 = {
-		name = Kisula_Kabale
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50337756
-			cost = 150
-		}
-	}
-	Z01_67109624 = {
-		name = Maniema_Nyembo
+	Z01_134217969 = {
+		name = Eric_Carnegie
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -136,21 +91,21 @@ characters = {
 		advisor = {
 			traits = { editor }
 			slot = political_advisor
-			idea_token = i_67109624
+			idea_token = i_134217969
 			cost = 150
 		}
 	}
-	Z01_67110196 = {
-		name = Kitamba_Nsungu
+	Z01_184550356 = {
+		name = Adam_Sellars
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67110196
+			idea_token = i_184550356
 			cost = 150
 		}
 	}

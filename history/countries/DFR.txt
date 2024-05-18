@@ -1,38 +1,41 @@
-capital = 645
+capital = 696
 
 oob = "DFR_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = DFR_16777828
-recruit_character = DFR_16778227
-recruit_character = DFR_33557944
-recruit_character = DFR_33558583
-recruit_character = DFR_33560657
-recruit_character = DFR_50332734
-recruit_character = DFR_50333929
-recruit_character = DFR_50334012
-recruit_character = DFR_50334372
-recruit_character = DFR_67109717
-recruit_character = DFR_67110975
-recruit_character = DFR_67111308
-recruit_character = DFR_100664430
+recruit_character = DFR_67109871
+recruit_character = DFR_67113097
+recruit_character = DFR_83888330
+recruit_character = DFR_83889186
+recruit_character = DFR_100664325
+recruit_character = DFR_100667052
+recruit_character = DFR_117441354
+recruit_character = DFR_151000508
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Ahmad_Madyan
+		GFX = GFX_portrait_africa_generic_operative_male_9
+		traits = { operative_commando operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DFR }
+	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1933.2.7"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 14
-	fascism = 35
-	neutrality = 51
+	communism = 50
+	democratic = 0
+	fascism = 17
+	neutrality = 33
 }
 
 add_ideas = {

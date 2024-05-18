@@ -1,9 +1,9 @@
 characters = {
-	AHG_16777299 = {
-		name = Majila_Ikhia
+	AHG_100665612 = {
+		name = Ahmad_Ikhia
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_Africa_Political_Leader_Generic
+				large = GFX_Portrait_Africa_Generic_4
 			}
 		}
 		country_leader = {
@@ -11,75 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	AHG_16778995 = {
-		name = Kiddu_ag_Muhammad
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_16778995
-			cost = 150
-		}
-	}
-	AHG_16779226 = {
-		name = In_Tayaden_Ikhia
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_16779226
-			cost = 150
-		}
-	}
-	AHG_33556228 = {
-		name = Musa_ag_Amellal
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_33556228
-			cost = 150
-		}
-	}
-	AHG_33556852 = {
-		name = Ahmad_Ag_Alhabib
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox organizer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_33556852
-			cost = 150
-		}
-	}
-	AHG_33559421 = {
-		name = Attici_ag_Amellal
+	AHG_50332499 = {
+		name = Moussa_ag_Muhammad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -88,40 +21,40 @@ characters = {
 		advisor = {
 			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_33559421
+			idea_token = i_50332499
 			cost = 150
 		}
 	}
-	AHG_50332476 = {
-		name = Ahmad_ag_Amastan
+	AHG_67109174 = {
+		name = In_Tayaden_ag_Amellal
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_50332476
+			idea_token = i_67109174
 			cost = 150
 		}
 	}
-	AHG_67110111 = {
-		name = Abareybon_Ikhia
+	AHG_67110428 = {
+		name = Abareybon_ag_Amastan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_67110111
+			idea_token = i_67110428
 			cost = 150
 		}
 	}
-	AHG_67110601 = {
-		name = Ahmad_al-Hajj
+	AHG_67111080 = {
+		name = In_Tayaden_ag_Sidi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -130,11 +63,11 @@ characters = {
 		advisor = {
 			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_67110601
+			idea_token = i_67111080
 			cost = 150
 		}
 	}
-	AHG_67112278 = {
+	AHG_83891901 = {
 		name = Moussa_al-Hajj
 		portraits = {
 			civilian = {
@@ -142,9 +75,51 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_67112278
+			idea_token = i_83891901
+			cost = 150
+		}
+	}
+	AHG_100665337 = {
+		name = Ahmad_Ag_Alhabib
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100665337
+			cost = 150
+		}
+	}
+	AHG_100666014 = {
+		name = Ag_Mama_ag_Sidi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100666014
+			cost = 150
+		}
+	}
+	AHG_167774575 = {
+		name = Islaman_ag_Amellal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_167774575
 			cost = 150
 		}
 	}

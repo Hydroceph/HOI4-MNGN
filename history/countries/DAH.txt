@@ -1,26 +1,52 @@
-capital = 377
+capital = 318
 
 oob = "DAH_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = DAH_16779881
-recruit_character = DAH_16782415
-recruit_character = DAH_33556003
-recruit_character = DAH_33556534
-recruit_character = DAH_33556831
-recruit_character = DAH_33557733
-recruit_character = DAH_33558301
-recruit_character = DAH_33560876
-recruit_character = DAH_50332521
-recruit_character = DAH_67109740
-recruit_character = DAH_67110178
-recruit_character = DAH_83891826
-recruit_character = DAH_100669385
+recruit_character = DAH_83890492
+recruit_character = DAH_83887878
+recruit_character = DAH_100665905
+recruit_character = DAH_134220010
+recruit_character = DAH_167777961
+recruit_character = DAH_184551638
+recruit_character = DAH_201332150
+recruit_character = DAH_201332405
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Glele_Madogugu
+		GFX = GFX_portrait_africa_generic_operative_male_3
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DAH }
+	}
+	create_operative_leader = {
+		name = Adandozan_Madogugu
+		GFX = GFX_portrait_africa_generic_operative_male_7
+		traits = { operative_master_interrogator operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DAH }
+	}
 }
 
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = DAH
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = DAH
+	}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.1.1"
@@ -30,9 +56,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
+	democratic = 12
 	fascism = 39
-	neutrality = 48
+	neutrality = 49
 }
 
 add_ideas = {
@@ -45,6 +71,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

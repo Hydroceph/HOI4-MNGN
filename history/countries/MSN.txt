@@ -1,20 +1,17 @@
-capital = 643
 
 oob = "MSN_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = MSN_16778187
-recruit_character = MSN_16780468
-recruit_character = MSN_16780800
-recruit_character = MSN_33555053
-recruit_character = MSN_33557065
-recruit_character = MSN_50333861
-recruit_character = MSN_67109542
-recruit_character = MSN_67111701
-recruit_character = MSN_67115303
-recruit_character = MSN_83887885
-recruit_character = MSN_83888542
+recruit_character = MSN_201327061
+recruit_character = MSN_83886974
+recruit_character = MSN_83887352
+recruit_character = MSN_83891675
+recruit_character = MSN_117441919
+recruit_character = MSN_117442287
+recruit_character = MSN_117444108
+recruit_character = MSN_134218218
+recruit_character = MSN_167772889
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -28,9 +25,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 35
-	neutrality = 52
+	democratic = 15
+	fascism = 38
+	neutrality = 47
 }
 
 add_ideas = {

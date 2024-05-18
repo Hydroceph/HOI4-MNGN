@@ -1,1 +1,15 @@
 # Naval non-MTG OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 2050
+		task_force = {
+			name = "1. Fleet"
+			location = 2050
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { destroyer_2 = {  amount = 1  owner = Z07  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { destroyer_2 = {  amount = 1  owner = Z07  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { destroyer_2 = {  amount = 1  owner = Z07  version_name = "1936 Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { destroyer_2 = {  amount = 1  owner = Z07  version_name = "1936 Destroyer" } } }
+		}
+	}
+}

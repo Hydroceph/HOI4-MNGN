@@ -1,36 +1,41 @@
-capital = 616
 
 oob = "STG_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = STG_33557403
-recruit_character = STG_33555378
-recruit_character = STG_33557215
-recruit_character = STG_33557342
-recruit_character = STG_33557623
-recruit_character = STG_33560728
-recruit_character = STG_50333445
-recruit_character = STG_50333669
-recruit_character = STG_50334574
-recruit_character = STG_67109975
-recruit_character = STG_67110945
+recruit_character = STG_50332604
+recruit_character = STG_33558358
+recruit_character = STG_83886721
+recruit_character = STG_100665281
+recruit_character = STG_100665396
+recruit_character = STG_100666094
+recruit_character = STG_117441929
+recruit_character = STG_117444299
+recruit_character = STG_150995804
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Yusuf_Riayat_Shah
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { STG }
+	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1934.11.6"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 9
+	democratic = 15
 	fascism = 42
-	neutrality = 49
+	neutrality = 43
 }
 
 add_ideas = {

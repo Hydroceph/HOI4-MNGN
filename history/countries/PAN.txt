@@ -1,36 +1,29 @@
-capital = 66
+capital = 105
 
 oob = "PAN_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = PAN_16779928
-recruit_character = PAN_16778885
-recruit_character = PAN_16780823
-recruit_character = PAN_16781190
-recruit_character = PAN_16781981
-recruit_character = PAN_33557758
-recruit_character = PAN_33560804
-recruit_character = PAN_50331678
-recruit_character = PAN_50332699
-recruit_character = PAN_50332946
-recruit_character = PAN_50334375
-recruit_character = PAN_50335619
-recruit_character = PAN_50337462
-recruit_character = PAN_67112428
-recruit_character = PAN_83892354
-recruit_character = PAN_100663589
-recruit_character = PAN_100664523
+recruit_character = PAN_201326970
+recruit_character = PAN_50333061
+recruit_character = PAN_50336095
+recruit_character = PAN_50337780
+recruit_character = PAN_67110572
+recruit_character = PAN_67111533
+recruit_character = PAN_67114937
+recruit_character = PAN_100663700
+recruit_character = PAN_100663886
+recruit_character = PAN_100665819
+recruit_character = PAN_100665992
+recruit_character = PAN_100669687
+recruit_character = PAN_117440612
+recruit_character = PAN_117442657
+recruit_character = PAN_134218765
+recruit_character = PAN_134223250
+recruit_character = PAN_150995306
+recruit_character = PAN_151000913
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Nihal_Nalwa
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_linguist operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { PAN }
-	}
 }
 
 set_politics = {
@@ -42,9 +35,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 36
-	neutrality = 52
+	democratic = 15
+	fascism = 35
+	neutrality = 50
 }
 
 add_ideas = {

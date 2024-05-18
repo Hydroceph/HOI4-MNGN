@@ -4,23 +4,32 @@ oob = "TIB_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = TIB_33557126
-recruit_character = TIB_16782403
-recruit_character = TIB_33557711
-recruit_character = TIB_33557974
-recruit_character = TIB_33559874
-recruit_character = TIB_50333103
-recruit_character = TIB_50335116
-recruit_character = TIB_67109761
-recruit_character = TIB_67109922
-recruit_character = TIB_83887978
-recruit_character = TIB_83888898
+recruit_character = TIB_151001323
+recruit_character = TIB_50333851
+recruit_character = TIB_50335586
+recruit_character = TIB_67109391
+recruit_character = TIB_67112292
+recruit_character = TIB_83887430
+recruit_character = TIB_100663618
+recruit_character = TIB_117441653
+recruit_character = TIB_117443832
+recruit_character = TIB_117444079
+recruit_character = TIB_134218194
+recruit_character = TIB_134219693
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Andruk_Shatra
+		name = Tsarong_Dzasa
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_demolition_expert operative_natural_orator }
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+	create_operative_leader = {
+		name = Andruk_Chophel
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { TIB }
@@ -52,8 +61,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 13
-	fascism = 36
-	neutrality = 51
+	fascism = 37
+	neutrality = 50
 }
 
 add_ideas = {

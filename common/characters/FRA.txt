@@ -1,11 +1,7 @@
 characters = {
-	FRA_16782969 = {
-		name = Francois_d_Orleans
+	FRA_134217755 = {
+		name = Jean_d_Orleans
 		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
@@ -14,31 +10,9 @@ characters = {
 			ideology = falangism
 			traits = {  }
 		}
-		field_marshal = {
-			traits = { career_officer infantry_officer politically_connected }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
-		}
 	}
-	FRA_16778892 = {
-		name = Just_de_Chodron_de_Courcel
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_16778892
-			cost = 150
-		}
-	}
-	FRA_16784119 = {
-		name = ElzE_ar_DE_gousE_e
+	FRA_33558275 = {
+		name = Quentin_de_Morny
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_1
@@ -46,30 +20,58 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {  }
-			skill = 1
+			traits = { infantry_officer trait_cautious }
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
+			defense_skill = 3
+			planning_skill = 3
 			logistics_skill = 1
 		}
 	}
-	FRA_33556665 = {
-		name = Alexandre_Davout
+	FRA_33558300 = {
+		name = Guy_de_La_Rochefoucauld
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_1
+				small = GFX_Portrait_France_Generic_navy_1_small
 			}
 		}
+		navy_leader = {
+			traits = { bold chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	FRA_33560210 = {
+		name = Alexandre_Bergeret
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_3
+				small = GFX_Portrait_France_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
-			idea_token = i_33556665
+			idea_token = i_33560210
 			cost = 150
 		}
 	}
-	FRA_33556905 = {
-		name = Adolphe_de_Chodron_de_Courcel
+	FRA_50333148 = {
+		name = Jean_Ponson
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_4
@@ -77,20 +79,548 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { commando infantry_officer old_guard trait_cautious }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
+			traits = { trait_mountaineer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
-	FRA_33557099 = {
-		name = Odilon_Hoche
+	FRA_50333857 = {
+		name = ThE_obald_Rabot
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer media_personality superior_tactician }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50333857
+			cost = 150
+		}
+	}
+	FRA_50334007 = {
+		name = Denis_Aucouturier
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_1
+				small = GFX_Portrait_France_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners seawolf }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 3
+		}
+	}
+	FRA_50335136 = {
+		name = Simon_Bouet-Willaumez
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_3
+				small = GFX_Portrait_France_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	FRA_50335283 = {
+		name = Nicolas_Fesch
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_9
 				small = GFX_Portrait_France_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FRA_50335309 = {
+		name = Frederic_MassE_na
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer cuts_corners }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 1
+		}
+	}
+	FRA_50335412 = {
+		name = Just_de_Morny
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_1
+				small = GFX_Portrait_France_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality craven seawolf }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	FRA_50336987 = {
+		name = Hubert_Oudin
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_3
+				small = GFX_Portrait_France_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly gunnery_expert naval_lineage }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 5
+		}
+	}
+	FRA_50337616 = {
+		name = Odilon_de_Montmorency-Laval
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_8
+				small = GFX_Portrait_France_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	FRA_50338057 = {
+		name = Charles_Cornet
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	FRA_50338185 = {
+		name = ElzE_ar_Valladier
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_1
+				small = GFX_Portrait_France_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly spotter }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+	FRA_67109935 = {
+		name = Thierry_de_Gramont
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_3
+				small = GFX_Portrait_France_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer navy_career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+		}
+	}
+	FRA_67111642 = {
+		name = Raymond_de_Polignac
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67111642
+			cost = 150
+		}
+	}
+	FRA_67111938 = {
+		name = Felix_de_Durfort
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_6
+				small = GFX_Portrait_France_Generic_land_6_small
+			}
+		}
+		field_marshal = {
+			traits = { commando infantry_officer inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	FRA_67112169 = {
+		name = Nicolas_Oudinot
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_2
+				small = GFX_Portrait_France_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_67112169
+			cost = 150
+		}
+	}
+	FRA_83888073 = {
+		name = Edouard_de_Morny
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_3
+				small = GFX_Portrait_France_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FRA_83888275 = {
+		name = Sebastien_Fesch
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_7
+				small = GFX_Portrait_France_Generic_land_7_small
+			}
+		}
+		field_marshal = {
+			traits = { logistics_wizard organizer ranger trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	FRA_83888402 = {
+		name = Abel_Pasquier
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_5
+				small = GFX_Portrait_France_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer organizer trickster }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	FRA_83889556 = {
+		name = Lazare_de_Broglie
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer navy_career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	FRA_83890012 = {
+		name = Sebastien_d_Aumont
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_1
+				small = GFX_Portrait_France_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	FRA_83890590 = {
+		name = Oscar_MassE_na
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_4
+				small = GFX_Portrait_France_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FRA_83890846 = {
+		name = Francois_de_Bussiere
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_9
+				small = GFX_Portrait_France_Generic_land_9_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	FRA_100663329 = {
+		name = Athanase_Pasquier
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_8
+				small = GFX_Portrait_France_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	FRA_100663434 = {
+		name = Armand_Archinard
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_1
+				small = GFX_Portrait_France_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners seawolf }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	FRA_100663983 = {
+		name = Adolphe_de_Bussiere
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_6
+				small = GFX_Portrait_France_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	FRA_100664342 = {
+		name = Denis_Bouillet
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_3
+				small = GFX_Portrait_France_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_100664342
+			cost = 150
+		}
+	}
+	FRA_100664397 = {
+		name = Ferdinand_de_Pourtales
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	FRA_100664507 = {
+		name = Jacques_Teulon
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_2
+				small = GFX_Portrait_France_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer logistics_wizard organizer trait_cautious }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	FRA_100664651 = {
+		name = Achille_Marbot
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_3
+				small = GFX_Portrait_France_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FRA_100665092 = {
+		name = CE_lestin_Dupetit-Thouars
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_7
+				small = GFX_Portrait_France_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FRA_100665455 = {
+		name = Denis_Meili
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100665455
+			cost = 150
+		}
+	}
+	FRA_100665902 = {
+		name = Gaston_d_Essling
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_5
+				small = GFX_Portrait_France_Generic_land_5_small
 			}
 		}
 		corps_commander = {
@@ -102,33 +632,8 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	FRA_33557135 = {
-		name = Claude_de_La_Luzerne
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_8
-				small = GFX_Portrait_France_Generic_land_8_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	FRA_33558154 = {
-		name = Charles_d_Orleans
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	FRA_33559928 = {
-		name = RE_my_de_Persigny
+	FRA_100666114 = {
+		name = Simon_Kellermann
 		portraits = {
 			navy = {
 				large = GFX_Portrait_France_Generic_navy_1
@@ -136,33 +641,101 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { chief_engineer naval_lineage }
-			skill = 2
+			traits = { gunnery_expert old_guard_navy superior_tactician }
+			skill = 4
 			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
+			defense_skill = 5
+			maneuvering_skill = 1
+			coordination_skill = 5
 		}
 	}
-	FRA_33560238 = {
-		name = Pierre_de_Boisdeffre
+	FRA_100666419 = {
+		name = Jean_Perrenet
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_1
+				small = GFX_Portrait_France_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	FRA_100668998 = {
+		name = Prosper_ChaudE_
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_4
+				small = GFX_Portrait_France_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	FRA_100669799 = {
+		name = Antoine_d_Hilliers
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_9
+				small = GFX_Portrait_France_Generic_land_9_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	FRA_117440798 = {
+		name = Quentin_Lecointe
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_8
+				small = GFX_Portrait_France_Generic_land_8_small
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer commando engineer_officer trait_reckless }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FRA_117441072 = {
+		name = JE_rO_me_de_Noailles
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_6
 				small = GFX_Portrait_France_Generic_land_6_small
 			}
 		}
-		field_marshal = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+		corps_commander = {
+			traits = { brilliant_strategist engineer_officer infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 4
 		}
 	}
-	FRA_33560994 = {
-		name = Ferdinand_Foch
+	FRA_117441337 = {
+		name = Oscar_de_Castelnau
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_2
@@ -170,41 +743,67 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer inflexible_strategist politically_connected }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
+			traits = { infantry_officer trait_cautious trickster }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
-	FRA_50331793 = {
-		name = Alexandre_de_Lamartine
+	FRA_117441462 = {
+		name = Lazare_Oudinot
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_3
+				small = GFX_Portrait_France_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	FRA_117441479 = {
+		name = Raymond_de_Saulx
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	FRA_117442009 = {
+		name = E_tienne_Pautrat
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_3
 				small = GFX_Portrait_France_Generic_land_3_small
 			}
-			civilian = {
-			}
 		}
-		field_marshal = {
-			traits = { brilliant_strategist charismatic commando infantry_officer }
-			skill = 3
+		corps_commander = {
+			traits = { engineer_officer }
+			skill = 2
 			attack_skill = 3
-			defense_skill = 3
+			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 4
-		}
-		advisor = {
-			traits = { education_reformer }
-			slot = political_advisor
-			idea_token = i_50331793
-			cost = 150
+			logistics_skill = 2
 		}
 	}
-	FRA_50332012 = {
-		name = Lucien_Bergeret
+	FRA_117442359 = {
+		name = Felix_Pasquier
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_7
@@ -212,41 +811,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { desert_fox old_guard }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	FRA_50332032 = {
-		name = Matthieu_Faidherbe
-		portraits = {
-			navy = {
-				large = GFX_Portrait_France_Generic_navy_3
-				small = GFX_Portrait_France_Generic_navy_3_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { battleship_adherent old_guard_navy }
-			skill = 1
 			attack_skill = 2
 			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_50332032
-			cost = 150
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
-	FRA_50332056 = {
-		name = Henri_MassE_na
+	FRA_117442703 = {
+		name = E_vrard_Beaugendre
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_5
@@ -254,20 +828,37 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer }
-			skill = 2
+			traits = { desert_fox infantry_officer trait_cautious }
+			skill = 3
 			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
 		}
 	}
-	FRA_50333236 = {
-		name = Xavier_de_CambacE_rE_s
+	FRA_117443526 = {
+		name = Bernard_Decazes
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_1
 				small = GFX_Portrait_France_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	FRA_117443668 = {
+		name = Emile_de_Rochebouet
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_4
+				small = GFX_Portrait_France_Generic_land_4_small
 			}
 		}
 		corps_commander = {
@@ -279,56 +870,8 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	FRA_50333916 = {
-		name = Cyprien_de_Chastellux
-		portraits = {
-			navy = {
-				large = GFX_Portrait_France_Generic_navy_2
-				small = GFX_Portrait_France_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	FRA_50334274 = {
-		name = Sebastien_de_Noailles
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_4
-				small = GFX_Portrait_France_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	FRA_50334392 = {
-		name = Alexandre_Tanchard
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_50334392
-			cost = 150
-		}
-	}
-	FRA_50334685 = {
-		name = LE_onide_Pardon
+	FRA_117444017 = {
+		name = Jacques_de_Rohan-Chabot
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_9
@@ -336,44 +879,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { armor_officer organizer }
 			skill = 2
-			attack_skill = 1
+			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 3
 		}
 	}
-	FRA_50334809 = {
-		name = Theophile_Jaures
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_50334809
-			cost = 150
-		}
-	}
-	FRA_50337227 = {
-		name = Felicien_Herbelin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50337227
-			cost = 150
-		}
-	}
-	FRA_50337591 = {
-		name = Philippe_Decazes
+	FRA_117445272 = {
+		name = Lazare_Oudinot
 		portraits = {
 			navy = {
 				large = GFX_Portrait_France_Generic_navy_1
@@ -381,177 +896,33 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { arctic_water_expert }
-			skill = 1
+			traits = { chief_engineer gentlemanly spotter }
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
 		}
 	}
-	FRA_67108997 = {
-		name = Robert_d_Aumont
+	FRA_117446855 = {
+		name = Gaston_Ory
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_8
 				small = GFX_Portrait_France_Generic_land_8_small
 			}
 		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
+		field_marshal = {
+			traits = { commando organizer trait_reckless }
 			skill = 2
 			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	FRA_67109019 = {
-		name = LE_onide_Gros
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_6
-				small = GFX_Portrait_France_Generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	FRA_67109021 = {
-		name = Quentin_Bazaine
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_2
-				small = GFX_Portrait_France_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { commando trait_cautious }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	FRA_67109409 = {
-		name = Edouard_Dufour
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_3
-				small = GFX_Portrait_France_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { old_guard }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	FRA_67110575 = {
-		name = Andre_Totain
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_7
-				small = GFX_Portrait_France_Generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	FRA_67111433 = {
-		name = Pascal_Alavoine
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_5
-				small = GFX_Portrait_France_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer }
-			skill = 2
-			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 2
+			planning_skill = 3
 			logistics_skill = 2
 		}
 	}
-	FRA_67111627 = {
-		name = Sebastien_Lespes
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { craven gunnery_expert }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			maneuvering_skill = 1
-			coordination_skill = 5
-		}
-	}
-	FRA_83886296 = {
-		name = Philippe_Desbordes
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_1
-				small = GFX_Portrait_France_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { military_theorist }
-			slot = political_advisor
-			idea_token = i_83886296
-			cost = 150
-		}
-	}
-	FRA_83886740 = {
-		name = Hyacinthe_de_La_Rochefoucauld
-		portraits = {
-			army = {
-				large = GFX_Portrait_France_Generic_land_4
-				small = GFX_Portrait_France_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { old_guard }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	FRA_83887200 = {
-		name = Christophe_Baraguey_d_Hilliers
+	FRA_134218716 = {
+		name = Francois_Oudinot
 		portraits = {
 			navy = {
 				large = GFX_Portrait_France_Generic_navy_3
@@ -559,46 +930,235 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { cuts_corners }
+			traits = { craven }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	FRA_134221421 = {
+		name = ElzE_ar_Pigeon
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_2
+				small = GFX_Portrait_France_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	FRA_134221427 = {
+		name = Bernard_Oudinot
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_6
+				small = GFX_Portrait_France_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	FRA_150998512 = {
+		name = Lucien_de_Rochebouet
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_2
+				small = GFX_Portrait_France_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	FRA_151001160 = {
+		name = Victor_de_Talleyrand-PE_rigord
+		portraits = {
+			navy = {
+				large = GFX_Portrait_France_Generic_navy_1
+				small = GFX_Portrait_France_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	FRA_151001282 = {
+		name = Alexis_Petain
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_3
+				small = GFX_Portrait_France_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	FRA_167774622 = {
+		name = Oscar_Fleury
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_7
+				small = GFX_Portrait_France_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	FRA_167775848 = {
+		name = Charles_de_Leuchtenberg
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_5
+				small = GFX_Portrait_France_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	FRA_167778830 = {
+		name = Achille_Madesclaire
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_1
+				small = GFX_Portrait_France_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer desert_fox }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	FRA_184549631 = {
+		name = Theophile_Vivier
+		portraits = {
+			army = {
+				large = GFX_Portrait_France_Generic_land_4
+				small = GFX_Portrait_France_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
 			skill = 2
 			attack_skill = 3
 			defense_skill = 1
-			maneuvering_skill = 3
-			coordination_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
-	FRA_83889850 = {
-		name = Napoleon_de_Rohan-Chabot
+	FRA_184549673 = {
+		name = Lazare_Bodinier
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_9
 				small = GFX_Portrait_France_Generic_land_9_small
 			}
+			civilian = {
+			}
 		}
 		corps_commander = {
-			traits = { armor_officer harsh_leader }
-			skill = 2
-			attack_skill = 3
+			traits = { naval_invader }
+			skill = 1
+			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 2
-			logistics_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_184549673
+			cost = 150
 		}
 	}
-	FRA_100663626 = {
-		name = Ambroise_de_Croy
+	FRA_201326634 = {
+		name = Henri_d_Orleans
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_201326634
+			cost = 150
+		}
+	}
+	FRA_201327478 = {
+		name = CE_lestin_Bac
 		portraits = {
 			army = {
 				large = GFX_Portrait_France_Generic_land_8
 				small = GFX_Portrait_France_Generic_land_8_small
 			}
 		}
-		corps_commander = {
-			traits = { organizer trait_cautious }
+		field_marshal = {
+			traits = { cavalry_officer infantry_officer trait_mountaineer }
 			skill = 2
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	FRA_201327935 = {
+		name = Aristide_de_Gaulle
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_201327935
+			cost = 150
 		}
 	}
 }

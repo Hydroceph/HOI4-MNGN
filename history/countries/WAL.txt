@@ -1,35 +1,46 @@
-capital = 26
+capital = 48
 
 oob = "WAL_1936"
 set_research_slots = 3
-set_convoys = 0
+set_convoys = 3
 
 recruit_character = WAL_33560500
-recruit_character = WAL_16778755
-recruit_character = WAL_16780298
-recruit_character = WAL_33555171
-recruit_character = WAL_33555612
-recruit_character = WAL_33555965
-recruit_character = WAL_33557867
-recruit_character = WAL_33558850
-recruit_character = WAL_67109488
-recruit_character = WAL_83888433
-recruit_character = WAL_83890819
-recruit_character = WAL_100664047
+recruit_character = WAL_67109429
+recruit_character = WAL_67111514
+recruit_character = WAL_67112549
+recruit_character = WAL_67112737
+recruit_character = WAL_67114655
+recruit_character = WAL_100663774
+recruit_character = WAL_100663987
+recruit_character = WAL_100666318
+recruit_character = WAL_117440954
+recruit_character = WAL_117441046
+recruit_character = WAL_117442811
+recruit_character = WAL_134222005
+recruit_character = WAL_167773204
+recruit_character = WAL_167773401
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Eremia_Lahovary
-		GFX = GFX_portrait_europe_generic_operative_male_14
-		traits = { operative_natural_orator operative_well_groomed }
+		name = Tita_Holban
+		GFX = GFX_portrait_europe_generic_operative_male_5
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { WAL }
 	}
 	create_operative_leader = {
-		name = Valeriu_Tautu
-		GFX = GFX_portrait_europe_generic_operative_male_1
-		traits = { operative_master_interrogator operative_natural_orator }
+		name = Emilian_Gheorghiu
+		GFX = GFX_portrait_europe_generic_operative_male_4
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { WAL }
+	}
+	create_operative_leader = {
+		name = Virgil_Dobrovici
+		GFX = GFX_portrait_europe_generic_operative_male_23
+		traits = { operative_linguist operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { WAL }
@@ -60,21 +71,24 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 14
-	fascism = 37
-	neutrality = 49
+	democratic = 20
+	fascism = 39
+	neutrality = 41
 }
 
 add_ideas = {
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

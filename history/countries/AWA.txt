@@ -1,27 +1,24 @@
-capital = 67
 
 oob = "AWA_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = AWA_16783586
-recruit_character = AWA_16777865
-recruit_character = AWA_16780087
-recruit_character = AWA_16783500
-recruit_character = AWA_33557193
-recruit_character = AWA_33557361
-recruit_character = AWA_33558367
-recruit_character = AWA_50331707
-recruit_character = AWA_50331956
-recruit_character = AWA_50334606
 recruit_character = AWA_50334890
-recruit_character = AWA_67109106
+recruit_character = AWA_67111591
+recruit_character = AWA_67115436
+recruit_character = AWA_83887460
+recruit_character = AWA_83889686
+recruit_character = AWA_83890103
+recruit_character = AWA_83890301
+recruit_character = AWA_100663443
+recruit_character = AWA_100666485
+recruit_character = AWA_134218977
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Mahip_Singh
+		name = Vijay_Ram
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_master_interrogator operative_natural_orator }
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { AWA }
@@ -52,8 +49,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 14
-	fascism = 35
+	democratic = 13
+	fascism = 36
 	neutrality = 51
 }
 

@@ -1,22 +1,28 @@
-capital = 604
+capital = 556
 
 oob = "JMB_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = JMB_2879
-recruit_character = JMB_16783541
-recruit_character = JMB_16783942
-recruit_character = JMB_33556810
-recruit_character = JMB_33561176
-recruit_character = JMB_50333751
-recruit_character = JMB_50338228
-recruit_character = JMB_67110457
-recruit_character = JMB_83886372
-recruit_character = JMB_83890262
-recruit_character = JMB_100666390
+recruit_character = JMB_100663531
+recruit_character = JMB_67112633
+recruit_character = JMB_67114670
+recruit_character = JMB_83889432
+recruit_character = JMB_83889516
+recruit_character = JMB_83890000
+recruit_character = JMB_100665312
+recruit_character = JMB_134218773
+recruit_character = JMB_184550131
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Muabidin_Aadzam
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JMB }
+	}
 }
 
 INS = {
@@ -36,19 +42,20 @@ INS = {
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1933.9.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 17
-	fascism = 34
-	neutrality = 49
+	democratic = 22
+	fascism = 36
+	neutrality = 42
 }
 
 add_ideas = {
+	JMB_Isandar_Jambi
 	civilian_economy
 	export_focus
 	volunteer_only

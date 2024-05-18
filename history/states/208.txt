@@ -1,28 +1,24 @@
 state = {
 	id = 208
 	name = "STATE_208"
-	manpower = 3479809
-	resources = {
-		tungsten = 3
-	}
+	manpower = 2485304
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = JAP
+		owner = SOV
 		victory_points = {
-			1092 1
+			572 1
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 1
 		}
-		add_core_of = JAP
+		add_core_of = SOV
 	}
 
 	provinces = {
-		1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+		422 462 474 513 572 3412 3430 3457 3470 3496 3511 3570 6429 6435 6509 6520 6557 9520 9533 11441 11503 11543 
 	}
 }

@@ -1,113 +1,81 @@
 characters = {
-	CMI_16778073 = {
-		name = Hkun_Sao
+	CMI_0 = {
+		name = _
 		portraits = {
-			civilian = {
-				large = GFX_portrait_unknown
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {  }
 		}
 	}
-	CMI_16782865 = {
-		name = Naw_Min
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 4
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_16782865
-			cost = 150
-		}
-	}
-	CMI_33555466 = {
-		name = Pyi_Min
+	CMI_67112290 = {
+		name = Rangsit_Kridakorn
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_33555466
+			idea_token = i_67112290
 			cost = 150
 		}
 	}
-	CMI_33558557 = {
-		name = Mahidol_Silpikul
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_33558557
-			cost = 150
-		}
-	}
-	CMI_50333706 = {
-		name = Pe_Sao
+	CMI_67114537 = {
+		name = Natsu_Sao
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { education_reformer }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50333706
+			idea_token = i_67114537
 			cost = 150
 		}
 	}
-	CMI_50335506 = {
-		name = Chao_Bunnag
+	CMI_83886156 = {
+		name = Piyararangsit_Chichalerm
 		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { brilliant_strategist infantry_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83886156
+			cost = 150
 		}
 	}
-	CMI_50336707 = {
-		name = Sanidh_Prayurasakdi_Chakri
+	CMI_83889285 = {
+		name = Hswe_Thi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83889285
+			cost = 150
+		}
+	}
+	CMI_83889342 = {
+		name = Hkam_Kaw
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_83889342
+			cost = 150
+		}
+	}
+	CMI_117441678 = {
+		name = Hpa_Letya
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -116,63 +84,35 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_50336707
+			idea_token = i_117441678
 			cost = 150
 		}
 	}
-	CMI_50337721 = {
-		name = Than_Hung
+	CMI_134218198 = {
+		name = Hseng_Sao
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_50337721
+			idea_token = i_134218198
 			cost = 150
 		}
 	}
-	CMI_83887181 = {
-		name = Mahidol_Chakri
+	CMI_150995232 = {
+		name = Charoon_Chakri
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_83887181
-			cost = 150
-		}
-	}
-	CMI_100663561 = {
-		name = Nga_Sao
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_100663561
-			cost = 150
-		}
-	}
-	CMI_100666816 = {
-		name = Nuam_Devahastin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_100666816
+			idea_token = i_150995232
 			cost = 150
 		}
 	}

@@ -1,9 +1,9 @@
 characters = {
-	KAT_16781292 = {
-		name = Abd_al-Malik_al_Kathir
+	KAT_150996533 = {
+		name = Abd_Allah_al-Hijazi
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_Portrait_Arabia_Generic_3
 			}
 		}
 		country_leader = {
@@ -11,89 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	KAT_16778826 = {
-		name = Fawzi_ibn_Ali
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_16778826
-			cost = 150
-		}
-	}
-	KAT_16780247 = {
-		name = Khalid_ibn_Ishaq
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_16780247
-			cost = 150
-		}
-	}
-	KAT_33555452 = {
-		name = Muhammad_al_Kathir
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	KAT_33556070 = {
-		name = Ishaq_Al-Rahman_Al-Gillani
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_33556070
-			cost = 150
-		}
-	}
-	KAT_33556751 = {
-		name = Halil_ibn_Hasan
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer ranger trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	KAT_50334486 = {
-		name = Yusuf_al_Ulayyan
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334486
-			cost = 150
-		}
-	}
-	KAT_67114665 = {
-		name = Muhammad_ibn_Abu_Bakr
+	KAT_67111964 = {
+		name = Khalid_ibn_Mustafa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -102,40 +21,82 @@ characters = {
 		advisor = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_67114665
+			idea_token = i_67111964
 			cost = 150
 		}
 	}
-	KAT_67115174 = {
-		name = Umar_al-Halabi
+	KAT_67114892 = {
+		name = Fawzi_al_Ulayyan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67115174
+			idea_token = i_67114892
 			cost = 150
 		}
 	}
-	KAT_83887218 = {
-		name = Mustafa_ibn_Khalid
+	KAT_83889321 = {
+		name = Iskandar_al_Hashimi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_83887218
+			idea_token = i_83889321
 			cost = 150
 		}
 	}
-	KAT_83887392 = {
-		name = Ibrahim_al-Shami
+	KAT_83890458 = {
+		name = Halil_ibn_Abu_Bakr
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83890458
+			cost = 150
+		}
+	}
+	KAT_150996313 = {
+		name = Abd_al-Rahman_al-Atassi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_150996313
+			cost = 150
+		}
+	}
+	KAT_234881701 = {
+		name = Abd_al-Malik_al-Nablusi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_234881701
+			cost = 150
+		}
+	}
+	KAT_268435606 = {
+		name = Ahmad_ibn_Halil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -144,7 +105,7 @@ characters = {
 		advisor = {
 			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_83887392
+			idea_token = i_268435606
 			cost = 150
 		}
 	}

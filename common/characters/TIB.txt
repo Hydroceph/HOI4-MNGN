@@ -1,6 +1,6 @@
 characters = {
-	TIB_33557126 = {
-		name = Trimon_Lhalu
+	TIB_151001323 = {
+		name = Chamba_Lhalu
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_Asia_Generic_3
@@ -11,8 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	TIB_16782403 = {
-		name = Mipham_Lhalu
+	TIB_50333851 = {
+		name = Penor_Rinpoche
 		portraits = {
 			army = {
 				large = GFX_Portrait_asia_generic_land_5
@@ -20,16 +20,44 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { cavalry_officer trait_mountaineer }
+			traits = { infantry_officer }
 			skill = 2
-			attack_skill = 1
+			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 2
+			planning_skill = 1
 			logistics_skill = 2
 		}
 	}
-	TIB_33557711 = {
-		name = Penor_Ngapoi
+	TIB_50335586 = {
+		name = Andruk_Wangyal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_50335586
+			cost = 150
+		}
+	}
+	TIB_67109391 = {
+		name = Trimon_Shakabpa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109391
+			cost = 150
+		}
+	}
+	TIB_67112292 = {
+		name = Gendun_Shatra
 		portraits = {
 			army = {
 				large = GFX_Portrait_Asia_Generic_land_3
@@ -37,58 +65,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { commando trait_cautious trait_mountaineer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 4
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	TIB_33557974 = {
-		name = Tsarong_Lungshar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_33557974
-			cost = 150
-		}
-	}
-	TIB_33559874 = {
-		name = Chamba_Ngapoi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_33559874
-			cost = 150
-		}
-	}
-	TIB_50333103 = {
-		name = Tsepon_Shatra
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_50333103
-			cost = 150
-		}
-	}
-	TIB_50335116 = {
-		name = Trimon_Ngapoi
+	TIB_83887430 = {
+		name = Tsarong_Wangyal
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -97,40 +83,57 @@ characters = {
 		advisor = {
 			traits = { communist_revolutionary }
 			slot = political_advisor
-			idea_token = i_50335116
+			idea_token = i_83887430
 			cost = 150
 		}
 	}
-	TIB_67109761 = {
-		name = Gendun_Wangyal
+	TIB_100663618 = {
+		name = Gendun_Dzasa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67109761
+			idea_token = i_100663618
 			cost = 150
 		}
 	}
-	TIB_67109922 = {
-		name = Namgang_Tashi
+	TIB_117441653 = {
+		name = Penor_Dzasa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_67109922
+			idea_token = i_117441653
 			cost = 150
 		}
 	}
-	TIB_83887978 = {
-		name = Penor_Tashi
+	TIB_117443832 = {
+		name = Tsarong_Lhalu
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist naval_invader }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	TIB_117444079 = {
+		name = Penor_Lhalu
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -139,21 +142,35 @@ characters = {
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_83887978
+			idea_token = i_117444079
 			cost = 150
 		}
 	}
-	TIB_83888898 = {
-		name = Tsepon_Dzasa
+	TIB_134218194 = {
+		name = Jamphel_Shatra
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_83888898
+			idea_token = i_134218194
+			cost = 150
+		}
+	}
+	TIB_134219693 = {
+		name = Mipham_Lungshar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_134219693
 			cost = 150
 		}
 	}

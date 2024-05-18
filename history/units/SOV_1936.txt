@@ -196,7 +196,7 @@ units = {
 			name_order = 1
 		}
 		location = 301
-		division_template = "Light Infantry Division"
+		division_template = "Infantry Division"
 		start_equipment_factor = 0
 		start_experience_factor = 0.2
 	}
@@ -206,7 +206,7 @@ units = {
 			name_order = 1
 		}
 		location = 301
-		division_template = "Infantry Brigade"
+		division_template = "Light Infantry Division"
 		start_equipment_factor = 0
 		start_experience_factor = 0.2
 	}
@@ -353,6 +353,16 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 301
+		division_template = "Light Infantry Brigade"
+		start_equipment_factor = 0
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 301
@@ -374,16 +384,6 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
-		}
-		location = 301
-		division_template = "Cavalry Division"
-		start_equipment_factor = 0
-		start_experience_factor = 0.2
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
 		}
 		location = 301
 		division_template = "Cavalry Division"

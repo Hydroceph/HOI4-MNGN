@@ -1,0 +1,106 @@
+characters = {
+	Z18_218105764 = {
+		name = Manuel_Crespo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_south_america_generic_9
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {  }
+		}
+	}
+	Z18_117442246 = {
+		name = Jose_Antonio_Hurtado
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	Z18_117445358 = {
+		name = Santiago_de_Olmedo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117445358
+			cost = 150
+		}
+	}
+	Z18_134218559 = {
+		name = Federico_Hurtado
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_134218559
+			cost = 150
+		}
+	}
+	Z18_134220651 = {
+		name = Antonio_Mallarino
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_134220651
+			cost = 150
+		}
+	}
+	Z18_151001220 = {
+		name = Juan_de_Mosquera
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_151001220
+			cost = 150
+		}
+	}
+	Z18_184549383 = {
+		name = Rafael_2_Gonzalez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_184549383
+			cost = 150
+		}
+	}
+	Z18_218105120 = {
+		name = Demetrio_Boyd
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_218105120
+			cost = 150
+		}
+	}
+}

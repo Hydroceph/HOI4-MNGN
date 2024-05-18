@@ -1,26 +1,35 @@
-capital = 726
+capital = 700
 
 oob = "ION_1936"
 set_research_slots = 3
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = ION_33559418
-recruit_character = ION_33555919
-recruit_character = ION_50333408
-recruit_character = ION_50336150
-recruit_character = ION_67109118
-recruit_character = ION_67110813
-recruit_character = ION_67111709
-recruit_character = ION_100668678
-recruit_character = ION_150994965
+recruit_character = ION_100669743
+recruit_character = ION_50335036
+recruit_character = ION_83886235
+recruit_character = ION_83886687
+recruit_character = ION_83886878
+recruit_character = ION_83889167
+recruit_character = ION_83890207
+recruit_character = ION_117444221
+recruit_character = ION_184550721
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Anagnostis_Karvelas
-		GFX = GFX_portrait_europe_generic_operative_male_15
-		traits = { operative_commando }
+		name = Iakovos_Frangoudis
+		GFX = GFX_portrait_europe_generic_operative_male_20
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
+		nationalities = { ION }
+	}
+	create_operative_leader = {
+		name = Sofia_Malokinis
+		GFX = GFX_portrait_europe_generic_operative_female_11
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
 		nationalities = { ION }
 	}
 }
@@ -32,31 +41,33 @@ ENG = {
 		}
 		set_autonomy = {
 			target = ION
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = ION
+		set_autonomy = {
+			target = ION
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.8.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 21
-	democratic = 62
-	fascism = 16
-	neutrality = 1
+	communism = 0
+	democratic = 12
+	fascism = 43
+	neutrality = 45
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -64,6 +75,7 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
@@ -88,9 +100,13 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -110,6 +126,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -170,6 +187,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = ION_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

@@ -1,34 +1,24 @@
-capital = 363
+capital = 328
 
 oob = "MAK_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = MAK_6801
 recruit_character = MAK_16778329
-recruit_character = MAK_16778673
-recruit_character = MAK_33557883
-recruit_character = MAK_33558853
-recruit_character = MAK_33559364
-recruit_character = MAK_50332630
-recruit_character = MAK_50333887
-recruit_character = MAK_50334656
-recruit_character = MAK_50338250
-recruit_character = MAK_83887496
+recruit_character = MAK_16779926
+recruit_character = MAK_83887041
+recruit_character = MAK_134220505
+recruit_character = MAK_134224067
+recruit_character = MAK_150996318
+recruit_character = MAK_151001304
+recruit_character = MAK_167773500
+recruit_character = MAK_167776772
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Mehrab_Gurmani
+		name = Muhabbat_Gurmani
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_master_interrogator operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MAK }
-	}
-	create_operative_leader = {
-		name = Ahmad_Bugti
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_safe_cracker }
+		traits = { operative_commando }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MAK }
@@ -37,22 +27,23 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1934.10.6"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 13
+	democratic = 10
 	fascism = 37
-	neutrality = 50
+	neutrality = 53
 }
 
 add_ideas = {
+	MAK_Abdullah_Baloch
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60

@@ -1,130 +1,94 @@
 characters = {
-	ELS_16778893 = {
-		name = Lorenzo_Carrera
+	ELS_50333465 = {
+		name = Juan_Antonio_Carrera
 		portraits = {
 			civilian = {
-				large = GFX_portrait_south_america_generic_7
+				large = GFX_portrait_south_america_generic_9
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = falangism
 			traits = {  }
 		}
 	}
-	ELS_16779451 = {
-		name = Tiburcio_Menendez
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_16779451
-			cost = 150
-		}
-	}
-	ELS_33555627 = {
-		name = Oscar_2_Barahona
+	ELS_50336228 = {
+		name = Fruto_Lopez
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_America_Generic_land_3
-				small = GFX_Portrait_South_America_Generic_land_3_small
-			}
-			civilian = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
 			}
 		}
 		corps_commander = {
-			traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
+			traits = { cavalry_officer desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
 			logistics_skill = 2
 		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_33555627
-			cost = 150
-		}
 	}
-	ELS_33557871 = {
-		name = Fernando_Barrios
+	ELS_67112797 = {
+		name = Fermin_Zeledon
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { silent_workhorse }
 			slot = political_advisor
-			idea_token = i_33557871
+			idea_token = i_67112797
 			cost = 150
 		}
 	}
-	ELS_33560477 = {
-		name = Justo_Vasconcelos
+	ELS_83887204 = {
+		name = Manuel_Barrios
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83887204
+			cost = 150
+		}
+	}
+	ELS_83891550 = {
+		name = Oscar_2_Garrigo
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer trait_cautious }
+			traits = { armor_officer harsh_leader organizer }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	ELS_50333495 = {
-		name = Jorge_Regalado
+	ELS_83891899 = {
+		name = Julio_Barahona
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50333495
+			idea_token = i_83891899
 			cost = 150
 		}
 	}
-	ELS_50335398 = {
-		name = Ramon_Leiva
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_50335398
-			cost = 150
-		}
-	}
-	ELS_67112526 = {
-		name = Basilio_Regalado
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_67112526
-			cost = 150
-		}
-	}
-	ELS_83886379 = {
-		name = Jose_Francisco_Barrios
+	ELS_100665427 = {
+		name = Fruto_Chavez
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -133,7 +97,49 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_83886379
+			idea_token = i_100665427
+			cost = 150
+		}
+	}
+	ELS_100668330 = {
+		name = Carlos_Andino
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100668330
+			cost = 150
+		}
+	}
+	ELS_134218109 = {
+		name = Benito_Quiros
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_134218109
+			cost = 150
+		}
+	}
+	ELS_167777323 = {
+		name = Aniceto_Figueroa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_167777323
 			cost = 150
 		}
 	}

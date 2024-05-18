@@ -1,21 +1,28 @@
-capital = 138
+capital = 650
 
 oob = "ZAN_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 1
 
-recruit_character = ZAN_83889526
-recruit_character = ZAN_16779323
-recruit_character = ZAN_16779326
-recruit_character = ZAN_33561245
-recruit_character = ZAN_50332437
-recruit_character = ZAN_50332451
-recruit_character = ZAN_50336790
-recruit_character = ZAN_50338318
-recruit_character = ZAN_67115140
-recruit_character = ZAN_83888459
+recruit_character = ZAN_33556835
+recruit_character = ZAN_33558368
+recruit_character = ZAN_67112026
+recruit_character = ZAN_67115176
+recruit_character = ZAN_100665673
+recruit_character = ZAN_100667064
+recruit_character = ZAN_100667792
+recruit_character = ZAN_134219854
+recruit_character = ZAN_167772465
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Heri_Ibada
+		GFX = GFX_portrait_africa_generic_operative_male_8
+		traits = { operative_commando operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ZAN }
+	}
 }
 
 set_politics = {
@@ -27,9 +34,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 22
-	fascism = 36
-	neutrality = 42
+	democratic = 21
+	fascism = 34
+	neutrality = 45
 }
 
 add_ideas = {
@@ -42,6 +49,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

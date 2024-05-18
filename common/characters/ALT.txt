@@ -1,6 +1,6 @@
 characters = {
-	ALT_50336486 = {
-		name = Carlos_Ezeta
+	ALT_83889415 = {
+		name = Sebastian_Barrios
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_South_America_Generic_2
@@ -11,36 +11,36 @@ characters = {
 			traits = {  }
 		}
 	}
-	ALT_16779546 = {
-		name = Jose_Maria_Menendez
+	ALT_50333305 = {
+		name = Jose_Maria_Escalon
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_16779546
+			idea_token = i_50333305
 			cost = 150
 		}
 	}
-	ALT_33556674 = {
-		name = Felipe_GU_ell
+	ALT_83890532 = {
+		name = Felix_Morazan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_33556674
+			idea_token = i_83890532
 			cost = 150
 		}
 	}
-	ALT_33556839 = {
-		name = Jose_Francisco_Fernandez
+	ALT_83892147 = {
+		name = Ramon_Rosales
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -49,98 +49,50 @@ characters = {
 		advisor = {
 			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_33556839
+			idea_token = i_83892147
 			cost = 150
 		}
 	}
-	ALT_33558733 = {
-		name = Julio_Ezeta
+	ALT_100669132 = {
+		name = Maximo_Escalon
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { fascist_demagogue }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_33558733
+			idea_token = i_100669132
 			cost = 150
 		}
 	}
-	ALT_33559813 = {
-		name = Julio_Escalon
+	ALT_117441003 = {
+		name = Prospero_2_Regalado
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_33559813
+			idea_token = i_117441003
 			cost = 150
 		}
 	}
-	ALT_50333365 = {
-		name = Eduardo_Morazan
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_1
-				small = GFX_Portrait_South_America_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	ALT_50334753 = {
-		name = Prospero_2_Menendez
+	ALT_184549398 = {
+		name = Carlos_Escalon
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_50334753
+			idea_token = i_184549398
 			cost = 150
-		}
-	}
-	ALT_67109150 = {
-		name = Arturo_Araujo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_67109150
-			cost = 150
-		}
-	}
-	ALT_67111839 = {
-		name = Tomas_Figueroa
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_1
-				small = GFX_Portrait_South_America_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
 		}
 	}
 }

@@ -1,22 +1,30 @@
-capital = 260
+capital = 730
 
 oob = "FIN_1936"
 set_research_slots = 3
-set_convoys = 12
+set_convoys = 6
 
-recruit_character = FIN_67111686
-recruit_character = FIN_16779550
-recruit_character = FIN_16779554
+recruit_character = FIN_134219117
+recruit_character = FIN_16784018
 recruit_character = FIN_33556043
-recruit_character = FIN_33557618
-recruit_character = FIN_33558095
-recruit_character = FIN_33559342
-recruit_character = FIN_50331882
-recruit_character = FIN_50334641
-recruit_character = FIN_67113648
-recruit_character = FIN_100663593
+recruit_character = FIN_50338199
+recruit_character = FIN_67111990
+recruit_character = FIN_83887629
+recruit_character = FIN_83888336
+recruit_character = FIN_83888442
+recruit_character = FIN_83889054
+recruit_character = FIN_100665973
+recruit_character = FIN_100669263
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Paavo_Walden
+		GFX = GFX_portrait_europe_generic_operative_male_16
+		traits = { operative_demolition_expert operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { FIN }
+	}
 }
 
 set_politics = {
@@ -27,14 +35,14 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 23
-	fascism = 34
-	neutrality = 43
+	communism = 25
+	democratic = 70
+	fascism = 4
+	neutrality = 1
 }
 
 add_ideas = {
-	FIN_Vilho_Berbom
+	FIN_Edvard_Berbom
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -44,8 +52,13 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -66,9 +79,13 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -88,6 +105,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -148,6 +166,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = FIN_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

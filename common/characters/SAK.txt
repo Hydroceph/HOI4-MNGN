@@ -1,6 +1,6 @@
 characters = {
-	SAK_3058 = {
-		name = Kassim_Abdul_Jalil_Syaifuddin
+	SAK_67112485 = {
+		name = Yusuf_Abdul_Jalil_Syaifuddin
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,98 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	SAK_33556208 = {
-		name = Riayat_Bendahara
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_33556208
-			cost = 150
-		}
-	}
-	SAK_33556267 = {
-		name = Jalil_Raja_Inu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_33556267
-			cost = 150
-		}
-	}
-	SAK_33557013 = {
-		name = Idris_Jamalullail
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	SAK_33560460 = {
-		name = Tuanku_Raja_Ahmad
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { engineer_officer old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	SAK_50332467 = {
-		name = Isandar_al-Khairat
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_50332467
-			cost = 150
-		}
-	}
-	SAK_50333784 = {
-		name = Jaafar_Raja_Ahmad
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_50333784
-			cost = 150
-		}
-	}
-	SAK_50335753 = {
-		name = Al-Mukammal_al-Marhum
+	SAK_50335691 = {
+		name = Tuanku_Abdul_Jalil_Syaifuddin
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -111,12 +21,54 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_50335753
+			idea_token = i_50335691
 			cost = 150
 		}
 	}
-	SAK_50336450 = {
-		name = Jaafar_bin_Nik
+	SAK_67109723 = {
+		name = Riayat_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67109723
+			cost = 150
+		}
+	}
+	SAK_83886136 = {
+		name = Muabidin_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83886136
+			cost = 150
+		}
+	}
+	SAK_83889864 = {
+		name = Aziz_Raja_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_83889864
+			cost = 150
+		}
+	}
+	SAK_100664400 = {
+		name = Muabidin_Raja_Ahmad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -125,11 +77,25 @@ characters = {
 		advisor = {
 			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50336450
+			idea_token = i_100664400
 			cost = 150
 		}
 	}
-	SAK_67110256 = {
+	SAK_117442979 = {
+		name = Yusuf_Aadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117442979
+			cost = 150
+		}
+	}
+	SAK_117444322 = {
 		name = Isandar_Bendahara
 		portraits = {
 			civilian = {
@@ -139,29 +105,21 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_67110256
+			idea_token = i_117444322
 			cost = 150
 		}
 	}
-	SAK_67112485 = {
-		name = Yusuf_Abdul_Jalil_Syaifuddin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SAK_117442530 = {
-		name = Idris_bin_Nik
+	SAK_167777769 = {
+		name = Riayat_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_117442530
+			idea_token = i_167777769
 			cost = 150
 		}
 	}

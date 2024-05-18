@@ -1,20 +1,17 @@
-capital = 842
 
 oob = "SLK_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = SLK_16777320
 recruit_character = SLK_16778771
-recruit_character = SLK_16778846
-recruit_character = SLK_33556916
-recruit_character = SLK_33559659
-recruit_character = SLK_50331797
-recruit_character = SLK_50332585
-recruit_character = SLK_50332636
-recruit_character = SLK_83886682
-recruit_character = SLK_83887239
-recruit_character = SLK_83891920
+recruit_character = SLK_16780081
+recruit_character = SLK_33556310
+recruit_character = SLK_33559290
+recruit_character = SLK_67113892
+recruit_character = SLK_83889204
+recruit_character = SLK_83891001
+recruit_character = SLK_134218726
+recruit_character = SLK_150998053
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -28,9 +25,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 10
+	democratic = 19
 	fascism = 37
-	neutrality = 53
+	neutrality = 44
 }
 
 add_ideas = {

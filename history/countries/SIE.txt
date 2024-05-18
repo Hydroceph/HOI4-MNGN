@@ -1,22 +1,35 @@
-capital = 193
+capital = 149
 
 oob = "SIE_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = SIE_16777959
-recruit_character = SIE_16782406
-recruit_character = SIE_33554487
-recruit_character = SIE_33559593
-recruit_character = SIE_50331984
-recruit_character = SIE_50332016
-recruit_character = SIE_50334397
-recruit_character = SIE_50334682
-recruit_character = SIE_50334720
-recruit_character = SIE_50337216
-recruit_character = SIE_67112529
+recruit_character = SIE_0
+recruit_character = SIE_50333794
+recruit_character = SIE_50335320
+recruit_character = SIE_83890204
+recruit_character = SIE_83890252
+recruit_character = SIE_83892516
+recruit_character = SIE_117441382
+recruit_character = SIE_117444889
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = George_Shadd
+		GFX = GFX_portrait_africa_generic_operative_male_9
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIE }
+	}
+	create_operative_leader = {
+		name = Cyril_Findley
+		GFX = GFX_portrait_africa_generic_operative_male_8
+		traits = { operative_infiltrator operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIE }
+	}
 }
 
 ENG = {
@@ -43,9 +56,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 16
+	democratic = 23
 	fascism = 34
-	neutrality = 50
+	neutrality = 43
 }
 
 add_ideas = {
@@ -58,6 +71,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

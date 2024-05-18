@@ -1,25 +1,26 @@
-capital = 164
+capital = 343
 
 oob = "SIN_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = SIN_16777899
-recruit_character = SIN_16782168
-recruit_character = SIN_33557901
-recruit_character = SIN_33558222
-recruit_character = SIN_33558720
-recruit_character = SIN_50332755
-recruit_character = SIN_67108940
-recruit_character = SIN_67109159
-recruit_character = SIN_67109298
-recruit_character = SIN_67110106
-recruit_character = SIN_67111033
-recruit_character = SIN_67114566
-recruit_character = SIN_100666048
-recruit_character = SIN_117443676
+recruit_character = SIN_83886261
+recruit_character = SIN_50335414
+recruit_character = SIN_83887244
+recruit_character = SIN_100667198
+recruit_character = SIN_134219814
+recruit_character = SIN_150996231
+recruit_character = SIN_167776060
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Karim_Sarki
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_linguist operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIN }
+	}
 }
 
 set_politics = {
@@ -46,6 +47,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

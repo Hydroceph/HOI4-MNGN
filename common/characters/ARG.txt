@@ -1,9 +1,9 @@
 characters = {
-	ARG_16780680 = {
-		name = Esteban_de_Santa_Coloma
+	ARG_50335409 = {
+		name = Emilio_Rodriguez
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_8
+				large = GFX_Portrait_Europe_Generic_3
 			}
 		}
 		country_leader = {
@@ -11,73 +11,39 @@ characters = {
 			traits = {  }
 		}
 	}
-	ARG_16778907 = {
-		name = Domingo_Bustillo
+	ARG_33558369 = {
+		name = Juan_Rocha
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_16778907
+			idea_token = i_33558369
 			cost = 150
 		}
 	}
-	ARG_16779448 = {
-		name = Horatio_Saforcada
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_5
-				small = GFX_portrait_europe_generic_navy_5_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 2
-		}
-	}
-	ARG_16780240 = {
-		name = Sixto_TorromE_
+	ARG_50334478 = {
+		name = Roque_de_Irigoyen
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_3
 				small = GFX_Portrait_South_America_Generic_land_3_small
 			}
 		}
-		corps_commander = {
-			traits = { ranger trait_reckless }
+		field_marshal = {
+			traits = { cavalry_officer naval_invader trait_mountaineer }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 1
+			logistics_skill = 3
 		}
 	}
-	ARG_33555799 = {
-		name = Eugenio_2_de_la_Quintanilla
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer career_officer desert_fox }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	ARG_33556315 = {
-		name = Ergasto_Cabrera
+	ARG_50338477 = {
+		name = Rodolfo_Sierra
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_1
@@ -85,58 +51,143 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { cavalry_officer commando }
-			skill = 2
-			attack_skill = 3
+			traits = { armor_officer infantry_officer }
+			skill = 3
+			attack_skill = 5
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 3
 			logistics_skill = 2
 		}
 	}
-	ARG_33557241 = {
-		name = Alberto_Ozamis
+	ARG_67110290 = {
+		name = Tiburcio_Bustillo
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
 			}
 		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ARG_67112036 = {
+		name = Horatio_BA_ez
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	ARG_67112272 = {
+		name = Narcisco_Lencinas
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer commando inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ARG_83887766 = {
+		name = Gregorio_Benegas
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { mass_assault_expert }
 			slot = political_advisor
-			idea_token = i_33557241
+			idea_token = i_83887766
 			cost = 150
 		}
 	}
-	ARG_33560299 = {
-		name = Lorenzo_Casanovas
+	ARG_83891507 = {
+		name = Rudecindo_Aldao
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
 			}
 		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_33560299
-			cost = 150
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
-	ARG_50335061 = {
-		name = Faustino_Alvarez
+	ARG_83891707 = {
+		name = Juan_Alsina
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
 			}
 		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_50335061
-			cost = 150
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
-	ARG_67110829 = {
-		name = Vicente_Villanueva
+	ARG_100665853 = {
+		name = Marcos_Rojo
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ARG_100666810 = {
+		name = Nicolas_2_Anzorena
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -145,52 +196,108 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_67110829
+			idea_token = i_100666810
 			cost = 150
 		}
 	}
-	ARG_67114800 = {
-		name = Faustino_Rodriguez
+	ARG_100668320 = {
+		name = Bautista_Benegas
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_67114800
+			idea_token = i_100668320
 			cost = 150
 		}
 	}
-	ARG_83886190 = {
-		name = Luis_Belgrano
+	ARG_117441699 = {
+		name = Fernando_Victorica
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117441699
+			cost = 150
+		}
+	}
+	ARG_134218887 = {
+		name = Rodrigo_Ferreyra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_134218887
+			cost = 150
+		}
+	}
+	ARG_150998390 = {
+		name = Felix_Llavallol
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer cavalry_officer inflexible_strategist organizer }
-			skill = 3
-			attack_skill = 2
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
 		}
 	}
-	ARG_117444043 = {
-		name = Oseas_Diaz
+	ARG_167774549 = {
+		name = Fernando_Cascallares
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
 			}
 		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ARG_167774800 = {
+		name = Wenceslao_Rojo
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_117444043
+			idea_token = i_167774800
 			cost = 150
 		}
 	}

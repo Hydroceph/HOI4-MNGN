@@ -1,6 +1,6 @@
 characters = {
-	KUT_2902 = {
-		name = Deshalji_Jadeja
+	KUT_50338040 = {
+		name = Maniraj_Jadeja
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,151 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	KUT_16782977 = {
-		name = Manubhai_Mangeshkar
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer politically_connected }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { grand_battle_plan_expert }
-			slot = political_advisor
-			idea_token = i_16782977
-			cost = 150
-		}
-	}
-	KUT_16783497 = {
-		name = Curumsey_Mangeshkar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { popular_figurehead }
-			slot = political_advisor
-			idea_token = i_16783497
-			cost = 150
-		}
-	}
-	KUT_33555255 = {
-		name = Bharatsingh_Jadeja
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_33555255
-			cost = 150
-		}
-	}
-	KUT_50332145 = {
-		name = Chabildas_Pansara
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50332145
-			cost = 150
-		}
-	}
-	KUT_50332897 = {
-		name = Curumsey_Parmar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50332897
-			cost = 150
-		}
-	}
-	KUT_50334405 = {
-		name = Chetan_Ambani
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_50334405
-			cost = 150
-		}
-	}
-	KUT_67108869 = {
-		name = Madhavsingh_Chaudhari
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_67108869
-			cost = 150
-		}
-	}
-	KUT_67111378 = {
-		name = Jivraj_Modhvadia
-		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	KUT_67111618 = {
-		name = Balwantry_Baro
-		portraits = {
-			navy = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 2
-		}
-	}
-	KUT_67112029 = {
-		name = Bharatsingh_Pansara
+	KUT_67109198 = {
+		name = Khemchand_Chaudhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -164,21 +21,105 @@ characters = {
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_67112029
+			idea_token = i_67109198
 			cost = 150
 		}
 	}
-	KUT_67112929 = {
-		name = Balwantry_Mangeshkar
+	KUT_83888046 = {
+		name = Jivraj_Mangeshkar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_67112929
+			idea_token = i_83888046
+			cost = 150
+		}
+	}
+	KUT_100664358 = {
+		name = Curumsey_Pansara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_100664358
+			cost = 150
+		}
+	}
+	KUT_100666987 = {
+		name = Manubhai_Solanki
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100666987
+			cost = 150
+		}
+	}
+	KUT_100667459 = {
+		name = Maniraj_Pansara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100667459
+			cost = 150
+		}
+	}
+	KUT_134220409 = {
+		name = Balwantry_Chaudhari
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_134220409
+			cost = 150
+		}
+	}
+	KUT_150996113 = {
+		name = Khemchand_Vaghela
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_150996113
+			cost = 150
+		}
+	}
+	KUT_167775493 = {
+		name = Madhavsingh_Mehta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_167775493
 			cost = 150
 		}
 	}

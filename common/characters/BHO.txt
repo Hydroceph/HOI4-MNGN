@@ -1,46 +1,46 @@
 characters = {
-	BHO_2697 = {
-		name = Jahangir_Mohammad_Orakzai
+	BHO_16780074 = {
+		name = Shahuji_Orakzai
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	BHO_16779073 = {
-		name = Narayan_Appa_Sahib
+	BHO_67109231 = {
+		name = Bajirao_Orakzai
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_16779073
+			idea_token = i_67109231
 			cost = 150
 		}
 	}
-	BHO_16780074 = {
-		name = Shahuji_Orakzai
+	BHO_67109811 = {
+		name = Raghunath_Mohite
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_16780074
+			idea_token = i_67109811
 			cost = 150
 		}
 	}
-	BHO_16780847 = {
-		name = Rajaram_Mehere
+	BHO_83887322 = {
+		name = Rajaram_Mohite
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -49,130 +49,77 @@ characters = {
 		advisor = {
 			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_16780847
+			idea_token = i_83887322
 			cost = 150
 		}
 	}
-	BHO_33556113 = {
-		name = Narayan_Bowa_Sahib
+	BHO_100665414 = {
+		name = Venkatji_Narayan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_33556113
+			idea_token = i_100665414
 			cost = 150
 		}
 	}
-	BHO_33558692 = {
-		name = Venkatji_Appa_Sahib
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_33558692
-			cost = 150
-		}
-	}
-	BHO_33559387 = {
-		name = Shahuji_Kalash
-		portraits = {
-			army = {
-				large = GFX_idea_unknown
-				small = GFX_idea_unknown_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { military_theorist }
-			slot = political_advisor
-			idea_token = i_33559387
-			cost = 150
-		}
-	}
-	BHO_50336953 = {
-		name = Shivaji_Bhave
+	BHO_117440881 = {
+		name = Raghunath_Bowa_Sahib
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_50336953
+			idea_token = i_117440881
 			cost = 150
 		}
 	}
-	BHO_67109731 = {
-		name = Shahuji_Baji_Rao
-		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
-		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	BHO_67110110 = {
-		name = Shambhaji_Patwardhan
+	BHO_117441304 = {
+		name = Venkatji_Phadnis
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { technocrat }
 			slot = political_advisor
-			idea_token = i_67110110
+			idea_token = i_117441304
 			cost = 150
 		}
 	}
-	BHO_83887117 = {
-		name = Rajaram_Rao
+	BHO_134217968 = {
+		name = Shambhaji_Gaekwad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_83887117
+			idea_token = i_134217968
+			cost = 150
+		}
+	}
+	BHO_151001066 = {
+		name = Narayan_Pawar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_151001066
 			cost = 150
 		}
 	}

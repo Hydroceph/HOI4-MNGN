@@ -1,38 +1,20 @@
-capital = 291
 
 oob = "TRN_1936"
 set_research_slots = 3
 set_convoys = 0
 
-recruit_character = TRN_33556913
-recruit_character = TRN_16778412
-recruit_character = TRN_16783689
-recruit_character = TRN_33556281
-recruit_character = TRN_33558196
-recruit_character = TRN_33561114
-recruit_character = TRN_50334464
-recruit_character = TRN_50334469
-recruit_character = TRN_67110868
 recruit_character = TRN_67111360
-recruit_character = TRN_83886796
+recruit_character = TRN_50338031
+recruit_character = TRN_83886820
+recruit_character = TRN_83887561
+recruit_character = TRN_83889847
+recruit_character = TRN_83889924
+recruit_character = TRN_100663300
+recruit_character = TRN_100663404
+recruit_character = TRN_100667195
+recruit_character = TRN_201331159
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Danie_Pienaar
-		GFX = GFX_portrait_europe_generic_operative_male_19
-		traits = { operative_linguist operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { TRN }
-	}
-	create_operative_leader = {
-		name = Drikus_du_Preez
-		GFX = GFX_portrait_europe_generic_operative_male_2
-		traits = { operative_natural_orator operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { TRN }
-	}
 }
 
 set_politics = {
@@ -44,13 +26,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 16
-	fascism = 35
-	neutrality = 49
+	democratic = 22
+	fascism = 33
+	neutrality = 45
 }
 
 add_ideas = {
-	TRN_Sarel_Retief
+	TRN_Charl_Retief
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -60,6 +42,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

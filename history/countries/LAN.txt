@@ -1,32 +1,22 @@
-capital = 439
 
 oob = "LAN_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = LAN_67112492
-recruit_character = LAN_16783904
-recruit_character = LAN_33556064
-recruit_character = LAN_50334883
-recruit_character = LAN_50338242
-recruit_character = LAN_67110455
-recruit_character = LAN_67110930
-recruit_character = LAN_67114677
-recruit_character = LAN_100663929
+recruit_character = LAN_67115634
+recruit_character = LAN_50334022
+recruit_character = LAN_83889159
+recruit_character = LAN_83889437
+recruit_character = LAN_134218080
+recruit_character = LAN_150996894
+recruit_character = LAN_184550651
+recruit_character = LAN_184551755
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Qiu_Fengjia
+		name = Qiu_Zicai
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_commando }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { LAN }
-	}
-	create_operative_leader = {
-		name = Liu_Zicai
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_linguist }
+		traits = { operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { LAN }
@@ -57,9 +47,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 49
-	fascism = 28
-	neutrality = 23
+	democratic = 41
+	fascism = 30
+	neutrality = 29
 }
 
 add_ideas = {
@@ -72,6 +62,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

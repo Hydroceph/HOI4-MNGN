@@ -1,5 +1,5 @@
 characters = {
-	MOR_67113598 = {
+	MOR_50336114 = {
 		name = Yahya_al-Alawi
 		portraits = {
 			civilian = {
@@ -11,89 +11,33 @@ characters = {
 			traits = {  }
 		}
 	}
-	MOR_16779769 = {
-		name = Mustafa_al-Jazuli
+	MOR_33555897 = {
+		name = Muhammad_Al-Khattabi
 		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
+			navy = {
+				large = GFX_Portrait_Arabia_Generic_navy_1
+				small = GFX_Portrait_Arabia_Generic_navy_1_small
+			}
+			civilian = {
 			}
 		}
-		corps_commander = {
-			traits = { cavalry_officer commando infantry_officer }
-			skill = 2
+		navy_leader = {
+			traits = { aviation_enthusiast gunnery_expert superior_tactician }
+			skill = 4
 			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	MOR_16780764 = {
-		name = Muhammad_el_Krim
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { career_officer old_guard organizer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 5
 		}
 		advisor = {
-			traits = { agricultural_capitalist }
+			traits = { naval_theorist }
 			slot = political_advisor
-			idea_token = i_16780764
+			idea_token = i_33555897
 			cost = 150
 		}
 	}
-	MOR_16780766 = {
-		name = Hasan_Benaissa
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		field_marshal = {
-			traits = { commando logistics_wizard organizer trait_cautious }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 5
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_16780766
-			cost = 150
-		}
-	}
-	MOR_33556081 = {
-		name = Khalid_Imalayen
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_33556081
-			cost = 150
-		}
-	}
-	MOR_33556235 = {
-		name = Mustafa_al-Alawi
+	MOR_67113100 = {
+		name = Salim_al-Gharyani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -102,33 +46,16 @@ characters = {
 		advisor = {
 			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_33556235
+			idea_token = i_67113100
 			cost = 150
 		}
 	}
-	MOR_33556326 = {
-		name = Mustafa_Al-Khattabi
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Arabia_Generic_navy_2
-				small = GFX_Portrait_Arabia_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { gunnery_expert old_guard_navy superior_tactician }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 5
-			maneuvering_skill = 1
-			coordination_skill = 5
-		}
-	}
-	MOR_33556460 = {
-		name = Ishaq_El_Djezairi
+	MOR_83887991 = {
+		name = Shukri_El_Djezairi
 		portraits = {
 			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
 			}
 		}
 		corps_commander = {
@@ -140,21 +67,35 @@ characters = {
 			logistics_skill = 3
 		}
 	}
-	MOR_33557000 = {
-		name = Muhammad_Imalayen
+	MOR_83888300 = {
+		name = Ahmed_Tisbaa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33557000
+			idea_token = i_83888300
 			cost = 150
 		}
 	}
-	MOR_50332110 = {
+	MOR_83892806 = {
+		name = Ahmed_Tanut
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_83892806
+			cost = 150
+		}
+	}
+	MOR_100665883 = {
 		name = Ahmed_al-Sahrawi
 		portraits = {
 			civilian = {
@@ -162,53 +103,81 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { fascist_demagogue }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50332110
+			idea_token = i_100665883
 			cost = 150
 		}
 	}
-	MOR_50334248 = {
-		name = Khalid_al-Jazuli
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334248
-			cost = 150
-		}
-	}
-	MOR_50336114 = {
-		name = Yahya_al-Alawi
+	MOR_100666701 = {
+		name = Halil_al-Alawi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 	}
-	MOR_50337831 = {
-		name = Jamal_Benaissa
+	MOR_117442159 = {
+		name = Mustafa_Al-Khattabi
 		portraits = {
 			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
+				large = GFX_Portrait_Arabia_Generic_land_1
+				small = GFX_Portrait_Arabia_Generic_land_1_small
 			}
 		}
 		corps_commander = {
-			traits = { organizer trait_reckless }
+			traits = { armor_officer organizer ranger }
 			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	MOR_83889529 = {
-		name = Mustafa_al-Zanatawi
+	MOR_117442875 = {
+		name = Abd_al-Karim_Messaoudi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+			civilian = {
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer infantry_officer inflexible_strategist offensive_doctrine }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_117442875
+			cost = 150
+		}
+	}
+	MOR_134218669 = {
+		name = Khalid_ben_Gana
+		portraits = {
+			army = {
+				large = GFX_Portrait_Arabia_Generic_land_3
+				small = GFX_Portrait_Arabia_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	MOR_134224285 = {
+		name = Abd_al-Karim_Al-Khattabi
 		portraits = {
 			army = {
 				large = GFX_Portrait_Arabia_Generic_land_2
@@ -221,14 +190,28 @@ characters = {
 			traits = { infantry_officer organizer }
 			skill = 2
 			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 		advisor = {
-			traits = { grand_battle_plan_expert }
+			traits = { mastermind_code_cracker }
 			slot = political_advisor
-			idea_token = i_83889529
+			idea_token = i_134224285
+			cost = 150
+		}
+	}
+	MOR_184550353 = {
+		name = Ahmed_Messaoudi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_184550353
 			cost = 150
 		}
 	}

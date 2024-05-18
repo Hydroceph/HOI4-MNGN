@@ -1,9 +1,9 @@
 characters = {
-	MOD_2937 = {
-		name = Francesco_d_Austria-Este
+	MOD_83888467 = {
+		name = Scipione_Acton
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_portrait_europe_generic_5
 			}
 		}
 		country_leader = {
@@ -11,84 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	MOD_16778962 = {
-		name = Serafino_Odescalchi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_4
-				small = GFX_Portrait_Italy_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	MOD_16783273 = {
-		name = Gennaro_de_Foresta
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_5
-				small = GFX_Portrait_Italy_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer engineer_officer organizer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	MOD_33556956 = {
-		name = Faustino_Cavallini
+	MOD_50332983 = {
+		name = Vincenzo_di_Savoia
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
-			idea_token = i_33556956
+			idea_token = i_50332983
 			cost = 150
 		}
 	}
-	MOD_33557080 = {
-		name = Sebastiano_Ferraciu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33557080
-			cost = 150
-		}
-	}
-	MOD_33561207 = {
-		name = Silvio_di_Boglio
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_33561207
-			cost = 150
-		}
-	}
-	MOD_50332184 = {
-		name = Agostino_Sacchi
+	MOD_67110891 = {
+		name = Fiorenzo_Genina
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -97,37 +35,62 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50332184
+			idea_token = i_67110891
 			cost = 150
 		}
 	}
-	MOD_50332419 = {
-		name = Paolo_Thaon_di_Revel
+	MOD_100667007 = {
+		name = Antonio_Sacchetti
 		portraits = {
-			navy = {
-				large = GFX_Portrait_Italy_Generic_navy_3
-				small = GFX_Portrait_Italy_Generic_navy_3_small
-			}
 			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		navy_leader = {
-			traits = { chief_engineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100667007
+			cost = 150
+		}
+	}
+	MOD_117442693 = {
+		name = Domenico_Bo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
 		}
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50332419
+			idea_token = i_117442693
 			cost = 150
 		}
 	}
-	MOD_50332920 = {
-		name = Scipione_d_Austria-Este
+	MOD_117444378 = {
+		name = Girolamo_Mozzoni
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_117444378
+			cost = 150
+		}
+	}
+	MOD_117444936 = {
+		name = Massimo_d_Austria-Este
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	MOD_134217782 = {
+		name = Vittorio_d_Austria-Este
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -136,35 +99,21 @@ characters = {
 		advisor = {
 			traits = { education_reformer }
 			slot = political_advisor
-			idea_token = i_50332920
+			idea_token = i_134217782
 			cost = 150
 		}
 	}
-	MOD_67109418 = {
-		name = Andrea_Boyl_di_Putifigari
+	MOD_251658261 = {
+		name = Urbano_Avogadro_della_Motta
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_67109418
-			cost = 150
-		}
-	}
-	MOD_83888331 = {
-		name = Silvio_di_Calabiana
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_83888331
+			idea_token = i_251658261
 			cost = 150
 		}
 	}

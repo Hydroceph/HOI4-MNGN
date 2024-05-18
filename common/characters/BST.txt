@@ -1,0 +1,126 @@
+characters = {
+	BST_1003 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  }
+		}
+	}
+	BST_33557185 = {
+		name = Dakarai_Mamohato
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33557185
+			cost = 150
+		}
+	}
+	BST_83886361 = {
+		name = Kamwimbile_Moerane
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_83886361
+			cost = 150
+		}
+	}
+	BST_83886785 = {
+		name = Kamwimbile_Matsaba
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83886785
+			cost = 150
+		}
+	}
+	BST_100665253 = {
+		name = Andikan_Bamokoteli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100665253
+			cost = 150
+		}
+	}
+	BST_100665893 = {
+		name = Letsie_Bamokoteli
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100665893
+			cost = 150
+		}
+	}
+	BST_100666393 = {
+		name = Averey_Moshoeshoe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100666393
+			cost = 150
+		}
+	}
+	BST_100669661 = {
+		name = Kasim_Masupha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_100669661
+			cost = 150
+		}
+	}
+	BST_150995749 = {
+		name = Ife_Masopha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150995749
+			cost = 150
+		}
+	}
+}

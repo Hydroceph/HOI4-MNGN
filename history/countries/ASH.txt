@@ -1,23 +1,36 @@
-capital = 340
+capital = 279
 
 oob = "ASH_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = ASH_6482
-recruit_character = ASH_16779030
-recruit_character = ASH_16780163
-recruit_character = ASH_16781378
-recruit_character = ASH_16783883
 recruit_character = ASH_16783930
-recruit_character = ASH_33556385
-recruit_character = ASH_33556402
-recruit_character = ASH_33557995
-recruit_character = ASH_50337490
-recruit_character = ASH_67109492
-recruit_character = ASH_67109882
+recruit_character = ASH_67111854
+recruit_character = ASH_67112652
+recruit_character = ASH_83887955
+recruit_character = ASH_134220892
+recruit_character = ASH_134222912
+recruit_character = ASH_150996769
+recruit_character = ASH_184550127
+recruit_character = ASH_184555875
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Onsei_Bonsu
+		GFX = GFX_portrait_africa_generic_operative_male_6
+		traits = { operative_linguist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ASH }
+	}
+	create_operative_leader = {
+		name = Onsei_Prempeh
+		GFX = GFX_portrait_africa_generic_operative_male_2
+		traits = { operative_natural_orator operative_tough }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ASH }
+	}
 }
 
 set_politics = {

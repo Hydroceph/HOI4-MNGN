@@ -1,6 +1,6 @@
 characters = {
-	KOR_2893 = {
-		name = Hwan_Yi
+	KOR_50335607 = {
+		name = San_Yi
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,120 +11,120 @@ characters = {
 			traits = {  }
 		}
 	}
-	KOR_2894 = {
-		name = Byeon_Yi
+	KOR_33560104 = {
+		name = Sun-mok_Chang
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_asia_generic_land_5
+				small = GFX_Portrait_asia_generic_land_5_small
 			}
 		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_2894
-			cost = 150
+		field_marshal = {
+			traits = { engineer_officer harsh_leader politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
-	KOR_16778911 = {
-		name = Hong-jip_Choe
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_3
-				small = GFX_Portrait_Asia_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { naval_lineage }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	KOR_16780058 = {
-		name = Jin_Han
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_1
-				small = GFX_Portrait_Asia_Generic_navy_1_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer gentlemanly }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_16780058
-			cost = 150
-		}
-	}
-	KOR_16781258 = {
-		name = Heong-gyo_Hu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_16781258
-			cost = 150
-		}
-	}
-	KOR_16782877 = {
-		name = Jwa-geun_Namgung
+	KOR_67110327 = {
+		name = Sun-mok_Kim
 		portraits = {
 			army = {
 				large = GFX_Portrait_Asia_Generic_land_3
 				small = GFX_Portrait_Asia_Generic_land_3_small
 			}
-			civilian = {
-			}
 		}
-		field_marshal = {
-			traits = { armor_officer offensive_doctrine organizer thorough_planner }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 5
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
 			logistics_skill = 2
 		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_16782877
-			cost = 150
+	}
+	KOR_67111165 = {
+		name = Myeong-bok_Yi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
 		}
 	}
-	KOR_33557886 = {
-		name = Don-in_Gang
+	KOR_67115663 = {
+		name = Du-seon_Han
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Asia_Generic_navy_1
+				small = GFX_Portrait_Asia_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	KOR_83889297 = {
+		name = Sang-hwang_Shin
 		portraits = {
 			army = {
 				large = GFX_Portrait_Asia_Generic_land_2
 				small = GFX_Portrait_Asia_Generic_land_2_small
 			}
+			civilian = {
+			}
 		}
 		corps_commander = {
-			traits = { armor_officer harsh_leader }
+			traits = { desert_fox infantry_officer }
 			skill = 2
-			attack_skill = 3
+			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 2
+			planning_skill = 3
 			logistics_skill = 1
 		}
+		advisor = {
+			traits = { mass_assault_expert }
+			slot = political_advisor
+			idea_token = i_83889297
+			cost = 150
+		}
 	}
-	KOR_33559971 = {
-		name = Bang-bo_Han
+	KOR_83889861 = {
+		name = Mung-geun_Haung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83889861
+			cost = 150
+		}
+	}
+	KOR_83889905 = {
+		name = Yun_Seon
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_83889905
+			cost = 150
+		}
+	}
+	KOR_83892395 = {
+		name = Sun-mok_Choe
 		portraits = {
 			army = {
 				large = GFX_Portrait_Asia_Generic_land_1
@@ -132,16 +132,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { commando harsh_leader infantry_officer trait_cautious }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 4
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
-	KOR_33560104 = {
-		name = Sun-mok_Chang
+	KOR_100663715 = {
+		name = In-young_Song
 		portraits = {
 			army = {
 				large = GFX_Portrait_Asia_Generic_land_4
@@ -149,16 +149,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { engineer_officer harsh_leader }
+			traits = { cavalry_officer commando organizer }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 2
 		}
 	}
-	KOR_33560686 = {
-		name = Choi-ung_Han
+	KOR_100664440 = {
+		name = Bong-haek_Chung
 		portraits = {
 			army = {
 				large = GFX_Portrait_asia_generic_land_5
@@ -166,126 +166,81 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { harsh_leader infantry_officer ranger }
-			skill = 3
+			traits = { cavalry_officer desert_fox old_guard }
+			skill = 2
 			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	KOR_33561263 = {
-		name = Kyung-jae_Park
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_33561263
-			cost = 150
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
-	KOR_50331810 = {
-		name = Hong-jip_Bak
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	KOR_50332698 = {
-		name = Sang-hwang_Bak
+	KOR_100665439 = {
+		name = Mung-geun_Yong
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { silent_workhorse }
 			slot = political_advisor
-			idea_token = i_50332698
+			idea_token = i_100665439
 			cost = 150
 		}
 	}
-	KOR_50334243 = {
-		name = Du-seon_Na
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	KOR_67113869 = {
-		name = Yun_Yong
+	KOR_117444534 = {
+		name = Han_Bo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67113869
+			idea_token = i_117444534
 			cost = 150
 		}
 	}
-	KOR_83886503 = {
-		name = Mung-geun_Bo
+	KOR_117446927 = {
+		name = Byung-guk_Shin
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_83886503
+			idea_token = i_117446927
 			cost = 150
 		}
 	}
-	KOR_117442532 = {
-		name = Kyung-jae_Choe
+	KOR_134219215 = {
+		name = Sang-ok_Jip
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_117442532
+			idea_token = i_134219215
+			cost = 150
+		}
+	}
+	KOR_150997636 = {
+		name = Bang-bo_Jo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_150997636
 			cost = 150
 		}
 	}
