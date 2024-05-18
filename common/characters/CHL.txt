@@ -1,32 +1,133 @@
 characters = {
-	CHL_83888142 = {
-		name = Enrique_Rodriguez
+	CHL_1001 = {
+		name = The_Council
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_America_Generic_3
+				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = marxism
 			traits = {  }
 		}
 	}
-	CHL_16779545 = {
-		name = Eduardo_Ossa
+	CHL_50334515 = {
+		name = Francisco_Echaurren
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_16779545
+			idea_token = i_50334515
 			cost = 150
 		}
 	}
-	CHL_33557038 = {
-		name = Justo_Henriquez
+	CHL_67110573 = {
+		name = Agustin_Matta
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { democratic_crusader }
+			slot = political_advisor
+			idea_token = i_67110573
+			cost = 150
+		}
+	}
+	CHL_83889985 = {
+		name = Emilio_Alvarez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_83889985
+			cost = 150
+		}
+	}
+	CHL_83892270 = {
+		name = Angel_Benavides
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer craven }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	CHL_100664855 = {
+		name = Abraham_Bulnes
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100664855
+			cost = 150
+		}
+	}
+	CHL_100664917 = {
+		name = Leoncio_Bulnes
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	CHL_117443954 = {
+		name = Miguel_Gallo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_117443954
+			cost = 150
+		}
+	}
+	CHL_134222102 = {
+		name = Carlos_Vargas
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -35,122 +136,35 @@ characters = {
 		advisor = {
 			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_33557038
+			idea_token = i_134222102
 			cost = 150
 		}
 	}
-	CHL_33557768 = {
-		name = Nemesio_Valledor
+	CHL_150997259 = {
+		name = Bernardo_Lira
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_33557768
+			idea_token = i_150997259
 			cost = 150
 		}
 	}
-	CHL_33557819 = {
-		name = Eulogio_Usaveaga
+	CHL_150997373 = {
+		name = ArI_stides_Torres
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { editor }
 			slot = political_advisor
-			idea_token = i_33557819
-			cost = 150
-		}
-	}
-	CHL_33558670 = {
-		name = Gaspar_de_ValdE_s
-		portraits = {
-			navy = {
-				large = GFX_Portrait_South_America_Generic_navy_1
-				small = GFX_Portrait_South_America_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	CHL_33559547 = {
-		name = Rafael_Guzman
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_5
-				small = GFX_Portrait_South_America_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer desert_fox ranger }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	CHL_50332855 = {
-		name = Leoncio_ZumelzU_
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_3
-				small = GFX_Portrait_South_America_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_50332855
-			cost = 150
-		}
-	}
-	CHL_67112598 = {
-		name = Juan_Prieto
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_67112598
-			cost = 150
-		}
-	}
-	CHL_100669972 = {
-		name = Javier_OrtU_zar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_100669972
+			idea_token = i_150997373
 			cost = 150
 		}
 	}

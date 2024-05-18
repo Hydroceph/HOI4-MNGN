@@ -188,3 +188,26 @@ division_template = {
 	}
 	priority = 2
 }
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1427
+		division_template = "Light Infantry Division"
+		start_equipment_factor = 0
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1427
+		division_template = "Cavalry Division"
+		start_equipment_factor = 0
+		start_experience_factor = 0.2
+	}
+}

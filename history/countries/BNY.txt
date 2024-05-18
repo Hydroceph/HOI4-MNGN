@@ -1,22 +1,26 @@
-capital = 445
 
 oob = "BNY_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BNY_16778072
-recruit_character = BNY_16780353
-recruit_character = BNY_16783519
-recruit_character = BNY_16783707
-recruit_character = BNY_33555596
 recruit_character = BNY_33556536
-recruit_character = BNY_33557137
-recruit_character = BNY_33557163
-recruit_character = BNY_50333477
-recruit_character = BNY_50335133
-recruit_character = BNY_100665966
+recruit_character = BNY_100665026
+recruit_character = BNY_100665741
+recruit_character = BNY_100667043
+recruit_character = BNY_100668540
+recruit_character = BNY_117446822
+recruit_character = BNY_150995145
+recruit_character = BNY_150997913
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Semakookiro_Nseenene
+		GFX = GFX_portrait_africa_generic_operative_male_5
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BNY }
+	}
 }
 
 set_politics = {
@@ -28,9 +32,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
+	democratic = 15
 	fascism = 37
-	neutrality = 51
+	neutrality = 48
 }
 
 add_ideas = {

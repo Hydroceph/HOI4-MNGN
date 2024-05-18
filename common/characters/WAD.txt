@@ -11,126 +11,64 @@ characters = {
 			traits = {  }
 		}
 	}
-	WAD_16778695 = {
-		name = Bulad_Keira
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist old_guard }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 5
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	WAD_16778977 = {
-		name = Harun_Khalid
+	WAD_50335332 = {
+		name = Tunsam_Madyan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_backstabber }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_16778977
+			idea_token = i_50335332
 			cost = 150
 		}
 	}
-	WAD_33555439 = {
-		name = Abu_Ibrahim
+	WAD_50335773 = {
+		name = Zakaria_al-_Abbas
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_33555439
+			idea_token = i_50335773
 			cost = 150
 		}
 	}
-	WAD_33558612 = {
-		name = Zakaria_al-Mahdi
+	WAD_67111061 = {
+		name = Ahmad_Madyan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_33558612
+			idea_token = i_67111061
 			cost = 150
 		}
 	}
-	WAD_33560413 = {
-		name = Ahmad_Keira
+	WAD_83890987 = {
+		name = Bush_Keira
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_33560413
+			idea_token = i_83890987
 			cost = 150
 		}
 	}
-	WAD_50331769 = {
-		name = Umar_Lel_al-Mahdi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_3
-				small = GFX_Portrait_Africa_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	WAD_50335162 = {
-		name = Gibril_Keira
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_50335162
-			cost = 150
-		}
-	}
-	WAD_67111350 = {
-		name = Ali_Ibrahim
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_67111350
-			cost = 150
-		}
-	}
-	WAD_83889400 = {
-		name = Zakaria_Ibrahim
+	WAD_100666371 = {
+		name = Zakaria_Keira
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -139,12 +77,12 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_83889400
+			idea_token = i_100666371
 			cost = 150
 		}
 	}
-	WAD_100666853 = {
-		name = Abu_Bakri
+	WAD_117441216 = {
+		name = Jussuf_al-Mahdi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -153,7 +91,35 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_100666853
+			idea_token = i_117441216
+			cost = 150
+		}
+	}
+	WAD_134217764 = {
+		name = Zakaria_El-Fadl
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_134217764
+			cost = 150
+		}
+	}
+	WAD_134219905 = {
+		name = Bush_Khalid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134219905
 			cost = 150
 		}
 	}

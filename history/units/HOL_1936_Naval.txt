@@ -1,1 +1,39 @@
 # Naval OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 3211
+		task_force = {
+			name = "1. Fleet"
+			location = 3211
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4. Fleet"
+		naval_base = 3211
+		task_force = {
+			name = "4. Fleet"
+			location = 3211
+			ship = { name = "Destroyer 5" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 6" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 7" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 8" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3. Fleet"
+		naval_base = 3211
+		task_force = {
+			name = "3. Fleet"
+			location = 3211
+			ship = { name = "Destroyer 9" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 10" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 11" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 12" definition = destroyer equipment = { ship_hull_light_1 = {  amount = 1  owner = HOL  version_name = "Early Destroyer" } } }
+		}
+	}
+}

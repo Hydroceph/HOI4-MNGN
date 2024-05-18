@@ -1,7 +1,6 @@
 characters = {
-	POR_3023 = {
-		name = Maria_de_Braganca
-		gender = female
+	POR_50332676 = {
+		name = Pedro_de_Braganca
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -12,67 +11,78 @@ characters = {
 			traits = {  }
 		}
 	}
-	POR_16780305 = {
-		name = JoA_o_de_Braganca
+	POR_33560751 = {
+		name = Bernardo_da_Franca
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
 			}
 		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_16780305
-			cost = 150
-		}
-	}
-	POR_33554640 = {
-		name = Adriano_Correia_de_Sa
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader old_guard organizer }
+		navy_leader = {
+			traits = { naval_lineage }
 			skill = 2
 			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
 		}
 	}
-	POR_33556818 = {
-		name = Raul_da_Franca
+	POR_50332398 = {
+		name = Jorge_de_Braganca
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly seawolf }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+	POR_50338133 = {
+		name = Bernardo_Quintanilha
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_33556818
+			idea_token = i_50338133
 			cost = 150
 		}
 	}
-	POR_33558136 = {
-		name = Artur_Nunes
+	POR_67115167 = {
+		name = Teofilo_Salazar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_33558136
+			idea_token = i_67115167
 			cost = 150
 		}
 	}
-	POR_33560928 = {
-		name = Sebastiao_de_Albuquerque
+	POR_83886344 = {
+		name = Luis_2_de_Braganca
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	POR_83892054 = {
+		name = Roberto_Rebelo
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_1
@@ -80,89 +90,24 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer organizer }
+			traits = { career_officer desert_fox }
 			skill = 2
-			attack_skill = 1
+			attack_skill = 3
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
-	POR_33560965 = {
-		name = Andre_de_Caula
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_4
-				small = GFX_portrait_europe_generic_navy_4_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer gentlemanly }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	POR_50332088 = {
-		name = Leopoldo_Braga
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_50332088
-			cost = 150
-		}
-	}
-	POR_50332494 = {
-		name = Bernardo_Quintanilha
+	POR_83892403 = {
+		name = Rodrigo_de_Queiros
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_4
 				small = GFX_Portrait_Europe_Generic_land_4_small
 			}
 		}
-		corps_commander = {
-			traits = { commando }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	POR_50333351 = {
-		name = JoA_o_de_Carvalho
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_8
-				small = GFX_portrait_europe_generic_land_8_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	POR_67109162 = {
-		name = Eugenio_de_Paiva
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
-			}
-		}
 		field_marshal = {
-			traits = { desert_fox infantry_officer }
+			traits = { desert_fox organizer trait_cautious }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -170,84 +115,43 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	POR_67109779 = {
-		name = Alvaro_Silveira
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_67109779
-			cost = 150
-		}
-	}
-	POR_67110033 = {
-		name = Ignacio_2_de_Lacerda
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_67110033
-			cost = 150
-		}
-	}
-	POR_67110505 = {
-		name = Miguel_Vilela
+	POR_100664109 = {
+		name = Rui_dos_Anjos
 		portraits = {
 			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
 			}
 		}
 		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	POR_67111112 = {
-		name = Bartolomeu_da_Franca
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_5
-				small = GFX_portrait_europe_generic_navy_5_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer }
+			traits = { infantry_officer organizer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+			planning_skill = 1
+			logistics_skill = 5
+		}
+	}
+	POR_100665739 = {
+		name = Rodrigo_Freire_de_Andrade
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67111112
+			idea_token = i_100665739
 			cost = 150
 		}
 	}
-	POR_67112295 = {
-		name = Luis_2_Correia_de_Sa
+	POR_100667127 = {
+		name = Alberto_Machado
 		portraits = {
 			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-			civilian = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
 			}
 		}
 		navy_leader = {
@@ -258,32 +162,54 @@ characters = {
 			maneuvering_skill = 2
 			coordination_skill = 2
 		}
+	}
+	POR_100668369 = {
+		name = Fernando_Correia_de_Sa
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	POR_117440949 = {
+		name = Eugenio_dos_Anjos
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_67112295
+			idea_token = i_117440949
 			cost = 150
 		}
 	}
-	POR_83886394 = {
-		name = Damiao_de_Almada
+	POR_117441062 = {
+		name = Urbano_de_Braganca-Coburgo
 		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		navy_leader = {
-			traits = { battleship_adherent chief_engineer old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			maneuvering_skill = 2
-			coordination_skill = 1
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117441062
+			cost = 150
 		}
 	}
-	POR_83888503 = {
-		name = Bernardo_de_Queiros
+	POR_134218498 = {
+		name = Julio_2_Cabral
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -292,8 +218,70 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_83888503
+			idea_token = i_134218498
 			cost = 150
+		}
+	}
+	POR_134219752 = {
+		name = Oscar_2_Queiroz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_134219752
+			cost = 150
+		}
+	}
+	POR_134223252 = {
+		name = Orlando_da_Cunha
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	POR_167772663 = {
+		name = Eugenio_de_Queiros
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_167772663
+			cost = 150
+		}
+	}
+	POR_218104648 = {
+		name = Filipe_da_Silva_Pereira
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 }

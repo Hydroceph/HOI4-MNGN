@@ -1,28 +1,22 @@
-capital = 277
 
 oob = "SHW_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = SHW_3080
-recruit_character = SHW_16778890
-recruit_character = SHW_16783344
-recruit_character = SHW_33555089
-recruit_character = SHW_33557562
-recruit_character = SHW_33557637
-recruit_character = SHW_50337529
-recruit_character = SHW_67109040
-recruit_character = SHW_67113482
-recruit_character = SHW_83886406
-recruit_character = SHW_83886558
-recruit_character = SHW_100669675
 recruit_character = SHW_134217966
+recruit_character = SHW_50332065
+recruit_character = SHW_50337946
+recruit_character = SHW_83887694
+recruit_character = SHW_83888640
+recruit_character = SHW_117441308
+recruit_character = SHW_117441484
+recruit_character = SHW_134220268
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ahmad_Makonnen
-		GFX = GFX_portrait_africa_generic_operative_male_4
-		traits = { operative_natural_orator operative_well_groomed }
+		name = Heile_Dacche
+		GFX = GFX_portrait_africa_generic_operative_male_3
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { SHW }
@@ -38,9 +32,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 37
-	neutrality = 52
+	democratic = 12
+	fascism = 38
+	neutrality = 50
 }
 
 add_ideas = {

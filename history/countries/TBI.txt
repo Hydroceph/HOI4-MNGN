@@ -1,20 +1,18 @@
-capital = 732
+capital = 684
 
 oob = "TBI_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = TBI_16778163
-recruit_character = TBI_16778829
-recruit_character = TBI_33555214
-recruit_character = TBI_33556943
-recruit_character = TBI_33557904
-recruit_character = TBI_50332474
-recruit_character = TBI_50332820
-recruit_character = TBI_50333372
-recruit_character = TBI_50334756
 recruit_character = TBI_67109053
-recruit_character = TBI_67113373
+recruit_character = TBI_50333323
+recruit_character = TBI_50336138
+recruit_character = TBI_67112603
+recruit_character = TBI_67113249
+recruit_character = TBI_100663771
+recruit_character = TBI_117441125
+recruit_character = TBI_134218384
+recruit_character = TBI_134218764
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -29,8 +27,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 10
-	fascism = 37
-	neutrality = 53
+	fascism = 36
+	neutrality = 54
 }
 
 add_ideas = {

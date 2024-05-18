@@ -1,31 +1,19 @@
-capital = 418
 
 oob = "BOR_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BOR_16779918
-recruit_character = BOR_33555696
-recruit_character = BOR_33556449
-recruit_character = BOR_33560106
-recruit_character = BOR_50332569
 recruit_character = BOR_50333034
-recruit_character = BOR_67109809
-recruit_character = BOR_67111320
-recruit_character = BOR_67114281
-recruit_character = BOR_67115141
-recruit_character = BOR_67115285
-recruit_character = BOR_83886876
+recruit_character = BOR_67111929
+recruit_character = BOR_83891680
+recruit_character = BOR_117441056
+recruit_character = BOR_117443278
+recruit_character = BOR_134221470
+recruit_character = BOR_134224252
+recruit_character = BOR_184549612
+recruit_character = BOR_201329139
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Ibrahim_Dipcharima
-		GFX = GFX_portrait_africa_generic_operative_male_5
-		traits = { operative_linguist operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { BOR }
-	}
 }
 
 set_politics = {

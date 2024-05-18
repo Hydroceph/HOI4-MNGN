@@ -1,162 +1,97 @@
 characters = {
-	Z08_33557902 = {
-		name = Frederic_Wilson-Patten
+	Z08_83890300 = {
+		name = Ernst_Rinck_von_Baldenstein
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_europe_generic_7
+				large = GFX_portrait_europe_generic_6
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = centrism
 			traits = {  }
 		}
 	}
-	Z08_16778698 = {
-		name = Bertrand_Darter
+	Z08_67110468 = {
+		name = Johann_von_Boyen
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_16778698
+			idea_token = i_67110468
 			cost = 150
 		}
 	}
-	Z08_16783656 = {
-		name = Windham_Deas
+	Z08_67112136 = {
+		name = Alexander_Broix
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_16783656
+			idea_token = i_67112136
 			cost = 150
 		}
 	}
-	Z08_16783971 = {
-		name = Matthew_Brightwen
+	Z08_67112503 = {
+		name = Anton_Mack
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_16783971
+			idea_token = i_67112503
 			cost = 150
 		}
 	}
-	Z08_33557919 = {
-		name = Gipps_McBean
+	Z08_83887965 = {
+		name = Haubold_von_Stein
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { reluctant_interventionist }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_33557919
+			idea_token = i_83887965
 			cost = 150
 		}
 	}
-	Z08_33558087 = {
-		name = Benjamin_McNab
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_4
-				small = GFX_portrait_europe_generic_navy_4_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	Z08_33560834 = {
-		name = Archibald_Wallace
+	Z08_83888234 = {
+		name = Friedrich_Lakner
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33560834
+			idea_token = i_83888234
 			cost = 150
 		}
 	}
-	Z08_50332884 = {
-		name = Ivar_Ramsay
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	Z08_50334381 = {
-		name = Ivar_Baird
+	Z08_117441289 = {
+		name = Haubold_Glaubrech
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_50334381
-			cost = 150
-		}
-	}
-	Z08_50335058 = {
-		name = Struan_Brightwen
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer infantry_officer }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-		}
-	}
-	Z08_83886355 = {
-		name = Samuel_Bowes-Lyon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { technocrat }
-			slot = political_advisor
-			idea_token = i_83886355
+			idea_token = i_117441289
 			cost = 150
 		}
 	}

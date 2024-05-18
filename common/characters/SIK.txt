@@ -1,57 +1,74 @@
 characters = {
-	SIK_33555817 = {
-		name = Andruk_Ngapoi
+	SIK_67112924 = {
+		name = Gendun_Shatra
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_portrait_asia_generic_4
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = falangism
 			traits = {  }
 		}
 	}
-	SIK_16778719 = {
-		name = Andruk_Lhalu
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-			civilian = {
-			}
-		}
-		field_marshal = {
-			traits = { commando infantry_officer old_guard trait_cautious }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_16778719
-			cost = 150
-		}
-	}
-	SIK_16780798 = {
-		name = Namgang_Lungshar
+	SIK_83887947 = {
+		name = Tsepon_Shakabpa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_16780798
+			idea_token = i_83887947
 			cost = 150
 		}
 	}
-	SIK_16782837 = {
-		name = Mipham_Lungshar
+	SIK_100664086 = {
+		name = Trimon_Lhalu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100664086
+			cost = 150
+		}
+	}
+	SIK_117442650 = {
+		name = Penor_Ngapoi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_117442650
+			cost = 150
+		}
+	}
+	SIK_150997773 = {
+		name = Penor_Shatra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_150997773
+			cost = 150
+		}
+	}
+	SIK_150997905 = {
+		name = Tsepon_Chophel
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -60,102 +77,12 @@ characters = {
 		advisor = {
 			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_16782837
+			idea_token = i_150997905
 			cost = 150
 		}
 	}
-	SIK_33556552 = {
-		name = Tsepon_Tashi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer old_guard }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	SIK_33560752 = {
-		name = Tsarong_Tashi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer organizer }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	SIK_33561028 = {
-		name = Norbhu_Lungshar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_33561028
-			cost = 150
-		}
-	}
-	SIK_50332319 = {
-		name = Trimon_Ngapoi
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader old_guard }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	SIK_50332966 = {
-		name = Penor_Rinpoche
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 4
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_50332966
-			cost = 150
-		}
-	}
-	SIK_67109419 = {
-		name = Gendun_Tashi
+	SIK_201328599 = {
+		name = Tsarong_Lungshar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -164,43 +91,7 @@ characters = {
 		advisor = {
 			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_67109419
-			cost = 150
-		}
-	}
-	SIK_67115219 = {
-		name = Tsarong_Wangyal
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_67115219
-			cost = 150
-		}
-	}
-	SIK_83887989 = {
-		name = Jamphel_Ngapoi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SIK_83891519 = {
-		name = Mipham_Ngapoi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_83891519
+			idea_token = i_201328599
 			cost = 150
 		}
 	}

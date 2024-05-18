@@ -1,1 +1,15 @@
 # Naval OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 8034
+		task_force = {
+			name = "1. Fleet"
+			location = 8034
+			ship = { name = "Submarine 1" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = Z08  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 2" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = Z08  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 3" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = Z08  version_name = "Early Submarine" } } }
+			ship = { name = "Submarine 4" definition = submarine equipment = { ship_hull_submarine_1 = {  amount = 1  owner = Z08  version_name = "Early Submarine" } } }
+		}
+	}
+}

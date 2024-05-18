@@ -1,7 +1,11 @@
 characters = {
-	TTS_3084 = {
-		name = Francesco_di_Borbone_delle_Due_Sicilie
+	TTS_50332697 = {
+		name = Paolo_di_Borbone_delle_Due_Sicilie
 		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
@@ -10,88 +14,17 @@ characters = {
 			ideology = despotism
 			traits = {  }
 		}
-	}
-	TTS_16779466 = {
-		name = Guglielmo_Intonti
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_3
-				small = GFX_Portrait_Italy_Generic_land_3_small
-			}
-		}
 		field_marshal = {
-			traits = { armor_officer commando inflexible_strategist offensive_doctrine unyielding_defender }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
-	TTS_16780084 = {
-		name = Guglielmo_Galluppi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_7
-				small = GFX_Portrait_Italy_Generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer organizer }
+			traits = { harsh_leader trait_reckless }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 2
+			attack_skill = 2
+			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
 		}
 	}
-	TTS_33556114 = {
-		name = Raimondo_PaternO_
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_33556114
-			cost = 150
-		}
-	}
-	TTS_33557130 = {
-		name = Cristoforo_Poerio
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33557130
-			cost = 150
-		}
-	}
-	TTS_33559640 = {
-		name = Pellegrino_De_Renzi
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_1
-				small = GFX_Portrait_Italy_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	TTS_33560639 = {
-		name = Paolo_Leopardi
+	TTS_16780109 = {
+		name = Armando_Diaz
 		portraits = {
 			army = {
 				large = GFX_Portrait_Italy_Generic_land_4
@@ -99,16 +32,286 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { organizer trait_mountaineer }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
+			traits = { armor_officer engineer_officer fortress_buster harsh_leader organizer }
+			skill = 5
+			attack_skill = 7
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	TTS_33555868 = {
+		name = Michele_CalA__Ulloa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_33555868
+			cost = 150
+		}
+	}
+	TTS_50335583 = {
+		name = Ferdinando_Giannuzzi-Savelli
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_5
+				small = GFX_Portrait_Italy_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	TTS_50336454 = {
+		name = Carcano_Rosaroll
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_8
+				small = GFX_Portrait_Italy_Generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { commando infantry_officer organizer trickster }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
 			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	TTS_67110072 = {
+		name = Matteo_Durini
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_3
+				small = GFX_Portrait_Italy_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	TTS_67110358 = {
+		name = Pierfrancesco_Ondedei
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_2
+				small = GFX_Portrait_Italy_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { gunnery_expert naval_lineage }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+	}
+	TTS_67112968 = {
+		name = Marco_Pignatelli
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_6
+				small = GFX_Portrait_Italy_Generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_67112968
+			cost = 150
+		}
+	}
+	TTS_67113022 = {
+		name = Pierfrancesco_Costa
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_2
+				small = GFX_Portrait_Italy_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	TTS_83886256 = {
+		name = Giuseppe_del_Pezzo
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_1
+				small = GFX_Portrait_Italy_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality old_guard_navy }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	TTS_83886717 = {
+		name = Goffredo_Giannuzzi-Savelli
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Italy_Generic_navy_3
+				small = GFX_Portrait_Italy_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	TTS_83888900 = {
+		name = Achille_Afan_de_Rivera
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83888900
+			cost = 150
+		}
+	}
+	TTS_83892762 = {
+		name = Michele_Rosaroll
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83892762
+			cost = 150
+		}
+	}
+	TTS_100664229 = {
+		name = Lorenzo_De_Renzi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_3
+				small = GFX_Portrait_Italy_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader trait_mountaineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
 			logistics_skill = 2
 		}
 	}
-	TTS_50332247 = {
-		name = Marcantonio_Ercolani
+	TTS_100669330 = {
+		name = Luigi_Sgariglia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100669330
+			cost = 150
+		}
+	}
+	TTS_117442330 = {
+		name = Antonio_Ferri
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117442330
+			cost = 150
+		}
+	}
+	TTS_117443132 = {
+		name = Marco_Giannuzzi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_117443132
+			cost = 150
+		}
+	}
+	TTS_117447219 = {
+		name = Oronzio_di_Borbone_delle_Due_Sicilie
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	TTS_134220349 = {
+		name = Sebastiano_di_Sangro
+		portraits = {
+			army = {
+				large = GFX_Portrait_Italy_Generic_land_7
+				small = GFX_Portrait_Italy_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	TTS_151000601 = {
+		name = Melchiorre_di_Cesare
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -117,141 +320,7 @@ characters = {
 		advisor = {
 			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_50332247
-			cost = 150
-		}
-	}
-	TTS_50332373 = {
-		name = Guglielmo_Barracco
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_50332373
-			cost = 150
-		}
-	}
-	TTS_50332541 = {
-		name = Giovanni_Gravina
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Italy_Generic_navy_3
-				small = GFX_Portrait_Italy_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	TTS_50332697 = {
-		name = Paolo_di_Borbone_delle_Due_Sicilie
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	TTS_50337364 = {
-		name = Francesco_de_Rilliet
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Italy_Generic_navy_2
-				small = GFX_Portrait_Italy_Generic_navy_2_small
-			}
-			civilian = {
-			}
-		}
-		navy_leader = {
-			traits = { gunnery_expert navy_career_officer old_guard_navy }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			maneuvering_skill = 2
-			coordination_skill = 5
-		}
-		advisor = {
-			traits = { naval_theorist }
-			slot = political_advisor
-			idea_token = i_50337364
-			cost = 150
-		}
-	}
-	TTS_67112314 = {
-		name = Raffaele_Winspeare
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_5
-				small = GFX_Portrait_Italy_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	TTS_67114308 = {
-		name = Fabrizio_Capasso
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_67114308
-			cost = 150
-		}
-	}
-	TTS_83887485 = {
-		name = Tommasso_Barracco
-		portraits = {
-			army = {
-				large = GFX_Portrait_Italy_Generic_land_8
-				small = GFX_Portrait_Italy_Generic_land_8_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist organizer }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 5
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_83887485
-			cost = 150
-		}
-	}
-	TTS_100669571 = {
-		name = Saverio_Caracciolo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_100669571
+			idea_token = i_151000601
 			cost = 150
 		}
 	}

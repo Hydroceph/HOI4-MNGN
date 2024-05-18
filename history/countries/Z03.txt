@@ -1,71 +1,63 @@
-capital = 451
+capital = 303
 
 oob = "Z03_1936"
 set_research_slots = 3
-set_convoys = 18
+set_convoys = 3
 
-recruit_character = Z03_67113776
-recruit_character = Z03_16780386
-recruit_character = Z03_16780429
-recruit_character = Z03_33557808
-recruit_character = Z03_33558266
-recruit_character = Z03_50335359
-recruit_character = Z03_50338107
-recruit_character = Z03_67109042
-recruit_character = Z03_100663405
-recruit_character = Z03_100664096
+recruit_character = Z03_184549948
+recruit_character = Z03_67111923
+recruit_character = Z03_83886291
+recruit_character = Z03_83888903
+recruit_character = Z03_117440631
+recruit_character = Z03_117445870
+recruit_character = Z03_167772329
+recruit_character = Z03_167776224
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Gilbert_Gildard
-		GFX = GFX_portrait_europe_generic_operative_male_15
-		traits = { operative_linguist operative_natural_orator operative_well_groomed }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { Z03 }
-	}
-	create_operative_leader = {
-		name = Athanase_Gouraud
-		GFX = GFX_portrait_europe_generic_operative_male_6
-		traits = { operative_safe_cracker }
+		name = Eugenio_Pinheiro
+		GFX = GFX_portrait_europe_generic_operative_male_19
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { Z03 }
 	}
 }
 
-FRA = {
+POR = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
 		}
 		set_autonomy = {
 			target = Z03
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = Z03
+		set_autonomy = {
+			target = Z03
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
+	ruling_party = fascism
+	last_election = "1933.5.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 36
-	neutrality = 52
+	democratic = 27
+	fascism = 31
+	neutrality = 42
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -73,8 +65,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 

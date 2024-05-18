@@ -1,21 +1,21 @@
 state = {
 	id = 92
 	name = "STATE_92"
-	manpower = 3533285
+	manpower = 3307863
 
 	state_category = town
 
 	history = {
 		owner = FRA
 		victory_points = {
-			11563 1
+			9853 1
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 0
-			9434 = {
-				naval_base = 1
+			6960 = {
+				naval_base = 7
 			}
 			air_base = 1
 		}
@@ -23,6 +23,6 @@ state = {
 	}
 
 	provinces = {
-		539 553 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
+		943 3751 3915 3946 6766 6770 6915 6917 6931 6960 9723 9853 9898 11711 11877 
 	}
 }

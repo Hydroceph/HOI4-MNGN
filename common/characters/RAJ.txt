@@ -1,9 +1,9 @@
 characters = {
-	RAJ_50334958 = {
-		name = Julian_Baden-Powell
+	RAJ_50333086 = {
+		name = Claude_Welby-Gregory
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_europe_generic_7
+				large = GFX_portrait_europe_generic_5
 			}
 		}
 		country_leader = {
@@ -11,59 +11,76 @@ characters = {
 			traits = {  }
 		}
 	}
-	RAJ_16777235 = {
-		name = Theobald_Graham-Montgomery
+	RAJ_33555315 = {
+		name = Egerton_Pelham-Clinton
 		portraits = {
 			army = {
-				large = GFX_portrait_europe_generic_land_8
-				small = GFX_portrait_europe_generic_land_8_small
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer old_guard organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+			traits = { infantry_officer ranger }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	RAJ_16777766 = {
-		name = Hedworth_Thoroton-Hildyard
+	RAJ_33556678 = {
+		name = Valentine_2_Manningham-Buller
 		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
 			}
 		}
-		navy_leader = {
-			traits = { aviation_enthusiast }
-			skill = 2
+		field_marshal = {
+			traits = { infantry_officer organizer ranger thorough_planner trait_cautious }
+			skill = 4
 			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 2
 		}
 	}
-	RAJ_16779367 = {
-		name = Guildford_Waldegrave
+	RAJ_33557534 = {
+		name = Ross_Foley
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_7
 				small = GFX_portrait_europe_generic_land_7_small
 			}
 		}
-		corps_commander = {
-			traits = { cavalry_officer commando infantry_officer }
+		field_marshal = {
+			traits = { harsh_leader old_guard organizer }
 			skill = 2
-			attack_skill = 3
+			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 2
-			logistics_skill = 2
+			logistics_skill = 1
 		}
 	}
-	RAJ_16779493 = {
-		name = Arthur_Orr-Ewing
+	RAJ_33557956 = {
+		name = Valentine_2_Bridport
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	RAJ_33558342 = {
+		name = Redvers_FitzGerald
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_13
@@ -71,16 +88,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { cavalry_officer commando organizer }
+			traits = { infantry_officer old_guard trickster }
 			skill = 2
-			attack_skill = 3
-			defense_skill = 1
+			attack_skill = 1
+			defense_skill = 4
 			planning_skill = 2
 			logistics_skill = 2
 		}
 	}
-	RAJ_16780408 = {
-		name = Wentworth_Manningham-Buller
+	RAJ_50332853 = {
+		name = Nathaniel_Selwin-Ibeetson
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_2
@@ -88,39 +105,116 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { desert_fox infantry_officer trait_mountaineer }
-			skill = 2
+			traits = { harsh_leader infantry_officer trait_mountaineer trait_reckless trickster }
+			skill = 4
 			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
-	RAJ_16780427 = {
-		name = Byron_Jones
+	RAJ_50333190 = {
+		name = Walter_Conroy
 		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_4
-				small = GFX_portrait_europe_generic_navy_4_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		navy_leader = {
-			traits = { gentlemanly old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50333190
+			cost = 150
 		}
 	}
-	RAJ_16780469 = {
-		name = Theobald_Macfie
+	RAJ_50333290 = {
+		name = Egerton_Stopford-Sackville
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_3
 				small = GFX_Portrait_Europe_Generic_land_3_small
 			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard trait_cautious trickster }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 6
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RAJ_50334192 = {
+		name = Terence_Graham-Montgomery
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_50334349 = {
+		name = Stanley_FitzMaurice
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	RAJ_50334691 = {
+		name = Theodore_2_Newport
+		portraits = {
 			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_50334691
+			cost = 150
+		}
+	}
+	RAJ_50335461 = {
+		name = Watkin_Hanbury-Tracy
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RAJ_50336809 = {
+		name = Kenelm_Althorp
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
 			}
 		}
 		corps_commander = {
@@ -131,283 +225,31 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
+	}
+	RAJ_50337618 = {
+		name = Rowland_Hornby
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
 		advisor = {
-			traits = { technocrat }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_16780469
+			idea_token = i_50337618
 			cost = 150
 		}
 	}
-	RAJ_16780516 = {
-		name = Jeremy_Agar-Ellis
-		portraits = {
-			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer cavalry_officer trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	RAJ_16780581 = {
-		name = Allen_Hill-Trevor
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-		}
-		field_marshal = {
-			traits = { cavalry_officer desert_fox infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	RAJ_16780726 = {
-		name = Robert_Thoroton-Hildyard
+	RAJ_67108975 = {
+		name = Wyndham_Selwin-Ibeetson
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_1
 				small = GFX_Portrait_Europe_Generic_land_1_small
 			}
 		}
-		field_marshal = {
-			traits = { charismatic infantry_officer politically_connected }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 4
-		}
-	}
-	RAJ_16780762 = {
-		name = Garnet_Cromwell
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_4
-				small = GFX_Portrait_Europe_Generic_land_4_small
-			}
-		}
 		corps_commander = {
-			traits = { infantry_officer trait_cautious }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	RAJ_16781377 = {
-		name = Walter_Churchill
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_8
-				small = GFX_portrait_europe_generic_land_8_small
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist naval_invader old_guard }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	RAJ_33555424 = {
-		name = Zachary_Waldegrave
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_5
-				small = GFX_portrait_europe_generic_navy_5_small
-			}
-		}
-		navy_leader = {
-			traits = { battleship_adherent old_guard_navy }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	RAJ_33555640 = {
-		name = Roundell_Torrington
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	RAJ_33557436 = {
-		name = Montague_Fetherstonhaugh
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33557436
-			cost = 150
-		}
-	}
-	RAJ_33557633 = {
-		name = Redvers_Seely
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { editor }
-			slot = political_advisor
-			idea_token = i_33557633
-			cost = 150
-		}
-	}
-	RAJ_33557774 = {
-		name = Gipps_Wedderburn
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_33557774
-			cost = 150
-		}
-	}
-	RAJ_33558668 = {
-		name = Benedict_Cobham
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
-			}
-		}
-		field_marshal = {
-			traits = { cavalry_officer infantry_officer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	RAJ_33558848 = {
-		name = Wentworth_Wilson-Patten
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { craven old_guard_navy }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			maneuvering_skill = 1
-			coordination_skill = 3
-		}
-	}
-	RAJ_33559218 = {
-		name = Basil_Agar-Ellis
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_13
-				small = GFX_portrait_europe_generic_land_13_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer commando trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	RAJ_33560339 = {
-		name = Humphrey_Bowes-Lyon
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_2
-				small = GFX_Portrait_Europe_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	RAJ_33561085 = {
-		name = Nathaniel_Whitworth
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_33561085
-			cost = 150
-		}
-	}
-	RAJ_33561192 = {
-		name = Neville_Dow
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer trait_cautious }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	RAJ_50332287 = {
-		name = Valentine_2_Selwin-Ibeetson
-		portraits = {
-			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
+			traits = { brilliant_strategist commando old_guard }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -415,8 +257,8 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	RAJ_50332328 = {
-		name = Isaac_Hamilton
+	RAJ_67109372 = {
+		name = James_Rawdon-Hastings
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Europe_Generic_navy_1
@@ -424,30 +266,84 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { seawolf superior_tactician }
-			skill = 4
-			attack_skill = 4
+			traits = { caustic_personality chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
-	RAJ_50332418 = {
-		name = Ross_Brudenell-Bruce
+	RAJ_67109653 = {
+		name = Bartholomew_Walpole
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
 			}
 		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50332418
-			cost = 150
+		field_marshal = {
+			traits = { defensive_doctrine infantry_officer old_guard trait_cautious }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 6
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	RAJ_50333232 = {
-		name = Francis_Williams-Wynn
+	RAJ_67109699 = {
+		name = Adam_Goldsmid
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_67109936 = {
+		name = Julian_Walpole
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_67110084 = {
+		name = Rowland_Windsor-Clive
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer infantry_officer old_guard organizer thorough_planner }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	RAJ_67110121 = {
+		name = Clarence_Waldegrave
 		portraits = {
 			navy = {
 				large = GFX_portrait_europe_generic_navy_4
@@ -455,16 +351,16 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { chief_engineer naval_lineage old_guard_navy }
+			traits = { navy_career_officer old_guard_navy }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 3
+			attack_skill = 2
+			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 2
 		}
 	}
-	RAJ_50334102 = {
-		name = Guildford_Cavendish
+	RAJ_67110331 = {
+		name = Benjamin_Cowper-Temple
 		portraits = {
 			navy = {
 				large = GFX_portrait_europe_generic_navy_5
@@ -472,127 +368,54 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { chief_engineer spotter }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-	}
-	RAJ_50334936 = {
-		name = Alan_Newport
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { naval_lineage }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	RAJ_50335056 = {
-		name = Anthony_Kinglake
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
+			traits = {  }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
-	RAJ_50336687 = {
-		name = Isaac_Rowlands
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50336687
-			cost = 150
-		}
-	}
-	RAJ_67108935 = {
-		name = Ross_Sclater-Booth
+	RAJ_67110404 = {
+		name = Josslyn_Hanbury-Tracy
 		portraits = {
 			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
-			}
-			civilian = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
 			}
 		}
 		corps_commander = {
-			traits = { engineer_officer harsh_leader }
+			traits = { brilliant_strategist commando engineer_officer harsh_leader }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 2
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { superior_firepower_expert }
-			slot = political_advisor
-			idea_token = i_67108935
-			cost = 150
-		}
-	}
-	RAJ_67112599 = {
-		name = Gerard_Hanbury-Tracy
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_4
-				small = GFX_Portrait_Europe_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer organizer }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 4
 			logistics_skill = 3
 		}
 	}
-	RAJ_67115135 = {
-		name = Abel_Nicol
+	RAJ_67110569 = {
+		name = Collingwood_Hibbert
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_8
 				small = GFX_portrait_europe_generic_land_8_small
 			}
 		}
-		corps_commander = {
-			traits = { desert_fox organizer }
-			skill = 2
+		field_marshal = {
+			traits = { harsh_leader infantry_officer old_guard organizer thorough_planner }
+			skill = 3
 			attack_skill = 2
-			defense_skill = 2
+			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 1
 		}
 	}
-	RAJ_83888547 = {
-		name = Alphonse_Hope
+	RAJ_67110710 = {
+		name = Archibald_Courtenay
 		portraits = {
 			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
 			}
 		}
 		corps_commander = {
@@ -604,12 +427,1572 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	RAJ_83888684 = {
-		name = Stephen_Torrington
+	RAJ_67110929 = {
+		name = Hedworth_Caversham
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast media_personality naval_lineage }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	RAJ_67111082 = {
+		name = Horatio_Dalrymple-Hay
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	RAJ_67111129 = {
+		name = Rowland_Wentworth-FitzWilliam
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	RAJ_67111164 = {
+		name = Archibald_Newark
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer charismatic harsh_leader old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	RAJ_67111423 = {
+		name = Alphonse_Dalrymple-Hay
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_67111580 = {
+		name = Archibald_Brudenell-Bruce
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer engineer_officer trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RAJ_67111755 = {
+		name = Byron_Rawdon-Hastings
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_67111917 = {
+		name = Beauchamp_Baden-Powell
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality old_guard_navy }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	RAJ_67112073 = {
+		name = Claude_Salusbury-Trelawny
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_13
 				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	RAJ_67112333 = {
+		name = Valentine_2_Waldegrave
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+			civilian = {
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer charismatic offensive_doctrine politically_connected }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67112333
+			cost = 150
+		}
+	}
+	RAJ_67112999 = {
+		name = Roundell_Enfield
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_67113656 = {
+		name = Harcourt_Trevor
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RAJ_67114804 = {
+		name = Poulett_Trevor
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		field_marshal = {
+			traits = { naval_invader trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RAJ_83886244 = {
+		name = Benjamin_Ruggles-Brise
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	RAJ_83886708 = {
+		name = Charles_Meynell-Ingram
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality naval_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	RAJ_83886965 = {
+		name = Herbert_Greville-Nugent
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_83887179 = {
+		name = Tristan_Salusbury-Trelawny
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer logistics_wizard organizer trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	RAJ_83887222 = {
+		name = Victor_Keppel
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	RAJ_83887472 = {
+		name = Alan_Wingfield-Baker
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		field_marshal = {
+			traits = { desert_fox harsh_leader inflexible_strategist trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RAJ_83887770 = {
+		name = Octavius_Pell
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83887770
+			cost = 150
+		}
+	}
+	RAJ_83887815 = {
+		name = Caleb_Orr-Ewing
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_83888053 = {
+		name = Nicholas_Tadcaster
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_83888301 = {
+		name = Adam_Althorp
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist infantry_officer organizer trait_cautious }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RAJ_83888584 = {
+		name = Clarence_Jervis-White-Jervis
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	RAJ_83888837 = {
+		name = Nigel_Bridport
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard organizer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	RAJ_83889220 = {
+		name = Humphrey_Wentworth-FitzWilliam
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RAJ_83889335 = {
+		name = Hugh_Althorp
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	RAJ_83889745 = {
+		name = Arnold_Dawson-Damer
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_83890051 = {
+		name = Acton_Trematon
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer naval_invader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	RAJ_83892193 = {
+		name = Augustus_Greville-Nugent
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		field_marshal = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_83892569 = {
+		name = Massey_FitzMaurice
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { craven old_guard_navy }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	RAJ_83892922 = {
+		name = Gonville_Cavendish
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_83892923 = {
+		name = Alan_Cavendish
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	RAJ_100663468 = {
+		name = Lionel_Despard
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert naval_lineage }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	RAJ_100663851 = {
+		name = Edmund_Walpole
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { media_personality navy_career_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	RAJ_100663885 = {
+		name = Basil_Brudenell-Bruce
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	RAJ_100663890 = {
+		name = Myles_Orr-Ewing
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_100664930 = {
+		name = Horatio_FitzGerald
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100664930
+			cost = 150
+		}
+	}
+	RAJ_100665459 = {
+		name = Mark_Agar-Ellis
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_100665726 = {
+		name = Wyndham_Spencer-Churchill
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_100665849 = {
+		name = Weetman_Williams-Wynn
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_100665894 = {
+		name = Myles_Rosebery
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RAJ_100665903 = {
+		name = Alexander_Wingfield-Baker
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_100666096 = {
+		name = Rowland_Gordon-Lennox
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_100666293 = {
+		name = Alfred_Green-Price
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	RAJ_100666308 = {
+		name = Simon_Meynell-Ingram
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	RAJ_100666363 = {
+		name = Granville_Newark
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_100666659 = {
+		name = Alexander_Foley
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_cautious trickster }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RAJ_100666761 = {
+		name = Arthur_Cromwell
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	RAJ_100666837 = {
+		name = Cornelius_Falmouth
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer fortress_buster infantry_officer old_guard }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	RAJ_100666914 = {
+		name = Daniel_Fane
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RAJ_100667205 = {
+		name = Byron_Jervis-White-Jervis
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer inflexible_strategist old_guard ranger }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_100667283 = {
+		name = Rufus_Salusbury-Trelawny
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_100667911 = {
+		name = Wilfred_Rosebery
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	RAJ_100668520 = {
+		name = Teignmouth_Pelham-Clinton
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RAJ_100668692 = {
+		name = Stafford_FitzMaurice
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { commando trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_100669042 = {
+		name = Robert_Wingfield-Baker
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven media_personality navy_career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+	RAJ_100669136 = {
+		name = Victor_Ferguson-Davie
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { ranger trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_100669223 = {
+		name = Edgar_Enfield
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_100669302 = {
+		name = Mark_Butler-Henderson
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_100669925 = {
+		name = Simon_Rawdon-Hastings
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_117440860 = {
+		name = Adam_Sclater-Booth
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_117441670 = {
+		name = Gregory_Crum-Ewing
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RAJ_117441826 = {
+		name = David_Salusbury-Trelawny
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RAJ_117442552 = {
+		name = Claude_Loyd-Lindsay
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { craven gunnery_expert old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 5
+		}
+	}
+	RAJ_117442615 = {
+		name = Charles_Bowes-Lyon
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	RAJ_117442761 = {
+		name = Stanley_Maynard
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer brilliant_strategist inflexible_strategist offensive_doctrine old_guard }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	RAJ_117443253 = {
+		name = Barnaby_FitzMaurice
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	RAJ_117443381 = {
+		name = Michael_Bosanquet
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	RAJ_117443558 = {
+		name = Montague_Townsend
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_117444179 = {
+		name = Cecil_Ruggles-Brise
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_117444194 = {
+		name = Rufus_Ormsby-Gore
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_134218592 = {
+		name = Roger_Campbell-Bannerman
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	RAJ_134218657 = {
+		name = Aylmer_Campbell-Bannerman
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	RAJ_134218697 = {
+		name = Gipps_Tolman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_134218697
+			cost = 150
+		}
+	}
+	RAJ_134219475 = {
+		name = Patrick_Gathorne-Hardy
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_134220218 = {
+		name = Charles_Baden-Powell
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	RAJ_134220679 = {
+		name = Wilfred_Wingfield-Baker
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_134220855 = {
+		name = Reginald_Thoroton-Hildyard
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_134221645 = {
+		name = Auberon_Salusbury-Trelawny
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	RAJ_134222092 = {
+		name = Nicholas_Newark
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_134223105 = {
+		name = Jacob_Thoroton-Hildyard
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RAJ_134224542 = {
+		name = Stephen_Wentworth-FitzWilliam
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader old_guard trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RAJ_150995841 = {
+		name = Acton_Newark
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
+			}
+		}
+		field_marshal = {
+			traits = { logistics_wizard old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_150997794 = {
+		name = Godfrey_Hamilton
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader infantry_officer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	RAJ_150997983 = {
+		name = Roger_Bertie
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	RAJ_150998679 = {
+		name = Sackville_Churchill
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_150998679
+			cost = 150
+		}
+	}
+	RAJ_150999502 = {
+		name = Bertrand_Stopford-Sackville
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	RAJ_167773930 = {
+		name = Daniel_Crum-Ewing
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	RAJ_167777825 = {
+		name = Mark_Wentworth-FitzWilliam
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox organizer trait_cautious }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	RAJ_184551337 = {
+		name = Geoffrey_Sclater-Booth
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	RAJ_184553471 = {
+		name = Nicholas_Cowell-Stepney
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RAJ_218104076 = {
+		name = Tristan_Orr-Ewing
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_7
+				small = GFX_portrait_europe_generic_land_7_small
 			}
 		}
 		corps_commander = {
@@ -619,6 +2002,23 @@ characters = {
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 1
+		}
+	}
+	RAJ_234887378 = {
+		name = Terence_Trematon
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
 }

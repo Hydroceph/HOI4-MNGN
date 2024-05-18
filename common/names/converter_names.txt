@@ -13,22 +13,6 @@ ACH = {
 			"Adhiambo" "Odinga" 
 	}
 }
-ADG = {
-	male = {
-		names = {
-			"Abareybon" "Ag Mama" "Ahmad" "Attici" "Aytarel" "Hasso" "In Tayaden" "Islaman" "Issouf" "Kiddu" "Majila" 
-			"Moussa" "Musa" 
-		}
-	}
-	female = {
-		names = {
-			"Malika" "Nina" "Safia" 
-		}
-	}
-	surnames = {
-			"ag Amastan" "ag Amellal" "ag Muhammad" "ag Sidi" "al-Hajj" 
-	}
-}
 AFG = {
 	male = {
 		names = {
@@ -76,21 +60,6 @@ AIR = {
 	}
 	surnames = {
 			"ag Amastan" "ag Amellal" "ag Muhammad" "ag Sidi" "al-Hajj" 
-	}
-}
-AIT = {
-	male = {
-		names = {
-			"Abd al-Karim" "Ahmed" "Khalid" "Muhammad" "Mustafa" 
-		}
-	}
-	female = {
-		names = {
-			"Fatima" "Khadija" "Khalida" "Malika" "Tassadit" "Zohra" 
-		}
-	}
-	surnames = {
-			"Al-Khattabi" "el Krim" 
 	}
 }
 ALT = {
@@ -269,22 +238,6 @@ BAL = {
 			"Kolano" "Sjah" 
 	}
 }
-BAS = {
-	male = {
-		names = {
-			"Alluri" "Durgabai" "Kandukuri" "Keneganti" "Narasimha" "Pingali" "Potti" "Sarojini" "Tanguturi" "Uyyalawada" "Vasireddy" 
-			"Veerapandiya" "Venkatadri" 
-		}
-	}
-	female = {
-		names = {
-			"Anjali" "Lakshmi" 
-		}
-	}
-	surnames = {
-			"Nayak" "Salarjung" 
-	}
-}
 BEL = {
 	male = {
 		names = {
@@ -429,39 +382,6 @@ BLG = {
 			"Bendahara" "Jamalullail" "bin Nik" 
 	}
 }
-BMB = {
-	male = {
-		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
-		}
-	}
-	female = {
-		names = {
-			"Jokate" "Kajala" "Khalila" "Wema" "Yobnesh" 
-		}
-	}
-	surnames = {
-			"Bulungute" "Mirambo" "Mkasiwa" "Mnywasele" "Msemwa" "Mudimbe" 
-	}
-}
-BNG = {
-	male = {
-		names = {
-			"Banyingela" "Banza" "Ilunga" "Kalenga" "Kisempia" "Kisula" "Koloso" "Mabi" "Mauva" "Mosambaye" 
-		}
-	}
-	female = {
-		names = {
-			"Katana" "Kavidi" "Masika" "Moza" "Mudima" "Mwanakitata" "Neema" 
-		}
-	}
-	surnames = {
-			"Bokote" "Bolia" "Bongandu" "Dengese" "Ekonda" "Mbole" "Nkutu" "Ntomba" "Sengele" "Songomeno" "Tetela-Kusu" 
-	}
-}
 BNJ = {
 	male = {
 		names = {
@@ -496,21 +416,6 @@ BNY = {
 			"Kasanda" "Watuta" "Zwagendaba" 
 	}
 }
-BOB = {
-	male = {
-		names = {
-			"García" "Kenje" "Kivuzi" "Loembe" "Mfutila" "M’voudoukousala" "M’voumbe" "Nteve" "N’Gangue" "Poaty" "Pratt" 
-		}
-	}
-	female = {
-		names = {
-			"Beatriz" "Bulanda" "Isabel" "Kimpa Vita" "Mabela" "Maria" "Tshiambuaya" 
-		}
-	}
-	surnames = {
-			"Bokote" "Bolia" "Bongandu" "Dengese" "Ekonda" "Mbole" "Nkutu" "Ntomba" "Sengele" "Songomeno" "Tetela-Kusu" 
-	}
-}
 BOR = {
 	male = {
 		names = {
@@ -524,22 +429,6 @@ BOR = {
 	}
 	surnames = {
 			"Duguwa" "Imam" "Kanemi" "Mai-Bornu" "Sayfawa" "Sheriff" 
-	}
-}
-BOT = {
-	male = {
-		names = {
-			"Baruti" "Bathoen" "Boipelu" "Gaone" "Kabelo" "Kedikilwe" "Kefentse" "Khama" "Moetapele" "Molefi" "Morwe" 
-			"Mosegi" "Mothudi" "Mowen" "Sebele" "Tale" "Thabo" "Turnelo" 
-		}
-	}
-	female = {
-		names = {
-			"Thandi" "Tshepo" 
-		}
-	}
-	surnames = {
-			"Bakalaka" "Bakgalakgadi" "Bakgatla" "Bakwna" "Balete" "Bamangwato" "Bangwaketse" "Barolong" "Batawana" "Batlokwa" "Batsapong" 
 	}
 }
 BRA = {
@@ -559,9 +448,8 @@ BRA = {
 		}
 	}
 	surnames = {
-			"Barreto" "Bernardes" "Bittencourt" "Brandão" "Bras" "Cabral da Silva" "Caldwell" "Constant" "Costa" "Dutra" "Fragoso" 
-			"Frontin" "Galvão" "Jordão" "Labatut" "Lopes" "Maciel" "Mallet" "Marques" "Marques de Sousa" "Maurity" "Moreira" "Osório" 
-			"Peixoto" "Pena" "Pessoa" "Pinto" "Rondon" "Saldanha da Gama" "Santos" "Soares" "Tavares" "Vargas" "Wandenkolk" 
+			"Boaventura" "da Camara" "da Costa" "da Fonseca" "da Silva Prado" "de Aguiar" "de Alcantara" "de Barros" "de Beaurepaire-Rohan" "de Bragança" "de Carvalho" 
+			"de Castro" "de Itapevi" "de Lima e Silva" "de Melo" "de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" 
 	}
 }
 BRD = {
@@ -614,6 +502,24 @@ BRM = {
 			"Konbaung" "Min" "Sao" 
 	}
 }
+BST = {
+	male = {
+		names = {
+			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
+			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
+			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Letsie" "Makalo" "Mansa" "Morathi" 
+			"Musawenkosi" "Raimi" "Razi" "Reth" 
+		}
+	}
+	female = {
+		names = {
+			"Arabang" "Khalo" "Mantsebo" "Nomaka" "Nthomeng" "Senate" 
+		}
+	}
+	surnames = {
+			"Leabua" "Lerotholi" "Mamohato" "Masopha" "Matsaba" "Moerane" "Moshoeshoe" 
+	}
+}
 BTN = {
 	male = {
 		names = {
@@ -644,22 +550,6 @@ BUK = {
 	}
 	surnames = {
 			"Bahadur" "Khan" "Kokand" 
-	}
-}
-BUN = {
-	male = {
-		names = {
-			"Ishvari" "Jugal" "Lokendra" "Mahip" "Narayan" "Parbhu" "Pheran" "Prasan" "Raghuraj" "Udit" "Vijay" 
-			"Vishvanath" 
-		}
-	}
-	female = {
-		names = {
-			"Dimple" "Kamlesh" 
-		}
-	}
-	surnames = {
-			"Singh" 
 	}
 }
 CAM = {
@@ -716,23 +606,6 @@ CHI = {
 			"An" "Cheng" "Chun" "Fu" "Gong" "Guan" "Guo" "He" "Heng" "Hui" "Jingjin" 
 			"Keqin" "LiLu" "Ning" "Qian" "Rong" "Rui" "Shen" "Shuncheng" "Su" "Wen" "Xian" "Xun" 
 			"Yi" "Ying" "Yu" "Zheng" "Zhi" "Zhon" "Zhuang" 
-	}
-}
-CHK = {
-	male = {
-		names = {
-			"Cakasekene" "Cikombe" "Cimbindu" "Kangapu" "Kaumba" "Mbala" "Mbumb" "Mudib" "Mulay" "Mushidi" "Mutand" 
-			"Muteba" "Nawej" "Waranankong" 
-		}
-	}
-	female = {
-		names = {
-			"Bulanda" "Mabela" "Mussasa" "Njinga" "Tembandumba" "Tshiambuaya" 
-		}
-	}
-	surnames = {
-			"Cilemo" "Cimbungu" "Cinene" "Hundungulu" "Kacingangu" "Kaneketela" "Kanene" "Kapusukusu" "Kiapungo" "Ndunduma" "Njambayamina" 
-			"Vasovava" "Yale" 
 	}
 }
 CHL = {
@@ -826,75 +699,42 @@ CMI = {
 			"Chakri" "Praya Siri" 
 	}
 }
+COG = {
+	male = {
+		names = {
+			"García" "Kenje" "Kivuzi" "Loembe" "Mfutila" "M’voudoukousala" "M’voumbe" "Nteve" "N’Gangue" "Poaty" "Pratt" 
+		}
+	}
+	female = {
+		names = {
+			"Beatriz" "Isabel" "Kimpa Vita" "Maria" 
+		}
+	}
+	surnames = {
+			"Kimpanzu" "Kinlaza" "Mankala" "Nobrega" 
+	}
+}
 COL = {
 	male = {
 		names = {
-			"Agustín" "Ambrosio" "Antonio" "Aníbal" "Aquileo" "Bartolomé" "Benjamín" "Buenaventura" "Carlos" "Celedonio" "Cipriano" 
-			"Domingo" "Eduardo" "Enrique" "Eugénio" "Eustorgio" "Eusébio" "Ezequiel" "Felipe" "Florentino" "Francisco" "Gonzalo" "Gregorio" 
-			"Guillermo" "Hilario" "Ignacio" "Javier" "Joaquín" "José" "José María" "Julián" "Justo" "Luis" "Manuel" "Marceliano" 
-			"Marco" "Mariano" "Narcisco" "Nicolás" "Pablo" "Pastor" "Pedro" "Rafaël" "Ricardo" "Rufino" "Santiago" "Santos" 
-			"Sergio" "Silvio" "Solón" "Tomás" "Vicente" "Victor" "Wenceslao" 
+			"Antonio" "Camilo" "Carlos" "Cipriano" "Demetrio" "Diego" "Domingo" "Eloy" "Eusebio" "Eustorgio" "Ezequiel" 
+			"Federico" "Fernando" "Florentino" "Francisco Javier" "Francisco José" "Francisco de Paula" "Franciso" "Froilán" "Gabriel" "Gregorio" "Guillermo" "Gustavo" 
+			"Guzmán" "Hilario" "Ignacio" "Jerónimo" "Joaquín" "Jorge" "José Antonio" "José Manuel" "José María" "Juan" "Juan José" "Julio" 
+			"Julián" "León" "Manuel" "Pedro" "Plácido" "Rafael" "Raimundo" "Ramón" "Ricardo" "Rodolfo" "Santiago" "Santos" 
+			"Tadeo" "Tomás" "Vicente" 
 		}
 	}
 	female = {
 		names = {
-			"Alicia" "Amalia" "Ana" "Antonia" "Benvenuta" "Blasina" "Carmen" "Carolina" "Concepción" "Cruzana" "Dolores" 
-			"Engracia" "Enriqueta" "Ignacia" "Isabel" "Juana" "Manuela" "Margarita" "Maria" "Mariana" "Matea" "Matilde" "Micaela" 
-			"Nina" "Sofía" "Susana" "Teodulia" "Teófila" "Tulia" 
+			"Ana" "Carmen" "Cecilia" "Dolores" "Gabriela" "Hipatia" "Lastenia" "Lorenza" "Magdalena" "Manuela" "Mariana" 
+			"Marieta" "Mercedes" "Narcisa" "Rita" "Rosa" "Teresa" "Zoila" 
 		}
 	}
 	surnames = {
-			"Acevedo" "Agudelo" "Alcántara" "Angulo" "Arborleda" "Arroyo" "Azuero" "Baena" "Barreneche" "Barreto" "Barrientos" 
-			"Barriga" "Barrios" "Bernal" "Berrio" "Borrero" "Buendía" "Burgos" "Bustillo" "Cabo" "Calderón" "Calvo" "Camacho" 
-			"Camargo" "Campuzano" "Carazo" "Carbonell" "Caro" "Casas" "Castro" "Caycedo" "Cobo" "Concha" "Corrales" "Cuervo" 
-			"Escobar" "Esguerra" "García" "Gil" "González" "Gori" "Gutiérrez" "Gómez" "Güell" "Herrera" "Herrán" "Hoyos" 
-			"Jaramilla" "Jiménez" "Largacha" "Lemus" "Lombana" "Lorenzana" "López" "Mallarino" "Mangones" "Manosalva" "Marroquin" "Marroquín" 
-			"Martinez" "Mateus" "Moledo" "Moreno" "Mosquera" "Murillo" "Márquez" "Méndez" "Nel" "Nieto" "Noguera" "Núñez" 
-			"Obando" "Olaya" "Osorio" "Ospina" "Parra" "Pasos" "Piedrahíta" "Plata" "Pombo" "Ponce" "Prestán" "Prieto" 
-			"Pumarejo" "Pérez" "Quijano" "Quintero" "Reinales" "Rengifo" "Restrepo" "Reyes" "Ripoll" "Rodríguez" "Roldán" "Romay" 
-			"Rosano" "Salgar" "Samper" "Sanclemente" "Santodomingo" "Serrano" "Silva" "Soto" "Tagle" "Tanco" "Tiscar" "Tobar" 
-			"Torices" "Toro" "Trujillo" "Urueta" "Valdés" "Valencia" "Velez" "Vila" "Villamizar" "Vázquez" "Wilches" "Zaldúa" 
-			"de Alcázar" "de La Espriella" "de Mosquera" "de Márquez" "de Porras" "de Rivas" "de Ureña" "de Vivero" "del Río" 
-	}
-}
-CON = {
-	male = {
-		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
-			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Mahmud" "Muhammad" "Mustafa" "Nur al-Din" "Salim" 
-			"Sa’d al-Din" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
-		}
-	}
-	female = {
-		names = {
-			"Aicha" "Amina" "Batoul" "Fadhma" "Nadia" "Souhila" "Touria" "Zina" 
-		}
-	}
-	surnames = {
-			"Benaïssa" "Djellouli" "El Djezairi" "al-Alawi" "ben Gana" 
-	}
-}
-COS = {
-	male = {
-		names = {
-			"Alejandro" "Andrés" "Aniceto" "Arturo" "Bartolomé" "Basilio" "Benito" "Benjamín" "Bernardo" "Carlos" "Daniel" 
-			"Diego" "Doroteo" "Eduardo" "Eugenio" "Felipe" "Fermín" "Fernando" "Francisco" "Fruto" "Félix" "Jacobo" "Jesús" 
-			"Joaquín" "Jorge" "José Francisco" "José María" "Juan" "Juan Antonio" "Juan Pablo" "Julio" "Justo" "Lisandro" "Lorenzo" "Manuel" 
-			"Marcelino" "Maximiliano" "Máximo" "Pedro" "Ponciano" "Próspero" "Rafael" "Ramón" "Santiago" "Sebastián" "Tiburcio" "Tomás" 
-			"Toribio" "Victoriano" "Óscar" 
-		}
-	}
-	female = {
-		names = {
-			"Alba" "Amanda" "Angela" "Bertha" "Clementina" "Consuelo" "Graciela" "Juana" "Julieta" "Leticia" "Lucila" 
-			"Miriam" "Paula" "Rigoberta" 
-		}
-	}
-	surnames = {
-			"Aguilar" "Andino" "Araújo" "Arbenz" "Barahona" "Barillas" "Barrios" "Cabañas" "Carrera" "Castellanos" "Chamorro" 
-			"Chávez" "Corral" "Cárdenas" "Esquivel" "Estrada" "Ezeta" "Fernández" "Ferrera" "Figueroa" "Garrigó" "Guzmán" "Güell" 
-			"Hernández" "Jerez" "Jiménez" "Leiva" "López" "Machado" "Martínez" "Medina" "Mejía" "Montes" "Montiel" "Palacios" 
-			"Peralta" "Quiros" "Rosales" "Sevilla" "Sinibaldi" "Soto" "Terán" "Ubico" "Vasconcelos" "Vigil" "Zelaya" "Zeledón" 
+			"Alfaro" "Andueza" "Arboleda" "Blanco" "Bonnet" "Boyd" "Caamaño" "Carreño" "Carrión" "Castro" "Chiari" 
+			"Cordero" "Crespo" "Daza" "Falcón" "Flores" "García" "González" "Gual" "Gutiérrez" "Gómez" "Herrán" "Hurtado" 
+			"López" "Mallarino" "Manjarrés" "Mariño" "Melo" "Monagas" "Moreno" "Núñez" "Obando" "Porras" "Páez" "Reyes" 
+			"Robles" "Rocafuerte" "Rojas" "Salgar" "Santander" "Soublette" "Urbina" "Villegas" "Zaldúa" 
 	}
 }
 CRI = {
@@ -910,7 +750,8 @@ CRI = {
 		}
 	}
 	surnames = {
-			"Mamleeva" 
+			"Agumov" "Amirkhanov" "Borhan" "Faysi" "Gizzat" "Ibragimov" "Ibrahim" "Kamal" "Khusainov" "Sultan-Galiev" "Tinchurin" 
+			"Tukay" "Waxitov" "Yamasev" "Yanbayev" 
 	}
 }
 CUB = {
@@ -951,36 +792,6 @@ DAH = {
 			"Agonglo" "Aladaxonou" "Danhome" "Djigla" "Guédégbé" "Houegbadja" 
 	}
 }
-DAI = {
-	male = {
-		names = {
-			"Bui An" "Nguyen" "Nguyen Phuoc" "Noang Cao" "Ton That" "Tran" "Truong" 
-		}
-	}
-	female = {
-		names = {
-			"Bich" "Hinh" "Lien" "Loan" "Mai" "Mai Loan" "Thanh" "Yen" 
-		}
-	}
-	surnames = {
-			"Le" "Ngo Dinh" "Pham" "Truong" "Truong-Minh" 
-	}
-}
-DAK = {
-	male = {
-		names = {
-			"Bakar" "Essomba" "Fifen" "Monjou" "Ndengue" "Ngapna" "Ngouhouno" "Nsangou" "Ntsama" "Omgba" 
-		}
-	}
-	female = {
-		names = {
-			"Aissa" "Assiga" "Djaili" "Edzimbi" "Nizpah" "Soukda" 
-		}
-	}
-	surnames = {
-			"Badl" "Bakri" "Dinar" "El-Fadl" "Ibrahim" "Khalid" "Madyan" "Tayrab" 
-	}
-}
 DEN = {
 	male = {
 		names = {
@@ -1006,95 +817,42 @@ DEN = {
 DFR = {
 	male = {
 		names = {
-			"Abd al-Rahman" "Abdallahi" "Abu" "Ahmad" "Ali" "Bulad" "Bush" "Daud" "Gibril" "Harun" "Hussein" 
-			"Jussuf" "Mohammed" "Sulayman" "Tunsam" "Umar Lel" "Zakaria" 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" 
+			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Ja’far" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" 
+			"Salim" "Sa’d al-Din" "Sa’ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
 		}
 	}
 	female = {
 		names = {
-			"Emtithal" "Halima" 
+			"Bahiya" "Fahda" "Ghaliyya" "Haifa" "Hamida" "Hassa" "Iffat" "Latifa" "Lolwah" "Maha" "Noura" 
+			"Sultana" 
 		}
 	}
 	surnames = {
-			"Keira" "al-Mahdi" 
-	}
-}
-DFT = {
-	male = {
-		names = {
-			"Bigomokero" "Birhenjira" "Kabare" "Makome" "Mwerve" "Ngabwe" "Rugema" "Rugemaninzi" "Rutanganda" "Souau" 
-		}
-	}
-	female = {
-		names = {
-			"Aissa" "Assiga" "Catarina" "Djaili" "Edzimbi" "Nizpah" "Soukda" 
-		}
-	}
-	surnames = {
-			"Atabong" "Beyala" "Boum" "Chinje" "Fomumbod" "Fotso" "Ngatansou" "Njeuma" 
-	}
-}
-DNK = {
-	male = {
-		names = {
-			"Abel" "Akex" "Alier" "Awino" "Ayak" "Bul" "Kiir" "Luol" "Mach" "Manute" "Manyang" 
-			"Nyankol" "Yar" 
-		}
-	}
-	female = {
-		names = {
-			"Ajok" "Aluat" "Ataui" "Nyandeng" 
-		}
-	}
-	surnames = {
-			"Ageerdit" "Akook" "Anyieth" "Arol" "Ayiec" "Ayuel" "Bol" "Juuk" "Kuai" "Maduot" "Malual" 
-			"Thiik" "Wek" 
+			"Badl" "Bakri" "Dinar" "El-Fadl" "Ibrahim" "Khalid" "Madyan" "Tayrab" 
 	}
 }
 ECU = {
 	male = {
 		names = {
-			"Abelardo" "Agustín" "Alberto" "Alfredo" "Antonio" "Atanasio" "Aurelio" "Bartolomé" "Camilo" "Diego" "Elias" 
-			"Enrique" "Eugénio" "Francisco" "Gabriel" "Genaro" "Gonazlo" "Guillermo" "Ignacio" "Jacinto" "Javier" "Jerónimo" "Joaquín" 
-			"José" "Juan" "Julio" "Leopoldo" "Leónidas" "Lino" "Lizardo" "Luis" "Manuel" "Mariano" "Martín" "Miguel" 
-			"Modesto" "Neptalí" "Nicolás" "Pablo" "Pacífico" "Pedro" "Plácido" "Rafaël" "Ramón" "Robert" "Roberto" "Tomás" 
-			"Vicente" "Vidal" "Ángel" 
+			"Antonio" "Camilo" "Carlos" "Cipriano" "Demetrio" "Diego" "Domingo" "Eloy" "Eusebio" "Eustorgio" "Ezequiel" 
+			"Federico" "Fernando" "Florentino" "Francisco Javier" "Francisco José" "Francisco de Paula" "Franciso" "Froilán" "Gabriel" "Gregorio" "Guillermo" "Gustavo" 
+			"Guzmán" "Hilario" "Ignacio" "Jerónimo" "Joaquín" "Jorge" "José Antonio" "José Manuel" "José María" "Juan" "Juan José" "Julio" 
+			"Julián" "León" "Manuel" "Pedro" "Plácido" "Rafael" "Raimundo" "Ramón" "Ricardo" "Rodolfo" "Santiago" "Santos" 
+			"Tadeo" "Tomás" "Vicente" 
 		}
 	}
 	female = {
 		names = {
-			"Ana" "Antonia" "Avelina" "Baltazara" "Carmen" "Catalina" "Clementina" "Diana" "Dolores" "Francisca" "Genara" 
-			"Ignacia" "Isabel" "Josefa" "Josefina" "Juana" "Lastenia" "Leonor" "Leticia" "Manuela" "Maria" "Mariana" "Mercedes" 
-			"Pastoriza" "Rosa" "Tomasa" 
+			"Ana" "Carmen" "Cecilia" "Dolores" "Gabriela" "Hipatia" "Lastenia" "Lorenza" "Magdalena" "Manuela" "Mariana" 
+			"Marieta" "Mercedes" "Narcisa" "Rita" "Rosa" "Teresa" "Zoila" 
 		}
 	}
 	surnames = {
-			"Acosta" "Aldaz" "Alfaro" "Angulo" "Arosemena" "Baquerizo" "Bastus" "Benítez" "Bonifaz" "Borja" "Borrero" 
-			"Bustamante" "Caamaño" "Carbo" "Carrión" "Carvajal" "Cevallos" "Chiriboga" "Cordero" "Crespo" "Córdova" "Eguez" "Eguiguren" 
-			"Elizalde" "Escobar" "Espinosa" "Estacio" "Estrada" "Fernández" "Figueroa" "Flores" "Franco" "García" "Guerrero" "Herrera" 
-			"Hurtado" "Iturralde" "Jaramillo" "Jijón" "Jurado" "Lanchazo" "Larrea" "León" "Lizarzaburu" "López" "Marín" "Montúfar" 
-			"Moreno" "Moscoso" "Mosquera" "Noboa" "Ortíz" "Pareja" "Plaza" "Portilla" "Pérez" "Quesada" "Quiñones Perez" "Rebollán" 
-			"Ribadeneira" "Robles" "Roca" "Rodríguez" "Ruiz" "Ruiz de Apodaca" "Salazar" "Salvador" "Santistevan" "Serrano" "Tabares" "Tamayo" 
-			"Tinajero" "Urbina" "Urvina" "Valdivieso" "Villacís" "Yépez" "Zaldumbide" "de Arteta" "de Ascásubi" "de Bejarano" "de Escudero Carrión" "de Marcos" 
-			"de Matheu" "de Olmedo" "de Veintemilla" "de la Torre" 
-	}
-}
-EGY = {
-	male = {
-		names = {
-			"Abdulhamid" "Abdullah" "Abdülkerim" "Ahmet" "Ali" "Bekir" "Cemal" "Enver" "Fevzi" "Fuat" "Halil" 
-			"Hasan" "Ibrahim" "Iskender" "Ismet" "Izzet" "Kamil" "Kazim" "Kemal" "Mehmet" "Murat" "Musa" "Mustafa" 
-			"Nazim" "Nurettin" "Nuri" "Omar" "Osman" "Rauf" "Rifat" "Selim" "Shukru" "Suleyman" "Urabi" "Yunus" 
-			"Yusuf" "Ziya" 
-		}
-	}
-	female = {
-		names = {
-			"Aisha" "Amina" "Maryam" "Nawal" "Nazli" "Raya" "Safinaz" "Sakina" "Salwa" "Tafika" "Zainab" 
-		}
-	}
-	surnames = {
-			"Bey" "Farid" "Pasha" "Sabri" "Zulficar" 
+			"Alfaro" "Andueza" "Arboleda" "Blanco" "Bonnet" "Boyd" "Caamaño" "Carreño" "Carrión" "Castro" "Chiari" 
+			"Cordero" "Crespo" "Daza" "Falcón" "Flores" "García" "González" "Gual" "Gutiérrez" "Gómez" "Herrán" "Hurtado" 
+			"López" "Mallarino" "Manjarrés" "Mariño" "Melo" "Monagas" "Moreno" "Núñez" "Obando" "Porras" "Páez" "Reyes" 
+			"Robles" "Rocafuerte" "Rojas" "Salgar" "Santander" "Soublette" "Urbina" "Villegas" "Zaldúa" 
 	}
 }
 ELS = {
@@ -1201,24 +959,6 @@ FIN = {
 			"Thesleff" "Tujulin" "Tuompo" "Valapuro" "Walden" "Wallenius" "Wetzer" "von Schoultz" "Öquist" "Österman" 
 	}
 }
-FNG = {
-	male = {
-		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
-		}
-	}
-	female = {
-		names = {
-			"Channa" "Dossou" "Mferri" 
-		}
-	}
-	surnames = {
-			"Atangana" "Kumong" "Ndi" "Nggam" "Nze Nzoughe" "Samba" "Tufoyn" "Yuh" 
-	}
-}
 FRA = {
 	male = {
 		names = {
@@ -1258,17 +998,18 @@ FRS = {
 FTR = {
 	male = {
 		names = {
-			"Al-Buri" "Ali Buri" "Amado" "Baka" "Bakan-Tam" "Birawa" "Birayamb" "Birayma" "Fara Penda" "Lat" "Mba" 
-			"Mbanyi" "Samba" "Taanor" 
+			"Abdullahi" "Abubakar" "Ahmadu" "Alfa" "Amadu" "Balobo" "Dan" "Malam" "Muhammed" "Seku" "Tidiani" 
+			"Tukur" "Umar" "Usman" "Yaqub" "Yusufu" 
 		}
 	}
 	female = {
 		names = {
-			"Aicha" "Fatim" "Fatoumata" "Ndaté Yalla" "Njembot" 
+			"Aisha" "Asmau" "Hadiza" "Saraki" "Turai" 
 		}
 	}
 	surnames = {
-			"Cisse" "Mbodj" "Ndiaye" "Niass" "Sall" 
+			"Aram" "Dior" "Khaari" "Koddu" "Kodu" "Ma-Dyigen" "N’Dyaye" "Paate" "Penda" "Peya" "Seeku" 
+			"Tam" "Yaago" 
 	}
 }
 GER = {
@@ -1298,44 +1039,6 @@ GER = {
 			"von Stockum-Sternfels" "von Struve" "von Stößer" "von Tegetthoff" "von Thurnberg" "von Täuffenbach" "von Uchatius" "von Vallade" "von Varnbüler" "von Waechter-Spittler" "von Waldburg-Zeil" "von Walderstötten" 
 			"von Wallbrunn" "von Weigert" "von Welsch" "von Winneberger" "von Wirthmann" "von Wittelsbach" "von Wrede" "von Wächter" "von Wöllwarth" "von Württemberg" "von Xylander" "von Zahringen" 
 			"von Zandt" "von Zu Rhein" "von Zwanziger" "von der Tann" "von der Tann-Rathsamhausen" "zu Hohenlohe" "zu Pappenheim" 
-	}
-}
-GGO = {
-	male = {
-		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
-		}
-	}
-	female = {
-		names = {
-			"Jokate" "Kajala" "Khalila" "Wema" "Yobnesh" 
-		}
-	}
-	surnames = {
-			"Bulungute" "Mirambo" "Mkasiwa" "Mnywasele" "Msemwa" "Mudimbe" 
-	}
-}
-GNI = {
-	male = {
-		names = {
-			"Aniceto" "Antonio" "Bartolomé" "Camilo" "Carlos" "Claudio" "David" "Emiliano" "Eugenio" "Felipe" "Fernando" 
-			"Félix" "Gregorio" "Jacinto" "Jesús" "José" "Juan" "Julio" "Luis" "Manuel" "Marcos" "Máximo" "Narciso" 
-			"Pablo" "Pedro" "Rodrigo" "Roque" "Simón" "Teodoro" "Víctor" 
-		}
-	}
-	female = {
-		names = {
-			"Adela" "Blanca" "Carola" "Celsa" "Eliza" "Ermelina" "Hercilia" "Lindaura" "Maria" "Modesta" "Sara" 
-			"Ubalda" "Veronica" 
-		}
-	}
-	surnames = {
-			"Abjaisu" "Ayegua" "Camba" "Chuaie" "Correa" "Cunhagatú" "Díaz" "Fernández" "Galeano" "González" "Guaracay" 
-			"Guaraní" "Guerrero" "Gómez" "Jopara" "López" "Mongelós" "Morla" "Ortíz" "Paravé" "Picagua" "Riquelme" "Rivarola" 
-			"Rodas" "Tarayú" "Torga" "Velázquez" "Yaguarete" "Yrahi" "Álvarez" 
 	}
 }
 GRE = {
@@ -1494,37 +1197,20 @@ HDJ = {
 			"al-Hashimi" "al-Maktoum" "al-Mualla" "al-Nuaimi" "al-Qasimi" "al-Rashid" "al-Saud" "al-Sharqi" "al-Ulayyan" 
 	}
 }
-HHE = {
+HND = {
 	male = {
 		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
+			"Champakaraman" "Chidambaram" "Dheeran" "Rajagopalachari" "Ramaswami" "Ramayyan" "Ramiengar" "Sathyamurthy" "Seshadri" "Seshayya" "Shanmukham" 
+			"Shungrasoobyer" "Subramania" "Vanchinathan" 
 		}
 	}
 	female = {
 		names = {
-			"Jokate" "Kajala" "Khalila" "Wema" "Yobnesh" 
+			"Nageswari" "Rajini" "Rani" "Rasamanohari" "Thangamma" 
 		}
 	}
 	surnames = {
-			"Bulungute" "Mirambo" "Mkasiwa" "Mnywasele" "Msemwa" "Mudimbe" 
-	}
-}
-HMB = {
-	male = {
-		names = {
-			"Banyingela" "Banza" "Ilunga" "Kalenga" "Kisempia" "Kisula" "Koloso" "Mabi" "Mauva" "Mosambaye" 
-		}
-	}
-	female = {
-		names = {
-			"Katana" "Kavidi" "Masika" "Moza" "Mudima" "Mwanakitata" "Neema" 
-		}
-	}
-	surnames = {
-			"Bihamba" "Katsuva" "Kazadi" "Mbangu" "Munsensa" "Muwayi" "Nyirambarato" "Pongo" "Sungilanga" 
+			"Bahadur" "Rao" "Sethupathi" "Tondaiman" 
 	}
 }
 HOL = {
@@ -1582,38 +1268,21 @@ HON = {
 			"Peralta" "Quiros" "Rosales" "Sevilla" "Sinibaldi" "Soto" "Terán" "Ubico" "Vasconcelos" "Vigil" "Zelaya" "Zeledón" 
 	}
 }
-HRO = {
+IBO = {
 	male = {
 		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mburumba" "Morathi" "Musawenkosi" 
-			"Obeth" "Raimi" "Razi" "Reth" "Samuel" "Vekuii" "Vipuakuje" 
+			"Anene" "Azuka" "Chiemeka" "Dibia" "Dumaka" "Elechi" "Enweleana" "Ewenetem" "Ikenna" "Jideofor" "Jiofo" 
+			"Mgbawa" "Nnaemeka" "Nnamdi" "Nnanna" "Nonyelum" "Obalike" "Obijiaku" "Oji" "Olaudah" "Onyeka" "Orji" "Rapuluchukwu" 
+			"Taabansi" "Udoka" "Zebenjo" "Zinachukwudi" 
 		}
 	}
 	female = {
 		names = {
-			"Inaviposa" "Kamboi" "Kanuni" "Kovambo" "Krotoa" "Neshani" "Penehupifo" "Tsakana" 
+			"Ahebi" "Awkusaku" "Chima" "Nwanyieze" "Nwaoluchi" "Nwaozichi" "Ugboaku" 
 		}
 	}
 	surnames = {
-			"Gamab" "Hamab" "Hanamab" "Khaumab" "Khomaa" "Manassee" "Nakhomab" "O-Naimab" "Oasmab" 
-	}
-}
-HYD = {
-	male = {
-		names = {
-			"Ishvari" "Jugal" "Lokendra" "Mahip" "Narayan" "Parbhu" "Pheran" "Prasan" "Raghuraj" "Udit" "Vijay" 
-			"Vishvanath" 
-		}
-	}
-	female = {
-		names = {
-			"Rani" "Rupamanjari" "Sampat" "Sheorajvati" 
-		}
-	}
-	surnames = {
-			"Abaqati" "Ijtihadi" "Naqvi" 
+			"Nnofo" "Nri" "Onuorah" "Ugbabe" "Wachuku" 
 	}
 }
 INS = {
@@ -1686,24 +1355,6 @@ ION = {
 			"Zervinis" "Zoumis" 
 	}
 }
-ISQ = {
-	male = {
-		names = {
-			"Aamir" "Abdi" "Abdikarim" "Aul" "Axmed" "Cabdi" "Cabdiqani" "Cabdulle" "Cali" "Cawad" "Cismaan" 
-			"Cumar" "Cusmaan" "Dalmar" "Faarax" "Ibraahim" "Ismaaciil" "Labaan" "Maddar Xirsi" "Maxamed" "Maxamuud" "Muuse" "Naleye" 
-			"Nuur Axmed" "Roble" "Shire" "Taban" "Xasan" "Xirsi Amaan" "Yuusuf" 
-		}
-	}
-	female = {
-		names = {
-			"Anisa" "Ebla" "Faduma" "Hasna" "Ilhan" "Jawahir" 
-		}
-	}
-	surnames = {
-			"Adeer" "Afrah" "Buqul" "Dekiye" "Dhoobow" "Doreh" "Galaal" "Gurey" "Hirsi" "Ibrahim" "Keenadiid" 
-			"Mujahid" "Qaalib" "Shixiri" "Xasan" "Yabarow" 
-	}
-}
 JAB = {
 	male = {
 		names = {
@@ -1743,22 +1394,6 @@ JAP = {
 			"Hayashi" "Ito" "Jutoku" "Kujo" "Matsudaira" "Mitsune" "Nabeshima" "Togo" "Tokugawa" 
 	}
 }
-JAS = {
-	male = {
-		names = {
-			"Bhagwant" "Bhai" "Durga" "Fateh" "Harsha" "Hayat" "Hussain" "Jawapala" "Malik" "Mirza Raja" "Muhammad" 
-			"Rai" "Rao" "Sardar" "Sawai" "Umar" "Veer" 
-		}
-	}
-	female = {
-		names = {
-			"Gayatri" "Indira" "Kishore" "Maji" "Marudhar" 
-		}
-	}
-	surnames = {
-			"Gujar" "Jethwa" "Kunwar" "Raksel" 
-	}
-}
 JMB = {
 	male = {
 		names = {
@@ -1788,7 +1423,7 @@ JOH = {
 		}
 	}
 	surnames = {
-			"Bendahara" "Jamalullail" "bin Nik" 
+			"Aadzam" "Bendahara" "Muadzam" "Murshidul" "Raja Ahmad" "Raja Inu" "Riayat Shah" "al-Khairat" "al-Marhum" 
 	}
 }
 KAL = {
@@ -1810,33 +1445,21 @@ KAL = {
 KAT = {
 	male = {
 		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
-			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Salim" "Sa’d al-Din" 
-			"Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" 
+			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Ja’far" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" 
+			"Salim" "Sa’d al-Din" "Sa’ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
 		}
 	}
 	female = {
 		names = {
-			"Bahira" "Fayza" "Ghalia" "Nadia" "Noura" "Samira" "Sulafa" "Zeina" "Zuhur" 
+			"Bahiya" "Fahda" "Ghaliyya" "Haifa" "Hamida" "Hassa" "Iffat" "Latifa" "Lolwah" "Maha" "Noura" 
+			"Sultana" 
 		}
 	}
 	surnames = {
-			"Al Faiz" "Al-Rahman Al-Gillani" "Nuseibeh" "al-Ali" "al-Atassi" "al-Atrash" "al-Azma" "al-Ghani al-Nabulsi" "al-Hiraki" "al-Zaydani" 
-	}
-}
-KBA = {
-	male = {
-		names = {
-			"Banyingela" "Banza" "Ilunga" "Kalenga" "Kisempia" "Kisula" "Koloso" "Mabi" "Mauva" "Mosambaye" 
-		}
-	}
-	female = {
-		names = {
-			"Katana" "Kavidi" "Masika" "Moza" "Mudima" "Mwanakitata" "Neema" 
-		}
-	}
-	surnames = {
-			"Bihamba" "Katsuva" "Kazadi" "Mbangu" "Munsensa" "Muwayi" "Nyirambarato" "Pongo" "Sungilanga" 
+			"Asmar" "Mokarzel" "al-Askari" "al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi" "al-Mawsili" "al-Nablusi" 
+			"al-Qudsi" "al-Shami" "ibm Kamil" "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" 
+			"ibn Ishaq" "ibn Ja’far" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" 
 	}
 }
 KHI = {
@@ -1889,29 +1512,6 @@ KOR = {
 			"Min" "Moon" "Na" "Namgung" "Park" "Seok" "Seong" "Shin" "Song" "Won" "Yi" 
 	}
 }
-KRA = {
-	male = {
-		names = {
-			"Adam" "Aleksander" "Antoni" "Bolesław" "Bonawentura" "Bronisław" "Dezydery" "Edmund" "Edward" "Emil" "Eustachy" 
-			"Felicjan" "Franciszek" "Gustaw" "Henryk" "Ignacy" "Jakub" "Jan" "Juliusz" "Józef" "Jędrzej" "Karol" "Kazimierz" 
-			"Klemens" "Konstanty" "Lech" "Leon" "Leopold" "Lucjan" "Ludwik" "Maciej" "Marceli" "Marian" "Mariusz" "Melchior" 
-			"Michał" "Mieczysław" "Rodryg" "Roman" "Romuald" "Samuel" "Stanisław" "Stefan" "Tadeusz" "Tomasz" "Wacław" "Wilhelm" 
-			"Witold" "Wojciech" "Władysław" "Zygmunt" 
-		}
-	}
-	female = {
-		names = {
-			"Anna" "Barbara" "Eleonora" "Elżbieta" "Emilia" "Ewelina" "Franciszka" "Gertruda" "Helena" "Izabela" "Józefa" 
-			"Karolina" "Konstancja" "Maria" "Marianna" "Paula" "Regina" "Stefania" "Teresa" "Urszula" "Zofia" 
-		}
-	}
-	surnames = {
-			"Bem" "Brzóska" "Bukowicz" "Chałasiński" "Chrzanowski" "Chłapowski" "Chłopicki " "Dembinski" "Drzymała" "Dąbrowski" "Fabrycy" 
-			"Idzikowski" "Jasiński" "Klicki" "Konopczyński" "Kozłowski" "Krukowiecki" "Kruszewski" "Langiewicz" "Madaliński" "Mierosławski" "Mikołajczyk" "Mokronowski" 
-			"Niepokółczycki" "Nowak" "Ostrowski" "Pac" "Poniatowski" "Prądzyński" "Rokossowski" "Rybiński" "Rózicky" "Sanguszko" "Skrzynecki" "Sowiński" 
-			"Sołtyk" "Taczanowski" "Traugutt" "Wawrzecki" "Wybicki" "Wysocki" "Zajączek" "Zamoyski" "Załuski" "Żeligowski" 
-	}
-}
 KRG = {
 	male = {
 		names = {
@@ -1928,23 +1528,6 @@ KRG = {
 	}
 	surnames = {
 			"Kasanda" "Watuta" "Zwagendaba" 
-	}
-}
-KSN = {
-	male = {
-		names = {
-			"Cakasekene" "Cikombe" "Cimbindu" "Kangapu" "Kaumba" "Mbala" "Mbumb" "Mudib" "Mulay" "Mushidi" "Mutand" 
-			"Muteba" "Nawej" "Waranankong" 
-		}
-	}
-	female = {
-		names = {
-			"Bulanda" "Mabela" "Mussasa" "Njinga" "Tembandumba" "Tshiambuaya" 
-		}
-	}
-	surnames = {
-			"Cilemo" "Cimbungu" "Cinene" "Hundungulu" "Kacingangu" "Kaneketela" "Kanene" "Kapusukusu" "Kiapungo" "Ndunduma" "Njambayamina" 
-			"Vasovava" "Yale" 
 	}
 }
 KTI = {
@@ -1979,38 +1562,24 @@ KUT = {
 			"Chaudhari" "Mangeshkar" 
 	}
 }
-KZM = {
-	male = {
-		names = {
-			"Cakasekene" "Cikombe" "Cimbindu" "Kangapu" "Kaumba" "Mbala" "Mbumb" "Mudib" "Mulay" "Mushidi" "Mutand" 
-			"Muteba" "Nawej" "Waranankong" 
-		}
-	}
-	female = {
-		names = {
-			"Bulanda" "Mabela" "Tshiambuaya" 
-		}
-	}
-	surnames = {
-			"Ditend" "Isot" "Kalong" "Kamong" "Kasang" "Kat" "Mukaz" "Muteba" "Nambing" "Namwan" "Naweej" 
-			"Yaava" 
-	}
-}
 LAH = {
 	male = {
 		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
-			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Salim" "Sa’d al-Din" 
-			"Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" 
+			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Ja’far" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" 
+			"Salim" "Sa’d al-Din" "Sa’ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
 		}
 	}
 	female = {
 		names = {
-			"Bahira" "Fayza" "Ghalia" "Nadia" "Noura" "Samira" "Sulafa" "Zeina" "Zuhur" 
+			"Bahiya" "Fahda" "Ghaliyya" "Haifa" "Hamida" "Hassa" "Iffat" "Latifa" "Lolwah" "Maha" "Noura" 
+			"Sultana" 
 		}
 	}
 	surnames = {
-			"Al Faiz" "Al-Rahman Al-Gillani" "Nuseibeh" "al-Ali" "al-Atassi" "al-Atrash" "al-Azma" "al-Ghani al-Nabulsi" "al-Hiraki" "al-Zaydani" 
+			"Asmar" "Mokarzel" "al-Askari" "al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi" "al-Mawsili" "al-Nablusi" 
+			"al-Qudsi" "al-Shami" "ibm Kamil" "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" 
+			"ibn Ishaq" "ibn Ja’far" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" 
 	}
 }
 LAN = {
@@ -2044,22 +1613,10 @@ LBA = {
 		}
 	}
 	surnames = {
-			"Benaïssa" "Djellouli" "El Djezairi" "al-Alawi" "ben Gana" 
-	}
-}
-LGA = {
-	male = {
-		names = {
-			"Banyingela" "Banza" "Ilunga" "Kalenga" "Kisempia" "Kisula" "Koloso" "Mabi" "Mauva" "Mosambaye" 
-		}
-	}
-	female = {
-		names = {
-			"Katana" "Kavidi" "Masika" "Moza" "Mudima" "Mwanakitata" "Neema" 
-		}
-	}
-	surnames = {
-			"Bihamba" "Katsuva" "Kazadi" "Mbangu" "Munsensa" "Muwayi" "Nyirambarato" "Pongo" "Sungilanga" 
+			"Deneche" "al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani" "al-Jaza’iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" 
+			"al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi" "al-Silawi" "al-Sirti" "al-Susawi" "al-Tanjawi" "al-Tatwani" "al-Tilimsani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi" "ibm Kamil" "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" 
+			"ibn Hisham" "ibn Ishaq" "ibn Ja’far" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" 
 	}
 }
 LIB = {
@@ -2099,38 +1656,6 @@ LIB = {
 			"Wells" "Wescott" "Wesley" "White" "Whitehurst" "Wiggins" "Wilkinson" "Williams" "Yancy" 
 	}
 }
-LND = {
-	male = {
-		names = {
-			"Cakasekene" "Cikombe" "Cimbindu" "Kangapu" "Kaumba" "Mbala" "Mbumb" "Mudib" "Mulay" "Mushidi" "Mutand" 
-			"Muteba" "Nawej" "Waranankong" 
-		}
-	}
-	female = {
-		names = {
-			"Bulanda" "Mabela" "Mussasa" "Njinga" "Tembandumba" "Tshiambuaya" 
-		}
-	}
-	surnames = {
-			"Cilemo" "Cimbungu" "Cinene" "Hundungulu" "Kacingangu" "Kaneketela" "Kanene" "Kapusukusu" "Kiapungo" "Ndunduma" "Njambayamina" 
-			"Vasovava" "Yale" 
-	}
-}
-LNG = {
-	male = {
-		names = {
-			"García" "Kenje" "Kivuzi" "Loembe" "Mfutila" "M’voudoukousala" "M’voumbe" "Nteve" "N’Gangue" "Poaty" "Pratt" 
-		}
-	}
-	female = {
-		names = {
-			"Beatriz" "Isabel" "Kimpa Vita" "Maria" 
-		}
-	}
-	surnames = {
-			"Lukeni" "Ma Nombo" "Ma N’Sangou" "Matou" "Mpanzu" "Mvemba" "Nimi" "Nsindi" "N’Gombi" 
-	}
-}
 LUA = {
 	male = {
 		names = {
@@ -2145,49 +1670,6 @@ LUA = {
 	}
 	surnames = {
 			"Luang Phrabang" "Ong" 
-	}
-}
-LUC = {
-	male = {
-		names = {
-			"Agostino" "Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Bartolomeo" "Benedetto" "Bernardino" 
-			"Bernardo" "Bonaventura" "Camillo" "Carlo" "Casimiro" "Cesare" "Costanzo" "Cristoforo" "Damiano" "Davide" "Domenico" "Efisio" 
-			"Emiliano" "Enrico" "Enzo" "Ernesto" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando" "Filiberto" "Filippo" 
-			"Fiorenzo" "Francesco" "Gaetano" "Gaspare" "Gennaro" "Giacomo" "Giorgio" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Ignazio" 
-			"Ilario" "Innocenzo" "Ippolito" "Leopoldo" "Lorenzo" "Luca" "Luigi" "Marco" "Massimo" "Matteo" "Maurizio" "Nicola" 
-			"Oreste" "Ottavio" "Paolo" "Pasquale" "Pietro" "Prospero" "Raffaele" "Roberto" "Romualdo" "Ruggiero" "Scipione" "Sebastiano" 
-			"Secondo" "Serafino" "Silvio" "Simone" "Tancredi" "Tommaso" "Ugo" "Umberto" "Urbano" "Vincenzo" "Vittorio" 
-		}
-	}
-	female = {
-		names = {
-			"Beatrice" "Camilla" "Cassandra" "Cristina" "Giovannella" "Livia" "Lucrezia" "Luisa" "Maddalena" "Maria" "Melania" 
-			"Metilde" "Sofia" "Teresa" 
-		}
-	}
-	surnames = {
-			"Annoni di Cerro" "Avogadro della Motta" "Avogadro di Casanova" "Baldassi" "Bon Compagni di Mombello" "Borghese" "Bottone di San Giuseppe" "Boyl di Putifigari" "Bronzini Zapelloni" "Capodilista" "Carniani" 
-			"Colli di Felizzano" "Colonna" "Costa de Beauregard" "Costa della Torre" "De Benedetti" "De Castro" "De Chambost" "De Ferrari" "De Marchi" "Falqui Pes" "Fecia di Cossato" "Ferrero La Marmora" 
-			"Gebaix de Sonnaz" "Girod De Montfalcon" "Massimo" "Moffa di Lisio Gribaldi" "Odescalchi" "Orsini" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pernati di Momo" "Petitti Bagliani di Roreto" 
-			"Ponzo di San Martino" "Ricardi di Netro" "Sacchetti" "Santa Croce Villahermosa" "Solaro della Margarita" "Solaroli di Briona" "Somis di Chavrie" "Thaon di Revel" "Toesca" "Torelli" "de Foresta" "de Launay" 
-			"de Martinel" "di Boglio" "di Calabiana" "di Robilant" "di Salmour" "di Savoia" "di Savoia-Aosta" "d’Alberti della Briga" "d’Arcais" "d’Azeglio" "d’Ittiri Ledà" 
-	}
-}
-LZO = {
-	male = {
-		names = {
-			"Ciasungu" "Cikunyu" "Cingi" "Ciponge" "Hungulu" "Kahala" "Kakembembe" "Kapoko" "Katuutire" "Kayangula" "Kinya" 
-			"Kongongolo" "Livonge" "Ngelo" "Nguvenge" "Vilombo" "Wambu" 
-		}
-	}
-	female = {
-		names = {
-			"Mussasa" "Njinga" "Tembandumba" 
-		}
-	}
-	surnames = {
-			"Cilemo" "Cimbungu" "Cinene" "Haingura" "Hundungulu" "Kacingangu" "Kaneketela" "Kanene" "Kapusukusu" "Kaura" "Kiapungo" 
-			"Mabuku" "Mamili" "Ndunduma" "Njambayamina" "Nyambe" "Simbwaye" "Vasovava" "Yale" 
 	}
 }
 MAD = {
@@ -2245,18 +1727,19 @@ MAK = {
 MAS = {
 	male = {
 		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
-			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Mahmud" "Muhammad" "Mustafa" "Nur al-Din" "Salim" 
-			"Sa’d al-Din" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
+			"Abd al-Karim" "Ahmed" "Khalid" "Muhammad" "Mustafa" 
 		}
 	}
 	female = {
 		names = {
-			"Aicha" "Amina" "Batoul" "Fadhma" "Nadia" "Souhila" "Touria" "Zina" 
+			"Fatima" "Khadija" "Khalida" "Malika" "Tassadit" "Zohra" 
 		}
 	}
 	surnames = {
-			"Benaïssa" "Djellouli" "El Djezairi" "al-Alawi" "ben Gana" 
+			"Deneche" "al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani" "al-Jaza’iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" 
+			"al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi" "al-Silawi" "al-Sirti" "al-Susawi" "al-Tanjawi" "al-Tatwani" "al-Tilimsani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi" "ibm Kamil" "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" 
+			"ibn Hisham" "ibn Ishaq" "ibn Ja’far" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" 
 	}
 }
 MEX = {
@@ -2303,8 +1786,8 @@ MGD = {
 		}
 	}
 	surnames = {
-			"Bacolod" "Baloi" "Bansayan" "Bayang" "Borocot" "Ditsaan" "Maribo" "Masiu" "Mastura" "Minitupad" "Pagayawan" 
-			"Ramain" "Rogan" "Taporog" 
+			"Akbar" "Ali" "Amin" "Asarul" "Bago" "Dimaporo" "Hashim" "Janjalani" "Jikiri" "Mangudadatu" "Sahidulla" 
+			"Sali" "Sulayman" "Usman" 
 	}
 }
 MJT = {
@@ -2343,37 +1826,6 @@ MKT = {
 			"Pitts" "Pym" "Rivera" "Robinson" "Warren" "Weaver" "Wood" 
 	}
 }
-MNB = {
-	male = {
-		names = {
-			"Banyingela" "Banza" "Ilunga" "Kalenga" "Kisempia" "Kisula" "Koloso" "Mabi" "Mauva" "Mosambaye" 
-		}
-	}
-	female = {
-		names = {
-			"Katana" "Kavidi" "Masika" "Moza" "Mudima" "Mwanakitata" "Neema" 
-		}
-	}
-	surnames = {
-			"Bihamba" "Katsuva" "Kazadi" "Mbangu" "Munsensa" "Muwayi" "Nyirambarato" "Pongo" "Sungilanga" 
-	}
-}
-MNC = {
-	male = {
-		names = {
-			"Banga" "Chinouyazue" "Chionesu" "Gamba" "Goredenna" "Mashama" "Mboro" "Muchaneta" "Mwanyisa" "Nyakambira" "Pepukayi" 
-			"Petiri" "Runako" "Sekayi" "Sundai" "Tichawonna" "Tohwechipi" "Zuka" 
-		}
-	}
-	female = {
-		names = {
-			"Charwe" "Danai" "Nyamazana" 
-		}
-	}
-	surnames = {
-			"Kwenda" "Lobengula" "Magaya" "Maraire" "Mlimo" "Muhuru" "Mzilikazi" "Soshangane" 
-	}
-}
 MOD = {
 	male = {
 		names = {
@@ -2393,11 +1845,25 @@ MOD = {
 		}
 	}
 	surnames = {
-			"Annoni di Cerro" "Avogadro della Motta" "Avogadro di Casanova" "Baldassi" "Bon Compagni di Mombello" "Borghese" "Bottone di San Giuseppe" "Boyl di Putifigari" "Bronzini Zapelloni" "Capodilista" "Carniani" 
-			"Colli di Felizzano" "Colonna" "Costa de Beauregard" "Costa della Torre" "De Benedetti" "De Castro" "De Chambost" "De Ferrari" "De Marchi" "Falqui Pes" "Fecia di Cossato" "Ferrero La Marmora" 
-			"Gebaix de Sonnaz" "Girod De Montfalcon" "Massimo" "Moffa di Lisio Gribaldi" "Odescalchi" "Orsini" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pernati di Momo" "Petitti Bagliani di Roreto" 
-			"Ponzo di San Martino" "Ricardi di Netro" "Sacchetti" "Santa Croce Villahermosa" "Solaro della Margarita" "Solaroli di Briona" "Somis di Chavrie" "Thaon di Revel" "Toesca" "Torelli" "de Foresta" "de Launay" 
-			"de Martinel" "di Boglio" "di Calabiana" "di Robilant" "di Salmour" "di Savoia" "di Savoia-Aosta" "d’Alberti della Briga" "d’Arcais" "d’Azeglio" "d’Ittiri Ledà" 
+			"Acton" "Agnes" "Airenti" "Albricci" "Amaretti" "Ara" "Arminjon" "Arnulfo" "Arrifo" "Asproni" "Astengo" 
+			"Avigdor" "Avondo" "Badoglio" "Baino" "Baldassi" "Baldissera" "Baratieri" "Barbier" "Bava-Beccaris" "Beldì" "Bellono" "Benci" 
+			"Benintendi" "Berruti" "Bersezio" "Berti" "Bertini" "Bertoldi" "Bezzi" "Biancheri" "Bianchetti" "Bianchi" "Billiet" "Blanc" 
+			"Bo" "Bolmida" "Bona" "Borella" "Botta" "Bottero" "Brignone" "Brofferio" "Brunati" "Brunet" "Brunier" "Bruschetti" 
+			"Buffa" "Buraggi" "Buttini" "Cabella" "Caboni" "Cadorna" "Cagni" "Cambieri" "Campana" "Canalis" "Canevaro" "Cantara" 
+			"Capello" "Capriolo" "Carquet" "Carta" "Casaretto" "Cassinis" "Castelli" "Cavalli" "Cavallini" "Caviglia" "Ceccherini" "Chenal" 
+			"Chiaves" "Chiò" "Cialdini" "Cobianchi" "Colli" "Cornero" "Correnti" "Corsi" "Costa" "Crosa" "Cugia" "Cusani" 
+			"Daziani" "Decandia" "Delfino" "Delitala" "Demaria" "Depretis" "Dezza" "Durando" "Emo" "Fanti" "Fara" "Farina" 
+			"Farini" "Ferraciu" "Fescot" "Filomarino" "Gallenga" "Gallisai" "Gallo" "Galvagno" "Garibaldi" "Gastinelli" "Genina" "Gerbore" 
+			"Germanetti" "Geymet" "Ghiglini" "Gianolio" "Giardino" "Gilardini" "Ginet" "Giovanola" "Govone" "Graffigna" "Grixoni" "Guglianetti" 
+			"Guillet" "Imperiali" "Isola" "La Màrmora" "Lachenal" "Lanza" "Louaraz" "Malan" "Mambretti" "Mameli" "Mamiani" "Mantelli" 
+			"Marassi" "Mari" "Marongiu" "Martelli" "Martin" "Mathieu" "Mautino" "Mazza" "Melegari" "Mellana" "Menabrea" "Mezzena" 
+			"Michelini" "Miglietti" "Miglioretti" "Minoglio" "Moia" "Mongellaz" "Monticelli" "Mossi" "Mozzoni" "Musso" "Naytana" "Niccolini" 
+			"Nino" "Notta" "Orengo" "Oytana" "Paleocapa" "Pallavicino" "Pallieri" "Pareto" "Pateri" "Pelloux" "Perruchetti" "Pescatore" 
+			"Peyrone" "Pezzani" "Piacenzi" "Piane" "Pianelli" "Picinelli" "Pistone" "Polleri" "Polto" "Porqueddu" "Porro" "Presbitero" 
+			"Pugioni" "Quaglia" "Ramorino" "Rattazzi" "Ravina" "Rezasco" "Riccardi" "Ricci" "Richetta" "Ricotti-Magnani" "Robecchi" "Roberti" 
+			"Rocci" "Rodini" "Rossi" "Rubin" "Sacchi" "Saletta" "Sanguineti" "Sanna" "Sanna Denti" "Sanna Sanna" "Sappa" "Saracco" 
+			"Sauli" "Scano" "Scapini" "Sella" "Serra" "Sineo" "Siotto Pintor" "Solari" "Spano" "Spinola" "Sulis" "Tecchio" 
+			"Tegas" "Tola" "Torelli" "Tuveri" "Vaccari" "Valerio" "Valvassori" "Vicari" "Zirio" "Zupelli" 
 	}
 }
 MOL = {
@@ -2440,56 +1906,6 @@ MOR = {
 			"Benaïssa" "Djellouli" "El Djezairi" "al-Alawi" "ben Gana" 
 	}
 }
-MRV = {
-	male = {
-		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
-		}
-	}
-	female = {
-		names = {
-			"Ambwene" "Taonere" "Tapiwa" "Temwa" 
-		}
-	}
-	surnames = {
-			"Chakwera" "Kalimakudzulu" "Malewezi" "Mbewe" "Mkunkhuntha" "Msume" "Mwale" "Phiri" "Tembo" 
-	}
-}
-MSH = {
-	male = {
-		names = {
-			"Banga" "Chinouyazue" "Chionesu" "Gamba" "Goredenna" "Mashama" "Mboro" "Muchaneta" "Mwanyisa" "Nyakambira" "Pepukayi" 
-			"Petiri" "Runako" "Sekayi" "Sundai" "Tichawonna" "Tohwechipi" "Zuka" 
-		}
-	}
-	female = {
-		names = {
-			"Charwe" "Danai" "Nyamazana" 
-		}
-	}
-	surnames = {
-			"Kwenda" "Lobengula" "Magaya" "Maraire" "Mlimo" "Muhuru" "Mzilikazi" "Soshangane" 
-	}
-}
-MSK = {
-	male = {
-		names = {
-			"Banga" "Chinouyazue" "Chionesu" "Gamba" "Goredenna" "Mashama" "Mboro" "Muchaneta" "Mwanyisa" "Nyakambira" "Pepukayi" 
-			"Petiri" "Runako" "Sekayi" "Sundai" "Tichawonna" "Tohwechipi" "Zuka" 
-		}
-	}
-	female = {
-		names = {
-			"Charwe" "Danai" "Nyamazana" 
-		}
-	}
-	surnames = {
-			"Kwenda" "Lobengula" "Magaya" "Maraire" "Mlimo" "Muhuru" "Mzilikazi" "Soshangane" 
-	}
-}
 MSN = {
 	male = {
 		names = {
@@ -2503,24 +1919,7 @@ MSN = {
 		}
 	}
 	surnames = {
-			"Bayero" "Denianke" "Ribadu" "Saraki" "Toorodi" "dan Fodio" 
-	}
-}
-MTB = {
-	male = {
-		names = {
-			"Atepa" "Chakoma" "Chapwanya" "Ebabruma" "Fambaltate" "Kapola" "Kapungu" "Kindunda" "Kinjalla" "Kinjikitile" "Kiwanga" 
-			"Magobi" "Mahengu" "Makhado" "Matola" "Mbemchapa" "Mbulaeni" "Mburu" "Mhavanginonya" "Mputa" "Namkina" "Ngosingosi" "Rinyizea" 
-			"Rjoroza" "Schabruma" "Sekonyela" "Sentambandu" "Songea" "Tshilidzi" "Uawula" "Ulanga" "Wasesse" 
-		}
-	}
-	female = {
-		names = {
-			"Fulu" "Matodzi" "Mmanthatisi" "Nthatisi" "Ntlo-Kholo" "Tsakane" 
-		}
-	}
-	surnames = {
-			"Kwenda" "Lobengula" "Magaya" "Maraire" "Mlimo" "Muhuru" "Mzilikazi" "Soshangane" 
+			"Amadu" "Bello" "Dadi" "Fodio" "Ibrahim" "Sa’id Tall" "Zaki" 
 	}
 }
 NAG = {
@@ -2540,22 +1939,6 @@ NAG = {
 			"Scindia" 
 	}
 }
-NAM = {
-	male = {
-		names = {
-			"Aruseb" "Autshumato" "Gabeb" "Gaob" "Gorakhab" "Hab" "Hanab" "Khaub" "Khomab" "Na-khom" "Nanseb" 
-			"Naresib" "O-Naib" "Oasib" "Tsawub" "Xamseb" 
-		}
-	}
-	female = {
-		names = {
-			"Inaviposa" "Kamboi" "Kanuni" "Krotoa" "Penehupifo" 
-		}
-	}
-	surnames = {
-			"Gamab" "Hamab" "Hanamab" "Khaumab" "Khomaa" "Manassee" "Nakhomab" "O-Naimab" "Oasmab" 
-	}
-}
 NEP = {
 	male = {
 		names = {
@@ -2570,29 +1953,6 @@ NEP = {
 	surnames = {
 			"Bahadur Rana" "Basnyat" "Bhandari" "Chautariya" "Koirala" "Kunwar" "Mahat" "Pande" "Rana" "Singh" "Singh Thapa" 
 			"Thapa" 
-	}
-}
-NIC = {
-	male = {
-		names = {
-			"Alejandro" "Andrés" "Aniceto" "Arturo" "Bartolomé" "Basilio" "Benito" "Benjamín" "Bernardo" "Carlos" "Daniel" 
-			"Diego" "Doroteo" "Eduardo" "Eugenio" "Felipe" "Fermín" "Fernando" "Francisco" "Fruto" "Félix" "Jacobo" "Jesús" 
-			"Joaquín" "Jorge" "José Francisco" "José María" "Juan" "Juan Antonio" "Juan Pablo" "Julio" "Justo" "Lisandro" "Lorenzo" "Manuel" 
-			"Marcelino" "Maximiliano" "Máximo" "Pedro" "Ponciano" "Próspero" "Rafael" "Ramón" "Santiago" "Sebastián" "Tiburcio" "Tomás" 
-			"Toribio" "Victoriano" "Óscar" 
-		}
-	}
-	female = {
-		names = {
-			"Alba" "Amanda" "Angela" "Bertha" "Clementina" "Consuelo" "Graciela" "Juana" "Julieta" "Leticia" "Lucila" 
-			"Miriam" "Paula" "Rigoberta" 
-		}
-	}
-	surnames = {
-			"Aguilar" "Andino" "Araújo" "Arbenz" "Barahona" "Barillas" "Barrios" "Cabañas" "Carrera" "Castellanos" "Chamorro" 
-			"Chávez" "Corral" "Cárdenas" "Esquivel" "Estrada" "Ezeta" "Fernández" "Ferrera" "Figueroa" "Garrigó" "Guzmán" "Güell" 
-			"Hernández" "Jerez" "Jiménez" "Leiva" "López" "Machado" "Martínez" "Medina" "Mejía" "Montes" "Montiel" "Palacios" 
-			"Peralta" "Quiros" "Rosales" "Sevilla" "Sinibaldi" "Soto" "Terán" "Ubico" "Vasconcelos" "Vigil" "Zelaya" "Zeledón" 
 	}
 }
 NOR = {
@@ -2623,40 +1983,6 @@ NOR = {
 			"Larsen" "Lie" "Loftesnæs" "Lund" "Lundegaard" "Moen" "Munthe" "Møller" "Mørch" "Nielsen" "Nilsen" "Olsen" 
 			"Pedersen" "Pettersen" "Rein" "Rolfsen" "Rye" "Schmidt" "Sissener" "Sørensen" "Thorsen" "Ueland" "Vika" "Weidemann" 
 			"Wiborg" "With" 
-	}
-}
-NUE = {
-	male = {
-		names = {
-			"Chol" "Dei" "Deng" "Diu" "Gai" "Hon" "Ngundeng" "Nyuon" "Ochan" "Pal" "Puot" 
-			"Ruai" "Tongyiik" 
-		}
-	}
-	female = {
-		names = {
-			"Kabon" "Zahra" 
-		}
-	}
-	surnames = {
-			"Anya-Nya" "Bany" "Chotper" "Gaach" "Juak" "Lieth" "Luth" "Nyuot" "Top" "Weiu" 
-	}
-}
-NYM = {
-	male = {
-		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
-		}
-	}
-	female = {
-		names = {
-			"Jokate" "Kajala" "Khalila" "Wema" "Yobnesh" 
-		}
-	}
-	surnames = {
-			"Bulungute" "Mirambo" "Mkasiwa" "Mnywasele" "Msemwa" "Mudimbe" 
 	}
 }
 OMA = {
@@ -2700,56 +2026,6 @@ ORA = {
 			"du Toit" "van Niekerk" "van Rensburg" "van Wyk" "van Zyl" "van den Berg" "van der Westhuizen" 
 	}
 }
-ORI = {
-	male = {
-		names = {
-			"Birakishoredeva" "Dibvyasimhadeva" "Gopinathdeva" "Harekrushnadeva" "Mukundadeva" "Padmanavadeva" "Ramachandradeva" 
-		}
-	}
-	female = {
-		names = {
-			"Bibhusita" "Giribala" "Laxmi" "Malati" "Parbati" "Ranjana" "Sanjukta" 
-		}
-	}
-	surnames = {
-			"Choudhury" "Das" 
-	}
-}
-OUA = {
-	male = {
-		names = {
-			"Abbas" "Abu" "Amira" "Asim" "Farraj" "Galib" "Hajib" "Hasan" "Hayyan" "Ibn Muhammad" "Jalaf" 
-			"Malamah" "Mansur" "Maymun" "Mujahid" "Mutarrif" "Nasr" "Tabit" "Tamim" "Tariq" "Ubada" "Ufayr" "Umar" 
-			"Wasil" "Yazid" "Yunus" "Zuhayr" 
-		}
-	}
-	female = {
-		names = {
-			"Fatima" "Sayyida" 
-		}
-	}
-	surnames = {
-			"Bajjah" "Firnas" "Khaldon" "Rushd" "Tufail" "Ziyad" "Zuhr" "al-Baitar" "al-Idrisi" "al-Majriti" "al-Qalasadi" 
-			"al-Rahman" "al-Zarqali" 
-	}
-}
-OVM = {
-	male = {
-		names = {
-			"Ciasungu" "Cikunyu" "Cingi" "Ciponge" "Hungulu" "Kahala" "Kakembembe" "Kapoko" "Kayangula" "Kinya" "Livonge" 
-			"Ngelo" "Nguvenge" "Vilombo" "Wambu" 
-		}
-	}
-	female = {
-		names = {
-			"Mussasa" "Njinga" "Tembandumba" 
-		}
-	}
-	surnames = {
-			"Cilemo" "Cimbungu" "Cinene" "Hundungulu" "Kacingangu" "Kaneketela" "Kanene" "Kapusukusu" "Kiapungo" "Ndunduma" "Njambayamina" 
-			"Vasovava" "Yale" 
-	}
-}
 OYO = {
 	male = {
 		names = {
@@ -2782,37 +2058,6 @@ PAN = {
 			"Bahadur" "Bhangi" "Singh" "Singh Dogra" 
 	}
 }
-PAP = {
-	male = {
-		names = {
-			"Agostino" "Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Bartolomeo" "Benedetto" "Bernardino" 
-			"Bernardo" "Bonaventura" "Camillo" "Carlo" "Casimiro" "Cesare" "Costanzo" "Cristoforo" "Damiano" "Davide" "Domenico" "Efisio" 
-			"Emiliano" "Enrico" "Enzo" "Ernesto" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando" "Filiberto" "Filippo" 
-			"Fiorenzo" "Francesco" "Gaetano" "Gaspare" "Gennaro" "Giacomo" "Giorgio" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Ignazio" 
-			"Ilario" "Innocenzo" "Ippolito" "Leopoldo" "Lorenzo" "Luca" "Luigi" "Marco" "Massimo" "Matteo" "Maurizio" "Nicola" 
-			"Oreste" "Ottavio" "Paolo" "Pasquale" "Pietro" "Prospero" "Raffaele" "Roberto" "Romualdo" "Ruggiero" "Scipione" "Sebastiano" 
-			"Secondo" "Serafino" "Silvio" "Simone" "Tancredi" "Tommaso" "Ugo" "Umberto" "Urbano" "Vincenzo" "Vittorio" 
-		}
-	}
-	female = {
-		names = {
-			"Beatrice" "Camilla" "Cassandra" "Cristina" "Giovannella" "Livia" "Lucrezia" "Luisa" "Maddalena" "Maria" "Melania" 
-			"Metilde" "Sofia" "Teresa" 
-		}
-	}
-	surnames = {
-			"Acclavio" "Alianelli" "Anfora" "Antonelli" "Assanti" "Avitabile" "Baldacchini" "Barberini-Colonna" "Bausan" "Benci" "Bianchini" 
-			"Bonaccorsi" "Bozzelli" "Briganti" "Campagna" "Capasso" "Capocci" "Caraga" "Carrascosa" "Cattaneo" "Chigi" "Cianciulli" "Clary" 
-			"Colletta" "Cosenz" "Costa" "Croce" "Cuoco" "Delfico" "Diaz" "Durini" "Fardella" "Fergola" "Ferrari" "Ferri" 
-			"Filangieri" "Filioli" "Forteguerri" "Fortunato" "Gagliardo" "Galdi" "Galletti" "Garzia" "Genoino" "Giannuzzi" "Gio" "Gironda" 
-			"Gravina" "Grifeo" "Guarini" "Gussone" "Imbriani" "Intonti" "Landi" "Lanza" "Lombardo" "Longobardi" "Lunardi" "Mezzacapo" 
-			"Milano" "Molinelli" "Morelli" "Naselli" "Nunziante" "Oliva" "Orsini" "Ottaviani" "Palmieri" "Parisi" "Parisio" "Paternò" 
-			"Pepe" "Persico" "Pianell" "Pignatelli" "Pionati" "Pironti" "Poerio" "Quandel" "Ricciardi" "Ritucci" "Romano" "Rosaroll" 
-			"Rosica" "Ruggiero" "Sannia" "Sansone" "Santangelo" "Scammacca" "Schipa" "Scialoja" "Scovazzo" "Settimo" "Silvati" "Statella" 
-			"Tafuri" "Tardio" "Tenore" "Tommasi" "Torelli" "Torlonia" "Troisi" "Troya" "Turrisi" "Valiante" "Vecchione" "Vernazza" 
-			"Vignale" "Zunica" "Zurlo" 
-	}
-}
 PAR = {
 	male = {
 		names = {
@@ -2828,31 +2073,12 @@ PAR = {
 		}
 	}
 	surnames = {
-			"Aceval" "Alfaro" "Alonso" "Alvarenga" "Alén" "Aquino" "Argüello" "Barboza" "Bareiro" "Barrios" "Bobadilla" 
-			"Bruguez" "Burgos" "Bãez" "Caballero" "Campos" "Carvallo" "Centurión" "Cervera" "Chirife" "Decoud" "Diaz" "Diez" 
-			"Domecq" "Dominguez" "Duarte" "Duplán" "Escalada" "Escobar" "Escurra" "Estigarribia" "Fernández" "Ferreira" "Franco" "Frutos" 
-			"Gaona" "García" "Gill" "Giménez" "Godoy" "Gondra" "González" "Insaurralde" "Irrazábal" "Jara" "Jovellanos" "López" 
-			"Machaín" "Mendoza" "Meza" "Miltos" "Mirando" "Montero" "Montiel" "Morinigo" "Márquez" "Navero" "Oviedo" "Paiva" 
-			"Parés" "Peña" "Ramos" "Resquín" "Riart" "Rivarola" "Robles" "Rojas" "Sisa" "Uriate" "Velázquez" "Vera" 
-	}
-}
-PAT = {
-	male = {
-		names = {
-			"Agustín" "Antonio" "Aquiles" "Arturo" "Aucán" "Aurelio" "Bernardo" "Carlos" "Claudio" "Diego" "Facundo" 
-			"Fernando" "Francisco" "Félix" "Gerardo" "Gregorio" "Hugo" "Ignacio" "José" "Juan" "Luis" "Manuel" "Marcos" 
-			"Martín" "Melchor" "Máximo" "Pedro" "Ramón" "Raúl" "Santiago" "Víctor" 
-		}
-	}
-	female = {
-		names = {
-			"Emilia" "Janequeo" "Juana" "Maria" "Rosario" "Ximena" 
-		}
-	}
-	surnames = {
-			"Aliwen" "Amuylifko" "Aukan" "Ayllapan" "Bravo" "Chiguay" "Cumin" "Curumilla" "Epulewfu" "Foyelkay" "Guaiquil" 
-			"Huichaman" "Ilwen" "Kayupi" "Kumlafken" "Kvlapi" "Leviñanco" "Lincoman" "Marifil" "Melifilu" "Millakoyam" "Millapani" "Nahuel" 
-			"Paillacar" "Pillancar" "Quelin" "Remultray" "Unquen" "Waikimill" "Yankvleufu" "Ñanku" 
+			"Aguirre" "Albizuri" "Avellaneda" "Balcarce" "Bareiro" "Berro" "Bramajo" "Brown" "Báez" "Caballero" "Condarco" 
+			"Cordero" "Corvalán" "Cruz" "Derqui" "Díaz" "Ellauri" "Escobar" "Esquivel" "Flores" "González" "Gómez" "Jonte" 
+			"Jovellanos" "Justo" "Juárez" "Latorre" "López" "Machaín" "Matorras" "Maza" "Medrano" "Meza" "Mitre" "Monteagudo" 
+			"Paz" "Pedernera" "Pellegrini" "Pereira" "Pinedo" "Prats" "Quintana" "Rivarola" "Rivera" "Roca" "Rodríguez" "Rojas" 
+			"Rondeau" "Santos" "Sarmineto" "Solano" "Sáenz" "Tajes" "Uriburu" "Vedoya" "Viamonte" "Vidal" "Villarino" "Warnes" 
+			"Yrigoyen" "Zapiola" 
 	}
 }
 PBC = {
@@ -2916,38 +2142,6 @@ PHI = {
 			"Ruete" "Ruiz" "Samitier" "Sanjurjo" "Saprissa" "Serrano" "Silvestre" "Terradas" "Topete" "Torralba" "Tuduri" "Valdés" 
 			"Vallana" "Varela" "Vela" "Vilalta" "Villapol" "Villar" "Villota" "Vázquez" "Weyler" "Yagüe" "Zabala" "Zamora" 
 			"Álvarez" 
-	}
-}
-PNG = {
-	male = {
-		names = {
-			"Epenisa" "Eroni" "Kanendjo" "Kaoua" "Lubati" "Raivalita" "Ralulu" "Rasolo" "Samuel" "Seru" "Taltai" 
-			"Tamavunisa" "Ti-Abel" "Ti-Quatchium" "Ti-Toorou" "Yavala" 
-		}
-	}
-	female = {
-		names = {
-			"Alanieta" "Manjula" "Noelene" "Salote" "Sarojini" "Tauta" 
-		}
-	}
-	surnames = {
-			"Banuve" "Cakobau" "Cokanauto" "Hortense" "Lakeba" "Loganimoce" "Qaraniqio" "Tupou" "Tyuienon" "Vendegou" 
-	}
-}
-PON = {
-	male = {
-		names = {
-			"Abdullah" "Al-Mukammal" "Ali" "Aziz" "Idris" "Isandar" "Ismail" "Jaafar" "Jalil" "Muabidin" "Muhammad" 
-			"Riayat" "Safiuddin" "Shahabuddin" "Tuanku" "Yusuf" 
-		}
-	}
-	female = {
-		names = {
-			"Adibah" "Aishah" "Faridah" "Fatimah" "Maimunah" "Nur Maznah" "Rafidah" "Zaharah" "Zaleha" 
-		}
-	}
-	surnames = {
-			"Bendahara" "Jamalullail" "bin Nik" 
 	}
 }
 POR = {
@@ -3051,6 +2245,46 @@ RAJ = {
 			"Trevelyan" "Troubridge" "Tyldesley" "Underdown" "Upton" "Vance" "Vandeleur" "Veitch" "Verner" "Vicars" "Vivian" "Walsh" 
 			"Waterhouse" "Waterlow" "Waugh" "Wedderburn" "Wedgwood" "Weguelin" "Wethered" "Whatman" "Wheatley" "Wheelhouse" "Whitbread" "Whitelaw" 
 			"Whitmore" "Whitworth" "Willan" "Williamson" "Willyams" "Wingate" "Winterbotham" "Wisden" "Woollcombe" "Wyllie" "Young" 
+	}
+}
+RSM = {
+	male = {
+		names = {
+			"Agostino" "Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Bartolomeo" "Benedetto" "Bernardino" 
+			"Bernardo" "Bonaventura" "Camillo" "Carlo" "Casimiro" "Cesare" "Costanzo" "Cristoforo" "Damiano" "Davide" "Domenico" "Efisio" 
+			"Emiliano" "Enrico" "Enzo" "Ernesto" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando" "Filiberto" "Filippo" 
+			"Fiorenzo" "Francesco" "Gaetano" "Gaspare" "Gennaro" "Giacomo" "Giorgio" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Ignazio" 
+			"Ilario" "Innocenzo" "Ippolito" "Leopoldo" "Lorenzo" "Luca" "Luigi" "Marco" "Massimo" "Matteo" "Maurizio" "Nicola" 
+			"Oreste" "Ottavio" "Paolo" "Pasquale" "Pietro" "Prospero" "Raffaele" "Roberto" "Romualdo" "Ruggiero" "Scipione" "Sebastiano" 
+			"Secondo" "Serafino" "Silvio" "Simone" "Tancredi" "Tommaso" "Ugo" "Umberto" "Urbano" "Vincenzo" "Vittorio" 
+		}
+	}
+	female = {
+		names = {
+			"Beatrice" "Camilla" "Cassandra" "Cristina" "Giovannella" "Livia" "Lucrezia" "Luisa" "Maddalena" "Maria" "Melania" 
+			"Metilde" "Sofia" "Teresa" 
+		}
+	}
+	surnames = {
+			"Acton" "Agnes" "Airenti" "Albricci" "Amaretti" "Ara" "Arminjon" "Arnulfo" "Arrifo" "Asproni" "Astengo" 
+			"Avigdor" "Avondo" "Badoglio" "Baino" "Baldassi" "Baldissera" "Baratieri" "Barbier" "Bava-Beccaris" "Beldì" "Bellono" "Benci" 
+			"Benintendi" "Berruti" "Bersezio" "Berti" "Bertini" "Bertoldi" "Bezzi" "Biancheri" "Bianchetti" "Bianchi" "Billiet" "Blanc" 
+			"Bo" "Bolmida" "Bona" "Borella" "Botta" "Bottero" "Brignone" "Brofferio" "Brunati" "Brunet" "Brunier" "Bruschetti" 
+			"Buffa" "Buraggi" "Buttini" "Cabella" "Caboni" "Cadorna" "Cagni" "Cambieri" "Campana" "Canalis" "Canevaro" "Cantara" 
+			"Capello" "Capriolo" "Carquet" "Carta" "Casaretto" "Cassinis" "Castelli" "Cavalli" "Cavallini" "Caviglia" "Ceccherini" "Chenal" 
+			"Chiaves" "Chiò" "Cialdini" "Cobianchi" "Colli" "Cornero" "Correnti" "Corsi" "Costa" "Crosa" "Cugia" "Cusani" 
+			"Daziani" "Decandia" "Delfino" "Delitala" "Demaria" "Depretis" "Dezza" "Durando" "Emo" "Fanti" "Fara" "Farina" 
+			"Farini" "Ferraciu" "Fescot" "Filomarino" "Gallenga" "Gallisai" "Gallo" "Galvagno" "Garibaldi" "Gastinelli" "Genina" "Gerbore" 
+			"Germanetti" "Geymet" "Ghiglini" "Gianolio" "Giardino" "Gilardini" "Ginet" "Giovanola" "Govone" "Graffigna" "Grixoni" "Guglianetti" 
+			"Guillet" "Imperiali" "Isola" "La Màrmora" "Lachenal" "Lanza" "Louaraz" "Malan" "Mambretti" "Mameli" "Mamiani" "Mantelli" 
+			"Marassi" "Mari" "Marongiu" "Martelli" "Martin" "Mathieu" "Mautino" "Mazza" "Melegari" "Mellana" "Menabrea" "Mezzena" 
+			"Michelini" "Miglietti" "Miglioretti" "Minoglio" "Moia" "Mongellaz" "Monticelli" "Mossi" "Mozzoni" "Musso" "Naytana" "Niccolini" 
+			"Nino" "Notta" "Orengo" "Oytana" "Paleocapa" "Pallavicino" "Pallieri" "Pareto" "Pateri" "Pelloux" "Perruchetti" "Pescatore" 
+			"Peyrone" "Pezzani" "Piacenzi" "Piane" "Pianelli" "Picinelli" "Pistone" "Polleri" "Polto" "Porqueddu" "Porro" "Presbitero" 
+			"Pugioni" "Quaglia" "Ramorino" "Rattazzi" "Ravina" "Rezasco" "Riccardi" "Ricci" "Richetta" "Ricotti-Magnani" "Robecchi" "Roberti" 
+			"Rocci" "Rodini" "Rossi" "Rubin" "Sacchi" "Saletta" "Sanguineti" "Sanna" "Sanna Denti" "Sanna Sanna" "Sappa" "Saracco" 
+			"Sauli" "Scano" "Scapini" "Sella" "Serra" "Sineo" "Siotto Pintor" "Solari" "Spano" "Spinola" "Sulis" "Tecchio" 
+			"Tegas" "Tola" "Torelli" "Tuveri" "Vaccari" "Valerio" "Valvassori" "Vicari" "Zirio" "Zupelli" 
 	}
 }
 RWA = {
@@ -3168,7 +2402,7 @@ SEL = {
 		}
 	}
 	surnames = {
-			"Bendahara" "Jamalullail" "bin Nik" 
+			"Aadzam" "Bendahara" "Muadzam" "Murshidul" "Raja Ahmad" "Raja Inu" "Riayat Shah" "al-Khairat" "al-Marhum" 
 	}
 }
 SER = {
@@ -3292,7 +2526,7 @@ SIK = {
 		}
 	}
 	surnames = {
-			"Lhalu" "Ngapoi" 
+			"Chöphel" "Dzasa" "Lungshar" "Rinpoche" "Shakabpa" "Shatra" "Tashi" "Wangyal" 
 	}
 }
 SIN = {
@@ -3342,25 +2576,7 @@ SMB = {
 		}
 	}
 	surnames = {
-			"Bendahara" "Jamalullail" "bin Nik" 
-	}
-}
-SNG = {
-	male = {
-		names = {
-			"Amadi" "Andikan" "Aren" "Averey" "Bahari" "Bakari" "Bash" "Bayode" "Bitalo" "Chane" "Chata" 
-			"Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni" "Ife" "Ilo" "Issay" 
-			"Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi" "Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" 
-			"Raimi" "Razi" "Reth" 
-		}
-	}
-	female = {
-		names = {
-			"Jokate" "Kajala" "Khalila" "Wema" "Yobnesh" 
-		}
-	}
-	surnames = {
-			"Bulungute" "Mirambo" "Mkasiwa" "Mnywasele" "Msemwa" "Mudimbe" 
+			"Aadzam" "Bendahara" "Muadzam" "Murshidul" "Raja Ahmad" "Raja Inu" "Riayat Shah" "al-Khairat" "al-Marhum" 
 	}
 }
 SOK = {
@@ -3474,6 +2690,24 @@ STG = {
 	}
 	surnames = {
 			"Bendahara" "Jamalullail" "bin Nik" 
+	}
+}
+SUD = {
+	male = {
+		names = {
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" 
+			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Ja’far" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" 
+			"Salim" "Sa’d al-Din" "Sa’ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
+		}
+	}
+	female = {
+		names = {
+			"Bahiya" "Fahda" "Ghaliyya" "Haifa" "Hamida" "Hassa" "Iffat" "Latifa" "Lolwah" "Maha" "Noura" 
+			"Sultana" 
+		}
+	}
+	surnames = {
+			"Ahmad" "Azrak" "Digna" "Hammuda" "Nujumi" "al-Tasashi" 
 	}
 }
 SUL = {
@@ -3602,25 +2836,6 @@ TBI = {
 			"Abd al-Aziz" "Abda al-Karim" "Arous" "Derret ibn Jawda" "al-Sharif" "as-Sarhir" "ibn Ali" "ibn Yusuf" 
 	}
 }
-THL = {
-	male = {
-		names = {
-			"Agustín" "Antonio" "Aquiles" "Arturo" "Aucán" "Aurelio" "Bernardo" "Carlos" "Claudio" "Diego" "Facundo" 
-			"Fernando" "Francisco" "Félix" "Gerardo" "Gregorio" "Hugo" "Ignacio" "José" "Juan" "Luis" "Manuel" "Marcos" 
-			"Martín" "Melchor" "Máximo" "Pedro" "Ramón" "Raúl" "Santiago" "Víctor" 
-		}
-	}
-	female = {
-		names = {
-			"Emilia" "Janequeo" "Juana" "Maria" "Rosario" "Ximena" 
-		}
-	}
-	surnames = {
-			"Aliwen" "Amuylifko" "Aukan" "Ayllapan" "Bravo" "Chiguay" "Cumin" "Curumilla" "Epulewfu" "Foyelkay" "Guaiquil" 
-			"Huichaman" "Ilwen" "Kayupi" "Kumlafken" "Kvlapi" "Leviñanco" "Lincoman" "Marifil" "Melifilu" "Millakoyam" "Millapani" "Nahuel" 
-			"Paillacar" "Pillancar" "Quelin" "Remultray" "Unquen" "Waikimill" "Yankvleufu" "Ñanku" 
-	}
-}
 TIB = {
 	male = {
 		names = {
@@ -3650,61 +2865,6 @@ TIG = {
 	}
 	surnames = {
 			"Agame" "Engida" "Woldu" 
-	}
-}
-TKE = {
-	male = {
-		names = {
-			"García" "Kenje" "Kivuzi" "Loembe" "Mfutila" "M’voudoukousala" "M’voumbe" "Nteve" "N’Gangue" "Poaty" "Pratt" 
-		}
-	}
-	female = {
-		names = {
-			"Beatriz" "Isabel" "Kimpa Vita" "Maria" 
-		}
-	}
-	surnames = {
-			"Lukeni" "Ma Nombo" "Ma N’Sangou" "Matou" "Mpanzu" "Mvemba" "Nimi" "Nsindi" "N’Gombi" 
-	}
-}
-TOS = {
-	male = {
-		names = {
-			"Agostino" "Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Bartolomeo" "Benedetto" "Bernardino" 
-			"Bernardo" "Bonaventura" "Camillo" "Carlo" "Casimiro" "Cesare" "Costanzo" "Cristoforo" "Damiano" "Davide" "Domenico" "Efisio" 
-			"Emiliano" "Enrico" "Enzo" "Ernesto" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando" "Filiberto" "Filippo" 
-			"Fiorenzo" "Francesco" "Gaetano" "Gaspare" "Gennaro" "Giacomo" "Giorgio" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Ignazio" 
-			"Ilario" "Innocenzo" "Ippolito" "Leopoldo" "Lorenzo" "Luca" "Luigi" "Marco" "Massimo" "Matteo" "Maurizio" "Nicola" 
-			"Oreste" "Ottavio" "Paolo" "Pasquale" "Pietro" "Prospero" "Raffaele" "Roberto" "Romualdo" "Ruggiero" "Scipione" "Sebastiano" 
-			"Secondo" "Serafino" "Silvio" "Simone" "Tancredi" "Tommaso" "Ugo" "Umberto" "Urbano" "Vincenzo" "Vittorio" 
-		}
-	}
-	female = {
-		names = {
-			"Beatrice" "Camilla" "Cassandra" "Cristina" "Giovannella" "Livia" "Lucrezia" "Luisa" "Maddalena" "Maria" "Melania" 
-			"Metilde" "Sofia" "Teresa" 
-		}
-	}
-	surnames = {
-			"Acton" "Agnes" "Airenti" "Albricci" "Amaretti" "Ara" "Arminjon" "Arnulfo" "Arrifo" "Asproni" "Astengo" 
-			"Avigdor" "Avondo" "Badoglio" "Baino" "Baldassi" "Baldissera" "Baratieri" "Barbier" "Bava-Beccaris" "Beldì" "Bellono" "Benci" 
-			"Benintendi" "Berruti" "Bersezio" "Berti" "Bertini" "Bertoldi" "Bezzi" "Biancheri" "Bianchetti" "Bianchi" "Billiet" "Blanc" 
-			"Bo" "Bolmida" "Bona" "Borella" "Botta" "Bottero" "Brignone" "Brofferio" "Brunati" "Brunet" "Brunier" "Bruschetti" 
-			"Buffa" "Buraggi" "Buttini" "Cabella" "Caboni" "Cadorna" "Cagni" "Cambieri" "Campana" "Canalis" "Canevaro" "Cantara" 
-			"Capello" "Capriolo" "Carquet" "Carta" "Casaretto" "Cassinis" "Castelli" "Cavalli" "Cavallini" "Caviglia" "Ceccherini" "Chenal" 
-			"Chiaves" "Chiò" "Cialdini" "Cobianchi" "Colli" "Cornero" "Correnti" "Corsi" "Costa" "Crosa" "Cugia" "Cusani" 
-			"Daziani" "Decandia" "Delfino" "Delitala" "Demaria" "Depretis" "Dezza" "Durando" "Emo" "Fanti" "Fara" "Farina" 
-			"Farini" "Ferraciu" "Fescot" "Filomarino" "Gallenga" "Gallisai" "Gallo" "Galvagno" "Garibaldi" "Gastinelli" "Genina" "Gerbore" 
-			"Germanetti" "Geymet" "Ghiglini" "Gianolio" "Giardino" "Gilardini" "Ginet" "Giovanola" "Govone" "Graffigna" "Grixoni" "Guglianetti" 
-			"Guillet" "Imperiali" "Isola" "La Màrmora" "Lachenal" "Lanza" "Louaraz" "Malan" "Mambretti" "Mameli" "Mamiani" "Mantelli" 
-			"Marassi" "Mari" "Marongiu" "Martelli" "Martin" "Mathieu" "Mautino" "Mazza" "Melegari" "Mellana" "Menabrea" "Mezzena" 
-			"Michelini" "Miglietti" "Miglioretti" "Minoglio" "Moia" "Mongellaz" "Monticelli" "Mossi" "Mozzoni" "Musso" "Naytana" "Niccolini" 
-			"Nino" "Notta" "Orengo" "Oytana" "Paleocapa" "Pallavicino" "Pallieri" "Pareto" "Pateri" "Pelloux" "Perruchetti" "Pescatore" 
-			"Peyrone" "Pezzani" "Piacenzi" "Piane" "Pianelli" "Picinelli" "Pistone" "Polleri" "Polto" "Porqueddu" "Porro" "Presbitero" 
-			"Pugioni" "Quaglia" "Ramorino" "Rattazzi" "Ravina" "Rezasco" "Riccardi" "Ricci" "Richetta" "Ricotti-Magnani" "Robecchi" "Roberti" 
-			"Rocci" "Rodini" "Rossi" "Rubin" "Sacchi" "Saletta" "Sanguineti" "Sanna" "Sanna Denti" "Sanna Sanna" "Sappa" "Saracco" 
-			"Sauli" "Scano" "Scapini" "Sella" "Serra" "Sineo" "Siotto Pintor" "Solari" "Spano" "Spinola" "Sulis" "Tecchio" 
-			"Tegas" "Tola" "Torelli" "Tuveri" "Vaccari" "Valerio" "Valvassori" "Vicari" "Zirio" "Zupelli" 
 	}
 }
 TRN = {
@@ -3754,22 +2914,6 @@ TTS = {
 			"di Sangro" "d’Albergo" "d’Ayala" "d’Escamard" "d’Urso" 
 	}
 }
-TUA = {
-	male = {
-		names = {
-			"Abareybon" "Ag Mama" "Ahmad" "Attici" "Aytarel" "Hasso" "In Tayaden" "Islaman" "Issouf" "Kiddu" "Majila" 
-			"Moussa" "Musa" 
-		}
-	}
-	female = {
-		names = {
-			"Malika" "Nina" "Safia" 
-		}
-	}
-	surnames = {
-			"ag Amastan" "ag Amellal" "ag Muhammad" "ag Sidi" "al-Hajj" 
-	}
-}
 TUG = {
 	male = {
 		names = {
@@ -3786,38 +2930,26 @@ TUG = {
 			"al-Shiluhi" "al-Zanatawi" 
 	}
 }
-TUN = {
-	male = {
-		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
-			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Mahmud" "Muhammad" "Mustafa" "Nur al-Din" "Salim" 
-			"Sa’d al-Din" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
-		}
-	}
-	female = {
-		names = {
-			"Aicha" "Amina" "Batoul" "Fadhma" "Nadia" "Souhila" "Touria" "Zina" 
-		}
-	}
-	surnames = {
-			"Benaïssa" "Djellouli" "El Djezairi" "al-Alawi" "ben Gana" 
-	}
-}
 TUR = {
 	male = {
 		names = {
-			"Abdulaziz" "Abdulhamid" "Abdulmejid" "Ahmet" "Bayezid" "Celaleddin" "Kemaleddin" "Mehmet" "Murad" "Nizameddin" "Nureddin" 
-			"Osman" "Suleyman" 
+			"Abdulhamid" "Abdullah" "Abdulrahim" "Abdülkerim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir" "Celaleddin" 
+			"Cemal" "Cevad" "Cevdet" "Daud" "Edhem" "Emin" "Enver" "Fahri" "Ferid" "Fevzi" "Fuat" "Hafiz" 
+			"Halil" "Halim" "Hamza" "Hasan" "Hayrullah" "Husrev" "Ibrahim" "Iskender" "Ismet" "Izzet" "Kamil" "Kazim" 
+			"Kemal" "Lutfi" "Mahmut" "Mehmet" "Mithat" "Muhtar" "Murat" "Musa" "Mustafa" "Namik" "Nazim" "Numan" 
+			"Nurettin" "Nuri" "Omar" "Osman" "Pertev" "Rauf" "Receb" "Refet" "Reshad" "Rifat" "Riza" "Sabaheddin" 
+			"Said" "Selim" "Shevket" "Shukru" "Suleyman" "Talat" "Tevfik" "Vefik" "Yunus" "Yusuf" "Ziya" "Ziyauddin" 
 		}
 	}
 	female = {
 		names = {
-			"Atiye" "Cemile" "Düzdidil" "Edadil" "Emine" "Fatma" "Mihrimah" "Pertevniyal" "Saliha" "Şehsuvar" 
+			"Ayşe" "Emina" "Fatma" "Hatice" "Kap-Ipha" "Mihrengiz" "Nurefsun" "Sadika" "Saffet" "Samiye" "Seniye" 
+			"Zeliha" "Şefika" 
 		}
 	}
 	surnames = {
-			"Ankuap" "Arpazli" "Balyan" "Benderli" "Cengic" "Karaosmanoglu" "Köprülü" "Maan" "Marshan" "Osmanoglu" "Talhosten" 
-			"Voçibe" "Çihçi" "Şakir" 
+			"Akbaş" "Bey" "Burhan" "Eczacibashi" "Engineri" "Erçman" "Hasagasi" "Koç" "Koşalay" "Manas" "Mulos" 
+			"Pasha" "Sabanci" "Taymur" "Yalaz" "Çakin" "Özal" 
 	}
 }
 UAE = {
@@ -3838,6 +2970,29 @@ UAE = {
 			"al-Hashimi" "al-Maktoum" "al-Mualla" "al-Nuaimi" "al-Qasimi" "al-Rashid" "al-Saud" "al-Sharqi" "al-Ulayyan" 
 	}
 }
+UCA = {
+	male = {
+		names = {
+			"Alejandro" "Andrés" "Aniceto" "Arturo" "Bartolomé" "Basilio" "Benito" "Benjamín" "Bernardo" "Carlos" "Daniel" 
+			"Diego" "Doroteo" "Eduardo" "Eugenio" "Felipe" "Fermín" "Fernando" "Francisco" "Fruto" "Félix" "Jacobo" "Jesús" 
+			"Joaquín" "Jorge" "José Francisco" "José María" "Juan" "Juan Antonio" "Juan Pablo" "Julio" "Justo" "Lisandro" "Lorenzo" "Manuel" 
+			"Marcelino" "Maximiliano" "Máximo" "Pedro" "Ponciano" "Próspero" "Rafael" "Ramón" "Santiago" "Sebastián" "Tiburcio" "Tomás" 
+			"Toribio" "Victoriano" "Óscar" 
+		}
+	}
+	female = {
+		names = {
+			"Alba" "Amanda" "Angela" "Bertha" "Clementina" "Consuelo" "Graciela" "Juana" "Julieta" "Leticia" "Lucila" 
+			"Miriam" "Paula" "Rigoberta" 
+		}
+	}
+	surnames = {
+			"Aguilar" "Andino" "Araújo" "Arbenz" "Barahona" "Barillas" "Barrios" "Cabañas" "Carrera" "Castellanos" "Chamorro" 
+			"Chávez" "Corral" "Cárdenas" "Esquivel" "Estrada" "Ezeta" "Fernández" "Ferrera" "Figueroa" "Garrigó" "Guzmán" "Güell" 
+			"Hernández" "Jerez" "Jiménez" "Leiva" "López" "Machado" "Martínez" "Medina" "Mejía" "Montes" "Montiel" "Palacios" 
+			"Peralta" "Quiros" "Rosales" "Sevilla" "Sinibaldi" "Soto" "Terán" "Ubico" "Vasconcelos" "Vigil" "Zelaya" "Zeledón" 
+	}
+}
 UGA = {
 	male = {
 		names = {
@@ -3852,7 +3007,7 @@ UGA = {
 		}
 	}
 	surnames = {
-			"Abalasangeye" "Bagalayze" "Butiko" "Ffumbe" "Lugave" 
+			"Mmamba" "Ndiga" "Ngabi" "Ngo" "Ngonge" "Njovu" "Nseenene" 
 	}
 }
 URG = {
@@ -4016,22 +3171,6 @@ WES = {
 			"al-Shiluhi" "al-Zanatawi" 
 	}
 }
-WLG = {
-	male = {
-		names = {
-			"Abadula" "Abdus" "Ahmad" "Alemayehu" "Debela" "Dirribi" "Galasa" "Gobana" "Hailu" "Heile" "Ras" 
-			"Tilahun" "Tsegaye" "Waqo" "Yilma" 
-		}
-	}
-	female = {
-		names = {
-			"Kameria" "Maryam" "Tirunesh" 
-		}
-	}
-	surnames = {
-			"Dinagde" "Qallu" "Safo" 
-	}
-}
 WSG = {
 	male = {
 		names = {
@@ -4046,83 +3185,46 @@ WSG = {
 		}
 	}
 	surnames = {
-			"Diiriye" "Gareen" "Gobroon" "Keenadiid" "Majerteen" "Sugulle" "Walashma" "Warsangali" "Yabarow" 
+			"Adeer" "Afrah" "Buqul" "Dekiye" "Dhoobow" "Doreh" "Galaal" "Gurey" "Hirsi" "Ibrahim" "Keenadiid" 
+			"Mujahid" "Qaalib" "Shixiri" "Xasan" "Yabarow" 
 	}
 }
-YKA = {
+YUE = {
 	male = {
 		names = {
-			"García" "Kenje" "Kivuzi" "Loembe" "Mfutila" "M’voudoukousala" "M’voumbe" "Nteve" "N’Gangue" "Poaty" "Pratt" 
+			"Chen" "Cheng" "Deng" "Dong" "Gao" "Hsia" "Hu" "Huang" "Kong" "Kwong" "Li" 
+			"Liang" "Liao" "Liu" "Luo" "Ma" "Mao" "Pan" "Tan" "Wang" "Xie" "Yang" "Yu" 
+			"Zhang" "Zhu" 
 		}
 	}
 	female = {
 		names = {
-			"Beatriz" "Bulanda" "Isabel" "Kimpa Vita" "Mabela" "Maria" "Tshiambuaya" 
+			"Akew" "Jin" "Jinhong" "Junying" "Qingtang" "Sanniang" "Shanziang" "Shih" "Taiqing" "Xiefen" "Xiugu" 
+			"Xuanjiao" "Yu" "Yunmei" 
 		}
 	}
 	surnames = {
-			"Ditend" "Isot" "Kalong" "Kamong" "Kasang" "Kat" "Mukaz" "Muteba" "Nambing" "Namwan" "Naweej" 
-			"Yaava" 
-	}
-}
-YOG = {
-	male = {
-		names = {
-			"Antasena" "Dorodjatun" "Duksina" "Gathot Menol" "Ibnu Jarot" "Kuseini" "Malikis Solikin" "Murtejo" "Mustojo" "Sapardan" "Sayyidin Malikul Kusna" 
-			"Subadya" "Sugandi" "Sujadi" "Sujana" "Sundoro" "Surojo" 
-		}
-	}
-	female = {
-		names = {
-			"Megawati" "Siti" "Soepiah" "Soimah" "Sunarti" "Tatiek" "Yayuk" 
-		}
-	}
-	surnames = {
-			"Cakraningrat" "Djajadiningrat" "Djojohadikusumo" "Hamengkubuwono" "Notomidjojo" "Pakualaman" "Sastrowardoyo" "Soerjowinoto" 
+			"Cui" "Li" "Nie" "Zhang" 
 	}
 }
 Z00 = {
 	male = {
 		names = {
-			"Agostino" "Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Bartolomeo" "Benedetto" "Bernardino" 
-			"Bernardo" "Bonaventura" "Camillo" "Carlo" "Casimiro" "Cesare" "Costanzo" "Cristoforo" "Damiano" "Davide" "Domenico" "Efisio" 
-			"Emiliano" "Enrico" "Enzo" "Ernesto" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando" "Filiberto" "Filippo" 
-			"Fiorenzo" "Francesco" "Gaetano" "Gaspare" "Gennaro" "Giacomo" "Giorgio" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Ignazio" 
-			"Ilario" "Innocenzo" "Ippolito" "Leopoldo" "Lorenzo" "Luca" "Luigi" "Marco" "Massimo" "Matteo" "Maurizio" "Nicola" 
-			"Oreste" "Ottavio" "Paolo" "Pasquale" "Pietro" "Prospero" "Raffaele" "Roberto" "Romualdo" "Ruggiero" "Scipione" "Sebastiano" 
-			"Secondo" "Serafino" "Silvio" "Simone" "Tancredi" "Tommaso" "Ugo" "Umberto" "Urbano" "Vincenzo" "Vittorio" 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
+			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Mahmud" "Muhammad" "Mustafa" "Nur al-Din" "Salim" 
+			"Sa’d al-Din" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
 		}
 	}
 	female = {
 		names = {
-			"Beatrice" "Camilla" "Cassandra" "Cristina" "Giovannella" "Livia" "Lucrezia" "Luisa" "Maddalena" "Maria" "Melania" 
-			"Metilde" "Sofia" "Teresa" 
+			"Aicha" "Amina" "Batoul" "Fadhma" "Nadia" "Souhila" "Touria" "Zina" 
 		}
 	}
 	surnames = {
-			"Annoni di Cerro" "Avogadro della Motta" "Avogadro di Casanova" "Baldassi" "Bon Compagni di Mombello" "Borghese" "Bottone di San Giuseppe" "Boyl di Putifigari" "Bronzini Zapelloni" "Capodilista" "Carniani" 
-			"Colli di Felizzano" "Colonna" "Costa de Beauregard" "Costa della Torre" "De Benedetti" "De Castro" "De Chambost" "De Ferrari" "De Marchi" "Falqui Pes" "Fecia di Cossato" "Ferrero La Marmora" 
-			"Gebaix de Sonnaz" "Girod De Montfalcon" "Massimo" "Moffa di Lisio Gribaldi" "Odescalchi" "Orsini" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pernati di Momo" "Petitti Bagliani di Roreto" 
-			"Ponzo di San Martino" "Ricardi di Netro" "Sacchetti" "Santa Croce Villahermosa" "Solaro della Margarita" "Solaroli di Briona" "Somis di Chavrie" "Thaon di Revel" "Toesca" "Torelli" "de Foresta" "de Launay" 
-			"de Martinel" "di Boglio" "di Calabiana" "di Robilant" "di Salmour" "di Savoia" "di Savoia-Aosta" "d’Alberti della Briga" "d’Arcais" "d’Azeglio" "d’Ittiri Ledà" 
+			"Benaïssa" "Djellouli" "El Djezairi" "al-Alawi" "ben Gana" 
 	}
 }
 Z01 = {
-	male = {
-		names = {
-			"Ilunga" "Kasongo" "Kisula" "Kitamba" "Kumwimba" "Maloba" "Maniema" "Nday" "Ndaye" "Umpafu" 
-		}
-	}
-	female = {
-		names = {
-			"Bulanda" "Mabela" "Tshiambuaya" 
-		}
-	}
-	surnames = {
-			"Kabale" "Kalombo" "Konkola" "Kukaya" "Mande" "Muzinga" "Ngombe" "Nsungu" "Nyembo" 
-	}
-}
-Z02 = {
 	male = {
 		names = {
 			"Abel" "Acton" "Adam" "Adolphus" "Adrian" "Alan" "Albert" "Alexander" "Alfred" "Algernon" "Allen" 
@@ -4183,7 +3285,62 @@ Z02 = {
 			"Walker" "Wardrop" "Watson" "Whigham" "Wilson" "Wise" "Wood" "Wright" "Young" 
 	}
 }
+Z02 = {
+	male = {
+		names = {
+			"Albert" "Ernst" "Franz" "Félix" "Karl" "Karl Ludwig" "Ludwig" "Maximilian" "Otto" "Rudolf" 
+		}
+	}
+	female = {
+		names = {
+			"Adelheid" "Amalie" "Charlotte" "Elisabeth" "Eugénie" "Gisela" "Maria Josepha" "Maria Theresia" "Sophie" "Theresia" 
+		}
+	}
+	surnames = {
+			"Cotta von Cottendorf" "Hofer von Lobenstein" "Keller von Schleitheim" "Kreß von Kressenstein" "Leutrum von Ertingen" "Poschinger von Frauenau" "Rinck von Baldenstein" "Rüdt von Collenberg" "Schnorr von Carolsfeld" "Vogt von Hunoltstein" "d’Aspre von Hoobreuk" 
+			"von Adelmann" "von Andlaw-Birseck" "von Baader" "von Baden" "von Baligand" "von Benedek" "von Benzino" "von Berchem" "von Berlichingen" "von Bibra" "von Binder" "von Bissingen-Nippenburg" 
+			"von Bomhard" "von Bosch" "von Bothmer" "von Brudermann" "von Brug" "von Buß" "von Böhm-Ermolli" "von Clam-Gallas" "von Closen" "von Crailsheim" "von Denis" "von Deroy" 
+			"von Diemar" "von Dietrich" "von Dürckheim-Montmartin" "von Düwell" "von Endres" "von Fels" "von Fleischmann" "von Fleury auf Hilling" "von Fray" "von Freyberg-Eisenberg" "von Freyen-Seyboltstorff" "von Fritsch" 
+			"von Froberg-Montjoye" "von Gablenz" "von Gebsattel" "von Geldern" "von Giech" "von Godin" "von Gonnermann" "von Gramich" "von Grauvogl" "von Gravenreuth" "von Greis" "von Großschedel" 
+			"von Grünne" "von Gumppenberg" "von Gyßling" "von Göriz" "von Habsburg" "von Hafner" "von Hagens" "von Hartmann" "von Hartz" "von Haynau" "von Hegnenberg-Dux" "von Helmholtz" 
+			"von Helvig" "von Herder" "von Hertel" "von Hertling" "von Heß" "von Hohenhausen" "von Hohenlohe-Langenburg" "von Hohenlohe-Öhringen" "von Horn" "von Hornstein-Bußmannshausen" "von Hortstein" "von Hoyos-Sprinzenstein" 
+			"von Hötzendorf" "von Itzstein" "von Jeetze" "von Kettner" "von Kirbach" "von Kobratin" "von La Roche-Starkenfels" "von Le Bret-Nucourt" "von Le Suire" "von Leonrod" "von Lepel" "von Lindheimer" 
+			"von Lossow" "von Lotzbeck" "von Madroux" "von Maffei" "von Maillinger" "von Malaisé" "von Massenbach" "von Mayersbach" "von Meldegg" "von Menz" "von Mieg" "von Mohl" 
+			"von Montgelas" "von Nagel zu Aichberg" "von Neipperg" "von Nesselrode-Hugenpoet" "von Neubeck" "von Oettingen-Wallerstein" "von Parseval" "von Pauli" "von Pechmann" "von Pfetten-Arnbach" "von Pfeufer" "von Pillement" 
+			"von Pranckh" "von Preysing-Moos" "von Quadt-Wykradt-Isny" "von Rechberg" "von Reichlin-Meldegg" "von Reysing" "von Rinecker" "von Rochau" "von Rotenhan" "von Ruckteschell" "von Römer" "von Safferling" 
+			"von Saporta" "von Scherer" "von Schuh" "von Schönborn-Wiesentheid" "von Schönburg" "von Schönprunn" "von Seutter" "von Seyssel d’Aix" "von Soiron" "von Speti" "von Sternenfels" "von Stockhorner-Starein" 
+			"von Stockum-Sternfels" "von Struve" "von Stößer" "von Tegetthoff" "von Thurnberg" "von Täuffenbach" "von Uchatius" "von Vallade" "von Varnbüler" "von Waechter-Spittler" "von Waldburg-Zeil" "von Walderstötten" 
+			"von Wallbrunn" "von Weigert" "von Welsch" "von Winneberger" "von Wirthmann" "von Wittelsbach" "von Wrede" "von Wächter" "von Wöllwarth" "von Württemberg" "von Xylander" "von Zahringen" 
+			"von Zandt" "von Zu Rhein" "von Zwanziger" "von der Tann" "von der Tann-Rathsamhausen" "zu Hohenlohe" "zu Pappenheim" 
+	}
+}
 Z03 = {
+	male = {
+		names = {
+			"Abel" "Adriano" "Afonso" "Alberto" "Alexandre" "Alfredo" "André" "António" "Aquilino" "Artur" "Augusto" 
+			"Bartolomeu" "Bernardo" "Bruno" "Caetano" "Carlos" "Christovão" "Cláudio" "Cândido" "Damião" "Daniel" "David" "Dinis" 
+			"Diogo" "Duarte" "Ernesto" "Estêvão" "Eugénio" "Fernando" "Filipe" "Francisco" "Francisco Xavier" "Gastão" "Hermenegildo" "Ignácio" 
+			"Jerónimo" "Joaquim" "Jorge" "José" "João" "Júlio" "Leopoldo" "Luís" "Manuel" "Miguel" "Mário" "Nicolau" 
+			"Nuno" "Orlando" "Pascoal" "Paulo" "Pedro" "Rafael" "Raul" "Roberto" "Rodrigo" "Rui" "Santiago" "Sebastião" 
+			"Teodoro" "Teófilo" "Tiago" "Tomé" "Urbano" "Vasco" "Vicente" "Vitorino" "Vitório" "Álvaro" "Óscar" 
+		}
+	}
+	female = {
+		names = {
+			"Adelgundes" "Ana" "Antónia" "Avelina" "Benedita" "Bernardina" "Carlota" "Eulália" "Francisca" "Gabriela" "Isabel" 
+			"Joana" "Joaquina" "Josefa" "Leopoldina" "Lourcenca" "Maria" "Micaela" "Rafaela" "Rita" "Rosa" "Sofia" "Teresa" 
+		}
+	}
+	surnames = {
+			"Amaral" "Barreto" "Bleck" "Braga" "Cabral" "Capelo" "Carmona" "Coelho" "Correia" "Coutinho" "Dias" 
+			"Fernandes" "Ferreira" "Figueira" "Freire de Andrade" "Gago" "Gil" "Gomes" "Herculano" "Ivens" "Keil" "Lopes" "Machado" 
+			"Magalhães" "Mendes" "Moniz" "Mouzinho" "Nogueira" "Nunes" "Ortigão" "Pereira" "Pinheiro" "Pinto" "Pires" "Pomar" 
+			"Pulido" "Queiroz" "Quintanilha" "Ribeiro" "Rodrigues" "Salazar" "Sampaio" "Silveira" "Sérgio" "Tavares" "Teixeira" "Vidigal" 
+			"Vieira" "da Silva" "de Almeida" "de Arriaga" "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Paiva" "dos Reis" 
+			"dos Santos" 
+	}
+}
+Z04 = {
 	male = {
 		names = {
 			"Abel" "Achille" "Adolphe" "Adrien" "Aimable" "Albéric" "Alcide" "Alexandre" "Alexis" "Alphonse" "Ambroise" 
@@ -4233,7 +3390,7 @@ Z03 = {
 			"Warnet" "Wattelier" "Winant" "de Castellane" "de Gaulle" "de Montaignac" "de Saint Arnaud" "d’Hilliers" 
 	}
 }
-Z04 = {
+Z05 = {
 	male = {
 		names = {
 			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Bruno" "Burkhard" "Dieter" "Eduard" 
@@ -4269,146 +3426,70 @@ Z04 = {
 			"Tafel" "Teutsch" "Titus" "Trient" "Trunk" "Uhland" "Ullrich" "Unglaub" "Usselmann" "Veiel" "Völcker" "Wagner" 
 			"Walchner" "Weiß-Jonak" "Welcker" "Weller" "Welte" "Werner" "Wiedmann" "Willich" "Winter" "Wittmann" "Wolf" "Zeller" 
 			"Zenger" "Zentner" "Zerreiß" "Zink" "Zittel" 
-	}
-}
-Z05 = {
-	male = {
-		names = {
-			"Abel" "Acton" "Adam" "Adolphus" "Adrian" "Alan" "Albert" "Alexander" "Alfred" "Algernon" "Allen" 
-			"Alphonse" "Ambrose" "Andrew" "Anthony" "Archibald" "Arnold" "Arthur" "Auberon" "Augustus" "Austen" "Aylmer" "Barnaby" 
-			"Bartholomew" "Basil" "Beauchamp" "Benedict" "Benjamin" "Bertram" "Bertrand" "Bruce" "Byron" "Caleb" "Cecil" "Charles" 
-			"Chichester" "Christopher" "Clarence" "Claude" "Collingwood" "Cornelius" "Daniel" "David" "Donald" "Dudley" "Ebenezer" "Edgar" 
-			"Edmund" "Edward" "Edwin" "Egerton" "Eric" "Eustace" "Evelyn" "Fairfax" "Francis" "Frederick" "Frédéric" "Garnet" 
-			"Gathorne" "Geoffrey" "George" "Gerard" "Gipps" "Godfrey" "Gonville" "Granville" "Gregory" "Guildford" "Harcourt" "Harold" 
-			"Hedley" "Hedworth" "Henry" "Herbert" "Horatio" "Hugh" "Humphrey" "Isaac" "Isambard" "Jacob" "James" "Jeremy" 
-			"John" "Joseph" "Joshua" "Josslyn" "Julian" "Kenelm" "Laurence" "Leonard" "Lewis" "Lionel" "Lyon" "Mark" 
-			"Martin" "Massey" "Matthew" "Maurice" "Maxwell" "Michael" "Montague" "Murrough" "Myles" "Nathaniel" "Neville" "Nicholas" 
-			"Nigel" "Octavius" "Oliver" "Oscar" "Oswald" "Patrick" "Paul" "Percy" "Peter" "Philip" "Poulett" "Redvers" 
-			"Reginald" "Richard" "Robert" "Roger" "Ross" "Roundell" "Rowland" "Rudyard" "Rufus" "Rupert" "Sackville" "Samuel" 
-			"Sewallis" "Simon" "Spencer" "Stafford" "Stanley" "Stephen" "Sutherland" "Teignmouth" "Terence" "Theobald" "Theodore" "Thomas" 
-			"Timothy" "Tristan" "Valentine" "Victor" "Walter" "Watkin" "Weetman" "Wellwood" "Wentworth" "Weston" "Wilbraham" "Wilfred" 
-			"William" "Winston" "Wyndham" "Zachary" 
-		}
-	}
-	female = {
-		names = {
-			"Ada" "Adela" "Adelaide" "Agnes" "Alethea" "Alice" "Amabel" "Amelia" "Anne" "Annot" "Arabella" 
-			"Augusta" "Barbara" "Barbarina" "Beatrice" "Bertha" "Camilla" "Caroline" "Catherine" "Cecilia" "Charlotte" "Christabel" "Christina" 
-			"Clara" "Clementina" "Constance" "Diana" "Dorothea" "Edith" "Eleanor" "Eliza" "Elizabeth" "Ella" "Emma" "Emmeline" 
-			"Esther" "Euphemia" "Favell" "Felicia" "Flora" "Florence" "Frances" "Georgia" "Georgiana" "Geraldine" "Gertrude" "Grace" 
-			"Grisell" "Hannah" "Harriet" "Harriette" "Henrietta" "Isabella" "Ivy" "Jane" "Janet" "Jeanette" "Joanna" "Josephine" 
-			"Julia" "Laetitia" "Laura" "Lillian" "Louisa" "Lucy" "Lydia" "Madeleine" "Margaret" "Marian" "Mariana" "Marianne" 
-			"Mary" "Mathilde" "May" "Menella" "Nona" "Nora" "Olivia" "Pauline" "Phoebe" "Rachel" "Regina" "Rhoda" 
-			"Rosaline" "Rosina" "Ruth" "Sarah" "Selina" "Sibella" "Sophia" "Susan" "Theodora" "Victoria" "Violet" "Virginia" 
-			"Wilhelmine" 
-		}
-	}
-	surnames = {
-			"Abercrombie" "Adamson" "Aitchison" "Aitken" "Allan" "Almon" "Annandale" "Arnott" "Asher" "Baikie" "Baildon" 
-			"Baird" "Ballantyne" "Ballingall" "Barbour" "Barclay" "Barnes" "Beatson" "Begbie" "Bell" "Beugo" "Black" "Blair" 
-			"Bonnar" "Bovell" "Boyd" "Bramwell" "Brightwen" "Brogan" "Brown" "Bruce" "Brunton" "Bryce" "Burn" "Burnet" 
-			"Burt" "Cadell" "Campbell" "Cantlie" "Carmichael" "Carne-Ross" "Carruthers" "Carson" "Chalmers" "Chapman" "Chesser" "Cheyne" 
-			"Chisholm" "Christie" "Christison" "Clark" "Cleghorn" "Clerk" "Clouston" "Cockburn" "Coghill" "Coldstream" "Colledge" "Collie" 
-			"Combe" "Connor" "Copland" "Cormack" "Corson" "Cousin" "Cowie" "Craig" "Crawfurd" "Cream" "Crichton" "Cumin" 
-			"Cunningham" "Davidson" "Deas" "Dewar" "Dickie" "Dickson" "Dixon" "Douglas" "Doyle" "Drummond" "Dudeon" "Dumbreck" 
-			"Dunbar" "Dunlop" "Dunsmure" "Dyce" "Dyer" "Edington" "Edmondston" "Elmslie" "Ennis" "Ewing" "Fairbairn" "Fairlie" 
-			"Farquharson" "Faulds" "Fellowes" "Fenton" "Ferrier" "Ferusson" "Finlay" "Finlayson" "Fleming" "Flett" "Foggo" "Forbes" 
-			"Fraiser" "Fulton" "Fyfe" "Gairdner" "Gibson" "Gilchrist" "Gildard" "Gillespie" "Glenie" "Goodsir" "Gowans" "Graham" 
-			"Grant" "Gray" "Gregan" "Greig" "Grieve" "Gunn" "Guy" "Haldane" "Halliday" "Hamilton" "Handyside" "Hare" 
-			"Harley" "Hastie" "Hay" "Henderson" "Hepburn" "Higgins" "Holmes" "Hume" "Hunter" "Hutchison" "Imlach" "Inglis" 
-			"Irving" "Jackson" "Jameson" "Jamieson" "Johnston" "Kalley" "Keiller" "Keith" "Kennedy" "Keppie" "Kerr" "Kinnear" 
-			"Kirk" "Lambie" "Lauder" "Lessels" "Liddell" "Lindsay" "Littlejohn" "Lochead" "Lorimer" "Lovi" "Lugar" "MacAlister" 
-			"MacGillivray" "MacGregor" "MacKintosh" "MacLaren" "MacLaurin" "MacNair" "MacPhail" "Macartney" "Macaulay" "Macdonald" "Macewen" "Macfie" 
-			"Machlan" "Macintyre" "Mackay" "Mackenzie" "Mackie" "Mackinnon" "Maclae" "Maclagan" "Maclean" "Macleod" "Macnish" "Main" 
-			"Mair" "Manson" "Marshall" "Matheson" "Maule" "McAldowie" "McGill" "McGrigor" "McIntosh" "McKellar" "McKendrick" "McLachlan" 
-			"McNab" "McNeill" "McRae" "McVail" "McWilliam" "Millar" "Milroy" "Mitchell" "Moir" "Monro" "Montgomery" "Moorhead" 
-			"Morham" "Morison" "Mouat" "Muir" "Murchison" "Murdoch" "Nasmuth" "Neale" "Newlands" "Nicholson" "Nisbet" "Niven" 
-			"Oliphant" "Oswald" "Oudney" "Pagan" "Parker" "Paterson" "Paton" "Peddie" "Pettigrew" "Philip" "Pilkington" "Pirie" 
-			"Pitcairn" "Poole" "Prentice" "Pringle" "Rae" "Raeburn" "Reid" "Rhind" "Riddell" "Ritchie" "Roberton" "Robertson" 
-			"Robson" "Rochead" "Ross" "Russell" "Rutherford" "Saunders" "Selkirk" "Sellars" "Seller" "Shaw" "Shepherd" "Shortt" 
-			"Sibbald" "Simpson" "Skae" "Skirving" "Smart" "Smellie" "Smith" "Somerville" "Souttar" "Speirs" "Spittal" "Steell" 
-			"Stevenson" "Stewart" "Stirling" "Struthers" "Sturrock" "Sutherland" "Swanwick" "Tait" "Talbert" "Taylor" "Thom" "Thomson" 
-			"Tod" "Todd" "Tosh" "Towers" "Traill" "Traquair" "Trotter" "Tweedie" "Underhill" "Ure" "Urie" "Usher" 
-			"Walker" "Wardrop" "Watson" "Whigham" "Wilson" "Wise" "Wood" "Wright" "Young" 
 	}
 }
 Z06 = {
 	male = {
 		names = {
-			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Bruno" "Burkhard" "Dieter" "Eduard" 
-			"Edwin" "Erich" "Ernst" "Erwin" "Esaias" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Giesebert" "Gustav" 
-			"Günther" "Hasso" "Haubold" "Heinrich" "Helmuth" "Hermann" "Hillart" "Hugo" "Ignatz" "Joachim" "Johann" "Jürgen" 
-			"Karl" "Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Markus" "Maximilian" "Michael" "Moritz" "Nikolaus" 
-			"Oskar" "Otto" "Pascal" "Paul" "Peter" "Philipp" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" 
-			"Wolfgang" 
+			"Abel" "Acton" "Adam" "Adolphus" "Adrian" "Alan" "Albert" "Alexander" "Alfred" "Algernon" "Allen" 
+			"Alphonse" "Ambrose" "Andrew" "Anthony" "Archibald" "Arnold" "Arthur" "Auberon" "Augustus" "Austen" "Aylmer" "Barnaby" 
+			"Bartholomew" "Basil" "Beauchamp" "Benedict" "Benjamin" "Bertram" "Bertrand" "Bruce" "Byron" "Caleb" "Cecil" "Charles" 
+			"Chichester" "Christopher" "Clarence" "Claude" "Collingwood" "Cornelius" "Daniel" "David" "Donald" "Dudley" "Ebenezer" "Edgar" 
+			"Edmund" "Edward" "Edwin" "Egerton" "Eric" "Eustace" "Evelyn" "Fairfax" "Francis" "Frederick" "Frédéric" "Garnet" 
+			"Gathorne" "Geoffrey" "George" "Gerard" "Gipps" "Godfrey" "Gonville" "Granville" "Gregory" "Guildford" "Harcourt" "Harold" 
+			"Hedley" "Hedworth" "Henry" "Herbert" "Horatio" "Hugh" "Humphrey" "Isaac" "Isambard" "Jacob" "James" "Jeremy" 
+			"John" "Joseph" "Joshua" "Josslyn" "Julian" "Kenelm" "Laurence" "Leonard" "Lewis" "Lionel" "Lyon" "Mark" 
+			"Martin" "Massey" "Matthew" "Maurice" "Maxwell" "Michael" "Montague" "Murrough" "Myles" "Nathaniel" "Neville" "Nicholas" 
+			"Nigel" "Octavius" "Oliver" "Oscar" "Oswald" "Patrick" "Paul" "Percy" "Peter" "Philip" "Poulett" "Redvers" 
+			"Reginald" "Richard" "Robert" "Roger" "Ross" "Roundell" "Rowland" "Rudyard" "Rufus" "Rupert" "Sackville" "Samuel" 
+			"Sewallis" "Simon" "Spencer" "Stafford" "Stanley" "Stephen" "Sutherland" "Teignmouth" "Terence" "Theobald" "Theodore" "Thomas" 
+			"Timothy" "Tristan" "Valentine" "Victor" "Walter" "Watkin" "Weetman" "Wellwood" "Wentworth" "Weston" "Wilbraham" "Wilfred" 
+			"William" "Winston" "Wyndham" "Zachary" 
 		}
 	}
 	female = {
 		names = {
-			"Adelheid" "Adolphine" "Agnes" "Albertine" "Amalie" "Anna" "Anna Dorothea" "Anna Erika" "Anna Sophia" "Armgard" "Aurora" 
-			"Beatrix" "Caroline" "Cecilia" "Charlotte" "Christina" "Clara" "Dorothea" "Dorothea Sophia" "Elisabeth" "Erika" "Friederike" "Hedwig" 
-			"Henriette" "Hilda" "Ingeborg" "Johanna" "Julia" "Luise" "Magdalene" "Margarethe" "Maria" "Marie Elisabeth" "Mathilde" "Sigrid" 
-			"Sophie" "Sophie Albertine" "Therese" "Viktoria" 
+			"Ada" "Adela" "Adelaide" "Agnes" "Alethea" "Alice" "Amabel" "Amelia" "Anne" "Annot" "Arabella" 
+			"Augusta" "Barbara" "Barbarina" "Beatrice" "Bertha" "Camilla" "Caroline" "Catherine" "Cecilia" "Charlotte" "Christabel" "Christina" 
+			"Clara" "Clementina" "Constance" "Diana" "Dorothea" "Edith" "Eleanor" "Eliza" "Elizabeth" "Ella" "Emma" "Emmeline" 
+			"Esther" "Euphemia" "Favell" "Felicia" "Flora" "Florence" "Frances" "Georgia" "Georgiana" "Geraldine" "Gertrude" "Grace" 
+			"Grisell" "Hannah" "Harriet" "Harriette" "Henrietta" "Isabella" "Ivy" "Jane" "Janet" "Jeanette" "Joanna" "Josephine" 
+			"Julia" "Laetitia" "Laura" "Lillian" "Louisa" "Lucy" "Lydia" "Madeleine" "Margaret" "Marian" "Mariana" "Marianne" 
+			"Mary" "Mathilde" "May" "Menella" "Nona" "Nora" "Olivia" "Pauline" "Phoebe" "Rachel" "Regina" "Rhoda" 
+			"Rosaline" "Rosina" "Ruth" "Sarah" "Selina" "Sibella" "Sophia" "Susan" "Theodora" "Victoria" "Violet" "Virginia" 
+			"Wilhelmine" 
 		}
 	}
 	surnames = {
-			"Aldinger" "Auerbach" "Bachmann" "Bantlin" "Barchet" "Bassermann" "Baum" "Bech" "Beck-Rzikowsky" "Beckmund" "Bedall" 
-			"Bissing" "Bleidorn" "Blos" "Carové" "Cella" "Christmann" "Correck" "Dankl" "Dauer" "Dennig" "Denzler" "Deppert" 
-			"Depre" "Deuringer" "Deusch" "Doll" "Dollmann" "Edel" "Eder" "Ehrensberger" "Eisenmann" "Eisner" "Eppelsheim" "Eppelsheimer" 
-			"Ermarth" "Exter" "Fallenstein" "Fasbender" "Federer" "Fetzer" "Frauendorfer" "Frech" "Friedel" "Frommknecht" "Frueth" "Förderreuther" 
-			"Geiss" "Gerber" "Gervinus" "Gloß" "Goering" "Gollwitzer" "Graff" "Groeschel" "Grohe" "Groth" "Gruny" "Gätschenberger" 
-			"Hagen" "Hainisch" "Haus" "Hebberling" "Hecker" "Helbing" "Held" "Hellpach" "Helmerich" "Helmreich" "Hepp" "Hinzler" 
-			"Hitzen" "Hoff" "Hoffmann" "Homberger" "Hopffer" "Horadam" "Hummel" "Hägelin" "Häusser" "Högenstaller" "Ipfelkofer" "Junghannß" 
-			"Kapp" "Keil" "Kemmer" "Kessler" "Kießling" "Killermann" "Klüber" "Kolb" "Krazeisen" "Köhler" "Kölliker" "Lakner" 
-			"Langhäuser" "Lehmkühl" "Mack" "Margreither" "Mathy" "Mergenthaler" "Mez" "Miklas" "Mittermaier" "Mohl" "Murschel" "Mögling" 
-			"Nebenius" "Neuffer" "Neumann" "Obermair" "Olbers" "Orff" "Pauer" "Pesenecker" "Pfaff" "Pfluegl" "Platner" "Prand" 
-			"Prang" "Press" "Quitzmann" "Rahl" "Rau" "Reisterer" "Remmele" "Reyscher" "Richter" "Riedl" "Rosenhaupt" "Ruoff" 
-			"Rödinger" "Sachs" "Sailer" "Schaaff" "Scheffold" "Schmauß" "Schmidtler" "Schmitt" "Schobber" "Schott" "Schweickhardt" "Schübler" 
-			"Seeger" "Seekirchner" "Seitz" "Seltzam" "Siegler" "Solger" "Spatz" "Speyerer" "Steeb" "Stierlen" "Stolzer" "Strauss" 
-			"Tafel" "Teutsch" "Titus" "Trient" "Trunk" "Uhland" "Ullrich" "Unglaub" "Usselmann" "Veiel" "Völcker" "Wagner" 
-			"Walchner" "Weiß-Jonak" "Welcker" "Weller" "Welte" "Werner" "Wiedmann" "Willich" "Winter" "Wittmann" "Wolf" "Zeller" 
-			"Zenger" "Zentner" "Zerreiß" "Zink" "Zittel" 
+			"Abercrombie" "Adamson" "Aitchison" "Aitken" "Allan" "Almon" "Annandale" "Arnott" "Asher" "Baikie" "Baildon" 
+			"Baird" "Ballantyne" "Ballingall" "Barbour" "Barclay" "Barnes" "Beatson" "Begbie" "Bell" "Beugo" "Black" "Blair" 
+			"Bonnar" "Bovell" "Boyd" "Bramwell" "Brightwen" "Brogan" "Brown" "Bruce" "Brunton" "Bryce" "Burn" "Burnet" 
+			"Burt" "Cadell" "Campbell" "Cantlie" "Carmichael" "Carne-Ross" "Carruthers" "Carson" "Chalmers" "Chapman" "Chesser" "Cheyne" 
+			"Chisholm" "Christie" "Christison" "Clark" "Cleghorn" "Clerk" "Clouston" "Cockburn" "Coghill" "Coldstream" "Colledge" "Collie" 
+			"Combe" "Connor" "Copland" "Cormack" "Corson" "Cousin" "Cowie" "Craig" "Crawfurd" "Cream" "Crichton" "Cumin" 
+			"Cunningham" "Davidson" "Deas" "Dewar" "Dickie" "Dickson" "Dixon" "Douglas" "Doyle" "Drummond" "Dudeon" "Dumbreck" 
+			"Dunbar" "Dunlop" "Dunsmure" "Dyce" "Dyer" "Edington" "Edmondston" "Elmslie" "Ennis" "Ewing" "Fairbairn" "Fairlie" 
+			"Farquharson" "Faulds" "Fellowes" "Fenton" "Ferrier" "Ferusson" "Finlay" "Finlayson" "Fleming" "Flett" "Foggo" "Forbes" 
+			"Fraiser" "Fulton" "Fyfe" "Gairdner" "Gibson" "Gilchrist" "Gildard" "Gillespie" "Glenie" "Goodsir" "Gowans" "Graham" 
+			"Grant" "Gray" "Gregan" "Greig" "Grieve" "Gunn" "Guy" "Haldane" "Halliday" "Hamilton" "Handyside" "Hare" 
+			"Harley" "Hastie" "Hay" "Henderson" "Hepburn" "Higgins" "Holmes" "Hume" "Hunter" "Hutchison" "Imlach" "Inglis" 
+			"Irving" "Jackson" "Jameson" "Jamieson" "Johnston" "Kalley" "Keiller" "Keith" "Kennedy" "Keppie" "Kerr" "Kinnear" 
+			"Kirk" "Lambie" "Lauder" "Lessels" "Liddell" "Lindsay" "Littlejohn" "Lochead" "Lorimer" "Lovi" "Lugar" "MacAlister" 
+			"MacGillivray" "MacGregor" "MacKintosh" "MacLaren" "MacLaurin" "MacNair" "MacPhail" "Macartney" "Macaulay" "Macdonald" "Macewen" "Macfie" 
+			"Machlan" "Macintyre" "Mackay" "Mackenzie" "Mackie" "Mackinnon" "Maclae" "Maclagan" "Maclean" "Macleod" "Macnish" "Main" 
+			"Mair" "Manson" "Marshall" "Matheson" "Maule" "McAldowie" "McGill" "McGrigor" "McIntosh" "McKellar" "McKendrick" "McLachlan" 
+			"McNab" "McNeill" "McRae" "McVail" "McWilliam" "Millar" "Milroy" "Mitchell" "Moir" "Monro" "Montgomery" "Moorhead" 
+			"Morham" "Morison" "Mouat" "Muir" "Murchison" "Murdoch" "Nasmuth" "Neale" "Newlands" "Nicholson" "Nisbet" "Niven" 
+			"Oliphant" "Oswald" "Oudney" "Pagan" "Parker" "Paterson" "Paton" "Peddie" "Pettigrew" "Philip" "Pilkington" "Pirie" 
+			"Pitcairn" "Poole" "Prentice" "Pringle" "Rae" "Raeburn" "Reid" "Rhind" "Riddell" "Ritchie" "Roberton" "Robertson" 
+			"Robson" "Rochead" "Ross" "Russell" "Rutherford" "Saunders" "Selkirk" "Sellars" "Seller" "Shaw" "Shepherd" "Shortt" 
+			"Sibbald" "Simpson" "Skae" "Skirving" "Smart" "Smellie" "Smith" "Somerville" "Souttar" "Speirs" "Spittal" "Steell" 
+			"Stevenson" "Stewart" "Stirling" "Struthers" "Sturrock" "Sutherland" "Swanwick" "Tait" "Talbert" "Taylor" "Thom" "Thomson" 
+			"Tod" "Todd" "Tosh" "Towers" "Traill" "Traquair" "Trotter" "Tweedie" "Underhill" "Ure" "Urie" "Usher" 
+			"Walker" "Wardrop" "Watson" "Whigham" "Wilson" "Wise" "Wood" "Wright" "Young" 
 	}
 }
 Z07 = {
-	male = {
-		names = {
-			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Bruno" "Burkhard" "Dieter" "Eduard" 
-			"Edwin" "Erich" "Ernst" "Erwin" "Esaias" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Giesebert" "Gustav" 
-			"Günther" "Hasso" "Haubold" "Heinrich" "Helmuth" "Hermann" "Hillart" "Hugo" "Ignatz" "Joachim" "Johann" "Jürgen" 
-			"Karl" "Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Markus" "Maximilian" "Michael" "Moritz" "Nikolaus" 
-			"Oskar" "Otto" "Pascal" "Paul" "Peter" "Philipp" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" 
-			"Wolfgang" 
-		}
-	}
-	female = {
-		names = {
-			"Adelheid" "Adolphine" "Agnes" "Albertine" "Amalie" "Anna" "Anna Dorothea" "Anna Erika" "Anna Sophia" "Armgard" "Aurora" 
-			"Beatrix" "Caroline" "Cecilia" "Charlotte" "Christina" "Clara" "Dorothea" "Dorothea Sophia" "Elisabeth" "Erika" "Friederike" "Hedwig" 
-			"Henriette" "Hilda" "Ingeborg" "Johanna" "Julia" "Luise" "Magdalene" "Margarethe" "Maria" "Marie Elisabeth" "Mathilde" "Sigrid" 
-			"Sophie" "Sophie Albertine" "Therese" "Viktoria" 
-		}
-	}
-	surnames = {
-			"Aldinger" "Auerbach" "Bachmann" "Bantlin" "Barchet" "Bassermann" "Baum" "Bech" "Beck-Rzikowsky" "Beckmund" "Bedall" 
-			"Bissing" "Bleidorn" "Blos" "Carové" "Cella" "Christmann" "Correck" "Dankl" "Dauer" "Dennig" "Denzler" "Deppert" 
-			"Depre" "Deuringer" "Deusch" "Doll" "Dollmann" "Edel" "Eder" "Ehrensberger" "Eisenmann" "Eisner" "Eppelsheim" "Eppelsheimer" 
-			"Ermarth" "Exter" "Fallenstein" "Fasbender" "Federer" "Fetzer" "Frauendorfer" "Frech" "Friedel" "Frommknecht" "Frueth" "Förderreuther" 
-			"Geiss" "Gerber" "Gervinus" "Gloß" "Goering" "Gollwitzer" "Graff" "Groeschel" "Grohe" "Groth" "Gruny" "Gätschenberger" 
-			"Hagen" "Hainisch" "Haus" "Hebberling" "Hecker" "Helbing" "Held" "Hellpach" "Helmerich" "Helmreich" "Hepp" "Hinzler" 
-			"Hitzen" "Hoff" "Hoffmann" "Homberger" "Hopffer" "Horadam" "Hummel" "Hägelin" "Häusser" "Högenstaller" "Ipfelkofer" "Junghannß" 
-			"Kapp" "Keil" "Kemmer" "Kessler" "Kießling" "Killermann" "Klüber" "Kolb" "Krazeisen" "Köhler" "Kölliker" "Lakner" 
-			"Langhäuser" "Lehmkühl" "Mack" "Margreither" "Mathy" "Mergenthaler" "Mez" "Miklas" "Mittermaier" "Mohl" "Murschel" "Mögling" 
-			"Nebenius" "Neuffer" "Neumann" "Obermair" "Olbers" "Orff" "Pauer" "Pesenecker" "Pfaff" "Pfluegl" "Platner" "Prand" 
-			"Prang" "Press" "Quitzmann" "Rahl" "Rau" "Reisterer" "Remmele" "Reyscher" "Richter" "Riedl" "Rosenhaupt" "Ruoff" 
-			"Rödinger" "Sachs" "Sailer" "Schaaff" "Scheffold" "Schmauß" "Schmidtler" "Schmitt" "Schobber" "Schott" "Schweickhardt" "Schübler" 
-			"Seeger" "Seekirchner" "Seitz" "Seltzam" "Siegler" "Solger" "Spatz" "Speyerer" "Steeb" "Stierlen" "Stolzer" "Strauss" 
-			"Tafel" "Teutsch" "Titus" "Trient" "Trunk" "Uhland" "Ullrich" "Unglaub" "Usselmann" "Veiel" "Völcker" "Wagner" 
-			"Walchner" "Weiß-Jonak" "Welcker" "Weller" "Welte" "Werner" "Wiedmann" "Willich" "Winter" "Wittmann" "Wolf" "Zeller" 
-			"Zenger" "Zentner" "Zerreiß" "Zink" "Zittel" 
-	}
-}
-Z08 = {
 	male = {
 		names = {
 			"Abel" "Acton" "Adam" "Adolphus" "Adrian" "Alan" "Albert" "Alexander" "Alfred" "Algernon" "Allen" 
@@ -4469,27 +3550,338 @@ Z08 = {
 			"Walker" "Wardrop" "Watson" "Whigham" "Wilson" "Wise" "Wood" "Wright" "Young" 
 	}
 }
-Z09 = {
+Z08 = {
 	male = {
 		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" 
-			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Ja’far" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" 
-			"Salim" "Sa’d al-Din" "Sa’ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
+			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Bruno" "Burkhard" "Dieter" "Eduard" 
+			"Edwin" "Erich" "Ernst" "Erwin" "Esaias" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Giesebert" "Gustav" 
+			"Günther" "Hasso" "Haubold" "Heinrich" "Helmuth" "Hermann" "Hillart" "Hugo" "Ignatz" "Joachim" "Johann" "Jürgen" 
+			"Karl" "Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Markus" "Maximilian" "Michael" "Moritz" "Nikolaus" 
+			"Oskar" "Otto" "Pascal" "Paul" "Peter" "Philipp" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" 
+			"Wolfgang" 
 		}
 	}
 	female = {
 		names = {
-			"Bahiya" "Fahda" "Ghaliyya" "Haifa" "Hamida" "Hassa" "Iffat" "Latifa" "Lolwah" "Maha" "Noura" 
-			"Sultana" 
+			"Adelheid" "Adolphine" "Agnes" "Albertine" "Amalie" "Anna" "Anna Dorothea" "Anna Erika" "Anna Sophia" "Armgard" "Aurora" 
+			"Beatrix" "Caroline" "Cecilia" "Charlotte" "Christina" "Clara" "Dorothea" "Dorothea Sophia" "Elisabeth" "Erika" "Friederike" "Hedwig" 
+			"Henriette" "Hilda" "Ingeborg" "Johanna" "Julia" "Luise" "Magdalene" "Margarethe" "Maria" "Marie Elisabeth" "Mathilde" "Sigrid" 
+			"Sophie" "Sophie Albertine" "Therese" "Viktoria" 
 		}
 	}
 	surnames = {
-			"Asmar" "Mokarzel" "al-Askari" "al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi" "al-Mawsili" "al-Nablusi" 
-			"al-Qudsi" "al-Shami" "ibm Kamil" "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" 
-			"ibn Ishaq" "ibn Ja’far" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" 
+			"Aldinger" "Auerbach" "Bachmann" "Bantlin" "Barchet" "Bassermann" "Baum" "Bech" "Beck-Rzikowsky" "Beckmund" "Bedall" 
+			"Bissing" "Bleidorn" "Blos" "Carové" "Cella" "Christmann" "Correck" "Dankl" "Dauer" "Dennig" "Denzler" "Deppert" 
+			"Depre" "Deuringer" "Deusch" "Doll" "Dollmann" "Edel" "Eder" "Ehrensberger" "Eisenmann" "Eisner" "Eppelsheim" "Eppelsheimer" 
+			"Ermarth" "Exter" "Fallenstein" "Fasbender" "Federer" "Fetzer" "Frauendorfer" "Frech" "Friedel" "Frommknecht" "Frueth" "Förderreuther" 
+			"Geiss" "Gerber" "Gervinus" "Gloß" "Goering" "Gollwitzer" "Graff" "Groeschel" "Grohe" "Groth" "Gruny" "Gätschenberger" 
+			"Hagen" "Hainisch" "Haus" "Hebberling" "Hecker" "Helbing" "Held" "Hellpach" "Helmerich" "Helmreich" "Hepp" "Hinzler" 
+			"Hitzen" "Hoff" "Hoffmann" "Homberger" "Hopffer" "Horadam" "Hummel" "Hägelin" "Häusser" "Högenstaller" "Ipfelkofer" "Junghannß" 
+			"Kapp" "Keil" "Kemmer" "Kessler" "Kießling" "Killermann" "Klüber" "Kolb" "Krazeisen" "Köhler" "Kölliker" "Lakner" 
+			"Langhäuser" "Lehmkühl" "Mack" "Margreither" "Mathy" "Mergenthaler" "Mez" "Miklas" "Mittermaier" "Mohl" "Murschel" "Mögling" 
+			"Nebenius" "Neuffer" "Neumann" "Obermair" "Olbers" "Orff" "Pauer" "Pesenecker" "Pfaff" "Pfluegl" "Platner" "Prand" 
+			"Prang" "Press" "Quitzmann" "Rahl" "Rau" "Reisterer" "Remmele" "Reyscher" "Richter" "Riedl" "Rosenhaupt" "Ruoff" 
+			"Rödinger" "Sachs" "Sailer" "Schaaff" "Scheffold" "Schmauß" "Schmidtler" "Schmitt" "Schobber" "Schott" "Schweickhardt" "Schübler" 
+			"Seeger" "Seekirchner" "Seitz" "Seltzam" "Siegler" "Solger" "Spatz" "Speyerer" "Steeb" "Stierlen" "Stolzer" "Strauss" 
+			"Tafel" "Teutsch" "Titus" "Trient" "Trunk" "Uhland" "Ullrich" "Unglaub" "Usselmann" "Veiel" "Völcker" "Wagner" 
+			"Walchner" "Weiß-Jonak" "Welcker" "Weller" "Welte" "Werner" "Wiedmann" "Willich" "Winter" "Wittmann" "Wolf" "Zeller" 
+			"Zenger" "Zentner" "Zerreiß" "Zink" "Zittel" 
+	}
+}
+Z09 = {
+	male = {
+		names = {
+			"Abdul" "Abdulmari" "Abdulmunir" "Abul" "Alimud-Din" "Aliyud-Din" "Badarud-Din" "Bantilan Muizzud-Din" "Bayan" "Farouk" "Hussin" 
+			"Iskandar" "Iskandar Qudraullah" "Jamalul A’Lam" "Jamalul Kiram" "Kawasa" "Kiram" "Mangigin" "Mohammad Israel" "Mohammad Pulalun Kiram" "Mohammed" "Mohammed Esmail Kiram" "Muhammad Makakwa" 
+			"Nasarud-Din" "Omar" "Shahabud-Din" "Shakirul-Lah" "Sharapud-Din" "Wasit" 
+		}
+	}
+	female = {
+		names = {
+			"Amanah" "Aminah" "Amirah" "Bahira" "Fatima" "Fatmawati" "Fayza" "Ghalia" "Laisa" "Nadia" "Noura" 
+			"Samira" "Sulafa" "Tahira" "Zeina" "Zuhur" 
+		}
+	}
+	surnames = {
+			"Akbar" "Ali" "Amin" "Asarul" "Bago" "Dimaporo" "Hashim" "Janjalani" "Jikiri" "Mangudadatu" "Sahidulla" 
+			"Sali" "Sulayman" "Usman" 
 	}
 }
 Z10 = {
+	male = {
+		names = {
+			"Abel" "Acton" "Adam" "Adolphus" "Adrian" "Alan" "Albert" "Alexander" "Alfred" "Algernon" "Allen" 
+			"Alphonse" "Ambrose" "Andrew" "Anthony" "Archibald" "Arnold" "Arthur" "Auberon" "Augustus" "Austen" "Aylmer" "Barnaby" 
+			"Bartholomew" "Basil" "Beauchamp" "Benedict" "Benjamin" "Bertram" "Bertrand" "Bruce" "Byron" "Caleb" "Cecil" "Charles" 
+			"Chichester" "Christopher" "Clarence" "Claude" "Collingwood" "Cornelius" "Daniel" "David" "Donald" "Dudley" "Ebenezer" "Edgar" 
+			"Edmund" "Edward" "Edwin" "Egerton" "Eric" "Eustace" "Evelyn" "Fairfax" "Francis" "Frederick" "Frédéric" "Garnet" 
+			"Gathorne" "Geoffrey" "George" "Gerard" "Gipps" "Godfrey" "Gonville" "Granville" "Gregory" "Guildford" "Harcourt" "Harold" 
+			"Hedley" "Hedworth" "Henry" "Herbert" "Horatio" "Hugh" "Humphrey" "Isaac" "Isambard" "Jacob" "James" "Jeremy" 
+			"John" "Joseph" "Joshua" "Josslyn" "Julian" "Kenelm" "Laurence" "Leonard" "Lewis" "Lionel" "Lyon" "Mark" 
+			"Martin" "Massey" "Matthew" "Maurice" "Maxwell" "Michael" "Montague" "Murrough" "Myles" "Nathaniel" "Neville" "Nicholas" 
+			"Nigel" "Octavius" "Oliver" "Oscar" "Oswald" "Patrick" "Paul" "Percy" "Peter" "Philip" "Poulett" "Redvers" 
+			"Reginald" "Richard" "Robert" "Roger" "Ross" "Roundell" "Rowland" "Rudyard" "Rufus" "Rupert" "Sackville" "Samuel" 
+			"Sewallis" "Simon" "Spencer" "Stafford" "Stanley" "Stephen" "Sutherland" "Teignmouth" "Terence" "Theobald" "Theodore" "Thomas" 
+			"Timothy" "Tristan" "Valentine" "Victor" "Walter" "Watkin" "Weetman" "Wellwood" "Wentworth" "Weston" "Wilbraham" "Wilfred" 
+			"William" "Winston" "Wyndham" "Zachary" 
+		}
+	}
+	female = {
+		names = {
+			"Ada" "Adela" "Adelaide" "Agnes" "Alethea" "Alice" "Amabel" "Amelia" "Anne" "Annot" "Arabella" 
+			"Augusta" "Barbara" "Barbarina" "Beatrice" "Bertha" "Camilla" "Caroline" "Catherine" "Cecilia" "Charlotte" "Christabel" "Christina" 
+			"Clara" "Clementina" "Constance" "Diana" "Dorothea" "Edith" "Eleanor" "Eliza" "Elizabeth" "Ella" "Emma" "Emmeline" 
+			"Esther" "Euphemia" "Favell" "Felicia" "Flora" "Florence" "Frances" "Georgia" "Georgiana" "Geraldine" "Gertrude" "Grace" 
+			"Grisell" "Hannah" "Harriet" "Harriette" "Henrietta" "Isabella" "Ivy" "Jane" "Janet" "Jeanette" "Joanna" "Josephine" 
+			"Julia" "Laetitia" "Laura" "Lillian" "Louisa" "Lucy" "Lydia" "Madeleine" "Margaret" "Marian" "Mariana" "Marianne" 
+			"Mary" "Mathilde" "May" "Menella" "Nona" "Nora" "Olivia" "Pauline" "Phoebe" "Rachel" "Regina" "Rhoda" 
+			"Rosaline" "Rosina" "Ruth" "Sarah" "Selina" "Sibella" "Sophia" "Susan" "Theodora" "Victoria" "Violet" "Virginia" 
+			"Wilhelmine" 
+		}
+	}
+	surnames = {
+			"Abercrombie" "Adamson" "Aitchison" "Aitken" "Allan" "Almon" "Annandale" "Arnott" "Asher" "Baikie" "Baildon" 
+			"Baird" "Ballantyne" "Ballingall" "Barbour" "Barclay" "Barnes" "Beatson" "Begbie" "Bell" "Beugo" "Black" "Blair" 
+			"Bonnar" "Bovell" "Boyd" "Bramwell" "Brightwen" "Brogan" "Brown" "Bruce" "Brunton" "Bryce" "Burn" "Burnet" 
+			"Burt" "Cadell" "Campbell" "Cantlie" "Carmichael" "Carne-Ross" "Carruthers" "Carson" "Chalmers" "Chapman" "Chesser" "Cheyne" 
+			"Chisholm" "Christie" "Christison" "Clark" "Cleghorn" "Clerk" "Clouston" "Cockburn" "Coghill" "Coldstream" "Colledge" "Collie" 
+			"Combe" "Connor" "Copland" "Cormack" "Corson" "Cousin" "Cowie" "Craig" "Crawfurd" "Cream" "Crichton" "Cumin" 
+			"Cunningham" "Davidson" "Deas" "Dewar" "Dickie" "Dickson" "Dixon" "Douglas" "Doyle" "Drummond" "Dudeon" "Dumbreck" 
+			"Dunbar" "Dunlop" "Dunsmure" "Dyce" "Dyer" "Edington" "Edmondston" "Elmslie" "Ennis" "Ewing" "Fairbairn" "Fairlie" 
+			"Farquharson" "Faulds" "Fellowes" "Fenton" "Ferrier" "Ferusson" "Finlay" "Finlayson" "Fleming" "Flett" "Foggo" "Forbes" 
+			"Fraiser" "Fulton" "Fyfe" "Gairdner" "Gibson" "Gilchrist" "Gildard" "Gillespie" "Glenie" "Goodsir" "Gowans" "Graham" 
+			"Grant" "Gray" "Gregan" "Greig" "Grieve" "Gunn" "Guy" "Haldane" "Halliday" "Hamilton" "Handyside" "Hare" 
+			"Harley" "Hastie" "Hay" "Henderson" "Hepburn" "Higgins" "Holmes" "Hume" "Hunter" "Hutchison" "Imlach" "Inglis" 
+			"Irving" "Jackson" "Jameson" "Jamieson" "Johnston" "Kalley" "Keiller" "Keith" "Kennedy" "Keppie" "Kerr" "Kinnear" 
+			"Kirk" "Lambie" "Lauder" "Lessels" "Liddell" "Lindsay" "Littlejohn" "Lochead" "Lorimer" "Lovi" "Lugar" "MacAlister" 
+			"MacGillivray" "MacGregor" "MacKintosh" "MacLaren" "MacLaurin" "MacNair" "MacPhail" "Macartney" "Macaulay" "Macdonald" "Macewen" "Macfie" 
+			"Machlan" "Macintyre" "Mackay" "Mackenzie" "Mackie" "Mackinnon" "Maclae" "Maclagan" "Maclean" "Macleod" "Macnish" "Main" 
+			"Mair" "Manson" "Marshall" "Matheson" "Maule" "McAldowie" "McGill" "McGrigor" "McIntosh" "McKellar" "McKendrick" "McLachlan" 
+			"McNab" "McNeill" "McRae" "McVail" "McWilliam" "Millar" "Milroy" "Mitchell" "Moir" "Monro" "Montgomery" "Moorhead" 
+			"Morham" "Morison" "Mouat" "Muir" "Murchison" "Murdoch" "Nasmuth" "Neale" "Newlands" "Nicholson" "Nisbet" "Niven" 
+			"Oliphant" "Oswald" "Oudney" "Pagan" "Parker" "Paterson" "Paton" "Peddie" "Pettigrew" "Philip" "Pilkington" "Pirie" 
+			"Pitcairn" "Poole" "Prentice" "Pringle" "Rae" "Raeburn" "Reid" "Rhind" "Riddell" "Ritchie" "Roberton" "Robertson" 
+			"Robson" "Rochead" "Ross" "Russell" "Rutherford" "Saunders" "Selkirk" "Sellars" "Seller" "Shaw" "Shepherd" "Shortt" 
+			"Sibbald" "Simpson" "Skae" "Skirving" "Smart" "Smellie" "Smith" "Somerville" "Souttar" "Speirs" "Spittal" "Steell" 
+			"Stevenson" "Stewart" "Stirling" "Struthers" "Sturrock" "Sutherland" "Swanwick" "Tait" "Talbert" "Taylor" "Thom" "Thomson" 
+			"Tod" "Todd" "Tosh" "Towers" "Traill" "Traquair" "Trotter" "Tweedie" "Underhill" "Ure" "Urie" "Usher" 
+			"Walker" "Wardrop" "Watson" "Whigham" "Wilson" "Wise" "Wood" "Wright" "Young" 
+	}
+}
+Z11 = {
+	male = {
+		names = {
+			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Bruno" "Burkhard" "Dieter" "Eduard" 
+			"Edwin" "Erich" "Ernst" "Erwin" "Esaias" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Giesebert" "Gustav" 
+			"Günther" "Hasso" "Haubold" "Heinrich" "Helmuth" "Hermann" "Hillart" "Hugo" "Ignatz" "Joachim" "Johann" "Jürgen" 
+			"Karl" "Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Markus" "Maximilian" "Michael" "Moritz" "Nikolaus" 
+			"Oskar" "Otto" "Pascal" "Paul" "Peter" "Philipp" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" 
+			"Wolfgang" 
+		}
+	}
+	female = {
+		names = {
+			"Adelheid" "Adolphine" "Agnes" "Albertine" "Amalie" "Anna" "Anna Dorothea" "Anna Erika" "Anna Sophia" "Armgard" "Aurora" 
+			"Beatrix" "Caroline" "Cecilia" "Charlotte" "Christina" "Clara" "Dorothea" "Dorothea Sophia" "Elisabeth" "Erika" "Friederike" "Hedwig" 
+			"Henriette" "Hilda" "Ingeborg" "Johanna" "Julia" "Luise" "Magdalene" "Margarethe" "Maria" "Marie Elisabeth" "Mathilde" "Sigrid" 
+			"Sophie" "Sophie Albertine" "Therese" "Viktoria" 
+		}
+	}
+	surnames = {
+			"Aldinger" "Auerbach" "Bachmann" "Bantlin" "Barchet" "Bassermann" "Baum" "Bech" "Beck-Rzikowsky" "Beckmund" "Bedall" 
+			"Bissing" "Bleidorn" "Blos" "Carové" "Cella" "Christmann" "Correck" "Dankl" "Dauer" "Dennig" "Denzler" "Deppert" 
+			"Depre" "Deuringer" "Deusch" "Doll" "Dollmann" "Edel" "Eder" "Ehrensberger" "Eisenmann" "Eisner" "Eppelsheim" "Eppelsheimer" 
+			"Ermarth" "Exter" "Fallenstein" "Fasbender" "Federer" "Fetzer" "Frauendorfer" "Frech" "Friedel" "Frommknecht" "Frueth" "Förderreuther" 
+			"Geiss" "Gerber" "Gervinus" "Gloß" "Goering" "Gollwitzer" "Graff" "Groeschel" "Grohe" "Groth" "Gruny" "Gätschenberger" 
+			"Hagen" "Hainisch" "Haus" "Hebberling" "Hecker" "Helbing" "Held" "Hellpach" "Helmerich" "Helmreich" "Hepp" "Hinzler" 
+			"Hitzen" "Hoff" "Hoffmann" "Homberger" "Hopffer" "Horadam" "Hummel" "Hägelin" "Häusser" "Högenstaller" "Ipfelkofer" "Junghannß" 
+			"Kapp" "Keil" "Kemmer" "Kessler" "Kießling" "Killermann" "Klüber" "Kolb" "Krazeisen" "Köhler" "Kölliker" "Lakner" 
+			"Langhäuser" "Lehmkühl" "Mack" "Margreither" "Mathy" "Mergenthaler" "Mez" "Miklas" "Mittermaier" "Mohl" "Murschel" "Mögling" 
+			"Nebenius" "Neuffer" "Neumann" "Obermair" "Olbers" "Orff" "Pauer" "Pesenecker" "Pfaff" "Pfluegl" "Platner" "Prand" 
+			"Prang" "Press" "Quitzmann" "Rahl" "Rau" "Reisterer" "Remmele" "Reyscher" "Richter" "Riedl" "Rosenhaupt" "Ruoff" 
+			"Rödinger" "Sachs" "Sailer" "Schaaff" "Scheffold" "Schmauß" "Schmidtler" "Schmitt" "Schobber" "Schott" "Schweickhardt" "Schübler" 
+			"Seeger" "Seekirchner" "Seitz" "Seltzam" "Siegler" "Solger" "Spatz" "Speyerer" "Steeb" "Stierlen" "Stolzer" "Strauss" 
+			"Tafel" "Teutsch" "Titus" "Trient" "Trunk" "Uhland" "Ullrich" "Unglaub" "Usselmann" "Veiel" "Völcker" "Wagner" 
+			"Walchner" "Weiß-Jonak" "Welcker" "Weller" "Welte" "Werner" "Wiedmann" "Willich" "Winter" "Wittmann" "Wolf" "Zeller" 
+			"Zenger" "Zentner" "Zerreiß" "Zink" "Zittel" 
+	}
+}
+Z12 = {
+	male = {
+		names = {
+			"Gholam" "Hosayn" "Karim" "Mir Fath" "Mohammad" "Morad" "Morad Ali" "Nasir" "Nur Mohammad" "Shahdad" "Sobhdar" 
+		}
+	}
+	female = {
+		names = {
+			"Fahmida" 
+		}
+	}
+	surnames = {
+			"Alwani" "Bhatti" "Bhil" "Bhurgari" "Bjaeen" "Bulfati" "Chandio" "Daudpota" "Gabol" "Kalpar" "Kolhi" 
+			"Magsi" "Mallaah" "Rajpar" "Sarki" "Sirki" "Solangi" 
+	}
+}
+Z13 = {
+	male = {
+		names = {
+			"Abel" "Achille" "Adolphe" "Adrien" "Aimable" "Albéric" "Alcide" "Alexandre" "Alexis" "Alphonse" "Ambroise" 
+			"Amédée" "André" "Antoine" "Archambaud" "Aristide" "Armand" "Athanase" "Auguste" "Augustin" "Barthélémy" "Bernard" "Bernardin" 
+			"Bertrand" "Camille" "Charles" "Christophe" "Claude" "Constant" "Cyprien" "Célestin" "Daniel" "Denis" "Dominique" "Donat" 
+			"Elie" "Elzéar" "Emmanuel" "Eugène" "Ferdinand" "Fernand" "Firmin" "François" "Frédéric" "Félicien" "Félix" "Gaston" 
+			"Georges" "Germain" "Guillaume" "Gustave" "Guy" "Henri" "Hercule" "Hippolyte" "Hubert" "Hugo" "Hugues" "Hyacinthe" 
+			"Jacques" "Jean" "Jeremie" "Joseph" "Jules" "Julien" "Just" "Jérôme" "Laurent" "Lazare" "Louis" "Lucien" 
+			"Léon" "Léonce" "Léonide" "Léopold" "Marcel" "Matthieu" "Maurice" "Maxime" "Maximilien" "Michel" "Moïse" "Napoléon" 
+			"Nicolas" "Octave" "Odilon" "Olivier" "Oscar" "Pascal" "Patrice" "Paul" "Philippe" "Pierre" "Prosper" "Quentin" 
+			"Raymond" "René" "Robert" "Rodolphe" "Roland" "Rémy" "Simon" "Sébastien" "Thibaut" "Thierry" "Thomas" "Théobald" 
+			"Théodore" "Théophile" "Ulysse" "Victor" "Vincent" "Xavier" "Yves" "Édouard" "Émile" "Étienne" "Évrard" 
+		}
+	}
+	female = {
+		names = {
+			"Adèle" "Adélaïde" "Alexandrine" "Amélie" "Angélique" "Anne" "Antoinette" "Athénaïs" "Augustine" "Beatrice" "Blanche" 
+			"Camille" "Caroline" "Catherine" "Charlotte" "Claire" "Clotilde" "Clémence" "Delphine" "Desirée" "Diane" "Ernestine" "Eugénie" 
+			"Eulalie" "Françoise" "Gabrielle" "Henriette" "Hortense" "Jeanne" "Julie" "Juliette" "Justine" "Louise" "Louise-Victorine" "Léontine" 
+			"Léopoldine" "Marcelle" "Marguerite" "Marie" "Marie-Anne" "Marie-Félix" "Marthe" "Mathilde" "Mélanie" "Paule" "Pauline" "Sibylle" 
+			"Sophie" "Stéphanie" "Suzanne" "Séraphine" "Thérèse" "Victoire" "Victorine" "Virginie" "Éléonore" 
+		}
+	}
+	surnames = {
+			"Achard" "Alavoine" "Anthoine" "Archinard" "Astaix" "Astouin" "Aucouturier" "Augereau" "Avond" "Bac" "Baraguey" 
+			"Baudet" "Bavoux" "Bazaine" "Beaugendre" "Beslay" "Bezanson" "Bidard" "Billot" "Bière" "Bodinier" "Bonnin" "Bosquet" 
+			"Bougueret" "Bouillet" "Boulanger" "Bourbaki" "Boussingault" "Bouzique" "Boué de Lapeyrère" "Bouët-Willaumez" "Bronchard" "Bugeaud" "Buvignier" "Caillard" 
+			"Canrobert" "Carrere" "Caudrelier" "Cauvry" "Charron" "Chartier" "Chaude" "Chaudé" "Chauvet" "Cibiel" "Cloué" "Colas" 
+			"Colin" "Collet" "Combelles" "Combes" "Coquerel" "Cornet" "Cottrel" "Courbet" "Courcelles" "Cousin-Mountauban" "Coutenceau" "Cruchon" 
+			"Daime" "Daix" "Darche" "Dargassies" "Dartigue" "Daumain" "Davout" "Debrotonne" "Decaup" "Degy" "Delaire" "Delcassé" 
+			"Delespaul" "Deloffre" "Delpech" "Demortreux" "Denissel" "Denizot" "Depre" "Desaincthorent" "Desbordes" "Desgrange" "Devilly" "Dhers" 
+			"Dortignacq" "Dozol" "Dubail" "Duboc" "Dubois" "Duchêne" "Ducluzeau" "Dudouyt" "Dufour" "Dupetit-Thouars" "Dutiron" "Dégousée" 
+			"Emmery" "Esquirou" "Exelmans" "Faidherbe" "Farconnet" "Favand" "Favart" "Ferrouillat" "Figuet" "Fily" "Fleury" "Foch" 
+			"Forestier" "Forey" "Foucqueteau" "Franchet d’Espèrey" "Freslon" "Fresneau" "Freycinet" "Gabory" "Gain" "Gallieni" "Gardent" "Garrigou" 
+			"Genin" "Georget" "Germain" "Godivier" "Gonnor" "Goujon" "Gouraud" "Guillarme" "Guillaumat" "Guyon" "Géraud" "Habierre" 
+			"Hamelin" "Harispe" "Harquet" "Herbelin" "Hoche" "Humbert" "Jamais" "Jaurès" "Jauréguiberry" "Joffre" "Jousselin" "Lachaise" 
+			"Lacroix" "Lafourcade" "Lagagner" "Lallement" "Langlade" "Lannelongue" "Lapize" "Le Bars" "Lebelleguy" "Leblanc" "Lebon" "Lebouef" 
+			"Lecointe" "Leman" "Leroy" "Leygoute" "Lherbette" "Lignon" "Lorillon" "Lortet" "Lubbert" "Luminais" "Luneau" "Lyautey" 
+			"Madesclaire" "Maitron" "Malbois" "Marmontel" "Marrast" "Mathonat" "Mazel" "Meili" "Milhoux" "Mispoulet" "Moutou" "Murat" 
+			"Ménager" "Nachet" "Nadaud" "Nancy" "Neboux" "Nempon" "Niboyet" "Nivelle" "Normant" "Nourry" "Ory" "Osmont" 
+			"Oudin" "Pardon" "Pasquier" "Passerieu" "Paullian" "Paulmier" "Pautrat" "Payan" "Perrenet" "Petain" "Pigeon" "Piétrois" 
+			"Pleignard" "Plocq" "Ponson" "Pothier" "Péllissier" "Quenon" "Quinet" "Rabot" "Radoing" "Regembal" "Reibell" "Repellin" 
+			"Ricaux" "Ringeval" "Riou" "Riviere" "Roche" "Roquebert" "Rottie" "Rouher" "Roux" "Royannez" "Royol" "Saget" 
+			"Saint-Beuve" "Saint-Romme" "Signard" "Simiot" "Sobrier" "Soubigou" "Soulié" "Stoecklé" "Stévenot" "Tanchard" "Taschereau" "Tassel" 
+			"Teulon" "Tixier" "Totain" "Trinchan" "Trousselier" "Trébutien" "Tuvache" "Vaidis" "Vaillant" "Valladier" "Vavin" "Vendois" 
+			"Ventresque" "Vergnes" "Vernhette" "Vignerte" "Vilain" "Vilette" "Villette" "Vinoy" "Viox" "Vivier" "Voilquin" "Walferdin" 
+			"Warnet" "Wattelier" "Winant" "de Castellane" "de Gaulle" "de Montaignac" "de Saint Arnaud" "d’Hilliers" 
+	}
+}
+Z14 = {
+	male = {
+		names = {
+			"Abel" "Acton" "Adam" "Adolphus" "Adrian" "Alan" "Albert" "Alexander" "Alfred" "Algernon" "Allen" 
+			"Alphonse" "Ambrose" "Andrew" "Anthony" "Archibald" "Arnold" "Arthur" "Auberon" "Augustus" "Austen" "Aylmer" "Barnaby" 
+			"Bartholomew" "Basil" "Beauchamp" "Benedict" "Benjamin" "Bertram" "Bertrand" "Bruce" "Byron" "Caleb" "Cecil" "Charles" 
+			"Chichester" "Christopher" "Clarence" "Claude" "Collingwood" "Cornelius" "Daniel" "David" "Donald" "Dudley" "Ebenezer" "Edgar" 
+			"Edmund" "Edward" "Edwin" "Egerton" "Eric" "Eustace" "Evelyn" "Fairfax" "Francis" "Frederick" "Frédéric" "Garnet" 
+			"Gathorne" "Geoffrey" "George" "Gerard" "Gipps" "Godfrey" "Gonville" "Granville" "Gregory" "Guildford" "Harcourt" "Harold" 
+			"Hedley" "Hedworth" "Henry" "Herbert" "Horatio" "Hugh" "Humphrey" "Isaac" "Isambard" "Jacob" "James" "Jeremy" 
+			"John" "Joseph" "Joshua" "Josslyn" "Julian" "Kenelm" "Laurence" "Leonard" "Lewis" "Lionel" "Lyon" "Mark" 
+			"Martin" "Massey" "Matthew" "Maurice" "Maxwell" "Michael" "Montague" "Murrough" "Myles" "Nathaniel" "Neville" "Nicholas" 
+			"Nigel" "Octavius" "Oliver" "Oscar" "Oswald" "Patrick" "Paul" "Percy" "Peter" "Philip" "Poulett" "Redvers" 
+			"Reginald" "Richard" "Robert" "Roger" "Ross" "Roundell" "Rowland" "Rudyard" "Rufus" "Rupert" "Sackville" "Samuel" 
+			"Sewallis" "Simon" "Spencer" "Stafford" "Stanley" "Stephen" "Sutherland" "Teignmouth" "Terence" "Theobald" "Theodore" "Thomas" 
+			"Timothy" "Tristan" "Valentine" "Victor" "Walter" "Watkin" "Weetman" "Wellwood" "Wentworth" "Weston" "Wilbraham" "Wilfred" 
+			"William" "Winston" "Wyndham" "Zachary" 
+		}
+	}
+	female = {
+		names = {
+			"Ada" "Adela" "Adelaide" "Agnes" "Alethea" "Alice" "Amabel" "Amelia" "Anne" "Annot" "Arabella" 
+			"Augusta" "Barbara" "Barbarina" "Beatrice" "Bertha" "Camilla" "Caroline" "Catherine" "Cecilia" "Charlotte" "Christabel" "Christina" 
+			"Clara" "Clementina" "Constance" "Diana" "Dorothea" "Edith" "Eleanor" "Eliza" "Elizabeth" "Ella" "Emma" "Emmeline" 
+			"Esther" "Euphemia" "Favell" "Felicia" "Flora" "Florence" "Frances" "Georgia" "Georgiana" "Geraldine" "Gertrude" "Grace" 
+			"Grisell" "Hannah" "Harriet" "Harriette" "Henrietta" "Isabella" "Ivy" "Jane" "Janet" "Jeanette" "Joanna" "Josephine" 
+			"Julia" "Laetitia" "Laura" "Lillian" "Louisa" "Lucy" "Lydia" "Madeleine" "Margaret" "Marian" "Mariana" "Marianne" 
+			"Mary" "Mathilde" "May" "Menella" "Nona" "Nora" "Olivia" "Pauline" "Phoebe" "Rachel" "Regina" "Rhoda" 
+			"Rosaline" "Rosina" "Ruth" "Sarah" "Selina" "Sibella" "Sophia" "Susan" "Theodora" "Victoria" "Violet" "Virginia" 
+			"Wilhelmine" 
+		}
+	}
+	surnames = {
+			"Abercrombie" "Adamson" "Aitchison" "Aitken" "Allan" "Almon" "Annandale" "Arnott" "Asher" "Baikie" "Baildon" 
+			"Baird" "Ballantyne" "Ballingall" "Barbour" "Barclay" "Barnes" "Beatson" "Begbie" "Bell" "Beugo" "Black" "Blair" 
+			"Bonnar" "Bovell" "Boyd" "Bramwell" "Brightwen" "Brogan" "Brown" "Bruce" "Brunton" "Bryce" "Burn" "Burnet" 
+			"Burt" "Cadell" "Campbell" "Cantlie" "Carmichael" "Carne-Ross" "Carruthers" "Carson" "Chalmers" "Chapman" "Chesser" "Cheyne" 
+			"Chisholm" "Christie" "Christison" "Clark" "Cleghorn" "Clerk" "Clouston" "Cockburn" "Coghill" "Coldstream" "Colledge" "Collie" 
+			"Combe" "Connor" "Copland" "Cormack" "Corson" "Cousin" "Cowie" "Craig" "Crawfurd" "Cream" "Crichton" "Cumin" 
+			"Cunningham" "Davidson" "Deas" "Dewar" "Dickie" "Dickson" "Dixon" "Douglas" "Doyle" "Drummond" "Dudeon" "Dumbreck" 
+			"Dunbar" "Dunlop" "Dunsmure" "Dyce" "Dyer" "Edington" "Edmondston" "Elmslie" "Ennis" "Ewing" "Fairbairn" "Fairlie" 
+			"Farquharson" "Faulds" "Fellowes" "Fenton" "Ferrier" "Ferusson" "Finlay" "Finlayson" "Fleming" "Flett" "Foggo" "Forbes" 
+			"Fraiser" "Fulton" "Fyfe" "Gairdner" "Gibson" "Gilchrist" "Gildard" "Gillespie" "Glenie" "Goodsir" "Gowans" "Graham" 
+			"Grant" "Gray" "Gregan" "Greig" "Grieve" "Gunn" "Guy" "Haldane" "Halliday" "Hamilton" "Handyside" "Hare" 
+			"Harley" "Hastie" "Hay" "Henderson" "Hepburn" "Higgins" "Holmes" "Hume" "Hunter" "Hutchison" "Imlach" "Inglis" 
+			"Irving" "Jackson" "Jameson" "Jamieson" "Johnston" "Kalley" "Keiller" "Keith" "Kennedy" "Keppie" "Kerr" "Kinnear" 
+			"Kirk" "Lambie" "Lauder" "Lessels" "Liddell" "Lindsay" "Littlejohn" "Lochead" "Lorimer" "Lovi" "Lugar" "MacAlister" 
+			"MacGillivray" "MacGregor" "MacKintosh" "MacLaren" "MacLaurin" "MacNair" "MacPhail" "Macartney" "Macaulay" "Macdonald" "Macewen" "Macfie" 
+			"Machlan" "Macintyre" "Mackay" "Mackenzie" "Mackie" "Mackinnon" "Maclae" "Maclagan" "Maclean" "Macleod" "Macnish" "Main" 
+			"Mair" "Manson" "Marshall" "Matheson" "Maule" "McAldowie" "McGill" "McGrigor" "McIntosh" "McKellar" "McKendrick" "McLachlan" 
+			"McNab" "McNeill" "McRae" "McVail" "McWilliam" "Millar" "Milroy" "Mitchell" "Moir" "Monro" "Montgomery" "Moorhead" 
+			"Morham" "Morison" "Mouat" "Muir" "Murchison" "Murdoch" "Nasmuth" "Neale" "Newlands" "Nicholson" "Nisbet" "Niven" 
+			"Oliphant" "Oswald" "Oudney" "Pagan" "Parker" "Paterson" "Paton" "Peddie" "Pettigrew" "Philip" "Pilkington" "Pirie" 
+			"Pitcairn" "Poole" "Prentice" "Pringle" "Rae" "Raeburn" "Reid" "Rhind" "Riddell" "Ritchie" "Roberton" "Robertson" 
+			"Robson" "Rochead" "Ross" "Russell" "Rutherford" "Saunders" "Selkirk" "Sellars" "Seller" "Shaw" "Shepherd" "Shortt" 
+			"Sibbald" "Simpson" "Skae" "Skirving" "Smart" "Smellie" "Smith" "Somerville" "Souttar" "Speirs" "Spittal" "Steell" 
+			"Stevenson" "Stewart" "Stirling" "Struthers" "Sturrock" "Sutherland" "Swanwick" "Tait" "Talbert" "Taylor" "Thom" "Thomson" 
+			"Tod" "Todd" "Tosh" "Towers" "Traill" "Traquair" "Trotter" "Tweedie" "Underhill" "Ure" "Urie" "Usher" 
+			"Walker" "Wardrop" "Watson" "Whigham" "Wilson" "Wise" "Wood" "Wright" "Young" 
+	}
+}
+Z15 = {
+	male = {
+		names = {
+			"Abdullah" "Al-Mukammal" "Ali" "Aziz" "Idris" "Isandar" "Ismail" "Jaafar" "Jalil" "Muabidin" "Muhammad" 
+			"Riayat" "Safiuddin" "Shahabuddin" "Tuanku" "Yusuf" 
+		}
+	}
+	female = {
+		names = {
+			"Adibah" "Aishah" "Faridah" "Fatimah" "Maimunah" "Nur Maznah" "Rafidah" "Zaharah" "Zaleha" 
+		}
+	}
+	surnames = {
+			"Aadzam" "Bendahara" "Muadzam" "Murshidul" "Raja Ahmad" "Raja Inu" "Riayat Shah" "al-Khairat" "al-Marhum" 
+	}
+}
+Z16 = {
+	male = {
+		names = {
+			"Abdullah" "Alhassan" "Baba" "Bugaya" "Daud" "Kanajeji" "Kumbari" "Muhammad" "Sharif" "Tsamiya" "Usman" 
+			"Yaji" 
+		}
+	}
+	female = {
+		names = {
+			"Amarya" "Amina" "Halima" "Maryam" "Safiya" 
+		}
+	}
+	surnames = {
+			"Abasama" "Audu" "Kabe" "Rumfa" "Zaki" "Zamnagawa" "al-Hajj" "al-Walid" 
+	}
+}
+Z17 = {
+	male = {
+		names = {
+			"Abdullah" "Al-Mukammal" "Ali" "Aziz" "Idris" "Isandar" "Ismail" "Jaafar" "Jalil" "Muabidin" "Muhammad" 
+			"Riayat" "Safiuddin" "Shahabuddin" "Tuanku" "Yusuf" 
+		}
+	}
+	female = {
+		names = {
+			"Adibah" "Aishah" "Faridah" "Fatimah" "Maimunah" "Nur Maznah" "Rafidah" "Zaharah" "Zaleha" 
+		}
+	}
+	surnames = {
+			"Aadzam" "Bendahara" "Muadzam" "Murshidul" "Raja Ahmad" "Raja Inu" "Riayat Shah" "al-Khairat" "al-Marhum" 
+	}
+}
+Z18 = {
 	male = {
 		names = {
 			"Antonio" "Camilo" "Carlos" "Cipriano" "Demetrio" "Diego" "Domingo" "Eloy" "Eusebio" "Eustorgio" "Ezequiel" 
@@ -4515,21 +3907,18 @@ Z10 = {
 ZAI = {
 	male = {
 		names = {
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" 
-			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Ja’far" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" 
-			"Salim" "Sa’d al-Din" "Sa’ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" 
+			"Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Salim" "Sa’d al-Din" 
+			"Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" 
 		}
 	}
 	female = {
 		names = {
-			"Bahiya" "Fahda" "Ghaliyya" "Haifa" "Hamida" "Hassa" "Iffat" "Latifa" "Lolwah" "Maha" "Noura" 
-			"Sultana" 
+			"Bahira" "Fayza" "Ghalia" "Nadia" "Noura" "Samira" "Sulafa" "Zeina" "Zuhur" 
 		}
 	}
 	surnames = {
-			"Asmar" "Mokarzel" "al-Askari" "al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi" "al-Mawsili" "al-Nablusi" 
-			"al-Qudsi" "al-Shami" "ibm Kamil" "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" 
-			"ibn Ishaq" "ibn Ja’far" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" 
+			"Al Faiz" "Al-Rahman Al-Gillani" "Nuseibeh" "al-Ali" "al-Atassi" "al-Atrash" "al-Azma" "al-Ghani al-Nabulsi" "al-Hiraki" "al-Zaydani" 
 	}
 }
 ZAN = {
@@ -4549,21 +3938,6 @@ ZAN = {
 			"Ahmed" "Amiri" "Asani" "Babu" "Balozi" "Darweshi" "Erevu" "Faraji" "Fupi" "Heri" "Hishima" 
 			"Huru" "Husani" "Ibada" "Imara" "Issa" "Jabari" "Jahidi" "Jalali" "Juma" "Jumaane" "Kafeel" "Kamari" 
 			"Khamisi" "Kifimbo" "Kivuli" "Kondo" "Lumbwi" "Machupa" "Mbwana" "Mosi" "Safi" "Salehe" "Zuberi" 
-	}
-}
-ZND = {
-	male = {
-		names = {
-			"Bigomokero" "Birhenjira" "Kabare" "Makome" "Mwerve" "Ngabwe" "Rugema" "Rugemaninzi" "Rutanganda" "Souau" 
-		}
-	}
-	female = {
-		names = {
-			"Catarina" 
-		}
-	}
-	surnames = {
-			"Muhigirwa" "Nabushi" "Ntayitunda" "Younga" 
 	}
 }
 ZUL = {

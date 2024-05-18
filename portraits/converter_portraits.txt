@@ -78,86 +78,6 @@ ACH = {
 	female = {
 	}
 }
-ADG = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 AFG = {
 	army = {
 		male = {
@@ -363,62 +283,6 @@ AIR = {
 		}
 	}
 	female = {
-	}
-}
-AIT = {
-	army = {
-		male = {
-			GFX_Portrait_Arabia_Generic_land_1
-			GFX_Portrait_Arabia_Generic_land_2
-			GFX_Portrait_Arabia_Generic_land_3
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Arabia_Generic_navy_1
-			GFX_Portrait_Arabia_Generic_navy_2
-			GFX_Portrait_Arabia_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_1
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Arabia_Generic_2
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_arabia_generic_operative_male_1
-			GFX_portrait_arabia_generic_operative_male_2
-			GFX_portrait_arabia_generic_operative_male_3
-			GFX_portrait_arabia_generic_operative_male_4
-			GFX_portrait_arabia_generic_operative_male_5
-			GFX_portrait_arabia_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_arabia_generic_operative_female_1
-			GFX_portrait_arabia_generic_operative_female_2
-			GFX_portrait_arabia_generic_operative_female_3
-			GFX_portrait_arabia_generic_operative_female_4
-			GFX_portrait_arabia_generic_operative_female_5
-			GFX_portrait_arabia_generic_operative_female_6
-		}
 	}
 }
 ALT = {
@@ -1105,16 +969,6 @@ BAL = {
 	operative = {
 	}
 }
-BAS = {
-	army = {
-	}
-	navy = {
-	}
-	political = {
-	}
-	operative = {
-	}
-}
 BEL = {
 	army = {
 		male = {
@@ -1496,166 +1350,6 @@ BLG = {
 	operative = {
 	}
 }
-BMB = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-BNG = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 BNJ = {
 	army = {
 		male = {
@@ -1783,167 +1477,7 @@ BNY = {
 	female = {
 	}
 }
-BOB = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 BOR = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-BOT = {
 	army = {
 		male = {
 			GFX_Portrait_Africa_Generic_land_1
@@ -2300,6 +1834,86 @@ BRM = {
 	operative = {
 	}
 }
+BST = {
+	army = {
+		male = {
+			GFX_Portrait_Africa_Generic_land_1
+			GFX_Portrait_Africa_Generic_land_2
+			GFX_Portrait_Africa_Generic_land_3
+			GFX_Portrait_Africa_Generic_land_4
+			GFX_Portrait_South_Africa_Army_Generic
+			GFX_Portrait_South_Africa_Army_Generic_2
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Africa_Generic_navy_1
+			GFX_Portrait_Africa_Generic_navy_2
+			GFX_Portrait_Africa_Generic_navy_3
+			GFX_Portrait_Africa_Generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Africa_Generic_1
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Africa_Generic_2
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_africa_generic_operative_male_1
+			GFX_portrait_africa_generic_operative_male_2
+			GFX_portrait_africa_generic_operative_male_3
+			GFX_portrait_africa_generic_operative_male_4
+			GFX_portrait_africa_generic_operative_male_5
+			GFX_portrait_africa_generic_operative_male_6
+			GFX_portrait_africa_generic_operative_male_7
+			GFX_portrait_africa_generic_operative_male_8
+			GFX_portrait_africa_generic_operative_male_9
+		}
+		female = {
+			GFX_portrait_africa_generic_operative_female_1
+			GFX_portrait_africa_generic_operative_female_2
+			GFX_portrait_africa_generic_operative_female_3
+			GFX_portrait_africa_generic_operative_female_4
+			GFX_portrait_africa_generic_operative_female_5
+			GFX_portrait_africa_generic_operative_female_6
+			GFX_portrait_africa_generic_operative_female_7
+			GFX_portrait_africa_generic_operative_female_8
+			GFX_portrait_africa_generic_operative_female_9
+		}
+	}
+	female = {
+	}
+}
 BTN = {
 	army = {
 		male = {
@@ -2390,16 +2004,6 @@ BUK = {
 				GFX_portrait_asia_generic_4
 			}
 		}
-	}
-	operative = {
-	}
-}
-BUN = {
-	army = {
-	}
-	navy = {
-	}
-	political = {
 	}
 	operative = {
 	}
@@ -2620,86 +2224,6 @@ CHI = {
 		}
 	}
 	operative = {
-	}
-}
-CHK = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
 	}
 }
 CHL = {
@@ -2936,133 +2460,87 @@ CMI = {
 	operative = {
 	}
 }
+COG = {
+	army = {
+		male = {
+			GFX_Portrait_Africa_Generic_land_1
+			GFX_Portrait_Africa_Generic_land_2
+			GFX_Portrait_Africa_Generic_land_3
+			GFX_Portrait_Africa_Generic_land_4
+			GFX_Portrait_South_Africa_Army_Generic
+			GFX_Portrait_South_Africa_Army_Generic_2
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Africa_Generic_navy_1
+			GFX_Portrait_Africa_Generic_navy_2
+			GFX_Portrait_Africa_Generic_navy_3
+			GFX_Portrait_Africa_Generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Africa_Generic_1
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Africa_Generic_2
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_africa_generic_operative_male_1
+			GFX_portrait_africa_generic_operative_male_2
+			GFX_portrait_africa_generic_operative_male_3
+			GFX_portrait_africa_generic_operative_male_4
+			GFX_portrait_africa_generic_operative_male_5
+			GFX_portrait_africa_generic_operative_male_6
+			GFX_portrait_africa_generic_operative_male_7
+			GFX_portrait_africa_generic_operative_male_8
+			GFX_portrait_africa_generic_operative_male_9
+		}
+		female = {
+			GFX_portrait_africa_generic_operative_female_1
+			GFX_portrait_africa_generic_operative_female_2
+			GFX_portrait_africa_generic_operative_female_3
+			GFX_portrait_africa_generic_operative_female_4
+			GFX_portrait_africa_generic_operative_female_5
+			GFX_portrait_africa_generic_operative_female_6
+			GFX_portrait_africa_generic_operative_female_7
+			GFX_portrait_africa_generic_operative_female_8
+			GFX_portrait_africa_generic_operative_female_9
+		}
+	}
+	female = {
+	}
+}
 COL = {
-	army = {
-		male = {
-			GFX_Portrait_South_America_Generic_land_1
-			GFX_Portrait_South_America_Generic_land_2
-			GFX_Portrait_South_America_Generic_land_3
-			GFX_Portrait_South_America_Generic_land_4
-			GFX_Portrait_South_America_Generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_South_America_Generic_navy_1
-			GFX_Portrait_South_America_Generic_navy_2
-			GFX_Portrait_South_America_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_South_America_Generic_1
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_South_America_Generic_2
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_south_america_generic_operative_male_1
-			GFX_portrait_south_america_generic_operative_male_2
-			GFX_portrait_south_america_generic_operative_male_3
-			GFX_portrait_south_america_generic_operative_male_4
-			GFX_portrait_south_america_generic_operative_male_5
-			GFX_portrait_south_america_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_south_america_generic_operative_female_1
-			GFX_portrait_south_america_generic_operative_female_2
-			GFX_portrait_south_america_generic_operative_female_3
-			GFX_portrait_south_america_generic_operative_female_4
-			GFX_portrait_south_america_generic_operative_female_5
-			GFX_portrait_south_america_generic_operative_female_6
-		}
-	}
-}
-CON = {
-	army = {
-		male = {
-			GFX_Portrait_Arabia_Generic_land_1
-			GFX_Portrait_Arabia_Generic_land_2
-			GFX_Portrait_Arabia_Generic_land_3
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Arabia_Generic_navy_1
-			GFX_Portrait_Arabia_Generic_navy_2
-			GFX_Portrait_Arabia_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_1
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Arabia_Generic_2
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_arabia_generic_operative_male_1
-			GFX_portrait_arabia_generic_operative_male_2
-			GFX_portrait_arabia_generic_operative_male_3
-			GFX_portrait_arabia_generic_operative_male_4
-			GFX_portrait_arabia_generic_operative_male_5
-			GFX_portrait_arabia_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_arabia_generic_operative_female_1
-			GFX_portrait_arabia_generic_operative_female_2
-			GFX_portrait_arabia_generic_operative_female_3
-			GFX_portrait_arabia_generic_operative_female_4
-			GFX_portrait_arabia_generic_operative_female_5
-			GFX_portrait_arabia_generic_operative_female_6
-		}
-	}
-}
-COS = {
 	army = {
 		male = {
 			GFX_Portrait_South_America_Generic_land_1
@@ -3355,133 +2833,6 @@ DAH = {
 	female = {
 	}
 }
-DAI = {
-	army = {
-		male = {
-			GFX_Portrait_Asia_Generic_land_1
-			GFX_Portrait_Asia_Generic_land_2
-			GFX_Portrait_Asia_Generic_land_3
-			GFX_Portrait_Asia_Generic_land_4
-			GFX_Portrait_asia_generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Asia_Generic_navy_1
-			GFX_Portrait_Asia_Generic_navy_2
-			GFX_Portrait_Asia_Generic_navy_3
-			GFX_Portrait_asia_generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Asia_Generic_1
-				GFX_portrait_asia_generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Asia_Generic_2
-				GFX_portrait_asia_generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Asia_Generic_3
-				GFX_portrait_asia_generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Asia_Generic_3
-				GFX_portrait_asia_generic_4
-			}
-		}
-	}
-	operative = {
-	}
-}
-DAK = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 DEN = {
 	army = {
 		male = {
@@ -3681,166 +3032,6 @@ DFR = {
 	female = {
 	}
 }
-DFT = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-DNK = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 ECU = {
 	army = {
 		male = {
@@ -3908,62 +3099,6 @@ ECU = {
 			GFX_portrait_south_america_generic_operative_female_4
 			GFX_portrait_south_america_generic_operative_female_5
 			GFX_portrait_south_america_generic_operative_female_6
-		}
-	}
-}
-EGY = {
-	army = {
-		male = {
-			GFX_Portrait_Arabia_Generic_land_1
-			GFX_Portrait_Arabia_Generic_land_2
-			GFX_Portrait_Arabia_Generic_land_3
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Arabia_Generic_navy_1
-			GFX_Portrait_Arabia_Generic_navy_2
-			GFX_Portrait_Arabia_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_1
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Arabia_Generic_2
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_arabia_generic_operative_male_1
-			GFX_portrait_arabia_generic_operative_male_2
-			GFX_portrait_arabia_generic_operative_male_3
-			GFX_portrait_arabia_generic_operative_male_4
-			GFX_portrait_arabia_generic_operative_male_5
-			GFX_portrait_arabia_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_arabia_generic_operative_female_1
-			GFX_portrait_arabia_generic_operative_female_2
-			GFX_portrait_arabia_generic_operative_female_3
-			GFX_portrait_arabia_generic_operative_female_4
-			GFX_portrait_arabia_generic_operative_female_5
-			GFX_portrait_arabia_generic_operative_female_6
 		}
 	}
 }
@@ -4253,86 +3388,6 @@ FIN = {
 			GFX_portrait_europe_generic_operative_female_25
 			GFX_portrait_europe_generic_operative_female_26
 		}
-	}
-}
-FNG = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
 	}
 }
 FRA = {
@@ -4697,156 +3752,6 @@ GER = {
 			GFX_portrait_europe_generic_operative_female_24
 			GFX_portrait_europe_generic_operative_female_25
 			GFX_portrait_europe_generic_operative_female_26
-		}
-	}
-}
-GGO = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-GNI = {
-	army = {
-		male = {
-			GFX_Portrait_South_America_Generic_land_1
-			GFX_Portrait_South_America_Generic_land_2
-			GFX_Portrait_South_America_Generic_land_3
-			GFX_Portrait_South_America_Generic_land_4
-			GFX_Portrait_South_America_Generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_South_America_Generic_navy_1
-			GFX_Portrait_South_America_Generic_navy_2
-			GFX_Portrait_South_America_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_South_America_Generic_1
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_South_America_Generic_2
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_south_america_generic_operative_male_1
-			GFX_portrait_south_america_generic_operative_male_2
-			GFX_portrait_south_america_generic_operative_male_3
-			GFX_portrait_south_america_generic_operative_male_4
-			GFX_portrait_south_america_generic_operative_male_5
-			GFX_portrait_south_america_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_south_america_generic_operative_female_1
-			GFX_portrait_south_america_generic_operative_female_2
-			GFX_portrait_south_america_generic_operative_female_3
-			GFX_portrait_south_america_generic_operative_female_4
-			GFX_portrait_south_america_generic_operative_female_5
-			GFX_portrait_south_america_generic_operative_female_6
 		}
 	}
 }
@@ -5384,164 +4289,14 @@ HDJ = {
 		}
 	}
 }
-HHE = {
+HND = {
 	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
 	}
 	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
 	}
 	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
 	}
 	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-HMB = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
 	}
 }
 HOL = {
@@ -5735,7 +4490,7 @@ HON = {
 		}
 	}
 }
-HRO = {
+IBO = {
 	army = {
 		male = {
 			GFX_Portrait_Africa_Generic_land_1
@@ -5813,16 +4568,6 @@ HRO = {
 		}
 	}
 	female = {
-	}
-}
-HYD = {
-	army = {
-	}
-	navy = {
-	}
-	political = {
-	}
-	operative = {
 	}
 }
 INS = {
@@ -6067,86 +4812,6 @@ ION = {
 		}
 	}
 }
-ISQ = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 JAB = {
 	army = {
 		male = {
@@ -6249,16 +4914,6 @@ JAP = {
 				GFX_portrait_asia_generic_4
 			}
 		}
-	}
-	operative = {
-	}
-}
-JAS = {
-	army = {
-	}
-	navy = {
-	}
-	political = {
 	}
 	operative = {
 	}
@@ -6423,86 +5078,6 @@ KAT = {
 		}
 	}
 }
-KBA = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 KHI = {
 	army = {
 		male = {
@@ -6644,208 +5219,7 @@ KOR = {
 	operative = {
 	}
 }
-KRA = {
-	army = {
-		male = {
-			GFX_Portrait_Europe_Generic_land_1
-			GFX_Portrait_Europe_Generic_land_2
-			GFX_Portrait_Europe_Generic_land_3
-			GFX_Portrait_Europe_Generic_land_4
-			GFX_Portrait_Europe_Generic_land_5
-			GFX_portrait_europe_generic_land_13
-			GFX_Portrait_europe_generic_land_6
-			GFX_portrait_europe_generic_land_7
-			GFX_portrait_europe_generic_land_8
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Europe_Generic_navy_1
-			GFX_Portrait_Europe_Generic_navy_2
-			GFX_Portrait_Europe_Generic_navy_3
-			GFX_portrait_europe_generic_navy_4
-			GFX_portrait_europe_generic_navy_5
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Europe_Generic_1
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Europe_Generic_2
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_europe_generic_operative_male_1
-			GFX_portrait_europe_generic_operative_male_2
-			GFX_portrait_europe_generic_operative_male_3
-			GFX_portrait_europe_generic_operative_male_4
-			GFX_portrait_europe_generic_operative_male_5
-			GFX_portrait_europe_generic_operative_male_6
-			GFX_portrait_europe_generic_operative_male_7
-			GFX_portrait_europe_generic_operative_male_8
-			GFX_portrait_europe_generic_operative_male_9
-			GFX_portrait_europe_generic_operative_male_10
-			GFX_portrait_europe_generic_operative_male_11
-			GFX_portrait_europe_generic_operative_male_13
-			GFX_portrait_europe_generic_operative_male_14
-			GFX_portrait_europe_generic_operative_male_15
-			GFX_portrait_europe_generic_operative_male_16
-			GFX_portrait_europe_generic_operative_male_17
-			GFX_portrait_europe_generic_operative_male_18
-			GFX_portrait_europe_generic_operative_male_19
-			GFX_portrait_europe_generic_operative_male_20
-			GFX_portrait_europe_generic_operative_male_21
-			GFX_portrait_europe_generic_operative_male_22
-			GFX_portrait_europe_generic_operative_male_23
-			GFX_portrait_europe_generic_operative_male_24
-			GFX_portrait_europe_generic_operative_male_25
-		}
-		female = {
-			GFX_portrait_europe_generic_operative_female_1
-			GFX_portrait_europe_generic_operative_female_2
-			GFX_portrait_europe_generic_operative_female_3
-			GFX_portrait_europe_generic_operative_female_4
-			GFX_portrait_europe_generic_operative_female_5
-			GFX_portrait_europe_generic_operative_female_6
-			GFX_portrait_europe_generic_operative_female_7
-			GFX_portrait_europe_generic_operative_female_8
-			GFX_portrait_europe_generic_operative_female_9
-			GFX_portrait_europe_generic_operative_female_10
-			GFX_portrait_europe_generic_operative_female_11
-			GFX_portrait_europe_generic_operative_female_13
-			GFX_portrait_europe_generic_operative_female_14
-			GFX_portrait_europe_generic_operative_female_15
-			GFX_portrait_europe_generic_operative_female_16
-			GFX_portrait_europe_generic_operative_female_17
-			GFX_portrait_europe_generic_operative_female_18
-			GFX_portrait_europe_generic_operative_female_19
-			GFX_portrait_europe_generic_operative_female_20
-			GFX_portrait_europe_generic_operative_female_21
-			GFX_portrait_europe_generic_operative_female_22
-			GFX_portrait_europe_generic_operative_female_23
-			GFX_portrait_europe_generic_operative_female_24
-			GFX_portrait_europe_generic_operative_female_25
-			GFX_portrait_europe_generic_operative_female_26
-		}
-	}
-}
 KRG = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-KSN = {
 	army = {
 		male = {
 			GFX_Portrait_Africa_Generic_land_1
@@ -6980,86 +5354,6 @@ KUT = {
 	political = {
 	}
 	operative = {
-	}
-}
-KZM = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
 	}
 }
 LAH = {
@@ -7221,247 +5515,7 @@ LBA = {
 		}
 	}
 }
-LGA = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 LIB = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-LND = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-LNG = {
 	army = {
 		male = {
 			GFX_Portrait_Africa_Generic_land_1
@@ -7586,204 +5640,6 @@ LUA = {
 		}
 	}
 	operative = {
-	}
-}
-LUC = {
-	army = {
-		male = {
-			GFX_Portrait_Italy_Generic_land_1
-			GFX_Portrait_Italy_Generic_land_2
-			GFX_Portrait_Italy_Generic_land_3
-			GFX_Portrait_Italy_Generic_land_4
-			GFX_Portrait_Italy_Generic_land_5
-			GFX_Portrait_Italy_Generic_land_6
-			GFX_Portrait_Italy_Generic_land_7
-			GFX_Portrait_Italy_Generic_land_8
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Italy_Generic_navy_1
-			GFX_Portrait_Italy_Generic_navy_2
-			GFX_Portrait_Italy_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Europe_Generic_1
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Europe_Generic_2
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_europe_generic_operative_male_1
-			GFX_portrait_europe_generic_operative_male_2
-			GFX_portrait_europe_generic_operative_male_3
-			GFX_portrait_europe_generic_operative_male_4
-			GFX_portrait_europe_generic_operative_male_5
-			GFX_portrait_europe_generic_operative_male_6
-			GFX_portrait_europe_generic_operative_male_7
-			GFX_portrait_europe_generic_operative_male_8
-			GFX_portrait_europe_generic_operative_male_9
-			GFX_portrait_europe_generic_operative_male_10
-			GFX_portrait_europe_generic_operative_male_11
-			GFX_portrait_europe_generic_operative_male_13
-			GFX_portrait_europe_generic_operative_male_14
-			GFX_portrait_europe_generic_operative_male_15
-			GFX_portrait_europe_generic_operative_male_16
-			GFX_portrait_europe_generic_operative_male_17
-			GFX_portrait_europe_generic_operative_male_18
-			GFX_portrait_europe_generic_operative_male_19
-			GFX_portrait_europe_generic_operative_male_20
-			GFX_portrait_europe_generic_operative_male_21
-			GFX_portrait_europe_generic_operative_male_22
-			GFX_portrait_europe_generic_operative_male_23
-			GFX_portrait_europe_generic_operative_male_24
-			GFX_portrait_europe_generic_operative_male_25
-		}
-		female = {
-			GFX_portrait_europe_generic_operative_female_1
-			GFX_portrait_europe_generic_operative_female_2
-			GFX_portrait_europe_generic_operative_female_3
-			GFX_portrait_europe_generic_operative_female_4
-			GFX_portrait_europe_generic_operative_female_5
-			GFX_portrait_europe_generic_operative_female_6
-			GFX_portrait_europe_generic_operative_female_7
-			GFX_portrait_europe_generic_operative_female_8
-			GFX_portrait_europe_generic_operative_female_9
-			GFX_portrait_europe_generic_operative_female_10
-			GFX_portrait_europe_generic_operative_female_11
-			GFX_portrait_europe_generic_operative_female_13
-			GFX_portrait_europe_generic_operative_female_14
-			GFX_portrait_europe_generic_operative_female_15
-			GFX_portrait_europe_generic_operative_female_16
-			GFX_portrait_europe_generic_operative_female_17
-			GFX_portrait_europe_generic_operative_female_18
-			GFX_portrait_europe_generic_operative_female_19
-			GFX_portrait_europe_generic_operative_female_20
-			GFX_portrait_europe_generic_operative_female_21
-			GFX_portrait_europe_generic_operative_female_22
-			GFX_portrait_europe_generic_operative_female_23
-			GFX_portrait_europe_generic_operative_female_24
-			GFX_portrait_europe_generic_operative_female_25
-			GFX_portrait_europe_generic_operative_female_26
-		}
-	}
-}
-LZO = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
 	}
 }
 MAD = {
@@ -8268,166 +6124,6 @@ MKT = {
 	female = {
 	}
 }
-MNB = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-MNC = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 MOD = {
 	army = {
 		male = {
@@ -8723,327 +6419,7 @@ MOR = {
 		}
 	}
 }
-MRV = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-MSH = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-MSK = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 MSN = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-MTB = {
 	army = {
 		male = {
 			GFX_Portrait_Africa_Generic_land_1
@@ -9133,86 +6509,6 @@ NAG = {
 	operative = {
 	}
 }
-NAM = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 NEP = {
 	army = {
 		male = {
@@ -9258,76 +6554,6 @@ NEP = {
 		}
 	}
 	operative = {
-	}
-}
-NIC = {
-	army = {
-		male = {
-			GFX_Portrait_South_America_Generic_land_1
-			GFX_Portrait_South_America_Generic_land_2
-			GFX_Portrait_South_America_Generic_land_3
-			GFX_Portrait_South_America_Generic_land_4
-			GFX_Portrait_South_America_Generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_South_America_Generic_navy_1
-			GFX_Portrait_South_America_Generic_navy_2
-			GFX_Portrait_South_America_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_South_America_Generic_1
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_South_America_Generic_2
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_south_america_generic_operative_male_1
-			GFX_portrait_south_america_generic_operative_male_2
-			GFX_portrait_south_america_generic_operative_male_3
-			GFX_portrait_south_america_generic_operative_male_4
-			GFX_portrait_south_america_generic_operative_male_5
-			GFX_portrait_south_america_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_south_america_generic_operative_female_1
-			GFX_portrait_south_america_generic_operative_female_2
-			GFX_portrait_south_america_generic_operative_female_3
-			GFX_portrait_south_america_generic_operative_female_4
-			GFX_portrait_south_america_generic_operative_female_5
-			GFX_portrait_south_america_generic_operative_female_6
-		}
 	}
 }
 NOR = {
@@ -9425,166 +6651,6 @@ NOR = {
 			GFX_portrait_europe_generic_operative_female_25
 			GFX_portrait_europe_generic_operative_female_26
 		}
-	}
-}
-NUE = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-NYM = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
 	}
 }
 OMA = {
@@ -9764,176 +6830,6 @@ ORA = {
 		}
 	}
 }
-ORI = {
-	army = {
-	}
-	navy = {
-	}
-	political = {
-	}
-	operative = {
-	}
-}
-OUA = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-OVM = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 OYO = {
 	army = {
 		male = {
@@ -10024,29 +6920,44 @@ PAN = {
 	operative = {
 	}
 }
-PAP = {
+PAR = {
 	army = {
 		male = {
-			GFX_Portrait_Italy_Generic_land_1
-			GFX_Portrait_Italy_Generic_land_2
-			GFX_Portrait_Italy_Generic_land_3
-			GFX_Portrait_Italy_Generic_land_4
-			GFX_Portrait_Italy_Generic_land_5
-			GFX_Portrait_Italy_Generic_land_6
-			GFX_Portrait_Italy_Generic_land_7
-			GFX_Portrait_Italy_Generic_land_8
+			GFX_Portrait_South_America_Generic_land_1
+			GFX_Portrait_South_America_Generic_land_2
+			GFX_Portrait_South_America_Generic_land_3
+			GFX_Portrait_South_America_Generic_land_4
+			GFX_Portrait_South_America_Generic_land_5
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_Portrait_europe_generic_land_6
+			GFX_portrait_europe_generic_land_7
+			GFX_portrait_europe_generic_land_8
 		}
 	}
 	navy = {
 		male = {
-			GFX_Portrait_Italy_Generic_navy_1
-			GFX_Portrait_Italy_Generic_navy_2
-			GFX_Portrait_Italy_Generic_navy_3
+			GFX_Portrait_South_America_Generic_navy_1
+			GFX_Portrait_South_America_Generic_navy_2
+			GFX_Portrait_South_America_Generic_navy_3
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+			GFX_portrait_europe_generic_navy_4
+			GFX_portrait_europe_generic_navy_5
 		}
 	}
 	political = {
 		communism = {
 			male = {
+				GFX_Portrait_South_America_Generic_1
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
 				GFX_Portrait_Europe_Generic_1
 				GFX_portrait_europe_generic_4
 				GFX_portrait_europe_generic_5
@@ -10057,6 +6968,10 @@ PAP = {
 		}
 		democratic = {
 			male = {
+				GFX_Portrait_South_America_Generic_2
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
 				GFX_Portrait_Europe_Generic_2
 				GFX_portrait_europe_generic_4
 				GFX_portrait_europe_generic_5
@@ -10067,6 +6982,10 @@ PAP = {
 		}
 		fascism = {
 			male = {
+				GFX_Portrait_South_America_Generic_3
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
 				GFX_Portrait_Europe_Generic_3
 				GFX_portrait_europe_generic_4
 				GFX_portrait_europe_generic_5
@@ -10077,6 +6996,10 @@ PAP = {
 		}
 		neutrality = {
 			male = {
+				GFX_Portrait_South_America_Generic_3
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
 				GFX_Portrait_Europe_Generic_3
 				GFX_portrait_europe_generic_4
 				GFX_portrait_europe_generic_5
@@ -10088,6 +7011,12 @@ PAP = {
 	}
 	operative = {
 		male = {
+			GFX_portrait_south_america_generic_operative_male_1
+			GFX_portrait_south_america_generic_operative_male_2
+			GFX_portrait_south_america_generic_operative_male_3
+			GFX_portrait_south_america_generic_operative_male_4
+			GFX_portrait_south_america_generic_operative_male_5
+			GFX_portrait_south_america_generic_operative_male_6
 			GFX_portrait_europe_generic_operative_male_1
 			GFX_portrait_europe_generic_operative_male_2
 			GFX_portrait_europe_generic_operative_male_3
@@ -10114,6 +7043,12 @@ PAP = {
 			GFX_portrait_europe_generic_operative_male_25
 		}
 		female = {
+			GFX_portrait_south_america_generic_operative_female_1
+			GFX_portrait_south_america_generic_operative_female_2
+			GFX_portrait_south_america_generic_operative_female_3
+			GFX_portrait_south_america_generic_operative_female_4
+			GFX_portrait_south_america_generic_operative_female_5
+			GFX_portrait_south_america_generic_operative_female_6
 			GFX_portrait_europe_generic_operative_female_1
 			GFX_portrait_europe_generic_operative_female_2
 			GFX_portrait_europe_generic_operative_female_3
@@ -10139,146 +7074,6 @@ PAP = {
 			GFX_portrait_europe_generic_operative_female_24
 			GFX_portrait_europe_generic_operative_female_25
 			GFX_portrait_europe_generic_operative_female_26
-		}
-	}
-}
-PAR = {
-	army = {
-		male = {
-			GFX_Portrait_South_America_Generic_land_1
-			GFX_Portrait_South_America_Generic_land_2
-			GFX_Portrait_South_America_Generic_land_3
-			GFX_Portrait_South_America_Generic_land_4
-			GFX_Portrait_South_America_Generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_South_America_Generic_navy_1
-			GFX_Portrait_South_America_Generic_navy_2
-			GFX_Portrait_South_America_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_South_America_Generic_1
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_South_America_Generic_2
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_south_america_generic_operative_male_1
-			GFX_portrait_south_america_generic_operative_male_2
-			GFX_portrait_south_america_generic_operative_male_3
-			GFX_portrait_south_america_generic_operative_male_4
-			GFX_portrait_south_america_generic_operative_male_5
-			GFX_portrait_south_america_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_south_america_generic_operative_female_1
-			GFX_portrait_south_america_generic_operative_female_2
-			GFX_portrait_south_america_generic_operative_female_3
-			GFX_portrait_south_america_generic_operative_female_4
-			GFX_portrait_south_america_generic_operative_female_5
-			GFX_portrait_south_america_generic_operative_female_6
-		}
-	}
-}
-PAT = {
-	army = {
-		male = {
-			GFX_Portrait_South_America_Generic_land_1
-			GFX_Portrait_South_America_Generic_land_2
-			GFX_Portrait_South_America_Generic_land_3
-			GFX_Portrait_South_America_Generic_land_4
-			GFX_Portrait_South_America_Generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_South_America_Generic_navy_1
-			GFX_Portrait_South_America_Generic_navy_2
-			GFX_Portrait_South_America_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_South_America_Generic_1
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_South_America_Generic_2
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_south_america_generic_operative_male_1
-			GFX_portrait_south_america_generic_operative_male_2
-			GFX_portrait_south_america_generic_operative_male_3
-			GFX_portrait_south_america_generic_operative_male_4
-			GFX_portrait_south_america_generic_operative_male_5
-			GFX_portrait_south_america_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_south_america_generic_operative_female_1
-			GFX_portrait_south_america_generic_operative_female_2
-			GFX_portrait_south_america_generic_operative_female_3
-			GFX_portrait_south_america_generic_operative_female_4
-			GFX_portrait_south_america_generic_operative_female_5
-			GFX_portrait_south_america_generic_operative_female_6
 		}
 	}
 }
@@ -10546,100 +7341,6 @@ PHI = {
 		}
 	}
 }
-PNG = {
-	army = {
-		male = {
-			GFX_Portrait_Asia_Generic_land_1
-			GFX_Portrait_Asia_Generic_land_2
-			GFX_Portrait_Asia_Generic_land_3
-			GFX_Portrait_Asia_Generic_land_4
-			GFX_Portrait_asia_generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Asia_Generic_navy_1
-			GFX_Portrait_Asia_Generic_navy_2
-			GFX_Portrait_Asia_Generic_navy_3
-			GFX_Portrait_asia_generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Asia_Generic_1
-				GFX_portrait_asia_generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Asia_Generic_2
-				GFX_portrait_asia_generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Asia_Generic_3
-				GFX_portrait_asia_generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Asia_Generic_3
-				GFX_portrait_asia_generic_4
-			}
-		}
-	}
-	operative = {
-	}
-}
-PON = {
-	army = {
-		male = {
-			GFX_Portrait_Asia_Generic_land_1
-			GFX_Portrait_Asia_Generic_land_2
-			GFX_Portrait_Asia_Generic_land_3
-			GFX_Portrait_Asia_Generic_land_4
-			GFX_Portrait_asia_generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Asia_Generic_navy_1
-			GFX_Portrait_Asia_Generic_navy_2
-			GFX_Portrait_Asia_Generic_navy_3
-			GFX_Portrait_asia_generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Asia_Generic_1
-				GFX_portrait_asia_generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Asia_Generic_2
-				GFX_portrait_asia_generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Asia_Generic_3
-				GFX_portrait_asia_generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Asia_Generic_3
-				GFX_portrait_asia_generic_4
-			}
-		}
-	}
-	operative = {
-	}
-}
 POR = {
 	army = {
 		male = {
@@ -10829,6 +7530,124 @@ RAJ = {
 			GFX_Portrait_Europe_Generic_navy_3
 			GFX_portrait_europe_generic_navy_4
 			GFX_portrait_europe_generic_navy_5
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
+RSM = {
+	army = {
+		male = {
+			GFX_Portrait_Italy_Generic_land_1
+			GFX_Portrait_Italy_Generic_land_2
+			GFX_Portrait_Italy_Generic_land_3
+			GFX_Portrait_Italy_Generic_land_4
+			GFX_Portrait_Italy_Generic_land_5
+			GFX_Portrait_Italy_Generic_land_6
+			GFX_Portrait_Italy_Generic_land_7
+			GFX_Portrait_Italy_Generic_land_8
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Italy_Generic_navy_1
+			GFX_Portrait_Italy_Generic_navy_2
+			GFX_Portrait_Italy_Generic_navy_3
 		}
 	}
 	political = {
@@ -11918,86 +8737,6 @@ SMB = {
 	operative = {
 	}
 }
-SNG = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 SOK = {
 	army = {
 		male = {
@@ -12531,6 +9270,108 @@ STG = {
 	operative = {
 	}
 }
+SUD = {
+	army = {
+		male = {
+			GFX_Portrait_Arabia_Generic_land_1
+			GFX_Portrait_Arabia_Generic_land_2
+			GFX_Portrait_Arabia_Generic_land_3
+			GFX_Portrait_Africa_Generic_land_1
+			GFX_Portrait_Africa_Generic_land_2
+			GFX_Portrait_Africa_Generic_land_3
+			GFX_Portrait_Africa_Generic_land_4
+			GFX_Portrait_South_Africa_Army_Generic
+			GFX_Portrait_South_Africa_Army_Generic_2
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Arabia_Generic_navy_1
+			GFX_Portrait_Arabia_Generic_navy_2
+			GFX_Portrait_Arabia_Generic_navy_3
+			GFX_Portrait_Africa_Generic_navy_1
+			GFX_Portrait_Africa_Generic_navy_2
+			GFX_Portrait_Africa_Generic_navy_3
+			GFX_Portrait_Africa_Generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Arabia_Generic_1
+				GFX_Portrait_Africa_Generic_1
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Arabia_Generic_2
+				GFX_Portrait_Africa_Generic_2
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Arabia_Generic_3
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Arabia_Generic_3
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_arabia_generic_operative_male_1
+			GFX_portrait_arabia_generic_operative_male_2
+			GFX_portrait_arabia_generic_operative_male_3
+			GFX_portrait_arabia_generic_operative_male_4
+			GFX_portrait_arabia_generic_operative_male_5
+			GFX_portrait_arabia_generic_operative_male_6
+			GFX_portrait_africa_generic_operative_male_1
+			GFX_portrait_africa_generic_operative_male_2
+			GFX_portrait_africa_generic_operative_male_3
+			GFX_portrait_africa_generic_operative_male_4
+			GFX_portrait_africa_generic_operative_male_5
+			GFX_portrait_africa_generic_operative_male_6
+			GFX_portrait_africa_generic_operative_male_7
+			GFX_portrait_africa_generic_operative_male_8
+			GFX_portrait_africa_generic_operative_male_9
+		}
+		female = {
+			GFX_portrait_arabia_generic_operative_female_1
+			GFX_portrait_arabia_generic_operative_female_2
+			GFX_portrait_arabia_generic_operative_female_3
+			GFX_portrait_arabia_generic_operative_female_4
+			GFX_portrait_arabia_generic_operative_female_5
+			GFX_portrait_arabia_generic_operative_female_6
+			GFX_portrait_africa_generic_operative_female_1
+			GFX_portrait_africa_generic_operative_female_2
+			GFX_portrait_africa_generic_operative_female_3
+			GFX_portrait_africa_generic_operative_female_4
+			GFX_portrait_africa_generic_operative_female_5
+			GFX_portrait_africa_generic_operative_female_6
+			GFX_portrait_africa_generic_operative_female_7
+			GFX_portrait_africa_generic_operative_female_8
+			GFX_portrait_africa_generic_operative_female_9
+		}
+	}
+	female = {
+	}
+}
 SUL = {
 	army = {
 		male = {
@@ -12923,76 +9764,6 @@ TBI = {
 	female = {
 	}
 }
-THL = {
-	army = {
-		male = {
-			GFX_Portrait_South_America_Generic_land_1
-			GFX_Portrait_South_America_Generic_land_2
-			GFX_Portrait_South_America_Generic_land_3
-			GFX_Portrait_South_America_Generic_land_4
-			GFX_Portrait_South_America_Generic_land_5
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_South_America_Generic_navy_1
-			GFX_Portrait_South_America_Generic_navy_2
-			GFX_Portrait_South_America_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_South_America_Generic_1
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_South_America_Generic_2
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_South_America_Generic_3
-				GFX_portrait_south_america_generic_7
-				GFX_portrait_south_america_generic_8
-				GFX_portrait_south_america_generic_9
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_south_america_generic_operative_male_1
-			GFX_portrait_south_america_generic_operative_male_2
-			GFX_portrait_south_america_generic_operative_male_3
-			GFX_portrait_south_america_generic_operative_male_4
-			GFX_portrait_south_america_generic_operative_male_5
-			GFX_portrait_south_america_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_south_america_generic_operative_female_1
-			GFX_portrait_south_america_generic_operative_female_2
-			GFX_portrait_south_america_generic_operative_female_3
-			GFX_portrait_south_america_generic_operative_female_4
-			GFX_portrait_south_america_generic_operative_female_5
-			GFX_portrait_south_america_generic_operative_female_6
-		}
-	}
-}
 TIB = {
 	army = {
 		male = {
@@ -13106,204 +9877,6 @@ TIG = {
 		}
 	}
 	female = {
-	}
-}
-TKE = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-TOS = {
-	army = {
-		male = {
-			GFX_Portrait_Italy_Generic_land_1
-			GFX_Portrait_Italy_Generic_land_2
-			GFX_Portrait_Italy_Generic_land_3
-			GFX_Portrait_Italy_Generic_land_4
-			GFX_Portrait_Italy_Generic_land_5
-			GFX_Portrait_Italy_Generic_land_6
-			GFX_Portrait_Italy_Generic_land_7
-			GFX_Portrait_Italy_Generic_land_8
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Italy_Generic_navy_1
-			GFX_Portrait_Italy_Generic_navy_2
-			GFX_Portrait_Italy_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Europe_Generic_1
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Europe_Generic_2
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_europe_generic_operative_male_1
-			GFX_portrait_europe_generic_operative_male_2
-			GFX_portrait_europe_generic_operative_male_3
-			GFX_portrait_europe_generic_operative_male_4
-			GFX_portrait_europe_generic_operative_male_5
-			GFX_portrait_europe_generic_operative_male_6
-			GFX_portrait_europe_generic_operative_male_7
-			GFX_portrait_europe_generic_operative_male_8
-			GFX_portrait_europe_generic_operative_male_9
-			GFX_portrait_europe_generic_operative_male_10
-			GFX_portrait_europe_generic_operative_male_11
-			GFX_portrait_europe_generic_operative_male_13
-			GFX_portrait_europe_generic_operative_male_14
-			GFX_portrait_europe_generic_operative_male_15
-			GFX_portrait_europe_generic_operative_male_16
-			GFX_portrait_europe_generic_operative_male_17
-			GFX_portrait_europe_generic_operative_male_18
-			GFX_portrait_europe_generic_operative_male_19
-			GFX_portrait_europe_generic_operative_male_20
-			GFX_portrait_europe_generic_operative_male_21
-			GFX_portrait_europe_generic_operative_male_22
-			GFX_portrait_europe_generic_operative_male_23
-			GFX_portrait_europe_generic_operative_male_24
-			GFX_portrait_europe_generic_operative_male_25
-		}
-		female = {
-			GFX_portrait_europe_generic_operative_female_1
-			GFX_portrait_europe_generic_operative_female_2
-			GFX_portrait_europe_generic_operative_female_3
-			GFX_portrait_europe_generic_operative_female_4
-			GFX_portrait_europe_generic_operative_female_5
-			GFX_portrait_europe_generic_operative_female_6
-			GFX_portrait_europe_generic_operative_female_7
-			GFX_portrait_europe_generic_operative_female_8
-			GFX_portrait_europe_generic_operative_female_9
-			GFX_portrait_europe_generic_operative_female_10
-			GFX_portrait_europe_generic_operative_female_11
-			GFX_portrait_europe_generic_operative_female_13
-			GFX_portrait_europe_generic_operative_female_14
-			GFX_portrait_europe_generic_operative_female_15
-			GFX_portrait_europe_generic_operative_female_16
-			GFX_portrait_europe_generic_operative_female_17
-			GFX_portrait_europe_generic_operative_female_18
-			GFX_portrait_europe_generic_operative_female_19
-			GFX_portrait_europe_generic_operative_female_20
-			GFX_portrait_europe_generic_operative_female_21
-			GFX_portrait_europe_generic_operative_female_22
-			GFX_portrait_europe_generic_operative_female_23
-			GFX_portrait_europe_generic_operative_female_24
-			GFX_portrait_europe_generic_operative_female_25
-			GFX_portrait_europe_generic_operative_female_26
-		}
 	}
 }
 TRN = {
@@ -13545,143 +10118,7 @@ TTS = {
 		}
 	}
 }
-TUA = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 TUG = {
-	army = {
-		male = {
-			GFX_Portrait_Arabia_Generic_land_1
-			GFX_Portrait_Arabia_Generic_land_2
-			GFX_Portrait_Arabia_Generic_land_3
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Arabia_Generic_navy_1
-			GFX_Portrait_Arabia_Generic_navy_2
-			GFX_Portrait_Arabia_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_1
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Arabia_Generic_2
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Arabia_Generic_3
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_arabia_generic_operative_male_1
-			GFX_portrait_arabia_generic_operative_male_2
-			GFX_portrait_arabia_generic_operative_male_3
-			GFX_portrait_arabia_generic_operative_male_4
-			GFX_portrait_arabia_generic_operative_male_5
-			GFX_portrait_arabia_generic_operative_male_6
-		}
-		female = {
-			GFX_portrait_arabia_generic_operative_female_1
-			GFX_portrait_arabia_generic_operative_female_2
-			GFX_portrait_arabia_generic_operative_female_3
-			GFX_portrait_arabia_generic_operative_female_4
-			GFX_portrait_arabia_generic_operative_female_5
-			GFX_portrait_arabia_generic_operative_female_6
-		}
-	}
-}
-TUN = {
 	army = {
 		male = {
 			GFX_Portrait_Arabia_Generic_land_1
@@ -13933,6 +10370,76 @@ UAE = {
 			GFX_portrait_arabia_generic_operative_female_4
 			GFX_portrait_arabia_generic_operative_female_5
 			GFX_portrait_arabia_generic_operative_female_6
+		}
+	}
+}
+UCA = {
+	army = {
+		male = {
+			GFX_Portrait_South_America_Generic_land_1
+			GFX_Portrait_South_America_Generic_land_2
+			GFX_Portrait_South_America_Generic_land_3
+			GFX_Portrait_South_America_Generic_land_4
+			GFX_Portrait_South_America_Generic_land_5
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_South_America_Generic_navy_1
+			GFX_Portrait_South_America_Generic_navy_2
+			GFX_Portrait_South_America_Generic_navy_3
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_South_America_Generic_1
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_South_America_Generic_2
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_South_America_Generic_3
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_South_America_Generic_3
+				GFX_portrait_south_america_generic_7
+				GFX_portrait_south_america_generic_8
+				GFX_portrait_south_america_generic_9
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_south_america_generic_operative_male_1
+			GFX_portrait_south_america_generic_operative_male_2
+			GFX_portrait_south_america_generic_operative_male_3
+			GFX_portrait_south_america_generic_operative_male_4
+			GFX_portrait_south_america_generic_operative_male_5
+			GFX_portrait_south_america_generic_operative_male_6
+		}
+		female = {
+			GFX_portrait_south_america_generic_operative_female_1
+			GFX_portrait_south_america_generic_operative_female_2
+			GFX_portrait_south_america_generic_operative_female_3
+			GFX_portrait_south_america_generic_operative_female_4
+			GFX_portrait_south_america_generic_operative_female_5
+			GFX_portrait_south_america_generic_operative_female_6
 		}
 	}
 }
@@ -14596,74 +11103,6 @@ WES = {
 		}
 	}
 }
-WLG = {
-	army = {
-		male = {
-			GFX_portrait_ETH_generic_male_1
-			GFX_portrait_ETH_generic_male_2
-			GFX_portrait_ETH_generic_male_3
-			GFX_portrait_ETH_generic_male_4
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_portrait_ETH_generic_male_3
-			}
-		}
-		democratic = {
-			male = {
-				GFX_portrait_ETH_generic_male_1
-			}
-		}
-		fascism = {
-			male = {
-				GFX_portrait_ETH_generic_male_2
-				GFX_portrait_ETH_generic_male_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_portrait_ETH_seyoum_mengesha
-				GFX_portrait_ETH_haile_selassie_field_marshal_victorious
-				GFX_portrait_ETH_haile_selassie_victorious
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
 WSG = {
 	army = {
 		male = {
@@ -14744,87 +11183,7 @@ WSG = {
 	female = {
 	}
 }
-YKA = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-YOG = {
+YUE = {
 	army = {
 		male = {
 			GFX_Portrait_Asia_Generic_land_1
@@ -14874,202 +11233,60 @@ YOG = {
 Z00 = {
 	army = {
 		male = {
-			GFX_Portrait_Italy_Generic_land_1
-			GFX_Portrait_Italy_Generic_land_2
-			GFX_Portrait_Italy_Generic_land_3
-			GFX_Portrait_Italy_Generic_land_4
-			GFX_Portrait_Italy_Generic_land_5
-			GFX_Portrait_Italy_Generic_land_6
-			GFX_Portrait_Italy_Generic_land_7
-			GFX_Portrait_Italy_Generic_land_8
+			GFX_Portrait_Arabia_Generic_land_1
+			GFX_Portrait_Arabia_Generic_land_2
+			GFX_Portrait_Arabia_Generic_land_3
 		}
 	}
 	navy = {
 		male = {
-			GFX_Portrait_Italy_Generic_navy_1
-			GFX_Portrait_Italy_Generic_navy_2
-			GFX_Portrait_Italy_Generic_navy_3
+			GFX_Portrait_Arabia_Generic_navy_1
+			GFX_Portrait_Arabia_Generic_navy_2
+			GFX_Portrait_Arabia_Generic_navy_3
 		}
 	}
 	political = {
 		communism = {
 			male = {
-				GFX_Portrait_Europe_Generic_1
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
+				GFX_Portrait_Arabia_Generic_1
 			}
 		}
 		democratic = {
 			male = {
-				GFX_Portrait_Europe_Generic_2
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
+				GFX_Portrait_Arabia_Generic_2
 			}
 		}
 		fascism = {
 			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
+				GFX_Portrait_Arabia_Generic_3
 			}
 		}
 		neutrality = {
 			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
+				GFX_Portrait_Arabia_Generic_3
 			}
 		}
 	}
 	operative = {
 		male = {
-			GFX_portrait_europe_generic_operative_male_1
-			GFX_portrait_europe_generic_operative_male_2
-			GFX_portrait_europe_generic_operative_male_3
-			GFX_portrait_europe_generic_operative_male_4
-			GFX_portrait_europe_generic_operative_male_5
-			GFX_portrait_europe_generic_operative_male_6
-			GFX_portrait_europe_generic_operative_male_7
-			GFX_portrait_europe_generic_operative_male_8
-			GFX_portrait_europe_generic_operative_male_9
-			GFX_portrait_europe_generic_operative_male_10
-			GFX_portrait_europe_generic_operative_male_11
-			GFX_portrait_europe_generic_operative_male_13
-			GFX_portrait_europe_generic_operative_male_14
-			GFX_portrait_europe_generic_operative_male_15
-			GFX_portrait_europe_generic_operative_male_16
-			GFX_portrait_europe_generic_operative_male_17
-			GFX_portrait_europe_generic_operative_male_18
-			GFX_portrait_europe_generic_operative_male_19
-			GFX_portrait_europe_generic_operative_male_20
-			GFX_portrait_europe_generic_operative_male_21
-			GFX_portrait_europe_generic_operative_male_22
-			GFX_portrait_europe_generic_operative_male_23
-			GFX_portrait_europe_generic_operative_male_24
-			GFX_portrait_europe_generic_operative_male_25
+			GFX_portrait_arabia_generic_operative_male_1
+			GFX_portrait_arabia_generic_operative_male_2
+			GFX_portrait_arabia_generic_operative_male_3
+			GFX_portrait_arabia_generic_operative_male_4
+			GFX_portrait_arabia_generic_operative_male_5
+			GFX_portrait_arabia_generic_operative_male_6
 		}
 		female = {
-			GFX_portrait_europe_generic_operative_female_1
-			GFX_portrait_europe_generic_operative_female_2
-			GFX_portrait_europe_generic_operative_female_3
-			GFX_portrait_europe_generic_operative_female_4
-			GFX_portrait_europe_generic_operative_female_5
-			GFX_portrait_europe_generic_operative_female_6
-			GFX_portrait_europe_generic_operative_female_7
-			GFX_portrait_europe_generic_operative_female_8
-			GFX_portrait_europe_generic_operative_female_9
-			GFX_portrait_europe_generic_operative_female_10
-			GFX_portrait_europe_generic_operative_female_11
-			GFX_portrait_europe_generic_operative_female_13
-			GFX_portrait_europe_generic_operative_female_14
-			GFX_portrait_europe_generic_operative_female_15
-			GFX_portrait_europe_generic_operative_female_16
-			GFX_portrait_europe_generic_operative_female_17
-			GFX_portrait_europe_generic_operative_female_18
-			GFX_portrait_europe_generic_operative_female_19
-			GFX_portrait_europe_generic_operative_female_20
-			GFX_portrait_europe_generic_operative_female_21
-			GFX_portrait_europe_generic_operative_female_22
-			GFX_portrait_europe_generic_operative_female_23
-			GFX_portrait_europe_generic_operative_female_24
-			GFX_portrait_europe_generic_operative_female_25
-			GFX_portrait_europe_generic_operative_female_26
+			GFX_portrait_arabia_generic_operative_female_1
+			GFX_portrait_arabia_generic_operative_female_2
+			GFX_portrait_arabia_generic_operative_female_3
+			GFX_portrait_arabia_generic_operative_female_4
+			GFX_portrait_arabia_generic_operative_female_5
+			GFX_portrait_arabia_generic_operative_female_6
 		}
 	}
 }
 Z01 = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-Z02 = {
 	army = {
 		male = {
 			GFX_Portrait_Europe_Generic_land_1
@@ -15190,7 +11407,247 @@ Z02 = {
 		}
 	}
 }
+Z02 = {
+	army = {
+		male = {
+			GFX_Portrait_Germany_Generic_land_1
+			GFX_Portrait_Germany_Generic_land_2
+			GFX_Portrait_Germany_Generic_land_3
+			GFX_Portrait_Germany_Generic_land_4
+			GFX_Portrait_Germany_Generic_land_5
+			GFX_Portrait_Germany_Generic_land_6
+			GFX_Portrait_Germany_Generic_land_7
+			GFX_Portrait_Germany_Generic_land_8
+			GFX_Portrait_Germany_Generic_land_9
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Germany_Generic_navy_1
+			GFX_Portrait_Germany_Generic_navy_2
+			GFX_Portrait_Germany_Generic_navy_3
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
 Z03 = {
+	army = {
+		male = {
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_Portrait_europe_generic_land_6
+			GFX_portrait_europe_generic_land_7
+			GFX_portrait_europe_generic_land_8
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+			GFX_portrait_europe_generic_navy_4
+			GFX_portrait_europe_generic_navy_5
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
+Z04 = {
 	army = {
 		male = {
 			GFX_Portrait_France_Generic_land_1
@@ -15309,7 +11766,7 @@ Z03 = {
 		}
 	}
 }
-Z04 = {
+Z05 = {
 	army = {
 		male = {
 			GFX_Portrait_Germany_Generic_land_1
@@ -15328,127 +11785,6 @@ Z04 = {
 			GFX_Portrait_Germany_Generic_navy_1
 			GFX_Portrait_Germany_Generic_navy_2
 			GFX_Portrait_Germany_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Europe_Generic_1
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Europe_Generic_2
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_europe_generic_operative_male_1
-			GFX_portrait_europe_generic_operative_male_2
-			GFX_portrait_europe_generic_operative_male_3
-			GFX_portrait_europe_generic_operative_male_4
-			GFX_portrait_europe_generic_operative_male_5
-			GFX_portrait_europe_generic_operative_male_6
-			GFX_portrait_europe_generic_operative_male_7
-			GFX_portrait_europe_generic_operative_male_8
-			GFX_portrait_europe_generic_operative_male_9
-			GFX_portrait_europe_generic_operative_male_10
-			GFX_portrait_europe_generic_operative_male_11
-			GFX_portrait_europe_generic_operative_male_13
-			GFX_portrait_europe_generic_operative_male_14
-			GFX_portrait_europe_generic_operative_male_15
-			GFX_portrait_europe_generic_operative_male_16
-			GFX_portrait_europe_generic_operative_male_17
-			GFX_portrait_europe_generic_operative_male_18
-			GFX_portrait_europe_generic_operative_male_19
-			GFX_portrait_europe_generic_operative_male_20
-			GFX_portrait_europe_generic_operative_male_21
-			GFX_portrait_europe_generic_operative_male_22
-			GFX_portrait_europe_generic_operative_male_23
-			GFX_portrait_europe_generic_operative_male_24
-			GFX_portrait_europe_generic_operative_male_25
-		}
-		female = {
-			GFX_portrait_europe_generic_operative_female_1
-			GFX_portrait_europe_generic_operative_female_2
-			GFX_portrait_europe_generic_operative_female_3
-			GFX_portrait_europe_generic_operative_female_4
-			GFX_portrait_europe_generic_operative_female_5
-			GFX_portrait_europe_generic_operative_female_6
-			GFX_portrait_europe_generic_operative_female_7
-			GFX_portrait_europe_generic_operative_female_8
-			GFX_portrait_europe_generic_operative_female_9
-			GFX_portrait_europe_generic_operative_female_10
-			GFX_portrait_europe_generic_operative_female_11
-			GFX_portrait_europe_generic_operative_female_13
-			GFX_portrait_europe_generic_operative_female_14
-			GFX_portrait_europe_generic_operative_female_15
-			GFX_portrait_europe_generic_operative_female_16
-			GFX_portrait_europe_generic_operative_female_17
-			GFX_portrait_europe_generic_operative_female_18
-			GFX_portrait_europe_generic_operative_female_19
-			GFX_portrait_europe_generic_operative_female_20
-			GFX_portrait_europe_generic_operative_female_21
-			GFX_portrait_europe_generic_operative_female_22
-			GFX_portrait_europe_generic_operative_female_23
-			GFX_portrait_europe_generic_operative_female_24
-			GFX_portrait_europe_generic_operative_female_25
-			GFX_portrait_europe_generic_operative_female_26
-		}
-	}
-}
-Z05 = {
-	army = {
-		male = {
-			GFX_Portrait_Europe_Generic_land_1
-			GFX_Portrait_Europe_Generic_land_2
-			GFX_Portrait_Europe_Generic_land_3
-			GFX_Portrait_Europe_Generic_land_4
-			GFX_Portrait_Europe_Generic_land_5
-			GFX_portrait_europe_generic_land_13
-			GFX_Portrait_europe_generic_land_6
-			GFX_portrait_europe_generic_land_7
-			GFX_portrait_europe_generic_land_8
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Europe_Generic_navy_1
-			GFX_Portrait_Europe_Generic_navy_2
-			GFX_Portrait_Europe_Generic_navy_3
-			GFX_portrait_europe_generic_navy_4
-			GFX_portrait_europe_generic_navy_5
 		}
 	}
 	political = {
@@ -15552,22 +11888,24 @@ Z05 = {
 Z06 = {
 	army = {
 		male = {
-			GFX_Portrait_Germany_Generic_land_1
-			GFX_Portrait_Germany_Generic_land_2
-			GFX_Portrait_Germany_Generic_land_3
-			GFX_Portrait_Germany_Generic_land_4
-			GFX_Portrait_Germany_Generic_land_5
-			GFX_Portrait_Germany_Generic_land_6
-			GFX_Portrait_Germany_Generic_land_7
-			GFX_Portrait_Germany_Generic_land_8
-			GFX_Portrait_Germany_Generic_land_9
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_Portrait_europe_generic_land_6
+			GFX_portrait_europe_generic_land_7
+			GFX_portrait_europe_generic_land_8
 		}
 	}
 	navy = {
 		male = {
-			GFX_Portrait_Germany_Generic_navy_1
-			GFX_Portrait_Germany_Generic_navy_2
-			GFX_Portrait_Germany_Generic_navy_3
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+			GFX_portrait_europe_generic_navy_4
+			GFX_portrait_europe_generic_navy_5
 		}
 	}
 	political = {
@@ -15669,125 +12007,6 @@ Z06 = {
 	}
 }
 Z07 = {
-	army = {
-		male = {
-			GFX_Portrait_Germany_Generic_land_1
-			GFX_Portrait_Germany_Generic_land_2
-			GFX_Portrait_Germany_Generic_land_3
-			GFX_Portrait_Germany_Generic_land_4
-			GFX_Portrait_Germany_Generic_land_5
-			GFX_Portrait_Germany_Generic_land_6
-			GFX_Portrait_Germany_Generic_land_7
-			GFX_Portrait_Germany_Generic_land_8
-			GFX_Portrait_Germany_Generic_land_9
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Germany_Generic_navy_1
-			GFX_Portrait_Germany_Generic_navy_2
-			GFX_Portrait_Germany_Generic_navy_3
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Europe_Generic_1
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Europe_Generic_2
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Europe_Generic_3
-				GFX_portrait_europe_generic_4
-				GFX_portrait_europe_generic_5
-				GFX_portrait_europe_generic_6
-				GFX_Portrait_europe_generic_7
-				GFX_portrait_europe_generic_8
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_europe_generic_operative_male_1
-			GFX_portrait_europe_generic_operative_male_2
-			GFX_portrait_europe_generic_operative_male_3
-			GFX_portrait_europe_generic_operative_male_4
-			GFX_portrait_europe_generic_operative_male_5
-			GFX_portrait_europe_generic_operative_male_6
-			GFX_portrait_europe_generic_operative_male_7
-			GFX_portrait_europe_generic_operative_male_8
-			GFX_portrait_europe_generic_operative_male_9
-			GFX_portrait_europe_generic_operative_male_10
-			GFX_portrait_europe_generic_operative_male_11
-			GFX_portrait_europe_generic_operative_male_13
-			GFX_portrait_europe_generic_operative_male_14
-			GFX_portrait_europe_generic_operative_male_15
-			GFX_portrait_europe_generic_operative_male_16
-			GFX_portrait_europe_generic_operative_male_17
-			GFX_portrait_europe_generic_operative_male_18
-			GFX_portrait_europe_generic_operative_male_19
-			GFX_portrait_europe_generic_operative_male_20
-			GFX_portrait_europe_generic_operative_male_21
-			GFX_portrait_europe_generic_operative_male_22
-			GFX_portrait_europe_generic_operative_male_23
-			GFX_portrait_europe_generic_operative_male_24
-			GFX_portrait_europe_generic_operative_male_25
-		}
-		female = {
-			GFX_portrait_europe_generic_operative_female_1
-			GFX_portrait_europe_generic_operative_female_2
-			GFX_portrait_europe_generic_operative_female_3
-			GFX_portrait_europe_generic_operative_female_4
-			GFX_portrait_europe_generic_operative_female_5
-			GFX_portrait_europe_generic_operative_female_6
-			GFX_portrait_europe_generic_operative_female_7
-			GFX_portrait_europe_generic_operative_female_8
-			GFX_portrait_europe_generic_operative_female_9
-			GFX_portrait_europe_generic_operative_female_10
-			GFX_portrait_europe_generic_operative_female_11
-			GFX_portrait_europe_generic_operative_female_13
-			GFX_portrait_europe_generic_operative_female_14
-			GFX_portrait_europe_generic_operative_female_15
-			GFX_portrait_europe_generic_operative_female_16
-			GFX_portrait_europe_generic_operative_female_17
-			GFX_portrait_europe_generic_operative_female_18
-			GFX_portrait_europe_generic_operative_female_19
-			GFX_portrait_europe_generic_operative_female_20
-			GFX_portrait_europe_generic_operative_female_21
-			GFX_portrait_europe_generic_operative_female_22
-			GFX_portrait_europe_generic_operative_female_23
-			GFX_portrait_europe_generic_operative_female_24
-			GFX_portrait_europe_generic_operative_female_25
-			GFX_portrait_europe_generic_operative_female_26
-		}
-	}
-}
-Z08 = {
 	army = {
 		male = {
 			GFX_Portrait_Europe_Generic_land_1
@@ -15908,63 +12127,837 @@ Z08 = {
 		}
 	}
 }
-Z09 = {
+Z08 = {
 	army = {
 		male = {
-			GFX_Portrait_Arabia_Generic_land_1
-			GFX_Portrait_Arabia_Generic_land_2
-			GFX_Portrait_Arabia_Generic_land_3
+			GFX_Portrait_Germany_Generic_land_1
+			GFX_Portrait_Germany_Generic_land_2
+			GFX_Portrait_Germany_Generic_land_3
+			GFX_Portrait_Germany_Generic_land_4
+			GFX_Portrait_Germany_Generic_land_5
+			GFX_Portrait_Germany_Generic_land_6
+			GFX_Portrait_Germany_Generic_land_7
+			GFX_Portrait_Germany_Generic_land_8
+			GFX_Portrait_Germany_Generic_land_9
 		}
 	}
 	navy = {
 		male = {
-			GFX_Portrait_Arabia_Generic_navy_1
-			GFX_Portrait_Arabia_Generic_navy_2
-			GFX_Portrait_Arabia_Generic_navy_3
+			GFX_Portrait_Germany_Generic_navy_1
+			GFX_Portrait_Germany_Generic_navy_2
+			GFX_Portrait_Germany_Generic_navy_3
 		}
 	}
 	political = {
 		communism = {
 			male = {
-				GFX_Portrait_Arabia_Generic_1
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
 			}
 		}
 		democratic = {
 			male = {
-				GFX_Portrait_Arabia_Generic_2
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
 			}
 		}
 		fascism = {
 			male = {
-				GFX_Portrait_Arabia_Generic_3
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
 			}
 		}
 		neutrality = {
 			male = {
-				GFX_Portrait_Arabia_Generic_3
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
 			}
 		}
 	}
 	operative = {
 		male = {
-			GFX_portrait_arabia_generic_operative_male_1
-			GFX_portrait_arabia_generic_operative_male_2
-			GFX_portrait_arabia_generic_operative_male_3
-			GFX_portrait_arabia_generic_operative_male_4
-			GFX_portrait_arabia_generic_operative_male_5
-			GFX_portrait_arabia_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
 		}
 		female = {
-			GFX_portrait_arabia_generic_operative_female_1
-			GFX_portrait_arabia_generic_operative_female_2
-			GFX_portrait_arabia_generic_operative_female_3
-			GFX_portrait_arabia_generic_operative_female_4
-			GFX_portrait_arabia_generic_operative_female_5
-			GFX_portrait_arabia_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
 		}
 	}
 }
+Z09 = {
+	army = {
+		male = {
+			GFX_Portrait_Asia_Generic_land_1
+			GFX_Portrait_Asia_Generic_land_2
+			GFX_Portrait_Asia_Generic_land_3
+			GFX_Portrait_Asia_Generic_land_4
+			GFX_Portrait_asia_generic_land_5
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Asia_Generic_navy_1
+			GFX_Portrait_Asia_Generic_navy_2
+			GFX_Portrait_Asia_Generic_navy_3
+			GFX_Portrait_asia_generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Asia_Generic_1
+				GFX_portrait_asia_generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Asia_Generic_2
+				GFX_portrait_asia_generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Asia_Generic_3
+				GFX_portrait_asia_generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Asia_Generic_3
+				GFX_portrait_asia_generic_4
+			}
+		}
+	}
+	operative = {
+	}
+}
 Z10 = {
+	army = {
+		male = {
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_Portrait_europe_generic_land_6
+			GFX_portrait_europe_generic_land_7
+			GFX_portrait_europe_generic_land_8
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+			GFX_portrait_europe_generic_navy_4
+			GFX_portrait_europe_generic_navy_5
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
+Z11 = {
+	army = {
+		male = {
+			GFX_Portrait_Germany_Generic_land_1
+			GFX_Portrait_Germany_Generic_land_2
+			GFX_Portrait_Germany_Generic_land_3
+			GFX_Portrait_Germany_Generic_land_4
+			GFX_Portrait_Germany_Generic_land_5
+			GFX_Portrait_Germany_Generic_land_6
+			GFX_Portrait_Germany_Generic_land_7
+			GFX_Portrait_Germany_Generic_land_8
+			GFX_Portrait_Germany_Generic_land_9
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Germany_Generic_navy_1
+			GFX_Portrait_Germany_Generic_navy_2
+			GFX_Portrait_Germany_Generic_navy_3
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
+Z12 = {
+	army = {
+	}
+	navy = {
+	}
+	political = {
+	}
+	operative = {
+	}
+}
+Z13 = {
+	army = {
+		male = {
+			GFX_Portrait_France_Generic_land_1
+			GFX_Portrait_France_Generic_land_2
+			GFX_Portrait_France_Generic_land_3
+			GFX_Portrait_France_Generic_land_4
+			GFX_Portrait_France_Generic_land_5
+			GFX_Portrait_France_Generic_land_6
+			GFX_Portrait_France_Generic_land_7
+			GFX_Portrait_France_Generic_land_8
+			GFX_Portrait_France_Generic_land_9
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_France_Generic_navy_1
+			GFX_Portrait_France_Generic_navy_2
+			GFX_Portrait_France_Generic_navy_3
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
+Z14 = {
+	army = {
+		male = {
+			GFX_Portrait_Europe_Generic_land_1
+			GFX_Portrait_Europe_Generic_land_2
+			GFX_Portrait_Europe_Generic_land_3
+			GFX_Portrait_Europe_Generic_land_4
+			GFX_Portrait_Europe_Generic_land_5
+			GFX_portrait_europe_generic_land_13
+			GFX_Portrait_europe_generic_land_6
+			GFX_portrait_europe_generic_land_7
+			GFX_portrait_europe_generic_land_8
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Europe_Generic_navy_1
+			GFX_Portrait_Europe_Generic_navy_2
+			GFX_Portrait_Europe_Generic_navy_3
+			GFX_portrait_europe_generic_navy_4
+			GFX_portrait_europe_generic_navy_5
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Europe_Generic_1
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Europe_Generic_2
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Europe_Generic_3
+				GFX_portrait_europe_generic_4
+				GFX_portrait_europe_generic_5
+				GFX_portrait_europe_generic_6
+				GFX_Portrait_europe_generic_7
+				GFX_portrait_europe_generic_8
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_europe_generic_operative_male_1
+			GFX_portrait_europe_generic_operative_male_2
+			GFX_portrait_europe_generic_operative_male_3
+			GFX_portrait_europe_generic_operative_male_4
+			GFX_portrait_europe_generic_operative_male_5
+			GFX_portrait_europe_generic_operative_male_6
+			GFX_portrait_europe_generic_operative_male_7
+			GFX_portrait_europe_generic_operative_male_8
+			GFX_portrait_europe_generic_operative_male_9
+			GFX_portrait_europe_generic_operative_male_10
+			GFX_portrait_europe_generic_operative_male_11
+			GFX_portrait_europe_generic_operative_male_13
+			GFX_portrait_europe_generic_operative_male_14
+			GFX_portrait_europe_generic_operative_male_15
+			GFX_portrait_europe_generic_operative_male_16
+			GFX_portrait_europe_generic_operative_male_17
+			GFX_portrait_europe_generic_operative_male_18
+			GFX_portrait_europe_generic_operative_male_19
+			GFX_portrait_europe_generic_operative_male_20
+			GFX_portrait_europe_generic_operative_male_21
+			GFX_portrait_europe_generic_operative_male_22
+			GFX_portrait_europe_generic_operative_male_23
+			GFX_portrait_europe_generic_operative_male_24
+			GFX_portrait_europe_generic_operative_male_25
+		}
+		female = {
+			GFX_portrait_europe_generic_operative_female_1
+			GFX_portrait_europe_generic_operative_female_2
+			GFX_portrait_europe_generic_operative_female_3
+			GFX_portrait_europe_generic_operative_female_4
+			GFX_portrait_europe_generic_operative_female_5
+			GFX_portrait_europe_generic_operative_female_6
+			GFX_portrait_europe_generic_operative_female_7
+			GFX_portrait_europe_generic_operative_female_8
+			GFX_portrait_europe_generic_operative_female_9
+			GFX_portrait_europe_generic_operative_female_10
+			GFX_portrait_europe_generic_operative_female_11
+			GFX_portrait_europe_generic_operative_female_13
+			GFX_portrait_europe_generic_operative_female_14
+			GFX_portrait_europe_generic_operative_female_15
+			GFX_portrait_europe_generic_operative_female_16
+			GFX_portrait_europe_generic_operative_female_17
+			GFX_portrait_europe_generic_operative_female_18
+			GFX_portrait_europe_generic_operative_female_19
+			GFX_portrait_europe_generic_operative_female_20
+			GFX_portrait_europe_generic_operative_female_21
+			GFX_portrait_europe_generic_operative_female_22
+			GFX_portrait_europe_generic_operative_female_23
+			GFX_portrait_europe_generic_operative_female_24
+			GFX_portrait_europe_generic_operative_female_25
+			GFX_portrait_europe_generic_operative_female_26
+		}
+	}
+}
+Z15 = {
+	army = {
+		male = {
+			GFX_Portrait_Asia_Generic_land_1
+			GFX_Portrait_Asia_Generic_land_2
+			GFX_Portrait_Asia_Generic_land_3
+			GFX_Portrait_Asia_Generic_land_4
+			GFX_Portrait_asia_generic_land_5
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Asia_Generic_navy_1
+			GFX_Portrait_Asia_Generic_navy_2
+			GFX_Portrait_Asia_Generic_navy_3
+			GFX_Portrait_asia_generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Asia_Generic_1
+				GFX_portrait_asia_generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Asia_Generic_2
+				GFX_portrait_asia_generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Asia_Generic_3
+				GFX_portrait_asia_generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Asia_Generic_3
+				GFX_portrait_asia_generic_4
+			}
+		}
+	}
+	operative = {
+	}
+}
+Z16 = {
+	army = {
+		male = {
+			GFX_Portrait_Africa_Generic_land_1
+			GFX_Portrait_Africa_Generic_land_2
+			GFX_Portrait_Africa_Generic_land_3
+			GFX_Portrait_Africa_Generic_land_4
+			GFX_Portrait_South_Africa_Army_Generic
+			GFX_Portrait_South_Africa_Army_Generic_2
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Africa_Generic_navy_1
+			GFX_Portrait_Africa_Generic_navy_2
+			GFX_Portrait_Africa_Generic_navy_3
+			GFX_Portrait_Africa_Generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Africa_Generic_1
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Africa_Generic_2
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Africa_Generic_3
+				GFX_Portrait_South_Africa_Political_Leader_Generic
+				GFX_Portrait_South_Africa_Political_Leader_Generic_2
+				GFX_Portrait_Africa_Generic_4
+			}
+		}
+	}
+	operative = {
+		male = {
+			GFX_portrait_africa_generic_operative_male_1
+			GFX_portrait_africa_generic_operative_male_2
+			GFX_portrait_africa_generic_operative_male_3
+			GFX_portrait_africa_generic_operative_male_4
+			GFX_portrait_africa_generic_operative_male_5
+			GFX_portrait_africa_generic_operative_male_6
+			GFX_portrait_africa_generic_operative_male_7
+			GFX_portrait_africa_generic_operative_male_8
+			GFX_portrait_africa_generic_operative_male_9
+		}
+		female = {
+			GFX_portrait_africa_generic_operative_female_1
+			GFX_portrait_africa_generic_operative_female_2
+			GFX_portrait_africa_generic_operative_female_3
+			GFX_portrait_africa_generic_operative_female_4
+			GFX_portrait_africa_generic_operative_female_5
+			GFX_portrait_africa_generic_operative_female_6
+			GFX_portrait_africa_generic_operative_female_7
+			GFX_portrait_africa_generic_operative_female_8
+			GFX_portrait_africa_generic_operative_female_9
+		}
+	}
+	female = {
+	}
+}
+Z17 = {
+	army = {
+		male = {
+			GFX_Portrait_Asia_Generic_land_1
+			GFX_Portrait_Asia_Generic_land_2
+			GFX_Portrait_Asia_Generic_land_3
+			GFX_Portrait_Asia_Generic_land_4
+			GFX_Portrait_asia_generic_land_5
+		}
+	}
+	navy = {
+		male = {
+			GFX_Portrait_Asia_Generic_navy_1
+			GFX_Portrait_Asia_Generic_navy_2
+			GFX_Portrait_Asia_Generic_navy_3
+			GFX_Portrait_asia_generic_navy_4
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				GFX_Portrait_Asia_Generic_1
+				GFX_portrait_asia_generic_4
+			}
+		}
+		democratic = {
+			male = {
+				GFX_Portrait_Asia_Generic_2
+				GFX_portrait_asia_generic_4
+			}
+		}
+		fascism = {
+			male = {
+				GFX_Portrait_Asia_Generic_3
+				GFX_portrait_asia_generic_4
+			}
+		}
+		neutrality = {
+			male = {
+				GFX_Portrait_Asia_Generic_3
+				GFX_portrait_asia_generic_4
+			}
+		}
+	}
+	operative = {
+	}
+}
+Z18 = {
 	army = {
 		male = {
 			GFX_Portrait_South_America_Generic_land_1
@@ -16091,86 +13084,6 @@ ZAI = {
 	}
 }
 ZAN = {
-	army = {
-		male = {
-			GFX_Portrait_Africa_Generic_land_1
-			GFX_Portrait_Africa_Generic_land_2
-			GFX_Portrait_Africa_Generic_land_3
-			GFX_Portrait_Africa_Generic_land_4
-			GFX_Portrait_South_Africa_Army_Generic
-			GFX_Portrait_South_Africa_Army_Generic_2
-		}
-	}
-	navy = {
-		male = {
-			GFX_Portrait_Africa_Generic_navy_1
-			GFX_Portrait_Africa_Generic_navy_2
-			GFX_Portrait_Africa_Generic_navy_3
-			GFX_Portrait_Africa_Generic_navy_4
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				GFX_Portrait_Africa_Generic_1
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		democratic = {
-			male = {
-				GFX_Portrait_Africa_Generic_2
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		fascism = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-		neutrality = {
-			male = {
-				GFX_Portrait_Africa_Generic_3
-				GFX_Portrait_South_Africa_Political_Leader_Generic
-				GFX_Portrait_South_Africa_Political_Leader_Generic_2
-				GFX_Portrait_Africa_Generic_4
-			}
-		}
-	}
-	operative = {
-		male = {
-			GFX_portrait_africa_generic_operative_male_1
-			GFX_portrait_africa_generic_operative_male_2
-			GFX_portrait_africa_generic_operative_male_3
-			GFX_portrait_africa_generic_operative_male_4
-			GFX_portrait_africa_generic_operative_male_5
-			GFX_portrait_africa_generic_operative_male_6
-			GFX_portrait_africa_generic_operative_male_7
-			GFX_portrait_africa_generic_operative_male_8
-			GFX_portrait_africa_generic_operative_male_9
-		}
-		female = {
-			GFX_portrait_africa_generic_operative_female_1
-			GFX_portrait_africa_generic_operative_female_2
-			GFX_portrait_africa_generic_operative_female_3
-			GFX_portrait_africa_generic_operative_female_4
-			GFX_portrait_africa_generic_operative_female_5
-			GFX_portrait_africa_generic_operative_female_6
-			GFX_portrait_africa_generic_operative_female_7
-			GFX_portrait_africa_generic_operative_female_8
-			GFX_portrait_africa_generic_operative_female_9
-		}
-	}
-	female = {
-	}
-}
-ZND = {
 	army = {
 		male = {
 			GFX_Portrait_Africa_Generic_land_1

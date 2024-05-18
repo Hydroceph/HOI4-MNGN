@@ -1,26 +1,23 @@
-capital = 470
 
 oob = "ACH_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = ACH_16780215
-recruit_character = ACH_16778849
-recruit_character = ACH_16781311
-recruit_character = ACH_33555095
 recruit_character = ACH_33558561
-recruit_character = ACH_50332943
-recruit_character = ACH_67109948
-recruit_character = ACH_83886849
-recruit_character = ACH_83887576
-recruit_character = ACH_83888664
-recruit_character = ACH_100665953
+recruit_character = ACH_83886807
+recruit_character = ACH_83887350
+recruit_character = ACH_83888040
+recruit_character = ACH_83889298
+recruit_character = ACH_100669566
+recruit_character = ACH_117441361
+recruit_character = ACH_150995263
+recruit_character = ACH_151001286
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Amadi_Mudimbe
-		GFX = GFX_portrait_africa_generic_operative_male_1
-		traits = { operative_demolition_expert operative_natural_orator operative_seducer }
+		name = Odongo_Kony
+		GFX = GFX_portrait_africa_generic_operative_male_2
+		traits = { operative_natural_orator operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { ACH }
@@ -36,8 +33,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 38
+	democratic = 13
+	fascism = 36
 	neutrality = 51
 }
 

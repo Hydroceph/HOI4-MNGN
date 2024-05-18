@@ -1,82 +1,150 @@
-capital = 3
+capital = 6
 
 oob = "ENG_1936"
 set_research_slots = 4
-set_convoys = 311
+set_convoys = 565
 
 recruit_character = ENG_1000
-recruit_character = ENG_16778683
-recruit_character = ENG_16778844
-recruit_character = ENG_16779923
-recruit_character = ENG_16780131
-recruit_character = ENG_16783563
-recruit_character = ENG_33554945
-recruit_character = ENG_33556635
-recruit_character = ENG_33557400
-recruit_character = ENG_33558213
-recruit_character = ENG_33559220
-recruit_character = ENG_33559432
-recruit_character = ENG_50331976
-recruit_character = ENG_50332313
-recruit_character = ENG_50335863
-recruit_character = ENG_50336613
-recruit_character = ENG_50338375
-recruit_character = ENG_67109855
-recruit_character = ENG_67110965
-recruit_character = ENG_67111631
-recruit_character = ENG_83886140
-recruit_character = ENG_83886781
+recruit_character = ENG_33555457
+recruit_character = ENG_33555904
+recruit_character = ENG_33556044
+recruit_character = ENG_33556120
+recruit_character = ENG_33557490
+recruit_character = ENG_33558306
+recruit_character = ENG_33558875
+recruit_character = ENG_33560943
+recruit_character = ENG_50332051
+recruit_character = ENG_50332544
+recruit_character = ENG_50332622
+recruit_character = ENG_50332737
+recruit_character = ENG_50333291
+recruit_character = ENG_50333699
+recruit_character = ENG_50333768
+recruit_character = ENG_50334371
+recruit_character = ENG_50334383
+recruit_character = ENG_50334543
+recruit_character = ENG_50334807
+recruit_character = ENG_50334887
+recruit_character = ENG_50334901
+recruit_character = ENG_50334926
+recruit_character = ENG_50336533
+recruit_character = ENG_50337451
+recruit_character = ENG_50337713
+recruit_character = ENG_67109521
+recruit_character = ENG_67109904
+recruit_character = ENG_67110159
+recruit_character = ENG_67110245
+recruit_character = ENG_67111469
+recruit_character = ENG_67111737
+recruit_character = ENG_67112507
+recruit_character = ENG_67112654
+recruit_character = ENG_67113043
+recruit_character = ENG_67113112
+recruit_character = ENG_83886513
+recruit_character = ENG_83886694
+recruit_character = ENG_83886744
+recruit_character = ENG_83886838
 recruit_character = ENG_83887007
-recruit_character = ENG_100663712
-recruit_character = ENG_100668337
+recruit_character = ENG_83887146
+recruit_character = ENG_83887541
+recruit_character = ENG_83887657
+recruit_character = ENG_83887836
+recruit_character = ENG_83888265
+recruit_character = ENG_83888725
+recruit_character = ENG_83888828
+recruit_character = ENG_83889323
+recruit_character = ENG_83889649
+recruit_character = ENG_83889712
+recruit_character = ENG_83889804
+recruit_character = ENG_83889880
+recruit_character = ENG_83891601
+recruit_character = ENG_83891724
+recruit_character = ENG_83892181
+recruit_character = ENG_83892480
+recruit_character = ENG_83892533
+recruit_character = ENG_83892695
+recruit_character = ENG_83892739
+recruit_character = ENG_83892779
+recruit_character = ENG_100663335
+recruit_character = ENG_100663689
+recruit_character = ENG_100663752
+recruit_character = ENG_100663860
+recruit_character = ENG_100663921
+recruit_character = ENG_100664110
+recruit_character = ENG_100664148
+recruit_character = ENG_100664241
+recruit_character = ENG_100664323
+recruit_character = ENG_100664579
+recruit_character = ENG_100664912
+recruit_character = ENG_100665104
+recruit_character = ENG_100665402
+recruit_character = ENG_100665549
+recruit_character = ENG_100666217
+recruit_character = ENG_100666524
+recruit_character = ENG_100666782
+recruit_character = ENG_100667172
+recruit_character = ENG_100668562
+recruit_character = ENG_100669598
+recruit_character = ENG_100669719
+recruit_character = ENG_100670015
+recruit_character = ENG_117441829
+recruit_character = ENG_117441884
+recruit_character = ENG_117442919
+recruit_character = ENG_117443095
+recruit_character = ENG_117443285
+recruit_character = ENG_117443564
+recruit_character = ENG_117443749
+recruit_character = ENG_117445938
+recruit_character = ENG_117445951
+recruit_character = ENG_117446068
+recruit_character = ENG_117447007
+recruit_character = ENG_117447235
+recruit_character = ENG_134217838
+recruit_character = ENG_134219099
+recruit_character = ENG_150995196
+recruit_character = ENG_150995420
+recruit_character = ENG_150995748
+recruit_character = ENG_150998687
+recruit_character = ENG_151000443
+recruit_character = ENG_167772367
+recruit_character = ENG_167773330
+recruit_character = ENG_167777835
+recruit_character = ENG_167778345
+recruit_character = ENG_167778937
+recruit_character = ENG_184549527
+recruit_character = ENG_201326824
+recruit_character = ENG_218106593
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ivar_Lochead
-		GFX = GFX_portrait_europe_generic_operative_male_22
-		traits = { operative_natural_orator operative_seducer operative_tough }
+		name = Matthew_Carmichael
+		GFX = GFX_portrait_europe_generic_operative_male_21
+		traits = { operative_linguist }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { ENG }
 	}
 	create_operative_leader = {
-		name = Hugh_Macaulay
-		GFX = GFX_portrait_europe_generic_operative_male_9
-		traits = { operative_demolition_expert operative_infiltrator operative_natural_orator }
+		name = Theodore_2_Goodsir
+		GFX = GFX_portrait_europe_generic_operative_male_14
+		traits = { operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { ENG }
-	}
-	create_operative_leader = {
-		name = Mary_McArthur
-		GFX = GFX_portrait_europe_generic_operative_female_25
-		traits = { operative_master_interrogator operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { ENG }
-	}
-	create_operative_leader = {
-		name = Bartolomeo_Carquet
-		GFX = GFX_portrait_europe_generic_operative_male_10
-		traits = { operative_commando }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ENG TOS }
 	}
 }
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1932.2.1"
+	last_election = "1934.4.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 43
-	democratic = 27
-	fascism = 28
+	communism = 41
+	democratic = 22
+	fascism = 35
 	neutrality = 2
 }
 
@@ -90,10 +158,19 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	marines = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
 	tech_support = 1
 }
 
@@ -101,8 +178,12 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_technology = {
 		aa_lmg = 1
+		aircraft_construction = 1
+		basic_medium_airframe = 1
+		basic_small_airframe = 1
 		early_bombs = 1
 		engines_1 = 1
+		engines_2 = 1
 		iw_large_airframe = 1
 		iw_medium_airframe = 1
 		iw_small_airframe = 1
@@ -113,10 +194,26 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+		smoke_generator = 1
+		sonar = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -125,17 +222,25 @@ if = {
 	set_technology = {
 		early_bomber = 1
 		early_fighter = 1
+		fighter1 = 1
+		tactical_bomber1 = 1
 	}
 }
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		basic_ship_hull_heavy = 1
 		early_battleship = 1
 		early_destroyer = 1
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -192,10 +297,110 @@ if = {
 		ship_gun_upgrade = 1
 	}
 	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = ENG_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_heavy_battery_2
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1
@@ -207,6 +412,22 @@ if = {
 		fixed_ship_radar_slot = ship_sonar_1
 		fixed_ship_torpedo_slot = ship_torpedo_1
 		fixed_ship_engine_slot = light_ship_engine_1
+		mid_1_custom_slot = ship_depth_charge_1
+		rear_1_custom_slot = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = DD_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		fixed_ship_engine_slot = light_ship_engine_2
 		mid_1_custom_slot = ship_depth_charge_1
 		rear_1_custom_slot = empty
 	}
@@ -231,6 +452,24 @@ if = {
 		obsolete = no
 	}
 	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = CA_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_medium_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		mid_1_custom_slot = ship_secondaries_2
+		mid_2_custom_slot = ship_medium_battery_2
+		rear_1_custom_slot = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
 		name = "Early Light Cruiser"
 		type = ship_hull_cruiser_1
 		name_group = CL_HISTORICAL
@@ -244,6 +483,24 @@ if = {
 		fixed_ship_armor_slot = ship_armor_cruiser_1
 		mid_1_custom_slot = ship_torpedo_1
 		mid_2_custom_slot = ship_light_battery_1
+		rear_1_custom_slot = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = CL_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_light_battery_2
 		rear_1_custom_slot = empty
 	}
 		obsolete = no
@@ -298,9 +555,60 @@ if = {
 		ship_gun_upgrade = 1
 	}
 	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
+	create_equipment_variant = {
+		name = "Interwar Strategic Bomber"
+		type = large_plane_airframe_0
+		modules = {
+		fixed_main_weapon_slot = large_bomb_bay
+		engine_type_slot = engine_1_4x
+		special_type_slot_1 = lmg_defense_turret
+		special_type_slot_2 = lmg_defense_turret
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Interwar Fighter"
 		type = small_plane_airframe_0
@@ -310,7 +618,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier Fighter"
@@ -321,7 +629,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar CAS"
@@ -331,7 +639,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier CAS"
@@ -341,7 +649,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Naval Bomber"
@@ -351,7 +659,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier Naval Bomber"
@@ -361,7 +669,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Tactical Bomber"
@@ -372,14 +680,76 @@ if = {
 		special_type_slot_1 = lmg_defense_turret
 		special_type_slot_2 = lmg_defense_turret
 	}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Basic Fighter"
+		type = small_plane_airframe_1
+		modules = {
+		fixed_main_weapon_slot = light_mg_2x
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = empty
+	}
 		obsolete = no
 	}
 	create_equipment_variant = {
-		name = "Interwar Strategic Bomber"
-		type = large_plane_airframe_0
+		name = "Basic Carrier Fighter"
+		type = cv_small_plane_airframe_1
 		modules = {
-		fixed_main_weapon_slot = large_bomb_bay
-		engine_type_slot = engine_1_4x
+		fixed_main_weapon_slot = light_mg_2x
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic CAS"
+		type = small_plane_cas_airframe_1
+		modules = {
+		fixed_main_weapon_slot = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Carrier CAS"
+		type = cv_small_plane_cas_airframe_1
+		modules = {
+		fixed_main_weapon_slot = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Naval Bomber"
+		type = small_plane_naval_bomber_airframe_1
+		modules = {
+		fixed_main_weapon_slot = torpedo_mounting
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Carrier Naval Bomber"
+		type = cv_small_plane_naval_bomber_airframe_1
+		modules = {
+		fixed_main_weapon_slot = torpedo_mounting
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Tactical Bomber"
+		type = medium_plane_airframe_1
+		modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		engine_type_slot = engine_2_2x
 		special_type_slot_1 = lmg_defense_turret
 		special_type_slot_2 = lmg_defense_turret
 	}

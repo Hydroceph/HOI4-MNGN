@@ -1,138 +1,114 @@
 characters = {
-	BGI_16777516 = {
-		name = Muhammad_Kenga
+	BGI_16778760 = {
+		name = Abd_al-Rahman_Kenga
 		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
-	}
-	BGI_16778760 = {
-		name = Abd_al-Rahman_Kenga
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	BGI_16780327 = {
-		name = Ngarmane_al-Mahdi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_16780327
-			cost = 150
-		}
-	}
-	BGI_16780979 = {
-		name = Abu-Sekkin_Bira
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_16780979
-			cost = 150
-		}
-	}
-	BGI_33558452 = {
-		name = Abd_al-Rahman_Gawrang
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_33558452
-			cost = 150
-		}
-	}
-	BGI_50331931 = {
-		name = Burkomanda_al-Mahdi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_50331931
-			cost = 150
-		}
-	}
-	BGI_50334067 = {
-		name = Muhammad_Mahamat
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_50334067
-			cost = 150
-		}
-	}
-	BGI_50334107 = {
-		name = Ngarmane_Zobeir
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_1
-				small = GFX_Portrait_Africa_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist infantry_officer old_guard }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 5
-			planning_skill = 1
+		field_marshal = {
+			traits = { brilliant_strategist politically_connected trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
 			logistics_skill = 3
 		}
+	}
+	BGI_50335267 = {
+		name = Abd_al-Rahman_al-Mahdi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
 		advisor = {
-			traits = { education_reformer }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_50334107
+			idea_token = i_50335267
 			cost = 150
 		}
 	}
-	BGI_67109788 = {
-		name = Ngarmaba_Kenga
+	BGI_67114368 = {
+		name = Abdul_Zobeir
 		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { ranger trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67114368
+			cost = 150
 		}
 	}
-	BGI_67110925 = {
-		name = Muhammad_al-Mahdi
+	BGI_67115535 = {
+		name = Ngarmaba_Mohammed
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_67115535
+			cost = 150
+		}
+	}
+	BGI_83887605 = {
+		name = Abdul_al-Kabir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83887605
+			cost = 150
+		}
+	}
+	BGI_83890100 = {
+		name = Abu-Sekkin_Zobeir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83890100
+			cost = 150
+		}
+	}
+	BGI_100666702 = {
+		name = Burkomanda_as-Saghir
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100666702
+			cost = 150
+		}
+	}
+	BGI_100669801 = {
+		name = Abd_al-Rahman_Kenga
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -141,21 +117,21 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_67110925
+			idea_token = i_100669801
 			cost = 150
 		}
 	}
-	BGI_67113257 = {
-		name = Abdul_Mohammed
+	BGI_167777697 = {
+		name = Muhammad_Gawrang
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_67113257
+			idea_token = i_167777697
 			cost = 150
 		}
 	}

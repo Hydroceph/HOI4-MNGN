@@ -1,95 +1,88 @@
-capital = 73
+capital = 139
 
 oob = "SOV_1936"
-set_research_slots = 4
-set_convoys = 42
+set_research_slots = 3
+set_convoys = 13
 
-recruit_character = SOV_67108929
-recruit_character = SOV_16778381
-recruit_character = SOV_16778660
-recruit_character = SOV_16778667
-recruit_character = SOV_16778891
-recruit_character = SOV_16778910
-recruit_character = SOV_16778961
-recruit_character = SOV_16778971
-recruit_character = SOV_16779003
-recruit_character = SOV_16780194
-recruit_character = SOV_16780269
-recruit_character = SOV_16780341
-recruit_character = SOV_16780432
-recruit_character = SOV_16780449
-recruit_character = SOV_16780582
-recruit_character = SOV_16781374
-recruit_character = SOV_16782930
-recruit_character = SOV_16783559
-recruit_character = SOV_16783785
-recruit_character = SOV_33555960
-recruit_character = SOV_33556276
-recruit_character = SOV_33556904
-recruit_character = SOV_33556970
-recruit_character = SOV_33556974
-recruit_character = SOV_33557153
-recruit_character = SOV_33557302
-recruit_character = SOV_33557549
-recruit_character = SOV_33557591
-recruit_character = SOV_33557681
-recruit_character = SOV_33557701
-recruit_character = SOV_33557739
-recruit_character = SOV_33558045
-recruit_character = SOV_33560184
-recruit_character = SOV_33560281
-recruit_character = SOV_33560330
-recruit_character = SOV_33560569
-recruit_character = SOV_33560655
-recruit_character = SOV_33560950
-recruit_character = SOV_50332390
-recruit_character = SOV_50332800
-recruit_character = SOV_50332998
-recruit_character = SOV_50333832
-recruit_character = SOV_50333834
-recruit_character = SOV_50333837
-recruit_character = SOV_50334817
-recruit_character = SOV_50335004
-recruit_character = SOV_50335051
-recruit_character = SOV_50335870
-recruit_character = SOV_50335887
-recruit_character = SOV_50337044
-recruit_character = SOV_50337934
+recruit_character = SOV_16780300
+recruit_character = SOV_33557916
+recruit_character = SOV_33559366
+recruit_character = SOV_33559904
+recruit_character = SOV_50332022
+recruit_character = SOV_50333480
+recruit_character = SOV_50333821
+recruit_character = SOV_50333849
+recruit_character = SOV_50334160
+recruit_character = SOV_50335687
+recruit_character = SOV_50335987
 recruit_character = SOV_67109148
-recruit_character = SOV_67109493
-recruit_character = SOV_67112473
-recruit_character = SOV_67114318
-recruit_character = SOV_83887055
-recruit_character = SOV_83888660
-recruit_character = SOV_100663402
+recruit_character = SOV_67109215
+recruit_character = SOV_67110212
+recruit_character = SOV_67110479
+recruit_character = SOV_67110657
+recruit_character = SOV_67110667
+recruit_character = SOV_67112346
+recruit_character = SOV_67115127
+recruit_character = SOV_67115378
+recruit_character = SOV_83886836
+recruit_character = SOV_83887396
+recruit_character = SOV_83887650
+recruit_character = SOV_83888169
+recruit_character = SOV_83888189
+recruit_character = SOV_83888558
+recruit_character = SOV_83888989
+recruit_character = SOV_83889509
+recruit_character = SOV_83890711
+recruit_character = SOV_83891048
+recruit_character = SOV_83891120
+recruit_character = SOV_83892692
+recruit_character = SOV_100664234
+recruit_character = SOV_100664502
+recruit_character = SOV_100664522
+recruit_character = SOV_100664707
+recruit_character = SOV_100664808
+recruit_character = SOV_100665279
+recruit_character = SOV_100666665
+recruit_character = SOV_100666843
+recruit_character = SOV_100669293
+recruit_character = SOV_117440937
+recruit_character = SOV_117442803
+recruit_character = SOV_117442973
+recruit_character = SOV_117444585
+recruit_character = SOV_117444798
+recruit_character = SOV_134219775
+recruit_character = SOV_134220023
+recruit_character = SOV_134221526
+recruit_character = SOV_134222530
+recruit_character = SOV_150995034
+recruit_character = SOV_151000838
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Aleksandr_Grishin
-		GFX = GFX_portrait_europe_generic_operative_male_18
-		traits = { operative_natural_orator operative_safe_cracker }
+		name = Eugen_Vatamanu
+		GFX = GFX_portrait_europe_generic_operative_male_17
+		traits = { operative_commando operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { SOV }
+		nationalities = { SOV WAL }
 	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1934.4.26"
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 37
-	neutrality = 50
+	democratic = 14
+	fascism = 38
+	neutrality = 48
 }
 
 add_ideas = {
-	SOV_Konstantin_Belevsky-Zhukovsky
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -99,6 +92,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

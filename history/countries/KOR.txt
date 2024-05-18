@@ -1,36 +1,27 @@
-capital = 281
+capital = 336
 
 oob = "KOR_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 1
 
-recruit_character = KOR_2893
-recruit_character = KOR_2894
-recruit_character = KOR_16778911
-recruit_character = KOR_16780058
-recruit_character = KOR_16781258
-recruit_character = KOR_16782877
-recruit_character = KOR_33557886
-recruit_character = KOR_33559971
+recruit_character = KOR_50335607
 recruit_character = KOR_33560104
-recruit_character = KOR_33560686
-recruit_character = KOR_33561263
-recruit_character = KOR_50331810
-recruit_character = KOR_50332698
-recruit_character = KOR_50334243
-recruit_character = KOR_67113869
-recruit_character = KOR_83886503
-recruit_character = KOR_117442532
+recruit_character = KOR_67110327
+recruit_character = KOR_67111165
+recruit_character = KOR_67115663
+recruit_character = KOR_83889297
+recruit_character = KOR_83889861
+recruit_character = KOR_83889905
+recruit_character = KOR_83892395
+recruit_character = KOR_100663715
+recruit_character = KOR_100664440
+recruit_character = KOR_100665439
+recruit_character = KOR_117444534
+recruit_character = KOR_117446927
+recruit_character = KOR_134219215
+recruit_character = KOR_150997636
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Sang-ok_Hwan
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { KOR }
-	}
 }
 
 CHI = {
@@ -57,9 +48,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 37
-	neutrality = 52
+	democratic = 13
+	fascism = 36
+	neutrality = 51
 }
 
 add_ideas = {

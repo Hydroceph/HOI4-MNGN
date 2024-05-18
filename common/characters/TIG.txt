@@ -1,6 +1,6 @@
 characters = {
-	TIG_16778077 = {
-		name = Haile_Ali_Aba_Deyas
+	TIG_33557592 = {
+		name = Amha_Ali_Aba_Deyas
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,33 +11,39 @@ characters = {
 			traits = {  }
 		}
 	}
-	TIG_16778662 = {
-		name = Bekele_Cherecha
+	TIG_50337871 = {
+		name = Saleh_Makonnen
 		portraits = {
 			army = {
-				large = GFX_portrait_ETH_generic_male_2
-				small = GFX_portrait_ETH_generic_male_2_small
-			}
-			civilian = {
+				large = GFX_portrait_ETH_generic_male_1
+				small = GFX_portrait_ETH_generic_male_1_small
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
+			traits = { infantry_officer inflexible_strategist old_guard }
+			skill = 3
 			attack_skill = 1
-			defense_skill = 2
+			defense_skill = 5
 			planning_skill = 1
 			logistics_skill = 3
 		}
+	}
+	TIG_67110298 = {
+		name = Isaias_2_Sehul
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
 		advisor = {
-			traits = { agricultural_capitalist }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_16778662
+			idea_token = i_67110298
 			cost = 150
 		}
 	}
-	TIG_16783603 = {
-		name = Zeresenay_Woldu
+	TIG_67111245 = {
+		name = Isaias_2_Woldetinsae
 		portraits = {
 			army = {
 				large = GFX_portrait_ETH_generic_male_4
@@ -45,86 +51,33 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { cavalry_officer organizer trait_mountaineer }
+			traits = { armor_officer old_guard }
 			skill = 3
-			attack_skill = 2
+			attack_skill = 4
 			defense_skill = 3
-			planning_skill = 4
+			planning_skill = 3
 			logistics_skill = 2
 		}
 	}
-	TIG_33555184 = {
-		name = Berhanu_Makonnen
+	TIG_67113243 = {
+		name = Meles_Woldu
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_portrait_ETH_generic_male_2
+				small = GFX_portrait_ETH_generic_male_2_small
 			}
 		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_33555184
-			cost = 150
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
-	TIG_33557284 = {
-		name = Mitslal_Muz_Woldetinsae
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_33557284
-			cost = 150
-		}
-	}
-	TIG_33557592 = {
-		name = Amha_Ali_Aba_Deyas
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_33557592
-			cost = 150
-		}
-	}
-	TIG_33561139 = {
-		name = Amha_Mikael
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { editor }
-			slot = political_advisor
-			idea_token = i_33561139
-			cost = 150
-		}
-	}
-	TIG_50332280 = {
-		name = Berihun_Makonnen
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { political_dancer }
-			slot = political_advisor
-			idea_token = i_50332280
-			cost = 150
-		}
-	}
-	TIG_50333098 = {
-		name = Negasi_Melekot
+	TIG_83889288 = {
+		name = Abune_Agame
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -133,12 +86,12 @@ characters = {
 		advisor = {
 			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50333098
+			idea_token = i_83889288
 			cost = 150
 		}
 	}
-	TIG_50338291 = {
-		name = Berihun_Cherecha
+	TIG_83889711 = {
+		name = Ras_Yohannes
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -147,29 +100,79 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50338291
+			idea_token = i_83889711
 			cost = 150
 		}
 	}
-	TIG_83890723 = {
-		name = Mitslal_Muz_Sehul
+	TIG_83889797 = {
+		name = Saleh_Melekot
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83889797
+			cost = 150
+		}
+	}
+	TIG_100669100 = {
+		name = Meles_Agame
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100669100
+			cost = 150
+		}
+	}
+	TIG_117441250 = {
+		name = Kelile_Seged
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117441250
+			cost = 150
+		}
+	}
+	TIG_117441281 = {
+		name = Mesfin_Woldu
 		portraits = {
 			army = {
-				large = GFX_portrait_ETH_generic_male_2
-				small = GFX_portrait_ETH_generic_male_2_small
+				large = GFX_portrait_ETH_generic_male_3
+				small = GFX_portrait_ETH_generic_male_3_small
 			}
 		}
 		corps_commander = {
-			traits = { engineer_officer trait_cautious trait_mountaineer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
 			planning_skill = 2
-			logistics_skill = 3
+			logistics_skill = 1
 		}
 	}
-	TIG_150994953 = {
-		name = Amare_Ali_Aba_Deyas
+	TIG_117444556 = {
+		name = Berihun_Ali_Aba_Deyas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	TIG_134222347 = {
+		name = Zenabu_Yohannes
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -178,7 +181,21 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_150994953
+			idea_token = i_134222347
+			cost = 150
+		}
+	}
+	TIG_167773635 = {
+		name = Ras_Engida
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_167773635
 			cost = 150
 		}
 	}

@@ -1,19 +1,21 @@
-capital = 338
+capital = 557
 
 oob = "SAF_1936"
 set_research_slots = 3
-set_convoys = 6
+set_convoys = 12
 
-recruit_character = SAF_33556771
-recruit_character = SAF_16783842
-recruit_character = SAF_33555216
-recruit_character = SAF_33555877
-recruit_character = SAF_33556063
-recruit_character = SAF_33561103
-recruit_character = SAF_50332371
-recruit_character = SAF_50338135
-recruit_character = SAF_67114534
-recruit_character = SAF_83892961
+recruit_character = SAF_100666246
+recruit_character = SAF_67112147
+recruit_character = SAF_83888148
+recruit_character = SAF_83889121
+recruit_character = SAF_100666614
+recruit_character = SAF_100670094
+recruit_character = SAF_117444792
+recruit_character = SAF_134218640
+recruit_character = SAF_150995362
+recruit_character = SAF_167773096
+recruit_character = SAF_167774149
+recruit_character = SAF_184552817
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -25,31 +27,33 @@ ENG = {
 		}
 		set_autonomy = {
 			target = SAF
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = SAF
+		set_autonomy = {
+			target = SAF
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.9.9"
+	ruling_party = fascism
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 17
-	fascism = 37
-	neutrality = 46
+	democratic = 40
+	fascism = 30
+	neutrality = 30
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -57,8 +61,18 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
 	tech_support = 1
 }
 
@@ -66,8 +80,12 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_technology = {
 		aa_lmg = 1
+		aircraft_construction = 1
+		basic_medium_airframe = 1
+		basic_small_airframe = 1
 		early_bombs = 1
 		engines_1 = 1
+		engines_2 = 1
 		iw_large_airframe = 1
 		iw_medium_airframe = 1
 		iw_small_airframe = 1
@@ -78,10 +96,21 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
 		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -90,17 +119,25 @@ if = {
 	set_technology = {
 		early_bomber = 1
 		early_fighter = 1
+		fighter1 = 1
+		tactical_bomber1 = 1
 	}
 }
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		basic_ship_hull_heavy = 1
 		early_battleship = 1
 		early_destroyer = 1
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -157,10 +194,110 @@ if = {
 		ship_gun_upgrade = 1
 	}
 	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = SAF_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_heavy_battery_2
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1
@@ -172,6 +309,22 @@ if = {
 		fixed_ship_radar_slot = ship_sonar_1
 		fixed_ship_torpedo_slot = ship_torpedo_1
 		fixed_ship_engine_slot = light_ship_engine_1
+		mid_1_custom_slot = ship_depth_charge_1
+		rear_1_custom_slot = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = DD_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		fixed_ship_engine_slot = light_ship_engine_2
 		mid_1_custom_slot = ship_depth_charge_1
 		rear_1_custom_slot = empty
 	}
@@ -196,6 +349,24 @@ if = {
 		obsolete = no
 	}
 	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = CA_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_medium_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		mid_1_custom_slot = ship_secondaries_2
+		mid_2_custom_slot = ship_medium_battery_2
+		rear_1_custom_slot = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
 		name = "Early Light Cruiser"
 		type = ship_hull_cruiser_1
 		name_group = CL_HISTORICAL
@@ -209,6 +380,24 @@ if = {
 		fixed_ship_armor_slot = ship_armor_cruiser_1
 		mid_1_custom_slot = ship_torpedo_1
 		mid_2_custom_slot = ship_light_battery_1
+		rear_1_custom_slot = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = CL_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_light_battery_2
 		rear_1_custom_slot = empty
 	}
 		obsolete = no
@@ -263,9 +452,60 @@ if = {
 		ship_gun_upgrade = 1
 	}
 	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
+	create_equipment_variant = {
+		name = "Interwar Strategic Bomber"
+		type = large_plane_airframe_0
+		modules = {
+		fixed_main_weapon_slot = large_bomb_bay
+		engine_type_slot = engine_1_4x
+		special_type_slot_1 = lmg_defense_turret
+		special_type_slot_2 = lmg_defense_turret
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Interwar Fighter"
 		type = small_plane_airframe_0
@@ -275,7 +515,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier Fighter"
@@ -286,7 +526,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = empty
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar CAS"
@@ -296,7 +536,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier CAS"
@@ -306,7 +546,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Naval Bomber"
@@ -316,7 +556,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Carrier Naval Bomber"
@@ -326,7 +566,7 @@ if = {
 		engine_type_slot = engine_1_1x
 		special_type_slot_1 = lmg_defense_turret
 	}
-		obsolete = no
+		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Interwar Tactical Bomber"
@@ -337,14 +577,76 @@ if = {
 		special_type_slot_1 = lmg_defense_turret
 		special_type_slot_2 = lmg_defense_turret
 	}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Basic Fighter"
+		type = small_plane_airframe_1
+		modules = {
+		fixed_main_weapon_slot = light_mg_2x
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = empty
+	}
 		obsolete = no
 	}
 	create_equipment_variant = {
-		name = "Interwar Strategic Bomber"
-		type = large_plane_airframe_0
+		name = "Basic Carrier Fighter"
+		type = cv_small_plane_airframe_1
 		modules = {
-		fixed_main_weapon_slot = large_bomb_bay
-		engine_type_slot = engine_1_4x
+		fixed_main_weapon_slot = light_mg_2x
+		fixed_auxiliary_weapon_slot_1 = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = empty
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic CAS"
+		type = small_plane_cas_airframe_1
+		modules = {
+		fixed_main_weapon_slot = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Carrier CAS"
+		type = cv_small_plane_cas_airframe_1
+		modules = {
+		fixed_main_weapon_slot = bomb_locks
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Naval Bomber"
+		type = small_plane_naval_bomber_airframe_1
+		modules = {
+		fixed_main_weapon_slot = torpedo_mounting
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Carrier Naval Bomber"
+		type = cv_small_plane_naval_bomber_airframe_1
+		modules = {
+		fixed_main_weapon_slot = torpedo_mounting
+		engine_type_slot = engine_2_1x
+		special_type_slot_1 = lmg_defense_turret
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Basic Tactical Bomber"
+		type = medium_plane_airframe_1
+		modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		engine_type_slot = engine_2_2x
 		special_type_slot_1 = lmg_defense_turret
 		special_type_slot_2 = lmg_defense_turret
 	}

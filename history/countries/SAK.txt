@@ -1,27 +1,31 @@
-capital = 415
 
 oob = "SAK_1936"
 set_research_slots = 2
-set_convoys = 6
+set_convoys = 0
 
-recruit_character = SAK_3058
-recruit_character = SAK_33556208
-recruit_character = SAK_33556267
-recruit_character = SAK_33557013
-recruit_character = SAK_33560460
-recruit_character = SAK_50332467
-recruit_character = SAK_50333784
-recruit_character = SAK_50335753
-recruit_character = SAK_50336450
-recruit_character = SAK_67110256
 recruit_character = SAK_67112485
-recruit_character = SAK_117442530
+recruit_character = SAK_50335691
+recruit_character = SAK_67109723
+recruit_character = SAK_83886136
+recruit_character = SAK_83889864
+recruit_character = SAK_100664400
+recruit_character = SAK_117442979
+recruit_character = SAK_117444322
+recruit_character = SAK_167777769
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Yusuf_Muadzam
+		name = Aziz_al-Khairat
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_safe_cracker }
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SAK }
+	}
+	create_operative_leader = {
+		name = Shahabuddin_Riayat_Shah
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_seducer operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { SAK }
@@ -37,9 +41,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 39
-	neutrality = 50
+	democratic = 19
+	fascism = 37
+	neutrality = 44
 }
 
 add_ideas = {

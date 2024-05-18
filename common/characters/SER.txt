@@ -1,135 +1,14 @@
 characters = {
-	SER_33555491 = {
-		name = Radomir_Grujic
+	SER_117442470 = {
+		name = Bozidar_Grujic
 		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
-			}
 			civilian = {
-				large = GFX_Portrait_Europe_Generic_land_1
+				large = GFX_Portrait_Europe_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = moderatism
 			traits = {  }
-		}
-		field_marshal = {
-			traits = { charismatic infantry_officer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	SER_3077 = {
-		name = Milan_Obrenovic
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_3077
-			cost = 150
-		}
-	}
-	SER_16778751 = {
-		name = Kosta_Sijan
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_16778751
-			cost = 150
-		}
-	}
-	SER_33555057 = {
-		name = Miodrag_Konstantinovic
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_33555057
-			cost = 150
-		}
-	}
-	SER_33556019 = {
-		name = Dejan_Nenadovic
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_4
-				small = GFX_Portrait_Europe_Generic_land_4_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox infantry_officer old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_33556019
-			cost = 150
-		}
-	}
-	SER_33556122 = {
-		name = Goran_Blaznacac
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33556122
-			cost = 150
-		}
-	}
-	SER_33559426 = {
-		name = Krsto_Miloradovic
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_33559426
-			cost = 150
-		}
-	}
-	SER_50332617 = {
-		name = Djordje_Blaznacac
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_50332617
-			cost = 150
 		}
 	}
 	SER_50334127 = {
@@ -140,24 +19,181 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { education_reformer }
+			traits = { naval_aviation_pioneer }
 			slot = political_advisor
 			idea_token = i_50334127
 			cost = 150
 		}
 	}
-	SER_50337835 = {
-		name = Djordje_Popovic
+	SER_50337955 = {
+		name = Nebojsa_Avakumovic
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer organizer ranger }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 1
+		}
+		advisor = {
+			traits = { grand_battle_plan_expert }
+			slot = political_advisor
+			idea_token = i_50337955
+			cost = 150
+		}
+	}
+	SER_67109386 = {
+		name = Alaksandar_Jovanovic
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { fascist_demagogue }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_50337835
+			idea_token = i_67109386
 			cost = 150
+		}
+	}
+	SER_83886445 = {
+		name = Krsto_Anastasijevic
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	SER_83887128 = {
+		name = Zivota_Garasanin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader infantry_officer old_guard trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SER_83887584 = {
+		name = Nikola_Dapcevic
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83887584
+			cost = 150
+		}
+	}
+	SER_83889610 = {
+		name = Arsenije_Mihailovic
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83889610
+			cost = 150
+		}
+	}
+	SER_83890170 = {
+		name = Arsenije_Petrovic
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83890170
+			cost = 150
+		}
+	}
+	SER_100666534 = {
+		name = Milos_Obrenovic
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	SER_117445627 = {
+		name = Dragan_Nedic
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SER_150996981 = {
+		name = Arsenije_Konstantinovic
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150996981
+			cost = 150
+		}
+	}
+	SER_151001073 = {
+		name = Veljko_Horvatovic
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
 }

@@ -1,35 +1,22 @@
-capital = 620
 
 oob = "SEL_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = SEL_33556917
-recruit_character = SEL_16780953
-recruit_character = SEL_33556036
-recruit_character = SEL_33557260
-recruit_character = SEL_33558335
-recruit_character = SEL_33559808
-recruit_character = SEL_33560059
-recruit_character = SEL_33561259
-recruit_character = SEL_50334700
-recruit_character = SEL_50336112
-recruit_character = SEL_67111220
-recruit_character = SEL_83888351
+recruit_character = SEL_100666314
+recruit_character = SEL_50336851
+recruit_character = SEL_50338212
+recruit_character = SEL_67110614
+recruit_character = SEL_83887276
+recruit_character = SEL_100663442
+recruit_character = SEL_100663763
+recruit_character = SEL_117442534
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Tuanku_Raja_Inu
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SEL }
-	}
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,14 +24,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 40
-	neutrality = 49
+	democratic = 20
+	fascism = 44
+	neutrality = 36
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6

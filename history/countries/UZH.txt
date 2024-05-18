@@ -1,22 +1,27 @@
-capital = 603
 
 oob = "UZH_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = UZH_6832
-recruit_character = UZH_16780359
-recruit_character = UZH_16781346
-recruit_character = UZH_16783540
-recruit_character = UZH_16783680
-recruit_character = UZH_33557736
-recruit_character = UZH_33558185
-recruit_character = UZH_33558945
-recruit_character = UZH_33560865
-recruit_character = UZH_33561268
-recruit_character = UZH_67110597
+recruit_character = UZH_167773408
+recruit_character = UZH_50338461
+recruit_character = UZH_67112238
+recruit_character = UZH_83886309
+recruit_character = UZH_100664656
+recruit_character = UZH_117443248
+recruit_character = UZH_117444314
+recruit_character = UZH_134218849
+recruit_character = UZH_134219657
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Jangir_Kutebar_uli
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZH }
+	}
 }
 
 SOV = {
@@ -43,8 +48,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 20
-	fascism = 40
+	democratic = 23
+	fascism = 37
 	neutrality = 40
 }
 
@@ -58,6 +63,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

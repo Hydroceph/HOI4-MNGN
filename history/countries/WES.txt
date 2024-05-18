@@ -1,19 +1,18 @@
-capital = 789
 
 oob = "WES_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = WES_16781549
-recruit_character = WES_16778859
-recruit_character = WES_16780212
-recruit_character = WES_33554802
-recruit_character = WES_33557183
-recruit_character = WES_33558413
-recruit_character = WES_33559585
 recruit_character = WES_33559701
-recruit_character = WES_33560174
-recruit_character = WES_33560698
+recruit_character = WES_16779922
+recruit_character = WES_67112328
+recruit_character = WES_83886144
+recruit_character = WES_83887588
+recruit_character = WES_83889998
+recruit_character = WES_83892200
+recruit_character = WES_117443470
+recruit_character = WES_150995661
+recruit_character = WES_201327704
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -27,9 +26,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 9
+	democratic = 10
 	fascism = 37
-	neutrality = 54
+	neutrality = 53
 }
 
 add_ideas = {

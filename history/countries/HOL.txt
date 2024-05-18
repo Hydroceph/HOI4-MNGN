@@ -1,48 +1,50 @@
-capital = 42
+capital = 88
 
 oob = "HOL_1936"
 set_research_slots = 3
-set_convoys = 18
+set_convoys = 27
 
-recruit_character = HOL_83887167
-recruit_character = HOL_16778045
-recruit_character = HOL_16778889
-recruit_character = HOL_16779433
+recruit_character = HOL_67112284
 recruit_character = HOL_16779584
-recruit_character = HOL_33558149
-recruit_character = HOL_33559231
-recruit_character = HOL_33561055
-recruit_character = HOL_50333516
-recruit_character = HOL_50337583
-recruit_character = HOL_50338263
-recruit_character = HOL_67109993
-recruit_character = HOL_67113807
-recruit_character = HOL_83886391
-recruit_character = HOL_83887309
-recruit_character = HOL_83888342
-recruit_character = HOL_83888600
+recruit_character = HOL_33557759
+recruit_character = HOL_50331997
+recruit_character = HOL_50334300
+recruit_character = HOL_50335139
+recruit_character = HOL_50337808
+recruit_character = HOL_67109635
+recruit_character = HOL_67110042
+recruit_character = HOL_67110881
+recruit_character = HOL_67111419
+recruit_character = HOL_67113103
+recruit_character = HOL_83886245
+recruit_character = HOL_83888136
+recruit_character = HOL_83888913
+recruit_character = HOL_83892441
+recruit_character = HOL_100663501
+recruit_character = HOL_100664837
+recruit_character = HOL_100669677
+recruit_character = HOL_117440788
+recruit_character = HOL_117441047
+recruit_character = HOL_117441792
+recruit_character = HOL_134219807
+recruit_character = HOL_134220996
+recruit_character = HOL_150997494
+recruit_character = HOL_167777169
+recruit_character = HOL_201328464
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Karel_Cort-Heyligers
-		GFX = GFX_portrait_europe_generic_operative_male_1
-		traits = { operative_commando operative_natural_orator }
+		name = Adriaan_van_Heemskerck
+		GFX = GFX_portrait_europe_generic_operative_male_23
+		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { HOL }
 	}
 	create_operative_leader = {
-		name = Gerard_van_Oranje-Nassau
-		GFX = GFX_portrait_europe_generic_operative_male_18
-		traits = { operative_natural_orator operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { HOL INS }
-	}
-	create_operative_leader = {
-		name = Pieter_Kater
-		GFX = GFX_portrait_europe_generic_operative_male_22
-		traits = {  }
+		name = Matthijs_Coehoorn
+		GFX = GFX_portrait_europe_generic_operative_male_17
+		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { HOL }
@@ -58,13 +60,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 20
-	fascism = 45
-	neutrality = 35
+	democratic = 24
+	fascism = 55
+	neutrality = 21
 }
 
 add_ideas = {
-	HOL_Alexander_van_Oranje-Nassau
+	HOL_Hendrik_van_Oranje-Nassau
 	partial_economic_mobilisation
 	limited_exports
 	limited_conscription
@@ -74,10 +76,15 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	support_weapons = 1
+	tech_engineers = 1
 	tech_support = 1
 }
 
@@ -98,9 +105,14 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -120,6 +132,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -180,6 +193,47 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = HOL_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

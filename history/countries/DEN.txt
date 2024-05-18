@@ -1,28 +1,42 @@
-capital = 139
+capital = 734
 
 oob = "DEN_1936"
 set_research_slots = 3
-set_convoys = 21
+set_convoys = 5
 
-recruit_character = DEN_16783735
-recruit_character = DEN_16783927
-recruit_character = DEN_33554989
-recruit_character = DEN_33556784
-recruit_character = DEN_33558091
-recruit_character = DEN_33559086
-recruit_character = DEN_33559760
-recruit_character = DEN_33560548
-recruit_character = DEN_50333649
-recruit_character = DEN_50333809
-recruit_character = DEN_50338385
-recruit_character = DEN_67109217
-recruit_character = DEN_67109457
-recruit_character = DEN_67109510
-recruit_character = DEN_67110782
-recruit_character = DEN_67115407
-recruit_character = DEN_83887417
+recruit_character = DEN_184549406
+recruit_character = DEN_50335724
+recruit_character = DEN_50336735
+recruit_character = DEN_67110418
+recruit_character = DEN_67112365
+recruit_character = DEN_67113232
+recruit_character = DEN_83887104
+recruit_character = DEN_83887473
+recruit_character = DEN_83890612
+recruit_character = DEN_100667401
+recruit_character = DEN_100667514
+recruit_character = DEN_100667656
+recruit_character = DEN_117442255
+recruit_character = DEN_117443333
+recruit_character = DEN_184550591
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Michael_Wadenstierna
+		GFX = GFX_portrait_europe_generic_operative_male_2
+		traits = { operative_natural_orator operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DEN }
+	}
+	create_operative_leader = {
+		name = Olav_Juul
+		GFX = GFX_portrait_europe_generic_operative_male_3
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DEN }
+	}
 }
 
 GER = {
@@ -49,9 +63,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 20
-	fascism = 36
-	neutrality = 44
+	democratic = 15
+	fascism = 39
+	neutrality = 46
 }
 
 add_ideas = {
@@ -65,10 +79,13 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -92,6 +109,7 @@ if = {
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		mtg_transport = 1
 	}
 }
 
@@ -111,6 +129,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 

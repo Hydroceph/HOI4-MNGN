@@ -1,23 +1,33 @@
-capital = 198
+capital = 255
 
 oob = "TIG_1936"
 set_research_slots = 2
-set_convoys = 2
+set_convoys = 0
 
-recruit_character = TIG_16778077
-recruit_character = TIG_16778662
-recruit_character = TIG_16783603
-recruit_character = TIG_33555184
-recruit_character = TIG_33557284
 recruit_character = TIG_33557592
-recruit_character = TIG_33561139
-recruit_character = TIG_50332280
-recruit_character = TIG_50333098
-recruit_character = TIG_50338291
-recruit_character = TIG_83890723
-recruit_character = TIG_150994953
+recruit_character = TIG_50337871
+recruit_character = TIG_67110298
+recruit_character = TIG_67111245
+recruit_character = TIG_67113243
+recruit_character = TIG_83889288
+recruit_character = TIG_83889711
+recruit_character = TIG_83889797
+recruit_character = TIG_100669100
+recruit_character = TIG_117441250
+recruit_character = TIG_117441281
+recruit_character = TIG_117444556
+recruit_character = TIG_134222347
+recruit_character = TIG_167773635
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Amare_Petros
+		GFX = GFX_portrait_africa_generic_operative_male_3
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIG }
+	}
 }
 
 set_politics = {
@@ -29,9 +39,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 36
-	neutrality = 53
+	democratic = 9
+	fascism = 40
+	neutrality = 51
 }
 
 add_ideas = {

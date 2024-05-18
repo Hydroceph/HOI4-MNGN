@@ -1,44 +1,52 @@
-capital = 379
+capital = 386
 
 oob = "PAR_1936"
 set_research_slots = 3
 set_convoys = 0
 
-recruit_character = PAR_67109412
-recruit_character = PAR_16780122
-recruit_character = PAR_33557921
-recruit_character = PAR_33558642
-recruit_character = PAR_33558777
-recruit_character = PAR_50333375
-recruit_character = PAR_50334986
-recruit_character = PAR_50335419
-recruit_character = PAR_67112518
-recruit_character = PAR_67112706
-recruit_character = PAR_100665239
+recruit_character = PAR_50334353
+recruit_character = PAR_33561335
+recruit_character = PAR_67111819
+recruit_character = PAR_67112048
+recruit_character = PAR_67112241
+recruit_character = PAR_67112360
+recruit_character = PAR_83886964
+recruit_character = PAR_117440541
+recruit_character = PAR_134217809
+recruit_character = PAR_134219432
+recruit_character = PAR_134221431
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Gabriel_Franco
-		GFX = GFX_portrait_south_america_generic_operative_male_4
-		traits = { operative_commando operative_natural_orator }
+		name = Torcuato_de_Rosas
+		GFX = GFX_portrait_south_america_generic_operative_male_2
+		traits = { operative_demolition_expert operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { PAR }
+	}
+	create_operative_leader = {
+		name = Bildad_Woodward
+		GFX = GFX_portrait_europe_generic_operative_male_3
+		traits = { operative_commando operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAR USA }
 	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1932.5.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 14
-	fascism = 42
-	neutrality = 44
+	democratic = 17
+	fascism = 40
+	neutrality = 43
 }
 
 add_ideas = {
@@ -51,6 +59,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

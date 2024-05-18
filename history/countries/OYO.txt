@@ -1,28 +1,24 @@
-capital = 109
+capital = 200
 
 oob = "OYO_1936"
 set_research_slots = 2
-set_convoys = 12
+set_convoys = 0
 
-recruit_character = OYO_16778171
-recruit_character = OYO_16780845
-recruit_character = OYO_16781318
-recruit_character = OYO_16782017
-recruit_character = OYO_16783272
-recruit_character = OYO_33554751
-recruit_character = OYO_33556608
-recruit_character = OYO_50332138
-recruit_character = OYO_50332798
-recruit_character = OYO_50334137
-recruit_character = OYO_67108900
-recruit_character = OYO_67111442
 recruit_character = OYO_67112583
-recruit_character = OYO_83891693
+recruit_character = OYO_100666170
+recruit_character = OYO_100667174
+recruit_character = OYO_100669904
+recruit_character = OYO_117444088
+recruit_character = OYO_134218323
+recruit_character = OYO_134218973
+recruit_character = OYO_134219183
+recruit_character = OYO_134221284
+recruit_character = OYO_167774906
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Atiba_Tofa
-		GFX = GFX_portrait_africa_generic_operative_male_5
+		name = Lauru_Dudu
+		GFX = GFX_portrait_africa_generic_operative_male_2
 		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -54,9 +50,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 14
+	democratic = 17
 	fascism = 35
-	neutrality = 51
+	neutrality = 48
 }
 
 add_ideas = {

@@ -1,26 +1,24 @@
-capital = 450
 
 oob = "CHP_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = CHP_16783608
-recruit_character = CHP_16783688
-recruit_character = CHP_33554833
-recruit_character = CHP_33555010
-recruit_character = CHP_33556268
-recruit_character = CHP_33558549
-recruit_character = CHP_33559289
-recruit_character = CHP_33561044
-recruit_character = CHP_50334801
 recruit_character = CHP_50335170
-recruit_character = CHP_67114582
+recruit_character = CHP_50334351
+recruit_character = CHP_67110668
+recruit_character = CHP_67111099
+recruit_character = CHP_100666489
+recruit_character = CHP_117441848
+recruit_character = CHP_117443445
+recruit_character = CHP_134220261
+recruit_character = CHP_150995021
+recruit_character = CHP_151000082
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ong_Intharavong
+		name = Sisavang_Intharavong
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_safe_cracker }
+		traits = { operative_commando }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { CHP }
@@ -51,9 +49,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 18
-	fascism = 36
-	neutrality = 46
+	democratic = 20
+	fascism = 37
+	neutrality = 43
 }
 
 add_ideas = {
@@ -66,6 +64,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

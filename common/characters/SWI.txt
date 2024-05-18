@@ -1,66 +1,35 @@
 characters = {
-	SWI_33559687 = {
-		name = Johann_Baptist_Eberle
+	SWI_100666788 = {
+		name = Hugo_Sermet
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_Europe_Generic_2
+				large = GFX_portrait_europe_generic_6
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = centrism
 			traits = {  }
 		}
 	}
-	SWI_16778780 = {
-		name = Simon_Roten
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_16778780
-			cost = 150
-		}
-	}
-	SWI_33555178 = {
-		name = Roberto_Decurninge
+	SWI_50333663 = {
+		name = Heinrich_Eggli
 		portraits = {
 			army = {
-				large = GFX_portrait_europe_generic_land_8
-				small = GFX_portrait_europe_generic_land_8_small
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
+			traits = { career_officer desert_fox infantry_officer }
+			skill = 3
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 4
+			planning_skill = 4
+			logistics_skill = 1
 		}
 	}
-	SWI_33556447 = {
-		name = Pierro_Hirschgartner
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SWI_33557571 = {
-		name = JosE_t_Tronchin
+	SWI_83887075 = {
+		name = BernA_rd_Blavignac
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_2
@@ -68,16 +37,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { desert_fox infantry_officer }
+			traits = { cavalry_officer desert_fox trait_mountaineer }
 			skill = 2
 			attack_skill = 2
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 1
+			logistics_skill = 2
 		}
 	}
-	SWI_33559517 = {
-		name = Carl_von_Erlach
+	SWI_83888250 = {
+		name = RenE__Blatter
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -86,88 +55,108 @@ characters = {
 		advisor = {
 			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33559517
+			idea_token = i_83888250
 			cost = 150
 		}
 	}
-	SWI_50332336 = {
-		name = E_manuE_l_Chappaz
+	SWI_83890593 = {
+		name = Placidus_von_Reding-Biberegg
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_50332336
+			idea_token = i_83890593
 			cost = 150
 		}
 	}
-	SWI_50332688 = {
-		name = Wolfgang_Balmer
+	SWI_83892185 = {
+		name = E_douard_Girardin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83892185
+			cost = 150
+		}
+	}
+	SWI_100664711 = {
+		name = Walter_Effinger
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100664711
+			cost = 150
+		}
+	}
+	SWI_117443308 = {
+		name = Johann_Leutenegger
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117443308
+			cost = 150
+		}
+	}
+	SWI_134221123 = {
+		name = Walter_DA_hler
 		portraits = {
 			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
-			}
-			civilian = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
 			}
 		}
 		corps_commander = {
-			traits = { career_officer ranger }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
+			traits = { brilliant_strategist old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
 			logistics_skill = 1
 		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_50332688
-			cost = 150
-		}
 	}
-	SWI_50337950 = {
-		name = Adolf_von_Steiger
+	SWI_150995768 = {
+		name = Wilhelm_Lombach
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { technocrat }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50337950
+			idea_token = i_150995768
 			cost = 150
 		}
 	}
-	SWI_67111003 = {
-		name = Placidus_Hegglin
+	SWI_201327982 = {
+		name = Jian_Poulin
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_67111003
-			cost = 150
-		}
-	}
-	SWI_83886966 = {
-		name = Gottlieb_Etter
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_83886966
+			idea_token = i_201327982
 			cost = 150
 		}
 	}

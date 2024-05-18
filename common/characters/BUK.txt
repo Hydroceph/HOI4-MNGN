@@ -1,6 +1,6 @@
 characters = {
-	BUK_2737 = {
-		name = Muzaffar_al-Din_Manghud
+	BUK_67110052 = {
+		name = Nasrallah_Manghud
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,33 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	BUK_16777791 = {
-		name = Madali_Bahadur
+	BUK_67109154 = {
+		name = Shir_Bahadur
 		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
 			civilian = {
+				small = GFX_idea_unknown
 			}
-		}
-		corps_commander = {
-			traits = { commando organizer trait_cautious }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
 		}
 		advisor = {
-			traits = { inexperienced_imperialist }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_16777791
+			idea_token = i_67109154
 			cost = 150
 		}
 	}
-	BUK_16778735 = {
-		name = Aqim_Bahadur
+	BUK_67109387 = {
+		name = Umar_Bukhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -46,93 +35,12 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_16778735
+			idea_token = i_67109387
 			cost = 150
 		}
 	}
-	BUK_33558064 = {
-		name = Qilich_Kokand
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33558064
-			cost = 150
-		}
-	}
-	BUK_50332626 = {
-		name = Mahmud_Khan
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer trait_mountaineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	BUK_50336751 = {
-		name = Murad_Bahadur
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_50336751
-			cost = 150
-		}
-	}
-	BUK_50338095 = {
-		name = Nasir_al-Din_Gulkhani
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_50338095
-			cost = 150
-		}
-	}
-	BUK_67109266 = {
-		name = Aqim_Gulkhani
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { communist_revolutionary }
-			slot = political_advisor
-			idea_token = i_67109266
-			cost = 150
-		}
-	}
-	BUK_67110052 = {
-		name = Nasrallah_Manghud
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	BUK_67111150 = {
-		name = Qilich_Gulkhani
+	BUK_67109978 = {
+		name = Yaqub_Bukhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -141,39 +49,92 @@ characters = {
 		advisor = {
 			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_67111150
+			idea_token = i_67109978
 			cost = 150
 		}
 	}
-	BUK_67111452 = {
-		name = Nasrallah_Bahadur
+	BUK_67115230 = {
+		name = Shir_Bukhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_67111452
+			idea_token = i_67115230
 			cost = 150
 		}
 	}
-	BUK_83886991 = {
-		name = Nasrallah_Bukhari
+	BUK_83887067 = {
+		name = Nurali_Gulkhani
 		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_83887067
+			cost = 150
+		}
+	}
+	BUK_83887135 = {
+		name = Qilich_Kokand
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_83887135
+			cost = 150
+		}
+	}
+	BUK_117443130 = {
+		name = Abd_al-Ahad_Manghud
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_117443130
+			cost = 150
+		}
+	}
+	BUK_117443811 = {
+		name = Yaqub_Khan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117443811
+			cost = 150
+		}
+	}
+	BUK_150997148 = {
+		name = Allah_Quli_Gulkhani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_150997148
+			cost = 150
 		}
 	}
 }

@@ -1,38 +1,34 @@
-capital = 315
+capital = 367
 
 oob = "LBA_1936"
 set_research_slots = 2
-set_convoys = 12
+set_convoys = 0
 
-recruit_character = LBA_16778078
-recruit_character = LBA_16779420
-recruit_character = LBA_16779589
-recruit_character = LBA_16782429
-recruit_character = LBA_33557702
-recruit_character = LBA_33558811
-recruit_character = LBA_50332357
-recruit_character = LBA_50332955
-recruit_character = LBA_67110548
-recruit_character = LBA_67115587
 recruit_character = LBA_83886319
-recruit_character = LBA_83888506
-recruit_character = LBA_83888659
+recruit_character = LBA_50333421
+recruit_character = LBA_50335540
+recruit_character = LBA_83891650
+recruit_character = LBA_117442405
+recruit_character = LBA_117442471
+recruit_character = LBA_134218982
+recruit_character = LBA_167773236
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Abd_Allah_ibn_Uthman
-		GFX = GFX_portrait_arabia_generic_operative_male_6
+		name = Hisham_ibn_Abd_Allah
+		GFX = GFX_portrait_arabia_generic_operative_male_2
 		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { LBA }
+		nationalities = { LBA OMA }
 	}
 	create_operative_leader = {
-		name = Yusuf_al-Ribati
-		GFX = GFX_portrait_arabia_generic_operative_male_2
-		traits = { operative_commando operative_natural_orator }
+		name = Amina_al-Ribati
+		GFX = GFX_portrait_arabia_generic_operative_female_1
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
+		female = yes
 		nationalities = { LBA }
 	}
 }
@@ -54,9 +50,9 @@ TUR = {
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1932.4.3"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {

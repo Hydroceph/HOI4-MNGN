@@ -1,23 +1,27 @@
-capital = 270
 
 oob = "KAL_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = KAL_2885
-recruit_character = KAL_16780222
-recruit_character = KAL_16780835
-recruit_character = KAL_33557182
-recruit_character = KAL_33559424
-recruit_character = KAL_50333216
 recruit_character = KAL_50333580
-recruit_character = KAL_50334760
-recruit_character = KAL_50335856
-recruit_character = KAL_50336757
-recruit_character = KAL_67110020
-recruit_character = KAL_117440547
+recruit_character = KAL_33557457
+recruit_character = KAL_50335518
+recruit_character = KAL_67114943
+recruit_character = KAL_83888882
+recruit_character = KAL_100664373
+recruit_character = KAL_100666644
+recruit_character = KAL_100667156
+recruit_character = KAL_117442193
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Mohammad_Ahmedani
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_infiltrator operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KAL }
+	}
 }
 
 set_politics = {
@@ -29,9 +33,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 37
-	neutrality = 51
+	democratic = 14
+	fascism = 38
+	neutrality = 48
 }
 
 add_ideas = {

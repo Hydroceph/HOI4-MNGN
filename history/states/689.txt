@@ -1,16 +1,24 @@
 state = {
 	id = 689
 	name = "STATE_689"
-	manpower = 49263
+	manpower = 117942
 
-	state_category = wasteland
-	impassable = yes
+	state_category = rural
 
 	history = {
-		owner = EGY
+		owner = JAP
+		victory_points = {
+			10444 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+		}
+		add_core_of = JAP
 	}
 
 	provinces = {
-		2064 10869 10907 12099 12733 12816 
+		1512 1515 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
 	}
 }

@@ -1,119 +1,46 @@
 characters = {
-	KHI_2889 = {
-		name = Muhammad_Qungrat
+	KHI_33554665 = {
+		name = Iltazar_Qungrat
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	KHI_16779369 = {
-		name = Shir_Khan
+	KHI_67109050 = {
+		name = Jahangir_Qungrat
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_backstabber }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_16779369
+			idea_token = i_67109050
 			cost = 150
 		}
 	}
-	KHI_16783715 = {
-		name = Aqim_Bahadur
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	KHI_33554662 = {
-		name = Abulfayz_Bukhari
+	KHI_67113237 = {
+		name = Allah_Quli_Bukhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_backstabber }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_33554662
+			idea_token = i_67113237
 			cost = 150
 		}
 	}
-	KHI_33554665 = {
-		name = Iltazar_Qungrat
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	KHI_33555198 = {
-		name = Madali_Kokand
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { ranger }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	KHI_33556898 = {
-		name = Yaqub_Khan
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader organizer trait_cautious }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
-		}
-	}
-	KHI_33559778 = {
-		name = Abd_al-Ahad_Bahadur
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_33559778
-			cost = 150
-		}
-	}
-	KHI_50333208 = {
-		name = Isfandiyar_Kokand
+	KHI_83887612 = {
+		name = Madali_Bukhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -122,54 +49,40 @@ characters = {
 		advisor = {
 			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50333208
+			idea_token = i_83887612
 			cost = 150
 		}
 	}
-	KHI_50334317 = {
-		name = Abu_al-Ghazi_Khan
+	KHI_83891208 = {
+		name = Nasrallah_Bukhari
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_50334317
+			idea_token = i_83891208
 			cost = 150
 		}
 	}
-	KHI_50335528 = {
-		name = Mahmud_Bukhari
+	KHI_100666397 = {
+		name = Muhammad_Gulkhani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_50335528
+			idea_token = i_100666397
 			cost = 150
 		}
 	}
-	KHI_67112218 = {
-		name = Abu_al-Ghazi_Gulkhani
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67112218
-			cost = 150
-		}
-	}
-	KHI_83886219 = {
-		name = Rahim_Gulkhani
+	KHI_134221503 = {
+		name = Alimqul_Kokand
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -178,7 +91,21 @@ characters = {
 		advisor = {
 			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_83886219
+			idea_token = i_134221503
+			cost = 150
+		}
+	}
+	KHI_234887422 = {
+		name = Madali_Kokand
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_234887422
 			cost = 150
 		}
 	}

@@ -1,22 +1,28 @@
-capital = 700
 
 oob = "BHN_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = BHN_16778099
-recruit_character = BHN_16783979
-recruit_character = BHN_33554839
-recruit_character = BHN_33555792
-recruit_character = BHN_33556875
-recruit_character = BHN_33557296
 recruit_character = BHN_50333498
-recruit_character = BHN_50334874
-recruit_character = BHN_67109668
-recruit_character = BHN_67110303
-recruit_character = BHN_83888976
+recruit_character = BHN_33557531
+recruit_character = BHN_50331739
+recruit_character = BHN_50331948
+recruit_character = BHN_50336804
+recruit_character = BHN_67112174
+recruit_character = BHN_117441379
+recruit_character = BHN_134218309
+recruit_character = BHN_134219257
+recruit_character = BHN_134220736
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Salim_ibn_Uthman
+		GFX = GFX_portrait_arabia_generic_operative_male_6
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BHN }
+	}
 }
 
 set_politics = {
@@ -28,9 +34,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 38
-	neutrality = 51
+	democratic = 16
+	fascism = 69
+	neutrality = 15
 }
 
 add_ideas = {

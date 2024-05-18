@@ -1,0 +1,112 @@
+characters = {
+	Z17_117444101 = {
+		name = Abdullah_Aadzam
+		portraits = {
+			civilian = {
+				large = GFX_portrait_asia_generic_4
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	Z17_67115409 = {
+		name = Muhammad_al-Khairat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_67115409
+			cost = 150
+		}
+	}
+	Z17_83889476 = {
+		name = Al-Mukammal_Raja_Ahmad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83889476
+			cost = 150
+		}
+	}
+	Z17_134218127 = {
+		name = Muabidin_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_134218127
+			cost = 150
+		}
+	}
+	Z17_150995399 = {
+		name = Abdullah_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_150995399
+			cost = 150
+		}
+	}
+	Z17_151000728 = {
+		name = Yusuf_Aadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_151000728
+			cost = 150
+		}
+	}
+	Z17_167773746 = {
+		name = Muhammad_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_167773746
+			cost = 150
+		}
+	}
+	Z17_201326728 = {
+		name = Muabidin_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_201326728
+			cost = 150
+		}
+	}
+}

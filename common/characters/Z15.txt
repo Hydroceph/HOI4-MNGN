@@ -1,0 +1,126 @@
+characters = {
+	Z15_1002 = {
+		name = The_Council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	Z15_83890161 = {
+		name = Shahabuddin_Jamalullail
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_83890161
+			cost = 150
+		}
+	}
+	Z15_100665259 = {
+		name = Jaafar_Riayat_Shah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100665259
+			cost = 150
+		}
+	}
+	Z15_100665373 = {
+		name = Riayat_Aadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_100665373
+			cost = 150
+		}
+	}
+	Z15_100667469 = {
+		name = Al-Mukammal_bin_Nik
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_100667469
+			cost = 150
+		}
+	}
+	Z15_117441532 = {
+		name = Muhammad_Raja_Inu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_117441532
+			cost = 150
+		}
+	}
+	Z15_134218508 = {
+		name = Safiuddin_Aadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_134218508
+			cost = 150
+		}
+	}
+	Z15_134220443 = {
+		name = Tuanku_Muadzam
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_134220443
+			cost = 150
+		}
+	}
+	Z15_134221614 = {
+		name = Ali_Bendahara
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_134221614
+			cost = 150
+		}
+	}
+}

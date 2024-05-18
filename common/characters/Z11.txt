@@ -1,0 +1,112 @@
+characters = {
+	Z11_50335384 = {
+		name = Ferdinand_von_Parseval
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_europe_generic_7
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	Z11_50337057 = {
+		name = Julius_Wagner
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_50337057
+			cost = 150
+		}
+	}
+	Z11_67112334 = {
+		name = Otto_Stolzer
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_67112334
+			cost = 150
+		}
+	}
+	Z11_83890937 = {
+		name = Lorenz_von_Quadt-Wykradt-Isny
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83890937
+			cost = 150
+		}
+	}
+	Z11_83891539 = {
+		name = Johann_von_Brudermann
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83891539
+			cost = 150
+		}
+	}
+	Z11_100665693 = {
+		name = Wolfgang_HU_gel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_100665693
+			cost = 150
+		}
+	}
+	Z11_117441057 = {
+		name = Gustav_von_Stein
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117441057
+			cost = 150
+		}
+	}
+	Z11_117447198 = {
+		name = Viktor_Willich
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117447198
+			cost = 150
+		}
+	}
+}

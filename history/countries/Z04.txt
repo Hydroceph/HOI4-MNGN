@@ -1,73 +1,63 @@
-capital = 798
+capital = 463
 
 oob = "Z04_1936"
 set_research_slots = 3
-set_convoys = 13
+set_convoys = 7
 
-recruit_character = Z04_50335104
-recruit_character = Z04_16780278
-recruit_character = Z04_33556046
-recruit_character = Z04_33560216
-recruit_character = Z04_33560224
-recruit_character = Z04_33560574
-recruit_character = Z04_50331755
-recruit_character = Z04_67114903
-recruit_character = Z04_83886216
-recruit_character = Z04_117444310
+recruit_character = Z04_218106774
+recruit_character = Z04_67114743
+recruit_character = Z04_83886790
+recruit_character = Z04_83888222
+recruit_character = Z04_117441027
+recruit_character = Z04_117441737
+recruit_character = Z04_117445815
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Dorothea_Wigard
-		GFX = GFX_portrait_europe_generic_operative_female_10
-		traits = { operative_commando }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { Z04 }
-	}
-	create_operative_leader = {
-		name = Christopher_Abercrombie
-		GFX = GFX_portrait_europe_generic_operative_male_8
-		traits = {  }
+		name = Quentin_Astouin
+		GFX = GFX_portrait_europe_generic_operative_male_9
+		traits = { operative_natural_orator operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { Z04 }
 	}
 }
 
-GER = {
+FRA = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
 		}
 		set_autonomy = {
 			target = Z04
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = Z04
+		set_autonomy = {
+			target = Z04
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.4.4"
+	ruling_party = fascism
+	last_election = "1935.12.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 17
-	fascism = 33
-	neutrality = 50
+	democratic = 18
+	fascism = 35
+	neutrality = 47
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
-	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60

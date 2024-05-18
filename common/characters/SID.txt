@@ -1,6 +1,6 @@
 characters = {
-	SID_16780134 = {
-		name = Ras_Qallu
+	SID_50331981 = {
+		name = Tsegaye_Qallu
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,128 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	SID_16779893 = {
-		name = Heile_Qallu
-		portraits = {
-			army = {
-				large = GFX_portrait_ETH_generic_male_4
-				small = GFX_portrait_ETH_generic_male_4_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_16779893
-			cost = 150
-		}
-	}
-	SID_16781369 = {
-		name = Sana_Safo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_16781369
-			cost = 150
-		}
-	}
-	SID_33554815 = {
-		name = Waqo_Dinagde
-		portraits = {
-			army = {
-				large = GFX_portrait_ETH_generic_male_2
-				small = GFX_portrait_ETH_generic_male_2_small
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SID_33559790 = {
-		name = Waqo_Safo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_33559790
-			cost = 150
-		}
-	}
-	SID_50331981 = {
-		name = Tsegaye_Qallu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SID_50332404 = {
-		name = Sacho_Sherocho
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50332404
-			cost = 150
-		}
-	}
-	SID_50334344 = {
-		name = Gawa_Gomol
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_50334344
-			cost = 150
-		}
-	}
-	SID_50334632 = {
-		name = Tilahun_Safo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_50334632
-			cost = 150
-		}
-	}
-	SID_50337107 = {
-		name = Galli_Sachi
+	SID_67111306 = {
+		name = Heile_Safo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -141,21 +21,105 @@ characters = {
 		advisor = {
 			traits = { fascist_demagogue }
 			slot = political_advisor
-			idea_token = i_50337107
+			idea_token = i_67111306
 			cost = 150
 		}
 	}
-	SID_83887901 = {
-		name = Ahmad_Dinagde
+	SID_67112618 = {
+		name = Sana_Nechocho
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_83887901
+			idea_token = i_67112618
+			cost = 150
+		}
+	}
+	SID_83888634 = {
+		name = Hailu_Qallu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83888634
+			cost = 150
+		}
+	}
+	SID_83891408 = {
+		name = Yilma_Qallu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_83891408
+			cost = 150
+		}
+	}
+	SID_100665770 = {
+		name = Hailu_Dinagde
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100665770
+			cost = 150
+		}
+	}
+	SID_117445728 = {
+		name = Yilma_Dacche
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_117445728
+			cost = 150
+		}
+	}
+	SID_134218404 = {
+		name = Heile_Qallu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_134218404
+			cost = 150
+		}
+	}
+	SID_134222258 = {
+		name = Abdus_Qallu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_134222258
 			cost = 150
 		}
 	}

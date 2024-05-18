@@ -1,109 +1,108 @@
 characters = {
-	NEP_2954 = {
-		name = Surendra_Bikram_Shah
+	NEP_0 = {
+		name = _
 		portraits = {
-			civilian = {
-				large = GFX_portrait_unknown
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {  }
 		}
 	}
-	NEP_16782509 = {
-		name = Bhimsen_Bahadur_Rana
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { commando old_guard trait_cautious }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_16782509
-			cost = 150
-		}
-	}
-	NEP_33559353 = {
-		name = Renaudip_Singh
+	NEP_67112194 = {
+		name = Jang_Neupane
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_33559353
+			idea_token = i_67112194
 			cost = 150
 		}
 	}
-	NEP_33560968 = {
-		name = Chandra_Shamsher_Shah
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	NEP_33561172 = {
-		name = Bhimsen_Devi
+	NEP_83886639 = {
+		name = Shamsher_Shah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_33561172
+			idea_token = i_83886639
 			cost = 150
 		}
 	}
-	NEP_50331714 = {
-		name = Bhim_Shamsher_Devi
+	NEP_83888290 = {
+		name = Bhim_Shamsher_Thapa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50331714
+			idea_token = i_83888290
 			cost = 150
 		}
 	}
-	NEP_50332930 = {
-		name = Bhimsen_Acharya
+	NEP_100665209 = {
+		name = Amar_Das
 		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { harsh_leader infantry_officer organizer trait_mountaineer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100665209
+			cost = 150
 		}
 	}
-	NEP_50338067 = {
+	NEP_100666013 = {
+		name = Bhim_Shamsher_Ban
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100666013
+			cost = 150
+		}
+	}
+	NEP_100668906 = {
+		name = Amar_Basnyat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100668906
+			cost = 150
+		}
+	}
+	NEP_117445759 = {
+		name = Renaudip_Acharya
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_117445759
+			cost = 150
+		}
+	}
+	NEP_134224191 = {
 		name = Bhakti_Das
 		portraits = {
 			civilian = {
@@ -111,51 +110,9 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { backroom_backstabber }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_50338067
-			cost = 150
-		}
-	}
-	NEP_50338283 = {
-		name = Ranjur_Pande
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_50338283
-			cost = 150
-		}
-	}
-	NEP_67111693 = {
-		name = Bhim_Shamsher_Acharya
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_67111693
-			cost = 150
-		}
-	}
-	NEP_67114659 = {
-		name = Bhakti_Ban
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_67114659
+			idea_token = i_134224191
 			cost = 150
 		}
 	}

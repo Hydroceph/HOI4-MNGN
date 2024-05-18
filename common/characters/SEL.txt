@@ -1,80 +1,46 @@
 characters = {
-	SEL_33556917 = {
-		name = Safiuddin_Opu_Daeng_Celak
+	SEL_100666314 = {
+		name = Riayat_Bendahara
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_portrait_asia_generic_4
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = gen_nazism
 			traits = {  }
 		}
 	}
-	SEL_16780953 = {
-		name = Safiuddin_Raja_Ahmad
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer trait_cautious }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SEL_33556036 = {
-		name = Yusuf_bin_Nik
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	SEL_33557260 = {
-		name = Aziz_Jamalullail
+	SEL_50336851 = {
+		name = Ismail_al-Marhum
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_33557260
+			idea_token = i_50336851
 			cost = 150
 		}
 	}
-	SEL_33558335 = {
-		name = Tuanku_Bendahara
+	SEL_50338212 = {
+		name = Ali_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33558335
+			idea_token = i_50338212
 			cost = 150
 		}
 	}
-	SEL_33559808 = {
-		name = Tuanku_bin_Nik
+	SEL_67110614 = {
+		name = Aziz_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -83,48 +49,26 @@ characters = {
 		advisor = {
 			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_33559808
+			idea_token = i_67110614
 			cost = 150
 		}
 	}
-	SEL_33560059 = {
-		name = Yusuf_Opu_Daeng_Celak
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SEL_33561259 = {
-		name = Aziz_al-Khairat
+	SEL_83887276 = {
+		name = Muabidin_Murshidul
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { mobile_warfare_expert }
+			traits = { editor }
 			slot = political_advisor
-			idea_token = i_33561259
+			idea_token = i_83887276
 			cost = 150
 		}
 	}
-	SEL_50334700 = {
-		name = Ismail_Murshidul
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334700
-			cost = 150
-		}
-	}
-	SEL_50336112 = {
-		name = Al-Mukammal_al-Marhum
+	SEL_100663442 = {
+		name = Abdullah_Muadzam
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -133,35 +77,35 @@ characters = {
 		advisor = {
 			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_50336112
+			idea_token = i_100663442
 			cost = 150
 		}
 	}
-	SEL_67111220 = {
-		name = Idris_bin_Nik
+	SEL_100663763 = {
+		name = Jalil_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_67111220
+			idea_token = i_100663763
 			cost = 150
 		}
 	}
-	SEL_83888351 = {
-		name = Isandar_bin_Nik
+	SEL_117442534 = {
+		name = Muhammad_al-Marhum
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_83888351
+			idea_token = i_117442534
 			cost = 150
 		}
 	}

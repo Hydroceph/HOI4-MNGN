@@ -1,6 +1,6 @@
 characters = {
-	TRN_33556913 = {
-		name = Sarel_Retief
+	TRN_67111360 = {
+		name = Charl_Retief
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,134 +11,50 @@ characters = {
 			traits = {  }
 		}
 	}
-	TRN_16778412 = {
-		name = Louis_Burger
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_7
-				small = GFX_portrait_europe_generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { commando desert_fox infantry_officer organizer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 2
-		}
-	}
-	TRN_16783689 = {
-		name = Paul_Kruger
+	TRN_50338031 = {
+		name = Louis_Joubert
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_16783689
+			idea_token = i_50338031
 			cost = 150
 		}
 	}
-	TRN_33556281 = {
-		name = Willem_Joubert
+	TRN_83886820 = {
+		name = Joubert_Burger
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_33556281
+			idea_token = i_83886820
 			cost = 150
 		}
 	}
-	TRN_33558196 = {
-		name = Hendrik_Uys
+	TRN_83887561 = {
+		name = Abraham_van_Wyk
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { technocrat }
 			slot = political_advisor
-			idea_token = i_33558196
+			idea_token = i_83887561
 			cost = 150
 		}
 	}
-	TRN_33561114 = {
-		name = Rudolf_Struben
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_33561114
-			cost = 150
-		}
-	}
-	TRN_50334464 = {
-		name = Abraham_Retief
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_13
-				small = GFX_portrait_europe_generic_land_13_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_50334464
-			cost = 150
-		}
-	}
-	TRN_50334469 = {
-		name = Danie_Pretorius
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_50334469
-			cost = 150
-		}
-	}
-	TRN_67110868 = {
-		name = Simeon_Joubert
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_67110868
-			cost = 150
-		}
-	}
-	TRN_67111360 = {
-		name = Charl_Retief
+	TRN_83889847 = {
+		name = Louis_Retief
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -147,21 +63,71 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67111360
+			idea_token = i_83889847
 			cost = 150
 		}
 	}
-	TRN_83886796 = {
-		name = Stephanus_Duquesne
+	TRN_83889924 = {
+		name = Drikus_Malan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_83886796
+			idea_token = i_83889924
+			cost = 150
+		}
+	}
+	TRN_100663300 = {
+		name = Cornelis_Wessels
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100663300
+			cost = 150
+		}
+	}
+	TRN_100663404 = {
+		name = Siener_Burger
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100663404
+			cost = 150
+		}
+	}
+	TRN_100667195 = {
+		name = Jan_Retief
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	TRN_201331159 = {
+		name = Danie_Greeff
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_201331159
 			cost = 150
 		}
 	}

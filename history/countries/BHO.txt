@@ -1,22 +1,27 @@
-capital = 244
 
 oob = "BHO_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BHO_2697
-recruit_character = BHO_16779073
 recruit_character = BHO_16780074
-recruit_character = BHO_16780847
-recruit_character = BHO_33556113
-recruit_character = BHO_33558692
-recruit_character = BHO_33559387
-recruit_character = BHO_50336953
-recruit_character = BHO_67109731
-recruit_character = BHO_67110110
-recruit_character = BHO_83887117
+recruit_character = BHO_67109231
+recruit_character = BHO_67109811
+recruit_character = BHO_83887322
+recruit_character = BHO_100665414
+recruit_character = BHO_117440881
+recruit_character = BHO_117441304
+recruit_character = BHO_134217968
+recruit_character = BHO_151001066
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Sawai_Appa_Sahib
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BHO }
+	}
 }
 
 ENG = {
@@ -36,19 +41,20 @@ ENG = {
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.1.16"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 36
-	neutrality = 51
+	democratic = 14
+	fascism = 37
+	neutrality = 49
 }
 
 add_ideas = {
+	BHO_Shahuji_Orakzai
 	civilian_economy
 	export_focus
 	volunteer_only

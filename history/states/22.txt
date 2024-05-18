@@ -1,29 +1,33 @@
 state = {
 	id = 22
 	name = "STATE_22"
-	manpower = 3884357
+	manpower = 16623197
 	resources = {
-		chromium = 43
-		steel = 23
+		steel = 39
+		tungsten = 41
 	}
 
-	state_category = large_town
+	state_category = metropolis
 
 	history = {
-		owner = FRA
+		owner = RAJ
 		victory_points = {
-			6613 2
+			10278 4
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 4
 			arms_factory = 1
-			air_base = 1
+			dockyard = 2
+			10278 = {
+				naval_base = 1
+			}
+			air_base = 2
 		}
-		add_core_of = FRA
+		add_core_of = RAJ
 	}
 
 	provinces = {
-		762 764 780 3589 3594 3764 3768 3770 6613 6639 6784 6786 9590 9728 9736 11593 11713 11716 
+		1268 1344 1381 1409 4327 4416 4420 7265 7288 7363 7402 7436 8067 10246 10274 10278 10808 12164 12247 
 	}
 }

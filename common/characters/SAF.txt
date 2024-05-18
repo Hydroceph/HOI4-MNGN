@@ -1,35 +1,32 @@
 characters = {
-	SAF_33556771 = {
-		name = Siener_van_Wyk
+	SAF_100666246 = {
+		name = Harold_North
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_6
+				large = GFX_portrait_europe_generic_8
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = falangism
 			traits = {  }
 		}
 	}
-	SAF_16783842 = {
-		name = Abel_Loyd-Lindsay
+	SAF_67112147 = {
+		name = Horatio_Benyon
 		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		navy_leader = {
-			traits = { naval_lineage }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67112147
+			cost = 150
 		}
 	}
-	SAF_33555216 = {
-		name = Edmund_Keppel
+	SAF_83888148 = {
+		name = Joshua_Gilpin
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_2
@@ -37,62 +34,34 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer naval_invader }
+			traits = { harsh_leader trait_mountaineer }
 			skill = 2
-			attack_skill = 2
+			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
-			logistics_skill = 3
+			logistics_skill = 2
 		}
 	}
-	SAF_33555877 = {
-		name = Piet_Cronje
+	SAF_83889121 = {
+		name = Aylmer_Althorp
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_33555877
+			idea_token = i_83889121
 			cost = 150
 		}
 	}
-	SAF_33556063 = {
-		name = Rufus_Newport
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_33556063
-			cost = 150
-		}
-	}
-	SAF_33561103 = {
-		name = Myles_Finnie
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_33561103
-			cost = 150
-		}
-	}
-	SAF_50332371 = {
-		name = Danie_Burger
+	SAF_100666614 = {
+		name = Benjamin_Monk
 		portraits = {
 			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
+				large = GFX_Portrait_Europe_Generic_land_3
+				small = GFX_Portrait_Europe_Generic_land_3_small
 			}
 			civilian = {
 			}
@@ -108,49 +77,114 @@ characters = {
 		advisor = {
 			traits = { fascist_demagogue }
 			slot = political_advisor
-			idea_token = i_50332371
+			idea_token = i_100666614
 			cost = 150
 		}
 	}
-	SAF_50338135 = {
-		name = Jacob_Stanhope
+	SAF_100670094 = {
+		name = Godfrey_Anderson
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	SAF_117444792 = {
+		name = Valentine_2_Smith-Barry
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	SAF_134218640 = {
+		name = Wellwood_Hanbury-Tracy
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	SAF_150995362 = {
+		name = Jan_Botha
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { editor }
 			slot = political_advisor
-			idea_token = i_50338135
+			idea_token = i_150995362
 			cost = 150
 		}
 	}
-	SAF_67114534 = {
-		name = Martinus_van_Rensburg
+	SAF_167773096 = {
+		name = Andries_van_Wyk
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_67114534
+			idea_token = i_167773096
 			cost = 150
 		}
 	}
-	SAF_83892961 = {
-		name = Ambrose_Finnie
+	SAF_167774149 = {
+		name = Nigel_Ormsby-Gore
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_83892961
+			idea_token = i_167774149
+			cost = 150
+		}
+	}
+	SAF_184552817 = {
+		name = Weston_Williams-Wynn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_184552817
 			cost = 150
 		}
 	}

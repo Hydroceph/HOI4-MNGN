@@ -1,63 +1,46 @@
 characters = {
-	CLM_50338072 = {
-		name = Santos_Vila
+	CLM_67111262 = {
+		name = Guzman_de_Olmedo
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_America_Generic_3
+				large = GFX_portrait_south_america_generic_7
 			}
 		}
 		country_leader = {
-			ideology = falangism
+			ideology = liberalism
 			traits = {  }
 		}
 	}
-	CLM_33556717 = {
-		name = Hilario_Crespo
+	CLM_83891465 = {
+		name = Diego_de_Olmedo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_33556717
+			idea_token = i_83891465
 			cost = 150
 		}
 	}
-	CLM_33557955 = {
-		name = Placido_Zaldua
+	CLM_83892379 = {
+		name = Ezequiel_Boyd
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_33557955
+			idea_token = i_83892379
 			cost = 150
 		}
 	}
-	CLM_50335447 = {
-		name = Francisco_Javier_Bonnet
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { commando }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	CLM_50335487 = {
-		name = Rafael_2_Rojas
+	CLM_100664530 = {
+		name = Tomas_de_Veintemilla
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -66,63 +49,63 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_50335487
+			idea_token = i_100664530
 			cost = 150
 		}
 	}
-	CLM_50336638 = {
-		name = Juan_de_Olmedo
+	CLM_100669150 = {
+		name = Jose_Manuel_de_Veintemilla
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50336638
+			idea_token = i_100669150
 			cost = 150
 		}
 	}
-	CLM_67109958 = {
-		name = Fernando_Flores
+	CLM_117445515 = {
+		name = Demetrio_de_Veintemilla
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_67109958
+			idea_token = i_117445515
 			cost = 150
 		}
 	}
-	CLM_67113082 = {
-		name = Juan_de_la_Santa_Cruz
+	CLM_167773618 = {
+		name = Rafael_2_de_Obaldia
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_67113082
+			idea_token = i_167773618
 			cost = 150
 		}
 	}
-	CLM_83887325 = {
-		name = Froilan_de_Villamil
+	CLM_167778478 = {
+		name = Raimundo_Boyd
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_83887325
+			idea_token = i_167778478
 			cost = 150
 		}
 	}

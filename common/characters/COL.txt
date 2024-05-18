@@ -1,43 +1,32 @@
 characters = {
-	COL_16780147 = {
-		name = Marco_Ospina
+	COL_134219005 = {
+		name = Ignacio_Castro
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_South_America_Generic_3
+				large = GFX_Portrait_South_America_Generic_2
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = liberalism
 			traits = {  }
 		}
 	}
-	COL_33554618 = {
-		name = Javier_Cabo
+	COL_67110959 = {
+		name = Domingo_de_Villamil
 		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_2
-				small = GFX_Portrait_South_America_Generic_land_2_small
-			}
 			civilian = {
+				small = GFX_idea_unknown
 			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 4
 		}
 		advisor = {
-			traits = { mass_assault_expert }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_33554618
+			idea_token = i_67110959
 			cost = 150
 		}
 	}
-	COL_33554705 = {
-		name = AnI_bal_Carazo
+	COL_83887499 = {
+		name = Francisco_Jose_de_Mosquera
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -46,12 +35,40 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_33554705
+			idea_token = i_83887499
 			cost = 150
 		}
 	}
-	COL_33557070 = {
-		name = Silvio_Murillo
+	COL_83889818 = {
+		name = Gabriel_Obando
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83889818
+			cost = 150
+		}
+	}
+	COL_100666992 = {
+		name = Eustorgio_Rojas
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_100666992
+			cost = 150
+		}
+	}
+	COL_117444097 = {
+		name = Joaquin_Gonzalez
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -60,80 +77,35 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33557070
+			idea_token = i_117444097
 			cost = 150
 		}
 	}
-	COL_33557818 = {
-		name = Cipriano_Urueta
+	COL_134218879 = {
+		name = Rodolfo_de_Herrera
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { political_dancer }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_33557818
+			idea_token = i_134218879
 			cost = 150
 		}
 	}
-	COL_50333685 = {
-		name = Mariano_Osorio
+	COL_134220085 = {
+		name = Eustorgio_Santander
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50333685
-			cost = 150
-		}
-	}
-	COL_50335188 = {
-		name = Gregorio_Manosalva
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_America_Generic_land_1
-				small = GFX_Portrait_South_America_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader organizer trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 4
-		}
-	}
-	COL_67108995 = {
-		name = Eugenio_Gori
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_67108995
-			cost = 150
-		}
-	}
-	COL_67113918 = {
-		name = Pedro_Jimenez
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_67113918
+			idea_token = i_134220085
 			cost = 150
 		}
 	}

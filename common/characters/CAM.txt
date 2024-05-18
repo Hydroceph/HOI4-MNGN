@@ -1,7 +1,6 @@
 characters = {
-	CAM_2742 = {
-		name = Ang_Mey_Varman
-		gender = female
+	CAM_16779616 = {
+		name = Norodom_Varman
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -12,39 +11,50 @@ characters = {
 			traits = {  }
 		}
 	}
-	CAM_16779616 = {
-		name = Norodom_Varman
+	CAM_50332845 = {
+		name = Sisowath_Ang
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_16779616
+			idea_token = i_50332845
 			cost = 150
 		}
 	}
-	CAM_16782437 = {
-		name = Ang_Varman
+	CAM_50333411 = {
+		name = Sisowath_Varman
 		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { cavalry_officer organizer ranger }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+		advisor = {
+			traits = { communist_revolutionary }
+			slot = political_advisor
+			idea_token = i_50333411
+			cost = 150
 		}
 	}
-	CAM_16783456 = {
-		name = Thommo_Varman
+	CAM_50334579 = {
+		name = Thommo_Non
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_50334579
+			cost = 150
+		}
+	}
+	CAM_100666425 = {
+		name = Satha_Varman
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -53,73 +63,11 @@ characters = {
 		advisor = {
 			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_16783456
+			idea_token = i_100666425
 			cost = 150
 		}
 	}
-	CAM_33555617 = {
-		name = Thommo_Eng
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_2
-				small = GFX_Portrait_Asia_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 2
-		}
-	}
-	CAM_33556711 = {
-		name = Satha_Ang
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_33556711
-			cost = 150
-		}
-	}
-	CAM_33556748 = {
-		name = Satha_Snguon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_33556748
-			cost = 150
-		}
-	}
-	CAM_33557784 = {
-		name = Ang_Ang
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer cavalry_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	CAM_33558615 = {
+	CAM_100666532 = {
 		name = Thommo_Ang
 		portraits = {
 			civilian = {
@@ -127,65 +75,51 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_33558615
-			cost = 150
-		}
-	}
-	CAM_50333218 = {
-		name = Norodom_Non
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_50333218
-			cost = 150
-		}
-	}
-	CAM_50334649 = {
-		name = Ang_Snguon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_50334649
-			cost = 150
-		}
-	}
-	CAM_50337324 = {
-		name = Norodom_Ang
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { editor }
-			slot = political_advisor
-			idea_token = i_50337324
-			cost = 150
-		}
-	}
-	CAM_83892836 = {
-		name = Sisowath_Reachea
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_83892836
+			idea_token = i_100666532
+			cost = 150
+		}
+	}
+	CAM_134218690 = {
+		name = Sisowath_Chan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_134218690
+			cost = 150
+		}
+	}
+	CAM_134221895 = {
+		name = Ang_Sinn
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_134221895
+			cost = 150
+		}
+	}
+	CAM_167772886 = {
+		name = Ang_Eng
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_167772886
 			cost = 150
 		}
 	}

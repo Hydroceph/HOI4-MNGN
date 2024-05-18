@@ -1,68 +1,31 @@
 characters = {
-	FIN_67111686 = {
-		name = Harald_Kyander
+	FIN_134219117 = {
+		name = Hjalmar_von_Etter
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_risto_heikki_ryti
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {  }
+		}
+	}
+	FIN_16784018 = {
+		name = Kurt_Cajander
 		portraits = {
 			army = {
 				large = GFX_portrait_FIN_carl_mannerheim
 				small = GFX_portrait_FIN_carl_mannerheim_small
 			}
-			civilian = {
-				large = GFX_portrait_FIN_carl_mannerheim
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			traits = {  }
-		}
-		field_marshal = {
-			traits = { ranger trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	FIN_16779550 = {
-		name = Paavo_Tudeer
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { gentlemanly old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	FIN_16779554 = {
-		name = Lars_Ramsay
-		portraits = {
-			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
-			}
-			civilian = {
-			}
 		}
 		corps_commander = {
-			traits = { organizer trait_cautious }
+			traits = { inflexible_strategist organizer ranger }
 			skill = 2
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 4
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_16779554
-			cost = 150
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 	FIN_33556043 = {
@@ -72,65 +35,43 @@ characters = {
 				small = GFX_idea_unknown
 			}
 		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_33556043
+			cost = 150
+		}
 	}
-	FIN_33557618 = {
-		name = Viktor_Molander
+	FIN_50338199 = {
+		name = Eemil_Gadolin
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_33557618
+			idea_token = i_50338199
 			cost = 150
 		}
 	}
-	FIN_33558095 = {
-		name = Hjalmar_Kyander
+	FIN_67111990 = {
+		name = Anders_von_Hesse_Kassel
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { fascist_demagogue }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_33558095
+			idea_token = i_67111990
 			cost = 150
 		}
 	}
-	FIN_33559342 = {
-		name = Anders_Tuompo
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_33559342
-			cost = 150
-		}
-	}
-	FIN_50331882 = {
-		name = Aukusti_Oesch
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50331882
-			cost = 150
-		}
-	}
-	FIN_50334641 = {
-		name = Vilho_Berbom
+	FIN_83887629 = {
+		name = Kaarlo_Tuompo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -139,35 +80,88 @@ characters = {
 		advisor = {
 			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_50334641
+			idea_token = i_83887629
 			cost = 150
 		}
 	}
-	FIN_67113648 = {
-		name = Paavo_Gripenberg
+	FIN_83888336 = {
+		name = Viktor_Valapuro
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_67113648
+			idea_token = i_83888336
 			cost = 150
 		}
 	}
-	FIN_100663593 = {
-		name = Harald_Holsti
+	FIN_83888442 = {
+		name = Fabian_Berbom
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_100663593
+			idea_token = i_83888442
+			cost = 150
+		}
+	}
+	FIN_83889054 = {
+		name = Fridolf_Heiskanen
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83889054
+			cost = 150
+		}
+	}
+	FIN_100665973 = {
+		name = Petteri_Paasikivi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100665973
+			cost = 150
+		}
+	}
+	FIN_100669263 = {
+		name = Harald_von_Kothen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_100669263
 			cost = 150
 		}
 	}

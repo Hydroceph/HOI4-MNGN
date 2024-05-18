@@ -1,21 +1,18 @@
-capital = 495
 
 oob = "BNJ_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = BNJ_2710
-recruit_character = BNJ_33556295
-recruit_character = BNJ_33557018
-recruit_character = BNJ_50334032
-recruit_character = BNJ_50334084
-recruit_character = BNJ_50334854
-recruit_character = BNJ_50337288
 recruit_character = BNJ_67109479
-recruit_character = BNJ_67111867
-recruit_character = BNJ_67112293
-recruit_character = BNJ_83886676
-recruit_character = BNJ_83889748
+recruit_character = BNJ_50332028
+recruit_character = BNJ_67115411
+recruit_character = BNJ_83889713
+recruit_character = BNJ_100663954
+recruit_character = BNJ_100665594
+recruit_character = BNJ_100666347
+recruit_character = BNJ_100668298
+recruit_character = BNJ_134223127
+recruit_character = BNJ_134224556
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -44,9 +41,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 10
-	fascism = 37
-	neutrality = 53
+	democratic = 11
+	fascism = 35
+	neutrality = 54
 }
 
 add_ideas = {

@@ -1,0 +1,126 @@
+characters = {
+	Z12_134222568 = {
+		name = Nur_Mohammad_Soomro
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+		}
+	}
+	Z12_67113234 = {
+		name = Nur_Mohammad_Magsi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_67113234
+			cost = 150
+		}
+	}
+	Z12_83888451 = {
+		name = Shahdad_Kalpar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_83888451
+			cost = 150
+		}
+	}
+	Z12_83890562 = {
+		name = Sobhdar_Rashidi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83890562
+			cost = 150
+		}
+	}
+	Z12_117443741 = {
+		name = Karim_Bhil
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_117443741
+			cost = 150
+		}
+	}
+	Z12_134222121 = {
+		name = Shahdad_Mallaah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_134222121
+			cost = 150
+		}
+	}
+	Z12_150995727 = {
+		name = Nasir_Chandio
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_150995727
+			cost = 150
+		}
+	}
+	Z12_150996839 = {
+		name = Mohammad_Pawar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_150996839
+			cost = 150
+		}
+	}
+	Z12_184551348 = {
+		name = Nur_Mohammad_Rashidi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_184551348
+			cost = 150
+		}
+	}
+}

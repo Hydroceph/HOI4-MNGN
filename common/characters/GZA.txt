@@ -1,161 +1,125 @@
 characters = {
-	GZA_16777983 = {
-		name = Kiwanga_kaJama
+	GZA_33556068 = {
+		name = Fambaltate_kaXaba
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	GZA_16779585 = {
-		name = Fambaltate_kaJama
+	GZA_50333871 = {
+		name = Chapwanya_Ntombazi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
-	}
-	GZA_16780911 = {
-		name = Mbemchapa_Amari
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_1
-				small = GFX_Portrait_Africa_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer old_guard }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 1
-			logistics_skill = 3
-		}
 		advisor = {
-			traits = { military_theorist }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_16780911
+			idea_token = i_50333871
 			cost = 150
 		}
 	}
-	GZA_33556024 = {
-		name = Magobi_kaXaba
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_4
-				small = GFX_Portrait_Africa_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer infantry_officer organizer }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 5
-			logistics_skill = 3
-		}
-	}
-	GZA_33557405 = {
-		name = Makhado_kaXaba
+	GZA_67111149 = {
+		name = Rjoroza_kaXaba
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { editor }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_33557405
+			idea_token = i_67111149
 			cost = 150
 		}
 	}
-	GZA_50334125 = {
-		name = Mburu_Mbano
+	GZA_83888993 = {
+		name = Tshilidzi_kaXaba
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_50334125
+			idea_token = i_83888993
 			cost = 150
 		}
 	}
-	GZA_50338552 = {
-		name = Namkina_Amari
+	GZA_83889106 = {
+		name = Schabruma_Ngwale
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_50338552
+			idea_token = i_83889106
 			cost = 150
 		}
 	}
-	GZA_67110126 = {
-		name = Mahengu_Bakgatla
+	GZA_100669916 = {
+		name = Kiwanga_kaJama
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { grand_fleet_proponent }
 			slot = political_advisor
-			idea_token = i_67110126
+			idea_token = i_100669916
 			cost = 150
 		}
 	}
-	GZA_83886969 = {
-		name = Kindunda_Mtemi
+	GZA_117441172 = {
+		name = Rjoroza_Chimai
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_83886969
+			idea_token = i_117441172
 			cost = 150
 		}
 	}
-	GZA_83892440 = {
-		name = Schabruma_Vzasenzi
+	GZA_134217867 = {
+		name = Fambaltate_Chimai
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_83892440
+			idea_token = i_134217867
 			cost = 150
 		}
 	}
-	GZA_100668469 = {
-		name = Chakoma_Hanga
+	GZA_134219155 = {
+		name = Kapungu_Mbano
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_100668469
+			idea_token = i_134219155
 			cost = 150
 		}
 	}

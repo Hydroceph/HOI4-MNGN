@@ -1,18 +1,49 @@
 characters = {
-	PBC_83886554 = {
-		name = Bartolome_Arteaga
+	PBC_50334054 = {
+		name = Jorge_Valencia
 		portraits = {
 			civilian = {
-				large = GFX_portrait_south_america_generic_9
+				large = GFX_Portrait_South_America_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = falangism
 			traits = {  }
 		}
 	}
-	PBC_16780716 = {
-		name = Eusebio_2_Montero
+	PBC_33555276 = {
+		name = Severino_de_la_Santa_Cruz
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_33555276
+			cost = 150
+		}
+	}
+	PBC_33555387 = {
+		name = Ignacio_Bulnes
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PBC_33558317 = {
+		name = Juan_Antonio_de_la_Cruz
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_1
@@ -20,16 +51,75 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer cavalry_officer organizer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
+			traits = { cavalry_officer harsh_leader infantry_officer trait_mountaineer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
 			planning_skill = 3
-			logistics_skill = 1
+			logistics_skill = 3
 		}
 	}
-	PBC_33557649 = {
-		name = Severino_de_la_Cruz
+	PBC_50331949 = {
+		name = JosE__Grau
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer cuts_corners spotter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	PBC_50333080 = {
+		name = Luis_Figueroa
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { aviation_enthusiast chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	PBC_50333487 = {
+		name = Bernardo_de_la_Cruz
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_50333487
+			cost = 150
+		}
+	}
+	PBC_50335795 = {
+		name = Diego_Blanche
 		portraits = {
 			navy = {
 				large = GFX_Portrait_South_America_Generic_navy_3
@@ -37,47 +127,98 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { craven }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			maneuvering_skill = 1
+			traits = { chief_engineer cuts_corners seawolf }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			maneuvering_skill = 5
 			coordination_skill = 2
 		}
 	}
-	PBC_33557775 = {
-		name = Tomas_La_Mar
+	PBC_50335904 = {
+		name = Patricio_Errazuriz
 		portraits = {
 			army = {
-				large = GFX_Portrait_South_America_Generic_land_4
-				small = GFX_Portrait_South_America_Generic_land_4_small
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
 			}
 		}
-		corps_commander = {
-			traits = {  }
-			skill = 1
+		field_marshal = {
+			traits = { harsh_leader infantry_officer trait_mountaineer }
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	PBC_33559930 = {
-		name = Andres_de_Velasco
+	PBC_67110025 = {
+		name = Pedro_de_la_Cruz
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { headstrong }
+			traits = { communist_revolutionary }
 			slot = political_advisor
-			idea_token = i_33559930
+			idea_token = i_67110025
 			cost = 150
 		}
 	}
-	PBC_50334906 = {
-		name = Felipe_Altamirano
+	PBC_67110440 = {
+		name = Ruperto_Pezet
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	PBC_67111128 = {
+		name = Ignacio_de_Velasco
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_cautious }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 6
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	PBC_67111953 = {
+		name = Rufino_Toro
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_cautious }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	PBC_67112320 = {
+		name = Bautista_Saavedra
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -86,95 +227,469 @@ characters = {
 		advisor = {
 			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50334906
+			idea_token = i_67112320
 			cost = 150
 		}
 	}
-	PBC_50335047 = {
-		name = Antonio_Bulnes
+	PBC_67112417 = {
+		name = Anibal_Melgarejo
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	PBC_67112673 = {
+		name = Ruperto_Ballivian
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { cuts_corners }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 1
+		}
+	}
+	PBC_67112805 = {
+		name = Eduardo_de_Vidal
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PBC_67114963 = {
+		name = Tomas_Blanche
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	PBC_83886973 = {
+		name = Esteban_de_Vidal
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	PBC_83887791 = {
+		name = Ismael_Altamirano
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	PBC_83887839 = {
+		name = Emilio_Belzu
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { bold chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	PBC_83887942 = {
+		name = Eusebio_2_Agreda
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	PBC_83888077 = {
+		name = Rufino_Freire
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	PBC_83889053 = {
+		name = Eduardo_Latorre
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	PBC_83889176 = {
+		name = Juan_de_la_Santa_Cruz
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	PBC_83889660 = {
+		name = Agustin_Blanco
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	PBC_83889879 = {
+		name = Mariano_de_Vidal
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { submarine_specialist }
+			slot = political_advisor
+			idea_token = i_83889879
+			cost = 150
+		}
+	}
+	PBC_83890867 = {
+		name = Bernardo_de_Velasco
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality old_guard_navy }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PBC_83891531 = {
+		name = Esteban_Guilarte
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage superior_tactician }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	PBC_83892026 = {
+		name = Juan_de_la_Cruz
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer naval_lineage }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	PBC_100663554 = {
+		name = Mariano_de_Santa_Cruz
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	PBC_100665214 = {
+		name = Francisco_de_Santa_Cruz
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50335047
+			idea_token = i_100665214
 			cost = 150
 		}
 	}
-	PBC_50337141 = {
-		name = Emilio_de_Vidal
+	PBC_100666104 = {
+		name = Hilarion_Ballivian
 		portraits = {
 			army = {
 				large = GFX_Portrait_South_America_Generic_land_5
 				small = GFX_Portrait_South_America_Generic_land_5_small
 			}
 		}
-		corps_commander = {
-			traits = { commando engineer_officer organizer }
-			skill = 3
-			attack_skill = 3
+		field_marshal = {
+			traits = { harsh_leader trait_mountaineer }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	PBC_67111525 = {
-		name = Patricio_Zanartu
+	PBC_100667102 = {
+		name = Andres_Toro
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist old_guard ranger }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	PBC_100667955 = {
+		name = Pablo_de_Santa_Cruz
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+	}
+	PBC_117443161 = {
+		name = Pablo_Echenique
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_2
+				small = GFX_Portrait_South_America_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PBC_117443909 = {
+		name = Ladislao_de_Santa_Cruz
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_4
+				small = GFX_Portrait_South_America_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PBC_117446933 = {
+		name = Ignacio_La_Mar
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { smooth_talking_charmer }
 			slot = political_advisor
-			idea_token = i_67111525
+			idea_token = i_117446933
 			cost = 150
 		}
 	}
-	PBC_67113584 = {
-		name = Agustin_Ballivian
+	PBC_134218274 = {
+		name = David_de_la_Cruz
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
 			}
 		}
-		advisor = {
-			traits = { technocrat }
-			slot = political_advisor
-			idea_token = i_67113584
-			cost = 150
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
-	PBC_67114964 = {
-		name = Andres_Fernandez
+	PBC_134219157 = {
+		name = JosE__Freire
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_1
+				small = GFX_Portrait_South_America_Generic_navy_1_small
 			}
 		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_67114964
-			cost = 150
+		navy_leader = {
+			traits = { chief_engineer gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
-	PBC_100665334 = {
-		name = Francisco_Maria_del_Granado
+	PBC_167774544 = {
+		name = Ruperto_Latorre
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_2
+				small = GFX_Portrait_South_America_Generic_land_2_small
 			}
 		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_100665334
-			cost = 150
+		field_marshal = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 		}
 	}
 }

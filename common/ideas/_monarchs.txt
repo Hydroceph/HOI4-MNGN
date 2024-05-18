@@ -1,20 +1,6 @@
 ideas = {
 	country = {
-		AUS_Otto_von_Habsburg = {
-			allowed = {
-				original_tag = AUS
-			}
-
-			allowed_civil_war = {
-				original_tag = AUS
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
-		BEL_Leopold_of_Saxe-Coburg-Gotha = {
+		BEL_Albert_of_Saxe-Coburg-Gotha = {
 			allowed = {
 				original_tag = BEL
 			}
@@ -28,13 +14,41 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		BRA_Manuel_de_Braganca = {
+		BGI_Abd_al-Rahman_Kenga = {
 			allowed = {
-				original_tag = BRA
+				original_tag = BGI
 			}
 
 			allowed_civil_war = {
-				original_tag = BRA
+				original_tag = BGI
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		BHO_Shahuji_Orakzai = {
+			allowed = {
+				original_tag = BHO
+			}
+
+			allowed_civil_war = {
+				original_tag = BHO
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		COG_M_voumbe_Kimpanzu = {
+			allowed = {
+				original_tag = COG
+			}
+
+			allowed_civil_war = {
+				original_tag = COG
 				has_government = democratic
 			}
 
@@ -56,7 +70,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		FIN_Vilho_Berbom = {
+		FIN_Edvard_Berbom = {
 			allowed = {
 				original_tag = FIN
 			}
@@ -70,7 +84,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		FRS_Shen_Zhang = {
+		FRS_Yan_Zhang = {
 			allowed = {
 				original_tag = FRS
 			}
@@ -84,7 +98,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		GER_Heinrich_von_Hohenzollern = {
+		GER_Friedrich_Wilhelm_von_Hohenzollern = {
 			allowed = {
 				original_tag = GER
 			}
@@ -98,7 +112,35 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		HOL_Alexander_van_Oranje-Nassau = {
+		GRE_Nikos_Fetsis = {
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				original_tag = GRE
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		GZA_Fambaltate_kaXaba = {
+			allowed = {
+				original_tag = GZA
+			}
+
+			allowed_civil_war = {
+				original_tag = GZA
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		HOL_Hendrik_van_Oranje-Nassau = {
 			allowed = {
 				original_tag = HOL
 			}
@@ -112,13 +154,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		KAT_Abd_al-Malik_al_Kathir = {
+		HON_Toribio_Garrigo = {
 			allowed = {
-				original_tag = KAT
+				original_tag = HON
 			}
 
 			allowed_civil_war = {
-				original_tag = KAT
+				original_tag = HON
 				has_government = democratic
 			}
 
@@ -126,7 +168,35 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		KRG_Namugala_Butiko = {
+		JMB_Isandar_Jambi = {
+			allowed = {
+				original_tag = JMB
+			}
+
+			allowed_civil_war = {
+				original_tag = JMB
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		KHI_Iltazar_Qungrat = {
+			allowed = {
+				original_tag = KHI
+			}
+
+			allowed_civil_war = {
+				original_tag = KHI
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		KRG_Kalema_Butiko = {
 			allowed = {
 				original_tag = KRG
 			}
@@ -140,7 +210,21 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		MAH_Yahya_al_Mahri = {
+		KTI_Muabidin_Kutai = {
+			allowed = {
+				original_tag = KTI
+			}
+
+			allowed_civil_war = {
+				original_tag = KTI
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		MAH_Khalid_al_Saud = {
 			allowed = {
 				original_tag = MAH
 			}
@@ -154,13 +238,41 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		MKT_George_Augustus_Frederic2 = {
+		MAK_Abdullah_Baloch = {
+			allowed = {
+				original_tag = MAK
+			}
+
+			allowed_civil_war = {
+				original_tag = MAK
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		MKT_Charles_Frederic2 = {
 			allowed = {
 				original_tag = MKT
 			}
 
 			allowed_civil_war = {
 				original_tag = MKT
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		MOD_Vittorio_d_Austria-Este = {
+			allowed = {
+				original_tag = MOD
+			}
+
+			allowed_civil_war = {
+				original_tag = MOD
 				has_government = democratic
 			}
 
@@ -182,7 +294,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		OMA_Thuwaini_al_Said = {
+		OMA_Jamal_al_Said = {
 			allowed = {
 				original_tag = OMA
 			}
@@ -196,7 +308,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		POR_Maria_de_Braganca = {
+		POR_Pedro_de_Braganca = {
 			allowed = {
 				original_tag = POR
 			}
@@ -210,21 +322,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		PRK_Ali_Perak = {
-			allowed = {
-				original_tag = PRK
-			}
-
-			allowed_civil_war = {
-				original_tag = PRK
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
-		SER_Milan_Obrenovic = {
+		SER_Alaksandar_Obrenovic = {
 			allowed = {
 				original_tag = SER
 			}
@@ -238,13 +336,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		SOV_Konstantin_Belevsky-Zhukovsky = {
+		SMB_Safiuddin_Sambas = {
 			allowed = {
-				original_tag = SOV
+				original_tag = SMB
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = SMB
 				has_government = democratic
 			}
 
@@ -252,21 +350,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		SPR_Isabel_de_Borbon = {
-			allowed = {
-				original_tag = SPR
-			}
-
-			allowed_civil_war = {
-				original_tag = SPR
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
-		SWE_Henri_Bernadotte = {
+		SWE_Ferdinand-Philippe_Bernadotte = {
 			allowed = {
 				original_tag = SWE
 			}
@@ -280,7 +364,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		TAH_Pomare_IV_Pomare = {
+		TAH_Taufa_ahau_Pomare = {
 			allowed = {
 				original_tag = TAH
 			}
@@ -294,7 +378,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		TRN_Sarel_Retief = {
+		TRN_Charl_Retief = {
 			allowed = {
 				original_tag = TRN
 			}
@@ -308,13 +392,55 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		Z00_Felix_von_Habsburg = {
+		UAE_Ali_al_Nahyan = {
 			allowed = {
-				original_tag = Z00
+				original_tag = UAE
 			}
 
 			allowed_civil_war = {
-				original_tag = Z00
+				original_tag = UAE
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		UGA_Mutesa_Bagalayze = {
+			allowed = {
+				original_tag = UGA
+			}
+
+			allowed_civil_war = {
+				original_tag = UGA
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		YUE_Li_Nie = {
+			allowed = {
+				original_tag = YUE
+			}
+
+			allowed_civil_war = {
+				original_tag = YUE
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		Z18_Federico_Hurtado = {
+			allowed = {
+				original_tag = Z18
+			}
+
+			allowed_civil_war = {
+				original_tag = Z18
 				has_government = democratic
 			}
 

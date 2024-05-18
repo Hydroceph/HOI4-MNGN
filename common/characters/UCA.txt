@@ -1,0 +1,163 @@
+characters = {
+	UCA_100665609 = {
+		name = Francisco_Barrios
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_1
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {  }
+		}
+	}
+	UCA_67112051 = {
+		name = Jorge_Sevilla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67112051
+			cost = 150
+		}
+	}
+	UCA_67112321 = {
+		name = Jose_Maria_Castellanos
+		portraits = {
+			navy = {
+				large = GFX_Portrait_South_America_Generic_navy_3
+				small = GFX_Portrait_South_America_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	UCA_67112610 = {
+		name = Lorenzo_Zelaya
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_5
+				small = GFX_Portrait_South_America_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	UCA_67113061 = {
+		name = Jose_Maria_Carrera
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_3
+				small = GFX_Portrait_South_America_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	UCA_83889451 = {
+		name = Jacobo_Mejia
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83889451
+			cost = 150
+		}
+	}
+	UCA_100665432 = {
+		name = Francisco_Menendez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100665432
+			cost = 150
+		}
+	}
+	UCA_134220046 = {
+		name = Justo_Morazan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_134220046
+			cost = 150
+		}
+	}
+	UCA_134222307 = {
+		name = Andres_Quiros
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_134222307
+			cost = 150
+		}
+	}
+	UCA_150996669 = {
+		name = Ponciano_Fernandez
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_150996669
+			cost = 150
+		}
+	}
+	UCA_167775719 = {
+		name = Benito_Barrios
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_167775719
+			cost = 150
+		}
+	}
+}

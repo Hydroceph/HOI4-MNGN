@@ -1,29 +1,33 @@
 state = {
 	id = 174
 	name = "STATE_174"
-	manpower = 1860303
+	manpower = 2314585
 	resources = {
-		steel = 21
-		tungsten = 5
+		rubber = 9
+		tungsten = 2
 	}
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = SPR
+		owner = ZAN
 		victory_points = {
-			885 1
+			8183 20
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
+			dockyard = 1
+			2196 = {
+				naval_base = 1
+			}
+			air_base = 6
 		}
-		add_core_of = SPR
+		add_core_of = ZAN
 	}
 
 	provinces = {
-		726 794 857 874 884 885 903 918 920 939 3725 3727 3729 3744 3820 3845 3859 3874 3887 3918 3920 4024 6746 6867 6907 6936 9699 9700 9770 9800 9827 9846 9870 9872 11684 11766 11806 11809 11825 11843 11854 13219 13220 13221 13226 13227 13232 
+		2196 5210 8183 12944 
 	}
 }

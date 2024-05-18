@@ -1,16 +1,27 @@
 state = {
 	id = 403
 	name = "STATE_403"
-	manpower = 79183
+	manpower = 1027265
+	resources = {
+		rubber = 14
+		tungsten = 1
+	}
 
-	state_category = wasteland
-	impassable = yes
+	state_category = town
 
 	history = {
-		owner = EGY
+		owner = Z04
+		victory_points = {
+			8122 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+		}
 	}
 
 	provinces = {
-		7987 10900 
+		5013 8065 8122 10803 
 	}
 }

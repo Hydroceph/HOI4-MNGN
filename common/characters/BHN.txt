@@ -1,6 +1,6 @@
 characters = {
-	BHN_16778099 = {
-		name = Ja_far_al_Khalifa
+	BHN_50333498 = {
+		name = Abd_al-Rahman_al_Khalifa
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,131 +11,36 @@ characters = {
 			traits = {  }
 		}
 	}
-	BHN_16783979 = {
-		name = Iskandar_al-Hijazi
+	BHN_33557531 = {
+		name = Iskandar_ibn_Hasan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { silent_workhorse }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_16783979
+			idea_token = i_33557531
 			cost = 150
 		}
 	}
-	BHN_33554839 = {
-		name = Fuad_Al_Maktoum
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer ranger }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 5
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
-	BHN_33555792 = {
-		name = Abd_al-Qadir_al_Qasimi
+	BHN_50331739 = {
+		name = Umar_ibn_Khalid
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { fascist_demagogue }
+			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_33555792
+			idea_token = i_50331739
 			cost = 150
 		}
 	}
-	BHN_33556875 = {
-		name = Ja_far_ibn_Khalid
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_33556875
-			cost = 150
-		}
-	}
-	BHN_33557296 = {
-		name = Abd_al-Karim_al_Qasimi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_33557296
-			cost = 150
-		}
-	}
-	BHN_50333498 = {
-		name = Abd_al-Rahman_al_Khalifa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	BHN_50334874 = {
-		name = Salim_ibn_Mustafa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_50334874
-			cost = 150
-		}
-	}
-	BHN_67109668 = {
-		name = Khalid_ibn_Hisham
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { mobile_warfare_expert }
-			slot = political_advisor
-			idea_token = i_67109668
-			cost = 150
-		}
-	}
-	BHN_67110303 = {
-		name = Fawzi_ibn_Hisham
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_67110303
-			cost = 150
-		}
-	}
-	BHN_83888976 = {
-		name = Abd_Allah_Al_Maktoum
+	BHN_50331948 = {
+		name = Ibrahim_ibn_Halil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -144,7 +49,85 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_83888976
+			idea_token = i_50331948
+			cost = 150
+		}
+	}
+	BHN_50336804 = {
+		name = Abu_Bakr_al_Ulayyan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_50336804
+			cost = 150
+		}
+	}
+	BHN_67112174 = {
+		name = Abd_al-Qadir_al_Khalifa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BHN_117441379 = {
+		name = Fuad_Al_Mualla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_117441379
+			cost = 150
+		}
+	}
+	BHN_134218309 = {
+		name = Iskandar_Al_Mualla
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_134218309
+			cost = 150
+		}
+	}
+	BHN_134219257 = {
+		name = Zafir_ibn_Abd_Allah
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_134219257
+			cost = 150
+		}
+	}
+	BHN_134220736 = {
+		name = Mustafa_al-Najdi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_134220736
 			cost = 150
 		}
 	}

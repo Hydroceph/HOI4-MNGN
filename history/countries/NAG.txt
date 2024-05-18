@@ -1,26 +1,22 @@
-capital = 134
 
 oob = "NAG_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = NAG_16777903
-recruit_character = NAG_33555972
-recruit_character = NAG_33556517
-recruit_character = NAG_33557162
-recruit_character = NAG_33559787
-recruit_character = NAG_50337208
-recruit_character = NAG_67109967
-recruit_character = NAG_67110620
-recruit_character = NAG_67111698
-recruit_character = NAG_83886094
-recruit_character = NAG_83888188
+recruit_character = NAG_0
+recruit_character = NAG_67112084
+recruit_character = NAG_83888674
+recruit_character = NAG_117443329
+recruit_character = NAG_117447056
+recruit_character = NAG_150995320
+recruit_character = NAG_150995997
+recruit_character = NAG_150996037
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Raghunath_Ballal
+		name = Bajirao_Bhandari
 		GFX = GFX_portrait_operative_unknown
-		traits = {  }
+		traits = { operative_demolition_expert operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { NAG }
@@ -44,16 +40,16 @@ ENG = {
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.9.24"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 35
-	neutrality = 52
+	democratic = 14
+	fascism = 36
+	neutrality = 50
 }
 
 add_ideas = {

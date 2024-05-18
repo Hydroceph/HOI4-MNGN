@@ -1,6 +1,6 @@
 characters = {
-	CHP_16783608 = {
-		name = Sukha_Chao
+	CHP_50335170 = {
+		name = Phraya_Chao
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,134 +11,30 @@ characters = {
 			traits = {  }
 		}
 	}
-	CHP_16783688 = {
-		name = Unkham_Supho
+	CHP_50334351 = {
+		name = Sukha_Chao
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	CHP_67110668 = {
+		name = Sukha_Luang_Phrabang
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { communist_revolutionary }
 			slot = political_advisor
-			idea_token = i_16783688
+			idea_token = i_67110668
 			cost = 150
 		}
 	}
-	CHP_33554833 = {
+	CHP_67111099 = {
 		name = Phraya_Ong
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_33554833
-			cost = 150
-		}
-	}
-	CHP_33555010 = {
-		name = Manthaturath_Kuman
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	CHP_33556268 = {
-		name = Unkeo_Ong
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_33556268
-			cost = 150
-		}
-	}
-	CHP_33558549 = {
-		name = Unkeo_Som
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_33558549
-			cost = 150
-		}
-	}
-	CHP_33559289 = {
-		name = Sakkarin_Kuman
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_33559289
-			cost = 150
-		}
-	}
-	CHP_33561044 = {
-		name = Phraya_Vong
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_33561044
-			cost = 150
-		}
-	}
-	CHP_50334801 = {
-		name = Sukha_Ong
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_50334801
-			cost = 150
-		}
-	}
-	CHP_50335170 = {
-		name = Phraya_Chao
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -147,21 +43,91 @@ characters = {
 		advisor = {
 			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_50335170
+			idea_token = i_67111099
 			cost = 150
 		}
 	}
-	CHP_67114582 = {
-		name = Setthathirath_Som
+	CHP_100666489 = {
+		name = Unkham_Ong
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67114582
+			idea_token = i_100666489
+			cost = 150
+		}
+	}
+	CHP_117441848 = {
+		name = Manthaturath_Supho
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117441848
+			cost = 150
+		}
+	}
+	CHP_117443445 = {
+		name = Manthaturath_Som
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_117443445
+			cost = 150
+		}
+	}
+	CHP_134220261 = {
+		name = Anurutha_Anuvong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { adventurous_daredevil }
+			slot = political_advisor
+			idea_token = i_134220261
+			cost = 150
+		}
+	}
+	CHP_150995021 = {
+		name = Setthathirath_Luang_Phrabang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_150995021
+			cost = 150
+		}
+	}
+	CHP_151000082 = {
+		name = Anurutha_Vong
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_151000082
 			cost = 150
 		}
 	}

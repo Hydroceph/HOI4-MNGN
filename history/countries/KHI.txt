@@ -1,28 +1,23 @@
-capital = 382
+capital = 393
 
 oob = "KHI_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = KHI_2889
-recruit_character = KHI_16779369
-recruit_character = KHI_16783715
-recruit_character = KHI_33554662
 recruit_character = KHI_33554665
-recruit_character = KHI_33555198
-recruit_character = KHI_33556898
-recruit_character = KHI_33559778
-recruit_character = KHI_50333208
-recruit_character = KHI_50334317
-recruit_character = KHI_50335528
-recruit_character = KHI_67112218
-recruit_character = KHI_83886219
+recruit_character = KHI_67109050
+recruit_character = KHI_67113237
+recruit_character = KHI_83887612
+recruit_character = KHI_83891208
+recruit_character = KHI_100666397
+recruit_character = KHI_134221503
+recruit_character = KHI_234887422
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Khudayar_Bukhari
+		name = Khudayar_Bahadur
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_seducer }
+		traits = { operative_natural_orator operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { KHI }
@@ -31,28 +26,31 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.7.25"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 14
+	democratic = 16
 	fascism = 36
-	neutrality = 50
+	neutrality = 48
 }
 
 add_ideas = {
+	KHI_Iltazar_Qungrat
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

@@ -1,6 +1,6 @@
 characters = {
-	MJT_16780226 = {
-		name = Xirsi_Amaan_Majerteen
+	MJT_83891595 = {
+		name = Aul_Gobroon
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,157 +11,95 @@ characters = {
 			traits = {  }
 		}
 	}
-	MJT_33555137 = {
-		name = Cusmaan_Walashma
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_3
-				small = GFX_Portrait_Africa_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { fascist_demagogue }
-			slot = political_advisor
-			idea_token = i_33555137
-			cost = 150
-		}
-	}
-	MJT_33557341 = {
-		name = Taban_Yabarow
+	MJT_67110656 = {
+		name = Abdi_Adeer
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { ideological_crusader }
 			slot = political_advisor
-			idea_token = i_33557341
+			idea_token = i_67110656
 			cost = 150
 		}
 	}
-	MJT_33559734 = {
-		name = Abdikarim_Majerteen
+	MJT_83888771 = {
+		name = Aamir_Hirsi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_33559734
+			idea_token = i_83888771
 			cost = 150
 		}
 	}
-	MJT_50334819 = {
-		name = Axmed_Galaal
+	MJT_83889458 = {
+		name = Nuur_Axmed_Majerteen
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	MJT_117442796 = {
+		name = Cabdiqani_Majerteen
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_50334819
+			idea_token = i_117442796
 			cost = 150
 		}
 	}
-	MJT_67109578 = {
-		name = Shire_Keenadiid
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic_2
-				small = GFX_Portrait_South_Africa_Army_Generic_2_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer old_guard }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	MJT_67111219 = {
-		name = Cali_Hirsi
+	MJT_134217981 = {
+		name = Taban_Buqul
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_67111219
+			idea_token = i_134217981
 			cost = 150
 		}
 	}
-	MJT_67111347 = {
-		name = Maxamed_Doreh
+	MJT_134218383 = {
+		name = Cusmaan_Buqul
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_67111347
+			idea_token = i_134218383
 			cost = 150
 		}
 	}
-	MJT_67111629 = {
-		name = Roble_Sugulle
+	MJT_134218983 = {
+		name = Shire_Yabarow
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_67111629
-			cost = 150
-		}
-	}
-	MJT_67115179 = {
-		name = Cabdiqani_Diiriye
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_67115179
-			cost = 150
-		}
-	}
-	MJT_83886152 = {
-		name = Shire_Galaal
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { smooth_talking_charmer }
-			slot = political_advisor
-			idea_token = i_83886152
+			idea_token = i_134218983
 			cost = 150
 		}
 	}

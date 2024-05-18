@@ -1,33 +1,32 @@
-capital = 467
+capital = 411
 
 oob = "TAH_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = TAH_16781320
-recruit_character = TAH_3018
-recruit_character = TAH_16779839
-recruit_character = TAH_33557825
-recruit_character = TAH_50333936
-recruit_character = TAH_50335264
-recruit_character = TAH_50335481
-recruit_character = TAH_50336307
-recruit_character = TAH_50337755
-recruit_character = TAH_67112089
-recruit_character = TAH_100665265
+recruit_character = TAH_100663444
+recruit_character = TAH_50338475
+recruit_character = TAH_67110011
+recruit_character = TAH_67112230
+recruit_character = TAH_67114406
+recruit_character = TAH_83889894
+recruit_character = TAH_117442711
+recruit_character = TAH_117443983
+recruit_character = TAH_134219033
+recruit_character = TAH_150995660
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Malietoa_Te_Fuli
+		name = Finau_Ma_ufanga
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_linguist }
+		traits = { operative_commando }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { TAH }
 	}
 }
 
-FRA = {
+GER = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -43,7 +42,7 @@ FRA = {
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1932.7.16"
 	election_frequency = 48
 	elections_allowed = yes
@@ -52,12 +51,12 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 36
-	fascism = 31
-	neutrality = 33
+	fascism = 36
+	neutrality = 28
 }
 
 add_ideas = {
-	TAH_Pomare_IV_Pomare
+	TAH_Taufa_ahau_Pomare
 	civilian_economy
 	export_focus
 	volunteer_only

@@ -1,7 +1,7 @@
 state = {
 	id = 173
 	name = "STATE_173"
-	manpower = 1464423
+	manpower = 18363855
 	resources = {
 		tungsten = 2
 	}
@@ -9,23 +9,19 @@ state = {
 	state_category = town
 
 	history = {
-		owner = TUR
+		owner = CHI
 		victory_points = {
-			6938 1
+			7137 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
-			dockyard = 1
-			3967 = {
-				naval_base = 1
-			}
 		}
-		add_core_of = TUR
+		add_core_of = CHI
 	}
 
 	provinces = {
-		890 904 979 3905 3919 3967 3982 6920 6938 6995 9844 11866 11883 
+		1023 1448 1469 1597 1625 4028 4077 4085 4121 4125 4134 4152 4177 4628 4656 7044 7095 7128 7137 7159 7168 7192 7210 7502 7650 9982 10039 10050 10121 10377 10404 10431 10459 11918 11983 12023 12053 12350 12378 12407 12436 
 	}
 }

@@ -1,30 +1,20 @@
-capital = 566
+capital = 513
 
 oob = "WAD_1936"
 set_research_slots = 2
 set_convoys = 0
 
 recruit_character = WAD_67110240
-recruit_character = WAD_16778695
-recruit_character = WAD_16778977
-recruit_character = WAD_33555439
-recruit_character = WAD_33558612
-recruit_character = WAD_33560413
-recruit_character = WAD_50331769
-recruit_character = WAD_50335162
-recruit_character = WAD_67111350
-recruit_character = WAD_83889400
-recruit_character = WAD_100666853
+recruit_character = WAD_50335332
+recruit_character = WAD_50335773
+recruit_character = WAD_67111061
+recruit_character = WAD_83890987
+recruit_character = WAD_100666371
+recruit_character = WAD_117441216
+recruit_character = WAD_134217764
+recruit_character = WAD_134219905
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Zakaria_Bakri
-		GFX = GFX_portrait_africa_generic_operative_male_3
-		traits = { operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { WAD }
-	}
 }
 
 set_politics = {
@@ -36,9 +26,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 37
-	neutrality = 51
+	democratic = 15
+	fascism = 35
+	neutrality = 50
 }
 
 add_ideas = {

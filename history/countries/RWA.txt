@@ -1,19 +1,22 @@
-capital = 286
+capital = 163
 
 oob = "RWA_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = RWA_16779760
 recruit_character = RWA_16778894
-recruit_character = RWA_33557236
-recruit_character = RWA_33557691
-recruit_character = RWA_50333718
-recruit_character = RWA_50334935
-recruit_character = RWA_50337481
-recruit_character = RWA_50337804
-recruit_character = RWA_67112039
-recruit_character = RWA_67114717
+recruit_character = RWA_33554703
+recruit_character = RWA_50338274
+recruit_character = RWA_50338506
+recruit_character = RWA_67108965
+recruit_character = RWA_83886365
+recruit_character = RWA_83890386
+recruit_character = RWA_83890436
+recruit_character = RWA_100664210
+recruit_character = RWA_100666540
+recruit_character = RWA_100666841
+recruit_character = RWA_100668595
+recruit_character = RWA_134221864
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -27,9 +30,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
+	democratic = 17
 	fascism = 36
-	neutrality = 52
+	neutrality = 47
 }
 
 add_ideas = {

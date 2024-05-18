@@ -1,0 +1,112 @@
+characters = {
+	Z14_83887345 = {
+		name = Herbert_Spens
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_4
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	Z14_50334695 = {
+		name = Garnet_Sheridan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { silent_workhorse }
+			slot = political_advisor
+			idea_token = i_50334695
+			cost = 150
+		}
+	}
+	Z14_50336609 = {
+		name = Norman_Livingstone
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_50336609
+			cost = 150
+		}
+	}
+	Z14_83886656 = {
+		name = Roundell_Kavanagh
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_83886656
+			cost = 150
+		}
+	}
+	Z14_83888768 = {
+		name = Edwin_Cavendish
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_83888768
+			cost = 150
+		}
+	}
+	Z14_117441586 = {
+		name = Adam_Spittal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117441586
+			cost = 150
+		}
+	}
+	Z14_167778872 = {
+		name = Benjamin_Dease
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_167778872
+			cost = 150
+		}
+	}
+	Z14_184555939 = {
+		name = Eric_Gowans
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_184555939
+			cost = 150
+		}
+	}
+}

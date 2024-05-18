@@ -1,31 +1,49 @@
-capital = 359
+capital = 602
 
 oob = "POR_1936"
 set_research_slots = 3
-set_convoys = 58
+set_convoys = 10
 
-recruit_character = POR_3023
-recruit_character = POR_16780305
-recruit_character = POR_33554640
-recruit_character = POR_33556818
-recruit_character = POR_33558136
-recruit_character = POR_33560928
-recruit_character = POR_33560965
-recruit_character = POR_50332088
-recruit_character = POR_50332494
-recruit_character = POR_50333351
-recruit_character = POR_67109162
-recruit_character = POR_67109779
-recruit_character = POR_67110033
-recruit_character = POR_67110505
-recruit_character = POR_67111112
-recruit_character = POR_67112295
-recruit_character = POR_83886394
-recruit_character = POR_83888503
+recruit_character = POR_50332676
+recruit_character = POR_33560751
+recruit_character = POR_50332398
+recruit_character = POR_50338133
+recruit_character = POR_67115167
+recruit_character = POR_83886344
+recruit_character = POR_83892054
+recruit_character = POR_83892403
+recruit_character = POR_100664109
+recruit_character = POR_100665739
+recruit_character = POR_100667127
+recruit_character = POR_100668369
+recruit_character = POR_117440949
+recruit_character = POR_117441062
+recruit_character = POR_134218498
+recruit_character = POR_134219752
+recruit_character = POR_134223252
+recruit_character = POR_167772663
+recruit_character = POR_218104648
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
+SPR = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = POR
+			autonomous_state = autonomy_integrated_puppet
+		}
+	}
+	else = {
+		set_autonomy = {
+			target = POR
+			autonomous_state = autonomy_puppet
+		}
+	}
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.8.5"
@@ -35,13 +53,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 18
-	fascism = 36
-	neutrality = 46
+	democratic = 25
+	fascism = 32
+	neutrality = 43
 }
 
 add_ideas = {
-	POR_Maria_de_Braganca
+	POR_Pedro_de_Braganca
 	partial_economic_mobilisation
 	limited_exports
 	volunteer_only
@@ -51,6 +69,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

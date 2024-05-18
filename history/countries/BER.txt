@@ -1,23 +1,18 @@
-capital = 197
+capital = 227
 
 oob = "BER_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
-recruit_character = BER_2690
-recruit_character = BER_16778680
-recruit_character = BER_16781846
-recruit_character = BER_16782641
-recruit_character = BER_33555005
-recruit_character = BER_33555836
 recruit_character = BER_33557854
-recruit_character = BER_50334291
-recruit_character = BER_50335141
-recruit_character = BER_50338172
-recruit_character = BER_67113657
-recruit_character = BER_83886592
-recruit_character = BER_83886865
-recruit_character = BER_83891392
+recruit_character = BER_33561141
+recruit_character = BER_50335041
+recruit_character = BER_67110917
+recruit_character = BER_67112325
+recruit_character = BER_83887824
+recruit_character = BER_100666517
+recruit_character = BER_100668781
+recruit_character = BER_150998542
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
@@ -46,8 +41,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 36
+	democratic = 11
+	fascism = 38
 	neutrality = 51
 }
 

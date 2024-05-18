@@ -1,22 +1,28 @@
-capital = 570
 
 oob = "SMB_1936"
 set_research_slots = 2
-set_convoys = 6
+set_convoys = 0
 
-recruit_character = SMB_16779614
-recruit_character = SMB_16782773
-recruit_character = SMB_33555283
-recruit_character = SMB_33556826
-recruit_character = SMB_33559409
-recruit_character = SMB_50332658
-recruit_character = SMB_67109688
-recruit_character = SMB_67110896
-recruit_character = SMB_83890216
-recruit_character = SMB_100663879
-recruit_character = SMB_100665967
+recruit_character = SMB_117446886
+recruit_character = SMB_67109870
+recruit_character = SMB_67112615
+recruit_character = SMB_83886829
+recruit_character = SMB_83887725
+recruit_character = SMB_83890057
+recruit_character = SMB_117442251
+recruit_character = SMB_117446372
+recruit_character = SMB_134221146
+recruit_character = SMB_201331376
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Muhammad_Murshidul
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_commando operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SMB }
+	}
 }
 
 INS = {
@@ -36,19 +42,20 @@ INS = {
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1934.2.14"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 34
-	fascism = 35
-	neutrality = 31
+	democratic = 44
+	fascism = 31
+	neutrality = 25
 }
 
 add_ideas = {
+	SMB_Safiuddin_Sambas
 	civilian_economy
 	export_focus
 	volunteer_only

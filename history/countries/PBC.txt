@@ -1,43 +1,65 @@
-capital = 121
+capital = 80
 
 oob = "PBC_1936"
 set_research_slots = 3
-set_convoys = 40
+set_convoys = 9
 
-recruit_character = PBC_83886554
-recruit_character = PBC_16780716
-recruit_character = PBC_33557649
-recruit_character = PBC_33557775
-recruit_character = PBC_33559930
-recruit_character = PBC_50334906
-recruit_character = PBC_50335047
-recruit_character = PBC_50337141
-recruit_character = PBC_67111525
-recruit_character = PBC_67113584
-recruit_character = PBC_67114964
-recruit_character = PBC_100665334
+recruit_character = PBC_50334054
+recruit_character = PBC_33555276
+recruit_character = PBC_33555387
+recruit_character = PBC_33558317
+recruit_character = PBC_50331949
+recruit_character = PBC_50333080
+recruit_character = PBC_50333487
+recruit_character = PBC_50335795
+recruit_character = PBC_50335904
+recruit_character = PBC_67110025
+recruit_character = PBC_67110440
+recruit_character = PBC_67111128
+recruit_character = PBC_67111953
+recruit_character = PBC_67112320
+recruit_character = PBC_67112417
+recruit_character = PBC_67112673
+recruit_character = PBC_67112805
+recruit_character = PBC_67114963
+recruit_character = PBC_83886973
+recruit_character = PBC_83887791
+recruit_character = PBC_83887839
+recruit_character = PBC_83887942
+recruit_character = PBC_83888077
+recruit_character = PBC_83889053
+recruit_character = PBC_83889176
+recruit_character = PBC_83889660
+recruit_character = PBC_83889879
+recruit_character = PBC_83890867
+recruit_character = PBC_83891531
+recruit_character = PBC_83892026
+recruit_character = PBC_100663554
+recruit_character = PBC_100665214
+recruit_character = PBC_100666104
+recruit_character = PBC_100667102
+recruit_character = PBC_100667955
+recruit_character = PBC_117443161
+recruit_character = PBC_117443909
+recruit_character = PBC_117446933
+recruit_character = PBC_134218274
+recruit_character = PBC_134219157
+recruit_character = PBC_167774544
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Alejandro_Echenique
-		GFX = GFX_portrait_south_america_generic_operative_male_5
-		traits = { operative_infiltrator operative_natural_orator }
+		name = Magdalena_Abaroa
+		GFX = GFX_portrait_south_america_generic_operative_female_4
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { PBC }
-	}
-	create_operative_leader = {
-		name = Wentworth_Temple
-		GFX = GFX_portrait_europe_generic_operative_male_4
-		traits = { operative_linguist operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
+		female = yes
 		nationalities = { PBC }
 	}
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1932.3.24"
 	election_frequency = 48
 	elections_allowed = yes
@@ -45,14 +67,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 21
-	fascism = 39
-	neutrality = 40
+	democratic = 11
+	fascism = 44
+	neutrality = 45
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -60,6 +82,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

@@ -1,9 +1,9 @@
 characters = {
-	HOL_83887167 = {
-		name = Rudolf_van_Duivenvoorde
+	HOL_67112284 = {
+		name = Hans_Kohler
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_8
+				large = GFX_Portrait_Europe_Generic_3
 			}
 		}
 		country_leader = {
@@ -11,36 +11,33 @@ characters = {
 			traits = {  }
 		}
 	}
-	HOL_16778045 = {
-		name = Alexander_van_Oranje-Nassau
+	HOL_16779584 = {
+		name = Hendrik_van_Oranje-Nassau
 		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
 			civilian = {
-				small = GFX_idea_unknown
 			}
 		}
+		corps_commander = {
+			traits = { harsh_leader trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_16778045
+			idea_token = i_16779584
 			cost = 150
 		}
 	}
-	HOL_16778889 = {
-		name = Jurgen_2_De_Geer
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_16778889
-			cost = 150
-		}
-	}
-	HOL_16779433 = {
-		name = Maximiliaam_van_Walbeeck
+	HOL_33557759 = {
+		name = Kasper_van_Renesse
 		portraits = {
 			navy = {
 				large = GFX_portrait_europe_generic_navy_5
@@ -48,148 +45,33 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { old_guard_navy }
-			skill = 1
-			attack_skill = 1
+			traits = { navy_career_officer old_guard_navy }
+			skill = 2
+			attack_skill = 2
 			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	HOL_16779584 = {
-		name = Hendrik_van_Oranje-Nassau
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_16779584
-			cost = 150
-		}
-	}
-	HOL_33558149 = {
-		name = Dominicus_van_Egmont
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_1
-				small = GFX_Portrait_Europe_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
 			maneuvering_skill = 2
-			coordination_skill = 1
+			coordination_skill = 2
 		}
 	}
-	HOL_33559231 = {
-		name = Gabriel_van_Assendelft
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
-			}
-		}
-		field_marshal = {
-			traits = { armor_officer infantry_officer offensive_doctrine old_guard }
-			skill = 3
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	HOL_33561055 = {
-		name = Victor_van_Egmont
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_33561055
-			cost = 150
-		}
-	}
-	HOL_50333516 = {
-		name = Gerben_van_Egmont
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_50333516
-			cost = 150
-		}
-	}
-	HOL_50337583 = {
-		name = Johan_Schouten
+	HOL_50331997 = {
+		name = Andries_Steltman
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_4
 				small = GFX_Portrait_Europe_Generic_land_4_small
 			}
-			civilian = {
-			}
 		}
-		corps_commander = {
-			traits = { infantry_officer organizer trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
+		field_marshal = {
+			traits = { commando engineer_officer fortress_buster organizer thorough_planner trait_cautious }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
 			planning_skill = 4
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { grand_battle_plan_expert }
-			slot = political_advisor
-			idea_token = i_50337583
-			cost = 150
+			logistics_skill = 5
 		}
 	}
-	HOL_50338263 = {
-		name = Hans_van_Diemen
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_4
-				small = GFX_portrait_europe_generic_navy_4_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer gentlemanly }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	HOL_67109993 = {
-		name = Barthout_Steltman
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { popular_figurehead }
-			slot = political_advisor
-			idea_token = i_67109993
-			cost = 150
-		}
-	}
-	HOL_67113807 = {
-		name = Dirk_Vetter
+	HOL_50334300 = {
+		name = Elias_Nachtegaal
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_8
@@ -197,41 +79,154 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
+			traits = { engineer_officer guerilla_fighter harsh_leader trickster }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 4
 			logistics_skill = 2
 		}
 	}
-	HOL_83886391 = {
-		name = Alexander_van_Boetzelaer
+	HOL_50335139 = {
+		name = Simon_De_Geer
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_50335139
+			cost = 150
+		}
+	}
+	HOL_50337808 = {
+		name = Jacob_de_Rijk
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { navy_career_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	HOL_67109635 = {
+		name = Luuk_van_Saksen-Weimar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_67109635
+			cost = 150
+		}
+	}
+	HOL_67110042 = {
+		name = Daniel_2_Lampsins
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer spotter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	HOL_67110881 = {
+		name = Kasper_Vetter
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	HOL_67111419 = {
+		name = Hans_Schimmelpenninck_van_der_Oye
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	HOL_67113103 = {
+		name = Quinten_Rijk
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_7
 				small = GFX_portrait_europe_generic_land_7_small
 			}
+		}
+		corps_commander = {
+			traits = { organizer trait_mountaineer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	HOL_83886245 = {
+		name = Dominicus_van_der_Wijck
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
 			civilian = {
 			}
 		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
+		navy_leader = {
+			traits = { gentlemanly }
 			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
 		}
 		advisor = {
-			traits = { mass_assault_expert }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_83886391
+			idea_token = i_83886245
 			cost = 150
 		}
 	}
-	HOL_83887309 = {
-		name = Frederik_Kohler
+	HOL_83888136 = {
+		name = Stefan_van_Boetzelaer
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_2
@@ -239,30 +234,58 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { armor_officer }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	HOL_83888342 = {
-		name = Pieter_Engels
+	HOL_83888913 = {
+		name = Maurits_van_Oranje-Nassau
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { democratic_crusader }
 			slot = political_advisor
-			idea_token = i_83888342
+			idea_token = i_83888913
 			cost = 150
 		}
 	}
-	HOL_83888600 = {
-		name = Erwin_de_Constant_Rebecque
+	HOL_83892441 = {
+		name = Stefan_van_den_Velden
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { ideological_crusader }
+			slot = political_advisor
+			idea_token = i_83892441
+			cost = 150
+		}
+	}
+	HOL_100663501 = {
+		name = Gijsbert_Staal
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_100663501
+			cost = 150
+		}
+	}
+	HOL_100664837 = {
+		name = Erwin_Stuyvesant
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_3
@@ -270,12 +293,170 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { commando }
+			traits = {  }
 			skill = 1
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	HOL_100669677 = {
+		name = Gerard_de_Vos_van_Steenwijk
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+			civilian = {
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+		advisor = {
+			traits = { naval_theorist }
+			slot = political_advisor
+			idea_token = i_100669677
+			cost = 150
+		}
+	}
+	HOL_117440788 = {
+		name = Andreas_van_Vredenburch
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_117440788
+			cost = 150
+		}
+	}
+	HOL_117441047 = {
+		name = Karel_Bentinck
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_3
+				small = GFX_Portrait_Europe_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	HOL_117441792 = {
+		name = Maximiliaam_van_Egmont
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
 			logistics_skill = 2
+		}
+	}
+	HOL_134219807 = {
+		name = Alexander_van_Coeverden
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { arctic_water_expert craven }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+	}
+	HOL_134220996 = {
+		name = Rudolf_Cochius
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_13
+				small = GFX_portrait_europe_generic_land_13_small
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	HOL_150997494 = {
+		name = Jurgen_2_Nepveu
+		portraits = {
+			army = {
+				large = GFX_Portrait_europe_generic_land_6
+				small = GFX_Portrait_europe_generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	HOL_167777169 = {
+		name = Karel_Roell
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	HOL_201328464 = {
+		name = Jurgen_2_Crijnssen
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }

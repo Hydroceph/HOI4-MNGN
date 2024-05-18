@@ -1,22 +1,30 @@
-capital = 346
+capital = 232
 
 oob = "ZUL_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 1
 
 recruit_character = ZUL_33561156
-recruit_character = ZUL_16778764
-recruit_character = ZUL_16781723
-recruit_character = ZUL_16782912
-recruit_character = ZUL_33554742
-recruit_character = ZUL_33555920
-recruit_character = ZUL_33555926
-recruit_character = ZUL_33557306
-recruit_character = ZUL_50333017
-recruit_character = ZUL_50336009
-recruit_character = ZUL_83886608
+recruit_character = ZUL_33559015
+recruit_character = ZUL_33561270
+recruit_character = ZUL_67109899
+recruit_character = ZUL_83887918
+recruit_character = ZUL_83890192
+recruit_character = ZUL_117441401
+recruit_character = ZUL_134223681
+recruit_character = ZUL_150995047
+recruit_character = ZUL_150995237
+recruit_character = ZUL_150997110
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Sihayo_kaMpande
+		GFX = GFX_portrait_africa_generic_operative_male_3
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ZUL }
+	}
 }
 
 set_politics = {
@@ -28,9 +36,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
-	fascism = 38
-	neutrality = 51
+	democratic = 17
+	fascism = 36
+	neutrality = 47
 }
 
 add_ideas = {

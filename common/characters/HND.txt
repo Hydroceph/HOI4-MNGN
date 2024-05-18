@@ -1,0 +1,120 @@
+characters = {
+	HND_67114245 = {
+		name = Padmanavadeva_Das
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	HND_33557108 = {
+		name = Vijay_Rawat
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_33557108
+			cost = 150
+		}
+	}
+	HND_67110621 = {
+		name = Ashoka_Mishra
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_67110621
+			cost = 150
+		}
+	}
+	HND_83886864 = {
+		name = Harekrushnadeva_Debi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_83886864
+			cost = 150
+		}
+	}
+	HND_100663573 = {
+		name = Narayan_Kapoor
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_100663573
+			cost = 150
+		}
+	}
+	HND_100669938 = {
+		name = Padmanavadeva_Debi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_100669938
+			cost = 150
+		}
+	}
+	HND_117440610 = {
+		name = Shanmukham_Mudaliar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { fascist_demagogue }
+			slot = political_advisor
+			idea_token = i_117440610
+			cost = 150
+		}
+	}
+	HND_117441215 = {
+		name = Vachaspati_Gupta
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_117441215
+			cost = 150
+		}
+	}
+	HND_150996210 = {
+		name = Manubhai_Mangeshkar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+}

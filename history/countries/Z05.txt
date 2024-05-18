@@ -1,57 +1,69 @@
-capital = 448
+capital = 184
 
 oob = "Z05_1936"
 set_research_slots = 3
-set_convoys = 6
+set_convoys = 14
 
-recruit_character = Z05_16779620
-recruit_character = Z05_33555884
-recruit_character = Z05_33555999
-recruit_character = Z05_33557906
-recruit_character = Z05_50332775
-recruit_character = Z05_50333858
-recruit_character = Z05_50335871
-recruit_character = Z05_67109316
-recruit_character = Z05_67111437
-recruit_character = Z05_67115454
-recruit_character = Z05_83888697
-recruit_character = Z05_83890896
+recruit_character = Z05_100664527
+recruit_character = Z05_50335537
+recruit_character = Z05_83888564
+recruit_character = Z05_100665728
+recruit_character = Z05_134220531
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Helmtrude_Scheffold
+		GFX = GFX_portrait_europe_generic_operative_female_2
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { Z05 }
+	}
+	create_operative_leader = {
+		name = Leopold_Behncke
+		GFX = GFX_portrait_europe_generic_operative_male_6
+		traits = { operative_demolition_expert operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { Z05 }
+	}
 }
 
-ENG = {
+GER = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
 		}
 		set_autonomy = {
 			target = Z05
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
+			autonomous_state = autonomy_integrated_puppet
 		}
 	}
 	else = {
-		puppet = Z05
+		set_autonomy = {
+			target = Z05
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.6.30"
+	ruling_party = fascism
+	last_election = "1935.4.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 22
-	fascism = 34
-	neutrality = 44
+	democratic = 28
+	fascism = 33
+	neutrality = 39
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -59,6 +71,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
@@ -81,9 +95,12 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -163,6 +180,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = Z05_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

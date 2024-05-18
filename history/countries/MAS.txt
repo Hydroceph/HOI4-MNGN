@@ -1,45 +1,55 @@
-capital = 234
 
 oob = "MAS_1936"
 set_research_slots = 2
-set_convoys = 12
+set_convoys = 0
 
-recruit_character = MAS_16779059
-recruit_character = MAS_16780424
-recruit_character = MAS_16782068
-recruit_character = MAS_16782619
-recruit_character = MAS_16782625
-recruit_character = MAS_33556088
-recruit_character = MAS_50333051
-recruit_character = MAS_50334423
-recruit_character = MAS_67109406
-recruit_character = MAS_67110815
-recruit_character = MAS_67113339
-recruit_character = MAS_83886674
+recruit_character = MAS_67109513
+recruit_character = MAS_67112721
+recruit_character = MAS_83889130
+recruit_character = MAS_100663296
+recruit_character = MAS_100664762
+recruit_character = MAS_117442816
+recruit_character = MAS_150995262
+recruit_character = MAS_167772545
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Hisham_al-Asfawi
-		GFX = GFX_portrait_arabia_generic_operative_male_3
-		traits = { operative_natural_orator operative_tough }
+		name = Ahmad_al-Tilimsani
+		GFX = GFX_portrait_arabia_generic_operative_male_5
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MAS }
 	}
 }
 
+FRA = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = MAS
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = MAS
+	}
+}
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1934.1.21"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 37
-	neutrality = 50
+	democratic = 10
+	fascism = 35
+	neutrality = 55
 }
 
 add_ideas = {

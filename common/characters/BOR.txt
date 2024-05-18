@@ -1,6 +1,6 @@
 characters = {
-	BOR_16779918 = {
-		name = Mamane_Sayfawa
+	BOR_50333034 = {
+		name = Dunama_Sayfawa
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,169 +11,110 @@ characters = {
 			traits = {  }
 		}
 	}
-	BOR_33555696 = {
-		name = al-Amin_Kingibe
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_33555696
-			cost = 150
-		}
-	}
-	BOR_33556449 = {
-		name = Ali_Sayfawa
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_3
-				small = GFX_Portrait_Africa_Generic_land_3_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox infantry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_33556449
-			cost = 150
-		}
-	}
-	BOR_33560106 = {
-		name = Waziri_Dalatumi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_33560106
-			cost = 150
-		}
-	}
-	BOR_50332569 = {
-		name = Mustapha_Duguwa
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic_2
-				small = GFX_Portrait_South_Africa_Army_Generic_2_small
-			}
-		}
-		corps_commander = {
-			traits = { engineer_officer old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	BOR_50333034 = {
-		name = Dunama_Sayfawa
+	BOR_67111929 = {
+		name = Waziri_Sayfawa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 	}
-	BOR_67109809 = {
-		name = Mamane_Gana
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_67109809
-			cost = 150
-		}
-	}
-	BOR_67111320 = {
-		name = Muhammad_Duguwa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_67111320
-			cost = 150
-		}
-	}
-	BOR_67114281 = {
-		name = Mustapha_Sayfawa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_67114281
-			cost = 150
-		}
-	}
-	BOR_67115141 = {
-		name = al-Amin_Sayfawa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_67115141
-			cost = 150
-		}
-	}
-	BOR_67115285 = {
-		name = Dunama_Kanemi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_67115285
-			cost = 150
-		}
-	}
-	BOR_83886876 = {
+	BOR_83891680 = {
 		name = Waziri_Sheriff
 		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { engineer_officer harsh_leader ranger }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_83891680
+			cost = 150
+		}
+	}
+	BOR_117441056 = {
+		name = Ahmad_al-Kanemi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117441056
+			cost = 150
+		}
+	}
+	BOR_117443278 = {
+		name = Ahmad_Sayfawa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_117443278
+			cost = 150
+		}
+	}
+	BOR_134221470 = {
+		name = Waziri_Lefiami
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_134221470
+			cost = 150
+		}
+	}
+	BOR_134224252 = {
+		name = Ahmad_Kanemi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { political_dancer }
+			slot = political_advisor
+			idea_token = i_134224252
+			cost = 150
+		}
+	}
+	BOR_184549612 = {
+		name = Waziri_Duguwa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_184549612
+			cost = 150
+		}
+	}
+	BOR_201329139 = {
+		name = Umar_Mai-Bornu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_201329139
+			cost = 150
 		}
 	}
 }

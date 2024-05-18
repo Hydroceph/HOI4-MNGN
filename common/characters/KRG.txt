@@ -1,6 +1,6 @@
 characters = {
-	KRG_16780203 = {
-		name = Namugala_Butiko
+	KRG_83890877 = {
+		name = Kalema_Butiko
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,8 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	KRG_16781126 = {
-		name = Chata_Mudimbe
+	KRG_50336504 = {
+		name = Mutesa_Nseenene
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { conservative_grandee }
+			slot = political_advisor
+			idea_token = i_50336504
+			cost = 150
+		}
+	}
+	KRG_67112055 = {
+		name = Namugala_Butiko
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -21,53 +35,67 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_16781126
+			idea_token = i_67112055
 			cost = 150
 		}
 	}
-	KRG_33556650 = {
-		name = Kabulu_Mmamba
+	KRG_67114661 = {
+		name = Issay_Bulungute
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_architect }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_33556650
+			idea_token = i_67114661
 			cost = 150
 		}
 	}
-	KRG_50332235 = {
-		name = Kyabaggo_Lugave
+	KRG_83886637 = {
+		name = Bakari_Mkasiwa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50332235
+			idea_token = i_83886637
 			cost = 150
 		}
 	}
-	KRG_50332624 = {
-		name = Fabunni_Mudimbe
+	KRG_117441472 = {
+		name = Genet_Mudimbe
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50332624
+			idea_token = i_117441472
 			cost = 150
 		}
 	}
-	KRG_50332994 = {
+	KRG_134218049 = {
+		name = Kyabaggo_Nseenene
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_134218049
+			cost = 150
+		}
+	}
+	KRG_150996101 = {
 		name = Makalo_Bulungute
 		portraits = {
 			civilian = {
@@ -75,82 +103,23 @@ characters = {
 			}
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_50332994
+			idea_token = i_150996101
 			cost = 150
 		}
 	}
-	KRG_50333614 = {
-		name = Kagali_Abalasangeye
-		portraits = {
-			army = {
-				large = GFX_Portrait_Africa_Generic_land_2
-				small = GFX_Portrait_Africa_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox infantry_officer old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	KRG_50334219 = {
-		name = Terwewalwa_Bagalayze
+	KRG_151001496 = {
+		name = Kasim_Kasanda
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50334219
-			cost = 150
-		}
-	}
-	KRG_50334969 = {
-		name = Dume_Zwagendaba
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334969
-			cost = 150
-		}
-	}
-	KRG_67114473 = {
-		name = Chata_Zwagendaba
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { ideological_crusader }
-			slot = political_advisor
-			idea_token = i_67114473
-			cost = 150
-		}
-	}
-	KRG_83890877 = {
-		name = Kalema_Butiko
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_83890877
+			idea_token = i_151001496
 			cost = 150
 		}
 	}

@@ -1,23 +1,16 @@
 state = {
 	id = 718
 	name = "STATE_718"
-	manpower = 109664
+	manpower = 116375
 
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 
 	history = {
-		owner = SOV
-		victory_points = {
-			13063 1
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-		}
+		owner = Z11
 	}
 
 	provinces = {
-		1819 4006 4455 4744 5264 13062 13063 
+		1095 1958 2049 7041 8088 10731 12711 12842 
 	}
 }

@@ -1,6 +1,6 @@
 characters = {
-	SUL_16778474 = {
-		name = Mohammad_Israel_Sulu
+	SUL_100669952 = {
+		name = Shahabud_Din_Sulu
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,8 +11,22 @@ characters = {
 			traits = {  }
 		}
 	}
-	SUL_16778685 = {
-		name = Abdulmunir_Pagayawan
+	SUL_50333324 = {
+		name = Hussin_Sulayman
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_50333324
+			cost = 150
+		}
+	}
+	SUL_67112712 = {
+		name = Mangigin_Bago
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -21,158 +35,12 @@ characters = {
 		advisor = {
 			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_16778685
+			idea_token = i_67112712
 			cost = 150
 		}
 	}
-	SUL_16779986 = {
-		name = Abul_Amin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_16779986
-			cost = 150
-		}
-	}
-	SUL_16780130 = {
-		name = Bantilan_Muizzud_Din_Maribo
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SUL_16780502 = {
-		name = Mohammed_Rogan
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_architect }
-			slot = political_advisor
-			idea_token = i_16780502
-			cost = 150
-		}
-	}
-	SUL_16780901 = {
-		name = Alimud_Din_Mastura
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer infantry_officer trait_cautious }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
-	SUL_33555517 = {
-		name = Shakirul_Lah_Bacolod
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_1
-				small = GFX_Portrait_Asia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { harsh_leader trait_mountaineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	SUL_33558193 = {
-		name = Mohammad_Israel_Akbar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { technocrat }
-			slot = political_advisor
-			idea_token = i_33558193
-			cost = 150
-		}
-	}
-	SUL_33558455 = {
-		name = Iskandar_Hashim
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_33558455
-			cost = 150
-		}
-	}
-	SUL_50333475 = {
-		name = Mohammed_Esmail_Kiram_Asarul
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader }
-			skill = 3
-			attack_skill = 5
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SUL_50334868 = {
-		name = Omar_Sulu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-	}
-	SUL_83887686 = {
-		name = Abdul_Minitupad
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_83887686
-			cost = 150
-		}
-	}
-	SUL_83888310 = {
-		name = Kiram_Usman
+	SUL_67115331 = {
+		name = Mohammed_Esmail_Kiram_Dimaporo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -181,22 +49,72 @@ characters = {
 		advisor = {
 			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_83888310
+			idea_token = i_67115331
 			cost = 150
 		}
 	}
-	SUL_100666364 = {
-		name = Mohammed_Esmail_Kiram_Baloi
+	SUL_83888810 = {
+		name = Mohammad_Pulalun_Kiram_Minitupad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_100666364
+			idea_token = i_83888810
 			cost = 150
+		}
+	}
+	SUL_83892023 = {
+		name = Iskandar_Qudraullah_Dimaporo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_83892023
+			cost = 150
+		}
+	}
+	SUL_100669280 = {
+		name = Jamalul_A_Lam_Amin
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_100669280
+			cost = 150
+		}
+	}
+	SUL_117440605 = {
+		name = Abdul_Minitupad
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_117440605
+			cost = 150
+		}
+	}
+	SUL_201327731 = {
+		name = Kawasa_Sulu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
 		}
 	}
 }

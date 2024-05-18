@@ -1,32 +1,22 @@
-capital = 680
 
 oob = "UAE_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 0
 
 recruit_character = UAE_100663796
-recruit_character = UAE_16782067
-recruit_character = UAE_33557191
-recruit_character = UAE_33558109
-recruit_character = UAE_33558146
-recruit_character = UAE_50333382
-recruit_character = UAE_50333629
+recruit_character = UAE_33555901
+recruit_character = UAE_67114626
 recruit_character = UAE_67115742
-recruit_character = UAE_83886722
-recruit_character = UAE_117440556
+recruit_character = UAE_83886599
+recruit_character = UAE_83887436
+recruit_character = UAE_83891270
+recruit_character = UAE_134221342
+recruit_character = UAE_134223089
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Ibrahim_ibn_Abd_Allah
-		GFX = GFX_portrait_arabia_generic_operative_male_1
-		traits = { operative_linguist operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { UAE }
-	}
 }
 
-ENG = {
+USA = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -43,19 +33,20 @@ ENG = {
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.9.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 14
+	democratic = 21
 	fascism = 35
-	neutrality = 51
+	neutrality = 44
 }
 
 add_ideas = {
+	UAE_Ali_al_Nahyan
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -65,6 +56,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

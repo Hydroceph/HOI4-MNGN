@@ -1,80 +1,74 @@
 characters = {
-	DFR_16777828 = {
-		name = Abd_al-Karim_al_Saud
+	DFR_67109871 = {
+		name = Zakaria_Ibrahim
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_Portrait_South_Africa_Political_Leader_Generic_2
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	DFR_16778227 = {
-		name = Hisham_al_Rashid
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { commando old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	DFR_33557944 = {
-		name = Ishaq_ibn_Umar
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer engineer_officer organizer }
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 3
-		}
-	}
-	DFR_33558583 = {
-		name = Ali_al-Mahdi
+	DFR_67113097 = {
+		name = Yusuf_al_Ulayyan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_33558583
+			idea_token = i_67113097
 			cost = 150
 		}
 	}
-	DFR_33560657 = {
-		name = Halil_al_Saud
+	DFR_83888330 = {
+		name = Abu_Bakr_ibn_Muhammad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { technocrat }
 			slot = political_advisor
-			idea_token = i_33560657
+			idea_token = i_83888330
 			cost = 150
 		}
 	}
-	DFR_50332734 = {
-		name = Jussuf_al-Mahdi
+	DFR_83889186 = {
+		name = Umar_Lel_Khalid
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_83889186
+			cost = 150
+		}
+	}
+	DFR_100664325 = {
+		name = Harun_Keira
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_100664325
+			cost = 150
+		}
+	}
+	DFR_100667052 = {
+		name = Ishaq_ibm_Kamil
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -83,108 +77,35 @@ characters = {
 		advisor = {
 			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50332734
+			idea_token = i_100667052
 			cost = 150
 		}
 	}
-	DFR_50333929 = {
-		name = Hisham_Al_Sharqi
+	DFR_117441354 = {
+		name = Tunsam_Badl
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_50333929
+			idea_token = i_117441354
 			cost = 150
 		}
 	}
-	DFR_50334012 = {
-		name = Abd_al-Karim_ibn_Hisham
+	DFR_151000508 = {
+		name = Jussuf_Bakri
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50334012
-			cost = 150
-		}
-	}
-	DFR_50334372 = {
-		name = Gibril_al-Mahdi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_50334372
-			cost = 150
-		}
-	}
-	DFR_67109717 = {
-		name = Tawfiq_ibn_Salim
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_2
-				small = GFX_Portrait_Arabia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	DFR_67110975 = {
-		name = Sulayman_Keira
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { adventurous_daredevil }
-			slot = political_advisor
-			idea_token = i_67110975
-			cost = 150
-		}
-	}
-	DFR_67111308 = {
-		name = Ahmad_al-Mahdi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { resistance_banker }
-			slot = political_advisor
-			idea_token = i_67111308
-			cost = 150
-		}
-	}
-	DFR_100664430 = {
-		name = Fawzi_ibn_Hisham
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_100664430
+			idea_token = i_151000508
 			cost = 150
 		}
 	}

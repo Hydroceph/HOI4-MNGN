@@ -1,30 +1,46 @@
 characters = {
-	HAW_2847 = {
-		name = Kamehameha_IV_Kamehameha
+	HAW_134220707 = {
+		name = Iosepa_Kamakahi
 		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = fascism_ideology
 			traits = {  }
 		}
-		field_marshal = {
-			traits = { armor_officer politically_connected }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+	}
+	HAW_33559284 = {
+		name = Kekaulike_Nakuina
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_33559284
+			cost = 150
 		}
 	}
-	HAW_33558037 = {
-		name = Lewi_Pua
+	HAW_67111983 = {
+		name = _Enoka_Kamehameha
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67111983
+			cost = 150
+		}
+	}
+	HAW_100665062 = {
+		name = Kauakahiakua_Keawe
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -33,134 +49,78 @@ characters = {
 		advisor = {
 			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33558037
+			idea_token = i_100665062
 			cost = 150
 		}
 	}
-	HAW_33558709 = {
-		name = Hairama_Kawelo
+	HAW_100665272 = {
+		name = Ieremia_Maikai
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33558709
+			idea_token = i_100665272
 			cost = 150
 		}
 	}
-	HAW_33559609 = {
-		name = Beniamina_Akina
-		portraits = {
-			navy = {
-				large = GFX_Portrait_asia_generic_navy_4
-				small = GFX_Portrait_asia_generic_navy_4_small
-			}
-		}
-		navy_leader = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	HAW_50332167 = {
-		name = Dani_ela_Hohopa
+	HAW_100666926 = {
+		name = Kolomona_Kekumano
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_50332167
+			idea_token = i_100666926
 			cost = 150
 		}
 	}
-	HAW_67110115 = {
-		name = Ha_alo_u_Keoua
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox harsh_leader organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
-	HAW_67110769 = {
-		name = Kahanamoku_Kanehoa
+	HAW_117444695 = {
+		name = _Anederea_Kahauolopua
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_67110769
+			idea_token = i_117444695
 			cost = 150
 		}
 	}
-	HAW_67111100 = {
-		name = Paulo_Kahanamoku
+	HAW_167778667 = {
+		name = Keoki_Iaukea
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67111100
+			idea_token = i_167778667
 			cost = 150
 		}
 	}
-	HAW_67112573 = {
-		name = Zakaria_Hakuole
+	HAW_184550754 = {
+		name = Beniamina_Kaluna
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_67112573
+			idea_token = i_184550754
 			cost = 150
-		}
-	}
-	HAW_83889666 = {
-		name = Mataio_Pavao
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_83889666
-			cost = 150
-		}
-	}
-	HAW_100663330 = {
-		name = Io_ela_Kamehameha
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
 		}
 	}
 }

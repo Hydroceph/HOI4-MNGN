@@ -1,9 +1,9 @@
 characters = {
-	INS_16780698 = {
-		name = Maurits_Melvill_van_Carnbee
+	INS_50333221 = {
+		name = Stefan_van_den_Velden
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_8
+				large = GFX_Portrait_Europe_Generic_3
 			}
 		}
 		country_leader = {
@@ -11,135 +11,25 @@ characters = {
 			traits = {  }
 		}
 	}
-	INS_16780514 = {
-		name = Constantijn_Stuyvesant
-		portraits = {
-			army = {
-				large = GFX_portrait_europe_generic_land_13
-				small = GFX_portrait_europe_generic_land_13_small
-			}
-		}
-		corps_commander = {
-			traits = { desert_fox old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	INS_16782119 = {
-		name = Moritz_van_Keppel
-		portraits = {
-			army = {
-				large = GFX_Portrait_europe_generic_land_6
-				small = GFX_Portrait_europe_generic_land_6_small
-			}
-			civilian = {
-			}
-		}
-		field_marshal = {
-			traits = { career_officer ranger }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_16782119
-			cost = 150
-		}
-	}
-	INS_16782196 = {
-		name = Thomas_Schimmelpenninck_van_der_Oye
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_3
-				small = GFX_Portrait_Europe_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert media_personality }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	INS_16783623 = {
-		name = Eduardus_de_Vos_van_Steenwijk
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist old_guard }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 5
-			planning_skill = 1
-			logistics_skill = 4
-		}
-	}
-	INS_33554529 = {
-		name = Daniel_Lampsins
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
-			}
-		}
-		field_marshal = {
-			traits = { career_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	INS_33554835 = {
-		name = Christoffel_van_Coeverden
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_4
-				small = GFX_Portrait_Europe_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { naval_invader }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	INS_33556144 = {
-		name = Antoon_Coehoorn
+	INS_50333010 = {
+		name = Victor_van_Doorn
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_8
 				small = GFX_portrait_europe_generic_land_8_small
 			}
 		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 1
-			logistics_skill = 3
+		field_marshal = {
+			traits = { organizer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	INS_33556195 = {
-		name = Elias_van_Dambenoy
+	INS_67111050 = {
+		name = Christoffel_de_Vos_van_Steenwijk
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_7
@@ -147,64 +37,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer politically_connected }
+			traits = { infantry_officer trait_mountaineer }
 			skill = 2
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
+			defense_skill = 3
+			planning_skill = 1
 			logistics_skill = 4
 		}
 	}
-	INS_33557934 = {
-		name = Matthijs_De_Geer
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { liberal_journalist }
-			slot = political_advisor
-			idea_token = i_33557934
-			cost = 150
-		}
-	}
-	INS_33559400 = {
-		name = Pauwel_de_Vos_van_Steenwijk
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Europe_Generic_navy_2
-				small = GFX_Portrait_Europe_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { bold chief_engineer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	INS_33560762 = {
-		name = Roeland_van_Boetzelaer
-		portraits = {
-			navy = {
-				large = GFX_portrait_europe_generic_navy_5
-				small = GFX_portrait_europe_generic_navy_5_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer gentlemanly }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-	}
-	INS_33561079 = {
-		name = Adolf_van_Saksen-Weimar
+	INS_67112714 = {
+		name = Gijsbert_Kruys
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_2
@@ -212,75 +54,58 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
+			traits = { commando }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 3
+			logistics_skill = 2
 		}
 	}
-	INS_50331804 = {
-		name = Frans_Kohler
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_50331804
-			cost = 150
-		}
-	}
-	INS_50334328 = {
-		name = Stefan_Rijk
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { communist_revolutionary }
-			slot = political_advisor
-			idea_token = i_50334328
-			cost = 150
-		}
-	}
-	INS_50334851 = {
-		name = Hugo_Gregory
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { popular_figurehead }
-			slot = political_advisor
-			idea_token = i_50334851
-			cost = 150
-		}
-	}
-	INS_67109005 = {
-		name = Rogier_van_Oranje-Nassau
+	INS_83888553 = {
+		name = Barthout_Brouwer
 		portraits = {
 			army = {
 				large = GFX_Portrait_Europe_Generic_land_3
 				small = GFX_Portrait_Europe_Generic_land_3_small
 			}
+			civilian = {
+			}
 		}
 		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			traits = { armor_officer infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_83888553
+			cost = 150
 		}
 	}
-	INS_67110292 = {
-		name = Gaspar_Engelvaart
+	INS_83888866 = {
+		name = Daniel_van_Egmont
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_5
+				small = GFX_Portrait_Europe_Generic_land_5_small
+			}
+		}
+		field_marshal = {
+			traits = { cavalry_officer commando }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	INS_83889795 = {
+		name = Dominicus_Melvill_van_Carnbee
 		portraits = {
 			army = {
 				large = GFX_portrait_europe_generic_land_13
@@ -288,16 +113,92 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { harsh_leader infantry_officer }
-			skill = 2
+			traits = {  }
+			skill = 1
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 3
+			defense_skill = 1
+			planning_skill = 1
 			logistics_skill = 1
 		}
 	}
-	INS_67111310 = {
-		name = Gijsbert_De_Geer
+	INS_83892608 = {
+		name = Ernst_van_der_Does
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83892608
+			cost = 150
+		}
+	}
+	INS_100665328 = {
+		name = Christiaan_van_Lynden
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality chief_engineer old_guard_navy }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	INS_100666245 = {
+		name = Hugo_van_Lynden
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_5
+				small = GFX_portrait_europe_generic_navy_5_small
+			}
+		}
+		navy_leader = {
+			traits = { superior_tactician }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	INS_100666410 = {
+		name = Maximiliaam_van_Wesembeke
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100666410
+			cost = 150
+		}
+	}
+	INS_100669075 = {
+		name = Hugo_Batenburg
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_100669075
+			cost = 150
+		}
+	}
+	INS_117441219 = {
+		name = Daniel_2_van_Doorn
 		portraits = {
 			army = {
 				large = GFX_Portrait_europe_generic_land_6
@@ -305,56 +206,121 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer harsh_leader infantry_officer }
-			skill = 4
-			attack_skill = 5
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 4
+			planning_skill = 2
 			logistics_skill = 2
 		}
 	}
-	INS_83887434 = {
-		name = Merkus_Lampsins
+	INS_117441427 = {
+		name = Richardus_van_Oranje-Nassau
 		portraits = {
 			army = {
-				large = GFX_Portrait_Europe_Generic_land_5
-				small = GFX_Portrait_Europe_Generic_land_5_small
+				large = GFX_Portrait_Europe_Generic_land_1
+				small = GFX_Portrait_Europe_Generic_land_1_small
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
-			skill = 1
+			traits = { armor_officer organizer }
+			skill = 2
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	INS_117442677 = {
+		name = Rafael_van_Oranje-Nassau
+		portraits = {
+			navy = {
+				large = GFX_portrait_europe_generic_navy_4
+				small = GFX_portrait_europe_generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { old_guard_navy }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	INS_117444907 = {
+		name = Antonius_van_Boetzelaer
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_4
+				small = GFX_Portrait_Europe_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer harsh_leader old_guard }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
 			logistics_skill = 1
 		}
 	}
-	INS_83889641 = {
-		name = Casimir_Deijkerhoff
+	INS_134219632 = {
+		name = Barthout_van_Saksen-Weimar
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_8
+				small = GFX_portrait_europe_generic_land_8_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer trait_mountaineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	INS_150996247 = {
+		name = Joost_van_den_Bosch
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { great_war_hero }
+			traits = { tenacious_negotiator }
 			slot = political_advisor
-			idea_token = i_83889641
+			idea_token = i_150996247
 			cost = 150
 		}
 	}
-	INS_134219118 = {
-		name = Elias_van_Marnix
+	INS_167774755 = {
+		name = Gustaaf_van_Riebeeck
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { technocrat }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_134219118
+			idea_token = i_167774755
+			cost = 150
+		}
+	}
+	INS_201330007 = {
+		name = Luuk_Spiegel
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_201330007
 			cost = 150
 		}
 	}

@@ -1,30 +1,19 @@
-capital = 590
 
 oob = "KRG_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = KRG_16780203
-recruit_character = KRG_16781126
-recruit_character = KRG_33556650
-recruit_character = KRG_50332235
-recruit_character = KRG_50332624
-recruit_character = KRG_50332994
-recruit_character = KRG_50333614
-recruit_character = KRG_50334219
-recruit_character = KRG_50334969
-recruit_character = KRG_67114473
 recruit_character = KRG_83890877
+recruit_character = KRG_50336504
+recruit_character = KRG_67112055
+recruit_character = KRG_67114661
+recruit_character = KRG_83886637
+recruit_character = KRG_117441472
+recruit_character = KRG_134218049
+recruit_character = KRG_150996101
+recruit_character = KRG_151001496
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Kalema_Nseenene
-		GFX = GFX_portrait_africa_generic_operative_male_8
-		traits = { operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { KRG }
-	}
 }
 
 set_politics = {
@@ -36,13 +25,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 10
-	fascism = 38
-	neutrality = 52
+	democratic = 15
+	fascism = 36
+	neutrality = 49
 }
 
 add_ideas = {
-	KRG_Namugala_Butiko
+	KRG_Kalema_Butiko
 	civilian_economy
 	export_focus
 	volunteer_only

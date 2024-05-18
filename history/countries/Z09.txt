@@ -1,52 +1,46 @@
-capital = 770
 
 oob = "Z09_1936"
 set_research_slots = 2
-declare_war_on = {
-	target = MAH
-	type = annex_everything
-}
+set_convoys = 0
 
-set_convoys = 1
-
-recruit_character = Z09_67114905
-recruit_character = Z09_16779072
-recruit_character = Z09_33555445
-recruit_character = Z09_33558824
-recruit_character = Z09_33560487
-recruit_character = Z09_50331712
-recruit_character = Z09_50332789
-recruit_character = Z09_50336217
-recruit_character = Z09_67111910
-recruit_character = Z09_83887683
+recruit_character = Z09_134217844
+recruit_character = Z09_50336278
+recruit_character = Z09_67115184
+recruit_character = Z09_100664914
+recruit_character = Z09_100665735
+recruit_character = Z09_100668991
+recruit_character = Z09_117443950
+recruit_character = Z09_134220241
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.12.5"
+	ruling_party = fascism
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 49
-	fascism = 26
-	neutrality = 25
+	democratic = 40
+	fascism = 40
+	neutrality = 20
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
-	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

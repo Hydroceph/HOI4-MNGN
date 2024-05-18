@@ -1,46 +1,95 @@
-capital = 64
+capital = 98
 
 oob = "FRA_1936"
 set_research_slots = 4
-set_convoys = 148
+set_convoys = 65
 
-recruit_character = FRA_16782969
-recruit_character = FRA_16778892
-recruit_character = FRA_16784119
-recruit_character = FRA_33556665
-recruit_character = FRA_33556905
-recruit_character = FRA_33557099
-recruit_character = FRA_33557135
-recruit_character = FRA_33558154
-recruit_character = FRA_33559928
-recruit_character = FRA_33560238
-recruit_character = FRA_33560994
-recruit_character = FRA_50331793
-recruit_character = FRA_50332012
-recruit_character = FRA_50332032
-recruit_character = FRA_50332056
-recruit_character = FRA_50333236
-recruit_character = FRA_50333916
-recruit_character = FRA_50334274
-recruit_character = FRA_50334392
-recruit_character = FRA_50334685
-recruit_character = FRA_50334809
-recruit_character = FRA_50337227
-recruit_character = FRA_50337591
-recruit_character = FRA_67108997
-recruit_character = FRA_67109019
-recruit_character = FRA_67109021
-recruit_character = FRA_67109409
-recruit_character = FRA_67110575
-recruit_character = FRA_67111433
-recruit_character = FRA_67111627
-recruit_character = FRA_83886296
-recruit_character = FRA_83886740
-recruit_character = FRA_83887200
-recruit_character = FRA_83889850
-recruit_character = FRA_100663626
+recruit_character = FRA_134217755
+recruit_character = FRA_33558275
+recruit_character = FRA_33558300
+recruit_character = FRA_33560210
+recruit_character = FRA_50333148
+recruit_character = FRA_50333857
+recruit_character = FRA_50334007
+recruit_character = FRA_50335136
+recruit_character = FRA_50335283
+recruit_character = FRA_50335309
+recruit_character = FRA_50335412
+recruit_character = FRA_50336987
+recruit_character = FRA_50337616
+recruit_character = FRA_50338057
+recruit_character = FRA_50338185
+recruit_character = FRA_67109935
+recruit_character = FRA_67111642
+recruit_character = FRA_67111938
+recruit_character = FRA_67112169
+recruit_character = FRA_83888073
+recruit_character = FRA_83888275
+recruit_character = FRA_83888402
+recruit_character = FRA_83889556
+recruit_character = FRA_83890012
+recruit_character = FRA_83890590
+recruit_character = FRA_83890846
+recruit_character = FRA_100663329
+recruit_character = FRA_100663434
+recruit_character = FRA_100663983
+recruit_character = FRA_100664342
+recruit_character = FRA_100664397
+recruit_character = FRA_100664507
+recruit_character = FRA_100664651
+recruit_character = FRA_100665092
+recruit_character = FRA_100665455
+recruit_character = FRA_100665902
+recruit_character = FRA_100666114
+recruit_character = FRA_100666419
+recruit_character = FRA_100668998
+recruit_character = FRA_100669799
+recruit_character = FRA_117440798
+recruit_character = FRA_117441072
+recruit_character = FRA_117441337
+recruit_character = FRA_117441462
+recruit_character = FRA_117441479
+recruit_character = FRA_117442009
+recruit_character = FRA_117442359
+recruit_character = FRA_117442703
+recruit_character = FRA_117443526
+recruit_character = FRA_117443668
+recruit_character = FRA_117444017
+recruit_character = FRA_117445272
+recruit_character = FRA_117446855
+recruit_character = FRA_134218716
+recruit_character = FRA_134221421
+recruit_character = FRA_134221427
+recruit_character = FRA_150998512
+recruit_character = FRA_151001160
+recruit_character = FRA_151001282
+recruit_character = FRA_167774622
+recruit_character = FRA_167775848
+recruit_character = FRA_167778830
+recruit_character = FRA_184549631
+recruit_character = FRA_184549673
+recruit_character = FRA_201326634
+recruit_character = FRA_201327478
+recruit_character = FRA_201327935
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = RenE__Avond
+		GFX = GFX_portrait_europe_generic_operative_male_18
+		traits = { operative_demolition_expert operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { FRA }
+	}
+	create_operative_leader = {
+		name = Juliette_Tassel
+		GFX = GFX_portrait_europe_generic_operative_female_10
+		traits = { operative_natural_orator operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { FRA }
+	}
 }
 
 set_politics = {
@@ -52,9 +101,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 22
-	fascism = 35
-	neutrality = 43
+	democratic = 24
+	fascism = 37
+	neutrality = 39
 }
 
 add_ideas = {
@@ -67,10 +116,13 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -91,9 +143,14 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -113,6 +170,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -173,6 +231,47 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = FRA_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BB_HISTORICAL
+		modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = ship_heavy_battery_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

@@ -1,36 +1,37 @@
-capital = 384
+capital = 337
 
 oob = "JOH_1936"
 set_research_slots = 2
 set_convoys = 1
 
-recruit_character = JOH_2882
-recruit_character = JOH_2883
-recruit_character = JOH_33556009
-recruit_character = JOH_33558070
-recruit_character = JOH_33558629
-recruit_character = JOH_50331845
-recruit_character = JOH_50334820
-recruit_character = JOH_50335360
-recruit_character = JOH_67109822
-recruit_character = JOH_67111855
-recruit_character = JOH_67111954
+recruit_character = JOH_151000551
+recruit_character = JOH_67109137
+recruit_character = JOH_67110727
+recruit_character = JOH_67115424
+recruit_character = JOH_83887520
+recruit_character = JOH_83889350
+recruit_character = JOH_83889388
+recruit_character = JOH_83892363
+recruit_character = JOH_100664510
+recruit_character = JOH_100668728
+recruit_character = JOH_117441506
+recruit_character = JOH_150995667
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1934.7.31"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 16
-	fascism = 36
-	neutrality = 48
+	communism = 44
+	democratic = 42
+	fascism = 13
+	neutrality = 1
 }
 
 add_ideas = {
@@ -43,6 +44,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

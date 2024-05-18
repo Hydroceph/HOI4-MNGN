@@ -1,43 +1,52 @@
-capital = 731
 
 oob = "SIK_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = SIK_33555817
-recruit_character = SIK_16778719
-recruit_character = SIK_16780798
-recruit_character = SIK_16782837
-recruit_character = SIK_33556552
-recruit_character = SIK_33560752
-recruit_character = SIK_33561028
-recruit_character = SIK_50332319
-recruit_character = SIK_50332966
-recruit_character = SIK_67109419
-recruit_character = SIK_67115219
-recruit_character = SIK_83887989
-recruit_character = SIK_83891519
+recruit_character = SIK_67112924
+recruit_character = SIK_83887947
+recruit_character = SIK_100664086
+recruit_character = SIK_117442650
+recruit_character = SIK_150997773
+recruit_character = SIK_150997905
+recruit_character = SIK_201328599
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Norbhu_Wangyal
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIK }
+	}
+	create_operative_leader = {
+		name = Andruk_Chophel
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIK }
+	}
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
+	ruling_party = fascism
+	last_election = "1932.10.26"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 10
-	fascism = 38
-	neutrality = 52
+	democratic = 19
+	fascism = 35
+	neutrality = 46
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6

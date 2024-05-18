@@ -1,24 +1,30 @@
-capital = 549
+capital = 511
 
 oob = "HAW_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = HAW_2847
-recruit_character = HAW_33558037
-recruit_character = HAW_33558709
-recruit_character = HAW_33559609
-recruit_character = HAW_50332167
-recruit_character = HAW_67110115
-recruit_character = HAW_67110769
-recruit_character = HAW_67111100
-recruit_character = HAW_67112573
-recruit_character = HAW_83889666
-recruit_character = HAW_100663330
+recruit_character = HAW_134220707
+recruit_character = HAW_33559284
+recruit_character = HAW_67111983
+recruit_character = HAW_100665062
+recruit_character = HAW_100665272
+recruit_character = HAW_100666926
+recruit_character = HAW_117444695
+recruit_character = HAW_167778667
+recruit_character = HAW_184550754
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ehu_Kekuku
+		name = Iosepa_Pua
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_infiltrator operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+	create_operative_leader = {
+		name = Mataio_Muolo
 		GFX = GFX_portrait_operative_unknown
 		traits = {  }
 		bypass_recruitment = no
@@ -28,7 +34,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,14 +42,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 12
-	fascism = 43
-	neutrality = 45
+	democratic = 8
+	fascism = 57
+	neutrality = 35
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6

@@ -1,60 +1,46 @@
 characters = {
-	LAH_16784038 = {
-		name = Shukri_al_Abdali
+	LAH_134218210 = {
+		name = Iskandar_ibn_Abu_Bakr
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_Portrait_Arabia_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = fascism_ideology
 			traits = {  }
 		}
 	}
-	LAH_16783813 = {
-		name = Sa_d_al-Din_ibn_Abd_Allah
+	LAH_67114022 = {
+		name = Ishaq_ibn_Abd_Allah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_16783813
+			idea_token = i_67114022
 			cost = 150
 		}
 	}
-	LAH_33555938 = {
-		name = Iskandar_al-Ali
+	LAH_83888368 = {
+		name = Khalid_Al_Sharqi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { fascist_demagogue }
+			traits = { popular_figurehead }
 			slot = political_advisor
-			idea_token = i_33555938
+			idea_token = i_83888368
 			cost = 150
 		}
 	}
-	LAH_33556249 = {
-		name = Abd_al-Rahman_al_Abdali
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_33556249
-			cost = 150
-		}
-	}
-	LAH_33557564 = {
-		name = Abd_Allah_Nuseibeh
+	LAH_83890212 = {
+		name = Nur_al-Din_al-Hiraki
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -63,12 +49,26 @@ characters = {
 		advisor = {
 			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_33557564
+			idea_token = i_83890212
 			cost = 150
 		}
 	}
-	LAH_33558591 = {
-		name = Nur_al-Din_Mokarzel
+	LAH_83892849 = {
+		name = Sa_d_al-Din_Al-Rahman_Al-Gillani
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_83892849
+			cost = 150
+		}
+	}
+	LAH_100668478 = {
+		name = Fawzi_al-Zaydani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -77,80 +77,35 @@ characters = {
 		advisor = {
 			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_33558591
+			idea_token = i_100668478
 			cost = 150
 		}
 	}
-	LAH_50334036 = {
-		name = Tawfiq_Al_Sharqi
+	LAH_100669536 = {
+		name = Muhammad_ibn_Ahmad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50334036
+			idea_token = i_100669536
 			cost = 150
 		}
 	}
-	LAH_67108867 = {
-		name = Yusuf_ibn_Muhammad
+	LAH_100669878 = {
+		name = Halil_ibn_Ali
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { ideological_crusader }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_67108867
-			cost = 150
-		}
-	}
-	LAH_67111482 = {
-		name = Ahmad_ibn_Ahmad
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_3
-				small = GFX_Portrait_Arabia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer trait_mountaineer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 2
-		}
-	}
-	LAH_83888027 = {
-		name = Khalid_al-Basri
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { grand_fleet_proponent }
-			slot = political_advisor
-			idea_token = i_83888027
-			cost = 150
-		}
-	}
-	LAH_100663601 = {
-		name = Jamal_ibn_Umar
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { prince_of_terror }
-			slot = political_advisor
-			idea_token = i_100663601
+			idea_token = i_100669878
 			cost = 150
 		}
 	}

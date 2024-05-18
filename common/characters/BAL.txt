@@ -1,6 +1,6 @@
 characters = {
-	BAL_2676 = {
-		name = Putra_Klungkung
+	BAL_67111432 = {
+		name = Wayan_Balik_Klungkung
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,47 +11,120 @@ characters = {
 			traits = {  }
 		}
 	}
-	BAL_16780205 = {
-		name = Nengah_Ngakan
+	BAL_50332849 = {
+		name = Wayan_Balik_Ngakan
 		portraits = {
 			army = {
 				large = GFX_Portrait_Asia_Generic_land_1
 				small = GFX_Portrait_Asia_Generic_land_1_small
 			}
-			civilian = {
-			}
 		}
 		corps_commander = {
-			traits = { inflexible_strategist organizer }
+			traits = { cavalry_officer trait_mountaineer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_16780205
-			cost = 150
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	BAL_16783599 = {
-		name = Made_Klungkung
+	BAL_50338510 = {
+		name = Michael_Sjah
+		portraits = {
+			army = {
+				large = GFX_Portrait_Asia_Generic_land_1
+				small = GFX_Portrait_Asia_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist desert_fox old_guard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	BAL_67112595 = {
+		name = Komang_Ngakan
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { propaganda_expert }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_16783599
+			idea_token = i_67112595
 			cost = 150
 		}
 	}
-	BAL_33555515 = {
-		name = Komang_Kompyang
+	BAL_67115305 = {
+		name = Putu_Klungkung
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BAL_83886564 = {
+		name = Edinho_Kolano
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_83886564
+			cost = 150
+		}
+	}
+	BAL_100665721 = {
+		name = Gede_Kompyang
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100665721
+			cost = 150
+		}
+	}
+	BAL_117441966 = {
+		name = Nyoman_Si
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_117441966
+			cost = 150
+		}
+	}
+	BAL_117442440 = {
+		name = Ignacio_Leiwakabessy
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_117442440
+			cost = 150
+		}
+	}
+	BAL_117442556 = {
+		name = Putu_Tjokorda
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Asia_Generic_navy_1
@@ -59,96 +132,29 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { naval_lineage }
+			traits = { caustic_personality chief_engineer old_guard_navy }
 			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	BAL_33556986 = {
-		name = Jordao_Palyama
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_33556986
-			cost = 150
-		}
-	}
-	BAL_33558090 = {
-		name = Ketut_I_Gusti
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_4
-				small = GFX_Portrait_Asia_Generic_land_4_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { commando }
-			skill = 1
 			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-		advisor = {
-			traits = { inexperienced_imperialist }
-			slot = political_advisor
-			idea_token = i_33558090
-			cost = 150
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
 		}
 	}
-	BAL_33558189 = {
-		name = Jordao_Lilipaly
+	BAL_134218711 = {
+		name = Michael_Lilipaly
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { backroom_backstabber }
 			slot = political_advisor
-			idea_token = i_33558189
+			idea_token = i_134218711
 			cost = 150
 		}
 	}
-	BAL_33560643 = {
-		name = Sonny_Hafiedz
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { technocrat }
-			slot = political_advisor
-			idea_token = i_33560643
-			cost = 150
-		}
-	}
-	BAL_50334572 = {
-		name = Ellyas_Leiwakabessy
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { propaganda_expert }
-			slot = political_advisor
-			idea_token = i_50334572
-			cost = 150
-		}
-	}
-	BAL_67114363 = {
+	BAL_134221910 = {
 		name = Dominggus_Sjah
 		portraits = {
 			civilian = {
@@ -158,21 +164,21 @@ characters = {
 		advisor = {
 			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_67114363
+			idea_token = i_134221910
 			cost = 150
 		}
 	}
-	BAL_67115195 = {
-		name = Denny_Sjah
+	BAL_184551279 = {
+		name = Ignacio_Lilipaly
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_67115195
+			idea_token = i_184551279
 			cost = 150
 		}
 	}

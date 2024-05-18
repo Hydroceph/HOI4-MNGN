@@ -1,7 +1,7 @@
 state = {
 	id = 420
 	name = "STATE_420"
-	manpower = 898513
+	manpower = 1335735
 	resources = {
 		tungsten = 1
 	}
@@ -11,20 +11,17 @@ state = {
 	history = {
 		owner = TUR
 		victory_points = {
-			878 1
+			12046 1
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			9902 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = TUR
 	}
 
 	provinces = {
-		878 893 3937 6814 6857 6923 6952 6967 6982 9818 9862 9888 9902 9919 11813 
+		1600 2097 3795 7977 7994 8123 10793 10876 12046 12372 12413 12839 12855 
 	}
 }

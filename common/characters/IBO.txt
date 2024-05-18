@@ -1,0 +1,134 @@
+characters = {
+	IBO_50333178 = {
+		name = Jiofo_Wachuku
+		portraits = {
+			civilian = {
+				large = GFX_portrait_unknown
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {  }
+		}
+	}
+	IBO_83890520 = {
+		name = Obalike_Wachuku
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	IBO_83891004 = {
+		name = Nnaemeka_Onyeso
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { permanent_revolutionary }
+			slot = political_advisor
+			idea_token = i_83891004
+			cost = 150
+		}
+	}
+	IBO_100665970 = {
+		name = Orji_Nnofo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100665970
+			cost = 150
+		}
+	}
+	IBO_100667794 = {
+		name = Olaudah_Ohuhu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_100667794
+			cost = 150
+		}
+	}
+	IBO_117442791 = {
+		name = Anene_Achebe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_117442791
+			cost = 150
+		}
+	}
+	IBO_117446365 = {
+		name = Obalike_Opobo
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_117446365
+			cost = 150
+		}
+	}
+	IBO_117446549 = {
+		name = Ikenna_Wachuku
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_117446549
+			cost = 150
+		}
+	}
+	IBO_150995089 = {
+		name = Zebenjo_Udene
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_150995089
+			cost = 150
+		}
+	}
+	IBO_167774716 = {
+		name = Obalike_Achebe
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_167774716
+			cost = 150
+		}
+	}
+}

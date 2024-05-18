@@ -1,1 +1,19 @@
 # Naval non-MTG OOB
+units = {
+	fleet = {
+		name = "1. Fleet"
+		naval_base = 1550
+		task_force = {
+			name = "1. Fleet"
+			location = 1550
+			ship = { name = "Destroyer 1" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 2" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 3" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 4" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 5" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 6" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 7" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+			ship = { name = "Destroyer 8" definition = destroyer equipment = { destroyer_1 = {  amount = 1  owner = CUB  version_name = "Early Destroyer" } } }
+		}
+	}
+}

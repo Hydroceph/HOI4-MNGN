@@ -1,33 +1,35 @@
-capital = 294
+capital = 269
 
 oob = "HDJ_1936"
 set_research_slots = 2
-set_convoys = 3
+set_convoys = 2
 
-recruit_character = HDJ_16780186
 recruit_character = HDJ_16780183
-recruit_character = HDJ_16780188
-recruit_character = HDJ_33556197
-recruit_character = HDJ_33556599
-recruit_character = HDJ_33559717
-recruit_character = HDJ_50333841
-recruit_character = HDJ_50334090
-recruit_character = HDJ_67109783
-recruit_character = HDJ_83889270
-recruit_character = HDJ_117441131
+recruit_character = HDJ_16779953
+recruit_character = HDJ_33556219
+recruit_character = HDJ_50334133
+recruit_character = HDJ_67109247
+recruit_character = HDJ_67110716
+recruit_character = HDJ_67112161
+recruit_character = HDJ_83887529
+recruit_character = HDJ_100666602
+recruit_character = HDJ_100668704
+recruit_character = HDJ_117443441
+recruit_character = HDJ_117443460
+recruit_character = HDJ_150997092
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ibrahim_ibn_Ahmad
+		name = Halil_ibm_Kamil
 		GFX = GFX_portrait_arabia_generic_operative_male_4
-		traits = { operative_demolition_expert operative_natural_orator }
+		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { HDJ }
 	}
 }
 
-EGY = {
+ENG = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -51,9 +53,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 17
-	fascism = 36
-	neutrality = 47
+	democratic = 23
+	fascism = 34
+	neutrality = 43
 }
 
 add_ideas = {

@@ -1,23 +1,22 @@
-capital = 823
 
 oob = "TUG_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = TUG_50335038
-recruit_character = TUG_16780549
-recruit_character = TUG_16782217
-recruit_character = TUG_16783717
-recruit_character = TUG_33554579
-recruit_character = TUG_33554849
-recruit_character = TUG_50337079
-recruit_character = TUG_67113771
+recruit_character = TUG_117444015
+recruit_character = TUG_83888957
+recruit_character = TUG_83889936
+recruit_character = TUG_117443000
+recruit_character = TUG_117443147
+recruit_character = TUG_117443426
+recruit_character = TUG_134221442
+recruit_character = TUG_167775618
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ahmed_Tisbaa
-		GFX = GFX_portrait_arabia_generic_operative_male_4
-		traits = { operative_commando }
+		name = Ahmed_al-Shawiyyati
+		GFX = GFX_portrait_arabia_generic_operative_male_2
+		traits = { operative_demolition_expert operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { TUG }
@@ -25,22 +24,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.11.15"
+	ruling_party = fascism
+	last_election = "1935.1.29"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 16
-	fascism = 50
-	neutrality = 34
+	democratic = 6
+	fascism = 37
+	neutrality = 57
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6

@@ -1,29 +1,34 @@
 state = {
 	id = 8
 	name = "STATE_8"
-	manpower = 3387526
+	manpower = 6430675
 	resources = {
-		aluminium = 66
-		steel = 43
+		chromium = 40
+		oil = 20
+		steel = 119
 	}
 
-	state_category = large_town
+	state_category = megalopolis
 
 	history = {
-		owner = GER
+		owner = ENG
 		victory_points = {
-			573 2
+			6318 6
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 1
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			6384 = {
+				naval_base = 10
+			}
+			air_base = 4
 		}
-		add_core_of = GER
+		add_core_of = ENG
 	}
 
 	provinces = {
-		482 514 573 3474 3514 3535 6421 6559 9441 9471 9497 9535 11481 13116 
+		3205 3311 6318 6335 6384 6399 11332 
 	}
 }

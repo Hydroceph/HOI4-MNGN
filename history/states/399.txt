@@ -1,27 +1,24 @@
 state = {
 	id = 399
 	name = "STATE_399"
-	manpower = 588027
-	resources = {
-		aluminium = 24
-	}
+	manpower = 1823969
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = USA
+		owner = SOV
 		victory_points = {
-			6710 1
+			3544 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 		}
-		add_core_of = USA
+		add_core_of = SOV
 	}
 
 	provinces = {
-		691 695 709 751 3766 4854 5205 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731 
+		400 402 524 3254 3544 6567 9290 9316 11274 11329 11357 11385 12562 
 	}
 }

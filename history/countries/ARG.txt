@@ -1,24 +1,37 @@
-capital = 182
+capital = 106
 
 oob = "ARG_1936"
 set_research_slots = 3
 set_convoys = 2
 
-recruit_character = ARG_16780680
-recruit_character = ARG_16778907
-recruit_character = ARG_16779448
-recruit_character = ARG_16780240
-recruit_character = ARG_33555799
-recruit_character = ARG_33556315
-recruit_character = ARG_33557241
-recruit_character = ARG_33560299
-recruit_character = ARG_50335061
-recruit_character = ARG_67110829
-recruit_character = ARG_67114800
-recruit_character = ARG_83886190
-recruit_character = ARG_117444043
+recruit_character = ARG_50335409
+recruit_character = ARG_33558369
+recruit_character = ARG_50334478
+recruit_character = ARG_50338477
+recruit_character = ARG_67110290
+recruit_character = ARG_67112036
+recruit_character = ARG_67112272
+recruit_character = ARG_83887766
+recruit_character = ARG_83891507
+recruit_character = ARG_83891707
+recruit_character = ARG_100665853
+recruit_character = ARG_100666810
+recruit_character = ARG_100668320
+recruit_character = ARG_117441699
+recruit_character = ARG_134218887
+recruit_character = ARG_150998390
+recruit_character = ARG_167774549
+recruit_character = ARG_167774800
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Juan_Lopez
+		GFX = GFX_portrait_europe_generic_operative_male_10
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARG }
+	}
 }
 
 set_politics = {
@@ -30,9 +43,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 18
-	fascism = 38
-	neutrality = 44
+	democratic = 17
+	fascism = 41
+	neutrality = 42
 }
 
 add_ideas = {
@@ -45,6 +58,9 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

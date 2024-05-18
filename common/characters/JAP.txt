@@ -1,7 +1,11 @@
 characters = {
-	JAP_16780083 = {
-		name = Goro_Tokugawa
+	JAP_33560726 = {
+		name = Mitsuomi_Tokugawa
 		portraits = {
+			army = {
+				large = GFX_portrait_unknown
+				small = GFX_portrait_unknown_small
+			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
@@ -10,34 +14,34 @@ characters = {
 			ideology = despotism
 			traits = {  }
 		}
+		field_marshal = {
+			traits = { infantry_officer inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 	}
-	JAP_16779273 = {
-		name = Samata_Kido
+	JAP_50332892 = {
+		name = Kagenori_Minami
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_1
 				small = GFX_Portrait_Japan_Generic_land_1_small
 			}
-			civilian = {
-			}
 		}
 		corps_commander = {
-			traits = { armor_officer career_officer ranger }
-			skill = 3
+			traits = { desert_fox old_guard trait_cautious }
+			skill = 2
 			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_16779273
-			cost = 150
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
-	JAP_16780368 = {
-		name = Tomasaburo_Osumi
+	JAP_50333116 = {
+		name = Hikonojo_Kujo
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_4
@@ -45,33 +49,33 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { brilliant_strategist old_guard ranger }
+			traits = { infantry_officer trait_cautious }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 3
-			planning_skill = 2
+			planning_skill = 3
 			logistics_skill = 1
 		}
 	}
-	JAP_16780834 = {
-		name = Sotokichi_Kuroki
+	JAP_50333181 = {
+		name = Rokuro_Mitsune
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_9
 				small = GFX_Portrait_Japan_Generic_land_9_small
 			}
 		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
+		field_marshal = {
+			traits = { defensive_doctrine infantry_officer inflexible_strategist organizer thorough_planner unyielding_defender }
+			skill = 5
+			attack_skill = 2
+			defense_skill = 7
+			planning_skill = 4
 			logistics_skill = 3
 		}
 	}
-	JAP_16783356 = {
-		name = Takamori_Saigo
+	JAP_50335469 = {
+		name = Masatake_Hayashi
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_8
@@ -79,58 +83,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer infantry_officer inflexible_strategist ranger }
+			traits = { brilliant_strategist infantry_officer old_guard }
 			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
-	JAP_33554735 = {
-		name = Kantaro_Masaki
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { headstrong }
-			slot = political_advisor
-			idea_token = i_33554735
-			cost = 150
-		}
-	}
-	JAP_33557780 = {
-		name = Hiroshi_Yui
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { technocrat }
-			slot = political_advisor
-			idea_token = i_33557780
-			cost = 150
-		}
-	}
-	JAP_33558008 = {
-		name = Yoshimichi_Tamon
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { anti_communist }
-			slot = political_advisor
-			idea_token = i_33558008
-			cost = 150
-		}
-	}
-	JAP_33559771 = {
-		name = Toshimichi_Hayashi
+	JAP_50335579 = {
+		name = Nobuyoshi_Togo
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_6
@@ -138,72 +100,58 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { politically_connected }
-			skill = 1
+			traits = { infantry_officer organizer ranger }
+			skill = 3
 			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 1
 		}
 	}
-	JAP_33560458 = {
-		name = Soroku_Tokugawa
+	JAP_50336825 = {
+		name = Toshiyoshi_Kawakami
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_2
 				small = GFX_Portrait_Japan_Generic_land_2_small
 			}
-			civilian = {
-			}
 		}
-		field_marshal = {
-			traits = { armor_officer career_officer desert_fox }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 1
-		}
-		advisor = {
-			traits = { mass_assault_expert }
-			slot = political_advisor
-			idea_token = i_33560458
-			cost = 150
+		corps_commander = {
+			traits = { organizer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
 		}
 	}
-	JAP_33560726 = {
-		name = Mitsuomi_Tokugawa
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { democratic_crusader }
-			slot = political_advisor
-			idea_token = i_33560726
-			cost = 150
-		}
-	}
-	JAP_50332274 = {
-		name = Yoshimichi_Tokugawa
+	JAP_67110584 = {
+		name = Taro_Yamamoto
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_3
 				small = GFX_Portrait_Japan_Generic_land_3_small
 			}
+			civilian = {
+			}
 		}
 		corps_commander = {
-			traits = { armor_officer naval_invader trait_cautious }
-			skill = 4
-			attack_skill = 4
+			traits = { commando infantry_officer organizer trait_cautious }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { agricultural_capitalist }
+			slot = political_advisor
+			idea_token = i_67110584
+			cost = 150
 		}
 	}
-	JAP_50336857 = {
-		name = Masatake_Matsudaira
+	JAP_67111123 = {
+		name = Toshiyoshi_Togo
 		portraits = {
 			army = {
 				large = GFX_Portrait_Japan_Generic_land_7
@@ -219,8 +167,64 @@ characters = {
 			logistics_skill = 4
 		}
 	}
-	JAP_67109318 = {
-		name = Tomasaburo_Honjo
+	JAP_67112222 = {
+		name = Tetsutaro_Hayashi
+		portraits = {
+			army = {
+				large = GFX_Portrait_Japan_Generic_land_5
+				small = GFX_Portrait_Japan_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer engineer_officer harsh_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	JAP_67112438 = {
+		name = Gonnohyoe_Inoue
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67112438
+			cost = 150
+		}
+	}
+	JAP_67112987 = {
+		name = Hiroshi_Shibayama
+		portraits = {
+			army = {
+				large = GFX_Portrait_Japan_Generic_land_1
+				small = GFX_Portrait_Japan_Generic_land_1_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { commando inflexible_strategist organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_67112987
+			cost = 150
+		}
+	}
+	JAP_83890495 = {
+		name = Yasukata_Jutoku
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -229,52 +233,74 @@ characters = {
 		advisor = {
 			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_67109318
+			idea_token = i_83890495
 			cost = 150
 		}
 	}
-	JAP_67110810 = {
-		name = Kazushige_Kujo
+	JAP_100665526 = {
+		name = Gentaro_Oku
 		portraits = {
 			army = {
-				large = GFX_Portrait_Japan_Generic_land_5
-				small = GFX_Portrait_Japan_Generic_land_5_small
+				large = GFX_Portrait_Japan_Generic_land_4
+				small = GFX_Portrait_Japan_Generic_land_4_small
 			}
 		}
-		corps_commander = {
-			traits = { organizer trait_reckless }
+		field_marshal = {
+			traits = { cavalry_officer desert_fox inflexible_strategist ranger }
 			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
 			logistics_skill = 1
 		}
 	}
-	JAP_83886806 = {
-		name = Rokuro_Tamon
+	JAP_117442336 = {
+		name = Rokuro_Tokugawa
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	JAP_134220913 = {
+		name = Taruhito_Nabeshima
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { conservative_grandee }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_83886806
+			idea_token = i_134220913
 			cost = 150
 		}
 	}
-	JAP_100664657 = {
-		name = Shigeto_Ito
+	JAP_134221175 = {
+		name = Tomonosuke_Katsu
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_100664657
+			idea_token = i_134221175
+			cost = 150
+		}
+	}
+	JAP_150996366 = {
+		name = Yusaku_Okada
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_150996366
 			cost = 150
 		}
 	}

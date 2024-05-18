@@ -1,111 +1,18 @@
 characters = {
-	MGD_2932 = {
-		name = Muhammad_Makakwa_of_Maguindanao
+	MGD_50337879 = {
+		name = Shakirul_Lah_Sali
 		portraits = {
 			civilian = {
-				large = GFX_portrait_unknown
+				large = GFX_Portrait_Asia_Generic_3
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
 	}
-	MGD_16780499 = {
-		name = Iskandar_Sahidulla
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { silent_workhorse }
-			slot = political_advisor
-			idea_token = i_16780499
-			cost = 150
-		}
-	}
-	MGD_16781809 = {
-		name = Mohammad_Pulalun_Kiram_Masiu
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_2
-				small = GFX_Portrait_Asia_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer old_guard }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	MGD_33554596 = {
-		name = Hussin_Borocot
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_1
-				small = GFX_Portrait_Asia_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { navy_career_officer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-	}
-	MGD_33556704 = {
-		name = Jamalul_A_Lam_Ramain
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_33556704
-			cost = 150
-		}
-	}
-	MGD_33556975 = {
-		name = Kawasa_Janjalani
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { socialite_connections }
-			slot = political_advisor
-			idea_token = i_33556975
-			cost = 150
-		}
-	}
-	MGD_33560218 = {
-		name = Iskandar_Jikiri
-		portraits = {
-			army = {
-				large = GFX_Portrait_asia_generic_land_5
-				small = GFX_Portrait_asia_generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist infantry_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	MGD_50331696 = {
-		name = Wasit_of_Maguindanao
+	MGD_67110747 = {
+		name = Iskandar_Usman
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -114,26 +21,26 @@ characters = {
 		advisor = {
 			traits = { resistance_banker }
 			slot = political_advisor
-			idea_token = i_50331696
+			idea_token = i_67110747
 			cost = 150
 		}
 	}
-	MGD_50333327 = {
-		name = Mohammad_Israel_Dimaporo
+	MGD_67112906 = {
+		name = Farouk_Maribo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50333327
+			idea_token = i_67112906
 			cost = 150
 		}
 	}
-	MGD_50334680 = {
-		name = Mangigin_Asarul
+	MGD_83887909 = {
+		name = Sharapud_Din_Borocot
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -142,12 +49,26 @@ characters = {
 		advisor = {
 			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_50334680
+			idea_token = i_83887909
 			cost = 150
 		}
 	}
-	MGD_50338066 = {
-		name = Abul_Maribo
+	MGD_117443691 = {
+		name = Mohammed_Esmail_Kiram_Ramain
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_117443691
+			cost = 150
+		}
+	}
+	MGD_117443716 = {
+		name = Shakirul_Lah_Borocot
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -156,35 +77,49 @@ characters = {
 		advisor = {
 			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_50338066
+			idea_token = i_117443716
 			cost = 150
 		}
 	}
-	MGD_67111055 = {
-		name = Mohammed_Esmail_Kiram_Masiu
+	MGD_134219201 = {
+		name = Mangigin_Sali
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { backroom_windbag }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_67111055
+			idea_token = i_134219201
 			cost = 150
 		}
 	}
-	MGD_83892531 = {
-		name = Wasit_Baloi
+	MGD_134219820 = {
+		name = Bayan_Hashim
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { ideological_crusader }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_83892531
+			idea_token = i_134219820
+			cost = 150
+		}
+	}
+	MGD_218108040 = {
+		name = Abdulmunir_Bansayan
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_218108040
 			cost = 150
 		}
 	}

@@ -11,149 +11,168 @@ characters = {
 			traits = {  }
 		}
 	}
-	ZUL_16778764 = {
-		name = Hehlokazulu_kaMaphitha
+	ZUL_33559015 = {
+		name = Mavumengwana_Zulu
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { headstrong }
 			slot = political_advisor
-			idea_token = i_16778764
+			idea_token = i_33559015
 			cost = 150
 		}
 	}
-	ZUL_16781723 = {
-		name = Mgojana_kaMaphitha
+	ZUL_33561270 = {
+		name = Sigujana_kaDinuzulu
 		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 1
-			logistics_skill = 3
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33561270
+			cost = 150
 		}
 	}
-	ZUL_16782912 = {
-		name = Mgojana_kaMahole
+	ZUL_67109899 = {
+		name = Somopho_kaSenzangakhona
 		portraits = {
 			army = {
-				large = GFX_Portrait_Africa_Generic_land_3
-				small = GFX_Portrait_Africa_Generic_land_3_small
+				large = GFX_Portrait_South_Africa_Army_Generic_2
+				small = GFX_Portrait_South_Africa_Army_Generic_2_small
+			}
+			civilian = {
 			}
 		}
 		corps_commander = {
-			traits = { naval_invader organizer }
+			traits = { naval_invader politically_connected }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	ZUL_33554742 = {
-		name = Mbilini_Sibiya
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
+			logistics_skill = 3
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
-			idea_token = i_33554742
+			idea_token = i_67109899
 			cost = 150
 		}
 	}
-	ZUL_33555920 = {
-		name = Zibhebhu_kaDinuzulu
+	ZUL_83887918 = {
+		name = Mgojana_kaSenzangakhona
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { adventurous_daredevil }
 			slot = political_advisor
-			idea_token = i_33555920
+			idea_token = i_83887918
 			cost = 150
 		}
 	}
-	ZUL_33555926 = {
-		name = Mgojana_kaZikhala
+	ZUL_83890192 = {
+		name = Mgojana_kaMahole
 		portraits = {
+			army = {
+				large = GFX_Portrait_Africa_Generic_land_2
+				small = GFX_Portrait_Africa_Generic_land_2_small
+			}
 			civilian = {
-				small = GFX_idea_unknown
 			}
 		}
+		corps_commander = {
+			traits = { desert_fox harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { mass_assault_expert }
 			slot = political_advisor
-			idea_token = i_33555926
+			idea_token = i_83890192
 			cost = 150
 		}
 	}
-	ZUL_33557306 = {
-		name = Mnyamana_kaMvundlana
+	ZUL_117441401 = {
+		name = Hehlokazulu_kaSihayo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { genial_anti_revolutionary }
 			slot = political_advisor
-			idea_token = i_33557306
+			idea_token = i_117441401
 			cost = 150
 		}
 	}
-	ZUL_50333017 = {
-		name = Somopho_waMswati
+	ZUL_134223681 = {
+		name = Dingiswayo_kaJama
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Africa_Generic_navy_4
+				small = GFX_Portrait_Africa_Generic_navy_4_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	ZUL_150995047 = {
+		name = Senzagkhona_kaMahole
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50333017
+			idea_token = i_150995047
 			cost = 150
 		}
 	}
-	ZUL_50336009 = {
-		name = Dabulamanzi_Sibiya
+	ZUL_150995237 = {
+		name = Sihayo_Entabeni
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_50336009
+			idea_token = i_150995237
 			cost = 150
 		}
 	}
-	ZUL_83886608 = {
-		name = Dingiswayo_Entabeni
+	ZUL_150997110 = {
+		name = Somopho_kaMpande
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_83886608
+			idea_token = i_150997110
 			cost = 150
 		}
 	}

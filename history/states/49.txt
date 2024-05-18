@@ -1,29 +1,33 @@
 state = {
 	id = 49
 	name = "STATE_49"
-	manpower = 7420153
+	manpower = 4950587
 	resources = {
-		aluminium = 52
-		chromium = 40
-		tungsten = 17
+		steel = 33
+		tungsten = 20
 	}
 
-	state_category = town
+	state_category = city
 
 	history = {
 		owner = RAJ
 		victory_points = {
-			1908 1
+			8011 2
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			10190 = {
+				naval_base = 2
+			}
+			air_base = 2
 		}
+		add_core_of = RAJ
 	}
 
 	provinces = {
-		1908 2054 2092 4149 4971 4984 7905 7998 10847 12743 12829 12886 
+		1412 4315 4344 7244 7391 7395 8011 8100 10190 12146 12734 
 	}
 }

@@ -1,24 +1,39 @@
-capital = 269
+capital = 252
 
 oob = "MAD_1936"
 set_research_slots = 2
-set_convoys = 2
+set_convoys = 1
 
-recruit_character = MAD_6820
-recruit_character = MAD_16778781
-recruit_character = MAD_33556991
-recruit_character = MAD_33559634
-recruit_character = MAD_33560929
 recruit_character = MAD_50331694
-recruit_character = MAD_67109319
-recruit_character = MAD_67109340
+recruit_character = MAD_16783698
+recruit_character = MAD_50334991
 recruit_character = MAD_67109464
-recruit_character = MAD_67109974
-recruit_character = MAD_67113913
-recruit_character = MAD_83888567
-recruit_character = MAD_100665035
+recruit_character = MAD_67110778
+recruit_character = MAD_67111904
+recruit_character = MAD_67115417
+recruit_character = MAD_83888377
+recruit_character = MAD_117441014
+recruit_character = MAD_117442526
+recruit_character = MAD_134218803
+recruit_character = MAD_150995512
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Rainilaiarivony_Razafindramary
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAD }
+	}
+	create_operative_leader = {
+		name = Ndriantompoinairivo_Razafindramary
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MAD }
+	}
 }
 
 set_politics = {
@@ -31,8 +46,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 13
-	fascism = 36
-	neutrality = 51
+	fascism = 37
+	neutrality = 50
 }
 
 add_ideas = {

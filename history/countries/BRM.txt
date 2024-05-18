@@ -1,41 +1,24 @@
-capital = 390
+capital = 376
 
 oob = "BRM_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = BRM_16777688
-recruit_character = BRM_16778871
 recruit_character = BRM_16779453
-recruit_character = BRM_16779840
-recruit_character = BRM_16779931
-recruit_character = BRM_16784112
-recruit_character = BRM_33558866
-recruit_character = BRM_33560898
-recruit_character = BRM_50331908
-recruit_character = BRM_50334576
-recruit_character = BRM_67112309
-recruit_character = BRM_67114130
-recruit_character = BRM_67115235
-recruit_character = BRM_83886161
+recruit_character = BRM_50333920
+recruit_character = BRM_67110625
+recruit_character = BRM_83886455
+recruit_character = BRM_83887528
+recruit_character = BRM_83892967
+recruit_character = BRM_100663995
+recruit_character = BRM_100665105
+recruit_character = BRM_117441728
+recruit_character = BRM_117442001
+recruit_character = BRM_134223996
+recruit_character = BRM_150996770
+recruit_character = BRM_150998521
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Naungdawkyi_Bandula
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_demolition_expert operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { BRM }
-	}
-	create_operative_leader = {
-		name = Gabyidaw_Dabayin
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_safe_cracker }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { BRM }
-	}
 }
 
 set_politics = {
@@ -47,9 +30,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
+	democratic = 14
 	fascism = 37
-	neutrality = 50
+	neutrality = 49
 }
 
 add_ideas = {

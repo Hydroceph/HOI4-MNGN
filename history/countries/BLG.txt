@@ -2,21 +2,27 @@ capital = 655
 
 oob = "BLG_1936"
 set_research_slots = 2
-set_convoys = 2
+set_convoys = 0
 
-recruit_character = BLG_2708
-recruit_character = BLG_16780899
-recruit_character = BLG_33555975
-recruit_character = BLG_33559588
 recruit_character = BLG_33561137
-recruit_character = BLG_50332818
-recruit_character = BLG_50333940
-recruit_character = BLG_50334608
-recruit_character = BLG_67111297
-recruit_character = BLG_83888384
-recruit_character = BLG_83889921
+recruit_character = BLG_50332311
+recruit_character = BLG_67111790
+recruit_character = BLG_83888755
+recruit_character = BLG_83889026
+recruit_character = BLG_83889548
+recruit_character = BLG_117441641
+recruit_character = BLG_134220448
+recruit_character = BLG_184550441
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Shahabuddin_Aadzam
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_infiltrator operative_natural_orator operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BLG }
+	}
 }
 
 set_politics = {
@@ -28,9 +34,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 41
-	neutrality = 46
+	democratic = 9
+	fascism = 43
+	neutrality = 48
 }
 
 add_ideas = {

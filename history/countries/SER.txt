@@ -1,37 +1,24 @@
-capital = 52
+capital = 57
 
 oob = "SER_1936"
 set_research_slots = 3
 set_convoys = 0
 
-recruit_character = SER_33555491
-recruit_character = SER_3077
-recruit_character = SER_16778751
-recruit_character = SER_33555057
-recruit_character = SER_33556019
-recruit_character = SER_33556122
-recruit_character = SER_33559426
-recruit_character = SER_50332617
+recruit_character = SER_117442470
 recruit_character = SER_50334127
-recruit_character = SER_50337835
+recruit_character = SER_50337955
+recruit_character = SER_67109386
+recruit_character = SER_83886445
+recruit_character = SER_83887128
+recruit_character = SER_83887584
+recruit_character = SER_83889610
+recruit_character = SER_83890170
+recruit_character = SER_100666534
+recruit_character = SER_117445627
+recruit_character = SER_150996981
+recruit_character = SER_151001073
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Zvezdan_Stepanovic
-		GFX = GFX_portrait_europe_generic_operative_male_25
-		traits = { operative_demolition_expert operative_master_interrogator operative_natural_orator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SER }
-	}
-	create_operative_leader = {
-		name = Vaselien_Veric
-		GFX = GFX_portrait_europe_generic_operative_male_10
-		traits = { operative_linguist }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SER }
-	}
 }
 
 TUR = {
@@ -58,13 +45,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 22
-	fascism = 35
-	neutrality = 43
+	democratic = 16
+	fascism = 42
+	neutrality = 42
 }
 
 add_ideas = {
-	SER_Milan_Obrenovic
+	SER_Alaksandar_Obrenovic
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -74,6 +61,7 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	basic_train = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
@@ -98,9 +86,12 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -180,6 +171,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = SER_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

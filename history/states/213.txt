@@ -1,28 +1,29 @@
 state = {
 	id = 213
 	name = "STATE_213"
-	manpower = 1152540
+	manpower = 8639018
+	resources = {
+		tungsten = 3
+	}
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = USA
+		owner = JAP
 		victory_points = {
-			7315 1
+			1067 20
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			7386 = {
-				naval_base = 1
-			}
-			air_base = 1
+			dockyard = 1
+			air_base = 5
 		}
-		add_core_of = USA
+		add_core_of = JAP
 	}
 
 	provinces = {
-		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10687 10690 10693 12155 12214 12673 
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
 	}
 }

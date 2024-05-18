@@ -1,47 +1,35 @@
 characters = {
-	SOV_67108929 = {
-		name = Konstantin_Belevsky-Zhukovsky
+	SOV_16780300 = {
+		name = Pyotr_Belevsky-Zhukovsky
 		portraits = {
-			army = {
-				large = GFX_portrait_unknown
-				small = GFX_portrait_unknown_small
-			}
 			civilian = {
 				large = GFX_portrait_unknown
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = oligarchism
 			traits = {  }
 		}
-		field_marshal = {
-			traits = { career_officer cavalry_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
 	}
-	SOV_16778381 = {
-		name = Oleg_Witte
+	SOV_33557916 = {
+		name = Yevgeny_Witte
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_1
 				small = GFX_Portrait_Soviet_Generic_land_1_small
 			}
 		}
-		corps_commander = {
-			traits = { politically_connected ranger trait_reckless }
-			skill = 3
+		field_marshal = {
+			traits = { career_officer infantry_officer logistics_wizard organizer trait_cautious }
+			skill = 4
 			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
-	SOV_16778660 = {
-		name = Dmitry_Adlerberg
+	SOV_33559366 = {
+		name = Kirill_Matveyev
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Magic_Winner
@@ -49,61 +37,33 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer infantry_officer organizer trait_cautious }
-			skill = 5
-			attack_skill = 3
-			defense_skill = 6
-			planning_skill = 5
-			logistics_skill = 3
+			traits = { career_officer cavalry_officer commando ranger }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
-	SOV_16778667 = {
-		name = Anton_Golitsyn
+	SOV_33559904 = {
+		name = Yevgeny_Ignatiev
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_9
 				small = GFX_Portrait_Soviet_Generic_land_9_small
 			}
 		}
-		corps_commander = {
-			traits = { armor_officer trait_cautious }
-			skill = 2
-			attack_skill = 2
+		field_marshal = {
+			traits = { naval_invader organizer politically_connected thorough_planner }
+			skill = 3
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+			planning_skill = 5
+			logistics_skill = 3
 		}
 	}
-	SOV_16778891 = {
-		name = Viktor_Grishin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_16778891
-			cost = 150
-		}
-	}
-	SOV_16778910 = {
-		name = Pavel_Belevsky-Zhukovsky
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_16778910
-			cost = 150
-		}
-	}
-	SOV_16778961 = {
-		name = Semyon_Kern
+	SOV_50332022 = {
+		name = Yevgeny_Zavoyko
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_8
@@ -111,169 +71,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer inflexible_strategist }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	SOV_16778971 = {
-		name = Pavel_Yuryevsky
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_6
-				small = GFX_Portrait_Soviet_Generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer inflexible_strategist old_guard organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	SOV_16779003 = {
-		name = Andrei_Yengalychev
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_2
-				small = GFX_Portrait_Soviet_Generic_land_2_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer old_guard organizer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	SOV_16780194 = {
-		name = Fyodor_Kurakin
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_3
-				small = GFX_Portrait_Soviet_Generic_land_3_small
-			}
-		}
-		field_marshal = {
-			traits = { armor_officer career_officer desert_fox }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	SOV_16780269 = {
-		name = Oleg_Putyatin
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_7
-				small = GFX_Portrait_Soviet_Generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { cavalry_officer desert_fox }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SOV_16780341 = {
-		name = Lev_Volkonsky
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_5
-				small = GFX_Portrait_Soviet_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader inflexible_strategist old_guard }
+			traits = { infantry_officer politically_connected }
 			skill = 4
-			attack_skill = 5
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SOV_16780432 = {
-		name = Grigoriy_Rostopchin
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_4
-				small = GFX_Portrait_Soviet_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader organizer }
-			skill = 2
 			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SOV_16780449 = {
-		name = Roman_Bestuzhev-Ryumin
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_1
-				small = GFX_Portrait_Soviet_Generic_land_1_small
-			}
-		}
-		field_marshal = {
-			traits = { engineer_officer }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
-		}
-	}
-	SOV_16780582 = {
-		name = Yegor_Bulatovich
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Magic_Winner
-				small = GFX_Portrait_Soviet_Magic_Winner_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 5
+			defense_skill = 4
 			planning_skill = 2
 			logistics_skill = 4
 		}
 	}
-	SOV_16781374 = {
-		name = Konstantin_Hoyningen-Huene
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_9
-				small = GFX_Portrait_Soviet_Generic_land_9_small
-			}
-		}
-		corps_commander = {
-			traits = { politically_connected trait_reckless }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
-	SOV_16782930 = {
-		name = Anton_Demidov
+	SOV_50333480 = {
+		name = Vladimir_Nikolaevich
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_1
@@ -281,41 +88,50 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { aviation_enthusiast cuts_corners seawolf }
+			traits = { caustic_personality gunnery_expert old_guard_navy }
 			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			maneuvering_skill = 4
-			coordination_skill = 2
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 4
 		}
 	}
-	SOV_16783559 = {
-		name = Roman_Pistohlkors
+	SOV_50333821 = {
+		name = Nikita_Golitsyn
 		portraits = {
 			army = {
-				large = GFX_Portrait_Soviet_Generic_land_8
-				small = GFX_Portrait_Soviet_Generic_land_8_small
-			}
-			civilian = {
+				large = GFX_Portrait_Soviet_Generic_land_6
+				small = GFX_Portrait_Soviet_Generic_land_6_small
 			}
 		}
-		field_marshal = {
-			traits = { charismatic naval_invader politically_connected }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
+		corps_commander = {
+			traits = { cavalry_officer desert_fox infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 4
-		}
-		advisor = {
-			traits = { great_war_hero }
-			slot = political_advisor
-			idea_token = i_16783559
-			cost = 150
+			logistics_skill = 2
 		}
 	}
-	SOV_16783785 = {
-		name = Vladimir_Yuryevsky
+	SOV_50333849 = {
+		name = Yegor_Yusupov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_2
+				small = GFX_Portrait_Soviet_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer old_guard }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SOV_50334160 = {
+		name = Andrei_Skobelev
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_3
@@ -323,16 +139,16 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { gentlemanly gunnery_expert naval_lineage }
-			skill = 3
+			traits = {  }
+			skill = 1
 			attack_skill = 1
-			defense_skill = 3
-			maneuvering_skill = 2
-			coordination_skill = 4
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
 		}
 	}
-	SOV_33555960 = {
-		name = Leonid_Pistohlkors
+	SOV_50335687 = {
+		name = Vasily_Matveyev
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_2
@@ -340,33 +156,67 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { aviation_enthusiast old_guard_navy }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
+			traits = { cuts_corners seawolf }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
 		}
 	}
-	SOV_33556276 = {
-		name = Maxim_Bestuzhev-Ryumin
+	SOV_50335987 = {
+		name = Dmitry_Kelch
 		portraits = {
 			army = {
-				large = GFX_Portrait_Soviet_Generic_land_6
-				small = GFX_Portrait_Soviet_Generic_land_6_small
+				large = GFX_Portrait_Soviet_Generic_land_3
+				small = GFX_Portrait_Soviet_Generic_land_3_small
 			}
 		}
-		field_marshal = {
-			traits = { cavalry_officer desert_fox trait_mountaineer }
+		corps_commander = {
+			traits = { infantry_officer inflexible_strategist }
 			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
 			logistics_skill = 2
 		}
 	}
-	SOV_33556904 = {
-		name = Oleg_Kushelev-Bezborodko
+	SOV_67109148 = {
+		name = Grand_Duke_Nicholas_Romanov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_7
+				small = GFX_Portrait_Soviet_Generic_land_7_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SOV_67109215 = {
+		name = Mikhail_Frolov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_5
+				small = GFX_Portrait_Soviet_Generic_land_5_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SOV_67110212 = {
+		name = Fyodor_Nebogatov
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_1
@@ -374,37 +224,161 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { gunnery_expert naval_lineage }
-			skill = 3
+			traits = { caustic_personality }
+			skill = 2
 			attack_skill = 2
-			defense_skill = 3
-			maneuvering_skill = 2
-			coordination_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 3
 		}
 	}
-	SOV_33556970 = {
-		name = Anton_Bulatovich
+	SOV_67110479 = {
+		name = Leonid_Greig
 		portraits = {
 			army = {
-				large = GFX_Portrait_Soviet_Generic_land_2
-				small = GFX_Portrait_Soviet_Generic_land_2_small
+				large = GFX_Portrait_Soviet_Generic_land_4
+				small = GFX_Portrait_Soviet_Generic_land_4_small
 			}
 		}
 		corps_commander = {
-			traits = { career_officer desert_fox }
+			traits = { infantry_officer old_guard organizer }
 			skill = 2
-			attack_skill = 3
+			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
-	SOV_33556974 = {
-		name = Fyodor_von_Mohrenheim
+	SOV_67110657 = {
+		name = Grigoriy_Greig
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_1
+				small = GFX_Portrait_Soviet_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist cavalry_officer commando organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SOV_67110667 = {
+		name = Fyodor_Romanov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Magic_Winner
+				small = GFX_Portrait_Soviet_Magic_Winner_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer trait_cautious }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 6
+			logistics_skill = 2
+		}
+	}
+	SOV_67112346 = {
+		name = Semyon_Brusilov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { anti_communist }
+			slot = political_advisor
+			idea_token = i_67112346
+			cost = 150
+		}
+	}
+	SOV_67115127 = {
+		name = Oleg_Kamensky
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_9
+				small = GFX_Portrait_Soviet_Generic_land_9_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer commando organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { inexperienced_imperialist }
+			slot = political_advisor
+			idea_token = i_67115127
+			cost = 150
+		}
+	}
+	SOV_67115378 = {
+		name = Vladimir_Ignatiev
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_3
 				small = GFX_Portrait_Soviet_Generic_navy_3_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	SOV_83886836 = {
+		name = Lev_Adlerberg
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Soviet_Generic_navy_2
+				small = GFX_Portrait_Soviet_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { chief_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	SOV_83887396 = {
+		name = Anton_Buturlin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_8
+				small = GFX_Portrait_Soviet_Generic_land_8_small
+			}
+		}
+		field_marshal = {
+			traits = { infantry_officer organizer thorough_planner trait_cautious }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 1
+		}
+	}
+	SOV_83887650 = {
+		name = Anton_Kurakin
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Soviet_Generic_navy_1
+				small = GFX_Portrait_Soviet_Generic_navy_1_small
 			}
 		}
 		navy_leader = {
@@ -416,175 +390,39 @@ characters = {
 			coordination_skill = 2
 		}
 	}
-	SOV_33557153 = {
-		name = Sergei_Witte
+	SOV_83888169 = {
+		name = Nikita_Makarov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_6
+				small = GFX_Portrait_Soviet_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer organizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_83888189 = {
+		name = Yevgeny_Konstantinov
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { education_reformer }
+			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_33557153
+			idea_token = i_83888189
 			cost = 150
 		}
 	}
-	SOV_33557302 = {
-		name = Konstantin_Adlerberg
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_2
-				small = GFX_Portrait_Soviet_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer media_personality }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	SOV_33557549 = {
-		name = Grigoriy_Kurakin
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_3
-				small = GFX_Portrait_Soviet_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer cavalry_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	SOV_33557591 = {
-		name = Yuri_Dolgorukov
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_7
-				small = GFX_Portrait_Soviet_Generic_land_7_small
-			}
-		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	SOV_33557681 = {
-		name = Ivan_Kamensky
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_1
-				small = GFX_Portrait_Soviet_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { battleship_adherent old_guard_navy }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 1
-		}
-	}
-	SOV_33557701 = {
-		name = Roman_Witte
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_5
-				small = GFX_Portrait_Soviet_Generic_land_5_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer commando harsh_leader }
-			skill = 2
-			attack_skill = 4
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	SOV_33557739 = {
-		name = Konstantin_Fikelmon
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_4
-				small = GFX_Portrait_Soviet_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = {  }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	SOV_33558045 = {
-		name = Mikhail_Skobelev
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_1
-				small = GFX_Portrait_Soviet_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer politically_connected trait_reckless }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			planning_skill = 4
-			logistics_skill = 3
-		}
-	}
-	SOV_33560184 = {
-		name = Konstantin_Kern
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Magic_Winner
-				small = GFX_Portrait_Soviet_Magic_Winner_small
-			}
-		}
-		corps_commander = {
-			traits = { brilliant_strategist engineer_officer organizer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	SOV_33560281 = {
-		name = Maxim_Orlov
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_9
-				small = GFX_Portrait_Soviet_Generic_land_9_small
-			}
-		}
-		field_marshal = {
-			traits = { infantry_officer trait_cautious }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	SOV_33560330 = {
-		name = Konstantin_Adlerberg
+	SOV_83888558 = {
+		name = Gennady_Greig
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_3
@@ -592,34 +430,274 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { caustic_personality gunnery_expert naval_lineage old_guard_navy }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
+			traits = { arctic_water_expert aviation_enthusiast }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
 			maneuvering_skill = 2
-			coordination_skill = 4
+			coordination_skill = 1
 		}
 	}
-	SOV_33560569 = {
-		name = Nikolai_Grishin
+	SOV_83888989 = {
+		name = Oleg_Brusilov
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { ideological_crusader }
 			slot = political_advisor
-			idea_token = i_33560569
+			idea_token = i_83888989
 			cost = 150
 		}
 	}
-	SOV_33560655 = {
-		name = Anton_Yuryevsky
+	SOV_83889509 = {
+		name = Andrei_Bulatovich
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { popular_figurehead }
+			slot = political_advisor
+			idea_token = i_83889509
+			cost = 150
+		}
+	}
+	SOV_83890711 = {
+		name = Anton_Lobanov-Rostovsky
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_2
 				small = GFX_Portrait_Soviet_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { caustic_personality gunnery_expert }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 4
+		}
+	}
+	SOV_83891048 = {
+		name = Vasily_Putyatin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_2
+				small = GFX_Portrait_Soviet_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_83891120 = {
+		name = Nikolai_Lobanov-Rostovsky
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_3
+				small = GFX_Portrait_Soviet_Generic_land_3_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SOV_83892692 = {
+		name = Vasily_Yusupov
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Soviet_Generic_navy_1
+				small = GFX_Portrait_Soviet_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = { media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	SOV_100664234 = {
+		name = Ivan_Frolov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_7
+				small = GFX_Portrait_Soviet_Generic_land_7_small
+			}
+		}
+		corps_commander = {
+			traits = { desert_fox harsh_leader infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SOV_100664502 = {
+		name = Pavel_Sorokin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_5
+				small = GFX_Portrait_Soviet_Generic_land_5_small
+			}
+		}
+		field_marshal = {
+			traits = { career_officer ranger trait_mountaineer trait_reckless }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	SOV_100664522 = {
+		name = Yevgeny_Yengalychev
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_4
+				small = GFX_Portrait_Soviet_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	SOV_100664707 = {
+		name = Fyodor_Kamensky
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_1
+				small = GFX_Portrait_Soviet_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer infantry_officer organizer trait_cautious }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 3
+		}
+	}
+	SOV_100664808 = {
+		name = Grigoriy_Volkonsky
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Magic_Winner
+				small = GFX_Portrait_Soviet_Magic_Winner_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox old_guard organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 1
+		}
+	}
+	SOV_100665279 = {
+		name = Sergei_Vorontsov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_9
+				small = GFX_Portrait_Soviet_Generic_land_9_small
+			}
+		}
+		field_marshal = {
+			traits = { armor_officer harsh_leader offensive_doctrine trait_mountaineer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SOV_100666665 = {
+		name = Grigoriy_Voroshilov
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100666665
+			cost = 150
+		}
+	}
+	SOV_100666843 = {
+		name = Maxim_Demidov
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_8
+				small = GFX_Portrait_Soviet_Generic_land_8_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist commando infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 5
+		}
+		advisor = {
+			traits = { military_theorist }
+			slot = political_advisor
+			idea_token = i_100666843
+			cost = 150
+		}
+	}
+	SOV_100669293 = {
+		name = Oleg_Lopukhin
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_6
+				small = GFX_Portrait_Soviet_Generic_land_6_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	SOV_117440937 = {
+		name = Boris_Volkonsky
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Soviet_Generic_navy_3
+				small = GFX_Portrait_Soviet_Generic_navy_3_small
 			}
 		}
 		navy_leader = {
@@ -631,240 +709,58 @@ characters = {
 			coordination_skill = 1
 		}
 	}
-	SOV_33560950 = {
-		name = Vladislav_Putyatin
+	SOV_117442803 = {
+		name = Aleksandr_Belevsky-Zhukovsky
 		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_8
-				small = GFX_Portrait_Soviet_Generic_land_8_small
+			civilian = {
+				small = GFX_idea_unknown
 			}
 		}
-		corps_commander = {
-			traits = { armor_officer engineer_officer inflexible_strategist organizer }
-			skill = 5
-			attack_skill = 5
-			defense_skill = 3
-			planning_skill = 5
-			logistics_skill = 3
-		}
 	}
-	SOV_50332390 = {
-		name = Ivan_Tolstoy
-		portraits = {
-			army = {
-				large = GFX_Portrait_Soviet_Generic_land_6
-				small = GFX_Portrait_Soviet_Generic_land_6_small
-			}
-		}
-		corps_commander = {
-			traits = { inflexible_strategist organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	SOV_50332800 = {
-		name = Anton_Saltykov
+	SOV_117442973 = {
+		name = Sergei_Bulatovich
 		portraits = {
 			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_1
-				small = GFX_Portrait_Soviet_Generic_navy_1_small
+				large = GFX_Portrait_Soviet_Generic_navy_2
+				small = GFX_Portrait_Soviet_Generic_navy_2_small
 			}
 		}
 		navy_leader = {
-			traits = { chief_engineer gentlemanly old_guard_navy }
-			skill = 2
+			traits = {  }
+			skill = 1
 			attack_skill = 1
-			defense_skill = 3
-			maneuvering_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
 			coordination_skill = 1
 		}
 	}
-	SOV_50332998 = {
-		name = Yevgeny_von_Mohrenheim
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_3
-				small = GFX_Portrait_Soviet_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality old_guard_navy seawolf }
-			skill = 3
-			attack_skill = 5
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-	}
-	SOV_50333832 = {
-		name = Sergei_Saltykov
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_2
-				small = GFX_Portrait_Soviet_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer spotter }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-	}
-	SOV_50333834 = {
-		name = Boris_Kern
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_1
-				small = GFX_Portrait_Soviet_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality chief_engineer gunnery_expert superior_tactician }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 5
-			maneuvering_skill = 2
-			coordination_skill = 5
-		}
-	}
-	SOV_50333837 = {
-		name = Leonid_Lobanov-Rostovsky
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_3
-				small = GFX_Portrait_Soviet_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { arctic_water_expert naval_lineage navy_career_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 1
-			maneuvering_skill = 3
-			coordination_skill = 3
-		}
-	}
-	SOV_50334817 = {
-		name = Yevgeny_Shuvalov
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_50334817
-			cost = 150
-		}
-	}
-	SOV_50335004 = {
-		name = Leonid_Gruzinsky
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_2
-				small = GFX_Portrait_Soviet_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { aviation_enthusiast gunnery_expert navy_career_officer }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 5
-		}
-	}
-	SOV_50335051 = {
-		name = Grigoriy_Demidov
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_1
-				small = GFX_Portrait_Soviet_Generic_navy_1_small
-			}
-		}
-		navy_leader = {
-			traits = { navy_career_officer old_guard_navy }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
-		}
-	}
-	SOV_50335870 = {
-		name = Dmitry_Putyatin
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_50335870
-			cost = 150
-		}
-	}
-	SOV_50335887 = {
-		name = Vladimir_Kushelev-Bezborodko
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_3
-				small = GFX_Portrait_Soviet_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { caustic_personality gentlemanly gunnery_expert old_guard_navy }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			maneuvering_skill = 1
-			coordination_skill = 4
-		}
-	}
-	SOV_50337044 = {
-		name = Fyodor_Dolgorukov
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_2
-				small = GFX_Portrait_Soviet_Generic_navy_2_small
-			}
-		}
-		navy_leader = {
-			traits = { chief_engineer spotter }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-	}
-	SOV_50337934 = {
-		name = Dmitry_Kurakin
+	SOV_117444585 = {
+		name = Dmitry_Pavlov
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_2
 				small = GFX_Portrait_Soviet_Generic_land_2_small
 			}
+			civilian = {
+			}
 		}
 		corps_commander = {
-			traits = { inflexible_strategist organizer }
+			traits = { naval_invader politically_connected }
 			skill = 2
 			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
+			defense_skill = 1
+			planning_skill = 3
 			logistics_skill = 3
 		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_117444585
+			cost = 150
+		}
 	}
-	SOV_67109148 = {
-		name = Grand_Duke_Nicholas_Romanov
+	SOV_117444798 = {
+		name = Vladimir_Tolstoy
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_3
@@ -872,16 +768,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { armor_officer politically_connected }
+			traits = { infantry_officer ranger }
 			skill = 2
-			attack_skill = 2
-			defense_skill = 1
+			attack_skill = 1
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 1
 		}
 	}
-	SOV_67109493 = {
-		name = Gennady_Bulatovich
+	SOV_134219775 = {
+		name = Gennady_Nikolaevich
 		portraits = {
 			navy = {
 				large = GFX_Portrait_Soviet_Generic_navy_1
@@ -889,33 +785,16 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = { arctic_water_expert craven old_guard_navy }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
+			traits = { gunnery_expert naval_lineage old_guard_navy }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
 			maneuvering_skill = 1
-			coordination_skill = 2
+			coordination_skill = 5
 		}
 	}
-	SOV_67112473 = {
-		name = Paul_von_Rennenkampf
-		portraits = {
-			army = {
-				large = GFX_Portrait_Germany_Generic_land_4
-				small = GFX_Portrait_Germany_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer inflexible_strategist trait_reckless }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SOV_67114318 = {
-		name = Vladimir_Putyatin
+	SOV_134220023 = {
+		name = Sergei_Azarov
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_7
@@ -923,33 +802,16 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	SOV_83887055 = {
-		name = Yegor_Kamensky
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Soviet_Generic_navy_3
-				small = GFX_Portrait_Soviet_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { aviation_enthusiast }
+			traits = { organizer trait_cautious }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
 		}
 	}
-	SOV_83888660 = {
-		name = Andrei_Gruzinsky
+	SOV_134221526 = {
+		name = Sergei_Gruzinsky
 		portraits = {
 			army = {
 				large = GFX_Portrait_Soviet_Generic_land_5
@@ -957,26 +819,63 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer old_guard trait_cautious }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 6
-			planning_skill = 2
+			traits = { infantry_officer inflexible_strategist trait_cautious }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	SOV_134222530 = {
+		name = Leonid_Witte
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_4
+				small = GFX_Portrait_Soviet_Generic_land_4_small
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
 			logistics_skill = 3
 		}
 	}
-	SOV_100663402 = {
-		name = Nikolai_Lopukhin
+	SOV_150995034 = {
+		name = Yevgeny_Yusupov
 		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
+			navy = {
+				large = GFX_Portrait_Soviet_Generic_navy_3
+				small = GFX_Portrait_Soviet_Generic_navy_3_small
 			}
 		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_100663402
-			cost = 150
+		navy_leader = {
+			traits = { gunnery_expert naval_lineage }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 1
+			coordination_skill = 5
+		}
+	}
+	SOV_151000838 = {
+		name = Andrei_Lobanov-Rostovsky
+		portraits = {
+			army = {
+				large = GFX_Portrait_Soviet_Generic_land_1
+				small = GFX_Portrait_Soviet_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer desert_fox }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
 }

@@ -1,31 +1,21 @@
-capital = 145
+capital = 239
 
 oob = "BUK_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BUK_2737
-recruit_character = BUK_16777791
-recruit_character = BUK_16778735
-recruit_character = BUK_33558064
-recruit_character = BUK_50332626
-recruit_character = BUK_50336751
-recruit_character = BUK_50338095
-recruit_character = BUK_67109266
 recruit_character = BUK_67110052
-recruit_character = BUK_67111150
-recruit_character = BUK_67111452
-recruit_character = BUK_83886991
+recruit_character = BUK_67109154
+recruit_character = BUK_67109387
+recruit_character = BUK_67109978
+recruit_character = BUK_67115230
+recruit_character = BUK_83887067
+recruit_character = BUK_83887135
+recruit_character = BUK_117443130
+recruit_character = BUK_117443811
+recruit_character = BUK_150997148
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Umar_Bahadur
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_tough }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { BUK }
-	}
 }
 
 set_politics = {
@@ -37,9 +27,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 11
+	democratic = 14
 	fascism = 38
-	neutrality = 51
+	neutrality = 48
 }
 
 add_ideas = {
@@ -52,6 +42,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

@@ -1,31 +1,28 @@
 state = {
 	id = 51
 	name = "STATE_51"
-	manpower = 2273571
+	manpower = 3039321
 	resources = {
-		chromium = 92
+		steel = 47
 	}
 
-	state_category = town
+	state_category = city
 
 	history = {
-		owner = ENG
+		owner = AUS
 		victory_points = {
-			7394 1
+			9660 2
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 0
+			infrastructure = 4
+			industrial_complex = 3
 			arms_factory = 1
-			7394 = {
-				naval_base = 1
-			}
-			air_base = 1
+			air_base = 2
 		}
-		add_core_of = ENG
+		add_core_of = AUS
 	}
 
 	provinces = {
-		6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 
+		679 684 699 716 730 3713 3730 3731 6670 6700 6716 6735 6751 9656 9660 9690 9706 11520 11625 11644 11646 11659 
 	}
 }

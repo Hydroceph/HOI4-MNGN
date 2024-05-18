@@ -1,23 +1,35 @@
-capital = 309
 
 oob = "BRD_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = BRD_16778629
-recruit_character = BRD_16779439
 recruit_character = BRD_16783726
-recruit_character = BRD_33554879
-recruit_character = BRD_33558004
-recruit_character = BRD_50332851
-recruit_character = BRD_50334374
-recruit_character = BRD_50334684
-recruit_character = BRD_67109559
-recruit_character = BRD_67112343
-recruit_character = BRD_83887065
-recruit_character = BRD_100665745
+recruit_character = BRD_33560779
+recruit_character = BRD_50332678
+recruit_character = BRD_50338010
+recruit_character = BRD_67114210
+recruit_character = BRD_67115091
+recruit_character = BRD_83888414
+recruit_character = BRD_83892322
+recruit_character = BRD_201326915
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Kasim_Senyamwisa
+		GFX = GFX_portrait_africa_generic_operative_male_7
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRD }
+	}
+	create_operative_leader = {
+		name = Musawenkosi_Rugamba
+		GFX = GFX_portrait_africa_generic_operative_male_5
+		traits = { operative_commando operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRD }
+	}
 }
 
 set_politics = {
@@ -29,9 +41,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 15
-	fascism = 36
-	neutrality = 49
+	democratic = 22
+	fascism = 34
+	neutrality = 44
 }
 
 add_ideas = {
@@ -44,6 +56,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

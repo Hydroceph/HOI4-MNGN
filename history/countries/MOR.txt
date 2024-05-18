@@ -1,35 +1,49 @@
-capital = 280
+capital = 216
 
 oob = "MOR_1936"
 set_research_slots = 2
-set_convoys = 12
+set_convoys = 4
 
-recruit_character = MOR_67113598
-recruit_character = MOR_16779769
-recruit_character = MOR_16780764
-recruit_character = MOR_16780766
-recruit_character = MOR_33556081
-recruit_character = MOR_33556235
-recruit_character = MOR_33556326
-recruit_character = MOR_33556460
-recruit_character = MOR_33557000
-recruit_character = MOR_50332110
-recruit_character = MOR_50334248
 recruit_character = MOR_50336114
-recruit_character = MOR_50337831
-recruit_character = MOR_83889529
+recruit_character = MOR_33555897
+recruit_character = MOR_67113100
+recruit_character = MOR_83887991
+recruit_character = MOR_83888300
+recruit_character = MOR_83892806
+recruit_character = MOR_100665883
+recruit_character = MOR_100666701
+recruit_character = MOR_117442159
+recruit_character = MOR_117442875
+recruit_character = MOR_134218669
+recruit_character = MOR_134224285
+recruit_character = MOR_184550353
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Ahmed_Imalayen
-		GFX = GFX_portrait_arabia_generic_operative_male_2
-		traits = { operative_natural_orator operative_tough }
+		name = Mustafa_Messaoudi
+		GFX = GFX_portrait_arabia_generic_operative_male_6
+		traits = { operative_natural_orator operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MOR }
 	}
 }
 
+SPR = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = MOR
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = MOR
+	}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.1.1"
@@ -39,21 +53,23 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 35
-	neutrality = 52
+	democratic = 14
+	fascism = 36
+	neutrality = 50
 }
 
 add_ideas = {
 	civilian_economy
 	export_focus
-	volunteer_only
+	limited_conscription
 }
 set_stability = 0.6
 set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

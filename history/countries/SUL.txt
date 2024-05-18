@@ -1,33 +1,19 @@
-capital = 607
 
 oob = "SUL_1936"
 set_research_slots = 2
-set_convoys = 4
+set_convoys = 0
 
-recruit_character = SUL_16778474
-recruit_character = SUL_16778685
-recruit_character = SUL_16779986
-recruit_character = SUL_16780130
-recruit_character = SUL_16780502
-recruit_character = SUL_16780901
-recruit_character = SUL_33555517
-recruit_character = SUL_33558193
-recruit_character = SUL_33558455
-recruit_character = SUL_50333475
-recruit_character = SUL_50334868
-recruit_character = SUL_83887686
-recruit_character = SUL_83888310
-recruit_character = SUL_100666364
+recruit_character = SUL_100669952
+recruit_character = SUL_50333324
+recruit_character = SUL_67112712
+recruit_character = SUL_67115331
+recruit_character = SUL_83888810
+recruit_character = SUL_83892023
+recruit_character = SUL_100669280
+recruit_character = SUL_117440605
+recruit_character = SUL_201327731
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Abdul_Akbar
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_tough }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SUL }
-	}
 }
 
 set_politics = {
@@ -39,9 +25,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 18
-	fascism = 36
-	neutrality = 46
+	democratic = 17
+	fascism = 43
+	neutrality = 40
 }
 
 add_ideas = {
@@ -54,6 +40,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

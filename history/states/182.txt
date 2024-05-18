@@ -1,28 +1,28 @@
 state = {
 	id = 182
 	name = "STATE_182"
-	manpower = 1508880
+	manpower = 930866
+	resources = {
+		aluminium = 13
+		steel = 9
+	}
 
-	state_category = rural
+	state_category = town
 
 	history = {
-		owner = ARG
+		owner = USA
 		victory_points = {
-			12364 20
+			6710 1
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			7621 = {
-				naval_base = 1
-			}
-			air_base = 6
 		}
-		add_core_of = ARG
+		add_core_of = USA
 	}
 
 	provinces = {
-		1555 1568 1596 1624 1639 4573 4602 4643 7621 10375 10390 10402 10418 12351 12364 12379 12394 12409 12494 
+		691 695 709 751 3766 4854 5205 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731 
 	}
 }

@@ -1,6 +1,6 @@
 characters = {
-	BNJ_2710 = {
-		name = Tamjidullah_al-Watsiqu_Billah_Banjar
+	BNJ_67109479 = {
+		name = Jaafar_Banjar
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,163 +11,123 @@ characters = {
 			traits = {  }
 		}
 	}
-	BNJ_33556295 = {
-		name = Idris_Aadzam
+	BNJ_50332028 = {
+		name = Ali_Banjar
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+	}
+	BNJ_67115411 = {
+		name = Abdullah_Riayat_Shah
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_33556295
+			idea_token = i_67115411
 			cost = 150
 		}
 	}
-	BNJ_33557018 = {
-		name = Yusuf_Jamalullail
+	BNJ_83889713 = {
+		name = Aziz_Jamalullail
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { backroom_windbag }
 			slot = political_advisor
-			idea_token = i_33557018
+			idea_token = i_83889713
 			cost = 150
 		}
 	}
-	BNJ_50334032 = {
-		name = Isandar_al-Khairat
+	BNJ_100663954 = {
+		name = Tuanku_bin_Nik
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50334032
+			idea_token = i_100663954
 			cost = 150
 		}
 	}
-	BNJ_50334084 = {
-		name = Riayat_Aadzam
+	BNJ_100665594 = {
+		name = Yusuf_Muadzam
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { permanent_revolutionary }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50334084
+			idea_token = i_100665594
 			cost = 150
 		}
 	}
-	BNJ_50334854 = {
-		name = Jalil_Bendahara
+	BNJ_100666347 = {
+		name = Safiuddin_al-Khairat
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { communist_revolutionary }
+			traits = { socialite_connections }
 			slot = political_advisor
-			idea_token = i_50334854
+			idea_token = i_100666347
 			cost = 150
 		}
 	}
-	BNJ_50337288 = {
-		name = Jaafar_bin_Nik
-		portraits = {
-			navy = {
-				large = GFX_Portrait_Asia_Generic_navy_3
-				small = GFX_Portrait_Asia_Generic_navy_3_small
-			}
-		}
-		navy_leader = {
-			traits = { aviation_enthusiast chief_engineer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 1
-		}
-	}
-	BNJ_67109479 = {
-		name = Jaafar_Banjar
+	BNJ_100668298 = {
+		name = Shahabuddin_Raja_Ahmad
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { prince_of_terror }
+			traits = { liberal_journalist }
 			slot = political_advisor
-			idea_token = i_67109479
+			idea_token = i_100668298
 			cost = 150
 		}
 	}
-	BNJ_67111867 = {
-		name = Jaafar_Riayat_Shah
+	BNJ_134223127 = {
+		name = Isandar_al-Marhum
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_67111867
+			idea_token = i_134223127
 			cost = 150
 		}
 	}
-	BNJ_67112293 = {
-		name = Riayat_bin_Nik
+	BNJ_134224556 = {
+		name = Muabidin_Bendahara
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { tenacious_negotiator }
+			traits = { ideological_crusader }
 			slot = political_advisor
-			idea_token = i_67112293
-			cost = 150
-		}
-	}
-	BNJ_83886676 = {
-		name = Ali_Bendahara
-		portraits = {
-			army = {
-				large = GFX_Portrait_Asia_Generic_land_3
-				small = GFX_Portrait_Asia_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer harsh_leader infantry_officer }
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	}
-	BNJ_83889748 = {
-		name = Safiuddin_bin_Nik
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { tenacious_negotiator }
-			slot = political_advisor
-			idea_token = i_83889748
+			idea_token = i_134224556
 			cost = 150
 		}
 	}

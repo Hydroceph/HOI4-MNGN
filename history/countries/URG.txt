@@ -1,25 +1,32 @@
-capital = 442
+capital = 407
 
 oob = "URG_1936"
 set_research_slots = 3
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = URG_16782973
-recruit_character = URG_33557922
-recruit_character = URG_33559532
-recruit_character = URG_50331685
-recruit_character = URG_50332710
-recruit_character = URG_50335294
-recruit_character = URG_50337650
-recruit_character = URG_67109095
-recruit_character = URG_67112782
-recruit_character = URG_83886275
+recruit_character = URG_83889391
+recruit_character = URG_100665656
+recruit_character = URG_100669761
+recruit_character = URG_117443408
+recruit_character = URG_117445876
+recruit_character = URG_150995834
+recruit_character = URG_167773723
+recruit_character = URG_218103853
+recruit_character = URG_218107099
 if = {
 	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Eduardo_Rivas
+		GFX = GFX_portrait_south_america_generic_operative_male_6
+		traits = { operative_master_interrogator operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1935.4.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -27,14 +34,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 46
-	neutrality = 41
+	democratic = 16
+	fascism = 45
+	neutrality = 39
 }
 
 add_ideas = {
-	civilian_economy
-	export_focus
+	partial_economic_mobilisation
+	limited_exports
 	volunteer_only
 }
 set_stability = 0.6
@@ -42,6 +49,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
@@ -64,9 +73,12 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -146,6 +158,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = URG_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

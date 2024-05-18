@@ -1,44 +1,33 @@
-capital = 436
 
 oob = "HAU_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = HAU_33555700
-recruit_character = HAU_16781799
-recruit_character = HAU_33555815
-recruit_character = HAU_33558240
-recruit_character = HAU_33559827
-recruit_character = HAU_50334130
-recruit_character = HAU_50334514
-recruit_character = HAU_50334833
-recruit_character = HAU_50334835
-recruit_character = HAU_83886958
-recruit_character = HAU_83887880
+recruit_character = HAU_33555550
+recruit_character = HAU_50333195
+recruit_character = HAU_50334619
+recruit_character = HAU_50334734
+recruit_character = HAU_83886165
+recruit_character = HAU_83889396
+recruit_character = HAU_83889459
+recruit_character = HAU_100664650
+recruit_character = HAU_134218509
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Muhammad_Zaki
-		GFX = GFX_portrait_africa_generic_operative_male_7
-		traits = { operative_master_interrogator operative_natural_orator operative_well_groomed }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { HAU }
-	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1935.1.7"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 17
-	fascism = 37
-	neutrality = 46
+	democratic = 12
+	fascism = 36
+	neutrality = 52
 }
 
 add_ideas = {

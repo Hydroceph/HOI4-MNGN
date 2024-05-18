@@ -1,33 +1,30 @@
 state = {
 	id = 58
 	name = "STATE_58"
-	manpower = 1406495
+	manpower = 4681529
 	resources = {
-		chromium = 14
-		steel = 62
+		aluminium = 28
+		tungsten = 19
 	}
 
-	state_category = town
+	state_category = large_town
 
 	history = {
-		owner = SWE
+		owner = CAN
 		victory_points = {
-			6050 20
+			3778 2
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 0
+			infrastructure = 5
+			industrial_complex = 2
 			arms_factory = 0
 			dockyard = 1
-			11082 = {
-				naval_base = 1
-			}
-			air_base = 6
+			air_base = 1
 		}
-		add_core_of = SWE
+		add_core_of = CAN
 	}
 
 	provinces = {
-		35 69 77 114 147 156 161 3005 3063 3070 3106 3128 3141 3148 3182 6028 6050 6084 6093 6123 6127 6147 6164 6188 6195 6209 6311 6397 9054 9109 9138 9149 9173 9182 9185 9193 9209 9218 9308 9393 11044 11053 11070 11082 11114 11163 11188 11197 11278 11289 11380 
+		602 605 722 749 761 763 774 777 779 1299 1769 1782 3605 3608 3635 3640 3661 3736 3763 3775 3778 4270 4753 4775 4784 4869 4875 6510 6607 6610 6625 6630 6662 6676 6797 7366 7794 7899 9467 9480 9580 9583 9585 9634 9667 9711 9740 9743 10621 10718 11567 11569 11571 11585 11602 11695 11725 11728 12278 12582 12701 13094 
 	}
 }

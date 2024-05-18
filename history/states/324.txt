@@ -1,29 +1,27 @@
 state = {
 	id = 324
 	name = "STATE_324"
-	manpower = 1714375
+	manpower = 1018959
 	resources = {
-		tungsten = 2
+		steel = 3
 	}
 
-	state_category = town
+	state_category = rural
 
 	history = {
-		owner = DAI
+		owner = SOV
 		victory_points = {
-			12232 1
+			4797 1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			dockyard = 1
-			air_base = 1
 		}
-		add_core_of = DAI
+		add_core_of = SOV
 	}
 
 	provinces = {
-		1285 1300 1328 1396 1400 1423 1605 4223 4284 4334 4341 4363 4401 4405 7238 7271 7303 7331 7347 7380 10162 10232 10261 12109 12133 12176 12204 12232 
+		1672 1696 1707 1727 1735 1762 1803 1810 1813 1826 1829 4703 4705 4716 4737 4750 4766 4782 4797 4808 4815 4835 4837 7736 7751 7769 7802 7816 7828 7835 7838 7841 7860 7876 7902 10524 10528 10543 10549 10570 10596 10654 10658 10661 10664 10683 10699 12506 12507 12523 12525 12540 12575 12641 12644 12647 12681 
 	}
 }

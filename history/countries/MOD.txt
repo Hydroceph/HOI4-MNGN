@@ -1,34 +1,23 @@
-capital = 100
 
 oob = "MOD_1936"
 set_research_slots = 3
-set_convoys = 6
+set_convoys = 0
 
-recruit_character = MOD_2937
-recruit_character = MOD_16778962
-recruit_character = MOD_16783273
-recruit_character = MOD_33556956
-recruit_character = MOD_33557080
-recruit_character = MOD_33561207
-recruit_character = MOD_50332184
-recruit_character = MOD_50332419
-recruit_character = MOD_50332920
-recruit_character = MOD_67109418
-recruit_character = MOD_83888331
+recruit_character = MOD_83888467
+recruit_character = MOD_50332983
+recruit_character = MOD_67110891
+recruit_character = MOD_100667007
+recruit_character = MOD_117442693
+recruit_character = MOD_117444378
+recruit_character = MOD_117444936
+recruit_character = MOD_134217782
+recruit_character = MOD_251658261
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Agostino_Campana
-		GFX = GFX_portrait_europe_generic_operative_male_24
-		traits = { operative_natural_orator operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MOD }
-	}
-	create_operative_leader = {
-		name = Auberon_Bolckow
-		GFX = GFX_portrait_europe_generic_operative_male_3
-		traits = { operative_infiltrator }
+		name = Guglielmo_Pallieri
+		GFX = GFX_portrait_europe_generic_operative_male_13
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { MOD }
@@ -37,19 +26,20 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.1.1"
+	last_election = "1933.12.10"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	communism = 0
-	democratic = 18
-	fascism = 37
-	neutrality = 45
+	democratic = 19
+	fascism = 39
+	neutrality = 42
 }
 
 add_ideas = {
+	MOD_Vittorio_d_Austria-Este
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -59,8 +49,12 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
 	tech_support = 1
 }
 
@@ -81,9 +75,13 @@ if = {
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+		submarine_mine_laying = 1
 	}
 }
 
@@ -103,6 +101,7 @@ if = {
 		early_heavy_cruiser = 1
 		early_light_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 
@@ -163,6 +162,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = MOD_1936_Naval
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = ship_hull_submarine_1
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+		obsolete = no
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SS_HISTORICAL
+		modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+		obsolete = no
+	}
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1

@@ -1,6 +1,6 @@
 characters = {
-	MOL_16777756 = {
-		name = Toma_Sturdza
+	MOL_83890724 = {
+		name = Victor_Moruzi
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,171 +11,8 @@ characters = {
 			traits = {  }
 		}
 	}
-	MOL_16779209 = {
-		name = Carol_Gane
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { conservative_grandee }
-			slot = political_advisor
-			idea_token = i_16779209
-			cost = 150
-		}
-	}
-	MOL_16779559 = {
-		name = Valeriu_Conachi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_16779559
-			cost = 150
-		}
-	}
-	MOL_16780985 = {
-		name = Ilie_Cratunescu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_backstabber }
-			slot = political_advisor
-			idea_token = i_16780985
-			cost = 150
-		}
-	}
-	MOL_33559936 = {
-		name = Toma_Cantemir
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_3
-				small = GFX_Portrait_Europe_Generic_land_3_small
-			}
-		}
-		corps_commander = {
-			traits = { career_officer desert_fox }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	MOL_33560020 = {
-		name = Grigore_Russo
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_1
-				small = GFX_Portrait_Europe_Generic_land_1_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer cavalry_officer organizer }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	MOL_33560938 = {
-		name = Adrian_Luchide
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { economic_organizer }
-			slot = political_advisor
-			idea_token = i_33560938
-			cost = 150
-		}
-	}
-	MOL_50332047 = {
-		name = Teodor_Hurmuzachi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { socialite_connections }
-			slot = political_advisor
-			idea_token = i_50332047
-			cost = 150
-		}
-	}
-	MOL_50332366 = {
-		name = Bogdan_Ghica
-		portraits = {
-			army = {
-				large = GFX_Portrait_Europe_Generic_land_4
-				small = GFX_Portrait_Europe_Generic_land_4_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer desert_fox harsh_leader }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 4
-			logistics_skill = 1
-		}
-	}
-	MOL_50333819 = {
-		name = Eremia_Stroescu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50333819
-			cost = 150
-		}
-	}
-	MOL_50335195 = {
-		name = Constantin_Volvoreanu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_50335195
-			cost = 150
-		}
-	}
-	MOL_67111881 = {
-		name = Tarquiniu_Miclescu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { permanent_revolutionary }
-			slot = political_advisor
-			idea_token = i_67111881
-			cost = 150
-		}
-	}
-	MOL_83887481 = {
-		name = Constantin_Sturdza
+	MOL_83888019 = {
+		name = Ulise_GrofS_orean
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -184,7 +21,105 @@ characters = {
 		advisor = {
 			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_83887481
+			idea_token = i_83888019
+			cost = 150
+		}
+	}
+	MOL_83889383 = {
+		name = Vlad_Tatarascu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_83889383
+			cost = 150
+		}
+	}
+	MOL_83892499 = {
+		name = Radu_Miclescu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { great_war_hero }
+			slot = political_advisor
+			idea_token = i_83892499
+			cost = 150
+		}
+	}
+	MOL_100665925 = {
+		name = Eugen_Tudoran
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_100665925
+			cost = 150
+		}
+	}
+	MOL_100667581 = {
+		name = Sergiu_Gheorghiu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100667581
+			cost = 150
+		}
+	}
+	MOL_117446500 = {
+		name = Iuliu_Poenaru
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_117446500
+			cost = 150
+		}
+	}
+	MOL_117446930 = {
+		name = Flaviu_Moruzi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { grand_fleet_proponent }
+			slot = political_advisor
+			idea_token = i_117446930
+			cost = 150
+		}
+	}
+	MOL_134223753 = {
+		name = Ilie_Volvoreanu
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_134223753
 			cost = 150
 		}
 	}

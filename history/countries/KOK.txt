@@ -1,27 +1,31 @@
-capital = 206
+capital = 293
 
 oob = "KOK_1936"
 set_research_slots = 2
 set_convoys = 0
 
 recruit_character = KOK_67109328
-recruit_character = KOK_16783731
-recruit_character = KOK_33558243
-recruit_character = KOK_50332548
-recruit_character = KOK_50333263
-recruit_character = KOK_50335631
-recruit_character = KOK_50336408
-recruit_character = KOK_50338049
-recruit_character = KOK_67109863
-recruit_character = KOK_67111471
-recruit_character = KOK_100664957
-recruit_character = KOK_117442531
+recruit_character = KOK_67110909
+recruit_character = KOK_67112693
+recruit_character = KOK_83888578
+recruit_character = KOK_150995064
+recruit_character = KOK_150995636
+recruit_character = KOK_150998134
+recruit_character = KOK_184549643
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Jangir_Kutebar
+		name = Turdakun_Ibraimov
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_seducer }
+		traits = { operative_master_interrogator operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KOK }
+	}
+	create_operative_leader = {
+		name = Izzat_Kutebar
+		GFX = GFX_portrait_operative_unknown
+		traits = { operative_commando }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { KOK }
@@ -37,9 +41,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 17
+	democratic = 19
 	fascism = 36
-	neutrality = 47
+	neutrality = 45
 }
 
 add_ideas = {
@@ -52,6 +56,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

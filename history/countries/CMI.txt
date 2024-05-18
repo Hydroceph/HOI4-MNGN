@@ -1,26 +1,24 @@
-capital = 224
+capital = 199
 
 oob = "CMI_1936"
 set_research_slots = 2
 set_convoys = 0
 
-recruit_character = CMI_16778073
-recruit_character = CMI_16782865
-recruit_character = CMI_33555466
-recruit_character = CMI_33558557
-recruit_character = CMI_50333706
-recruit_character = CMI_50335506
-recruit_character = CMI_50336707
-recruit_character = CMI_50337721
-recruit_character = CMI_83887181
-recruit_character = CMI_100663561
-recruit_character = CMI_100666816
+recruit_character = CMI_0
+recruit_character = CMI_67112290
+recruit_character = CMI_67114537
+recruit_character = CMI_83886156
+recruit_character = CMI_83889285
+recruit_character = CMI_83889342
+recruit_character = CMI_117441678
+recruit_character = CMI_134218198
+recruit_character = CMI_150995232
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = Nuam_Nitithada
+		name = Hpa_Cheng
 		GFX = GFX_portrait_operative_unknown
-		traits = { operative_demolition_expert operative_natural_orator }
+		traits = { operative_natural_orator operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { CMI }
@@ -51,9 +49,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 13
-	fascism = 36
-	neutrality = 51
+	democratic = 18
+	fascism = 37
+	neutrality = 45
 }
 
 add_ideas = {

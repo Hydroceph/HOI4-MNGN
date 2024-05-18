@@ -1,5 +1,5 @@
 characters = {
-	TUG_50335038 = {
+	TUG_117444015 = {
 		name = Ahmed_el_Krim
 		portraits = {
 			civilian = {
@@ -7,65 +7,68 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = gen_nazism
 			traits = {  }
 		}
 	}
-	TUG_16780549 = {
-		name = Khalid_Tisbaa
+	TUG_83888957 = {
+		name = Muhammad_Iftaten
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { anti_communist }
 			slot = political_advisor
-			idea_token = i_16780549
+			idea_token = i_83888957
 			cost = 150
 		}
 	}
-	TUG_16782217 = {
-		name = Khalid_el_Krim
-		portraits = {
-			army = {
-				large = GFX_Portrait_Arabia_Generic_land_1
-				small = GFX_Portrait_Arabia_Generic_land_1_small
-			}
-			civilian = {
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-		advisor = {
-			traits = { agricultural_capitalist }
-			slot = political_advisor
-			idea_token = i_16782217
-			cost = 150
-		}
-	}
-	TUG_16783717 = {
-		name = Abd_al-Karim_al-Shawiyyati
+	TUG_83889936 = {
+		name = Abd_al-Karim_Mukrani
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { resistance_banker }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_16783717
+			idea_token = i_83889936
 			cost = 150
 		}
 	}
-	TUG_33554579 = {
-		name = Muhammad_al-Shiluhi
+	TUG_117443000 = {
+		name = Muhammad_Belkadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_117443000
+			cost = 150
+		}
+	}
+	TUG_117443147 = {
+		name = Ahmed_Belkadi
+		portraits = {
+			civilian = {
+				small = GFX_idea_unknown
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_117443147
+			cost = 150
+		}
+	}
+	TUG_117443426 = {
+		name = Ahmed_Al-Khattabi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
@@ -74,49 +77,35 @@ characters = {
 		advisor = {
 			traits = { great_architect }
 			slot = political_advisor
-			idea_token = i_33554579
+			idea_token = i_117443426
 			cost = 150
 		}
 	}
-	TUG_33554849 = {
-		name = Khalid_Belkadi
+	TUG_134221442 = {
+		name = Mustafa_el_Krim
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { economic_organizer }
+			traits = { editor }
 			slot = political_advisor
-			idea_token = i_33554849
+			idea_token = i_134221442
 			cost = 150
 		}
 	}
-	TUG_50337079 = {
-		name = Abd_al-Karim_el_Krim
+	TUG_167775618 = {
+		name = Ahmed_al-Rifi
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { liberal_journalist }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_50337079
-			cost = 150
-		}
-	}
-	TUG_67113771 = {
-		name = Abd_al-Karim_Messaoudi
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { genial_anti_revolutionary }
-			slot = political_advisor
-			idea_token = i_67113771
+			idea_token = i_167775618
 			cost = 150
 		}
 	}

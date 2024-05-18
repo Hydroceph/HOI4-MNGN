@@ -1,49 +1,35 @@
-capital = 614
 
 oob = "PRK_1936"
 set_research_slots = 2
-set_convoys = 1
+set_convoys = 0
 
-recruit_character = PRK_16780249
-recruit_character = PRK_16778908
-recruit_character = PRK_16779447
-recruit_character = PRK_16784045
-recruit_character = PRK_33555504
-recruit_character = PRK_33557333
-recruit_character = PRK_33561275
-recruit_character = PRK_50332463
-recruit_character = PRK_67109186
-recruit_character = PRK_67109434
-recruit_character = PRK_67113508
-recruit_character = PRK_83891737
+recruit_character = PRK_184549887
+recruit_character = PRK_67112792
+recruit_character = PRK_134222089
+recruit_character = PRK_134223828
+recruit_character = PRK_134224404
+recruit_character = PRK_150995332
+recruit_character = PRK_151001219
+recruit_character = PRK_218103851
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = Yusuf_al-Khairat
-		GFX = GFX_portrait_operative_unknown
-		traits = { operative_natural_orator operative_seducer }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { PRK }
-	}
 }
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1932.4.22"
+	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 0
-	democratic = 8
-	fascism = 46
-	neutrality = 46
+	communism = 49
+	democratic = 25
+	fascism = 24
+	neutrality = 2
 }
 
 add_ideas = {
-	PRK_Ali_Perak
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -53,6 +39,8 @@ set_war_support = 0.60
 
 # Starting tech
 set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1

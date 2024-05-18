@@ -10,8 +10,6 @@ bookmarks = {
 		ENG= {}
 		FRA= {}
 		GER= {}
-		SOV= {}
-		TUR= {}
 		USA= {}
 		"---"= {
 			history = "OTHER_GRAND_CAMPAIGN_DESC"
@@ -19,10 +17,13 @@ bookmarks = {
 		BEL = {
 			minor = yes
 		}
-		BRA = {
+		MEX = {
 			minor = yes
 		}
-		HOL = {
+		PBC = {
+			minor = yes
+		}
+		SOV = {
 			minor = yes
 		}
 		SPR = {

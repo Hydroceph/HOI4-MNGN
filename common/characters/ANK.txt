@@ -1,6 +1,6 @@
 characters = {
-	ANK_16777949 = {
-		name = Chata_Nkole
+	ANK_16780548 = {
+		name = Kamwimbile_Nkole
 		portraits = {
 			civilian = {
 				large = GFX_portrait_unknown
@@ -11,163 +11,115 @@ characters = {
 			traits = {  }
 		}
 	}
-	ANK_16780548 = {
-		name = Kamwimbile_Nkole
+	ANK_33557465 = {
+		name = Morathi_Mirambo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { democratic_crusader }
+			traits = { propaganda_expert }
 			slot = political_advisor
-			idea_token = i_16780548
+			idea_token = i_33557465
 			cost = 150
 		}
 	}
-	ANK_16782244 = {
-		name = Semakookiro_Mmamba
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic_2
-				small = GFX_Portrait_South_Africa_Army_Generic_2_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	ANK_33556728 = {
-		name = Makalo_Zwagendaba
-		portraits = {
-			army = {
-				large = GFX_Portrait_South_Africa_Army_Generic
-				small = GFX_Portrait_South_Africa_Army_Generic_small
-			}
-		}
-		corps_commander = {
-			traits = { armor_officer cavalry_officer ranger trait_reckless }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 1
-		}
-	}
-	ANK_50332243 = {
-		name = Makalo_Bulungute
+	ANK_33558223 = {
+		name = Dume_Mkasiwa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { genial_anti_revolutionary }
+			traits = { mobile_warfare_expert }
 			slot = political_advisor
-			idea_token = i_50332243
+			idea_token = i_33558223
 			cost = 150
 		}
 	}
-	ANK_50332503 = {
-		name = Bakari_Msemwa
+	ANK_50338295 = {
+		name = Aren_Nkole
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { anti_communist }
+			traits = { economic_organizer }
 			slot = political_advisor
-			idea_token = i_50332503
+			idea_token = i_50338295
 			cost = 150
 		}
 	}
-	ANK_50335235 = {
-		name = Bash_Kasanda
+	ANK_67111247 = {
+		name = Bahari_Msemwa
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { adventurous_daredevil }
+			traits = { political_dancer }
 			slot = political_advisor
-			idea_token = i_50335235
+			idea_token = i_67111247
 			cost = 150
 		}
 	}
-	ANK_50338380 = {
-		name = Jabilo_Mkasiwa
+	ANK_83891233 = {
+		name = Fabunni_Watuta
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { socialite_connections }
+			traits = { prince_of_terror }
 			slot = political_advisor
-			idea_token = i_50338380
+			idea_token = i_83891233
 			cost = 150
 		}
 	}
-	ANK_67112460 = {
-		name = Kalema_Lugave
+	ANK_100669094 = {
+		name = Davu_Watuta
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { smooth_talking_charmer }
+			traits = { great_war_hero }
 			slot = political_advisor
-			idea_token = i_67112460
+			idea_token = i_100669094
 			cost = 150
 		}
 	}
-	ANK_67113937 = {
-		name = Reth_Mirambo
+	ANK_117444171 = {
+		name = Dume_Watuta
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { popular_figurehead }
+			traits = { conservative_grandee }
 			slot = political_advisor
-			idea_token = i_67113937
+			idea_token = i_117444171
 			cost = 150
 		}
 	}
-	ANK_83888673 = {
-		name = Kagali_Butiko
+	ANK_167772416 = {
+		name = Jjunju_Ngo
 		portraits = {
 			civilian = {
 				small = GFX_idea_unknown
 			}
 		}
 		advisor = {
-			traits = { grand_fleet_proponent }
+			traits = { permanent_revolutionary }
 			slot = political_advisor
-			idea_token = i_83888673
-			cost = 150
-		}
-	}
-	ANK_100664335 = {
-		name = Terwewalwa_Njovu
-		portraits = {
-			civilian = {
-				small = GFX_idea_unknown
-			}
-		}
-		advisor = {
-			traits = { backroom_windbag }
-			slot = political_advisor
-			idea_token = i_100664335
+			idea_token = i_167772416
 			cost = 150
 		}
 	}
