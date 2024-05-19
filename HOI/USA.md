@@ -1,1 +1,0 @@
-When France invites Brazil to their faction, that's the last straw or something and USA decs on mexico (who will start in French Market) and joins unholy alliance faction
