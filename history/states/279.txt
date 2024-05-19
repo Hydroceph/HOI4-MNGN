@@ -8,7 +8,7 @@ state = {
 		tungsten = 3
 	}
 
-	state_category = rural
+	state_category = town
 
 	history = {
 		owner = Z13
@@ -17,9 +17,12 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 6
+			1951 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = Z13
 	}

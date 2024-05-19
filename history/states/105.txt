@@ -6,7 +6,7 @@ state = {
 		tungsten = 9
 	}
 
-	state_category = town
+	state_category = megalopolis
 
 	history = {
 		owner = PAN
@@ -15,8 +15,8 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 6
+			arms_factory = 6
 			air_base = 6
 		}
 		add_core_of = PAN
