@@ -15,10 +15,13 @@ state = {
 			4003 10
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 4
 			arms_factory = 0
 			air_base = 5
+			4003 = {
+				naval_base = 6
+			}
 		}
 	}
 

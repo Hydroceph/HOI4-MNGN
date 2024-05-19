@@ -3,7 +3,7 @@ state = {
 	name = "STATE_642"
 	manpower = 80002
 
-	state_category = rural
+	state_category = town
 
 	history = {
 		owner = Z02
@@ -12,9 +12,12 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 5
+			10978 = {
+				naval_base = 2
+			}
 		}
 	}
 
