@@ -7,7 +7,7 @@ state = {
 		tungsten = 1
 	}
 
-	state_category = rural
+	state_category = megalopolis
 
 	history = {
 		owner = TUR
@@ -16,10 +16,13 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
+			industrial_complex = 5
+			arms_factory = 5
 			849 = {
 				naval_base = 3
+			}
+			9833 = {
+				naval_base = 10
 			}
 			air_base = 5
 		}
