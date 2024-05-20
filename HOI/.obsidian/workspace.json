@@ -11,14 +11,11 @@
             "id": "577e480117e44644",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Trees/German Focus Tree.canvas",
-                "viewState": {
-                  "x": 325,
-                  "y": -710,
-                  "zoom": 0
-                }
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees/German Focus Tree.canvas",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees/German Focus Tree.canvas",
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees/German Focus Tree.canvas"
+                "file": "TODO.md"
               }
             }
           }
@@ -151,25 +148,25 @@
   },
   "active": "577e480117e44644",
   "lastOpenFiles": [
-    "TODO.md",
     "Main Page.md",
+    "TODO.md",
+    "Events/Austrian Events.md",
+    "Trees/Austrian Focus Tree.md",
+    "Austria.md",
+    "Trees/German Focus Tree.canvas",
+    "Trees/British Focus Tree.md",
     "Flow chart of how things happen.canvas",
     "Teams.md",
-    "Austria.md",
     "USA.md",
     "Turkey.md",
     "Russia.md",
     "Austria Focus Tree.canvas",
-    "Trees/German Focus Tree.canvas",
     "How the world war happens yay.canvas",
     "Germany.md",
     "France.md",
     "China.md",
     "German Focus Tree.canvas",
     "France Focus Tree.canvas",
-    "Trees/British Focus Tree.md",
-    "Trees/Austrian Focus Tree.md",
-    "Events/Austrian Events.md",
     "Britain.md",
     "State of the World.md",
     "Trees",
