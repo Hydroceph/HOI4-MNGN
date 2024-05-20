@@ -1,6 +1,7 @@
 *.wav
 *.dds
 *.tga
+.vscode/*
 HOI/.obsidian/workspace.json
 HOI/.obsidian/core-plugins-migration.json
 HOI/.obsidian/appearance.json
