@@ -29,4 +29,4 @@ Icons for Army:
 * GFX_goal_generic_army_artillery2
 * GFX_goal_generic_build_tank
 * GFX_goal_generic_military_deal
-* 
+* focus_generic_railroad

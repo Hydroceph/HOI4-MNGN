@@ -105,7 +105,8 @@ ideas = {
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 
-			# MOD specific 
+		# MOD specific 
+		# MOD Army options
 	
 		supply_hub_build_speed = {
 			picture = generic_artillery_manufacturer_2
@@ -116,10 +117,55 @@ ideas = {
 
 			modifier = {
 				# increase supply node construction speed by 15%	
-				production_speed_supply_node_factor = 0.15
+				production_speed_supply_node_factor = 1	.15
 			}
 
 		}
+
+		rail_way_build_speed = {
+			picture = GFX_idea_generic_railroads
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			modifier = {
+				# increase supply node construction speed by 15%	
+				production_speed_rail_way_factor = 0.15
+			}
+
+		}
+
+		defensive_land_units = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			modifier = {
+				# add a 5% defence buff to all units
+				army_core_defence_factor = 0.05
+			}
+
+		}
+
+		better_army_schooling = {
+			picture = generic_infantry_bonus
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				# better training
+				training_time_army_factor = -0.1
+				# add a 5% defence buff to all units
+				army_core_defence_factor = 0.05
+			}
+
+		}
+
+		# END OF jammod changes
 		
 		TO_chose_neutrality = {
 

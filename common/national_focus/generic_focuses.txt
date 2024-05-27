@@ -60,6 +60,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		prerequisite = { focus = army_effort }
+		mutually_exclusive = { focus = defensive_effort }
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -72,6 +73,12 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			# add a cache of infantry equiptment
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 5000
+			}
+
 		}
 	}
 
@@ -103,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = tank_effort
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = offensive_effort }
+		prerequisite = { focus = motorization_effort }
 		x = 0
 		y = 1
 		relative_position_id = motorization_effort
@@ -120,6 +127,45 @@ focus_tree = {
 				uses = 2
 				category = armor
 			}
+		}
+	}
+
+	focus = {
+		id = steal_tank_effort
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = tank_effort }
+		x = -2
+		y = 1
+		relative_position_id = tank_effort
+		cost = 15
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			# grant experimental 1939 tanks
+			add_equipment_to_stockpile = {
+				type = medium_tank_equipment_1
+				producer = GER
+				amount = 50
+			}
+			# if GER, don't impact relations
+			if = {
+				limit = {tag = GER }
+				# gain political power for being so great at tanks
+				add_political_power = 20
+			}
+			else = {
+				random = {
+					chance = 80
+					reverse_add_opinion_modifier = {
+						target = GER
+						modifier = condemn_aggression
+					}
+				}
+			}
+
 		}
 	}
 
@@ -142,9 +188,28 @@ focus_tree = {
 	}
 
 	focus = {
+		id = rail_hub_effort
+		icon = GFX_focus_generic_railroad
+		prerequisite = { focus = supply_hub_effort }
+		x = 0
+		y = 1
+		relative_position_id = supply_hub_effort
+		cost = 10
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rail_way_build_speed
+		}
+	}
+
+	focus = {
 		id = defensive_effort
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_goal_generic_defence
 		prerequisite = { focus = army_effort }
+		mutually_exclusive = { focus = offensive_effort }
 		x = 1
 		y = 1
 		relative_position_id = army_effort
@@ -155,14 +220,67 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = supply_hub_build_speed
+			army_experience = 5
+			add_ideas = defensive_land_units
+
+			# add effect to increase defence of land units by 3%
+
 		}
 	}
 
-	
+	focus = {
+		id = train_the_linemen
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = defensive_effort }
+		x = 0
+		y = 1
+		relative_position_id = defensive_effort
+		cost = 10
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			# add manpower
+			add_manpower = 5000
+			# add a cache of infantry equiptment
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 5000
+			}
+		}
+	}
+
+	focus = {
+		id = army_schools
+		icon = GFX_focus_generic_university_1
+		prerequisite = { focus = train_the_linemen }
+		x = 0
+		y = 1
+		relative_position_id = train_the_linemen
+		cost = 10
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			# add manpower
+			add_manpower = 5000
+			# add a cache of infantry equiptment
+			swap_ideas = {
+				remove_idea = defensive_land_units
+				add_idea = better_army_schooling
+			}
+
+		}
+	}
 
 
-
+	#
 
 	focus = {
 		id = aviation_effort
