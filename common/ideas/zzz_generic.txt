@@ -104,6 +104,22 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+
+			# MOD specific 
+	
+		supply_hub_build_speed = {
+			picture = generic_artillery_manufacturer_2
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			modifier = {
+				# increase supply node construction speed by 15%	
+				production_speed_supply_node_factor = 0.15
+			}
+
+		}
 		
 		TO_chose_neutrality = {
 
