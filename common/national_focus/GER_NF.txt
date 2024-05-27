@@ -13,10 +13,34 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-	shared_focus = army_effort
-	shared_focus = aviation_effort
-	shared_focus = naval_effort
-	shared_focus = industrial_effort
-	shared_focus = political_effort
+
+	focus = {
+		id = GER_romance_kingdoms
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 5
+		# relative_position_id = 
+
+		# available = { }
+		# bypass = { }
+
+		cost = 10 # in weeks, so cost 10 is 70 days
+		# prerequisite = { }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+
+
+	}
+
+	#shared_focus = army_effort
+	#shared_focus = aviation_effort
+	#shared_focus = naval_effort
+	#shared_focus = industrial_effort
 
 }
