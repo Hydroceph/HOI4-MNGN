@@ -6,7 +6,7 @@ state = {
 		tungsten = 1
 	}
 
-	state_category = rural
+	state_category = megalopolis
 
 	history = {
 		owner = CHI
@@ -14,9 +14,12 @@ state = {
 			7214 1
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 4
+			7214 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = CHI
 	}

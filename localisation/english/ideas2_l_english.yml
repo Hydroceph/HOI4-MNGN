@@ -98,3 +98,5 @@
  generic_war_of_national_liberation_desc:0 "With the Ultimatum refused, we must go on the offensive and liberate all of our territory."
  generic_national_unification:0 "National Unification"
  generic_national_unification_desc:0 "Successes in our Liberation Campaigns have only increased the interest among the [Root.GetAdjective] men to sign up for duty."
+USA_recovering_from_civil_war:0 "Recovering From Civil War"
+USA_recovering_from_civil_war_desc:0 "The USA is currently focused on rebuilding the country and less willing to join a faction."

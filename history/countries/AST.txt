@@ -42,9 +42,9 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 5
+	communism = 21
 	democratic = 77
-	fascism = 16
+	fascism = 0
 	neutrality = 2
 }
 

@@ -131,3 +131,5 @@
  decrease_revanchism:0 "§G-0.1§! base Revanchism per core\n"
  integrate_satellite:0 "Integrate [$TARGET.GetName]"
  integrate_satellite_desc:0 "Investing a little political influence in [$TARGET.GetName] would get us far in terms of their full integration in our empire, which would then facilitate increasing the dominion's efficiency."
+ GER_romance_kingdoms:0 "Romance of the Three Kingdoms!"
+ GER_romance_kingdoms_desc:0 "Dynasty warrios 12 innit"
