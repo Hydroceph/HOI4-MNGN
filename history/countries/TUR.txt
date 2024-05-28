@@ -74,6 +74,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
+	TUR_sick_man_of_europe
 }
 set_stability = 0.6
 set_war_support = 0.60

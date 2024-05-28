@@ -1,0 +1,58 @@
+ideas = {
+	country = {
+		TUR_sick_man_of_europe = {
+
+			name = TUR_sick_man_of_europe
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.60
+				conscription_factor = -0.5
+				join_faction_tension = 0.20
+				local_resources_factor = -0.2
+			}
+			rule = { can_decline_call_to_war = yes }
+
+		}
+		TUR_healthy_man_of_europe = {
+
+			name = TUR_healthy_man_of_europe
+			picture = GFX_focus_TUR_misak_i_milli
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.2
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_speed_naval_base_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+				production_speed_bunker_factor = 0.1
+				production_speed_air_base_factor = 0.1
+				production_speed_anti_air_building_factor = 0.1
+				production_speed_radar_station_factor = 0.1
+				production_speed_fuel_silo_factor = 0.1
+				production_speed_synthetic_refinery_factor = 0.1
+			}
+		}
+	}
+}

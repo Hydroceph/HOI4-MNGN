@@ -1,0 +1,26 @@
+add_namespace = modturkey
+
+country_event = {
+	id = modturkey.1
+	title = modturkey.1.t
+	desc = modturkey.1.d
+	picture = GFX_report_event_degaulle_inspect_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modturkey.1.a		#That's gonna be a no from me dawg
+		ai_chance = { 
+			base = 50
+		}
+		FRA = { declare_war_on = {target = TUR}}
+	}
+
+	option = {
+		name = modturkey.1.b		#Fine you can have it
+		ai_chance = { 
+			base = 50
+		}
+		TUR = {transfer_state = 607}
+	}
+}
