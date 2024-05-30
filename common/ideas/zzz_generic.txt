@@ -165,6 +165,24 @@ ideas = {
 
 		}
 
+		ikea_these_forts = {
+			picture = received_attache
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				# make forts faster to build, but slightly more expensive
+				production_speed_bunker_factor = -0.15
+				production_cost_bunker_factor = 0.05
+				production_speed_coastal_bunker_factor = -0.15
+				production_cost_coastal_bunker_factor = 0.05
+
+				
+			}
+
+		}
+
 		# END OF jammod changes
 		
 		TO_chose_neutrality = {

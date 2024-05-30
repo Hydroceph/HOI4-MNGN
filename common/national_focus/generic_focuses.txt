@@ -32,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
+		x = 0
 		y = 0
 		cost = 10
 		
@@ -56,7 +56,7 @@ focus_tree = {
 	focus = {
 		id = offensive_effort
 		icon = GFX_goal_demand_sudetenland
-		x = 0
+		x = -1
 		y = 1
 		cost = 10
 		prerequisite = { focus = army_effort }
@@ -173,6 +173,7 @@ focus_tree = {
 		id = supply_hub_effort
 		icon = GFX_focus_generic_improve_roads
 		prerequisite = { focus = tank_effort }
+		
 		x = 0
 		y = 1
 		relative_position_id = tank_effort
@@ -190,8 +191,8 @@ focus_tree = {
 	focus = {
 		id = rail_hub_effort
 		icon = GFX_focus_generic_railroad
-		prerequisite = { focus = supply_hub_effort }
-		x = 0
+		prerequisite = { focus = supply_hub_effort focus = ikea_these_forts}
+		x = 1
 		y = 1
 		relative_position_id = supply_hub_effort
 		cost = 10
@@ -275,6 +276,69 @@ focus_tree = {
 				remove_idea = defensive_land_units
 				add_idea = better_army_schooling
 			}
+
+		}
+	}
+
+	focus = {
+		id = ikea_these_forts
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = army_schools }
+		x = 0
+		y = 1
+		relative_position_id = army_schools
+		cost = 10
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			# make buiding land forts cheaper
+			add_ideas = ikea_these_forts
+
+
+		}
+	}
+
+	focus = {
+		id = steal_artilery_effort
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = army_schools }
+		x = 2
+		y = 1
+		relative_position_id = army_schools
+		cost = 10
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			# make buiding land forts cheaper
+			# grant experimental 1939 artilery
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_2
+				producer = ENG
+				amount = 50
+			}
+			# if ENG, don't impact relations
+			if = {
+				limit = {tag = ENG }
+				# gain political power for being so great at tanks
+				add_political_power = 20
+			}
+			else = {
+				random = {
+					chance = 80
+					reverse_add_opinion_modifier = {
+						target = ENG
+						modifier = condemn_aggression
+					}
+				}
+			}
+
+
 
 		}
 	}
