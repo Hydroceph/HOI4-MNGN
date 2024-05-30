@@ -165,10 +165,17 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 39
-	fascism = 47
+	democratic = 47
+	fascism = 39
 	neutrality = 14
 }
+
+create_faction = "Offenehand"
+add_to_faction = GER
+add_to_faction = Z11
+add_to_faction = Z08
+add_to_faction = Z05
+add_to_faction = Z02
 
 add_ideas = {
 	GER_Friedrich_Wilhelm_von_Hohenzollern

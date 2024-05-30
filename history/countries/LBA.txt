@@ -33,21 +33,6 @@ if = {
 	}
 }
 
-TUR = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = LBA
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
-		}
-	}
-	else = {
-		puppet = LBA
-	}
-}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.4.3"

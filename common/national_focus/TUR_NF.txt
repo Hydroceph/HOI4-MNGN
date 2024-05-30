@@ -17,6 +17,714 @@ focus_tree = {
 	shared_focus = aviation_effort
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
-	shared_focus = political_effort
 
+	focus = {
+		id = TUR_tanzimat
+		icon = GFX_focus_TUR_loosen_the_laws_on_secularism
+		x = 20
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			TUR = { add_political_power = 200 }
+		}
+	}
+
+	focus = {
+		id = TUR_federalism
+		icon = GFX_focus_TUR_treaty_of_saadabad
+		x = -3
+		y = 1
+		relative_position_id = TUR_tanzimat
+
+		# available = { }
+		# bypass = { }
+
+		cost = 10 # in weeks, so cost 10 is 70 days
+
+		prerequisite = { focus = TUR_tanzimat }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			effect_tooltip = {
+				release = TUN
+				release = LBA 
+				release = ERI
+				release = CHA
+				release = SYR
+			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_core_of = TUN 
+					}
+					TUN = { transfer_state = PREV }
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = { target = TUN autonomy_state = autonomy_puppet }
+			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_core_of = LBA 
+					}
+					LBA = { transfer_state = PREV }
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = { target = LBA autonomy_state = autonomy_puppet }
+			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_core_of = ERI 
+					}
+					ERI = { transfer_state = PREV }
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = { target = ERI autonomy_state = autonomy_puppet }
+			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_core_of = CHA 
+					}
+					CHA = { transfer_state = PREV }
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = { target = CHA autonomy_state = autonomy_puppet }
+			}
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_core_of = SYR 
+					}
+					SYR = { transfer_state = PREV }
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = { target = SYR autonomy_state = autonomy_puppet }
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_centrism
+		icon = GFX_focus_TUR_taking_over_defense_of_the_gulf
+		x = -1.5
+		y = 1
+		relative_position_id = TUR_tanzimat
+
+		cost = 10
+
+		prerequisite = { focus = TUR_tanzimat }
+		mutually_exclusive = { focus = TUR_federalism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			every_owned_state = {
+				limit = {
+					NOT = {is_core_of = TUR}
+				}
+				 add_core_of = TUR
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_fascism
+		icon = GFX_goal_support_fascism
+		x = 1.5
+		y = 1
+		relative_position_id = TUR_tanzimat
+
+		cost = 10
+
+		prerequisite = { focus = TUR_tanzimat }
+		mutually_exclusive = { focus = TUR_democracy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.3
+			}
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 720
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_democracy
+		icon = GFX_goal_support_democracy
+		x = 3
+		y = 1
+		relative_position_id = TUR_tanzimat
+
+		cost = 10
+
+		prerequisite = { focus = TUR_tanzimat }
+		mutually_exclusive = { focus = TUR_fascism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.5
+			}
+			add_timed_idea = {
+				idea = democratic_influence
+				days = 720
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_industry_one
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		relative_position_id = TUR_centrism
+
+		cost = 10
+
+		prerequisite = { focus = TUR_centrism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_puppet_industry_one
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = TUR_federalism
+
+		cost = 10
+
+		prerequisite = { focus = TUR_federalism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			SYR ={ # 4 civs to Assyria etc etc below
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			LBA = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			ERI = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			CHA = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			TUN = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_cure_one
+		icon = GFX_focus_TUR_crowning_ourselves_with_the_fin_ugor
+		x = 1.5
+		y = 2
+		relative_position_id = TUR_centrism
+
+		cost = 5
+
+		prerequisite = { focus = TUR_federalism focus = TUR_centrism }
+		prerequisite = { focus = TUR_fascism focus = TUR_democracy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			TUR = { add_political_power = 200 }
+			remove_ideas = TUR_sick_man_of_europe
+		}
+	}
+
+	focus = {
+		id = TUR_resource_one
+		icon = GFX_goal_generic_production
+		x = -1
+		y = 1
+		relative_position_id = TUR_cure_one
+
+		cost = 10
+
+		prerequisite = { focus = TUR_cure_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 81
+				state = 288
+			}
+			add_resource = {
+				type = oil
+				amount = 64
+				state = 420
+			}
+			add_resource = {
+				type = aluminium
+				amount = 67
+				state = 364
+			}
+			add_resource = {
+				type = steel
+				amount = 82
+				state = 309
+			}
+			add_resource = {
+				type = chromium
+				amount = 43
+				state = 333
+			}
+			add_resource = {
+				type = tungsten
+				amount = 56
+				state = 477
+			}
+			add_resource = {
+				type = rubber
+				amount = 30
+				state = 513
+			}
+			add_resource = {
+				type = rubber
+				amount = 30
+				state = 684
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_industry_two
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		relative_position_id = TUR_resource_one
+
+		cost = 10
+
+		prerequisite = { focus = TUR_resource_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			364 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			282 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			205 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_stability
+		icon = GFX_focus_TUR_turanist_ambition
+		x = 1
+		y = 1
+		relative_position_id = TUR_cure_one
+
+		cost = 10
+
+		prerequisite = { focus = TUR_cure_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.3
+		}
+	}
+
+	focus = {
+		id = TUR_research
+		icon = GFX_focus_TUR_the_sun_language_theory
+		x = 0
+		y = 1
+		relative_position_id = TUR_stability
+
+		cost = 10
+
+		prerequisite = { focus = TUR_stability }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = TUR_cure_two
+		icon = GFX_focus_TUR_pivot_to_the_past
+		x = 1
+		y = 1
+		relative_position_id = TUR_industry_two
+
+		cost = 5
+
+		prerequisite = { focus = TUR_industry_two }
+		prerequisite = { focus = TUR_research }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.2
+			add_war_support = 0.2
+			add_ideas = TUR_healthy_man_of_europe
+		}
+	}
+
+	focus = {
+		id = TUR_italy
+		icon = GFX_focus_ITA_southern_industry
+		x = -2.5
+		y = 1
+		relative_position_id = TUR_cure_two
+
+		available = {
+			date > 1938.1.1
+			}
+
+		cost = 10
+
+		prerequisite = { focus = TUR_cure_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.2
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = TTS
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_crimea
+		icon = GFX_focus_GRE_stage_an_incident_in_the_bosporus
+		x = 2.5
+		y = 1
+		relative_position_id = TUR_cure_two
+
+		cost = 5
+
+		prerequisite = { focus = TUR_cure_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			433 = {add_core_of = TUR}
+			183 = {add_core_of = TUR}
+			233 = {add_core_of = TUR}
+			510 = {add_core_of = TUR}
+			418 = {add_core_of = TUR}
+			179 = {add_core_of = TUR}
+			387 = {add_core_of = TUR}
+			555 = {add_core_of = TUR}
+			586 = {add_core_of = TUR}
+			582 = {add_core_of = TUR}
+		}
+	}
+
+	focus = {
+		id = TUR_suez
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 2.5
+		y = 1
+		relative_position_id = TUR_italy
+
+		cost = 5
+
+		prerequisite = { focus = TUR_italy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			607 = {add_core_of = TUR}
+			FRA = {country_event = { days = 1 id = modturkey.1 }}
+		}
+	}
 }
