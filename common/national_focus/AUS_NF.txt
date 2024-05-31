@@ -17,6 +17,663 @@ focus_tree = {
 	shared_focus = aviation_effort
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
-	shared_focus = political_effort
+
+	focus = {
+		id = AUS_hungarian_question
+		icon = GFX_focus_generic_balkan_diplomacy
+		x = 20
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			AUS = { add_political_power = 150 }
+		}
+	}
+
+	focus = {
+		id = AUS_neutrality_focus
+		icon = GFX_focus_hun_elect_a_king
+		x = -2
+		y = 1
+		relative_position_id = AUS_hungarian_question
+
+		cost = 10
+
+		prerequisite = { focus = AUS_hungarian_question }
+		mutually_exclusive = { focus = AUS_fascism_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			set_capital = {
+				state = 75
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			add_timed_idea = {
+				idea = neutrality_influence
+				days = 720
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			#add event so everyone knows Austria chooses south america
+		}
+	}
+
+	focus = {
+		id = AUS_fascism_focus
+		icon = GFX_focus_generic_fascist_troops
+		x = 2
+		y = 1
+		relative_position_id = AUS_hungarian_question
+
+		cost = 10
+
+		prerequisite = { focus = AUS_hungarian_question }
+		mutually_exclusive = { focus = AUS_neutrality_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			set_cosmetic_tag = AHU
+			set_capital = {
+				state = 51
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 720
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			#add event so everyone knows Austria chooses Europe
+		}
+	}
+
+	focus = {
+		id = AUS_cores_one
+		icon = GFX_focus_generic_south_america
+		x = -1
+		y = 1
+		relative_position_id = AUS_neutrality_focus
+
+		cost = 10
+
+		prerequisite = { focus = AUS_neutrality_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			454 = {add_core_of = AUS}
+			353 = {add_core_of = AUS}
+			344 = {add_core_of = AUS}
+			69 = {add_core_of = AUS}
+			93 = {add_core_of = AUS}
+			131 = {add_core_of = AUS}
+			392 = {add_core_of = AUS}
+			113 = {add_core_of = AUS}
+			395 = {add_core_of = AUS}
+			727 = {add_core_of = AUS}
+			733 = {add_core_of = AUS}
+			PBC = {
+				every_owned_state = {
+					add_core_of = AUS
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_cores_two
+		icon = GFX_focus_generic_adriatic_sea_focus
+		x = 1
+		y = 1
+		relative_position_id = AUS_fascism_focus
+
+		cost = 10
+
+		prerequisite = { focus = AUS_fascism_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			68 = {add_core_of = AUS}
+			70 = {add_core_of = AUS}
+			63 = {add_core_of = AUS}
+			83 = {add_core_of = AUS}
+			65 = {add_core_of = AUS}
+			51 = {add_core_of = AUS}
+			356 = {add_core_of = AUS}
+			172 = {add_core_of = AUS}
+			135 = {add_core_of = AUS}
+			96 = {add_core_of = AUS}
+			118 = {add_core_of = AUS}
+			150 = {add_core_of = AUS}
+		}
+	}
+
+	focus = {
+		id = AUS_civil_war_one
+		icon = GFX_focus_ETH_the_second_italo_ethiopian_war
+		x = 1
+		y = 1
+		relative_position_id = AUS_neutrality_focus
+
+		cost = 5
+
+		prerequisite = { focus = AUS_neutrality_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_country_leader = {
+				name = "Adolf Hitler"
+				picture = Portrait_Adolf_Hitler.dds
+				ideology = falangism
+				traits = {
+					dictator
+					duke_of_aosta
+				}
+			}
+			create_country_leader = {
+				name = "Senor Hilter"
+				picture = Portrait_Senor_Hilter.dds
+				ideology = despotism
+				traits = {
+					incognito
+					el_jefe_maximo
+				}
+			}
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = fascism
+				size = 0.4
+				navy_ratio = 0
+				capital = 51 
+				states = {
+					52 62 63 83 65 51 96 150 356 172 135 118 68 70 285
+				}
+				set_cosmetic_tag = AHU
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_civil_war_two
+		icon = GFX_focus_ger_oppose_hitler
+		x = -1
+		y = 1
+		relative_position_id = AUS_fascism_focus
+
+		cost = 5
+
+		prerequisite = { focus = AUS_fascism_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_country_leader = {
+				name = "Adolf Hitler"
+				picture = Portrait_Adolf_Hitler.dds
+				ideology = falangism
+				traits = {
+					dictator
+					duke_of_aosta
+				}
+			}
+			create_country_leader = {
+				name = "Senor Hilter"
+				picture = Portrait_Senor_Hilter.dds
+				ideology = despotism
+				traits = {
+					incognito
+					el_jefe_maximo
+				}
+			}
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = neutrality
+				size = 0.4
+				navy_ratio = 0
+				capital = 75 
+				states = {
+					35 115 75 354 244 641 156 436 126 152 356 353 344 131 392 113
+				}
+				set_cosmetic_tag = AUS
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_civil_war_three
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		relative_position_id = AUS_civil_war_one
+
+		cost = 5
+
+		prerequisite = { focus = AUS_civil_war_one focus = AUS_civil_war_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		available = {
+			has_civil_war = no
+			}
+
+		completion_reward = { 
+			add_political_power = 200
+			remove_ideas = {
+				AUS_disjointed_government_idea
+			}
+		}
+	}
+
+
+	focus = {
+		id = AUS_hungarian_concessions
+		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+		x = -3
+		y = 1
+		relative_position_id = AUS_civil_war_three
+
+		cost = 5
+
+		prerequisite = { focus = AUS_civil_war_three }
+		prerequisite = { focus = AUS_civil_war_one }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		completion_reward = { 
+			set_cosmetic_tag = AHU
+			every_owned_state = {
+				limit = {
+					is_core_of = HUN 
+				}
+				add_compliance = 70
+				add_resistance = -50
+			}
+			#add event so everyone knows Austria Hungary has formed
+		}
+	}
+
+	focus = {
+		id = AUS_oil
+		icon = GFX_goal_generic_oil_refinery
+		x = 0
+		y = 1
+		relative_position_id = AUS_hungarian_concessions
+
+		cost = 10
+
+		prerequisite = { focus = AUS_hungarian_concessions }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		completion_reward = { 
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 93
+			}			
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 69
+			}
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 344
+			}
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 353
+			}
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 131
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_resources_europe
+		icon = GFX_focus_generic_resource_extraction
+		x = 3
+		y = 1
+		relative_position_id = AUS_civil_war_three
+
+		cost = 5
+
+		prerequisite = { focus = AUS_civil_war_three }
+		prerequisite = { focus = AUS_civil_war_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_resource = {
+				type = chromium
+				amount = 82
+				state = 118
+			}
+			add_resource = {
+				type = tungsten
+				amount = 104
+				state = 65
+			}
+			add_resource = {
+				type = aluminium
+				amount = 98
+				state = 70
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_police_state
+		icon = GFX_focus_generic_secret_service_agency
+		x = 0
+		y = 1
+		relative_position_id = AUS_resources_europe
+
+		cost = 10
+
+		prerequisite = { focus = AUS_resources_europe }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			remove_ideas = {
+				AUS_hungary_rev_idea
+			}
+			add_ideas = {
+				AUS_police_state_idea
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_ecuador
+		icon = GFX_focus_generic_attack_ecuador
+		x = -1
+		y = 1
+		relative_position_id = AUS_civil_war_three
+
+		cost = 5
+
+		prerequisite = { focus = AUS_civil_war_three }
+
+		allow_branch = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ECU
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_peru
+		icon = GFX_focus_generic_attack_peru
+		x = 0
+		y = 1
+		relative_position_id = AUS_ecuador
+
+		cost = 10
+
+		prerequisite = { focus = AUS_ecuador }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PBC
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_tech_one
+		icon = GFX_focus_NORDIC_mon_research
+		x = 1
+		y = 1
+		relative_position_id = AUS_civil_war_three
+
+		cost = 10
+
+		prerequisite = { focus = AUS_civil_war_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				AUS_research_idea
+			} 
+		}
+	}
+
+	focus = {
+		id = AUS_tech_two
+		icon = GFX_focus_research
+		x = 0
+		y = 1
+		relative_position_id = AUS_tech_one
+
+		cost = 10
+
+		prerequisite = { focus = AUS_tech_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = AUS_italy_one
+		icon = GFX_focus_ITA_northern_industry
+		x = 1
+		y = 1
+		relative_position_id = AUS_peru
+
+		available = {
+			date > 1938.1.1
+			}
+		
+		cost = 10
+
+		prerequisite = { focus = AUS_peru focus = AUS_tech_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			FRA = {country_event = { days = 1 id = modaustria.1 }}
+			remove_ideas = {
+				AUS_italian_rebel_idea
+			}
+			#add event INSIDE france response so everyone knows whats going on
+		}
+	}
+
+	focus = {
+		id = AUS_italy_two
+		icon = GFX_focus_generic_italy_first
+		x = -3
+		y = 1
+		relative_position_id = AUS_italy_one
+
+		available = {
+			137 = {owns_or_subject_of = yes}
+			143 = {owns_or_subject_of = yes}
+			317 = {owns_or_subject_of = yes}
+			85 = {owns_or_subject_of = yes}
+			}
+		
+		cost = 5
+
+		prerequisite = { focus = AUS_italy_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			137 = {add_core_of = AUS}
+			143 = {add_core_of = AUS}
+			317 = {add_core_of = AUS}
+			85 = {add_core_of = AUS}
+			285 = {add_core_of = AUS}
+			54 = {add_core_of = AUS}
+			338 = {add_core_of = AUS}
+			add_ideas = {
+				AUS_italian_win_idea
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_russia
+		icon = GFX_focus_SOV_reinforce_southern_naval_bases
+		x = 1
+		y = 1
+		relative_position_id = AUS_italy_one
+
+		available = {
+			date > 1940.1.1
+			}
+
+		cost = 5
+
+		prerequisite = { focus = AUS_italy_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			378 = {add_core_of = AUS}
+			208 = {add_core_of = AUS}
+			433 = {add_core_of = AUS}
+			168 = {add_core_of = AUS}
+			183 = {add_core_of = AUS}
+			#add event so everyone knows Austria is going after russia
+		}
+	}
+
+	focus = {
+		id = AUS_panama
+		icon = GFX_focus_BRA_north_and_south_america
+		x = -1
+		y = 1
+		relative_position_id = AUS_italy_one
+
+		available = {
+			date > 1939.1.1
+			}
+
+		cost = 5
+
+		prerequisite = { focus = AUS_italy_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			638 = {add_core_of = AUS}
+			#add event so everyone knows Austria is going after Panama
+		}
+	}
+
+	focus = {
+		id = AUS_bosnia
+		icon = GFX_focus_YUG_safeguard_bosnia
+		x = 3
+		y = 1
+		relative_position_id = AUS_italy_one
+
+		available = {
+			date > 1940.1.1
+			}
+
+		cost = 5
+
+		prerequisite = { focus = AUS_italy_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			309 = {add_core_of = AUS}
+			57 = {add_core_of = AUS}
+			333 = {add_core_of = AUS}
+			426 = {add_core_of = AUS}
+			#add event so everyone knows Austria is going after russia
+		}
+	}
+
+
 
 }
+
+
+
+#ROM_balkans_dominance for hunagrian question idea

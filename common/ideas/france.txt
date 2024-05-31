@@ -1,0 +1,111 @@
+ideas = {
+	country = {
+		FRA_red_scare = {
+
+			name = FRA_red_scare
+			picture = gre_political_instability_communism
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.15
+			}
+		}
+
+		FRA_world_war_idea = {
+
+			name = FRA_world_war_idea
+			picture = NOR_anti_communist_sentiment
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_org_Factor = 0.05
+				planning_speed = 0.25
+			}
+		}
+
+		FRA_canal_time_idea = {
+
+			name = FRA_canal_time_idea
+			picture = FRA_undividable
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.8
+			}
+		}
+
+		FRA_market_idea = {
+
+			name = FRA_market_idea
+			picture = free_trade
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.2
+				faction_trade_opinion_factor = 0.5
+			}
+		}
+
+		FRA_suez_loss_idea = {
+
+			name = FRA_suez_loss_idea
+			picture = tur_kemalist_army_officers_limited_power_disloyal
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.2
+				stability_factor = -0.05
+				communism_drift = 0.01
+			}
+		}
+		
+	}
+}

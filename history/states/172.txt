@@ -18,7 +18,10 @@ state = {
 			industrial_complex = 1
 			arms_factory = 0
 		}
-		add_core_of = AUS
+		add_core_of = HUN
+		start_resistance = yes
+		set_compliance = 0
+		set_resistance = 60
 	}
 
 	provinces = {

@@ -185,6 +185,43 @@ focus_tree = {
 				idea = fascist_influence
 				days = 720
 			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_fascism_two
+		icon = GFX_focus_TUR_misak_i_milli
+		x = 0
+		y = 1
+		relative_position_id = TUR_fascism
+
+		cost = 10
+
+		prerequisite = { focus = TUR_fascism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_country_leader = {
+				name = "Suleiman II"
+				picture = Portrait_suleiman.dds
+				ideology = falangism
+				traits = {
+					father_of_the_turks
+					autocratic_imperialist
+				}
+			}
+			set_cosmetic_tag = OTT
+			add_ideas = {
+				TUR_janissary_idea
+			}
+			#add event so everyone knows Turkey is fascist
 		}
 	}
 
@@ -213,6 +250,44 @@ focus_tree = {
 				idea = democratic_influence
 				days = 720
 			}
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_democracy_two
+		icon = GFX_focus_ARG_defense_and_democracy
+		x = 0
+		y = 1
+		relative_position_id = TUR_democracy
+
+		cost = 10
+
+		prerequisite = { focus = TUR_democracy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_country_leader = {
+				name = "Mehmed VI"
+				picture = Portrait_mehmed.dds
+				ideology = conservatism
+				traits = {
+					basileus
+					backed_by_political_coalition
+					great_architect
+				}
+			}
+			set_cosmetic_tag = CAL
+			add_ideas = {
+				TUR_caliphate_idea
+			}
+			#add event so everyone knows Turkey is democratic
 		}
 	}
 
@@ -647,13 +722,14 @@ focus_tree = {
 			add_stability = 0.2
 			add_war_support = 0.2
 			add_ideas = TUR_healthy_man_of_europe
+			#add event so everyone knows Turkey is back
 		}
 	}
 
 	focus = {
 		id = TUR_italy
 		icon = GFX_focus_ITA_southern_industry
-		x = -2.5
+		x = 0
 		y = 1
 		relative_position_id = TUR_cure_two
 
@@ -675,19 +751,110 @@ focus_tree = {
 				type = puppet_wargoal_focus
 				target = TTS
 			}
+			#add event so everyone knows Turkey is going after Italy
+		}
+	}
+
+	focus = {
+		id = TUR_hungary
+		icon = GFX_focus_TUR_reform_the_balkan_pact
+		x = -2
+		y = 1
+		relative_position_id = TUR_italy
+
+		available = {
+			date > 1940.1.1
+			}
+
+		cost = 5
+
+		prerequisite = { focus = TUR_italy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			150 = {add_core_of = TUR}
+			118 = {add_core_of = TUR}
+			135 = {add_core_of = TUR}
+			172 = {add_core_of = TUR}
+			356 = {add_core_of = TUR}
+			65 = {add_core_of = TUR}
+			51 = {add_core_of = TUR}
+			96 = {add_core_of = TUR}
+			83 = {add_core_of = TUR}
+			63 = {add_core_of = TUR}
+			#add event so everyone knows Turkey is going after Hungary
+		}
+	}
+
+	focus = {
+		id = TUR_suez
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 0
+		y = 1
+		relative_position_id = TUR_italy
+
+		available = {
+			date > 1939.1.1
+			}
+
+		cost = 5
+
+		prerequisite = { focus = TUR_italy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			607 = {add_core_of = TUR}
+			FRA = {country_event = { days = 1 id = modturkey.1 }}
+			#add events INSIDE the french responses so everyone knows what's happening
+		}
+	}
+
+	focus = {
+		id = TUR_suez_two
+		icon = GFX_focus_generic_befriend_turkey
+		x = 0
+		y = 1
+		relative_position_id = TUR_suez
+
+		available = {
+			607 = {owns_or_subject_of = yes}
+			}
+
+		cost = 5
+
+		prerequisite = { focus = TUR_italy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = {
+				TUR_suez_win_idea
+			}
 		}
 	}
 
 	focus = {
 		id = TUR_crimea
 		icon = GFX_focus_GRE_stage_an_incident_in_the_bosporus
-		x = 2.5
+		x = 2
 		y = 1
-		relative_position_id = TUR_cure_two
+		relative_position_id = TUR_italy
+
+		available = {
+			date > 1940.1.1
+			}
 
 		cost = 5
 
-		prerequisite = { focus = TUR_cure_two }
+		prerequisite = { focus = TUR_italy }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -704,27 +871,9 @@ focus_tree = {
 			555 = {add_core_of = TUR}
 			586 = {add_core_of = TUR}
 			582 = {add_core_of = TUR}
+			#add event so everyone knows Turkey is going after crimea
 		}
 	}
 
-	focus = {
-		id = TUR_suez
-		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
-		x = 2.5
-		y = 1
-		relative_position_id = TUR_italy
 
-		cost = 5
-
-		prerequisite = { focus = TUR_italy }
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			607 = {add_core_of = TUR}
-			FRA = {country_event = { days = 1 id = modturkey.1 }}
-		}
-	}
 }

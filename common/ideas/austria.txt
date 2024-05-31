@@ -1,0 +1,166 @@
+ideas = {
+	country = {
+		AUS_disjointed_government_idea = {
+					
+			name = AUS_disjointed_government_idea
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				political_power_cost = 0.8
+				stability_factor = -0.1
+			}
+		}
+
+		AUS_italian_rebel_idea = {
+					
+			name = AUS_italian_rebel_idea
+			picture = ETH_italian_settlers
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		AUS_italian_win_idea = {
+					
+			name = AUS_italian_win_idea
+			picture = ITA_italia_irredenta_achieved
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		AUS_italian_loss_idea = {
+					
+			name = AUS_italian_loss_idea # call it the shadow of mussolini
+			picture = ITA_shadow_of_mussolini
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				drift_defence_factor = -0.2
+				communism_drift = 0.01
+			}
+		}
+
+
+		AUS_hungary_rev_idea = {
+
+			name = AUS_hungary_rev_idea
+			picture = SPR_crush_the_revolution
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				drift_defence_factor = -0.5
+				resistance_growth = 0.2
+			}
+		}
+
+		AUS_research_idea = {
+
+			name = AUS_research_idea
+			picture = jap_supremacy_of_technology
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			research_bonus = {
+				armor  = 0.1
+				motorized_equipment = 0.1
+				jet_technology = 0.1
+				nuclear = 0.1
+			}
+		}
+
+		AUS_police_state_idea = {
+
+			name = AUS_police_state_idea
+			picture = generic_secret_police
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				compliance_growth = 0.3
+				resistance_growth = 0.2
+			}
+		}
+
+
+
+	}
+}

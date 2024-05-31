@@ -19,7 +19,10 @@ state = {
 			arms_factory = 1
 			air_base = 2
 		}
-		add_core_of = AUS
+		add_core_of = HUN
+		start_resistance = yes
+		set_compliance = 0
+		set_resistance = 60
 	}
 
 	provinces = {

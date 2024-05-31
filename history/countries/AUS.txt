@@ -93,15 +93,18 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	democratic = 59
-	fascism = 26
-	neutrality = 15
+	democratic = 39
+	fascism = 31
+	neutrality = 30
 }
 
 add_ideas = {
 	partial_economic_mobilisation
 	limited_exports
 	volunteer_only
+	AUS_disjointed_government_idea
+	AUS_hungary_rev_idea
+	AUS_italian_rebel_idea
 }
 set_stability = 0.6
 set_war_support = 0.60

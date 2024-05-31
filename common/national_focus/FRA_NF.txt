@@ -17,6 +17,467 @@ focus_tree = {
 	shared_focus = aviation_effort
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
-	shared_focus = political_effort
 
+
+
+	focus = {
+		id = FRA_deal_with_red_scare_one
+		icon = GFX_focus_focus_fra_revolution_utmost
+		x = 20
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			FRA = { add_political_power = 150 }
+			add_war_support = 0.2
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_sardinia
+		icon = GFX_focus_generic_adriatic_sea_focus
+		x = -1.5
+		y = 1
+		relative_position_id = FRA_deal_with_red_scare_one
+
+		cost = 10
+
+		prerequisite = { focus = FRA_deal_with_red_scare_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SPM
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_spain
+		icon = GFX_focus_generic_attack_communist_spain
+		x = 1.5
+		y = 1
+		relative_position_id = FRA_deal_with_red_scare_one
+
+		cost = 10
+
+		prerequisite = { focus = FRA_deal_with_red_scare_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SPR
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_deal_with_red_scare_two
+		icon = GFX_focus_generic_coastal_fort
+		x = 1.5
+		y = 1
+		relative_position_id = FRA_puppet_sardinia
+
+		cost = 5
+
+		prerequisite = { focus = FRA_puppet_sardinia focus = FRA_puppet_spain }
+
+		available = {
+			NOT = {
+				SPR = {has_government = communism}
+			} 
+			NOT = {
+				SPM = {has_government = communism}
+			} 
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			remove_ideas = FRA_red_scare
+			FRA = { add_political_power = 100 }
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_central_america
+		icon = GFX_focus_mex_redeem_aztlan
+		x = -3
+		y = 1
+		relative_position_id = FRA_deal_with_red_scare_two
+
+		cost = 10
+
+		prerequisite = { focus = FRA_deal_with_red_scare_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GUA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HON
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ELS
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = UCA
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_south_america
+		icon = GFX_focus_generic_promote_SA_immigration
+		x = 0
+		y = 1
+		relative_position_id = FRA_puppet_central_america
+
+		cost = 10
+
+		prerequisite = { focus = FRA_puppet_central_america }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CHL
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ARG
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = URG
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PAR
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_madagascar
+		icon = GFX_focus_generic_annex_country_2
+		x = 3
+		y = 1
+		relative_position_id = FRA_deal_with_red_scare_two
+
+		cost = 10
+
+		prerequisite = { focus = FRA_deal_with_red_scare_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = MAD
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_arabia
+		icon = GFX_focus_ETH_an_arabic_base
+		x = 0
+		y = 1
+		relative_position_id = FRA_puppet_madagascar
+
+		cost = 10
+
+		prerequisite = { focus = FRA_puppet_madagascar }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SAU
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = OMA
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_fascism_focus
+		icon = GFX_focus_fra_le_deluge
+		x = -1
+		y = 1
+		relative_position_id = FRA_deal_with_red_scare_two
+
+		cost = 10
+
+		prerequisite = { focus = FRA_deal_with_red_scare_two }
+		mutually_exclusive = { focus = FRA_neutrality_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 720
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_neutrality_focus
+		icon = GFX_focus_fra_french_union
+		x = 1
+		y = 1
+		relative_position_id = FRA_deal_with_red_scare_two
+
+		cost = 10
+
+		prerequisite = { focus = FRA_deal_with_red_scare_two }
+		mutually_exclusive = { focus = FRA_fascism_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+			add_timed_idea = {
+				idea = neutrality_influence
+				days = 720
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_change_leader_one
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_fascism_focus
+
+		cost = 10
+
+		prerequisite = { focus = FRA_fascism_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 200
+			create_country_leader = {
+				name = "Le Hitler"
+				picture = Portrait_Le_Hitler.dds
+				ideology = falangism
+				traits = {
+					incognito
+					great_survivor
+					exiled_revolutionary
+				}
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_change_leader_two
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_neutrality_focus
+
+		cost = 10
+
+		prerequisite = { focus = FRA_neutrality_focus }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 200
+			create_country_leader = {
+				name = "Adolf Bonaparte"
+				picture = Portrait_Adolf_Bonaparte.dds
+				ideology = despotism
+				traits = {
+					duke_of_orleans
+					spirit_of_genghis
+					snuggler
+				}
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = FRA_mod_neutrality_party_long
+				name = FRA_mod_neutrality_party_short
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_puppet_benelux
+		icon = GFX_focus_generic_annex_country
+		x = 0
+		y = 1
+		relative_position_id = FRA_change_leader_one
+
+		cost = 10
+
+		prerequisite = { focus = FRA_change_leader_one focus = FRA_change_leader_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = BEL
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HOL
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_italy
+		icon = GFX_focus_ITA_by_blood_alone
+		x = 0
+		y = 1
+		relative_position_id = FRA_change_leader_two
+
+		cost = 10
+
+		prerequisite = { focus = FRA_change_leader_two focus = FRA_change_leader_one }
+
+		available = {
+			date > 1939.1.1
+			}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			338 = {add_core_of = TUR}
+			262 = {add_core_of = TUR}
+			206 = {add_core_of = TUR}
+			215 = {add_core_of = TUR}
+			204 = {add_core_of = TUR}
+			626 = {add_core_of = TUR}
+			54 = {add_core_of = TUR}
+			704 = {add_core_of = TUR}
+			82 = {add_core_of = TUR}
+			if = {
+				limit = { SPM = {is_subject_of = FRA}}
+				annex_country = {
+					target = SPM
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_war_with_world
+		icon = GFX_focus_generic_spread_fascism
+		x = 1
+		y = 1
+		relative_position_id = FRA_puppet_benelux
+
+		cost = 5
+
+		prerequisite = { focus = FRA_puppet_benelux focus = FRA_italy }
+
+		available = {
+			date > 1940.1.1
+			}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_war_support = 0.2
+			add_ideas = {
+				FRA_world_war_idea
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_canal_time
+		icon = GFX_focus_generic_the_suez
+		x = 0
+		y = 1
+		relative_position_id = FRA_war_with_world
+
+		cost = 10
+
+		prerequisite = { focus = FRA_war_with_world }
+
+		available = {
+			date > 1940.1.1
+			}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				FRA_canal_time_idea
+			}
+		}
+	}
 }

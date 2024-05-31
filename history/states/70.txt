@@ -22,8 +22,17 @@ state = {
 				naval_base = 8
 			}
 			air_base = 1
+			11584 = {
+				bunker = 6
+			}
+			3604 = {
+				bunker = 6
+			}
 		}
-		add_core_of = AUS
+		add_core_of = RSM
+		start_resistance = yes
+		set_compliance = 0
+		set_resistance = 40
 	}
 
 	provinces = {

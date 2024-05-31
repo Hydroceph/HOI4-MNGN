@@ -1,0 +1,19 @@
+AHU = {
+    color = rgb { 249  126  98 }
+    color_ui = rgb { 249  126  98 } 
+}
+
+AUS = {
+    color = rgb { 211 220 240 }
+    color_ui = rgb { 211 220 240 }
+}
+
+OTT = {
+    color = rgb { 76 230 0 }
+    color_ui = rgb { 76 230 0 }
+}
+
+CAL = {
+    color = rgb { 204 170 0 }
+    color_ui = rgb { 204 170 0 }
+}

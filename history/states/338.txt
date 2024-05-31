@@ -17,6 +17,12 @@ state = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 0
+			963 = {
+				bunker = 6
+			}
+			6831 = {
+				bunker = 6
+			}
 		}
 		add_core_of = TTS
 	}

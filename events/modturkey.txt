@@ -22,5 +22,11 @@ country_event = {
 			base = 50
 		}
 		TUR = {transfer_state = 607}
+		FRA = {
+			add_timed_idea = {
+				idea = FRA_suez_loss_idea
+				days = 180
+			}
+		}
 	}
 }

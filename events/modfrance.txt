@@ -1,0 +1,36 @@
+add_namespace = modfrance
+
+country_event = {
+	id = modfrance.1
+	title = modfrance.1.t
+	desc = modfrance.1.d
+	picture = GFX_report_event_generic_italian_celebration
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modfrance.1.a
+		ai_chance = { 
+			base = 80
+		}
+		AUS = { declare_war_on = {target = RSM}}
+		#add response event to everyone else, RSM demanded the rest of Italy with french support so austria dec'd war, use GFX_report_event_ITA_italian_civil_war
+	}
+
+	option = {
+		name = modfrance.1.b
+		ai_chance = { 
+			base = 20
+		}
+		AUS = {
+			add_timed_idea = {
+				idea = AUS_italian_loss_idea
+				years = 2
+			}
+		}
+		RSM = {transfer_state = 68}
+		RSM = {transfer_state = 70}
+		RSM = {transfer_state = 285}
+		#add response event to everyone else, RSM demanded the rest of Italy with french support so austria backed down, use GFX_report_event_generic_italian_celebration
+	}
+}
