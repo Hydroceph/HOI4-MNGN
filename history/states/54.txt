@@ -23,6 +23,18 @@ state = {
 				naval_base = 6
 			}
 			air_base = 6
+			11891 = {
+				bunker = 6
+			}
+			11721 = {
+				bunker = 6
+			}
+			9738 = {
+				bunker = 6
+			}
+			611 = {
+				bunker = 6
+			}
 		}
 		add_core_of = SPM
 	}

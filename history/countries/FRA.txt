@@ -118,6 +118,8 @@ add_ideas = {
 	partial_economic_mobilisation
 	limited_exports
 	volunteer_only
+	FRA_market_idea
+	FRA_red_scare
 }
 set_stability = 0.6
 set_war_support = 0.60

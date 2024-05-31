@@ -28,7 +28,7 @@ ideas = {
 		TUR_healthy_man_of_europe = {
 
 			name = TUR_healthy_man_of_europe
-			picture = GFX_focus_TUR_misak_i_milli
+			picture = raj_marginalized_muslim_community_angry
 			
 			allowed = {
 				always = no
@@ -52,6 +52,75 @@ ideas = {
 				production_speed_radar_station_factor = 0.1
 				production_speed_fuel_silo_factor = 0.1
 				production_speed_synthetic_refinery_factor = 0.1
+			}
+		}
+
+		TUR_suez_win_idea = {
+					
+			name = TUR_suez_win_idea
+			picture = GFX_focus_generic_befriend_turkey
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		TUR_janissary_idea = {
+					
+			name = TUR_janissary_idea
+			picture = generic_artillery_manufacturer_2
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				army_core_attack_factor = 0.1
+				production_speed_arms_factory_factor = 0.2
+				production_speed_bunker_factor = 0.25
+			}
+		}
+
+		TUR_caliphate_idea = {
+					
+			name = TUR_caliphate_idea
+			picture = HUN_hungarian_monarchy_democratic
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
+				production_speed_industrial_complex_factor = 0.2
+				army_core_defence_factor = 0.1
 			}
 		}
 	}

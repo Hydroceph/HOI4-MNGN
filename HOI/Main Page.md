@@ -51,7 +51,7 @@ Then gets a cb on the whole world (this actually sounds like too much effort, so
 
 
 Austria: Civil war, war in Italy (maybe), war in SA (maybe), option of war with Russia or Turkey
-Home of Revolutions national spirit, low stability, fixed by winning the civil war (focus that can be done when no loner at war?)
+Home of Revolutions national spirit, low stability, fixed by winning the civil war (focus that can be done when no longer at war?)
 	Deal with the Hungarian question, fluff about that
 	Embrace the police state (Fascism)
 	OR

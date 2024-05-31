@@ -1,0 +1,31 @@
+add_namespace = modaustria
+
+country_event = {
+	id = modaustria.1
+	title = modaustria.1.t
+	desc = modaustria.1.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modaustria.1.a
+		ai_chance = { 
+			base = 50
+		}
+		AUS = { declare_war_on = {target = RSM}}
+		#add response event to Austria
+		#add response even to everyone else
+	}
+
+	option = {
+		name = modaustria.1.b
+		ai_chance = { 
+			base = 50
+		}
+		FRA = {add_to_faction = RSM}
+		FRA = {add_stability = -0.1}
+		FRA = {add_war_support = -0.1}
+		AUS = {country_event = { days = 1 id = modfrance.1 }}
+	}
+}

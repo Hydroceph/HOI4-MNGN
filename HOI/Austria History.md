@@ -1,0 +1,1 @@
+The turn of the 20th century has seen an explosion in Nationalistic sentiment, particularly in the incredibly diverse Austrian State. Governmental focus on expansion in the Americas has left a sour taste in Europe, culminating in the loss of several Italian provinces during the 1928 Wars of Risorgimento.
