@@ -7,7 +7,7 @@ state = {
 		tungsten = 4
 	}
 
-	state_category = town
+	state_category = large_city
 
 	history = {
 		owner = HAI
@@ -15,11 +15,11 @@ state = {
 			1594 20
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 1
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
 			4641 = {
-				naval_base = 1
+				naval_base = 2
 			}
 			air_base = 5
 		}

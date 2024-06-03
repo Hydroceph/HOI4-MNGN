@@ -722,6 +722,7 @@ focus_tree = {
 			add_stability = 0.2
 			add_war_support = 0.2
 			add_ideas = TUR_healthy_man_of_europe
+			set_rule = { can_send_volunteers = yes }
 			#add event so everyone knows Turkey is back
 		}
 	}

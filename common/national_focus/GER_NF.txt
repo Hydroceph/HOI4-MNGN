@@ -13,34 +13,949 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-
-	focus = {
-		id = GER_romance_kingdoms
-		icon = GFX_goal_generic_major_war
-		x = 5
-		y = 5
-		# relative_position_id = 
-
-		# available = { }
-		# bypass = { }
-
-		cost = 10 # in weeks, so cost 10 is 70 days
-		# prerequisite = { }
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-
-		}
-
-
-	}
-
 	#shared_focus = army_effort
 	#shared_focus = aviation_effort
 	#shared_focus = naval_effort
 	#shared_focus = industrial_effort
 
+	focus = {
+		id = GER_policy
+		icon = GFX_focus_POL_reassert_silesian_claims
+		x = 20
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			GER = { add_political_power = 200 }
+		}
+	}
+
+	focus = {
+		id = GER_quantity
+		icon = GFX_goal_generic_military_sphere
+		x = -3
+		y = 1
+		relative_position_id = GER_policy
+
+		cost = 10
+
+		prerequisite = { focus = GER_policy }
+		mutually_exclusive = { focus = GER_quality }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				GER_quantity_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_quality
+		icon = GFX_goal_continuous_research
+		x = -1
+		y = 1
+		relative_position_id = GER_policy
+
+		cost = 10
+
+		prerequisite = { focus = GER_policy }
+		mutually_exclusive = { focus = GER_quantity }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				GER_quality_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_home
+		icon = GFX_focus_SWI_fortify_border_with_germany
+		x = 1
+		y = 1
+		relative_position_id = GER_policy
+
+		cost = 10
+
+		prerequisite = { focus = GER_policy }
+		mutually_exclusive = { focus = GER_abroad }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				GER_home_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_abroad
+		icon = GFX_goal_tfv_saf_support_german_coup
+		x = 3
+		y = 1
+		relative_position_id = GER_policy
+
+		cost = 10
+
+		prerequisite = { focus = GER_policy }
+		mutually_exclusive = { focus = GER_home }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				GER_abroad_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_democracy
+		icon = GFX_goal_support_democracy
+		x = 0
+		y = 1
+		relative_position_id = GER_quality
+
+		cost = 10
+
+		prerequisite = { focus = GER_quantity focus = GER_quality }
+		prerequisite = { focus = GER_home focus = GER_abroad }
+		mutually_exclusive = { focus = GER_neutrality }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.2
+			}
+			add_timed_idea = {
+				idea = democratic_influence
+				days = 720
+			}
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+			create_country_leader = {
+				name = "Angela Merkel"
+				picture = Portrait_Angela.dds
+				ideology = conservatism
+				traits = {
+					kaiserin_of_the_people
+					economic_reformer
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_neutrality
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 2
+		y = 1
+		relative_position_id = GER_quality
+
+		cost = 10
+
+		prerequisite = { focus = GER_quantity focus = GER_quality }
+		prerequisite = { focus = GER_home focus = GER_abroad }
+		mutually_exclusive = { focus = GER_democracy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+			add_timed_idea = {
+				idea = neutrality_influence
+				days = 720
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Friedrich Wilhelm von Hohenzollern"
+				picture = Portrait_Kaiser.dds
+				ideology = oligarchism
+				traits = {
+					great_war_hero
+					constitutional_monarch
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_domestic_bliss
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 1
+		relative_position_id = GER_democracy
+
+		cost = 5
+
+		prerequisite = { focus = GER_democracy focus = GER_neutrality }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_political_power = 150
+			add_ideas = {
+				GER_splendid_isolation_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_great_game
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 8
+		y = 0
+		relative_position_id = GER_policy
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_political_power = 100
+			set_rule = { can_send_volunteers = yes }
+			add_ideas = {
+				GER_volunteer_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_canada_yes
+		icon = GFX_goal_tfv_can_forced_quebec_conscription
+		x = -3
+		y = 1
+		relative_position_id = GER_great_game
+
+		cost = 5
+
+		prerequisite = { focus = GER_great_game }
+		mutually_exclusive = { focus = GER_canada_no }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			CAN = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.4
+					capital = 690 
+					states = {
+						456 551 600 339 314 405 690
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_canada_no
+		icon = GFX_focus_generic_industry_3
+		x = -1
+		y = 1
+		relative_position_id = GER_great_game
+
+		cost = 5
+
+		prerequisite = { focus = GER_great_game }
+		mutually_exclusive = { focus = GER_canada_yes }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			CAN = {
+				690 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				42 = {
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_china_yes
+		icon = GFX_focus_chi_one_china_policy
+		x = 0
+		y = 1
+		relative_position_id = GER_canada_yes
+
+		cost = 5
+
+		prerequisite = { focus = GER_canada_yes focus = GER_canada_no }
+		mutually_exclusive = { focus = GER_china_no }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			CHI = {
+				set_capital = {
+					state = 402
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = WUU
+					}
+					transfer_state_to = WUU
+				}
+				transfer_units_fraction = {
+					target = WUU
+					size = 0.4
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = SHU
+					}
+					transfer_state_to = SHU
+				}
+				transfer_units_fraction = {
+					target = SHU
+					size = 0.5 #which is now effectively 0.3
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = WEI
+					}
+					transfer_state_to = WEI
+				}
+				transfer_units_fraction = {
+					target = WEI
+					size = 1 #which is now effectively 0.3
+				}
+			}
+
+			WUU = {
+				set_capital = {
+					state = 210
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.7
+				}
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+				}
+			}
+
+			SHU = {
+				set_capital = {
+					state = 142
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.7
+				}
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+				}
+				declare_war_on = {
+					target = WUU
+					type = annex_everything
+				}
+			}
+
+			WEI = {
+				set_capital = {
+					state = 194
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.7
+				}
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+				declare_war_on = {
+					target = WUU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SHU
+					type = annex_everything
+				}
+			}
+			#china war (event so everyone knows)
+			#add the funny finland event here, chinese government flees to Finland or something?
+		}
+	}
+
+	focus = {
+		id = GER_china_no
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
+		x = 0
+		y = 1
+		relative_position_id = GER_canada_no
+		cost = 5
+
+		prerequisite = { focus = GER_canada_yes focus = GER_canada_no }
+		mutually_exclusive = { focus = GER_china_yes }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			CHI = {
+				start_civil_war = {
+					ruling_party = neutrality
+					ideology = communism
+					size = 0.6
+					capital = 142 
+					set_cosmetic_tag = SHU
+					create_country_leader = {
+						name = "Liu Bei"
+						picture = Portrait_Liu_Bei_CHI.dds
+						ideology = marxism
+					}
+				}
+			}
+
+			#Alternatively, China has offered to send a large portion of workers just like in WW1 (which will build the factories for us, but lead to cimme civil war in China)
+		}
+	}
+
+	focus = {
+		id = GER_america_yes
+		icon = GFX_focus_usa_build_the_pentagon
+		x = 0
+		y = 1
+		relative_position_id = GER_china_yes
+
+		cost = 5
+
+		prerequisite = { focus = GER_china_yes focus = GER_china_no }
+		mutually_exclusive = { focus = GER_america_no }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#murica war (event so everyone knows)
+
+			#Nearing the end of construction of the Pentagon; parts of the building are in use but there are still enough construction personel in the area to present a possible in
+		}
+	}
+
+	focus = {
+		id = GER_america_no
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 0
+		y = 1
+		relative_position_id = GER_china_no
+		cost = 5
+
+		prerequisite = { focus = GER_china_yes focus = GER_china_no }
+		mutually_exclusive = { focus = GER_america_yes }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			USA = {
+				start_civil_war = {
+					ruling_party = democratic
+					ideology = communism
+					size = 0.7
+					capital = 486
+				}
+			}
+			#Nearing the end of construction of the pentagon; a portion of their gold reserves are being moved from fort douglas or wherever it is to the pentagon. Lets steal them.
+		}
+	}
+
+	focus = {
+		id = GER_haiti_friend
+		icon = GFX_goal_generic_improve_relations
+		x = 1
+		y = 1
+		relative_position_id = GER_great_game
+
+		cost = 5
+
+		prerequisite = { focus = GER_great_game }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			HAI = {country_event = { days = 1 id = modgermany.1 }} #make this a 50/50 event?
+		}
+	}
+
+	focus = {
+		id = GER_asia_friend
+		icon = GFX_focus_ETH_support_from_the_japanese_communists
+		x = 0
+		y = 1
+		relative_position_id = GER_haiti_friend
+
+		cost = 5
+
+		prerequisite = {focus = GER_haiti_friend }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			JAP = {country_event = { days = 1 id = modgermany.2 }} #make this a 50/50 event?
+			KOR = {country_event = { days = 1 id = modgermany.3 }} #make this a 50/50 event?
+		}
+	}
+
+	focus = {
+		id = GER_sikh_friend
+		icon = GFX_focus_RAJ_two_nation_theory
+		x = 0
+		y = 1
+		relative_position_id = GER_asia_friend
+
+		cost = 5
+
+		prerequisite = { focus = GER_asia_friend }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			PAN = {country_event = { days = 1 id = modgermany.4 }} #make this a 50/50 event?
+		}
+	}
+
+	focus = {
+		id = GER_india
+		icon = GFX_focus_RAJ_british_investors
+		x = 4
+		y = 1
+		relative_position_id = GER_domestic_bliss
+
+		available = {
+			date > 1940.1.1
+			}
+
+		cost = 10
+
+		prerequisite = { focus = GER_domestic_bliss focus = GER_sikh_friend focus = GER_america_yes focus = GER_america_no	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = RAJ
+			}
+		}
+	}
+
+	focus = {
+		id = GER_turkey
+		icon = GFX_focus_generic_befriend_turkey
+		x = -6
+		y = 1
+		relative_position_id = GER_india
+
+		cost = 5
+
+		prerequisite = { focus = GER_india	}
+
+		bypass = {
+			is_in_faction_with = TUR
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			TUR = {country_event = { days = 1 id = modgermany.5 }} 
+		}
+	}
+
+	focus = {
+		id = GER_france
+		icon = GFX_focus_attack_france
+		x = -4
+		y = 1
+		relative_position_id = GER_india
+
+		cost = 5
+
+		prerequisite = { focus = GER_india	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			50 = {add_core_of = GER}
+		}
+	}
+
+	focus = {
+		id = GER_austria_friend
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 0
+		y = 1
+		relative_position_id = GER_india
+
+		cost = 5
+
+		prerequisite = { focus = GER_india	}
+		mutually_exclusive = { focus = GER_austria_enemy }
+
+		bypass = {
+			is_in_faction_with = AUS
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			AUS = {country_event = { days = 1 id = modgermany.6 }} 
+		}
+	}
+
+	focus = {
+		id = GER_austria_enemy
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 1
+		relative_position_id = GER_india
+
+		cost = 5
+
+		available = {
+			NOT = {is_in_faction_with = AUS}
+		}
+
+		prerequisite = { focus = GER_india	}
+		mutually_exclusive = { focus = GER_austria_friend }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			AUS = {country_event = { days = 1 id = modgermany.7 }} 
+		}
+	}
+
+	focus = {
+		id = GER_russia
+		icon = GFX_focus_generic_winter_warfare
+		x = -2
+		y = 1
+		relative_position_id = GER_india
+
+		cost = 5
+
+		prerequisite = { focus = GER_india	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			622 = {add_core_of = GER}
+			399 = {add_core_of = GER}
+			579 = {add_core_of = GER}
+			634 = {add_core_of = GER}
+			570 = {add_core_of = GER}
+			532 = {add_core_of = GER}
+			419 = {add_core_of = GER}
+			208 = {add_core_of = GER}
+		}
+	}
+
+	focus = {
+		id = GER_decrypt
+		icon = GFX_goal_generic_radar
+		x = 4
+		y = 1
+		relative_position_id = GER_india
+
+		cost = 10
+
+		prerequisite = { focus = GER_india	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				GER_decryption_idea
+			}
+		}
+	}
+
+	focus = {
+		id = GER_sabotage_one
+		icon = GFX_focus_AST_never_gallipoli
+		x = -1
+		y = 1
+		relative_position_id = GER_decrypt
+
+		cost = 5
+
+		prerequisite = { focus = GER_decrypt }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			6 = {
+				damage_building = {
+					type = infrastructure
+					damage = 5
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 5
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 5
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_sabotage_two
+		icon = GFX_goal_poland_goal
+		x = 1
+		y = 1
+		relative_position_id = GER_decrypt
+
+		cost = 5
+
+		prerequisite = { focus = GER_decrypt }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			14 = {
+				damage_building = {
+					type = infrastructure
+					damage = 5
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 5
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 5
+				}
+			}
+		}
+	}
 }
