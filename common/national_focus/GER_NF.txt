@@ -589,6 +589,95 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			USA = {
+				set_capital = {
+					state = 651
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = NCR
+					}
+					transfer_state_to = NCR
+				}
+				transfer_units_fraction = {
+					target = NCR
+					size = 0.4
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = CSA
+					}
+					transfer_state_to = CSA
+				}
+				transfer_units_fraction = {
+					target = CSA
+					size = 0.5 #which is now effectively 0.3
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = MCL
+					}
+					transfer_state_to = MCL
+				}
+				transfer_units_fraction = {
+					target = MCL
+					size = 1 #which is now effectively 0.3
+				}
+			}
+
+			NCR = {
+				set_capital = {
+					state = 175
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.7
+				}
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+				}
+			}
+
+			CSA = {
+				set_capital = {
+					state = 327
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.7
+				}
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+				}
+				declare_war_on = {
+					target = NCR
+					type = annex_everything
+				}
+			}
+
+			MCL = {
+				set_capital = {
+					state = 90
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.7
+				}
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+				declare_war_on = {
+					target = NCR
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+			}
 			#murica war (event so everyone knows)
 
 			#Nearing the end of construction of the Pentagon; parts of the building are in use but there are still enough construction personel in the area to present a possible in
@@ -923,6 +1012,7 @@ focus_tree = {
 					damage = 5
 				}
 			}
+			#event for sabotage
 		}
 	}
 
@@ -956,6 +1046,7 @@ focus_tree = {
 					damage = 5
 				}
 			}
+			#event for sabotage
 		}
 	}
 }

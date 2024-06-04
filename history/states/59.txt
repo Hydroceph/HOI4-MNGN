@@ -12,6 +12,7 @@ state = {
 
 	history = {
 		owner = USA
+		add_core_of = MCL
 		victory_points = {
 			6845 2
 		}
