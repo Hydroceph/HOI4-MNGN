@@ -22,3 +22,18 @@ SHU = {
     color = rgb { 38  230  0 }
     color_ui = rgb { 38  230  0 }
 }
+
+GWR = {
+    color = rgb { 0  0  0 }
+    color_ui = rgb { 0  0  0 }
+}
+
+GEI = {
+    color = rgb { 0  49  83 }
+    color_ui = rgb { 0  49  83 }
+}
+
+CSA = {
+    color = rgb { 178 190 181 }
+    color_ui = rgb { 178 190 181 }
+}

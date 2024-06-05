@@ -166,6 +166,7 @@ focus_tree = {
 					economic_reformer
 				}
 			}
+			set_cosmetic_tag = GWR
 		}
 	}
 
@@ -208,6 +209,7 @@ focus_tree = {
 					constitutional_monarch
 				}
 			}
+			set_cosmetic_tag = GEI
 		}
 	}
 
@@ -452,6 +454,10 @@ focus_tree = {
 					ruling_party = neutrality
 					elections_allowed = no
 				}
+				add_timed_idea = {
+					idea = OLI_recovering_from_civil_war
+					years = 3
+				}
 			}
 
 			SHU = {
@@ -465,6 +471,10 @@ focus_tree = {
 				set_politics = {
 					ruling_party = communism
 					elections_allowed = no
+				}
+				add_timed_idea = {
+					idea = OLI_recovering_from_civil_war
+					years = 3
 				}
 				declare_war_on = {
 					target = WUU
@@ -483,6 +493,10 @@ focus_tree = {
 				set_politics = {
 					ruling_party = fascism
 					elections_allowed = no
+				}
+				add_timed_idea = {
+					idea = OLI_recovering_from_civil_war
+					years = 3
 				}
 				declare_war_on = {
 					target = WUU
@@ -567,8 +581,6 @@ focus_tree = {
 					}
 				}
 			}
-
-			#Alternatively, China has offered to send a large portion of workers just like in WW1 (which will build the factories for us, but lead to cimme civil war in China)
 		}
 	}
 
@@ -637,6 +649,10 @@ focus_tree = {
 					ruling_party = democratic
 					elections_allowed = no
 				}
+				add_timed_idea = {
+					idea = OLI_recovering_from_civil_war
+					years = 3
+				}
 			}
 
 			CSA = {
@@ -654,6 +670,10 @@ focus_tree = {
 				declare_war_on = {
 					target = NCR
 					type = annex_everything
+				}
+				add_timed_idea = {
+					idea = OLI_recovering_from_civil_war
+					years = 3
 				}
 			}
 
@@ -676,6 +696,10 @@ focus_tree = {
 				declare_war_on = {
 					target = CSA
 					type = annex_everything
+				}
+				add_timed_idea = {
+					idea = OLI_recovering_from_civil_war
+					years = 3
 				}
 			}
 			#murica war (event so everyone knows)
@@ -744,10 +768,16 @@ focus_tree = {
 					ruling_party = democratic
 					ideology = communism
 					size = 0.7
-					capital = 486
+					capital = 175 
+					set_cosmetic_tag = CSA
+					create_country_leader = {
+						name = "Frederick Douglass"
+						desc = ""
+						picture = Portrait_Frederick_Douglass.dds
+						ideology = marxism
+					}
 				}
 			}
-			#Nearing the end of construction of the pentagon; a portion of their gold reserves are being moved from fort douglas or wherever it is to the pentagon. Lets steal them.
 		}
 	}
 

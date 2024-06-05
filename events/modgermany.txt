@@ -89,7 +89,7 @@ country_event = {
 	option = {
 		name = modgermany.4.a
 		ai_chance = { 
-			base = 50
+			base = 80
 		}
 		GER = {add_to_faction = PAN}
 		#add response event so everyone knows they've joined GER faction
@@ -98,7 +98,7 @@ country_event = {
 	option = {
 		name = modgermany.4.b
 		ai_chance = { 
-			base = 50
+			base = 20
 		}
 		#add response event so everyone knows they refused
 	}
