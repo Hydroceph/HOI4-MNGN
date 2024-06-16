@@ -13,10 +13,868 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-	shared_focus = army_effort
-	shared_focus = aviation_effort
-	shared_focus = naval_effort
-	shared_focus = industrial_effort
-	shared_focus = political_effort
+	# shared_focus = army_effort
+	# shared_focus = aviation_effort
+	# shared_focus = naval_effort
+	# shared_focus = industrial_effort
+
+	focus = {
+		id = SOV_civil_war_one
+		icon = GFX_focus_SOV_zemsky_sobor
+		x = 20
+		y = 0
+
+		cost = 10
+
+		mutually_exclusive = { focus = SOV_civil_war_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_country_leader = {
+				name = "Grigori Rasputin"
+				picture = Portrait_Rasputin.dds
+				ideology = centrism
+				traits = {
+					face_licker
+				}
+			}
+			set_cosmetic_tag = HPR
+			hidden_effect = {
+				POL = {transfer_state = 622}
+				POL = {transfer_state = 399}
+				POL = {transfer_state = 579}
+				POL = {transfer_state = 419}
+				POL = {transfer_state = 208}
+				POL = {transfer_state = 532}
+				EST = {transfer_state = 634}
+				EST = {transfer_state = 570}
+				UKR = {transfer_state = 378}
+				UKR = {transfer_state = 433}
+				UKR = {transfer_state = 168}
+				UKR = {transfer_state = 183}
+				UKR = {transfer_state = 233}
+				UKR = {transfer_state = 363}
+				UKR = {transfer_state = 510}
+				BRS = {transfer_state = 377}
+				BRS = {transfer_state = 276}
+				BRS = {transfer_state = 304}
+				BRS = {transfer_state = 226}
+				POL = {
+					every_owned_state = {
+						add_core_of = POL
+					}
+					load_oob = POL_ten
+				}
+				EST = {
+					every_owned_state = {
+						add_core_of = EST
+					}
+					load_oob = EST_ten
+				}
+				UKR = {
+					every_owned_state = {
+						add_core_of = UKR
+					}
+					load_oob = UKR_ten
+				}
+				BRS = {
+					every_owned_state = {
+						add_core_of = BRS
+					}
+					load_oob = BRS_ten
+				}
+			}
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = communism
+				set_cosmetic_tag = SVR
+				size = 0.5
+				army_ratio = 0.4
+				navy_ratio = 0
+				capital = 673
+			}
+
+			GER = {country_event = { days = 7 id = modrussia.1 }}
+			TUR = {country_event = { days = 7 id = modrussia.2 }}
+			#send event everywhere so people know about the civil war
+		}
+	}
+
+	focus = {
+		id = SOV_civil_war_two
+		icon = GFX_focus_SOV_stalins_cult_of_personality
+		x = 4
+		y = 0
+		relative_position_id = SOV_civil_war_one
+
+		cost = 10
+
+		mutually_exclusive = { focus = SOV_civil_war_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_country_leader = {
+				name = "Joseph Stalin"
+				picture = Portrait_Stalin.dds
+				ideology = stalinism
+				traits = {
+					devoted_trotskyist
+					political_dancer
+				}
+			}
+			hidden_effect = {
+				POL = {transfer_state = 622}
+				POL = {transfer_state = 399}
+				POL = {transfer_state = 579}
+				POL = {transfer_state = 419}
+				POL = {transfer_state = 208}
+				POL = {transfer_state = 532}
+				EST = {transfer_state = 634}
+				EST = {transfer_state = 570}
+				UKR = {transfer_state = 378}
+				UKR = {transfer_state = 433}
+				UKR = {transfer_state = 168}
+				UKR = {transfer_state = 183}
+				UKR = {transfer_state = 233}
+				UKR = {transfer_state = 363}
+				UKR = {transfer_state = 510}
+				BRS = {transfer_state = 377}
+				BRS = {transfer_state = 276}
+				BRS = {transfer_state = 304}
+				BRS = {transfer_state = 226}
+				POL = {
+					every_owned_state = {
+						add_core_of = POL
+					}
+					load_oob = POL_ten
+				}
+				EST = {
+					every_owned_state = {
+						add_core_of = EST
+					}
+					load_oob = EST_ten
+				}
+				UKR = {
+					every_owned_state = {
+						add_core_of = UKR
+					}
+					load_oob = UKR_ten
+				}
+				BRS = {
+					every_owned_state = {
+						add_core_of = BRS
+					}
+					load_oob = BRS_ten
+				}
+			}
+			set_cosmetic_tag = SVR
+			start_civil_war = {
+				ruling_party = communism
+				ideology = neutrality
+				set_cosmetic_tag = HPR
+				size = 0.5
+				army_ratio = 0.4
+				navy_ratio = 0
+				capital = 355
+			}
+
+			GER = {country_event = { days = 7 id = modrussia.1 }}
+			TUR = {country_event = { days = 7 id = modrussia.2 }}
+			#send event everywhere so people know about the civil war
+		}
+	}
+
+	focus = {
+		id = SOV_civil_war_three
+		icon = GFX_focus_SOV_my_brothers_keeper
+		x = 2
+		y = 1
+		relative_position_id = SOV_civil_war_one
+
+		cost = 5
+
+		prerequisite = { focus = SOV_civil_war_one focus = SOV_civil_war_two }
+
+		available = {
+			has_civil_war = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_political_power = 200
+			remove_ideas = {
+				SOV_russia_sucks_idea
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_navy_one
+		icon = GFX_focus_NORDIC_dem_navy
+		x = -3
+		y = 1
+		relative_position_id = SOV_civil_war_three
+
+		cost = 10
+
+		prerequisite = { focus = SOV_civil_war_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_navy_two
+		icon = GFX_focus_NORDIC_mon_navy
+		x = 0
+		y = 1
+		relative_position_id = SOV_navy_one
+
+		cost = 10
+
+		prerequisite = { focus = SOV_navy_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_civ_one
+		icon = GFX_focus_generic_industry_1
+		x = -1
+		y = 1
+		relative_position_id = SOV_civil_war_three
+
+		cost = 10
+
+		prerequisite = { focus = SOV_civil_war_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_civ_two
+		icon = GFX_focus_generic_industry_2
+		x = 0
+		y = 1
+		relative_position_id = SOV_civ_one
+
+		cost = 10
+
+		prerequisite = { focus = SOV_civ_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_civ_three
+		icon = GFX_focus_generic_industry_3
+		x = 0
+		y = 1
+		relative_position_id = SOV_civ_two
+
+		cost = 10
+
+		prerequisite = { focus = SOV_civ_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_mil_one
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 1
+		y = 1
+		relative_position_id = SOV_civil_war_three
+
+		cost = 10
+
+		prerequisite = { focus = SOV_civil_war_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_mil_two
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		relative_position_id = SOV_mil_one
+
+		cost = 10
+
+		prerequisite = { focus = SOV_mil_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_mil_three
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 0
+		y = 1
+		relative_position_id = SOV_mil_two
+
+		cost = 10
+
+		prerequisite = { focus = SOV_mil_two }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_warm
+		icon = GFX_focus_ETH_an_arabic_base
+		x = 3
+		y = 1
+		relative_position_id = SOV_civil_war_three
+
+		cost = 5
+
+		prerequisite = { focus = SOV_civil_war_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			transfer_state = 328
+		}
+	}
+
+	focus = {
+		id = SOV_alaska
+		icon = GFX_focus_SOV_recover_alaska
+		x = 0
+		y = 1
+		relative_position_id = SOV_warm
+
+		cost = 5
+
+		prerequisite = { focus = SOV_warm }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			transfer_state = 657
+		}
+	}
+
+	focus = {
+		id = SOV_resource_one
+		icon = GFX_focus_generic_resource_extraction
+		x = -1
+		y = 1
+		relative_position_id = SOV_civ_three
+
+		cost = 5
+
+		prerequisite = { focus = SOV_civ_three }
+		prerequisite = { focus = SOV_mil_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 50
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 50
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = chromium
+					amount = 50
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = chromium
+					amount = 50
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_retake
+		icon = GFX_focus_FIN_keepers_of_the_baltic_countries
+		x = 1
+		y = 1
+		relative_position_id = SOV_civ_three
+
+		cost = 5
+
+		prerequisite = { focus = SOV_civ_three }
+		prerequisite = { focus = SOV_mil_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = EST
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = UKR
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = BRS
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_resource_two
+		icon = GFX_goal_generic_oil_refinery
+		x = 3
+		y = 1
+		relative_position_id = SOV_civ_three
+
+		cost = 5
+
+		prerequisite = { focus = SOV_civ_three }
+		prerequisite = { focus = SOV_mil_three }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_resource = {
+					type = aluminium
+					amount = 50
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = aluminium
+					amount = 50
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = tungsten
+					amount = 50
+				}
+			}
+			random_owned_controlled_state = {
+				add_resource = {
+					type = tungsten
+					amount = 50
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_cores
+		icon = GFX_focus_NOR_a_new_norway_SOV_communism
+		x = 0
+		y = 1
+		relative_position_id = SOV_retake
+
+		cost = 10
+
+		prerequisite = { focus = SOV_retake }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			every_state = {
+				limit = {is_owned_and_controlled_by = SOV}
+				add_core_of = SOV
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_poland
+		icon = GFX_focus_POL_reassert_silesian_claims
+		x = -1
+		y = 1
+		relative_position_id = SOV_cores
+
+		cost = 10
+
+		prerequisite = { focus = SOV_cores }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			622 = {add_core_of = SOV}
+			399 = {add_core_of = SOV}
+			579 = {add_core_of = SOV}
+			532 = {add_core_of = SOV}
+			419 = {add_core_of = SOV}
+			208 = {add_core_of = SOV}
+		}
+	}
+
+	focus = {
+		id = SOV_crimea
+		icon = GFX_focus_generic_black_sea_focus
+		x = 1
+		y = 1
+		relative_position_id = SOV_cores
+
+		cost = 10
+
+		prerequisite = { focus = SOV_cores }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			621 = {add_core_of = SOV}
+		}
+	}
+
+
+	focus = {
+		id = SOV_world
+		icon = GFX_goal_generic_war_with_comintern
+		x = 1
+		y = 1
+		relative_position_id = SOV_poland
+
+		cost = 10
+
+		prerequisite = { focus = SOV_poland focus = SOV_crimea }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				SOV_world_war_idea
+			}
+		}
+	}
 
 }

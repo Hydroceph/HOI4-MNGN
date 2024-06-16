@@ -37,3 +37,13 @@ CSA = {
     color = rgb { 178 190 181 }
     color_ui = rgb { 178 190 181 }
 }
+
+HPR = {
+    color = rgb { 255 105 180 }
+    color_ui = rgb { 255 105 180 }
+}
+
+SVR = {
+    color = rgb { 125  13  24 }
+    color_ui = rgb { 125  13  24 }
+}
