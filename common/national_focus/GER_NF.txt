@@ -239,10 +239,13 @@ focus_tree = {
 	focus = {
 		id = GER_great_game
 		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
-		x = 8
-		y = 0
-		relative_position_id = GER_policy
+		x = -2
+		y = 1
+		relative_position_id = GER_domestic_bliss
+
 		cost = 5
+
+		prerequisite = { focus = GER_domestic_bliss }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -845,9 +848,9 @@ focus_tree = {
 	focus = {
 		id = GER_india
 		icon = GFX_focus_RAJ_british_investors
-		x = 4
+		x = 5
 		y = 1
-		relative_position_id = GER_domestic_bliss
+		relative_position_id = GER_america_yes
 
 		available = {
 			date > 1940.1.1
@@ -855,7 +858,7 @@ focus_tree = {
 
 		cost = 10
 
-		prerequisite = { focus = GER_domestic_bliss focus = GER_sikh_friend focus = GER_america_yes focus = GER_america_no	}
+		prerequisite = { focus = GER_domestic_bliss	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -872,7 +875,7 @@ focus_tree = {
 	focus = {
 		id = GER_turkey
 		icon = GFX_focus_generic_befriend_turkey
-		x = -6
+		x = -4
 		y = 1
 		relative_position_id = GER_india
 
@@ -896,7 +899,7 @@ focus_tree = {
 	focus = {
 		id = GER_france
 		icon = GFX_focus_attack_france
-		x = -4
+		x = -2
 		y = 1
 		relative_position_id = GER_india
 
@@ -916,7 +919,7 @@ focus_tree = {
 	focus = {
 		id = GER_austria_friend
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = GER_india
 
@@ -941,7 +944,7 @@ focus_tree = {
 	focus = {
 		id = GER_austria_enemy
 		icon = GFX_goal_generic_forceful_treaty
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = GER_india
 
@@ -966,7 +969,7 @@ focus_tree = {
 	focus = {
 		id = GER_russia
 		icon = GFX_focus_generic_winter_warfare
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = GER_india
 
@@ -993,13 +996,13 @@ focus_tree = {
 	focus = {
 		id = GER_decrypt
 		icon = GFX_goal_generic_radar
-		x = 4
+		x = 2
 		y = 1
-		relative_position_id = GER_india
+		relative_position_id = GER_domestic_bliss
 
 		cost = 10
 
-		prerequisite = { focus = GER_india	}
+		prerequisite = { focus = GER_domestic_bliss	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

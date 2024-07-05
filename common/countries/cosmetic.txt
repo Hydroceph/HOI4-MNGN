@@ -47,3 +47,18 @@ SVR = {
     color = rgb { 125  13  24 }
     color_ui = rgb { 125  13  24 }
 }
+
+MBR = {
+    color = rgb { 198 15 45 }
+    color_ui = rgb { 198 15 45 }
+}
+
+SBR = {
+    color = rgb { 198 15 45 }
+    color_ui = rgb { 198 15 45 }
+}
+
+IBR = {
+    color = rgb { 211 220 240 }
+    color_ui = rgb { 211 220 240 }
+}

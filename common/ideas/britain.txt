@@ -1,0 +1,192 @@
+ideas = {
+	country = {
+		ENG_political_anarchy_idea = {
+					
+			name = ENG_political_anarchy_idea
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				political_power_cost = 0.8
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				drift_defence_factor = -0.2
+			}
+		}
+
+		ENG_national_militia_idea = {
+					
+			name = ENG_national_militia_idea
+			picture = ENG_the_war_to_end_all_wars
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				army_core_defence_factor = -0.1
+				war_support_factor = -0.1
+				recruitable_population = -0.2
+			}
+		}
+
+		ENG_redcoats_idea = {
+					
+			name = ENG_redcoats_idea
+			picture = eng_service_overseas
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+
+		ENG_volunteer_idea = {
+					
+			name = ENG_volunteer_idea 
+			picture = volunteer_only
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				send_volunteers_tension = -1
+				send_volunteer_divisions_required = -0.50
+				send_volunteer_factor = 0.5
+				drift_defence_factor = 0.5
+			}
+		}
+
+
+		ENG_coup_idea = {
+
+			name = ENG_coup_idea
+			picture = generic_spy_coup
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				operation_coup_government_cost = -0.2
+				operation_coup_government_outcome = 0.2
+				operation_coup_government_risk = -0.2
+			}
+		}
+
+		ENG_ascendant_idea = {
+
+			name = ENG_ascendant_idea
+			picture = generic_victors_of_ww1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			cancel = {
+				has_war = yes
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		ENG_literacy_idea = {
+
+			name = ENG_literacy_idea
+			picture = generic_research_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			cancel = {
+				has_war = yes
+			}
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		ENG_world_revolution_idea = {
+
+			name = ENG_world_revolution_idea
+			picture = SWI_spirit_of_helvetia_aggressive_war
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.5
+			}
+		}
+
+	}
+}

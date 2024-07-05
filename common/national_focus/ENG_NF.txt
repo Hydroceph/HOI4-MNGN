@@ -17,6 +17,769 @@ focus_tree = {
 	shared_focus = aviation_effort
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
-	shared_focus = political_effort
+
+	focus = {
+		id = ENG_maoism
+		icon = GFX_focus_prc_maoism
+		x = 20
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+				set_capital = {
+					state = 14
+				}
+				set_cosmetic_tag = MBR
+				create_country_leader = {
+					name = "Somehow, Victoria returned"
+					picture = Portrait_Victoria.dds
+					ideology = moderatism
+					traits = {
+						queen_of_the_people
+						sins_of_the_father
+					}
+				}
+				create_country_leader = {
+					name = "Nina Temple"
+					picture = Portrait_Nina_Temple.dds
+					ideology = anti_revisionism
+					traits = {
+						editor
+						popular_figurehead
+					}
+				}
+			}
+			start_civil_war = {
+				ruling_party = communism
+				ideology = neutrality
+				size = 0.5
+				states = {
+					6 30 45 3 26 13 23 28 40
+				}
+				set_cosmetic_tag = IBR
+				army_ratio = 0.4
+				navy_ratio = 0.4
+				capital = 6
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_syndicalist
+		icon = GFX_focus_eng_crush_the_dream
+		x = -2
+		y = 0
+		relative_position_id = ENG_maoism
+
+		cost = 10
+
+		mutually_exclusive = { focus = ENG_maoism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+				set_capital = {
+					state = 13
+				}
+				set_cosmetic_tag = SBR
+				create_country_leader = {
+					name = "Somehow, Victoria returned"
+					picture = Portrait_Victoria.dds
+					ideology = moderatism
+					traits = {
+						queen_of_the_people
+						sins_of_the_father
+					}
+				}
+				create_country_leader = {
+					name = "Arthur Scargill"
+					picture = Portrait_Arthur_Scargill.dds
+					ideology = anti_revisionism
+					traits = {
+						cornered_fox
+						man_of_the_nation
+					}
+				}
+			}
+			start_civil_war = {
+				ruling_party = communism
+				ideology = neutrality
+				size = 0.5
+				states = {
+					6 30 45 3 20 17 14
+				}
+				set_cosmetic_tag = IBR
+				army_ratio = 0.4
+				navy_ratio = 0.4
+				capital = 6
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_civil_war
+		icon = GFX_focus_eng_the_kings_party
+		x = -1
+		y = 1
+		relative_position_id = ENG_maoism
+
+		cost = 5
+
+		prerequisite = { focus = ENG_syndicalist focus = ENG_maoism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			remove_ideas = {
+				ENG_political_anarchy_idea
+			}
+			create_faction = "Fourth International"
+			set_faction_leader = yes
+			# something about getting rid of the old elite or whatever
+		}
+	}
+
+	focus = {
+		id = ENG_germany
+		icon = GFX_focus_DEN_avenging_1864
+		x = -3
+		y = 1
+		relative_position_id = ENG_civil_war
+
+		cost = 10
+
+		prerequisite = { focus = ENG_civil_war }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				ENG_volunteer_idea
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_militia_one
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = -1
+		y = 1
+		relative_position_id = ENG_germany
+
+		cost = 10
+
+		prerequisite = { focus = ENG_germany }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				extensive_conscription
+			}
+			army_experience = 50
+		}
+	}
+
+	focus = {
+		id = ENG_militia_two
+		icon = GFX_focus_ETH_continuous_strengthen_the_black_lions
+		x = 0
+		y = 1
+		relative_position_id = ENG_militia_one
+
+		cost = 10
+
+		prerequisite = { focus = ENG_militia_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			remove_ideas = {
+				ENG_national_militia_idea
+			}
+			add_ideas = {
+				ENG_redcoats_idea
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_coup
+		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+		x = 1
+		y = 1
+		relative_position_id = ENG_germany
+
+		cost = 10
+
+		prerequisite = { focus = ENG_germany }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				ENG_coup_idea
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_russia
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		x = 0
+		y = 1
+		relative_position_id = ENG_coup
+
+		cost = 5
+
+		prerequisite = { focus = ENG_coup }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			SOV = {country_event = { days = 1 id = modengland.1 }}
+		}
+	}
+
+	focus = {
+		id = ENG_navy_one
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		x = 0
+		y = 1
+		relative_position_id = ENG_civil_war
+
+		cost = 10
+
+		prerequisite = { focus = ENG_civil_war }
+
+		available = {
+			has_civil_war = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_navy_two
+		icon = GFX_focus_NOR_the_royal_norwegian_navy
+		x = 0
+		y = 1
+		relative_position_id = ENG_navy_one
+
+		cost = 10
+
+		prerequisite = { focus = ENG_navy_one }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_empire
+		icon = GFX_focus_eng_global_defense
+		x = 3
+		y = 1
+		relative_position_id = ENG_civil_war
+
+		cost = 10
+
+		prerequisite = { focus = ENG_civil_war }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_political_power = 200
+		}
+	}
+
+	focus = {
+		id = ENG_zulu_friend
+		icon = GFX_focus_ETH_african_union
+		x = -1
+		y = 1
+		relative_position_id = ENG_empire
+
+		cost = 10
+
+		prerequisite = { focus = ENG_empire }
+		mutually_exclusive = { focus = ENG_zulu_kill }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			ZUL = {
+				transfer_state = 522 
+				transfer_state = 699
+				transfer_state = 623
+				transfer_state = 219
+				transfer_state = 557
+				transfer_state = 203
+				transfer_state = 568
+				transfer_state = 707
+				every_owned_state = {
+					add_core_of = ZUL
+				}
+			} 
+			add_opinion_modifier = {
+				target = ZUL
+				modifier = large_increase
+			}
+			add_to_faction = ZUL
+			TIG = {
+				transfer_state = 716 
+				transfer_state = 350
+				transfer_state = 78
+				transfer_state = 218
+				every_owned_state = {
+					add_core_of = TIG
+				}
+			} 
+			add_opinion_modifier = {
+				target = TIG
+				modifier = large_increase
+			}
+			add_to_faction = TIG
+		}
+	}
+
+	focus = {
+		id = ENG_zulu_kill
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 1
+		y = 1
+		relative_position_id = ENG_empire
+		cost = 10
+
+		prerequisite = { focus = ENG_empire }
+		mutually_exclusive = { focus = ENG_zulu_friend }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			hidden_effect = {
+				ZUL = {
+					transfer_state = 522 
+					transfer_state = 699
+					transfer_state = 623
+					transfer_state = 219
+					transfer_state = 557
+					transfer_state = 203
+					transfer_state = 568
+					transfer_state = 707
+					every_owned_state = {
+						add_core_of = ZUL
+					}
+					set_politics = {
+						ruling_party = fascism
+						elections_allowed = no
+					}
+					set_popularities = {
+						fascism = 70
+						communism = 30
+					}
+				}
+				TIG = {
+					transfer_state = 716 
+					transfer_state = 350
+					transfer_state = 78
+					transfer_state = 218
+					every_owned_state = {
+						add_core_of = TIG
+					}
+					set_politics = {
+						ruling_party = fascism
+						elections_allowed = no
+					}
+					set_popularities = {
+						fascism = 70
+						communism = 30
+					}
+				} 
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ZUL
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = TIG
+			}
+			# add event so they know whats happened, the local elites have teamed up and broken free from british rule or something
+		}
+	}
+
+	focus = {
+		id = ENG_rwanda_friend
+		icon = GFX_focus_ETH_the_african_union
+		x = 0
+		y = 1
+		relative_position_id = ENG_zulu_friend
+
+		cost = 10
+
+		prerequisite = { focus = ENG_zulu_friend focus = ENG_zulu_kill }
+		mutually_exclusive = { focus = ENG_rwanda_kill }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			RWA = {
+				transfer_state = 408 
+				transfer_state = 310
+				transfer_state = 648
+				transfer_state = 719
+				every_owned_state = {
+					add_core_of = RWA
+				}
+			} 
+			add_opinion_modifier = {
+				target = RWA
+				modifier = large_increase
+			}
+			add_to_faction = RWA
+			ZAN = {
+				transfer_state = 358 
+				transfer_state = 297
+				transfer_state = 218
+				transfer_state = 296
+				transfer_state = 320
+				every_owned_state = {
+					add_core_of = ZAN
+				}
+			} 
+			add_opinion_modifier = {
+				target = ZAN
+				modifier = large_increase
+			}
+			add_to_faction = ZAN
+		}
+	}
+
+	focus = {
+		id = ENG_rwanda_kill
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 0
+		y = 1
+		relative_position_id = ENG_zulu_kill
+		cost = 10
+
+		prerequisite = { focus = ENG_zulu_friend focus = ENG_zulu_kill }
+		mutually_exclusive = { focus = ENG_rwanda_friend }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				RWA = {
+					transfer_state = 408 
+					transfer_state = 310
+					transfer_state = 648
+					transfer_state = 719
+					every_owned_state = {
+						add_core_of = RWA
+					}
+					set_politics = {
+						ruling_party = fascism
+						elections_allowed = no
+					}
+					set_popularities = {
+						fascism = 70
+						communism = 30
+					}
+				}
+				ZAN = {
+					transfer_state = 358 
+					transfer_state = 297
+					transfer_state = 218
+					transfer_state = 296
+					transfer_state = 320
+					every_owned_state = {
+						add_core_of = ZAN
+					}
+					set_politics = {
+						ruling_party = fascism
+						elections_allowed = no
+					}
+					set_popularities = {
+						fascism = 70
+						communism = 30
+					}
+				} 
+			} 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = RWA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ZAN
+			}
+			# add event so they know whats happened, the local elites have teamed up and broken free from british rule or something
+		}
+	}
+
+	focus = {
+		id = ENG_auz
+		icon = GFX_focus_attack_australia
+		x = 1
+		y = 1
+		relative_position_id = ENG_russia
+
+		cost = 10
+
+		prerequisite = { focus = ENG_russia focus = ENG_militia_two }
+		prerequisite = { focus = ENG_rwanda_friend focus = ENG_rwanda_kill }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			AST = {
+				start_civil_war = {
+					ruling_party = communism
+					ideology = neutrality
+					size = 0.4
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_raj
+		icon = GFX_focus_RAJ_two_nation_theory
+		x = 2
+		y = 0
+		relative_position_id = ENG_auz
+
+		cost = 10
+
+		prerequisite = { focus = ENG_russia focus = ENG_militia_two }
+		prerequisite = { focus = ENG_rwanda_friend focus = ENG_rwanda_kill }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			RAJ = {
+				start_civil_war = {
+					ruling_party = communism
+					ideology = neutrality
+					size = 0.4
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_communism
+		icon = GFX_focus_eng_the_sun_never_sets
+		x = -1
+		y = 1
+		relative_position_id = ENG_raj
+
+		cost = 5
+
+		prerequisite = { focus = ENG_raj }
+		prerequisite = { focus = ENG_auz }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				ENG_ascendant_idea
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_canada
+		icon = GFX_focus_attack_france
+		x = -1
+		y = 1
+		relative_position_id = ENG_communism
+
+		available = {
+			date > 1939.6.6
+			}
+
+		cost = 10
+
+		prerequisite = { focus = ENG_communism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_india
+		icon = GFX_focus_attack_germany
+		x = 1
+		y = 1
+		relative_position_id = ENG_communism
+
+		available = {
+			date > 1939.6.6
+			}
+
+		cost = 10
+
+		prerequisite = { focus = ENG_communism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GER
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_world_war
+		icon = GFX_focus_focus_fra_revolution_utmost
+		x = 1
+		y = 1
+		relative_position_id = ENG_canada
+
+		cost = 5
+
+		prerequisite = { focus = ENG_canada focus = ENG_india }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_ideas = {
+				ENG_world_revolution_idea
+			}
+		}
+	}
 
 }
