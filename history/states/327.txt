@@ -6,16 +6,17 @@ state = {
 		tungsten = 2
 	}
 
-	state_category = rural
+	state_category = megalopolis
 
 	history = {
 		owner = USA
+		add_core_of = CSA
 		victory_points = {
 			10492 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 2
 			arms_factory = 0
 			11975 = {
 				naval_base = 1

@@ -1,0 +1,213 @@
+add_namespace = modgermany
+
+country_event = {
+	id = modgermany.1
+	title = modgermany.1.t
+	desc = modgermany.1.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.1.a
+		ai_chance = { 
+			base = 50
+		}
+		GER = {add_to_faction = HAI}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.1.b
+		ai_chance = { 
+			base = 50
+		}
+		#add response event so everyone knows they refused
+	}
+}
+
+country_event = {
+	id = modgermany.2
+	title = modgermany.2.t
+	desc = modgermany.2.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.2.a
+		ai_chance = { 
+			base = 50
+		}
+		GER = {add_to_faction = JAP}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.2.b
+		ai_chance = { 
+			base = 50
+		}
+		#add response event so everyone knows they refused
+	}
+}
+
+country_event = {
+	id = modgermany.3
+	title = modgermany.3.t
+	desc = modgermany.3.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.3.a
+		ai_chance = { 
+			base = 50
+		}
+		GER = {add_to_faction = KOR}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.3.b
+		ai_chance = { 
+			base = 50
+		}
+		#add response event so everyone knows they refused
+	}
+}
+
+country_event = {
+	id = modgermany.4
+	title = modgermany.4.t
+	desc = modgermany.4.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.4.a
+		ai_chance = { 
+			base = 80
+		}
+		GER = {add_to_faction = PAN}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.4.b
+		ai_chance = { 
+			base = 20
+		}
+		#add response event so everyone knows they refused
+	}
+}
+
+country_event = {
+	id = modgermany.5
+	title = modgermany.5.t
+	desc = modgermany.5.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.5.a
+		ai_chance = { 
+			base = 50
+		}
+		GER = {add_to_faction = TUR}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.5.b
+		ai_chance = { 
+			base = 50
+		}
+		#add response event so everyone knows they refused
+	}
+}
+
+country_event = {
+	id = modgermany.6
+	title = modgermany.6.t
+	desc = modgermany.6.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.6.a
+		ai_chance = { 
+			base = 50
+		}
+		GER = {add_to_faction = AUS}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.6.b
+		ai_chance = { 
+			base = 50
+		}
+		#add response event so everyone knows they refused
+	}
+}
+
+country_event = {
+	id = modgermany.7
+	title = modgermany.7.t
+	desc = modgermany.7.d
+	picture = GFX_report_event_ITA_partisans
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.7.a
+		ai_chance = { 
+			base = 33
+		}
+		GER = {transfer_state = 354}
+		GER = {transfer_state = 641}
+		GER = {transfer_state = 244}
+		GER = {transfer_state = 436}
+		GER = {transfer_state = 156}
+		GER = {
+			create_wargoal = {
+			type = puppet_wargoal_focus
+			target = AUS
+			}
+		}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.7.b
+		ai_chance = { 
+			base = 33
+		}
+		GER = {transfer_state = 354}
+		GER = {
+			create_wargoal = {
+			type = puppet_wargoal_focus
+			target = AUS
+			}
+		}
+		#add response event so everyone knows they've joined GER faction
+	}
+
+	option = {
+		name = modgermany.7.c
+		ai_chance = { 
+			base = 33
+		}
+		GER = {
+			create_wargoal = {
+			type = puppet_wargoal_focus
+			target = AUS
+			}
+		}
+	}
+}

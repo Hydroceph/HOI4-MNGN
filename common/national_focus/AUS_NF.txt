@@ -291,6 +291,7 @@ focus_tree = {
 
 		completion_reward = { 
 			add_political_power = 200
+			set_rule = { can_send_volunteers = yes }
 			remove_ideas = {
 				AUS_disjointed_government_idea
 			}

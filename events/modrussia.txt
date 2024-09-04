@@ -1,0 +1,57 @@
+add_namespace = modrussia
+
+country_event = {
+	id = modrussia.1
+	title = modrussia.1.t
+	desc = modrussia.1.d
+	picture = GFX_report_event_poland_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = modrussia.1.a # Ger takes most of Pol
+		ai_chance = { 
+			base = 100
+		}
+		GER = {transfer_state =  622}
+		GER = {transfer_state =  399}
+		GER = {transfer_state =  579}
+		#send news event so everyone knows ger occupied Poland
+	}
+
+	option = {
+		name = modrussia.1.b # Ger leaves all of Pol
+		ai_chance = { 
+			base = 0
+		}
+		#nothing happens
+	}
+}
+
+country_event = {
+	id = modrussia.2
+	title = modrussia.2.t
+	desc = modrussia.2.d
+	picture = GFX_report_event_tur_turkish_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = modrussia.2.a # Tur takes most of caucases
+		ai_chance = { 
+			base = 100
+		}
+		TUR = {transfer_state =  555}
+		TUR = {transfer_state =  582}
+		TUR = {transfer_state =  586}
+		#send news event so everyone knows ger occupied Poland
+	}
+
+	option = {
+		name = modrussia.2.b # tur leaves all of caucases
+		ai_chance = { 
+			base = 0
+		}
+		#nothing happens
+	}
+}

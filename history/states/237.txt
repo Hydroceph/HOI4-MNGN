@@ -7,7 +7,7 @@ state = {
 		tungsten = 6
 	}
 
-	state_category = town
+	state_category = megalopolis
 
 	history = {
 		owner = HAI
@@ -15,12 +15,12 @@ state = {
 			4598 1
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			dockyard = 1
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 5
 			7660 = {
-				naval_base = 1
+				naval_base = 6
 			}
 			air_base = 1
 		}

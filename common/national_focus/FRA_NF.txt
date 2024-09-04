@@ -110,7 +110,8 @@ focus_tree = {
 
 		completion_reward = { 
 			remove_ideas = FRA_red_scare
-			FRA = { add_political_power = 100 }
+			FRA = { add_political_power = 150 }
+			set_rule = { can_send_volunteers = yes }
 		}
 	}
 

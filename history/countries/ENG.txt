@@ -135,23 +135,26 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1934.4.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 41
+	communism = 35
 	democratic = 22
-	fascism = 35
-	neutrality = 2
+	fascism = 2
+	neutrality = 41
 }
 
 add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
+	ENG_literacy_idea
+	ENG_political_anarchy_idea
+	ENG_national_militia_idea
 }
 set_stability = 0.6
 set_war_support = 0.60

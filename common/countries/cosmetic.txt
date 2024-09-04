@@ -17,3 +17,48 @@ CAL = {
     color = rgb { 204 170 0 }
     color_ui = rgb { 204 170 0 }
 }
+
+SHU = {
+    color = rgb { 38  230  0 }
+    color_ui = rgb { 38  230  0 }
+}
+
+GWR = {
+    color = rgb { 0  0  0 }
+    color_ui = rgb { 0  0  0 }
+}
+
+GEI = {
+    color = rgb { 0  49  83 }
+    color_ui = rgb { 0  49  83 }
+}
+
+CSA = {
+    color = rgb { 178 190 181 }
+    color_ui = rgb { 178 190 181 }
+}
+
+HPR = {
+    color = rgb { 255 105 180 }
+    color_ui = rgb { 255 105 180 }
+}
+
+SVR = {
+    color = rgb { 125  13  24 }
+    color_ui = rgb { 125  13  24 }
+}
+
+MBR = {
+    color = rgb { 198 15 45 }
+    color_ui = rgb { 198 15 45 }
+}
+
+SBR = {
+    color = rgb { 198 15 45 }
+    color_ui = rgb { 198 15 45 }
+}
+
+IBR = {
+    color = rgb { 211 220 240 }
+    color_ui = rgb { 211 220 240 }
+}
