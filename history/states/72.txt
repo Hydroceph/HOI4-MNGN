@@ -11,6 +11,7 @@ state = {
 
 	history = {
 		owner = USA
+		add_core_of = CSA
 		victory_points = {
 			12501 2
 		}

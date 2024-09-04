@@ -166,8 +166,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	democratic = 47
-	fascism = 39
-	neutrality = 14
+	fascism = 14
+	neutrality = 39
 }
 
 create_faction = "Offenehand"
@@ -179,12 +179,19 @@ add_to_faction = Z02
 
 add_ideas = {
 	GER_Friedrich_Wilhelm_von_Hohenzollern
+	GER_grosraumwirtschaft_idea
 	civilian_economy
 	export_focus
 	volunteer_only
 }
-set_stability = 0.6
-set_war_support = 0.60
+
+add_timed_idea = {
+	idea = GER_victor_idea
+	years = 3
+}
+
+set_stability = 0.7
+set_war_support = 0.8
 
 # Starting tech
 set_technology = {

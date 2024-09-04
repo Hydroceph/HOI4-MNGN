@@ -1,0 +1,29 @@
+add_namespace = modengland
+
+country_event = {
+	id = modengland.1
+	title = modengland.1.t
+	desc = modengland.1.d
+	picture = GFX_report_event_eng_royal_family
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modengland.1.a # russia joins faction
+		ai_chance = { 
+			base = 80
+		}
+		ENG = {
+			add_to_faction = SOV
+		}
+		# add response event to everyone
+	}
+
+	option = {
+		name = modengland.1.b # russia rejects faction
+		ai_chance = { 
+			base = 20
+		}
+		# add response event to everyone
+	}
+}

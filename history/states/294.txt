@@ -10,7 +10,8 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = AFG
+		owner = PAN
+		add_core_of = PAN
 		victory_points = {
 			10737 15
 		}
@@ -20,7 +21,6 @@ state = {
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = AFG
 	}
 
 	provinces = {
