@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+
 		OLI_recovering_from_civil_war = {
 
 			name = OLI_recovering_from_civil_war
@@ -23,5 +24,116 @@ ideas = {
 			rule = { can_decline_call_to_war = yes }
 
 		}
+
+		# generic FT
+	
+		supply_hub_build_speed = {
+			picture = generic_railroads
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_supply_node_factor = 0.2
+			}
+
+		}
+
+		rail_way_build_speed = {
+			picture = GFX_idea_generic_railroads
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_rail_way_factor = 0.2
+			}
+
+		}
+
+		defensive_land_units = {
+			picture = YUG_federal_defense_council
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+			}
+
+		}
+
+		offensive_land_units = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_core_attack_factor = -0.05
+				army_core_defence_factor = -0.1
+			}
+
+		}
+
+		better_army_schooling = {
+			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				training_time_army_factor = -0.1
+				planning_speed = 0.2
+				max_planning_factor = 0.2
+			}
+
+		}
+
+		ikea_these_forts = {
+			picture = FRA_fortification_focus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				# make forts faster to build, but slightly more expensive
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2	
+			}
+		}
+		# END OF generic FT
 	}
 }
