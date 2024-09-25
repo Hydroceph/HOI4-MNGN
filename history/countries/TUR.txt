@@ -76,7 +76,7 @@ add_ideas = {
 	volunteer_only
 	TUR_sick_man_of_europe
 }
-set_stability = 0.6
+set_stability = 0.5
 set_war_support = 0.60
 
 # Starting tech
@@ -84,6 +84,9 @@ set_technology = {
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
 }
 
 if = {

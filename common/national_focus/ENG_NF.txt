@@ -22,10 +22,12 @@ focus_tree = {
 	focus = {
 		id = ENG_maoism
 		icon = GFX_focus_prc_maoism
-		x = 20
+		x = 22
 		y = 0
 
 		cost = 10
+
+		mutually_exclusive = { focus = ENG_syndicalist }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -145,6 +147,12 @@ focus_tree = {
 
 		prerequisite = { focus = ENG_syndicalist focus = ENG_maoism }
 
+		available = {
+			NOT = {
+				has_civil_war = yes
+			}
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -155,7 +163,8 @@ focus_tree = {
 			}
 			create_faction = "Fourth International"
 			set_faction_leader = yes
-			# something about getting rid of the old elite or whatever
+			ENG = {country_event = { days = 2 id = modengland.2 }}
+
 		}
 	}
 
@@ -444,6 +453,7 @@ focus_tree = {
 				modifier = large_increase
 			}
 			add_to_faction = TIG
+			ENG = {news_event = { days = 1 id = modnews.31 }}
 		}
 	}
 
@@ -511,7 +521,7 @@ focus_tree = {
 				type = puppet_wargoal_focus
 				target = TIG
 			}
-			# add event so they know whats happened, the local elites have teamed up and broken free from british rule or something
+			ENG = {news_event = { days = 1 id = modnews.32 }}
 		}
 	}
 
@@ -561,6 +571,7 @@ focus_tree = {
 				modifier = large_increase
 			}
 			add_to_faction = ZAN
+			ENG = {news_event = { days = 1 id = modnews.33 }}
 		}
 	}
 
@@ -625,7 +636,7 @@ focus_tree = {
 				type = puppet_wargoal_focus
 				target = ZAN
 			}
-			# add event so they know whats happened, the local elites have teamed up and broken free from british rule or something
+			ENG = {news_event = { days = 1 id = modnews.34 }}
 		}
 	}
 
@@ -646,6 +657,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			puppet = AST
 			AST = {
 				start_civil_war = {
 					ruling_party = communism
@@ -653,6 +665,7 @@ focus_tree = {
 					size = 0.4
 				}
 			}
+			ENG = {news_event = { days = 1 id = modnews.35 }}
 		}
 	}
 
@@ -674,6 +687,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			puppet = RAJ
 			RAJ = {
 				start_civil_war = {
 					ruling_party = communism
@@ -681,6 +695,7 @@ focus_tree = {
 					size = 0.4
 				}
 			}
+			ENG = {news_event = { days = 1 id = modnews.36 }}
 		}
 	}
 

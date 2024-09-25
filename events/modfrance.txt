@@ -13,8 +13,12 @@ country_event = {
 		ai_chance = { 
 			base = 80
 		}
-		AUS = { declare_war_on = {target = RSM}}
-		#add response event to everyone else, RSM demanded the rest of Italy with french support so austria dec'd war, use GFX_report_event_ITA_italian_civil_war
+		declare_war_on = {
+			target = RSM
+			type = take_state
+			generator = { 137 143 }
+		}
+		FRA = {news_event = { days = 1 id = modnews.2 }}
 	}
 
 	option = {
@@ -31,6 +35,6 @@ country_event = {
 		RSM = {transfer_state = 68}
 		RSM = {transfer_state = 70}
 		RSM = {transfer_state = 285}
-		#add response event to everyone else, RSM demanded the rest of Italy with french support so austria backed down, use GFX_report_event_generic_italian_celebration
+		FRA = {news_event = { days = 1 id = modnews.3 }}
 	}
 }

@@ -1,0 +1,593 @@
+add_namespace = modnews
+
+news_event = {
+	id = modnews.1 # mod.austria.1.a, France lets Austria invade Italy
+	title = modnews.1.t
+	desc = modnews.1.d
+
+	picture = GFX_news_event_005
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.2 # mod.france.1.a, RSM demanded the rest of Italy with french support so austria dec'd war
+	title = modnews.2.t
+	desc = modnews.2.d
+
+	picture = GFX_news_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.3 # mod.france.1.b, RSM demanded the rest of Italy with french support so austria backed down
+	title = modnews.3.t
+	desc = modnews.3.d
+
+	picture = GFX_news_event_008
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.4 # mod.turkey.1.a, Turkey tried to take suez, france says no
+	title = modnews.4.t
+	desc = modnews.4.d
+
+	picture = GFX_news_event_french_parade
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.5 # mod.turkey.1.b, Turkey tried to take suez, france says fine you can have it
+	title = modnews.5.t
+	desc = modnews.5.d
+
+	picture = GFX_news_event_generic_african_unity
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.6 # mod.russia.1.a, germany occupies poland
+	title = modnews.6.t
+	desc = modnews.6.d
+
+	picture = GFX_news_event_germany_victory
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.7 # mod.russia.2.a, Turkey occupies caucases
+	title = modnews.7.t
+	desc = modnews.7.d
+
+	picture = GFX_news_event_turkey_affirms_interest_in_protecting_balkans
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.8 # mod.england.1.a, russia joins eng faction
+	title = modnews.8.t
+	desc = modnews.8.d
+
+	picture = GFX_news_event_hitler_handshake
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.9 # mod.russia.1.b, russia not joins eng faction
+	title = modnews.9.t
+	desc = modnews.9.d
+
+	picture = GFX_news_event_churchill_degaulle
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.10 # mod.germany.1.a, Haiti joins the german faction
+	title = modnews.10.t
+	desc = modnews.10.d
+
+	picture = GFX_news_event_generic_sign_treaty2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.11 # mod.germany.1.b, Haiti not joins the german faction
+	title = modnews.11.t
+	desc = modnews.11.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.12 # mod.germany.2.a, Japan joins the german faction
+	title = modnews.12.t
+	desc = modnews.12.d
+
+	picture = GFX_news_event_generic_sign_treaty2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.13 # mod.germany.2.b, Japan not joins the german faction
+	title = modnews.13.t
+	desc = modnews.13.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.14 # mod.germany.3.a, Korea joins the german faction
+	title = modnews.14.t
+	desc = modnews.14.d
+
+	picture = GFX_news_event_generic_sign_treaty2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.15 # mod.germany.3.b, Korea not joins the german faction
+	title = modnews.15.t
+	desc = modnews.15.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.16 # mod.germany.4.a, Sikh Empire joins the german faction
+	title = modnews.16.t
+	desc = modnews.16.d
+
+	picture = GFX_news_event_generic_sign_treaty2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.17 # mod.germany.4.b, Sikh Empire not joins the german faction
+	title = modnews.17.t
+	desc = modnews.17.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.18 # mod.germany.5.a, Turkey joins the german faction
+	title = modnews.18.t
+	desc = modnews.18.d
+
+	picture = GFX_news_event_turkey_joins_the_allies
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.19 # mod.germany.5.b, Turkey not joins the german faction
+	title = modnews.19.t
+	desc = modnews.19.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.20 # mod.germany.6.a, Austria joins the german faction
+	title = modnews.20.t
+	desc = modnews.20.d
+
+	picture = GFX_news_event_hungary_refused
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.21 # mod.germany.6.b, Austria not joins the german faction
+	title = modnews.21.t
+	desc = modnews.21.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.22 # mod.germany.7.a, Austria gives up all their territory
+	title = modnews.22.t
+	desc = modnews.22.d
+
+	picture = GFX_news_event_hungary_refused
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.23 # mod.germany.7.b, Austria gives up just tyrol
+	title = modnews.23.t
+	desc = modnews.23.d
+
+	picture = GFX_news_event_hungarian_soldiers
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.24 # mod.germany.7.c, Austria refuses
+	title = modnews.24.t
+	desc = modnews.24.d
+
+	picture = GFX_news_event_026
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.25 # germany canada yes
+	title = modnews.25.t
+	desc = modnews.25.d
+
+	picture = GFX_news_event_canadian_soldiers
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.26 # germany canada no
+	title = modnews.26.t
+	desc = modnews.26.d
+
+	picture = GFX_news_event_canada_patriation
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.27 # germany china yes
+	title = modnews.27.t
+	desc = modnews.27.d
+
+	picture = GFX_news_event_chinese_soldiers_mountain
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.28 # germany china no
+	title = modnews.28.t
+	desc = modnews.28.d
+
+	picture = GFX_news_event_chinese_soldiers_city_ruin
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.29 # germany america yes
+	title = modnews.29.t
+	desc = modnews.29.d
+
+	picture = GFX_news_event_generic_south_american_dreadnought_race
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.30 # germany america no
+	title = modnews.30.t
+	desc = modnews.30.d
+
+	picture = GFX_news_event_BRA_vargas_and_roosevelt
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.31 # england zulu friend
+	title = modnews.31.t
+	desc = modnews.31.d
+
+	picture = GFX_news_event_saf_soldiers
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.32 # england zulu kill
+	title = modnews.32.t
+	desc = modnews.32.d
+
+	picture = GFX_news_event_saf_civil_war
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.33 # england rwanda friend
+	title = modnews.33.t
+	desc = modnews.33.d
+
+	picture = GFX_news_event_generic_african_unity
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.34 # england rwanda kill
+	title = modnews.34.t
+	desc = modnews.34.d
+
+	picture = GFX_news_event_south_africa_patrol
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.35 # england auz
+	title = modnews.35.t
+	desc = modnews.35.d
+
+	picture = GFX_news_event_eng_imperial_federation_india
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.36 # england raj
+	title = modnews.36.t
+	desc = modnews.36.d
+
+	picture = GFX_news_event_eng_imperial_federation_india
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.37 # china going to finland
+	title = modnews.37.t
+	desc = modnews.37.d
+
+	picture = GFX_news_event_FIN_continuation_war_murmansk
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}

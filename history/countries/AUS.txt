@@ -1,7 +1,7 @@
 capital = 35
 
 oob = "AUS_1936"
-set_research_slots = 4
+set_research_slots = 3
 set_convoys = 368
 
 recruit_character = AUS_117442301
@@ -119,6 +119,9 @@ set_technology = {
 	interwar_antiair = 1
 	interwar_artillery = 1
 	tech_support = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
 }
 
 if = {

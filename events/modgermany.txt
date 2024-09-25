@@ -14,7 +14,7 @@ country_event = {
 			base = 50
 		}
 		GER = {add_to_faction = HAI}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.10 }}
 	}
 
 	option = {
@@ -22,7 +22,7 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		#add response event so everyone knows they refused
+		GER = {news_event = { days = 1 id = modnews.11 }}
 	}
 }
 
@@ -40,7 +40,7 @@ country_event = {
 			base = 50
 		}
 		GER = {add_to_faction = JAP}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.12 }}
 	}
 
 	option = {
@@ -48,7 +48,7 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		#add response event so everyone knows they refused
+		GER = {news_event = { days = 1 id = modnews.13 }}
 	}
 }
 
@@ -66,7 +66,7 @@ country_event = {
 			base = 50
 		}
 		GER = {add_to_faction = KOR}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.14 }}
 	}
 
 	option = {
@@ -74,7 +74,7 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		#add response event so everyone knows they refused
+		GER = {news_event = { days = 1 id = modnews.15 }}
 	}
 }
 
@@ -92,7 +92,7 @@ country_event = {
 			base = 80
 		}
 		GER = {add_to_faction = PAN}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.16 }}
 	}
 
 	option = {
@@ -100,7 +100,7 @@ country_event = {
 		ai_chance = { 
 			base = 20
 		}
-		#add response event so everyone knows they refused
+		GER = {news_event = { days = 1 id = modnews.17 }}
 	}
 }
 
@@ -108,7 +108,7 @@ country_event = {
 	id = modgermany.5
 	title = modgermany.5.t
 	desc = modgermany.5.d
-	picture = GFX_report_event_ITA_partisans
+	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
 	
@@ -118,7 +118,7 @@ country_event = {
 			base = 50
 		}
 		GER = {add_to_faction = TUR}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.18 }}
 	}
 
 	option = {
@@ -126,7 +126,7 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		#add response event so everyone knows they refused
+		GER = {news_event = { days = 1 id = modnews.19 }}
 	}
 }
 
@@ -134,7 +134,7 @@ country_event = {
 	id = modgermany.6
 	title = modgermany.6.t
 	desc = modgermany.6.d
-	picture = GFX_report_event_ITA_partisans
+	picture = GFX_report_event_generic_read_write
 
 	is_triggered_only = yes
 	
@@ -144,7 +144,7 @@ country_event = {
 			base = 50
 		}
 		GER = {add_to_faction = AUS}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.20 }}
 	}
 
 	option = {
@@ -152,7 +152,7 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		#add response event so everyone knows they refused
+		GER = {news_event = { days = 1 id = modnews.21 }}
 	}
 }
 
@@ -160,7 +160,7 @@ country_event = {
 	id = modgermany.7
 	title = modgermany.7.t
 	desc = modgermany.7.d
-	picture = GFX_report_event_ITA_partisans
+	picture = GFX_report_event_nazis_in_danzig
 
 	is_triggered_only = yes
 	
@@ -180,7 +180,7 @@ country_event = {
 			target = AUS
 			}
 		}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.22 }}
 	}
 
 	option = {
@@ -195,7 +195,7 @@ country_event = {
 			target = AUS
 			}
 		}
-		#add response event so everyone knows they've joined GER faction
+		GER = {news_event = { days = 1 id = modnews.23 }}
 	}
 
 	option = {
@@ -209,5 +209,27 @@ country_event = {
 			target = AUS
 			}
 		}
+		GER = {news_event = { days = 1 id = modnews.24 }}
+	}
+}
+
+country_event = { # china goes to finland event
+	id = modgermany.8
+	title = modgermany.8.t
+	desc = modgermany.8.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modgermany.8.a
+		ai_chance = { 
+			base = 50
+		}
+		CHI = { transfer_state = 580 }
+		CHI = { transfer_state = 528 }
+		CHI = { transfer_state = 730 }
+		CHI = { transfer_state = 659 }
+		GER = {news_event = { days = 1 id = modnews.37 }}
 	}
 }

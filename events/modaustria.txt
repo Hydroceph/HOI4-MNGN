@@ -14,8 +14,7 @@ country_event = {
 			base = 50
 		}
 		AUS = { declare_war_on = {target = RSM}}
-		#add response event to Austria
-		#add response even to everyone else
+		AUS = {news_event = { days = 1 id = modnews.1 }}
 	}
 
 	option = {
