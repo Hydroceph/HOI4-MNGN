@@ -58,6 +58,9 @@
  modengland.2.t:0 "Steady as she goes"
  modengland.2.d:0 "Many of the old imperial territories have pledged fealty to our new government, but the matter is far from settled. Our control in Africa is tenous, and India and Australia remain independant."
  modengland.2.a:0 "That'll have to do for now"
+ modengland.3.t:0 "You think you're so great because you have boats!"
+ modengland.3.d:0 "That's a Napoleon 2023 reference for ya. I've never hated a film more. Still fuming. Anyway... Our operatives in England have managed to stoke the flames of discontent following the debacle with their King, and we can now direct these riotous energies towards damaging British industrial capacity."
+ modengland.3.a:0 "Say goodbye to your dockyards!"
 # news events
  modnews.a:0 "#drama :O"
  modnews.1.t:0 "Austria invades Italy!"
@@ -134,3 +137,5 @@
  modnews.36.d:0 "The British have finally made a move against their erstwhile India colony, instigating a Communist revolution. That's a bold move cotton, let's see if it pays off."
  modnews.37.t:0 "This is all Neel's fault"
  modnews.37.d:0 "With all the shenaniganary currently occuring in China proper, the Chinese government has decided to retire to their ancestral home - Finland."
+ modnews.38.t:0 "The Bristol Tea Party"
+ modnews.38.d:0 " The British Isles were engulfed in riots this past week, with abolishonist sentiment driving the destruction of many Royal Dockyards. They once thought they were so great because they had boats, but how will this continue with no dockyards?"

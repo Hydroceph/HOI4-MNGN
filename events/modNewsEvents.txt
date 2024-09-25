@@ -591,3 +591,19 @@ news_event = {
 		name = modnews.a
 	}
 }
+
+news_event = {
+	id = modnews.38 # Bristol tea party
+	title = modnews.38.t
+	desc = modnews.38.d
+
+	picture = GFX_news_event_generic_riot
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}

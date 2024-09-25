@@ -50,3 +50,66 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = modengland.3 # Bristol tea party
+	title = modengland.3.t
+	desc = modengland.3.d
+	picture = GFX_news_event_generic_riot
+
+	trigger = {
+		date > 1936.1.1
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = modengland.3.a 
+		ai_chance = { 
+			base = 80
+		}
+		GER = {news_event = { days = 1 id = modnews.38 }}
+		14 = {
+			remove_building = {
+			type = dockyard
+			level = 2
+			}
+		}
+		26 = {
+			remove_building = {
+			type = dockyard
+			level = 2
+			}
+		}
+		3 = {
+			remove_building = {
+			type = dockyard
+			level = 3
+			}
+		}
+		13 = {
+			remove_building = {
+			type = dockyard
+			level = 2
+			}
+		}
+		23 = {
+			remove_building = {
+			type = dockyard
+			level = 1
+			}
+		}
+		28 = {
+			remove_building = {
+			type = dockyard
+			level = 1
+			}
+		}
+		40 = {
+			remove_building = {
+			type = dockyard
+			level = 1
+			}
+		}
+	}
+}
