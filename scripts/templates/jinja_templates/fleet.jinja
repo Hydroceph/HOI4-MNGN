@@ -1,0 +1,15 @@
+units = {
+    {%- for fleet in fleets %}
+    fleet = {
+        name = "{{fleet.name}}"
+        naval_base = {{fleet.location}}
+        task_force = {
+            name = "{{fleet.tf.name}}"
+            location = {{fleet.location}}
+            {% for ship in fleet.tf.ships -%}
+            ship = { name = "{{ship.name}}" definition = {{ship.definition}} equipment = { {{ship.hull}} = { amount = 1 owner = {{fleet.owner}} version_name = "{{ship.version_name}}" } } }
+            {% endfor %}
+        }
+    }
+    {% endfor %}
+}

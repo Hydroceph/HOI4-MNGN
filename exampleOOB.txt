@@ -1,0 +1,40 @@
+units = {
+    fleet = {
+        name = "Grand Fleet"
+        naval_base = 6489
+        task_force = {
+            name = "Grand Fleet"
+            location = 6489
+            ship = { name = "Floating Wall" definition = battleship equiptment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Standard Battleship" } } }
+            ship = { name = "Blue Dog's Courage" definition = battleship equiptment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Standard Battleship" } } }
+            ship = { name = "Cold Belfast " definition = battleship equiptment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Standard Battleship" } } }
+            ship = { name = "Hidden in the Rush" definition = battlecruiser equiptment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Standard Battlecruiser" } } }
+            ship = { name = "Honey in Ice" definition = battlecruiser equiptment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Standard Battlecruiser" } } }
+            ship = { name = "Last Deldrum " definition = carrier equiptment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Standard Carrier" } } }
+            ship = { name = "Destroyer 1" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 2" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 3" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 4" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 5" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 6" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 7" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 8" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 9" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 10" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 11" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 12" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 13" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 14" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 15" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 16" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 17" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Destroyer 18" definition = destroyer equiptment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Standard Destroyer" } } }
+            ship = { name = "Light Cruiser 1" definition = light cruiser equiptment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Standard Light Cruiser" } } }
+            ship = { name = "Light Cruiser 2" definition = light cruiser equiptment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Standard Light Cruiser" } } }
+            ship = { name = "Light Cruiser 3" definition = light cruiser equiptment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Standard Light Cruiser" } } }
+            ship = { name = "Light Cruiser 4" definition = light cruiser equiptment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Standard Light Cruiser" } } }
+            ship = { name = "Light Cruiser 5" definition = light cruiser equiptment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Standard Light Cruiser" } } }
+            ship = { name = "Light Cruiser 6" definition = light cruiser equiptment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Standard Light Cruiser" } } }
+        }
+    }
+}
