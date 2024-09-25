@@ -55,9 +55,10 @@ country_event = {
 	id = modengland.3 # Bristol tea party
 	title = modengland.3.t
 	desc = modengland.3.d
-	picture = GFX_news_event_generic_riot
+	picture = GFX_report_event_generic_riot
 
 	trigger = {
+		tag = GER
 		date > 1936.1.1
 	}
 
