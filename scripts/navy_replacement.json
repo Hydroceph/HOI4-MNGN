@@ -1,0 +1,95 @@
+{
+    "players":
+    [
+        {
+            "country": "ENG",
+            "oob_path":"history\\units\\ENG_1936_Naval.txt",
+            "main_location":6489,
+            "list_of_names":["Hecate's Nightmare","Powerful Game","Red Leicester","Flying Bride","Glory of Mother","Last Deldrum","Honey in Ice","Hidden in the Rush","Cold Belfast","Blue Dog's Courage","Floating Wall"],
+            "flagship":"Scarlet Scare",
+            "sf_names": ["Grand Fleet","Home Fleet"],
+            "dt_names": ["North Sea Sentinels","Channel Sweepers"],
+            "wp_names": ["Underwater Menace"]
+        },
+        {
+            "country":"FRA",
+            "oob_path":"history\\units\\FRA_1936_Naval.txt",
+            "main_location":485,
+            "list_of_names":["Berthier","Murat","Moncey", "Jourdan", "Masséna", "Augereau", "Bernadotte", "Soult", "Brune", "Lannes", "Mortier", "Ney", "Davout", "Bessières"],
+            "flagship":"Napoleon",
+            "sf_names": ["Grand Fleet"],
+            "dt_names": ["North Sea Sentinels"],
+            "wp_names": ["Underwater Menace"]
+        },
+        {
+            "country":"TUR",
+            "oob_path":"history\\units\\TUR_1936_Naval.txt",
+            "main_location":1122,
+            "list_of_names":["Constantinople", "Sophia", "Mersin", "Byzantine Fury", "Turkish Kiss", "Tiger of Europe", "Moonrise"],
+            "flagship":"Kraken",
+            "sf_names": ["Grand Fleet"],
+            "dt_names": ["The Sentinels"],
+            "wp_names": ["Underwater Menace"]
+        },
+        {
+            "country":"SOV",
+            "oob_path":"history\\units\\SOV_1936_Naval.txt",
+            "main_location":11670,
+            "list_of_names":["The Resolute", "The Irresolute", "The Swimming Tank", "Ol' Rusty", "Bob Marley", "The Whalers", "Battleship McBattleshipface"],
+            "flagship":"The Rasputin",
+            "sf_names": ["Grand Fleet"],
+            "dt_names": ["The Sentinels"],
+            "wp_names": ["Underwater Menace"]
+        },
+        {
+            "country":"AUS",
+            "oob_path":"history\\units\\AUS_1936_Naval.txt",
+            "main_location":13252,
+            "list_of_names":["SMS Venezuela","SMS Panama","SMS Colombia","SMS Guyana","SMS Ecuador","SMS Inca","SMS Suriname","SMS Amazon Jungle"],
+            "flagship":"The Wrong Continent",
+            "sf_names": ["Grand Fleet"],
+            "dt_names": ["The Sentinels"],
+            "wp_names": ["Underwater Menace"]
+        },
+        {
+            "country":"GER",
+            "oob_path":"history\\units\\GER_1936_Naval.txt",
+            "main_location":11360,
+            "list_of_names":["Siegfried", "Beowulf", "Heimdall", "Hildebrand", "Hagen", "Hana", "Preussen", "Odin","Agir", "Freya", "Vineta", "Hertha", "Falke", "Seeadler"],
+            "flagship":"The Wrong Continent",
+            "sf_names": ["Red Fleet"],
+            "dt_names": ["Blue Sentinels"],
+            "wp_names": ["Cat Menace"]
+        }
+        
+    ],
+    "fleet_designs":
+    {
+        "strike_force":
+        {
+            "capital":
+            {
+                "BB":3,
+                "BC":2
+            },
+            "screen":
+            {
+                "DD":18,
+                "CL":6
+            }
+        },
+        "detection":
+        {
+            "screen":{
+                "DD":16,
+                "CL":4
+            }
+        },
+        "wolfpack":
+        {
+            "wolfpack":{
+                "SS":10
+            }
+        }
+    }
+}
