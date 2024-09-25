@@ -16,7 +16,7 @@ country_event = {
 		ENG = {
 			add_to_faction = SOV
 		}
-		# add response event to everyone
+		ENG = {news_event = { days = 1 id = modnews.8 }}
 	}
 
 	option = {
@@ -24,6 +24,29 @@ country_event = {
 		ai_chance = { 
 			base = 20
 		}
-		# add response event to everyone
+		ENG = {news_event = { days = 1 id = modnews.9 }}
+	}
+}
+
+country_event = {
+	id = modengland.2
+	title = modengland.2.t
+	desc = modengland.2.d
+	picture = GFX_report_event_indian_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modengland.2.a # puppet all the dominions again # GFX_news_event_eng_imperial_federation_india
+		ai_chance = { 
+			base = 80
+		}
+		ENG = {
+			puppet = Z14
+			puppet = HDJ
+			puppet = Z06
+			puppet = Z01
+			puppet = SAF
+		}
 	}
 }

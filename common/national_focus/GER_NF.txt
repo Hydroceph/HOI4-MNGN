@@ -22,7 +22,7 @@ focus_tree = {
 	focus = {
 		id = GER_policy
 		icon = GFX_focus_POL_reassert_silesian_claims
-		x = 25
+		x = 22
 		y = 0
 
 		cost = 10
@@ -278,6 +278,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			GER = {news_event = { days = 1 id = modnews.25 }}
 			CAN = {
 				start_civil_war = {
 					ideology = communism
@@ -308,6 +309,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			GER = {news_event = { days = 1 id = modnews.26 }}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -410,6 +412,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			GER = {news_event = { days = 1 id = modnews.27 }}
+			CHI = {country_event = { days = 28 id = modgermany.8 }} 
 			CHI = {
 				set_capital = {
 					state = 402
@@ -511,7 +515,6 @@ focus_tree = {
 					type = annex_everything
 				}
 			}
-			#china war (event so everyone knows)
 			#add the funny finland event here, chinese government flees to Finland or something?
 		}
 	}
@@ -532,6 +535,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			GER = {news_event = { days = 1 id = modnews.28 }}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -605,6 +609,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			GER = {news_event = { days = 1 id = modnews.29 }}
 			USA = {
 				set_capital = {
 					state = 651
@@ -706,9 +711,6 @@ focus_tree = {
 					years = 3
 				}
 			}
-			#murica war (event so everyone knows)
-
-			#Nearing the end of construction of the Pentagon; parts of the building are in use but there are still enough construction personel in the area to present a possible in
 		}
 	}
 
@@ -728,6 +730,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			GER = {news_event = { days = 1 id = modnews.30 }}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -963,7 +966,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			AUS = {country_event = { days = 1 id = modgermany.7 }} 
+			
 		}
 	}
 
@@ -1046,7 +1049,6 @@ focus_tree = {
 					damage = 5
 				}
 			}
-			#event for sabotage
 		}
 	}
 
@@ -1080,7 +1082,6 @@ focus_tree = {
 					damage = 5
 				}
 			}
-			#event for sabotage
 		}
 	}
 }

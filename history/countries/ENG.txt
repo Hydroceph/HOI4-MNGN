@@ -156,7 +156,7 @@ add_ideas = {
 	ENG_political_anarchy_idea
 	ENG_national_militia_idea
 }
-set_stability = 0.6
+set_stability = 0.5
 set_war_support = 0.60
 
 # Starting tech
@@ -175,6 +175,9 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	tech_support = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
 }
 
 if = {

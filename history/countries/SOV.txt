@@ -88,8 +88,8 @@ add_ideas = {
 	volunteer_only
 	SOV_russia_sucks_idea
 }
-set_stability = 0.6
-set_war_support = 0.60
+set_stability = 0.4
+set_war_support = 0.30
 
 # Starting tech
 set_technology = {
@@ -98,6 +98,9 @@ set_technology = {
 	gw_artillery = 1
 	infantry_weapons = 1
 	tech_support = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
 }
 
 if = {

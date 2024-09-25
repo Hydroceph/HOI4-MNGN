@@ -14,6 +14,7 @@ country_event = {
 			base = 50
 		}
 		FRA = { declare_war_on = {target = TUR}}
+		TUR = {news_event = { days = 1 id = modnews.4 }}
 	}
 
 	option = {
@@ -28,5 +29,6 @@ country_event = {
 				days = 180
 			}
 		}
+		TUR = {news_event = { days = 1 id = modnews.5 }}
 	}
 }

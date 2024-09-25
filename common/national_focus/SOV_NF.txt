@@ -22,7 +22,7 @@ focus_tree = {
 	focus = {
 		id = SOV_civil_war_one
 		icon = GFX_focus_SOV_zemsky_sobor
-		x = 20
+		x = 18
 		y = 0
 
 		cost = 10

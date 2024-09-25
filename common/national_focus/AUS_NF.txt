@@ -19,6 +19,7 @@ focus_tree = {
 	shared_focus = mod_scrap_naval_estimates
 	shared_focus = mod_industrial_effort
 
+
 	focus = {
 		id = AUS_hungarian_question
 		icon = GFX_focus_generic_balkan_diplomacy

@@ -208,6 +208,9 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	tech_support = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
 }
 
 if = {

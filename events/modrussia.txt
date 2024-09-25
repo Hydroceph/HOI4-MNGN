@@ -16,7 +16,7 @@ country_event = {
 		GER = {transfer_state =  622}
 		GER = {transfer_state =  399}
 		GER = {transfer_state =  579}
-		#send news event so everyone knows ger occupied Poland
+		SOV = {news_event = { days = 1 id = modnews.6 }}
 	}
 
 	option = {
@@ -44,7 +44,7 @@ country_event = {
 		TUR = {transfer_state =  555}
 		TUR = {transfer_state =  582}
 		TUR = {transfer_state =  586}
-		#send news event so everyone knows ger occupied Poland
+		SOV = {news_event = { days = 1 id = modnews.7 }}
 	}
 
 	option = {
