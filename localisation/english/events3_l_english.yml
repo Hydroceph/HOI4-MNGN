@@ -58,6 +58,11 @@
  modengland.2.t:0 "Steady as she goes"
  modengland.2.d:0 "Many of the old imperial territories have pledged fealty to our new government, but the matter is far from settled. Our control in Africa is tenous, and India and Australia remain independant."
  modengland.2.a:0 "That'll have to do for now"
+ wormtown.1.t: "New international settlement founded"
+ wormtown.1.d: "A new settlement has been established in the wilderness of northern Canada. Settlers from across the globe have been drawn to 'a promised land of peace and prosperity' outside the juristiction of any country. The town seems popular amongst your people, who are asking for a donation of supplies to get the town started."
+ wormtown.1.a: "Send token supplies"
+ wormtown.1.b: "Why do we care?"
+
 # news events
  modnews.a:0 "#drama :O"
  modnews.1.t:0 "Austria invades Italy!"
