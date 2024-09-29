@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  modturkey.1.t:0 "Turkey demands the Suez!"
  modturkey.1.d:0 "The audacity! Turkey has demanded we 'return' the Suez to them, threataning military action if we do not acquiesce. This is naturally a preposterous suggestion, but are we really in a strong enough position elsewhere to risk opening a front with the Turks?"
  modturkey.1.a:0 "They deserve death for even asking!"
@@ -61,13 +61,6 @@ l_english:
  modengland.3.t:0 "You think you're so great because you have boats!"
  modengland.3.d:0 "That's a Napoleon 2023 reference for ya. I've never hated a film more. Still fuming. Anyway... Our operatives in England have managed to stoke the flames of discontent following the debacle with their King, and we can now direct these riotous energies towards damaging British industrial capacity."
  modengland.3.a:0 "Say goodbye to your dockyards!"
- 
-# wormtown
- wormtown.1.t:0 "New international settlement founded"
- wormtown.1.d:0 "A new settlement has been established in the wilderness of northern Canada. Settlers from across the globe have been drawn to 'a promised land of peace and prosperity' outside the juristiction of any country. The town seems popular amongst your people, who are asking for a donation of supplies to get the town started."
- wormtown.1.a:0 "Send token supplies"
- wormtown.1.b:0 "Why do we care?"
-
 # news events
  modnews.a:0 "#drama :O"
  modnews.1.t:0 "Austria invades Italy!"
