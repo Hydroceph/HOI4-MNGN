@@ -139,3 +139,8 @@
  modnews.37.d:0 "With all the shenaniganary currently occuring in China proper, the Chinese government has decided to retire to their ancestral home - Finland."
  modnews.38.t:0 "The Bristol Tea Party"
  modnews.38.d:0 " The British Isles were engulfed in riots this past week, with abolishonist sentiment driving the destruction of many Royal Dockyards. They once thought they were so great because they had boats, but how will this continue with no dockyards?"
+# wormtown events
+ modwormtown.1.t:0 "TEST"
+ modwormtown.1.d:0 "TESTONE"
+ modwormtown.1.a:0 "TESTTWO"
+ modwormtown.1.b:0 "TESTTHREE"

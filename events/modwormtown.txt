@@ -1,0 +1,32 @@
+add_namespace = modwormtown
+
+news_event = {
+	id = modwormtown.1 # wormtown test
+	title = modwormtown.1.t
+	desc = modwormtown.1.d
+
+	picture = GFX_news_event_ast_paras
+
+	major = yes
+
+	trigger = {
+		tag = GER
+		date > 1937.6.6
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.1.a
+		add_political_power = 20
+	}
+
+	option = {
+		name = modwormtown.1.b
+		add_political_power = -10
+	}
+}
