@@ -6,7 +6,7 @@ state = {
 		tungsten = 0
 	}
 
-	state_category = rural
+	state_category = megalopolis
 
 	history = {
 		owner = ION
@@ -14,10 +14,17 @@ state = {
 			10203 15
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
+			infrastructure = 5
+			industrial_complex = 10
+			arms_factory = 6
+			dockyard = 6
 			air_base = 5
+			10203 = {
+				naval_base = 6
+			}
+			1106 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = ION
 	}

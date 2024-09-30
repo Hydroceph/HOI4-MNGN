@@ -130,3 +130,42 @@ news_event = {
 		add_stability = 0.1
 	}
 }
+
+country_event = {
+	id = modwormtown.6 # leto to ionian islands
+	title = modwormtown.6.t
+	desc = modwormtown.6.d
+
+	picture = GFX_report_event_albanian_king_zog
+
+	major = yes
+
+	trigger = {
+		date > 1938.6.6
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.6.a
+		700 = {add_core_of = ATR}
+		ATR = {transfer_state = 700}
+		GER = {news_event = { days = 1 id = modwormtown.7 }}
+	}
+}
+
+news_event = {
+	id = modwormtown.7 # news about leto taking ionian islands
+	title = modwormtown.7.t
+	desc = modwormtown.7.d
+
+	picture = GFX_news_event_eng_blackshirts
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.7.a
+	}
+}

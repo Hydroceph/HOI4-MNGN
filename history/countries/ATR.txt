@@ -1,0 +1,43 @@
+capital = 700
+
+set_research_slots = 5
+set_convoys = 60
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	democratic = 0
+	fascism = 100
+	neutrality = 0
+}
+
+add_ideas = {
+	war_economy
+	export_focus
+	extensive_conscription
+}
+set_stability = 0.7
+set_war_support = 0.7
+
+# Starting tech
+set_technology = {
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+create_country_leader = {
+	name = "Duke Leto II"
+	desc = ""
+	picture = Portrait_Leto.dds
+	ideology = rexism
+	traits = {
+		snuggler
+	}
+}
