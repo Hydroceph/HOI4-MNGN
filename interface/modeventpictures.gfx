@@ -1,0 +1,13 @@
+spriteTypes= {
+
+	spriteType = {
+		name = GFX_mods_news_yapping
+		texturefile = gfx/event_pictures/report_event_yapping.dds
+	}
+
+	spriteType = {
+		name = GFX_mods_news_yapping_two
+		texturefile = gfx/event_pictures/report_event_yapping_two.dds
+	}
+
+}

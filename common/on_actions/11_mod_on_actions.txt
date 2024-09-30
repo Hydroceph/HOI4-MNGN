@@ -1,0 +1,30 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			AUS = {
+				country_event = { id = modintronews.2 }
+			}
+			AUS = {
+				country_event = { id = modintronews.1 }
+			}
+			ENG = {
+				country_event = { id = modintronews.4 }
+			}
+			ENG = {
+				country_event = { id = modintronews.3 }
+			}
+			FRA = {
+				country_event = { id = modintronews.6 }
+			}
+			FRA = {
+				country_event = { id = modintronews.5 }
+			}
+			SOV = {
+				country_event = { id = modintronews.8 }
+			}
+			SOV = {
+				country_event = { id = modintronews.7 }
+			}
+		}
+	}
+}

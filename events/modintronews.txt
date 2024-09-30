@@ -1,0 +1,129 @@
+add_namespace = modintronews
+
+country_event = {
+	id = modintronews.1 # austria historic background
+	title = modintronews.1.t
+	desc = modintronews.1.d
+
+	picture = GFX_mods_news_yapping
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.2 # austria development portfolio
+	title = modintronews.2.t
+	desc = modintronews.2.d
+
+	picture = GFX_mods_news_yapping_two
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.3 # British historic background
+	title = modintronews.3.t
+	desc = modintronews.3.d
+
+	picture = GFX_mods_news_yapping
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.4 # British development portfolio
+	title = modintronews.4.t
+	desc = modintronews.4.d
+
+	picture = GFX_mods_news_yapping_two
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.5 # French historic background
+	title = modintronews.5.t
+	desc = modintronews.5.d
+
+	picture = GFX_mods_news_yapping
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.6 # French development portfolio
+	title = modintronews.6.t
+	desc = modintronews.6.d
+
+	picture = GFX_mods_news_yapping_two
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.7 # Russian historic background
+	title = modintronews.7.t
+	desc = modintronews.7.d
+
+	picture = GFX_mods_news_yapping
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.8 # Russian development portfolio
+	title = modintronews.8.t
+	desc = modintronews.8.d
+
+	picture = GFX_mods_news_yapping_two
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}

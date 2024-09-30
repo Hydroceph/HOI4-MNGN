@@ -18,6 +18,8 @@ news_event = {
 		days = 1
 	}
 
+	fire_only_once = yes
+
 	option = {
 		name = modwormtown.1.a
 		add_political_power = 20
@@ -47,6 +49,8 @@ news_event = {
 		days = 1
 	}
 
+	fire_only_once = yes
+
 	option = {
 		name = modwormtown.2.a
 		add_political_power = 5
@@ -75,6 +79,8 @@ news_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+
+	fire_only_once = yes
 
 	option = {
 		name = modwormtown.3.a
@@ -111,6 +117,8 @@ news_event = {
 		days = 1
 	}
 
+	fire_only_once = yes
+
 	option = {
 		name = modwormtown.4.a
 		add_stability = -0.05
@@ -135,6 +143,8 @@ news_event = {
 		days = 1
 	}
 
+	fire_only_once = yes
+
 	option = {
 		name = modwormtown.5.a
 		add_stability = 0.1
@@ -157,6 +167,8 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+
+	fire_only_once = yes
 
 	option = {
 		name = modwormtown.6.a
