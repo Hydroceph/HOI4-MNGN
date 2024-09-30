@@ -25,6 +25,18 @@ on_actions = {
 			SOV = {
 				country_event = { id = modintronews.7 }
 			}
+			GER = {
+				country_event = { id = modintronews.10 }
+			}
+			GER = {
+				country_event = { id = modintronews.9 }
+			}
+			TUR = {
+				country_event = { id = modintronews.12 }
+			}
+			TUR = {
+				country_event = { id = modintronews.11 }
+			}
 		}
 	}
 }

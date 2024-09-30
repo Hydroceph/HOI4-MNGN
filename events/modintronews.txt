@@ -127,3 +127,67 @@ country_event = {
 		name = modintronews.a
 	}
 }
+
+country_event = {
+	id = modintronews.9 # German historic background
+	title = modintronews.9.t
+	desc = modintronews.9.d
+
+	picture = GFX_mods_news_yapping
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.10 # German development portfolio
+	title = modintronews.10.t
+	desc = modintronews.10.d
+
+	picture = GFX_mods_news_yapping_two
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.11 # Turk historic background
+	title = modintronews.11.t
+	desc = modintronews.11.d
+
+	picture = GFX_mods_news_yapping
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
+
+country_event = {
+	id = modintronews.12 # Turk development portfolio
+	title = modintronews.12.t
+	desc = modintronews.12.d
+
+	picture = GFX_mods_news_yapping_two
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.a
+	}
+}
