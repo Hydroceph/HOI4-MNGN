@@ -1,21 +1,17 @@
 add_namespace = modwormtown
 
 news_event = {
-	id = modwormtown.1 # wormtown test
+	id = modwormtown.1 
 	title = modwormtown.1.t
 	desc = modwormtown.1.d
 
-	picture = GFX_news_event_ast_paras
-
+	picture = GFX_news_event_052
+	
 	major = yes
 
 	trigger = {
 		tag = GER
 		date > 1937.6.6
-	}
-
-	mean_time_to_happen = {
-		days = 1
 	}
 
 	is_triggered_only = yes
@@ -28,5 +24,109 @@ news_event = {
 	option = {
 		name = modwormtown.1.b
 		add_political_power = -10
+	}
+}
+
+news_event = {
+	id = modwormtown.2 
+	title = modwormtown.2.t
+	desc = modwormtown.2.d
+
+	picture = GFX_news_event_ast_paras
+
+	major = yes
+
+	trigger = {
+		tag = GER
+		date > 1937.7.7
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.2.a
+		add_political_power = 5
+	}
+
+	option = {
+		name = modwormtown.2.b
+		add_political_power = 5
+	}
+}
+
+news_event = {
+	id = modwormtown.3
+	title = modwormtown.3.t
+	desc = modwormtown.3.d
+
+	picture = GFX_news_event_CHL_chillan_earthquake
+
+	major = yes
+
+	trigger = {
+		tag = GER
+		date > 1937.8.8
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.3.a
+		add_fuel = 2500
+		add_political_power = -25
+	}
+
+	option = {
+		name = modwormtown.3.b
+		add_tech_bonus = {
+			name = radar_tech
+			bonus = 0.15
+			uses = 1
+			category = radar_tech
+		}
+	}
+}
+
+news_event = {
+	id = modwormtown.4
+	title = modwormtown.4.t
+	desc = modwormtown.4.d
+
+	picture = GFX_news_event_hol_polderen
+
+	major = yes
+
+	trigger = {
+		tag = GER
+		date > 1937.9.9
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.4.a
+		add_stability = -0.05
+	}
+}
+
+news_event = {
+	id = modwormtown.5
+	title = modwormtown.5.t
+	desc = modwormtown.5.d
+
+	picture = GFX_news_event_churchill_degaulle
+
+	major = yes
+
+	trigger = {
+		tag = GER
+		date > 1937.11.11
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = modwormtown.5.a
+		add_stability = 0.1
 	}
 }
