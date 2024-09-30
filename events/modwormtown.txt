@@ -14,7 +14,9 @@ news_event = {
 		date > 1937.6.6
 	}
 
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = modwormtown.1.a
@@ -41,7 +43,9 @@ news_event = {
 		date > 1937.7.7
 	}
 
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = modwormtown.2.a
@@ -68,7 +72,9 @@ news_event = {
 		date > 1937.8.8
 	}
 
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = modwormtown.3.a
@@ -101,7 +107,9 @@ news_event = {
 		date > 1937.9.9
 	}
 
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = modwormtown.4.a
@@ -123,7 +131,9 @@ news_event = {
 		date > 1937.11.11
 	}
 
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = modwormtown.5.a
@@ -144,7 +154,9 @@ country_event = {
 		date > 1938.6.6
 	}
 
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = modwormtown.6.a
