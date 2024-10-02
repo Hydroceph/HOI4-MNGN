@@ -115,6 +115,10 @@ focus_tree = {
 
 		mutually_exclusive = { focus = SOV_civil_war_one }
 
+		ai_will_do = {
+			factor = 80
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -206,6 +210,10 @@ focus_tree = {
 			has_civil_war = no
 		}
 
+		ai_will_do = {
+			factor = 80
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -226,6 +234,10 @@ focus_tree = {
 		relative_position_id = SOV_civil_war_three
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
 
 		prerequisite = { focus = SOV_civil_war_three }
 
@@ -271,6 +283,10 @@ focus_tree = {
 		relative_position_id = SOV_navy_one
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
 
 		prerequisite = { focus = SOV_navy_one }
 
@@ -636,6 +652,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 80
+		}
+
 		prerequisite = { focus = SOV_civil_war_three }
 
 		cancel_if_invalid = yes
@@ -655,6 +675,10 @@ focus_tree = {
 		relative_position_id = SOV_warm
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 80
+		}
 
 		prerequisite = { focus = SOV_warm }
 
