@@ -97,7 +97,7 @@ focus_tree = {
 				ideology = communism
 				set_cosmetic_tag = SVR
 				size = 0.5
-				army_ratio = 0.4
+				army_ratio = 0.3
 				navy_ratio = 0
 				capital = 673
 			}
@@ -192,7 +192,7 @@ focus_tree = {
 				ideology = neutrality
 				set_cosmetic_tag = HPR
 				size = 0.5
-				army_ratio = 0.4
+				army_ratio = 0.3
 				navy_ratio = 0
 				capital = 355
 			}
