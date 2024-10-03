@@ -190,3 +190,7 @@
  modintronews.11.d:0 "Gobble Gobble (you're a Turkey)"
  modintronews.12.t:0 "Turkish Development Portfolio"
  modintronews.12.d:0 "Gobble Gobble (you're a Turkey)"
+# tutorial checking (stored in modintronews because I'm laaaaaaaaaaaaaaaaaaaazy)
+ modintronews.b:0 "Checklist time my doods"
+ modintronews.c:0 "1. Logistics (is your fuel, convoy count, and logistics fullfillment okay?)      2. Armies (are you building enough units, have you upgraded your division templates?)     3. Planes (are your planes doing the right missions in the right regions?)      4. Navy (are you protecting yourself from naval invasions?)"
+ modintronews.d:0 "I solemnly swear that I am reaching my full potential"

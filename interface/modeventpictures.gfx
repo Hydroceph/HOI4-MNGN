@@ -10,4 +10,9 @@ spriteTypes= {
 		texturefile = gfx/event_pictures/report_event_yapping_two.dds
 	}
 
+	spriteType = {
+		name = GFX_mods_news_winning_son
+		texturefile = gfx/event_pictures/news_event_son.dds
+	}
+
 }

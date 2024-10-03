@@ -43,6 +43,10 @@ focus_tree = {
 				}
 			}
 			set_cosmetic_tag = HPR
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
 			hidden_effect = {
 				POL = {transfer_state = 622}
 				POL = {transfer_state = 399}
@@ -179,6 +183,10 @@ focus_tree = {
 				}
 			}
 			set_cosmetic_tag = SVR
+			add_popularity = {
+				ideology = communism
+				popularity = 0.6
+			}
 			start_civil_war = {
 				ruling_party = communism
 				ideology = neutrality
@@ -191,7 +199,6 @@ focus_tree = {
 
 			GER = {country_event = { days = 7 id = modrussia.1 }}
 			TUR = {country_event = { days = 7 id = modrussia.2 }}
-			#send event everywhere so people know about the civil war
 		}
 	}
 

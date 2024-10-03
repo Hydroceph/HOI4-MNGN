@@ -191,3 +191,129 @@ country_event = {
 		name = modintronews.a
 	}
 }
+
+country_event = {
+	id = modintronews.13 # 1st bi-annual check - starting timer to make news events go to everyone
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	trigger = {
+		date > 1936.6.6
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	major = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = modintronews.d
+		GER = {news_event = { days = 182 id = modintronews.14 }}
+		GER = {news_event = { days = 365 id = modintronews.15 }}
+		GER = {news_event = { days = 547 id = modintronews.16 }}
+		GER = {news_event = { days = 915 id = modintronews.17 }}
+		GER = {news_event = { days = 1280 id = modintronews.18 }}
+		GER = {news_event = { days = 1645 id = modintronews.19 }}
+	}
+}
+
+news_event = {
+	id = modintronews.14 # 2nd bi-annual check
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = modintronews.d
+	}
+}
+
+news_event = {
+	id = modintronews.15 # 3rd bi-annual check
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = modintronews.d
+	}
+}
+
+news_event = {
+	id = modintronews.16 # 4th bi-annual check
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = modintronews.d
+	}
+}
+
+news_event = {
+	id = modintronews.17 # 5th bi-annual check
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = modintronews.d
+	}
+}
+
+news_event = {
+	id = modintronews.18 # 6th bi-annual check
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = modintronews.d
+	}
+}
+
+news_event = {
+	id = modintronews.19 # 7th bi-annual check
+	title = modintronews.b
+	desc = modintronews.c
+
+	picture = GFX_mods_news_winning_son
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = modintronews.d
+	}
+}

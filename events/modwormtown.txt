@@ -9,17 +9,6 @@ news_event = {
 	
 	major = yes
 
-	trigger = {
-		tag = GER
-		date > 1937.6.6
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
-
 	option = {
 		name = modwormtown.1.a
 		add_political_power = 20
@@ -45,12 +34,6 @@ news_event = {
 		date > 1937.7.7
 	}
 
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
-
 	option = {
 		name = modwormtown.2.a
 		add_political_power = 5
@@ -75,12 +58,6 @@ news_event = {
 		tag = GER
 		date > 1937.8.8
 	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
 
 	option = {
 		name = modwormtown.3.a
@@ -113,12 +90,6 @@ news_event = {
 		date > 1937.9.9
 	}
 
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
-
 	option = {
 		name = modwormtown.4.a
 		add_stability = -0.05
@@ -139,12 +110,6 @@ news_event = {
 		date > 1937.11.11
 	}
 
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
-
 	option = {
 		name = modwormtown.5.a
 		add_stability = 0.1
@@ -152,7 +117,7 @@ news_event = {
 }
 
 country_event = {
-	id = modwormtown.6 # leto to ionian islands
+	id = modwormtown.6 # leto to ionian islands. controleed independantly to .8 (because this is it's own mini version of .8)
 	title = modwormtown.6.t
 	desc = modwormtown.6.d
 
@@ -163,12 +128,6 @@ country_event = {
 	trigger = {
 		date > 1938.6.6
 	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
 
 	option = {
 		name = modwormtown.6.a
@@ -191,5 +150,28 @@ news_event = {
 
 	option = {
 		name = modwormtown.7.a
+	}
+}
+
+country_event = {
+	id = modwormtown.8 # the timer event which starts it all, hopefully invisible anyway.
+	title = modwormtown.7.t
+	desc = modwormtown.7.d
+
+	picture = GFX_news_event_eng_blackshirts
+
+	major = yes
+
+	trigger = {
+		date > 1937.1.1
+	}
+
+	option = {
+		name = modwormtown.7.a
+		GER = {news_event = { days = 182 id = modwormtown.1 }}
+		GER = {news_event = { days = 205 id = modwormtown.2 }}
+		GER = {news_event = { days = 235 id = modwormtown.3 }}
+		GER = {news_event = { days = 265 id = modwormtown.4 }}
+		GER = {news_event = { days = 290 id = modwormtown.5 }}
 	}
 }

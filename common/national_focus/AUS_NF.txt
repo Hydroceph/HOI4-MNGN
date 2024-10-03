@@ -327,7 +327,9 @@ focus_tree = {
 				add_compliance = 70
 				add_resistance = -50
 			}
-			#add event so everyone knows Austria Hungary has formed
+			remove_ideas = {
+				AUS_hungary_rev_idea
+			}
 		}
 	}
 
@@ -469,7 +471,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = AUS_ecuador
 
-		cost = 10
+		cost = 5
 
 		prerequisite = { focus = AUS_ecuador }
 
@@ -551,7 +553,6 @@ focus_tree = {
 			remove_ideas = {
 				AUS_italian_rebel_idea
 			}
-			#add event INSIDE france response so everyone knows whats going on
 		}
 	}
 
