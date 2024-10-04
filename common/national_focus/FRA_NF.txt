@@ -95,12 +95,19 @@ focus_tree = {
 		prerequisite = { focus = FRA_puppet_sardinia focus = FRA_puppet_spain }
 
 		available = {
-			NOT = {
-				SPR = {has_government = communism}
-			} 
-			NOT = {
-				SPM = {has_government = communism}
-			} 
+			OR = {
+				NOT = {
+					SPR = {has_government = communism}
+				}
+				has_war_with = SPR
+			}
+			OR = {
+				NOT = {
+					SPM = {has_government = communism}
+				} 
+				has_war_with = SPM
+			}
+
 		}
 
 		cancel_if_invalid = yes
