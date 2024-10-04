@@ -49,6 +49,7 @@ focus_tree = {
 		cost = 10 # in weeks, so cost 10 is 70 days
 
 		prerequisite = { focus = TUR_tanzimat }
+		mutually_exclusive = { focus = TUR_centrism }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -74,7 +75,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = TUN autonomy_state = autonomy_puppet }
+				set_autonomy = { target = TUN autonomy_state = autonomy_satellite }
 			}
 			hidden_effect = {
 				every_owned_state = {
@@ -88,7 +89,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = LBA autonomy_state = autonomy_puppet }
+				set_autonomy = { target = LBA autonomy_state = autonomy_satellite }
 			}
 			hidden_effect = {
 				every_owned_state = {
@@ -102,7 +103,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = ERI autonomy_state = autonomy_puppet }
+				set_autonomy = { target = ERI autonomy_state = autonomy_satellite }
 			}
 			hidden_effect = {
 				every_owned_state = {
@@ -116,7 +117,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = CHA autonomy_state = autonomy_puppet }
+				set_autonomy = { target = CHA autonomy_state = autonomy_satellite }
 			}
 			hidden_effect = {
 				every_owned_state = {
@@ -130,7 +131,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = SYR autonomy_state = autonomy_puppet }
+				set_autonomy = { target = SYR autonomy_state = autonomy_satellite }
 			}
 		}
 	}
@@ -597,7 +598,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = TUR_resource_one
 
-		cost = 10
+		cost = 5
 
 		prerequisite = { focus = TUR_resource_one }
 
@@ -670,7 +671,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = TUR_cure_one
 
-		cost = 10
+		cost = 5
 
 		prerequisite = { focus = TUR_cure_one }
 
