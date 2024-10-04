@@ -9,6 +9,8 @@ news_event = {
 	
 	major = yes
 
+	is_triggered_only = yes
+
 	option = {
 		name = modwormtown.1.a
 		add_political_power = 20
@@ -29,10 +31,7 @@ news_event = {
 
 	major = yes
 
-	trigger = {
-		tag = GER
-		date > 1937.7.7
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = modwormtown.2.a
@@ -54,10 +53,7 @@ news_event = {
 
 	major = yes
 
-	trigger = {
-		tag = GER
-		date > 1937.8.8
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = modwormtown.3.a
@@ -85,10 +81,7 @@ news_event = {
 
 	major = yes
 
-	trigger = {
-		tag = GER
-		date > 1937.9.9
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = modwormtown.4.a
@@ -105,10 +98,7 @@ news_event = {
 
 	major = yes
 
-	trigger = {
-		tag = GER
-		date > 1937.11.11
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = modwormtown.5.a
@@ -128,6 +118,8 @@ country_event = {
 	trigger = {
 		date > 1938.6.6
 	}
+
+	fire_only_once = yes
 
 	option = {
 		name = modwormtown.6.a
@@ -165,6 +157,8 @@ country_event = {
 	trigger = {
 		date > 1937.1.1
 	}
+
+	fire_only_once = yes
 
 	option = {
 		name = modwormtown.7.a
