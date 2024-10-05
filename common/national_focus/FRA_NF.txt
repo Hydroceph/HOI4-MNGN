@@ -417,15 +417,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			338 = {add_core_of = TUR}
-			262 = {add_core_of = TUR}
-			206 = {add_core_of = TUR}
-			215 = {add_core_of = TUR}
-			204 = {add_core_of = TUR}
-			626 = {add_core_of = TUR}
-			54 = {add_core_of = TUR}
-			704 = {add_core_of = TUR}
-			82 = {add_core_of = TUR}
+			338 = {add_core_of = FRA}
+			262 = {add_core_of = FRA}
+			206 = {add_core_of = FRA}
+			215 = {add_core_of = FRA}
+			204 = {add_core_of = FRA}
+			626 = {add_core_of = FRA}
+			54 = {add_core_of = FRA}
+			704 = {add_core_of = FRA}
+			82 = {add_core_of = FRA}
 			if = {
 				limit = { SPM = {is_subject_of = FRA}}
 				annex_country = {

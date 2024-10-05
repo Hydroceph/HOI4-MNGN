@@ -58,6 +58,7 @@ shared_focus = {
     available_if_capitulated = yes
 
     completion_reward = {
+        army_experience = 25
         add_ideas = supply_hub_build_speed
         add_ideas = rail_way_build_speed
     }
@@ -84,6 +85,11 @@ shared_focus = {
             technology = motorised_infantry
         }
         add_tech_bonus = {
+            name = motorized_bonus
+            bonus = 3.0
+            technology = mechanised_infantry
+        }
+        add_tech_bonus = {
             name = armor_bonus
             bonus = 1.0
             uses = 2
@@ -106,10 +112,11 @@ shared_focus = {
     available_if_capitulated = yes
 
     completion_reward = {
+        army_experience = 100
         # grant experimental 1939 tanks
         add_equipment_to_stockpile = {
             type = light_tank_equipment_1
-            amount = 500
+            amount = 600
         }
         # if GER, don't impact relations
         if = {
@@ -163,6 +170,7 @@ shared_focus = {
     available_if_capitulated = yes
 
     completion_reward = {
+        army_experience = 25
         add_ideas = ikea_these_forts
     }
 }
@@ -202,10 +210,11 @@ shared_focus = {
     available_if_capitulated = yes
 
     completion_reward = {
+        army_experience = 100
         # grant experimental 1939 tanks
         add_equipment_to_stockpile = {
             type = heavy_tank_equipment_1
-            amount = 200
+            amount = 250
         }
         # if GER, don't impact relations
         if = {

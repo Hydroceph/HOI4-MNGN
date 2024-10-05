@@ -1,4 +1,4 @@
-name="MNGM - Dankvergences of Darkness"
+name="MNGN - Dankvergences of Darkness"
 replace_path="common/countries"
 replace_path="common/national_focus"
 replace_path="common/peace_conference/ai_peace"
