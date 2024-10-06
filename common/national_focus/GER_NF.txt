@@ -202,9 +202,9 @@ focus_tree = {
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Friedrich Wilhelm von Hohenzollern"
+				name = "Friedrich-Wilhelm von Hohenzollern"
 				picture = Portrait_Kaiser.dds
-				ideology = oligarchism
+				ideology = moderatism
 				traits = {
 					great_war_hero
 					constitutional_monarch
