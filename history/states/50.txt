@@ -6,7 +6,7 @@ state = {
 		steel = 58
 	}
 
-	state_category = city
+	state_category = megalopolis
 
 	history = {
 		owner = FRA
