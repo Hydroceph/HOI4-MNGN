@@ -515,7 +515,27 @@ focus_tree = {
 					type = annex_everything
 				}
 			}
-			#add the funny finland event here, chinese government flees to Finland or something?
+
+			SHU = {
+				every_core_state = {
+					add_core_of = WEI
+					add_core_of = WUU
+				}
+			}
+
+			WUU = {
+				every_core_state = {
+					add_core_of = WEI
+					add_core_of = SHU
+				}
+			}
+
+			WEI = {
+				every_core_state = {
+					add_core_of = SHU
+					add_core_of = WUU
+				}
+			}
 		}
 	}
 
@@ -709,6 +729,26 @@ focus_tree = {
 				add_timed_idea = {
 					idea = OLI_recovering_from_civil_war
 					years = 3
+				}
+			}
+			NCR = {
+				every_core_state = {
+					add_core_of = MCL
+					add_core_of = CSA
+				}
+			}
+
+			CSA = {
+				every_core_state = {
+					add_core_of = MCL
+					add_core_of = NCR
+				}
+			}
+
+			MCL = {
+				every_core_state = {
+					add_core_of = NCR
+					add_core_of = CSA
 				}
 			}
 		}

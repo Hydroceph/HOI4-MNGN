@@ -297,6 +297,10 @@ focus_tree = {
 			remove_ideas = {
 				AUS_disjointed_government_idea
 			}
+			add_timed_idea = {
+				idea = AUS_repair_speed_idea
+				days = 365
+			}
 		}
 	}
 

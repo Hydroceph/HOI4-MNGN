@@ -98,6 +98,7 @@
  generic_war_of_national_liberation_desc:0 "With the Ultimatum refused, we must go on the offensive and liberate all of our territory."
  generic_national_unification:0 "National Unification"
  generic_national_unification_desc:0 "Successes in our Liberation Campaigns have only increased the interest among the [Root.GetAdjective] men to sign up for duty."
+# Oli mod ideas
  USA_recovering_from_civil_war:0 "Recovering From Civil War"
  USA_recovering_from_civil_war_desc:0 "The USA is currently focused on rebuilding the country and less willing to join a faction."
  TUR_sick_man_of_europe:0 "The Very Sick Man of Europe"
@@ -134,6 +135,8 @@
  AUS_research_idea_desc:0 "A significant advantage, if they survive long enough for it to reap the benefits."
  AUS_police_state_idea:0 "Police State"
  AUS_police_state_idea_desc:0 "A relic of the Victorian era, but not one without its uses."
+ AUS_repair_speed_idea:0 "A time of recovery"
+ AUS_repair_speed_idea_desc:0 "The chaos has passed, and now it is time we get back on our feet!"
  OLI_recovering_from_civil_war:0 "Has their own problems"
  OLI_recovering_from_civil_war_desc:0 "This nation is too busy dealing with the effects of civil war to consider joining a faction."
  GER_victor_idea:0 "Victor of the Great War"

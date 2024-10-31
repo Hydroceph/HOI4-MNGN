@@ -160,6 +160,29 @@ ideas = {
 			}
 		}
 
+		AUS_repair_speed_idea = {
+
+			name = AUS_repair_speed_idea
+			picture = SWE_gotaverken_retooled_for_rapid_repairs
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				repair_speed_arms_factory_factor = 0.5
+				repair_speed_industrial_complex_factor = 0.5
+				repair_speed_infrastructure_factor = 0.5
+			}
+		}
+
 
 
 	}
