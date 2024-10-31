@@ -18,6 +18,9 @@ state = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 0
+			7169 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = JAP
 	}

@@ -18,6 +18,9 @@ state = {
 			9097 = {
 				naval_base = 6
 			}
+			3151 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = SOV
 	}

@@ -14,6 +14,12 @@ state = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 0
+			6345 = {
+				naval_base = 6
+			}
+			6120 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = SWE
 	}

@@ -21,6 +21,15 @@ state = {
 			200 = {
 				naval_base = 10
 			}
+			9392 = {
+				naval_base = 6
+			}
+			11218 = {
+				naval_base = 2
+			}
+			6395 = {
+				naval_base = 2
+			}
 			air_base = 3
 		}
 		add_core_of = ENG

@@ -537,7 +537,7 @@ focus_tree = {
 		relative_position_id = AUS_peru
 
 		available = {
-			date > 1938.1.1
+			date > 1939.1.1
 			}
 		
 		cost = 10

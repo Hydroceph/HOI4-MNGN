@@ -28,6 +28,9 @@ state = {
 			3604 = {
 				bunker = 6
 			}
+			11584 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = RSM
 		start_resistance = yes

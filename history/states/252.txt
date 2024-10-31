@@ -19,6 +19,9 @@ state = {
 			arms_factory = 0
 			dockyard = 1
 			air_base = 6
+			5128 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = MAD
 	}

@@ -23,6 +23,9 @@ state = {
 			6831 = {
 				bunker = 6
 			}
+			9838 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = TTS
 	}

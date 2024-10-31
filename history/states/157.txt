@@ -21,6 +21,9 @@ state = {
 			10024 = {
 				naval_base = 3
 			}
+			9896 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = SPR
 	}

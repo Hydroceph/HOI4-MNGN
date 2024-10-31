@@ -857,7 +857,7 @@ focus_tree = {
 		relative_position_id = GER_america_yes
 
 		available = {
-			date > 1940.1.1
+			date > 1940.6.6
 			}
 
 		cost = 10
@@ -907,7 +907,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_india
 
-		cost = 5
+		cost = 10
 
 		prerequisite = { focus = GER_india	}
 
@@ -952,7 +952,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_india
 
-		cost = 5
+		cost = 10
 
 		available = {
 			NOT = {is_in_faction_with = AUS}

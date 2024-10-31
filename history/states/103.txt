@@ -17,6 +17,9 @@ state = {
 			3552 = {
 				naval_base = 8
 			}
+			11465 = {
+				naval_base = 6
+			}
 			air_base = 1
 		}
 		add_core_of = FRA

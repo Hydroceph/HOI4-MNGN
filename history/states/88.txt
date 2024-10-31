@@ -17,6 +17,9 @@ state = {
 			3211 = {
 				naval_base = 5
 			}
+			3314 = {
+				naval_base = 6
+			}
 			air_base = 6
 		}
 		add_core_of = HOL

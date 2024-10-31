@@ -14,6 +14,12 @@ state = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
+			7669 = {
+				naval_base = 2
+			}
+			10288 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = AST
 	}

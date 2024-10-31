@@ -14,6 +14,9 @@ state = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
+			3838 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = FRA
 	}

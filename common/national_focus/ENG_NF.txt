@@ -673,7 +673,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			puppet = AST
+			ENG = { add_to_faction = AST }
 			AST = {
 				start_civil_war = {
 					ruling_party = communism
@@ -703,7 +703,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			puppet = RAJ
+			ENG = { add_to_faction = RAJ }
 			RAJ = {
 				start_civil_war = {
 					ruling_party = communism
@@ -746,7 +746,7 @@ focus_tree = {
 		relative_position_id = ENG_communism
 
 		available = {
-			date > 1939.6.6
+			date > 1940.6.6
 			}
 
 		cost = 10
@@ -773,7 +773,7 @@ focus_tree = {
 		relative_position_id = ENG_communism
 
 		available = {
-			date > 1939.6.6
+			date > 1940.6.6
 			}
 
 		cost = 10

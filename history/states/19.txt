@@ -21,6 +21,9 @@ state = {
 			374 = {
 				naval_base = 10
 			}
+			9347 = {
+				naval_base = 6
+			}
 			air_base = 2
 		}
 		add_core_of = GER

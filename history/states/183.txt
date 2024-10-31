@@ -17,6 +17,9 @@ state = {
 			11670 = {
 				naval_base = 2
 			}
+			3738 = {
+				naval_base = 6
+			}
 			air_base = 1
 		}
 		add_core_of = SOV
