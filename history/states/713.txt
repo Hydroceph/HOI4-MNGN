@@ -9,7 +9,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = GRE
+		owner = TUR
 		victory_points = {
 			3401 15
 		}
@@ -19,7 +19,7 @@ state = {
 			arms_factory = 0
 			air_base = 5
 		}
-		add_core_of = GRE
+		add_core_of = TUR
 	}
 
 	provinces = {

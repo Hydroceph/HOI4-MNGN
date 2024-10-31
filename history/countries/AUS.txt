@@ -124,6 +124,9 @@ set_technology = {
 	basic_heavy_tank = 1
 }
 
+give_guarantee = SER
+give_guarantee = WAL
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_technology = {
