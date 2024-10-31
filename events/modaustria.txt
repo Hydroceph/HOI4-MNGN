@@ -9,16 +9,15 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = modaustria.1.a
+		name = modaustria.1.a # france lets Austria invade
 		ai_chance = { 
 			base = 50
 		}
-		AUS = { declare_war_on = {target = RSM}}
-		AUS = {news_event = { days = 1 id = modnews.1 }}
+		AUS = {country_event = { days = 1 id = modfrance.2 }}
 	}
 
 	option = {
-		name = modaustria.1.b
+		name = modaustria.1.b # France says no to austrian invasion
 		ai_chance = { 
 			base = 50
 		}

@@ -38,3 +38,25 @@ country_event = {
 		FRA = {news_event = { days = 1 id = modnews.3 }}
 	}
 }
+
+country_event = {
+	id = modfrance.2
+	title = modfrance.2.t
+	desc = modfrance.2.d
+	picture = GFX_report_event_generic_italian_celebration
+
+	is_triggered_only = yes
+	
+	option = {
+		name = modfrance.2.a
+		ai_chance = { 
+			base = 80
+		}
+		declare_war_on = {
+			target = RSM
+			type = take_state
+			generator = { 137 143 }
+		}
+		AUS = {news_event = { days = 1 id = modnews.1 }}
+	}
+}
