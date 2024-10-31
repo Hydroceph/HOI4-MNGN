@@ -26,26 +26,8 @@ recruit_character = POR_218104648
 if = {
 	limit = { has_dlc = "La Resistance" }
 }
-
-SPR = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = POR
-			autonomous_state = autonomy_integrated_puppet
-		}
-	}
-	else = {
-		set_autonomy = {
-			target = POR
-			autonomous_state = autonomy_puppet
-		}
-	}
-}
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1934.8.5"
 	election_frequency = 48
 	elections_allowed = yes

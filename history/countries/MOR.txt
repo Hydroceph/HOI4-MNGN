@@ -29,21 +29,6 @@ if = {
 	}
 }
 
-SPR = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = MOR
-			autonomous_state = autonomy_puppet
-			freedom_level = 0.4
-		}
-	}
-	else = {
-		puppet = MOR
-	}
-}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.1.1"
