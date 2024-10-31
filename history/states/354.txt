@@ -18,6 +18,9 @@ state = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
+			671 = {
+				bunker = 6
+			}
 		}
 		add_core_of = AUS
 	}

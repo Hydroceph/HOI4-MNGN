@@ -18,6 +18,12 @@ state = {
 			11735 = {
 				naval_base = 8
 			}
+			11595 = {
+				bunker = 6
+			}
+			6626 = {
+				bunker = 6
+			}
 		}
 		add_core_of = AUS
 	}
