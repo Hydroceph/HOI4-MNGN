@@ -27,17 +27,33 @@ if = {
 	limit = { has_dlc = "La Resistance" }
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1934.8.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+SPR = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = POR
+			autonomous_state = autonomy_puppet
+			freedom_level = 0.4
+		}
+	}
+	else = {
+		puppet = POR
+	}
+}
+
 set_popularities = {
-	communism = 0
+	communism = 43
 	democratic = 25
 	fascism = 32
-	neutrality = 43
+	neutrality = 0
 }
 
 add_ideas = {

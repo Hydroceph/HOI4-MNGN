@@ -7,7 +7,7 @@ state = {
 		tungsten = 15
 	}
 
-	state_category = town
+	state_category = city
 
 	history = {
 		owner = AUS

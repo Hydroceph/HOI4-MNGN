@@ -6,7 +6,7 @@ state = {
 		steel = 47
 	}
 
-	state_category = city
+	state_category = large_city
 
 	history = {
 		owner = AUS
@@ -15,7 +15,7 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 6
 			arms_factory = 1
 			air_base = 2
 		}

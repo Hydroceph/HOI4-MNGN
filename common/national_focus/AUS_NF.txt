@@ -164,19 +164,19 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			68 = {add_core_of = AUS}
-			70 = {add_core_of = AUS}
-			63 = {add_core_of = AUS}
-			83 = {add_core_of = AUS}
-			65 = {add_core_of = AUS}
-			51 = {add_core_of = AUS}
+			35 = {add_core_of = AUS}
+			115 = {add_core_of = AUS}
+			75 = {add_core_of = AUS}
+			244 = {add_core_of = AUS}
+			354 = {add_core_of = AUS}
+			436 = {add_core_of = AUS}
+			126 = {add_core_of = AUS}
 			356 = {add_core_of = AUS}
-			172 = {add_core_of = AUS}
-			135 = {add_core_of = AUS}
-			96 = {add_core_of = AUS}
-			118 = {add_core_of = AUS}
-			150 = {add_core_of = AUS}
-			285 = {add_core_of = AUS}
+			152 = {add_core_of = AUS}
+			737 = {add_core_of = AUS}
+			156 = {add_core_of = AUS}
+			641 = {add_core_of = AUS}
+			70 = {add_core_of = AUS}
 		}
 	}
 
@@ -224,6 +224,12 @@ focus_tree = {
 					52 62 63 83 65 51 96 150 356 172 135 118 68 70 285
 				}
 				set_cosmetic_tag = AHU
+				every_owned_state = {
+					limit = {
+						is_core_of = HUN
+					}
+					add_core_of = PREV
+				}
 			}
 		}
 	}
@@ -272,7 +278,21 @@ focus_tree = {
 					35 115 75 354 244 641 156 436 126 152 356 353 344 131 392 113
 				}
 				set_cosmetic_tag = AUS
+				every_owned_state = {
+					limit = {
+						is_core_of = AUS
+					}
+					remove_core_of = AUS
+				}
 			}
+			every_owned_state = {
+				limit = {
+					is_core_of = HUN
+				}
+				add_core_of = AUS
+			}
+			52 = {add_core_of = AUS}
+			62 = {add_core_of = AUS}
 		}
 	}
 
