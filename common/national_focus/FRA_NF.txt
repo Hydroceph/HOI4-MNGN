@@ -417,6 +417,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
+			RSM = {
+				every_core_state = {
+					add_core_of = FRA
+				}
+			}
 			338 = {add_core_of = FRA}
 			262 = {add_core_of = FRA}
 			206 = {add_core_of = FRA}

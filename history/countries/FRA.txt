@@ -111,7 +111,6 @@ add_to_faction = FRA
 add_to_faction = BRA
 add_to_faction = MEX
 add_to_faction = CAN
-add_to_faction = POR
 add_to_faction = Z04
 add_to_faction = Z13
 
