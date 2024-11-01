@@ -607,3 +607,35 @@ news_event = {
 		name = modnews.a
 	}
 }
+
+news_event = {
+	id = modnews.39 # Austria withdraws, Germany adds San Marco
+	title = modnews.39.t
+	desc = modnews.39.d
+
+	picture = GFX_news_event_ITA_grand_council
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}
+
+news_event = {
+	id = modnews.40 # Austria withdraws, Germany ignores San Marco
+	title = modnews.40.t
+	desc = modnews.40.d
+
+	picture = GFX_news_event_ITA_grand_council
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = modnews.a
+	}
+}

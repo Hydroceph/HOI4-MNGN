@@ -119,6 +119,7 @@ country_event = {
 		GER = {add_to_faction = RSM}
 		GER = {add_stability = -0.15}
 		GER = {add_war_support = -0.15}
+		GER = {news_event = { days = 1 id = modnews.39 }}
 	}
 
 	option = {
@@ -126,6 +127,7 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		add_political_power = 100
+		add_political_power = 150
+		GER = {news_event = { days = 1 id = modnews.40 }}
 	}
 }
