@@ -486,6 +486,7 @@ shared_focus = {
         add_tech_bonus = {
             name = nuclear_bonus
             ahead_reduction = 3
+            uses = 3
             category = nuclear
         }
     }
@@ -1035,6 +1036,10 @@ shared_focus = {
     y = 1
     relative_position_id = mod_civ_effort_three
     cost = 10
+
+    ai_will_do = {
+        factor = 120
+    }
 
     search_filters = { FOCUS_FILTER_RESEARCH } 
     

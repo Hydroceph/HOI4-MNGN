@@ -27,6 +27,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -44,6 +48,10 @@ focus_tree = {
 		relative_position_id = GER_policy
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_policy }
 		mutually_exclusive = { focus = GER_quality }
@@ -68,6 +76,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = GER_policy }
 		mutually_exclusive = { focus = GER_quantity }
 
@@ -90,6 +102,10 @@ focus_tree = {
 		relative_position_id = GER_policy
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_policy }
 		mutually_exclusive = { focus = GER_abroad }
@@ -114,6 +130,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = GER_policy }
 		mutually_exclusive = { focus = GER_home }
 
@@ -136,6 +156,10 @@ focus_tree = {
 		relative_position_id = GER_quality
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_quantity focus = GER_quality }
 		prerequisite = { focus = GER_home focus = GER_abroad }
@@ -180,6 +204,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = GER_quantity focus = GER_quality }
 		prerequisite = { focus = GER_home focus = GER_abroad }
 		mutually_exclusive = { focus = GER_democracy }
@@ -223,6 +251,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = GER_democracy focus = GER_neutrality }
 
 		cancel_if_invalid = yes
@@ -245,6 +277,10 @@ focus_tree = {
 		relative_position_id = GER_domestic_bliss
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_domestic_bliss }
 
@@ -269,6 +305,10 @@ focus_tree = {
 		relative_position_id = GER_great_game
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_great_game }
 		mutually_exclusive = { focus = GER_canada_no }
@@ -300,6 +340,10 @@ focus_tree = {
 		relative_position_id = GER_great_game
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = GER_great_game }
 		mutually_exclusive = { focus = GER_canada_yes }
@@ -403,6 +447,10 @@ focus_tree = {
 		relative_position_id = GER_canada_yes
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_canada_yes focus = GER_canada_no }
 		mutually_exclusive = { focus = GER_china_no }
@@ -547,6 +595,10 @@ focus_tree = {
 		relative_position_id = GER_canada_no
 		cost = 5
 
+		ai_will_do = {
+			factor = 120
+		}
+
 		prerequisite = { focus = GER_canada_yes focus = GER_canada_no }
 		mutually_exclusive = { focus = GER_china_yes }
 
@@ -620,6 +672,10 @@ focus_tree = {
 		relative_position_id = GER_china_yes
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_china_yes focus = GER_china_no }
 		mutually_exclusive = { focus = GER_america_no }
@@ -762,6 +818,10 @@ focus_tree = {
 		relative_position_id = GER_china_no
 		cost = 5
 
+		ai_will_do = {
+			factor = 120
+		}
+
 		prerequisite = { focus = GER_china_yes focus = GER_china_no }
 		mutually_exclusive = { focus = GER_america_yes }
 
@@ -837,6 +897,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = GER_great_game }
 
 		cancel_if_invalid = yes
@@ -856,6 +920,10 @@ focus_tree = {
 		relative_position_id = GER_haiti_friend
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = {focus = GER_haiti_friend }
 
@@ -877,6 +945,10 @@ focus_tree = {
 		relative_position_id = GER_asia_friend
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = GER_asia_friend }
 
@@ -902,6 +974,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = GER_domestic_bliss	}
 
 		cancel_if_invalid = yes
@@ -924,6 +1000,10 @@ focus_tree = {
 		relative_position_id = GER_india
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		prerequisite = { focus = GER_india	}
 
@@ -949,6 +1029,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		prerequisite = { focus = GER_india	}
 
 		cancel_if_invalid = yes
@@ -968,6 +1052,10 @@ focus_tree = {
 		relative_position_id = GER_india
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		prerequisite = { focus = GER_india	}
 		mutually_exclusive = { focus = GER_austria_enemy }
@@ -994,6 +1082,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		available = {
 			NOT = {is_in_faction_with = AUS}
 		}
@@ -1018,6 +1110,10 @@ focus_tree = {
 		relative_position_id = GER_india
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		prerequisite = { focus = GER_india	}
 
@@ -1046,6 +1142,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		prerequisite = { focus = GER_domestic_bliss	}
 
 		cancel_if_invalid = yes
@@ -1067,6 +1167,10 @@ focus_tree = {
 		relative_position_id = GER_decrypt
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		prerequisite = { focus = GER_decrypt }
 
@@ -1100,6 +1204,10 @@ focus_tree = {
 		relative_position_id = GER_decrypt
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		prerequisite = { focus = GER_decrypt }
 

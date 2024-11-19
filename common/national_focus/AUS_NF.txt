@@ -28,6 +28,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -45,6 +49,10 @@ focus_tree = {
 		relative_position_id = AUS_hungarian_question
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 140
+		}
 
 		prerequisite = { focus = AUS_hungarian_question }
 		mutually_exclusive = { focus = AUS_fascism_focus }
@@ -81,6 +89,10 @@ focus_tree = {
 		relative_position_id = AUS_hungarian_question
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = AUS_hungarian_question }
 		mutually_exclusive = { focus = AUS_neutrality_focus }
@@ -189,6 +201,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = AUS_neutrality_focus }
 
 		cancel_if_invalid = yes
@@ -242,6 +258,10 @@ focus_tree = {
 		relative_position_id = AUS_fascism_focus
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = AUS_fascism_focus }
 
@@ -384,6 +404,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 120
+		}
+
 		prerequisite = { focus = AUS_neutrality_focus }
 
 		cancel_if_invalid = yes
@@ -427,6 +451,10 @@ focus_tree = {
 		relative_position_id = AUS_fascism_focus
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = AUS_fascism_focus }
 

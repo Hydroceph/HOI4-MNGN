@@ -29,6 +29,10 @@ focus_tree = {
 
 		mutually_exclusive = { focus = SOV_civil_war_two }
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -120,7 +124,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_civil_war_one }
 
 		ai_will_do = {
-			factor = 80
+			factor = 160
 		}
 
 		cancel_if_invalid = yes
@@ -218,7 +222,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 80
+			factor = 160
 		}
 
 		cancel_if_invalid = yes
@@ -243,7 +247,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 80
+			factor = 120
 		}
 
 		prerequisite = { focus = SOV_civil_war_three }
@@ -292,7 +296,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 80
+			factor = 120
 		}
 
 		prerequisite = { focus = SOV_navy_one }
@@ -353,6 +357,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = SOV_civil_war_three }
 
 		cancel_if_invalid = yes
@@ -397,6 +405,10 @@ focus_tree = {
 		relative_position_id = SOV_civ_one
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = SOV_civ_one }
 
@@ -447,6 +459,10 @@ focus_tree = {
 		relative_position_id = SOV_civ_two
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = SOV_civ_two }
 
@@ -506,6 +522,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = SOV_civil_war_three }
 
 		cancel_if_invalid = yes
@@ -550,6 +570,10 @@ focus_tree = {
 		relative_position_id = SOV_mil_one
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = SOV_mil_one }
 
@@ -600,6 +624,10 @@ focus_tree = {
 		relative_position_id = SOV_mil_two
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = SOV_mil_two }
 
@@ -660,7 +688,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 80
+			factor = 120
 		}
 
 		prerequisite = { focus = SOV_civil_war_three }
@@ -684,7 +712,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 80
+			factor = 120
 		}
 
 		prerequisite = { focus = SOV_warm }
@@ -706,6 +734,10 @@ focus_tree = {
 		relative_position_id = SOV_civ_three
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = SOV_civ_three }
 		prerequisite = { focus = SOV_mil_three }
@@ -751,6 +783,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = SOV_civ_three }
 		prerequisite = { focus = SOV_mil_three }
 
@@ -782,6 +818,10 @@ focus_tree = {
 		relative_position_id = SOV_civ_three
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = SOV_civ_three }
 		prerequisite = { focus = SOV_mil_three }
@@ -827,6 +867,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = SOV_retake }
 
 		cancel_if_invalid = yes
@@ -849,6 +893,10 @@ focus_tree = {
 		relative_position_id = SOV_cores
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = SOV_cores }
 
@@ -875,6 +923,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = SOV_cores }
 
 		cancel_if_invalid = yes
@@ -895,6 +947,10 @@ focus_tree = {
 		relative_position_id = SOV_poland
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = SOV_poland focus = SOV_crimea }
 

@@ -13,7 +13,11 @@ country_event = {
 		ai_chance = { 
 			base = 50
 		}
-		FRA = { declare_war_on = {target = TUR}}
+		declare_war_on = {
+			target = TUR
+			type = take_state
+			generator = { 558 482 }
+		}
 		TUR = {news_event = { days = 1 id = modnews.4 }}
 	}
 

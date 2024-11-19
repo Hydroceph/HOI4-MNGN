@@ -27,6 +27,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		mutually_exclusive = { focus = ENG_syndicalist }
 
 		cancel_if_invalid = yes
@@ -85,6 +89,10 @@ focus_tree = {
 		relative_position_id = ENG_maoism
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		mutually_exclusive = { focus = ENG_maoism }
 
@@ -145,6 +153,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = ENG_syndicalist focus = ENG_maoism }
 
 		available = {
@@ -177,6 +189,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = ENG_civil_war }
 
 		cancel_if_invalid = yes
@@ -198,6 +214,10 @@ focus_tree = {
 		relative_position_id = ENG_germany
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_germany }
 
@@ -221,6 +241,10 @@ focus_tree = {
 		relative_position_id = ENG_militia_one
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_militia_one }
 
@@ -247,6 +271,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = ENG_germany }
 
 		cancel_if_invalid = yes
@@ -269,6 +297,10 @@ focus_tree = {
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = ENG_coup }
 
 		cancel_if_invalid = yes
@@ -288,6 +320,10 @@ focus_tree = {
 		relative_position_id = ENG_civil_war
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = ENG_civil_war }
 
@@ -351,6 +387,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 120
+		}
+
 		prerequisite = { focus = ENG_navy_one }
 
 		cancel_if_invalid = yes
@@ -409,6 +449,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = ENG_civil_war }
 
 		cancel_if_invalid = yes
@@ -428,6 +472,10 @@ focus_tree = {
 		relative_position_id = ENG_empire
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_empire }
 		mutually_exclusive = { focus = ENG_zulu_kill }
@@ -480,6 +528,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_empire
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_empire }
 		mutually_exclusive = { focus = ENG_zulu_friend }
@@ -550,6 +602,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = ENG_zulu_friend focus = ENG_zulu_kill }
 		mutually_exclusive = { focus = ENG_rwanda_kill }
 
@@ -598,6 +654,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_zulu_kill
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_zulu_friend focus = ENG_zulu_kill }
 		mutually_exclusive = { focus = ENG_rwanda_friend }
@@ -663,7 +723,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_russia
 
-		cost = 10
+		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_russia focus = ENG_militia_two }
 		prerequisite = { focus = ENG_rwanda_friend focus = ENG_rwanda_kill }
@@ -673,7 +737,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			ENG = { add_to_faction = AST }
 			AST = {
 				start_civil_war = {
 					ruling_party = communism
@@ -681,6 +744,7 @@ focus_tree = {
 					size = 0.4
 				}
 			}
+			ENG = { add_to_faction = AST }
 			ENG = {news_event = { days = 1 id = modnews.35 }}
 		}
 	}
@@ -692,7 +756,11 @@ focus_tree = {
 		y = 0
 		relative_position_id = ENG_auz
 
-		cost = 10
+		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_russia focus = ENG_militia_two }
 		prerequisite = { focus = ENG_rwanda_friend focus = ENG_rwanda_kill }
@@ -703,7 +771,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = { 
-			ENG = { add_to_faction = RAJ }
 			RAJ = {
 				start_civil_war = {
 					ruling_party = communism
@@ -711,6 +778,7 @@ focus_tree = {
 					size = 0.4
 				}
 			}
+			ENG = { add_to_faction = RAJ }
 			ENG = {news_event = { days = 1 id = modnews.36 }}
 		}
 	}
@@ -723,6 +791,10 @@ focus_tree = {
 		relative_position_id = ENG_raj
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = ENG_raj }
 		prerequisite = { focus = ENG_auz }
@@ -751,6 +823,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		prerequisite = { focus = ENG_communism }
 
 		cancel_if_invalid = yes
@@ -777,6 +853,10 @@ focus_tree = {
 			}
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
 
 		prerequisite = { focus = ENG_communism }
 

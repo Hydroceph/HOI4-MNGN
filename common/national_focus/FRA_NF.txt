@@ -27,6 +27,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -45,6 +49,10 @@ focus_tree = {
 		relative_position_id = FRA_deal_with_red_scare_one
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 120
+		}
 
 		prerequisite = { focus = FRA_deal_with_red_scare_one }
 
@@ -69,6 +77,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 100
+		}
+
 		prerequisite = { focus = FRA_deal_with_red_scare_one }
 
 		cancel_if_invalid = yes
@@ -91,6 +103,10 @@ focus_tree = {
 		relative_position_id = FRA_puppet_sardinia
 
 		cost = 5
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = FRA_puppet_sardinia focus = FRA_puppet_spain }
 
@@ -250,6 +266,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = FRA_deal_with_red_scare_two }
 		mutually_exclusive = { focus = FRA_neutrality_focus }
 
@@ -278,6 +298,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = FRA_deal_with_red_scare_two }
 		mutually_exclusive = { focus = FRA_fascism_focus }
 
@@ -305,6 +329,10 @@ focus_tree = {
 		relative_position_id = FRA_fascism_focus
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = FRA_fascism_focus }
 
@@ -339,6 +367,10 @@ focus_tree = {
 		relative_position_id = FRA_neutrality_focus
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = FRA_neutrality_focus }
 
@@ -379,6 +411,10 @@ focus_tree = {
 
 		cost = 10
 
+		ai_will_do = {
+			factor = 160
+		}
+
 		prerequisite = { focus = FRA_change_leader_one focus = FRA_change_leader_two }
 
 		cancel_if_invalid = yes
@@ -405,6 +441,10 @@ focus_tree = {
 		relative_position_id = FRA_change_leader_two
 
 		cost = 10
+
+		ai_will_do = {
+			factor = 160
+		}
 
 		prerequisite = { focus = FRA_change_leader_two focus = FRA_change_leader_one }
 
